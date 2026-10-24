@@ -1,0 +1,3915 @@
+{
+  "industry": "tech",
+  "valueChain": {
+    "summary": "Software companies spend heavily up front to build a product and win each customer, then earn high gross margins (often 70-85%) on subscriptions that renew year after year. Profit therefore depends less on the first sale than on how cheaply customers are acquired and how long they stay and expand.",
+    "stages": [
+      {
+        "id": "s1",
+        "name": "Cloud infrastructure and third-party inputs",
+        "activities": [
+          "Renting compute, storage and networking from cloud providers",
+          "Licensing components: databases, messaging, maps, payments and AI model APIs",
+          "Security operations and data hosting in required regions"
+        ],
+        "players": [
+          "Hyperscale cloud providers",
+          "AI model providers",
+          "API and component vendors (payments, SMS/WhatsApp, maps)",
+          "Indian data centre operators"
+        ],
+        "revenueDrivers": [
+          "Usage-based billing for compute, storage and data transfer",
+          "Per-call or per-token API fees",
+          "Multi-year committed-spend contracts"
+        ],
+        "costDrivers": [
+          "Servers and GPUs (capex)",
+          "Power and cooling",
+          "Network capacity"
+        ],
+        "kpis": [
+          {
+            "name": "Hosting and API cost as % of revenue (for the software buyer)",
+            "formula": "(cloud bill + third-party API fees) / revenue",
+            "benchmark": "~6-12% for mature B2B SaaS; 20%+ for AI-heavy products (approximate)"
+          },
+          {
+            "name": "Average compute utilisation",
+            "formula": "compute used / compute provisioned",
+            "benchmark": "40-60% is efficient; many firms run at 20-30% (approximate)"
+          }
+        ],
+        "marginNote": "High for scaled hyperscalers (operating margins roughly 20-40% depending on the provider, approximate); thin for resellers of cloud capacity."
+      },
+      {
+        "id": "s2",
+        "name": "Product development and packaging",
+        "activities": [
+          "Product management and roadmap",
+          "Engineering, testing and security certification (SOC 2, ISO 27001)",
+          "Packaging features into plans, tiers and usage limits"
+        ],
+        "players": [
+          "SaaS vendors' in-house R&D teams",
+          "Offshore engineering centres and outsourced product engineering firms",
+          "Open-source communities"
+        ],
+        "revenueDrivers": [
+          "Features that justify higher tiers",
+          "New modules for cross-sell"
+        ],
+        "costDrivers": [
+          "Engineer salaries (the largest item)",
+          "Development tools and test environments",
+          "Security audits and certifications"
+        ],
+        "kpis": [
+          {
+            "name": "R&D as % of revenue",
+            "formula": "R&D expense / revenue",
+            "benchmark": "About 20-30% for growth-stage SaaS; about 15-25% at scale (approximate)"
+          },
+          {
+            "name": "Feature adoption",
+            "formula": "active users of a feature / total active users",
+            "benchmark": "Varies widely by feature with no single standard; low adoption six months after launch is a prompt to review whether the feature is worth maintaining"
+          }
+        ],
+        "marginNote": "Pure cost centre, but it is what makes 70-85% gross margins possible: a feature built once is sold to every customer."
+      },
+      {
+        "id": "s3",
+        "name": "Marketing and demand generation",
+        "activities": [
+          "Content, search and paid advertising",
+          "Events, webinars, free trials and freemium plans",
+          "Lead scoring and handover to sales"
+        ],
+        "players": [
+          "In-house marketing teams",
+          "Ad platforms, app stores and cloud marketplaces",
+          "Software review and comparison sites"
+        ],
+        "revenueDrivers": [
+          "Qualified pipeline created for sales",
+          "Self-serve sign-ups that convert to paid"
+        ],
+        "costDrivers": [
+          "Paid media",
+          "Content and events",
+          "Marketing staff and tools"
+        ],
+        "kpis": [
+          {
+            "name": "Pipeline coverage",
+            "formula": "open qualified pipeline / new ARR target for the period",
+            "benchmark": "About 3-4x for B2B sales-led companies (approximate)"
+          },
+          {
+            "name": "Freemium conversion",
+            "formula": "paying accounts / total free sign-ups",
+            "benchmark": "About 2-5% for freemium products (approximate)"
+          }
+        ],
+        "marginNote": "Cost centre; together with sales, typically 30-50% of revenue at growth stage."
+      },
+      {
+        "id": "s4",
+        "name": "Sales and channel partners",
+        "activities": [
+          "Discovery, demos and proposals",
+          "Negotiation, discounting and contracting",
+          "Selling through resellers, system integrators and marketplaces"
+        ],
+        "players": [
+          "Inside and field sales teams",
+          "Resellers and system integrators",
+          "Cloud marketplaces",
+          "CA and accountant partners (Indian SMB software)"
+        ],
+        "revenueDrivers": [
+          "New-customer ARR",
+          "Contract length and upfront billing terms",
+          "Discount level"
+        ],
+        "costDrivers": [
+          "Sales salaries and commissions",
+          "Partner margins (commonly 20-30% for partners who carry the sale; approximate)",
+          "Pre-sales engineers"
+        ],
+        "kpis": [
+          {
+            "name": "CAC payback",
+            "formula": "CAC / (monthly revenue per customer x gross margin)",
+            "benchmark": "Under about 12 months for SMB; about 12-24 months for mid-market and enterprise (approximate)"
+          },
+          {
+            "name": "Win rate",
+            "formula": "deals won / (deals won + deals lost), qualified opportunities only",
+            "benchmark": "About 20-30% for B2B SaaS (approximate)"
+          }
+        ],
+        "marginNote": "Cost centre and usually the largest expense in a growing SaaS company; it pays off only if customers stay long enough to repay acquisition cost."
+      },
+      {
+        "id": "s5",
+        "name": "Onboarding and implementation",
+        "activities": [
+          "Data migration and configuration",
+          "Integration with customer systems (ERP, payroll, banks)",
+          "User training"
+        ],
+        "players": [
+          "Vendor professional services teams",
+          "System integrators and implementation partners"
+        ],
+        "revenueDrivers": [
+          "One-time implementation fees",
+          "Paid training"
+        ],
+        "costDrivers": [
+          "Consultant time",
+          "Custom integration work",
+          "Delays caused by poor customer data"
+        ],
+        "kpis": [
+          {
+            "name": "Activation rate",
+            "formula": "new customers reaching a usage milestone within 30-60 days / new customers",
+            "benchmark": "60-80% for healthy B2B products (approximate)"
+          },
+          {
+            "name": "Services gross margin",
+            "formula": "(services revenue - services delivery cost) / services revenue",
+            "benchmark": "About 0-30% (approximate); often run near breakeven to speed adoption"
+          }
+        ],
+        "marginNote": "Thin or negative; vendors treat it as an investment in retention rather than a profit centre."
+      },
+      {
+        "id": "s6",
+        "name": "Customer success, support and renewal",
+        "activities": [
+          "Support tickets and help centre",
+          "Customer success reviews and adoption programmes",
+          "Renewals, upsell and cross-sell"
+        ],
+        "players": [
+          "Vendor support and customer success teams",
+          "Outsourced support centres (often in India and the Philippines)",
+          "Account managers"
+        ],
+        "revenueDrivers": [
+          "Renewal ARR",
+          "Expansion: seats, higher tiers, add-ons",
+          "Price increases at renewal"
+        ],
+        "costDrivers": [
+          "Support agents",
+          "Customer success managers",
+          "Support tooling"
+        ],
+        "kpis": [
+          {
+            "name": "Net revenue retention (NRR)",
+            "formula": "(opening ARR - churn - contraction + expansion) / opening ARR, same customers",
+            "benchmark": "About 100-120% for strong mid-market B2B; 90-100% for SMB-focused products (approximate)"
+          },
+          {
+            "name": "Gross revenue retention (GRR)",
+            "formula": "(opening ARR - churn - contraction) / opening ARR",
+            "benchmark": "About 85-95% for B2B SaaS (approximate)"
+          }
+        ],
+        "marginNote": "Where profit is realised: renewing and expanding an existing customer costs a fraction of winning a new one, so mature customer cohorts carry most of the margin."
+      }
+    ],
+    "profitPools": "Profit concentrates in two places. Scaled infrastructure owners (hyperscalers, model providers) earn on every workload regardless of which application wins. Application vendors earn on their renewing base: a new customer usually loses money in year one because acquisition cost exceeds first-year gross profit, and profit comes from customers who renew and expand in years two to five. Implementation and support are run close to cost because they protect renewals.",
+    "unitEconomics": {
+      "unit": "per mid-market customer, year one (Indian vendor, approximate)",
+      "lines": [
+        {
+          "item": "Annual subscription (ARR)",
+          "value": "₹12.0 lakh"
+        },
+        {
+          "item": "Hosting and third-party APIs (12% of ARR)",
+          "value": "-₹1.44 lakh"
+        },
+        {
+          "item": "Support and customer success (8% of ARR)",
+          "value": "-₹0.96 lakh"
+        },
+        {
+          "item": "Recurring gross profit (80%)",
+          "value": "₹9.60 lakh"
+        },
+        {
+          "item": "One-time onboarding cost, net of fees",
+          "value": "-₹0.60 lakh"
+        },
+        {
+          "item": "Customer acquisition cost (sales and marketing)",
+          "value": "-₹15.0 lakh"
+        }
+      ],
+      "result": "Year-one contribution ≈ -₹6.0 lakh per customer. At ₹9.6 lakh of recurring gross profit a year the customer repays acquisition and onboarding in about 19.5 months, so retention beyond year two decides whether the customer is profitable."
+    },
+    "india": "India plays two roles: a lower-cost engineering and support base for software sold to US and European buyers (most Indian SaaS revenue is export), and a domestic market of crores of small businesses where willingness to pay is low and CA and reseller channels matter. Regulation shapes delivery: the DPDP Act 2023 governs personal data, RBI requires payment data to be stored in India and, for card and UPI AutoPay mandates, one-time additional authentication at set-up plus a pre-debit notice before each charge, CERT-In requires cyber incidents to be reported within 6 hours, and software subscriptions attract 18% GST.",
+    "workedExample": {
+      "problem": "CAC payback lengthened from 14 to 22 months even though marketing's cost per lead fell 30%.",
+      "trace": [
+        "Split CAC into marketing cost per new customer and sales cost per new customer: both rose, so the problem is not one budget line.",
+        "s3 Marketing: cost per lead fell from ₹4,000 to ₹2,800 after a shift to cheap content and social campaigns, so lead volume looked healthy.",
+        "s4 Sales: lead-to-customer conversion fell from 4% to 2%, so marketing cost per new customer rose from ₹1.0 lakh to ₹1.4 lakh, and reps spent twice the hours per won deal sifting poor leads.",
+        "Root cause sits in s3: campaigns were optimised for cost per lead, attracting students and very small firms outside the target profile."
+      ],
+      "lesson": "Measure each stage on the cost of the outcome that pays (a retained customer), not on its own cheapest intermediate metric."
+    }
+  },
+  "cases": [
+    {
+      "id": "tech-c01",
+      "title": "HR software profits vanish despite growth",
+      "industry": "tech",
+      "framework": "profitability",
+      "secondary": [],
+      "difficulty": "Beginner",
+      "region": "India",
+      "prompt": "Our client is an Indian HR and payroll software company selling to small and mid-sized businesses. Revenue grew 33% last year, from ₹90 crore to ₹120 crore, but EBITDA swung from a profit of ₹8 crore to a loss of ₹12 crore. Why has profitability collapsed, and what should they do?",
+      "clarifyingFacts": [
+        "Q: What has happened to costs? A: Sales and marketing rose from ₹30 crore to ₹65 crore after a push into tier-2 cities with field sales teams. Cost of revenue stayed at about 25% of revenue, R&D grew about 15% to roughly ₹28 crore, and G&A rose about ₹4 crore with new tier-2 offices.",
+        "Q: How has the customer base moved? A: Customers went from 7,000 to 9,500. Annual churn rose from 12% to 20%, mostly among customers acquired in the last 12 months. The year before, customers grew from 5,600 to 7,000.",
+        "Q: Have prices changed? A: List prices are unchanged, but the average discount on new deals rose from 10% to 25%.",
+        "Q: Objective? A: Return to EBITDA breakeven within 18 months without stopping growth."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Why did EBITDA swing from +₹8 crore to -₹12 crore with 33% revenue growth?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Revenue (₹90 crore to ₹120 crore)",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Paying customers (7,000 to 9,500)",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Opening base of 7,000 customers"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "New customers added (~3,900)"
+                  },
+                  {
+                    "id": "a1z",
+                    "label": "Customers lost (~1,400; churn up from 12% to 20%)"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Revenue per customer (~₹1.45 lakh a year)",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Employees (seats) billed per customer"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Price per seat after discount (discounts 10% to 25%)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Costs (₹82 crore to ₹132 crore)",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Cost of revenue: hosting, payroll processing, support (~25%)"
+              },
+              {
+                "id": "b2",
+                "label": "Sales and marketing (₹30 crore to ₹65 crore)",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Number of new customers acquired"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Cost per new customer (tier-2 field sales)"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "R&D (up ~15% to ~₹28 crore)"
+              },
+              {
+                "id": "b4",
+                "label": "G&A, including new tier-2 offices"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "The tier-2 field sales push more than doubled sales and marketing and raised cost per new customer from ~₹1.45 lakh to ~₹1.67 lakh, more than a full year of revenue from that customer.",
+        "Customers won in tier-2 cities at 25% discounts churn much faster than the core base, so much of the extra spend buys customers who leave before repaying their acquisition cost."
+      ],
+      "hints": [
+        "Use the profit equation, then break each side into a volume driver and a rate driver.",
+        "L1: Revenue (₹90 crore to ₹120 crore) and Costs (₹82 crore to ₹132 crore).",
+        "Revenue: paying customers (opening base, new customers added, customers lost) and revenue per customer (seats billed x price per seat after discount)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Customer acquisition cost (CAC)",
+          "formula": "sales and marketing spend / new customers acquired (₹65 crore / ~3,900 ≈ ₹1.67 lakh)"
+        },
+        {
+          "name": "CAC payback (months)",
+          "formula": "CAC / (monthly revenue per customer x gross margin) ≈ ₹1.67 lakh / (₹12,100 x 75%) ≈ 18 months"
+        },
+        {
+          "name": "Annual logo churn",
+          "formula": "customers lost in the year / customers at start of year"
+        }
+      ],
+      "commonMistakes": [
+        "Recommending a flat cut to sales and marketing without checking whether the new tier-2 customers repay their acquisition cost over their lifetime.",
+        "Reading 33% revenue growth as healthy and missing that it hides rising churn and deeper discounting."
+      ],
+      "frameworkPick": {
+        "options": [
+          "profitability",
+          "growth",
+          "pricing",
+          "turnaround"
+        ],
+        "correct": [
+          "profitability"
+        ],
+        "why": "The question asks why profit fell while revenue grew, which is a revenue-versus-cost diagnosis of the P&L.",
+        "distractorWhyNot": {
+          "growth": "Revenue is already growing 33%; the problem is the cost of that growth, not a lack of it.",
+          "pricing": "Deeper discounting is one possible cause inside the revenue branch, not the whole question.",
+          "turnaround": "EBITDA is negative but there is no cash crisis or deadline forcing a rescue; the first task is finding which P&L lines moved and why."
+        }
+      }
+    },
+    {
+      "id": "tech-c02",
+      "title": "Sizing India's SMB accounting software market",
+      "industry": "tech",
+      "framework": "market-sizing",
+      "secondary": [],
+      "difficulty": "Beginner",
+      "region": "India",
+      "prompt": "A software company is deciding whether Indian small businesses are a big enough market to justify a dedicated accounting product team. How big is the annual market for accounting and GST billing software among GST-registered businesses in India?",
+      "clarifyingFacts": [
+        "Q: What exactly are we sizing? A: Annual subscription or licence spend on accounting and GST billing software, desktop or cloud. Full ERP suites are out of scope.",
+        "Q: Which businesses count? A: Only GST-registered businesses. For this case assume about 1.44 crore active registrations of regular and composition taxpayers (a working figure; the official count is somewhat higher and rising).",
+        "Q: Is there a split by size? A: Assume roughly 1.2 crore have turnover under ₹1 crore, 20 lakh between ₹1 crore and ₹10 crore, and 4 lakh above ₹10 crore.",
+        "Q: Any regulatory push? A: GST e-invoicing is mandatory for B2B invoices of businesses with aggregate turnover above ₹5 crore, which makes software close to essential for them."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Annual spend on accounting and GST software across ~1.44 crore GST registrants",
+        "children": [
+          {
+            "id": "a",
+            "label": "Turnover under ₹1 crore",
+            "children": [
+              {
+                "id": "a1",
+                "label": "~1.2 crore businesses"
+              },
+              {
+                "id": "a2",
+                "label": "Share paying for software (~20%; many rely on a CA or free apps)"
+              },
+              {
+                "id": "a3",
+                "label": "Spend per paying business (~₹4,000 a year)"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Turnover ₹1-10 crore",
+            "children": [
+              {
+                "id": "b1",
+                "label": "~20 lakh businesses"
+              },
+              {
+                "id": "b2",
+                "label": "Share paying (~50%; e-invoicing above ₹5 crore)"
+              },
+              {
+                "id": "b3",
+                "label": "Spend per paying business (~₹15,000; multi-user)"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Turnover above ₹10 crore",
+            "children": [
+              {
+                "id": "c1",
+                "label": "~4 lakh businesses"
+              },
+              {
+                "id": "c2",
+                "label": "Share paying for this category (~80%; rest on full ERP)"
+              },
+              {
+                "id": "c3",
+                "label": "Spend per paying business (~₹60,000)"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Businesses above ₹1 crore turnover are under 20% of registrants but nearly 80% of market value (~₹3,400 crore of ~₹4,400 crore).",
+        "E-invoicing pushes paid adoption in the ₹1-10 crore band to around half, far above the micro band where free tools and CAs dominate."
+      ],
+      "hints": [
+        "Use a demand-side, bottom-up build (count buyers, then what each spends), segmented on the variable that most changes need and willingness to pay.",
+        "L1: turnover under ₹1 crore, ₹1-10 crore, and above ₹10 crore.",
+        "₹1-10 crore band: ~20 lakh businesses x ~50% paying x ~₹15,000 a year ≈ ₹1,500 crore."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Market size",
+          "formula": "sum over turnover bands of (businesses x share paying x annual spend per paying business) ≈ ₹960 + ₹1,500 + ₹1,920 crore ≈ ₹4,400 crore"
+        },
+        {
+          "name": "Paid penetration",
+          "formula": "paying businesses / registered businesses"
+        }
+      ],
+      "commonMistakes": [
+        "Starting from the total MSME count, which is several times larger and dominated by unregistered micro units that will never buy software.",
+        "Double counting by including small businesses whose books are kept by a CA and also counting the CA's own software licence for the same client."
+      ],
+      "frameworkPick": {
+        "options": [
+          "market-sizing",
+          "market-entry",
+          "segmentation",
+          "product-launch"
+        ],
+        "correct": [
+          "market-sizing"
+        ],
+        "why": "The client needs a number for the size of a market before deciding on a team, so this is an estimation question.",
+        "distractorWhyNot": {
+          "market-entry": "The interviewer asked for a market size, not a go or no-go decision on entering the market.",
+          "segmentation": "Splitting by turnover is a tool inside the estimate, not the question being asked.",
+          "product-launch": "The product team decision is the context; the question asked is only how big the market is."
+        }
+      }
+    },
+    {
+      "id": "tech-c03",
+      "title": "Raising an email tool's Starter price",
+      "industry": "tech",
+      "framework": "pricing",
+      "secondary": [],
+      "difficulty": "Beginner",
+      "region": "Global",
+      "prompt": "Our client is a European email-marketing software company for small businesses. It has 40,000 customers on its Starter plan at €20 a month and is considering raising the price to €25. Should it?",
+      "clarifyingFacts": [
+        "Q: What is the objective? A: Raise revenue and profit this year without slowing customer growth much.",
+        "Q: What does a Starter customer cost to serve? A: About €4 a month for hosting, email delivery and support.",
+        "Q: How do competitors price? A: Comparable plans range from €15 to €30. The client added marketing automation and SMS to Starter in the last two years.",
+        "Q: Churn and acquisition? A: Monthly churn is 2.5% and about 1,200 new Starter customers join each month. Roughly 30% of the base are light users sending under 1,000 emails a month."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Will moving Starter from €20 to €25 a month raise monthly profit?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Gain: extra €5 a month from customers who stay",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Customers retained after the change"
+              },
+              {
+                "id": "a2",
+                "label": "Uplift actually charged (after grandfathering or discounts)"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Loss: extra churn among existing customers",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Light users (few sends, no automation)"
+              },
+              {
+                "id": "b2",
+                "label": "Regular and heavy users (automation, SMS, integrations)"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Loss: fewer new customers",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Fewer trial sign-ups at the higher list price"
+              },
+              {
+                "id": "c2",
+                "label": "Lower trial-to-paid conversion"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Contribution per customer rises from €16 to €21, so the client could lose up to ~24% of Starter customers before profit falls; realistic losses look far smaller.",
+        "Light users (~30% of the base) account for most extra churn; even if a fifth of them leave, the base shrinks by only ~6%."
+      ],
+      "hints": [
+        "Split the profit impact of the price change into what is gained and what is lost, and think about who is affected now and who is affected later.",
+        "L1: gain from customers who stay; loss from extra churn of existing customers; loss from fewer new customers.",
+        "Loss from fewer new customers: fewer trial sign-ups at the higher list price, and lower trial-to-paid conversion."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Contribution per customer",
+          "formula": "monthly price - monthly cost to serve (€20 - €4 = €16; €25 - €4 = €21)"
+        },
+        {
+          "name": "Breakeven customer loss",
+          "formula": "1 - (old contribution / new contribution) = 1 - 16/21 ≈ 24%"
+        }
+      ],
+      "commonMistakes": [
+        "Comparing only with competitor list prices and ignoring the value customers now get from automation and SMS.",
+        "Checking churn of existing customers but forgetting the effect of the higher price on new sign-ups and conversion."
+      ],
+      "frameworkPick": {
+        "options": [
+          "pricing",
+          "profitability",
+          "competitive-response",
+          "segmentation"
+        ],
+        "correct": [
+          "pricing"
+        ],
+        "why": "It is a forward-looking decision about one price point, weighing extra revenue per customer against lost volume.",
+        "distractorWhyNot": {
+          "profitability": "Nothing has gone wrong in the P&L that needs diagnosing; the question is a price decision.",
+          "competitive-response": "No competitor has moved; competitor prices are an input, not the trigger.",
+          "segmentation": "Separating light and heavy users is a tool for judging churn risk inside the price decision, not the question asked."
+        }
+      }
+    },
+    {
+      "id": "tech-c04",
+      "title": "Doubling a restaurant software company's revenue",
+      "industry": "tech",
+      "framework": "growth",
+      "secondary": [],
+      "difficulty": "Beginner",
+      "region": "India",
+      "prompt": "Our client sells billing and point-of-sale software to restaurants in India. It serves 15,000 outlets and earns ₹45 crore a year. The founders want to double revenue to ₹90 crore in three years. How can they get there?",
+      "clarifyingFacts": [
+        "Q: Where does it operate? A: Eight metro cities; about 85% of customers are single-outlet restaurants.",
+        "Q: What do outlets pay? A: About ₹30,000 a year on average, mostly for core billing. Only 20% also take the inventory module.",
+        "Q: How sticky are customers? A: About 18% of outlets leave each year; roughly two-thirds of those are restaurants that shut down.",
+        "Q: Any payments revenue? A: The POS can route card payments through a partner that shares about 0.2% of card value with the client. Outlets average ₹15 lakh of monthly sales, about 30% on cards; UPI payments earn the client nothing under this partner deal."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "How can revenue grow from ₹45 crore to ₹90 crore in three years?",
+        "children": [
+          {
+            "id": "a",
+            "label": "More paying outlets (15,000 today)",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Win new outlets organically",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Deeper penetration in the current eight metros"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Expansion into tier-2 cities"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Acquire smaller regional POS vendors' customer bases"
+              },
+              {
+                "id": "a3",
+                "label": "Lose fewer outlets (18% a year)",
+                "children": [
+                  {
+                    "id": "a3x",
+                    "label": "Restaurant closures (~two-thirds of losses)"
+                  },
+                  {
+                    "id": "a3y",
+                    "label": "Switches to competitors (~one-third)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "More revenue per outlet (₹30,000 a year today)",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Attach add-ons: inventory, loyalty, aggregator integration"
+              },
+              {
+                "id": "b2",
+                "label": "Raise the core subscription price"
+              },
+              {
+                "id": "b3",
+                "label": "Earn a share of card payments through the POS"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "A 0.2% share on ~₹4.5 lakh of monthly card sales adds ~₹10,800 a year per outlet, over a third of today's revenue per outlet.",
+        "Raising inventory attach from 20% to 50% at ~₹8,000 a year adds only ~₹3.6 crore, so add-ons alone cannot close a ₹45 crore gap.",
+        "Because most churn is closures, retention work can add little; most of the gap must come from new outlets plus payments revenue."
+      ],
+      "hints": [
+        "Write revenue as a volume x rate equation and look for levers on each factor, sizing each against the ₹45 crore gap.",
+        "L1: more paying outlets; more revenue per outlet.",
+        "More paying outlets: win new outlets organically (deeper in the eight metros, tier-2 expansion), acquire smaller vendors' customer bases, and lose fewer outlets (closures vs switches to competitors)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Revenue",
+          "formula": "paying outlets x annual revenue per outlet (one route: 22,500 x ₹40,000 = ₹90 crore)"
+        },
+        {
+          "name": "Net outlet additions",
+          "formula": "new outlets won - outlets lost"
+        }
+      ],
+      "commonMistakes": [
+        "Listing growth ideas without sizing which ones can close a ₹45 crore gap.",
+        "Assuming churn can be cut sharply when most of it comes from restaurants closing, which software cannot prevent."
+      ],
+      "frameworkPick": {
+        "options": [
+          "growth",
+          "market-entry",
+          "product-launch",
+          "profitability"
+        ],
+        "correct": [
+          "growth"
+        ],
+        "why": "The client has a revenue target and needs to find and size the levers to reach it.",
+        "distractorWhyNot": {
+          "market-entry": "Tier-2 cities are one lever inside the plan, not the whole question.",
+          "product-launch": "No single new product is being evaluated; add-ons are one of several levers.",
+          "profitability": "Nothing suggests profit is falling; the target is revenue growth."
+        }
+      }
+    },
+    {
+      "id": "tech-c05",
+      "title": "US security software entering India",
+      "industry": "tech",
+      "framework": "market-entry",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "India",
+      "prompt": "Our client is a US identity and access management (IAM) software company with $300 million ARR. It already runs a 300-person R&D centre in Bengaluru and is considering entering India to sell to banks, insurers and other large enterprises, targeting $30 million ARR from India within five years. Should it enter, and if so, how?",
+      "clarifyingFacts": [
+        "Q: Who are the target customers? A: About 1,500 Indian enterprises with over 1,000 employees, of which roughly 400 are banks, NBFCs and insurers.",
+        "Q: What do deals look like? A: Comparable enterprise IAM deals in India run $60,000 to $150,000 ARR. Indian vendors price 30-40% below global vendors.",
+        "Q: Where is the product hosted? A: Only in US and EU cloud regions. Regulated Indian financial firms generally expect data hosted in India and audit access for regulators such as RBI and IRDAI.",
+        "Q: Constraints? A: The board will fund up to $25 million over three years and has not ruled out partnering or acquiring."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Should the client enter Indian enterprise IAM, and how, targeting $30m ARR?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Market attractiveness",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Number of target enterprises",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Banks, NBFCs and insurers (~400)"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Other large enterprises (~1,100)"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Annual IAM spend per enterprise",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Annual contract value ($60k-150k ARR)"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Share buying cloud rather than on-premise IAM"
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Regulation shaping purchases",
+                "children": [
+                  {
+                    "id": "a3x",
+                    "label": "Sector regulators on data location and audit (RBI, SEBI, IRDAI)"
+                  },
+                  {
+                    "id": "a3y",
+                    "label": "DPDP Act obligations on personal data"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Competitive landscape",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Global vendors already in India",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Their share of target accounts"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Their local teams and partners"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Indian vendors",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Prices 30-40% below global vendors"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Strength in on-premise bank deployments"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Client's ability to win",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Product fit",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "India-hosted data region"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Hybrid and on-premise deployment options"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Go-to-market capability",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "Direct enterprise sales team"
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "System integrator and reseller partners"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Entry mode and economics",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Entry mode",
+                "children": [
+                  {
+                    "id": "d1x",
+                    "label": "Build a direct presence"
+                  },
+                  {
+                    "id": "d1y",
+                    "label": "Partner-led through Indian integrators"
+                  },
+                  {
+                    "id": "d1z",
+                    "label": "Acquire a local vendor"
+                  }
+                ]
+              },
+              {
+                "id": "d2",
+                "label": "Payback",
+                "children": [
+                  {
+                    "id": "d2x",
+                    "label": "Investment in team and India region"
+                  },
+                  {
+                    "id": "d2y",
+                    "label": "ARR ramp towards $30m"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "At ~$80,000 average ARR, $30 million needs ~375 customers, a quarter of the ~1,500 target enterprises, which is unrealistic in five years for a new direct entrant.",
+        "Without an India-hosted region and regulator audit rights, the ~400 BFSI accounts are effectively closed, removing over a quarter of the market."
+      ],
+      "hints": [
+        "Use the standard entry logic, moving from the market to the client and then to the route in and its cost.",
+        "L1: market attractiveness; competitive landscape; client's ability to win; entry mode and economics.",
+        "Competitive landscape: global vendors already in India (their share of target accounts, their local teams and partners) and Indian vendors (30-40% cheaper, strong in on-premise bank deployments)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Customers needed",
+          "formula": "target ARR / average ARR per customer ($30m / ~$80k ≈ 375)"
+        },
+        {
+          "name": "Implied share of target accounts",
+          "formula": "customers needed / target enterprises (375 / 1,500 = 25%)"
+        },
+        {
+          "name": "Payback on entry investment",
+          "formula": "cumulative investment / annual contribution from India customers"
+        }
+      ],
+      "commonMistakes": [
+        "Treating the Bengaluru R&D centre as a reason to enter: it lowers engineering cost but says nothing about Indian demand, data-hosting requirements or the ability to win deals.",
+        "Treating data residency as a detail rather than a precondition for selling to regulated financial firms."
+      ],
+      "frameworkPick": {
+        "options": [
+          "market-entry",
+          "market-sizing",
+          "growth",
+          "ma"
+        ],
+        "correct": [
+          "market-entry"
+        ],
+        "why": "The client is asking whether and how to enter a new geography, which needs market attractiveness, ability to win and entry mode together.",
+        "distractorWhyNot": {
+          "market-sizing": "Market size is one input, but the question is a go or no-go and how-to decision.",
+          "growth": "India is one specific growth option being evaluated, not a search for growth levers in general.",
+          "ma": "Acquiring a local vendor is one possible entry mode, not the question itself."
+        }
+      }
+    },
+    {
+      "id": "tech-c06",
+      "title": "Payroll software support costs out of control",
+      "industry": "tech",
+      "framework": "operations",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "Global",
+      "prompt": "Our client, a UK-based HR and payroll software company with £90 million revenue, has seen support costs rise from 8% to 13% of revenue in two years. Ticket volume is up 70% while customers grew 25%, and median first response time has doubled to 10 hours. The CFO points out that a rival moved its whole support team offshore last year. How can the client bring support costs below 9% of revenue without hurting customer satisfaction?",
+      "clarifyingFacts": [
+        "Q: How is support set up? A: 220 agents in one generalist pool in the UK at about £45,000 fully loaded each, plus about £1.8 million of tooling: roughly £11.7 million in total.",
+        "Q: What are tickets about? A: About 40% are 'how do I' questions, 25% bugs, 20% account and access requests, 15% payroll compliance queries. Volume jumped after a payroll module release last year.",
+        "Q: What about satisfaction? A: CSAT fell from 92% to 85%; the target is to get back to about 90%.",
+        "Q: Timeline and growth? A: 12 to 18 months; revenue is expected to grow about 15% a year."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "How can support cost fall below 9% of revenue, CSAT ~90%?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Fewer tickets (tickets per customer up ~35%)",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Prevent tickets at source",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Bugs and confusing screens in the new payroll module"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Onboarding gaps for new customers"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Deflect to self-serve",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Help centre and in-app guides"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Chatbot for routine requests (password resets, payslips)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Lower cost of handling tickets",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Resolve faster",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Average handling time per ticket"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Re-opened and escalated tickets"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Cheaper agent hours",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Tiering: tier-1 agents vs payroll specialists"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Location: UK vs nearshore or offshore centres"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Support tooling (~£1.8 million a year)"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Offset cost with paid support",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Premium support tier for enterprise clients"
+              },
+              {
+                "id": "c2",
+                "label": "Charges for out-of-scope requests such as custom reports"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Around 40% of tickets are 'how do I' questions, mostly about the new payroll module; better in-app guidance could deflect half of them and cut volume ~20%.",
+        "One generalist UK pool means expensive agents handle password resets; tiering plus a lower-cost tier-1 centre could cut cost per ticket by 30-40%."
+      ],
+      "hints": [
+        "Write support cost as a volume x unit cost equation, and remember the target is a ratio with revenue below it.",
+        "L1: fewer tickets; lower cost of handling tickets; offset cost with paid support.",
+        "Lower cost of handling tickets: resolve faster (handling time, re-opened and escalated tickets), cheaper agent hours (tiering, location) and support tooling."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Support cost as % of revenue",
+          "formula": "(tickets x cost per ticket + tooling) / revenue"
+        },
+        {
+          "name": "Tickets per customer per month",
+          "formula": "tickets in month / active customers"
+        },
+        {
+          "name": "Self-serve deflection rate",
+          "formula": "issues resolved by self-serve / (self-serve resolutions + tickets raised)"
+        }
+      ],
+      "commonMistakes": [
+        "Jumping to offshoring agents before asking why tickets per customer rose 35%.",
+        "Cutting cost per ticket in ways that lengthen response times further, ignoring the CSAT constraint in the question."
+      ],
+      "frameworkPick": {
+        "options": [
+          "operations",
+          "profitability",
+          "turnaround",
+          "pricing"
+        ],
+        "correct": [
+          "operations"
+        ],
+        "why": "The problem is already isolated to one cost line, so the task is to run the support process with less volume and lower unit cost.",
+        "distractorWhyNot": {
+          "profitability": "There is no need for a full P&L diagnosis; the cost line in trouble is already known.",
+          "turnaround": "The company is not in crisis or short of cash; one function needs fixing.",
+          "pricing": "Charging for premium support is one lever, but the core problem is ticket volume and cost per ticket, which pricing does not address."
+        }
+      }
+    },
+    {
+      "id": "tech-c07",
+      "title": "Desktop accounting vendor launching cloud",
+      "industry": "tech",
+      "framework": "product-launch",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "India",
+      "prompt": "Our client is an Indian accounting software vendor with about 3 lakh small-business customers on desktop licences and ₹160 crore of revenue. Cloud rivals are winning customers, and CAs increasingly want clients' books online. Should the client launch a cloud subscription at ₹9,000 a year, and how should it roll it out?",
+      "clarifyingFacts": [
+        "Q: How does revenue split? A: About 40,000 new licences a year at ~₹18,000 (₹72 crore) and about 2.2 lakh annual renewals at ₹4,000 (₹88 crore).",
+        "Q: What is happening to the base? A: Renewal churn has risen from 20% to 27% in two years, mostly to cloud accounting rivals.",
+        "Q: How is it sold? A: About 60% of new licences come through ~8,000 reseller and CA partners who earn 25-30% upfront commission.",
+        "Q: What would it take to build? A: About 18 months and ₹40 crore to reach feature parity, including GST and e-invoicing."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Should the client launch a ₹9,000-a-year cloud product, and how should it roll out?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Customer demand",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Existing desktop customers (~3 lakh)",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Will move to cloud within two years (to us or a rival)"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Content to stay on desktop"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "New customers",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "First-time buyers digitising for GST and e-invoicing"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Switchers from other cloud tools"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Financial impact over five years",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Incremental revenue",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Customers who would never have bought desktop"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Customers kept who would have churned to rivals"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Migration of existing revenue",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Buyers choosing cloud over a desktop licence (cash timing)"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "₹4,000 renewals converted to ₹9,000 subscriptions"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Costs",
+                "children": [
+                  {
+                    "id": "b3x",
+                    "label": "₹40 crore build over 18 months"
+                  },
+                  {
+                    "id": "b3y",
+                    "label": "Hosting and support per cloud customer"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Ability to execute",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Product readiness",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Parity on GST, e-invoicing and inventory"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Tool to migrate existing company files"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Channel",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "Partner commission moved from upfront to recurring"
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "Direct online sign-up"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Not launching is not safe: each extra point of renewal churn costs ~₹1.2 crore a year, and churn is already up 7 points (~₹8.4 crore).",
+        "Over three years a new customer pays about the same either way (₹26,000 desktop vs ₹27,000 cloud), so cannibalisation is mainly a cash-timing dip, not lost value.",
+        "Partners paid upfront commission will resist cloud unless they receive a recurring share of subscriptions."
+      ],
+      "hints": [
+        "Test the launch as you would any new product, but measure its value against a do-nothing baseline that is already deteriorating, not against today's revenue.",
+        "L1: customer demand; financial impact over five years; ability to execute.",
+        "Ability to execute: product readiness (GST, e-invoicing and inventory parity; a tool to migrate company files) and channel (partner commission moved from upfront to recurring; direct online sign-up)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "3-year revenue per new customer",
+          "formula": "desktop = licence + 2 x renewal (₹18,000 + ₹8,000); cloud = 3 x ₹9,000"
+        },
+        {
+          "name": "Net revenue impact",
+          "formula": "incremental revenue + revenue retained from would-be churners - revenue lost to migration"
+        }
+      ],
+      "commonMistakes": [
+        "Counting every cloud sale as new revenue, ignoring buyers who would have bought a desktop licence anyway.",
+        "Ignoring the partner channel, which sells 60% of licences and is paid in a way that cloud subscriptions break."
+      ],
+      "frameworkPick": {
+        "options": [
+          "product-launch",
+          "pricing",
+          "market-entry",
+          "competitive-response"
+        ],
+        "correct": [
+          "product-launch"
+        ],
+        "why": "The client is deciding whether and how to launch a specific new product into its existing market, including cannibalisation of its current one.",
+        "distractorWhyNot": {
+          "pricing": "The ₹9,000 price is given; the question is whether and how to launch.",
+          "market-entry": "The client already serves these customers in India; it is a new product, not a new market.",
+          "competitive-response": "Cloud rivals are the backdrop, but the decision is whether and how to launch one product, including what it does to the existing desktop base."
+        }
+      }
+    },
+    {
+      "id": "tech-c08",
+      "title": "Whiteboard software versus a free bundle",
+      "industry": "tech",
+      "framework": "competitive-response",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "Global",
+      "prompt": "Our client is a US-listed online whiteboard software company with $400 million ARR, 70% of it from companies with over 1,000 employees. A large productivity-suite vendor has started including a comparable whiteboard free in its suite, and in two quarters the client's net new ARR has fallen 40%. How should the client respond?",
+      "clarifyingFacts": [
+        "Q: Where is ARR being lost? A: Win rate in deals where the suite tool is evaluated fell from 30% to 20%. Gross revenue retention fell from 93% to 89%, mostly from seat cuts rather than cancellations.",
+        "Q: How does the free tool compare? A: It is good for basic boards and sharing and is managed through the suite's admin and security controls. It is weaker on templates, facilitation features and integrations with engineering and design tools.",
+        "Q: Who uses the client's product? A: About 60% of seats are light users opening fewer than two boards a month; product, engineering and design teams are heavy users.",
+        "Q: Objective? A: Keep ARR growth above 20%, down from 28% last year."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "How to respond to a free bundled rival and keep ARR growth above 20%?",
+        "children": [
+          {
+            "id": "a",
+            "label": "ARR at risk",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Existing customers at renewal",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Light-use seats IT may cut (~60% of seats)"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Heavy-use seats in product, engineering, design"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "New business",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Deals where the suite tool is evaluated (win rate 30% to 20%)"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Deals where the suite tool is not in contention"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "How the bundled tool compares",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Where it is good enough",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Basic boards and sharing"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Single admin and security through the suite"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Where the client stays ahead",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Templates and facilitation features"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Integrations with engineering and design tools"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Response options",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Price and packaging",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Low-cost tier or flexible seats for light users"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Multi-year renewal discounts for heavy-use accounts"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Product",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "Invest further in power-user features"
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "Integrate with the suite rather than fight it"
+                  }
+                ]
+              },
+              {
+                "id": "c3",
+                "label": "Go-to-market focus",
+                "children": [
+                  {
+                    "id": "c3x",
+                    "label": "Sell to product, engineering and design departments"
+                  },
+                  {
+                    "id": "c3y",
+                    "label": "Prioritise companies not on that suite"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Most of the 4-point GRR drop (~$16 million ARR) is IT consolidating light-use seats while heavy-use departments renew, so the client should concede light seats and price and sell for depth.",
+        "Matching 'free' with steep discounts would cut ARR across all seats without stopping IT-led consolidation of basic use."
+      ],
+      "hints": [
+        "Size the threat before choosing a response, and judge the rival product by what each type of user needs.",
+        "L1: ARR at risk; how the bundled tool compares; response options.",
+        "How the bundled tool compares: where it is good enough (basic boards and sharing, single admin and security through the suite) and where the client stays ahead (templates and facilitation, engineering and design integrations)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Gross revenue retention",
+          "formula": "(opening ARR - churned ARR - downsell ARR) / opening ARR"
+        },
+        {
+          "name": "Competitive win rate",
+          "formula": "deals won / (deals won + deals lost) where the suite tool was evaluated"
+        },
+        {
+          "name": "ARR at risk",
+          "formula": "light-use seats x average price per seat"
+        }
+      ],
+      "commonMistakes": [
+        "Cutting price to match free before working out which seats are actually at risk.",
+        "Treating the bundle as a short-term promotion; once IT gets basic boards free in the suite, the shift is permanent."
+      ],
+      "frameworkPick": {
+        "options": [
+          "competitive-response",
+          "pricing",
+          "growth",
+          "product-launch"
+        ],
+        "correct": [
+          "competitive-response"
+        ],
+        "why": "A specific competitor move has hit the client's ARR, and the question is how to respond to it.",
+        "distractorWhyNot": {
+          "pricing": "Price is one response option, but the case is driven by the competitor's move and needs a full set of options.",
+          "growth": "The trigger is a threat to existing growth, not a search for new growth levers.",
+          "product-launch": "No new product is being evaluated; product investment is only one response."
+        }
+      }
+    },
+    {
+      "id": "tech-c09",
+      "title": "Which customers should a CRM focus on",
+      "industry": "tech",
+      "framework": "segmentation",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "India",
+      "prompt": "Our client, an Indian sales CRM company with ₹150 crore ARR and 12,000 customers, sells to everyone from 5-seat micro businesses to 2,000-seat enterprises. Growth has slowed from 35% to 15%, and the CEO wants to concentrate sales and product resources on one or two segments. Which should it prioritise?",
+      "clarifyingFacts": [
+        "Q: How does the base split? A: Micro (under 10 seats): 7,000 customers, ₹25 crore ARR. SMB (10-100 seats): 4,000, ₹60 crore. Mid-market (100-500 seats): 800, ₹45 crore. Enterprise (500+ seats): 200, ₹20 crore.",
+        "Q: Retention and acquisition by segment? A: Annual logo churn is 30%, 15%, 8% and 5% respectively. CAC payback is 8, 14, 16 and 30 months. NRR is highest in mid-market at 115%.",
+        "Q: Competition? A: Global CRM suites dominate enterprise; free and low-cost local tools dominate micro.",
+        "Q: Product? A: Enterprise deals need heavy customisation, which takes about 30% of engineering time."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Which one or two customer segments should the CRM prioritise to restart growth?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Market attractiveness of each segment",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Potential customers in India",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Businesses in the segment"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Share not yet using any CRM"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Expected growth",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Digitisation of sales teams in the segment"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Trend in budget per seat"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Customer economics in each segment",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Revenue per customer",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Starting ARR"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Expansion over time (NRR)"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Cost to win and keep",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "CAC payback"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Annual logo churn"
+                  },
+                  {
+                    "id": "b2z",
+                    "label": "Customisation and support effort"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Client's ability to win",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Product fit",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Features the segment needs vs current product"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Sales motion needed: self-serve, inside or field sales"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Competition",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "Global CRM suites"
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "Free and low-cost local tools"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Mid-market is the strongest focus: 30% of ARR from under 7% of customers, 115% NRR and only 8% churn.",
+        "Micro looks cheap to acquire (8-month payback), but at 30% churn the average customer stays about three years and pays only ~₹36,000 a year, with free tools capping price.",
+        "Enterprise (13% of ARR) absorbs ~30% of engineering for 30-month paybacks; deprioritising it frees capacity for mid-market features."
+      ],
+      "hints": [
+        "Compare every segment on one common set of criteria, keeping market-level measures apart from customer-level ones.",
+        "L1: market attractiveness; customer economics; client's ability to win.",
+        "Client's ability to win: product fit (features needed vs current product, sales motion needed) and competition (global CRM suites, free and low-cost local tools)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Customer lifetime value (LTV)",
+          "formula": "annual ARR per customer x gross margin / annual logo churn"
+        },
+        {
+          "name": "LTV / CAC",
+          "formula": "lifetime value / customer acquisition cost, by segment"
+        },
+        {
+          "name": "ARR share vs customer share",
+          "formula": "segment ARR / total ARR compared with segment customers / total customers"
+        }
+      ],
+      "commonMistakes": [
+        "Choosing the segment with the most customers (micro) or the most prestige (enterprise) without looking at churn, NRR and payback.",
+        "Ignoring that each segment needs a different sales motion and product, which is why focus matters."
+      ],
+      "frameworkPick": {
+        "options": [
+          "segmentation",
+          "growth",
+          "market-sizing",
+          "profitability"
+        ],
+        "correct": [
+          "segmentation"
+        ],
+        "why": "The CEO is asking which customer groups to focus on, which means comparing segments on attractiveness and right to win.",
+        "distractorWhyNot": {
+          "growth": "Growth is the goal, but the specific question is which customer group to concentrate on.",
+          "market-sizing": "Segment size is one input; the decision also needs customer economics and ability to win.",
+          "profitability": "Profit has not fallen; the issue is where to focus resources."
+        }
+      }
+    },
+    {
+      "id": "tech-c10",
+      "title": "PE stake in pharmacy software company",
+      "industry": "tech",
+      "framework": "pe-dd",
+      "secondary": [
+        "market-sizing"
+      ],
+      "difficulty": "Advanced",
+      "region": "India",
+      "prompt": "Our client, a private equity fund, is considering buying 60% of an Indian company that sells billing and inventory software to retail pharmacies. ARR grew 40% last year to ₹60 crore and reported net revenue retention is 112%. The seller wants a valuation of 12x ARR, or ₹720 crore for the whole company. Should the fund invest?",
+      "clarifyingFacts": [
+        "Q: What drove last year's growth? A: ARR rose from ₹43 crore to ₹60 crore. A 20% list price increase was applied to all customers at the start of the year.",
+        "Q: What about churn? A: Logo churn rose from 10% to 17%. ARR lost to cancellations and downgrades was 16% of opening ARR.",
+        "Q: How big is the customer pool? A: Take about 9 lakh retail pharmacies as a working estimate (industry figures vary), mostly single stores. Assume about 45% would pay for billing software. The company has ~50,000 paying at ~₹12,000 a year.",
+        "Q: Return target? A: 3x money in five years. The fund assumes an exit at 6-8x ARR and no debt in the deal."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Can a 60% stake at 12x ARR return 3x in five years?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Market headroom",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Addressable pharmacies",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "~9 lakh retail pharmacies (single stores vs chains)"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Share willing to pay for software (~45%)"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Revenue potential per pharmacy",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Core billing and inventory (~₹12,000 a year)"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Untapped add-ons: distributor ordering, payments"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Quality of past growth (₹43 crore to ₹60 crore)",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Existing customers (reported NRR 112%)",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "One-off 20% price rise (~17 points of NRR)"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Module upsell (~11 points)"
+                  },
+                  {
+                    "id": "b1z",
+                    "label": "Cancellations and downgrades (-16 points)"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "New customers (~₹12 crore new ARR)",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Volume and source of new pharmacies"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "CAC payback on new pharmacies"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Competitive position",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Against other pharmacy billing software",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Price and features vs local desktop tools"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Switching costs (stock data, distributor links)"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Against adjacent platforms giving software free",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "B2B pharma distribution platforms"
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "E-pharmacies and other adjacent platforms"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Deal returns",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Exit value needed",
+                "children": [
+                  {
+                    "id": "d1x",
+                    "label": "3x on ₹432 crore for 60% needs ~₹2,160 crore company value"
+                  },
+                  {
+                    "id": "d1y",
+                    "label": "ARR needed at 6-8x: ₹270-360 crore"
+                  }
+                ]
+              },
+              {
+                "id": "d2",
+                "label": "Levers to close the gap",
+                "children": [
+                  {
+                    "id": "d2x",
+                    "label": "Add-ons that lift revenue per pharmacy"
+                  },
+                  {
+                    "id": "d2y",
+                    "label": "A lower entry multiple"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Stripping out the one-off price rise, underlying NRR is ~95%, and about 42% of last year's ARR growth (₹7.2 crore of ₹17 crore) will not repeat.",
+        "The core market is only ~₹490 crore of ARR (9 lakh x 45% x ₹12,000), so ₹270-360 crore of exit ARR needs roughly a 55-75% share, against ~12% today, unless add-ons raise revenue per pharmacy.",
+        "Churn rose 7 points after the price rise, so pricing power is weaker than headline NRR suggests."
+      ],
+      "hints": [
+        "Use a due-diligence lens that works back from the return the fund needs, and size the market to test whether that return is reachable.",
+        "L1: market headroom; quality of past growth; competitive position; deal returns.",
+        "Competitive position: against other pharmacy billing software (price and features vs local desktop tools, switching costs) and against adjacent platforms that give software away (B2B distribution platforms, e-pharmacies)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Net revenue retention",
+          "formula": "(opening ARR - churn - downgrades + price increases + upsell) / opening ARR = (43 - 6.9 + 7.2 + 4.8) / 43 ≈ 112%; excluding the one-off price rise ≈ 95%"
+        },
+        {
+          "name": "Core market size",
+          "formula": "pharmacies x share willing to pay x core spend = 9 lakh x 45% x ₹12,000 ≈ ₹486 crore ARR"
+        },
+        {
+          "name": "Required exit ARR",
+          "formula": "(equity invested x target multiple / stake) / exit ARR multiple = (₹432 crore x 3 / 0.6) / 6-8 ≈ ₹270-360 crore"
+        }
+      ],
+      "commonMistakes": [
+        "Taking reported NRR and 40% growth at face value without separating the one-off price effect from real expansion.",
+        "Assuming the 12x entry multiple will still apply at exit, which hides how much ARR growth the return needs."
+      ],
+      "frameworkPick": {
+        "options": [
+          "pe-dd",
+          "market-sizing",
+          "growth",
+          "ma"
+        ],
+        "correct": [
+          "pe-dd",
+          "market-sizing"
+        ],
+        "why": "A financial investor is testing whether a deal at a given price can return 3x, and the answer turns on sizing the pharmacy software market: the exit ARR the return needs is a majority share of the core market.",
+        "distractorWhyNot": {
+          "growth": "The fund is evaluating an investment, not designing a growth plan for the company.",
+          "ma": "There is no existing business to combine with and no synergies; a financial buyer's lens is market headroom, quality of earnings and returns."
+        }
+      }
+    },
+    {
+      "id": "tech-c11",
+      "title": "AI writing tool running out of cash",
+      "industry": "tech",
+      "framework": "turnaround",
+      "secondary": [
+        "pricing"
+      ],
+      "difficulty": "Advanced",
+      "region": "Global",
+      "prompt": "Our client, a US AI writing assistant for marketing teams, has $50 million ARR from 38,000 paying teams on a flat, unlimited plan. After switching to a more capable language model, gross margin fell from 72% to 41%. It burns $3.2 million a month with $30 million in the bank, and investors want a credible path to breakeven before funding again. What should it do?",
+      "clarifyingFacts": [
+        "Q: What does the cost base look like? A: Monthly revenue is about $4.17 million. Model API costs are about $2.0 million and other hosting about $0.46 million. Operating expenses are about $4.9 million: sales and marketing $2.3 million, R&D $1.9 million, G&A $0.7 million.",
+        "Q: How is usage distributed? A: The top 10% of teams generate 55% of tokens. About 60% of requests are short edits and rewrites that a cheaper model handles well.",
+        "Q: Pricing and churn? A: Average price is $110 per team per month. Monthly logo churn is 3%, highest among light users. Only 15% of teams pay annually.",
+        "Q: Timeline? A: Runway is about 9 months; the board wants monthly breakeven within 12 months, so a bridge will be needed too."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "How to reach breakeven in 12 months from $3.2m monthly burn, 9 months' cash?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Gross profit (41% margin, ~$1.7m a month)",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Paying teams (38,000)",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Churn risk from pricing changes, by usage level"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "New enterprise teams"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Revenue per team ($110 a month, flat)",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Usage tiers or credits for heavy users"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Paid premium features"
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Model and hosting cost per team",
+                "children": [
+                  {
+                    "id": "a3x",
+                    "label": "Route simple requests to cheaper models"
+                  },
+                  {
+                    "id": "a3y",
+                    "label": "Caching and shorter prompts"
+                  },
+                  {
+                    "id": "a3z",
+                    "label": "Committed-volume pricing with the model provider"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Operating expenses ($4.9m a month)",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Sales and marketing ($2.3m)",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Paid acquisition with payback over 24 months"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Sales effort on small deals"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "R&D ($1.9m)",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Projects not tied to margin or retention"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Contractors"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "G&A ($0.7m)"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Runway until breakeven",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Bring cash in earlier",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Annual prepaid plans (15% of teams today)"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Longer payment terms with suppliers"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Bridge funding",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "Insider bridge round"
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "Venture debt"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Routing ~60% of requests to a cheaper model and caching repeated prompts could cut model costs ~40% (~$0.8 million a month), lifting gross margin from 41% to ~60%.",
+        "Heavy users on flat pricing are loss-making; a usage tier adding ~$100 a month for the top 10% of teams would bring in ~$0.4 million a month with little effect on light users.",
+        "Even with margin repaired and the usage tier, a ~$2 million monthly gap remains, so operating expenses must fall about 40%, led by paid acquisition with long payback."
+      ],
+      "hints": [
+        "Work from the monthly cash equation and the deadline: what closes the burn, and what keeps the company alive until it closes.",
+        "L1: gross profit; operating expenses; runway until breakeven.",
+        "Operating expenses: sales and marketing (paid acquisition with payback over 24 months, sales effort on small deals), R&D (projects not tied to margin or retention, contractors) and G&A."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Gross margin",
+          "formula": "(revenue - model API costs - hosting) / revenue = (4.17 - 2.0 - 0.46) / 4.17 ≈ 41%"
+        },
+        {
+          "name": "Runway",
+          "formula": "cash / monthly net burn = $30m / $3.2m ≈ 9 months"
+        },
+        {
+          "name": "Model cost per team",
+          "formula": "requests per team x tokens per request x price per token"
+        }
+      ],
+      "commonMistakes": [
+        "Cutting only operating expenses when the collapse in gross margin is the core problem.",
+        "Raising prices for everyone, which drives off light users who are profitable while heavy users stay subsidised."
+      ],
+      "frameworkPick": {
+        "options": [
+          "turnaround",
+          "pricing",
+          "profitability",
+          "operations"
+        ],
+        "correct": [
+          "turnaround",
+          "pricing"
+        ],
+        "why": "The company must reach breakeven before cash runs out, which is a turnaround, and the biggest lever is repricing a flat plan that loses money on heavy users.",
+        "distractorWhyNot": {
+          "profitability": "The cause of the loss is already known (model costs on flat pricing); the question is a time-bound rescue under a cash deadline.",
+          "operations": "Model routing is one cost lever, but the problem spans pricing, cost base and funding, not one process."
+        }
+      }
+    },
+    {
+      "id": "tech-c12",
+      "title": "IT services firm buying a SaaS company",
+      "industry": "tech",
+      "framework": "ma",
+      "secondary": [
+        "growth"
+      ],
+      "difficulty": "Advanced",
+      "region": "India",
+      "prompt": "Our client, a large Indian IT services firm with $6 billion revenue (4% from software products), is considering buying a US insurance policy-administration SaaS company with $120 million ARR, growing 25%, for $1.2 billion. The CEO wants more IP-led revenue, but delivery heads worry about margin dilution, and 40% of the target's new deals come through rival IT services firms. Should the client buy it?",
+      "clarifyingFacts": [
+        "Q: What are the target's financials? A: EBITDA margin is -5%. R&D is 30% of revenue (~$36 million), mostly US-based. NRR is 108% and new ARR is about $30 million a year.",
+        "Q: What does the client bring? A: EBITDA margin of about 21% and about 60 insurance clients worldwide, a dozen of which are evaluating new policy systems.",
+        "Q: How does the channel work? A: Rival IT firms implement 40% of the target's deals and earn services revenue from them. Two have hinted they would favour competing platforms after a sale to the client.",
+        "Q: Deal terms? A: 10x ARR, all cash. The client's investors judge it on EPS growth and margin."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Should the client buy the US insurance SaaS company for $1.2 billion (10x ARR)?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Standalone value of the target",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Market and growth",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Insurers' shift from on-premise to SaaS core systems"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Target's win rate and share"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Quality of revenue and profit",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "NRR (108%) and churn"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Path from -5% EBITDA to profitability"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Synergies and dis-synergies",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Revenue synergies",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Sell to the client's ~60 insurance clients"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Client's implementation work on the target's deals"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Cost synergies",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Move R&D to India (~$14m a year)"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Shared G&A and infrastructure"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Dis-synergies",
+                "children": [
+                  {
+                    "id": "b3x",
+                    "label": "Rival IT firms stop bringing deals (40% of new ARR)"
+                  },
+                  {
+                    "id": "b3y",
+                    "label": "Loss of key product and sales leaders"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Price, alternatives and financial impact",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Price and structure",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "10x ARR against comparable SaaS deal multiples"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "All cash vs earn-out tied to ARR targets"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Alternatives to buying",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "Build an insurance platform in-house"
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "Partnership or minority stake"
+                  }
+                ]
+              },
+              {
+                "id": "c3",
+                "label": "Impact on the client's financials",
+                "children": [
+                  {
+                    "id": "c3x",
+                    "label": "EBITDA margin dilution"
+                  },
+                  {
+                    "id": "c3y",
+                    "label": "Cash used and EPS effect"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Integration and stakeholder alignment",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Operating model",
+                "children": [
+                  {
+                    "id": "d1x",
+                    "label": "Run standalone vs fold into services"
+                  },
+                  {
+                    "id": "d1y",
+                    "label": "Incentives: billable hours vs ARR"
+                  }
+                ]
+              },
+              {
+                "id": "d2",
+                "label": "Stakeholders",
+                "children": [
+                  {
+                    "id": "d2x",
+                    "label": "Delivery heads and their margin targets"
+                  },
+                  {
+                    "id": "d2y",
+                    "label": "Investors' view of the product strategy"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Margin dilution is small: combined EBITDA margin falls only from ~21% to ~20.5%, so the delivery heads' concern is not the real risk.",
+        "Losing referrals from rival IT firms could remove ~$12 million of the ~$30 million annual new ARR, cancelling much of the cross-sell upside for the first few years.",
+        "Moving R&D to India could save ~$14 million a year, taking the target's EBITDA margin from -5% to about +7%."
+      ],
+      "hints": [
+        "Use the standard acquisition logic, and test the CEO's growth goal and the delivery heads' margin worry with numbers rather than opinions.",
+        "L1: standalone value; synergies and dis-synergies; price, alternatives and financial impact; integration and stakeholder alignment.",
+        "Integration and stakeholder alignment: operating model (run standalone vs fold into services; incentives on billable hours vs ARR) and stakeholders (delivery heads' margin targets, investors' view of the product strategy)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Net synergies",
+          "formula": "revenue synergies x margin + cost synergies - dis-synergies - integration costs"
+        },
+        {
+          "name": "Value gap",
+          "formula": "(standalone value + present value of net synergies) - $1.2 billion price"
+        },
+        {
+          "name": "Combined EBITDA margin",
+          "formula": "(client EBITDA + target EBITDA) / combined revenue = ($1,260m - $6m) / $6,120m ≈ 20.5%"
+        }
+      ],
+      "commonMistakes": [
+        "Counting cross-sell to the client's insurance clients without netting off deals lost from rival IT firms who now see the target as a competitor's product.",
+        "Ignoring the incentive clash: folding a SaaS business into a services organisation paid on billable hours pushes towards customisation and slows ARR growth."
+      ],
+      "frameworkPick": {
+        "options": [
+          "ma",
+          "growth",
+          "pe-dd",
+          "market-entry"
+        ],
+        "correct": [
+          "ma",
+          "growth"
+        ],
+        "why": "It is a decision on buying one specific company at a given price, driven by the CEO's goal of building IP-led growth, so deal value and the growth thesis must both be tested.",
+        "distractorWhyNot": {
+          "pe-dd": "A financial investor's lens would miss the synergies, dis-synergies and integration issues that decide this deal.",
+          "market-entry": "Although the client moves further into products, the question is about one target and its price, not whether to enter a market."
+        }
+      }
+    }
+  ],
+  "flaws": [
+    {
+      "id": "tech-f01",
+      "title": "EBITDA fall at a SaaS firm",
+      "industry": "tech",
+      "framework": "profitability",
+      "difficulty": "Beginner",
+      "tree": {
+        "id": "r",
+        "label": "Why did a B2B SaaS company's EBITDA fall?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Revenue",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Revenue from new customers"
+              },
+              {
+                "id": "a2",
+                "label": "Revenue from existing customers"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Operating costs",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Cost of revenue (hosting, support)"
+              },
+              {
+                "id": "b2",
+                "label": "Sales and marketing"
+              },
+              {
+                "id": "b3",
+                "label": "General and administrative"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "b",
+          "type": "gap",
+          "explanation": "The cost branch leaves out research and development, which is typically 20-30% of revenue for a growing SaaS company and often its second-largest cost.",
+          "fix": "Add 'Research and development (product and engineering)' under Operating costs."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Why did a B2B SaaS company's EBITDA fall?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Revenue",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Revenue from new customers"
+              },
+              {
+                "id": "a2",
+                "label": "Revenue from existing customers"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Operating costs",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Cost of revenue (hosting, support)"
+              },
+              {
+                "id": "b2",
+                "label": "Sales and marketing"
+              },
+              {
+                "id": "b3",
+                "label": "General and administrative"
+              },
+              {
+                "id": "b4",
+                "label": "Research and development (product and engineering)"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "tech-f02",
+      "title": "Sizing team-chat users in India",
+      "industry": "tech",
+      "framework": "market-sizing",
+      "difficulty": "Beginner",
+      "tree": {
+        "id": "r",
+        "label": "How many desk-based employees in Indian companies could use a team-chat app?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Micro firms (under 10 employees)",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Number of micro firms"
+              },
+              {
+                "id": "a2",
+                "label": "Desk-based employees per micro firm"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Small firms (10-99 employees)",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Number of small firms"
+              },
+              {
+                "id": "b2",
+                "label": "Desk-based employees per small firm"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Medium firms (100-999 employees)",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Number of medium firms"
+              },
+              {
+                "id": "c2",
+                "label": "Desk-based employees per medium firm"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Large firms (1,000+ employees)",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Number of large firms"
+              },
+              {
+                "id": "d2",
+                "label": "Desk-based employees per large firm"
+              }
+            ]
+          },
+          {
+            "id": "e",
+            "label": "Start-ups (founded in the last five years)",
+            "children": [
+              {
+                "id": "e1",
+                "label": "Number of start-ups"
+              },
+              {
+                "id": "e2",
+                "label": "Desk-based employees per start-up"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "e",
+          "type": "overlap",
+          "explanation": "Every start-up also falls into one of the four size bands, so a separate start-up branch counts its employees twice. The tree mixes two bases: size and age.",
+          "fix": "Remove the start-up branch. If start-ups adopt faster, apply a higher adoption rate within each size band."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "How many desk-based employees in Indian companies could use a team-chat app?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Micro firms (under 10 employees)",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Number of micro firms"
+              },
+              {
+                "id": "a2",
+                "label": "Desk-based employees per micro firm"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Small firms (10-99 employees)",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Number of small firms"
+              },
+              {
+                "id": "b2",
+                "label": "Desk-based employees per small firm"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Medium firms (100-999 employees)",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Number of medium firms"
+              },
+              {
+                "id": "c2",
+                "label": "Desk-based employees per medium firm"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Large firms (1,000+ employees)",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Number of large firms"
+              },
+              {
+                "id": "d2",
+                "label": "Desk-based employees per large firm"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "tech-f03",
+      "title": "Net new ARR has slowed",
+      "industry": "tech",
+      "framework": "growth",
+      "difficulty": "Intermediate",
+      "tree": {
+        "id": "r",
+        "label": "Why did net new ARR fall from $40 million to $25 million?",
+        "children": [
+          {
+            "id": "a",
+            "label": "ARR from new customers",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Number of new deals won"
+              },
+              {
+                "id": "a2",
+                "label": "Average ARR per new deal"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Expansion ARR from existing customers",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Additional seats"
+              },
+              {
+                "id": "b2",
+                "label": "Upgrades and add-on modules"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "ARR lost from existing customers",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Cancelled customers (churn)"
+              },
+              {
+                "id": "c2",
+                "label": "Downgrades and seat reductions"
+              },
+              {
+                "id": "c3",
+                "label": "Price discounts granted at renewal"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Win rate on qualified opportunities"
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "d",
+          "type": "mixed-levels",
+          "explanation": "The other three L1 branches are amounts of ARR that add up to net new ARR (new + expansion - lost). Win rate is a percentage, not a source of ARR: it drives one of them, because new deals won = qualified opportunities x win rate. It belongs two levels down under 'Number of new deals won', not beside the parts of the ARR bridge.",
+          "fix": "Move win rate under 'Number of new deals won', alongside qualified opportunities in the pipeline."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Why did net new ARR fall from $40 million to $25 million?",
+        "children": [
+          {
+            "id": "a",
+            "label": "ARR from new customers",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Number of new deals won",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Qualified opportunities in the pipeline"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Win rate on qualified opportunities"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Average ARR per new deal"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Expansion ARR from existing customers",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Additional seats"
+              },
+              {
+                "id": "b2",
+                "label": "Upgrades and add-on modules"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "ARR lost from existing customers",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Cancelled customers (churn)"
+              },
+              {
+                "id": "c2",
+                "label": "Downgrades and seat reductions"
+              },
+              {
+                "id": "c3",
+                "label": "Price discounts granted at renewal"
+              }
+            ]
+          }
+        ]
+      },
+      "decoys": [
+        {
+          "nodeId": "c3",
+          "whyFine": "A lower price at renewal cuts ARR from a customer who stays, so it is genuine contraction and belongs under ARR lost, separate from downgrades and seat cuts."
+        }
+      ]
+    },
+    {
+      "id": "tech-f04",
+      "title": "Cloud bill growing faster than customers",
+      "industry": "tech",
+      "framework": "operations",
+      "difficulty": "Intermediate",
+      "tree": {
+        "id": "r",
+        "label": "Why did an Indian SaaS firm's monthly cloud bill (₹) rise 60% while customers grew 20%?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Resources consumed",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Production workloads serving customers",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Active customers"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Resources provisioned per customer"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Non-production environments (test, staging, sandboxes)"
+              },
+              {
+                "id": "a3",
+                "label": "Over-provisioned and idle capacity"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Price per unit of resource",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Provider list prices (by service, region, data transfer)"
+              },
+              {
+                "id": "b2",
+                "label": "Discounts: on-demand vs committed-use and reserved"
+              },
+              {
+                "id": "b3",
+                "label": "Rupee-dollar exchange rate (bill priced in US dollars)"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "a3",
+          "type": "overlap",
+          "explanation": "Idle and over-sized capacity is billed as part of the resources already counted, either in resources provisioned per customer or in non-production environments. It explains why those are high; it is not a separate pool of spend, so listing it counts it twice.",
+          "fix": "Remove it and treat over-provisioning as a driver inside 'Resources provisioned per customer' and 'Non-production environments'."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Why did an Indian SaaS firm's monthly cloud bill (₹) rise 60% while customers grew 20%?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Resources consumed",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Production workloads serving customers",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Active customers"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Resources provisioned per customer (incl. over-sized and idle)"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Non-production environments (incl. idle sandboxes)"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Price per unit of resource",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Provider list prices (by service, region, data transfer)"
+              },
+              {
+                "id": "b2",
+                "label": "Discounts: on-demand vs committed-use and reserved"
+              },
+              {
+                "id": "b3",
+                "label": "Rupee-dollar exchange rate (bill priced in US dollars)"
+              }
+            ]
+          }
+        ]
+      },
+      "decoys": [
+        {
+          "nodeId": "b3",
+          "whyFine": "Hyperscalers price in US dollars, so a weaker rupee raises the rupee price of every unit consumed; it is a genuine driver of price per unit for an Indian buyer."
+        }
+      ]
+    },
+    {
+      "id": "tech-f05",
+      "title": "Indian HR software entering the Gulf",
+      "industry": "tech",
+      "framework": "market-entry",
+      "difficulty": "Intermediate",
+      "tree": {
+        "id": "r",
+        "label": "Should an Indian HR and payroll SaaS enter the UAE and Saudi Arabia?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Market attractiveness",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Market size"
+              },
+              {
+                "id": "a2",
+                "label": "Market growth"
+              },
+              {
+                "id": "a3",
+                "label": "Regulatory barriers to foreign software vendors"
+              },
+              {
+                "id": "a4",
+                "label": "Expected rise in annual HR software spend by 2030"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Competition",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Large global HR software suites"
+              },
+              {
+                "id": "b2",
+                "label": "Smaller regional, local and Indian vendors"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Client's ability to win",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Product fit (Arabic interface, local payroll calculations)"
+              },
+              {
+                "id": "c2",
+                "label": "Sales and partner presence in the region"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Entry economics",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Revenue ramp (customers x ARR per customer)"
+              },
+              {
+                "id": "d2",
+                "label": "Ongoing operating costs (local team, hosting)"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "a4",
+          "type": "overlap",
+          "explanation": "The expected rise in annual HR software spend is market growth expressed in money rather than as a rate, so it repeats 'Market growth' under different wording and would be counted twice.",
+          "fix": "Delete it; express growth once, as a rate or as added spend, under Market growth."
+        },
+        {
+          "nodeId": "d",
+          "type": "gap",
+          "explanation": "Entry economics covers revenue and running costs but misses the one-off investment to enter: localisation (Arabic, WPS-compliant payroll, end-of-service gratuity), compliance and launch marketing. Without it you cannot calculate payback.",
+          "fix": "Add 'Upfront entry investment (localisation, compliance, launch)' under Entry economics."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Should an Indian HR and payroll SaaS enter the UAE and Saudi Arabia?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Market attractiveness",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Market size",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Number of target companies"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "HR software spend per company"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Market growth"
+              },
+              {
+                "id": "a3",
+                "label": "Regulatory barriers to foreign software vendors"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Competition",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Large global HR software suites"
+              },
+              {
+                "id": "b2",
+                "label": "Smaller regional, local and Indian vendors"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Client's ability to win",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Product fit (Arabic interface, local payroll calculations)"
+              },
+              {
+                "id": "c2",
+                "label": "Sales and partner presence in the region"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Entry economics",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Revenue ramp (customers x ARR per customer)"
+              },
+              {
+                "id": "d2",
+                "label": "Ongoing operating costs (local team, hosting)"
+              },
+              {
+                "id": "d3",
+                "label": "Upfront entry investment (localisation, compliance, launch)"
+              }
+            ]
+          }
+        ]
+      },
+      "decoys": [
+        {
+          "nodeId": "d1",
+          "whyFine": "Revenue ramp uses the same customers x ARR form as a market-size estimate, but it measures the client's own captured revenue over time, not the whole market."
+        }
+      ]
+    },
+    {
+      "id": "tech-f06",
+      "title": "Free cash flow falls as ARR grows",
+      "industry": "tech",
+      "framework": "pe-dd",
+      "difficulty": "Advanced",
+      "tree": {
+        "id": "r",
+        "label": "PE diligence: why did unlevered free cash flow fall from +$8m to -$5m?",
+        "children": [
+          {
+            "id": "a",
+            "label": "EBITDA",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Revenue",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Revenue from new customers"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Revenue from existing customers"
+                  },
+                  {
+                    "id": "a1z",
+                    "label": "Recurring revenue from contracts signed in prior years"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Operating costs",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Cost of revenue"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Sales and marketing"
+                  },
+                  {
+                    "id": "a2z",
+                    "label": "R&D and G&A"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Change in working capital",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Receivables (days sales outstanding)"
+              },
+              {
+                "id": "b2",
+                "label": "Payables to suppliers"
+              },
+              {
+                "id": "b3",
+                "label": "Accrued salaries and bonuses"
+              },
+              {
+                "id": "b4",
+                "label": "Prepaid expenses (annual software licences, insurance)"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Capex, taxes and other cash items",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Capital expenditure",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Capitalised software development"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Laptops and office fit-out"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Cash taxes on operating profit"
+              },
+              {
+                "id": "c3",
+                "label": "Interest paid on the acquisition loan"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "a1z",
+          "type": "overlap",
+          "explanation": "Customers whose contracts were signed in prior years are existing customers, so this node repeats 'Revenue from existing customers' under different wording and would double count it.",
+          "fix": "Remove it; revenue is fully covered by new and existing customers."
+        },
+        {
+          "nodeId": "b",
+          "type": "gap",
+          "explanation": "Working capital misses deferred revenue, the largest working-capital item in SaaS. If customers move from annual upfront billing to monthly or quarterly billing, cash collected falls sharply even though ARR keeps growing.",
+          "fix": "Add 'Deferred revenue (annual upfront vs monthly billing terms)' under Change in working capital."
+        },
+        {
+          "nodeId": "c3",
+          "type": "not-a-driver",
+          "explanation": "Unlevered free cash flow is measured before any payments to lenders or shareholders, so interest does not affect it; interest only enters levered (equity) free cash flow.",
+          "fix": "Remove it; consider debt service separately when looking at levered cash flow or covenants."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "PE diligence: why did unlevered free cash flow fall from +$8m to -$5m?",
+        "children": [
+          {
+            "id": "a",
+            "label": "EBITDA",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Revenue",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Revenue from new customers"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Revenue from existing customers"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Operating costs",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Cost of revenue"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Sales and marketing"
+                  },
+                  {
+                    "id": "a2z",
+                    "label": "R&D and G&A"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Change in working capital",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Receivables (days sales outstanding)"
+              },
+              {
+                "id": "b2",
+                "label": "Payables to suppliers"
+              },
+              {
+                "id": "b3",
+                "label": "Accrued salaries and bonuses"
+              },
+              {
+                "id": "b4",
+                "label": "Prepaid expenses (annual software licences, insurance)"
+              },
+              {
+                "id": "b5",
+                "label": "Deferred revenue (annual upfront vs monthly billing terms)"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Capex and cash taxes",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Capital expenditure",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Capitalised software development"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Laptops and office fit-out"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Cash taxes on operating profit"
+              }
+            ]
+          }
+        ]
+      },
+      "decoys": [
+        {
+          "nodeId": "c1x",
+          "whyFine": "Capitalised development is kept out of the R&D expense inside EBITDA and appears only as capex, so it is not counted twice."
+        },
+        {
+          "nodeId": "b3",
+          "whyFine": "Paying out last year's accrued bonuses uses cash without touching this year's EBITDA, so accrued salaries and bonuses are a real working-capital driver."
+        }
+      ]
+    },
+    {
+      "id": "tech-f07",
+      "title": "Lifting NRR at an SMB SaaS",
+      "industry": "tech",
+      "framework": "growth",
+      "difficulty": "Advanced",
+      "tree": {
+        "id": "r",
+        "label": "How can an Indian SMB invoicing SaaS lift NRR from 95% to 110%?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Reduce ARR lost to customers leaving",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Business closed or merged",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Seasonal and small traders shutting down"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Mergers into another business"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Customers choosing to leave",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Too little value: low product usage"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Too little value: missing features (e-invoicing, multiple GSTINs)"
+                  },
+                  {
+                    "id": "a2z",
+                    "label": "Price too high vs cheaper or free alternatives"
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Weak activation in the first 30 days"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Reduce contraction",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Downgrades to cheaper plans"
+              },
+              {
+                "id": "b2",
+                "label": "Fewer paid user seats"
+              },
+              {
+                "id": "b3",
+                "label": "Dropped add-on modules"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Increase expansion",
+            "children": [
+              {
+                "id": "c1",
+                "label": "More paid seats"
+              },
+              {
+                "id": "c2",
+                "label": "Upgrades to higher plans"
+              },
+              {
+                "id": "c3",
+                "label": "Add-on modules (payroll, payment collection)"
+              },
+              {
+                "id": "c4",
+                "label": "Price increases at renewal"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "a",
+          "type": "gap",
+          "explanation": "Customers leaving are split into closures and deliberate exits, which misses involuntary churn: customers who meant to renew but whose card or UPI AutoPay payment failed. RBI's e-mandate rules require additional authentication to set up a mandate (and again for debits above ₹15,000) and a pre-debit notice at least 24 hours before each charge, so an annual renewal has several points where it can fail without the customer deciding to leave.",
+          "fix": "Add 'Failed payments: lapsed card or UPI AutoPay mandates' under Reduce ARR lost to customers leaving."
+        },
+        {
+          "nodeId": "a3",
+          "type": "mixed-levels",
+          "explanation": "Closures and deliberate exits are reasons customers leave; weak first-30-day activation is a cause of one of them (low product usage, a2x), so it sits a level below its siblings.",
+          "fix": "Move it under 'Too little value: low product usage' as its main driver."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "How can an Indian SMB invoicing SaaS lift NRR from 95% to 110%?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Reduce ARR lost to customers leaving",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Business closed or merged",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Seasonal and small traders shutting down"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Mergers into another business"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Customers choosing to leave",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Too little value: low product usage (driven by first-30-day activation)"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Too little value: missing features (e-invoicing, multiple GSTINs)"
+                  },
+                  {
+                    "id": "a2z",
+                    "label": "Price too high vs cheaper or free alternatives"
+                  }
+                ]
+              },
+              {
+                "id": "a4",
+                "label": "Failed payments: lapsed card or UPI AutoPay mandates"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Reduce contraction",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Downgrades to cheaper plans"
+              },
+              {
+                "id": "b2",
+                "label": "Fewer paid user seats"
+              },
+              {
+                "id": "b3",
+                "label": "Dropped add-on modules"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Increase expansion",
+            "children": [
+              {
+                "id": "c1",
+                "label": "More paid seats"
+              },
+              {
+                "id": "c2",
+                "label": "Upgrades to higher plans"
+              },
+              {
+                "id": "c3",
+                "label": "Add-on modules (payroll, payment collection)"
+              },
+              {
+                "id": "c4",
+                "label": "Price increases at renewal"
+              }
+            ]
+          }
+        ]
+      },
+      "decoys": [
+        {
+          "nodeId": "b3",
+          "whyFine": "Dropped add-ons (lost ARR) and new add-ons (c3, gained ARR) look like a duplicate but are opposite movements, so both belong in the NRR tree."
+        }
+      ]
+    }
+  ],
+  "quick": [
+    {
+      "id": "tech-q01",
+      "industry": "tech",
+      "difficulty": "Beginner",
+      "question": "Which split of 'Revenue of a B2B SaaS company' is MECE?",
+      "parent": "Revenue of a B2B SaaS company",
+      "options": [
+        {
+          "split": [
+            "Subscription fees",
+            "Usage fees above plan limits",
+            "Implementation and training",
+            "Annual upfront billings"
+          ],
+          "correct": false,
+          "why": "Overlap and mixed basis: annual upfront billing is a payment term for subscription fees (and a cash measure, not revenue), so it repeats the first bucket."
+        },
+        {
+          "split": [
+            "Subscription fees",
+            "Usage fees above plan limits",
+            "Professional services",
+            "Other (partner and marketplace fees)"
+          ],
+          "correct": true,
+          "why": "Each revenue type is distinct and the defined 'Other' bucket closes the list, so every rupee or dollar lands in exactly one bucket."
+        },
+        {
+          "split": [
+            "Seat-based subscription fees",
+            "Usage fees above plan limits",
+            "Professional services",
+            "Other (partner and marketplace fees)"
+          ],
+          "correct": false,
+          "why": "Gap: subscriptions not priced per seat, such as flat platform fees or tiered plans, have no home."
+        },
+        {
+          "split": [
+            "Subscription fees",
+            "Usage fees above plan limits",
+            "Professional services",
+            "Revenue from new customers"
+          ],
+          "correct": false,
+          "why": "Overlap: new customers also pay subscriptions, usage and services, so their revenue is counted twice."
+        }
+      ]
+    },
+    {
+      "id": "tech-q02",
+      "industry": "tech",
+      "difficulty": "Beginner",
+      "question": "Which split of 'Customers at the end of the year' is MECE?",
+      "parent": "Paying customers of a freemium SaaS company at the end of the year",
+      "options": [
+        {
+          "split": [
+            "Opening paying customers",
+            "Plus customers gained",
+            "Minus customers lost",
+            "Minus customers who moved to the free plan"
+          ],
+          "correct": false,
+          "why": "Overlap: a paying customer who drops to the free plan is a lost paying customer, already inside 'customers lost'."
+        },
+        {
+          "split": [
+            "Opening paying customers",
+            "Plus free users converted to paid",
+            "Minus paying customers lost"
+          ],
+          "correct": false,
+          "why": "Gap: customers who pay without using the free plan first (direct or sales-led sign-ups) and returning customers are missing."
+        },
+        {
+          "split": [
+            "Opening paying customers",
+            "Plus customers gained",
+            "Minus customers lost",
+            "Plus customers who upgraded to a higher plan"
+          ],
+          "correct": false,
+          "why": "Not a driver: upgraders were already paying, so upgrades change revenue per customer, not the count."
+        },
+        {
+          "split": [
+            "Opening paying customers",
+            "Plus all customers starting to pay",
+            "Minus all customers stopping paying"
+          ],
+          "correct": true,
+          "why": "A complete bridge: every change in the paying count is someone starting or stopping paying, whatever the route."
+        }
+      ]
+    },
+    {
+      "id": "tech-q03",
+      "industry": "tech",
+      "difficulty": "Beginner",
+      "question": "Which split of 'Cost of revenue of a SaaS company' is MECE?",
+      "parent": "Cost of revenue (cost of goods sold) of a SaaS company",
+      "options": [
+        {
+          "split": [
+            "Hosting and infrastructure",
+            "Third-party software and API fees",
+            "Support and implementation staff",
+            "Other direct costs (payment processing)",
+            "Engineers building new features"
+          ],
+          "correct": false,
+          "why": "Not a driver: engineers building new features are R&D; only staff keeping the live service running belong in cost of revenue."
+        },
+        {
+          "split": [
+            "Hosting and infrastructure",
+            "Third-party software and API fees",
+            "Support and implementation staff",
+            "Other direct costs (payment processing)"
+          ],
+          "correct": true,
+          "why": "Covers every cost of delivering the live service once, with nothing from R&D, sales or G&A."
+        },
+        {
+          "split": [
+            "Cloud compute and storage",
+            "Third-party software and API fees",
+            "Support and implementation staff",
+            "Other direct costs (payment processing)"
+          ],
+          "correct": false,
+          "why": "Gap: network and data transfer charges, often a large share of a cloud bill, have no home."
+        },
+        {
+          "split": [
+            "Hosting and infrastructure",
+            "Third-party software and API fees",
+            "Support and implementation staff",
+            "Other direct costs (payment processing)",
+            "Data storage and backup"
+          ],
+          "correct": false,
+          "why": "Overlap: storage and backup are part of hosting and infrastructure under another name."
+        }
+      ]
+    },
+    {
+      "id": "tech-q04",
+      "industry": "tech",
+      "difficulty": "Intermediate",
+      "question": "Which split of 'Change in monthly recurring revenue (MRR)' is MECE?",
+      "parent": "Change in MRR during a month",
+      "options": [
+        {
+          "split": [
+            "New MRR",
+            "Expansion MRR",
+            "Churned MRR"
+          ],
+          "correct": false,
+          "why": "Gap: contraction (downgrades and seat cuts by customers who stay) is missing."
+        },
+        {
+          "split": [
+            "New-logo MRR",
+            "Expansion MRR",
+            "Contraction MRR",
+            "Churned MRR"
+          ],
+          "correct": false,
+          "why": "Gap: win-backs (former customers who return) are neither new logos nor existing customers."
+        },
+        {
+          "split": [
+            "New MRR (incl. win-backs)",
+            "Expansion MRR",
+            "Contraction MRR",
+            "Churned MRR",
+            "Renewal MRR"
+          ],
+          "correct": false,
+          "why": "Not a driver: a renewal at the same price leaves MRR unchanged, and any price change at renewal is already expansion or contraction."
+        },
+        {
+          "split": [
+            "New MRR (incl. win-backs)",
+            "Expansion MRR",
+            "Contraction MRR",
+            "Churned MRR"
+          ],
+          "correct": true,
+          "why": "The standard MRR bridge: customers start paying, existing customers pay more or less, or customers stop paying."
+        }
+      ]
+    },
+    {
+      "id": "tech-q05",
+      "industry": "tech",
+      "difficulty": "Intermediate",
+      "question": "Which split of 'Length of an enterprise SaaS sales cycle' is MECE?",
+      "parent": "Time from first contact to signed contract in an enterprise SaaS deal",
+      "options": [
+        {
+          "split": [
+            "Lead to qualified opportunity",
+            "Qualified opportunity to proposal",
+            "Proposal to signed contract"
+          ],
+          "correct": true,
+          "why": "Sequential stages that cover the whole cycle end to end; evaluation, security review, negotiation and legal all fall inside one of them."
+        },
+        {
+          "split": [
+            "Lead to qualified opportunity",
+            "Discovery and demos",
+            "Proposal to signed contract"
+          ],
+          "correct": false,
+          "why": "Gap: technical evaluation (proof of concept, security questionnaire) between demos and proposal is missing, often the longest step in enterprise deals."
+        },
+        {
+          "split": [
+            "Lead to qualified opportunity",
+            "Qualified opportunity to proposal",
+            "Proposal to signed contract",
+            "Security and compliance review"
+          ],
+          "correct": false,
+          "why": "Overlap: security review runs inside the evaluation and contracting stages, so its time is counted twice."
+        },
+        {
+          "split": [
+            "Lead to qualified opportunity",
+            "Qualified opportunity to proposal",
+            "Proposal to signed contract",
+            "Signed contract to go-live"
+          ],
+          "correct": false,
+          "why": "Not a driver: go-live happens after signature, outside the sales cycle being measured."
+        }
+      ]
+    },
+    {
+      "id": "tech-q06",
+      "industry": "tech",
+      "difficulty": "Intermediate",
+      "question": "Which split of 'ARR lost in gross revenue retention' is MECE?",
+      "parent": "ARR lost from a customer cohort over a year (the gap between 100% and GRR)",
+      "options": [
+        {
+          "split": [
+            "ARR lost from cancellations",
+            "ARR lost from fewer seats"
+          ],
+          "correct": false,
+          "why": "Gap: customers who keep their seats but move to a cheaper plan or drop add-ons are missing."
+        },
+        {
+          "split": [
+            "ARR lost from customers who cancelled",
+            "ARR lost from customers who stayed but paid less",
+            "ARR lost from customers moving from annual to monthly billing"
+          ],
+          "correct": false,
+          "why": "Not a driver: billing frequency changes when cash arrives, not the annualised value of the contract, so it does not move ARR."
+        },
+        {
+          "split": [
+            "ARR lost from customers who cancelled",
+            "ARR lost from customers who stayed but paid less"
+          ],
+          "correct": true,
+          "why": "GRR loss comes only from customers leaving or paying less, and the two buckets are exclusive and complete."
+        },
+        {
+          "split": [
+            "ARR lost from cancellations",
+            "ARR lost from downgrades, net of upsells in the same account"
+          ],
+          "correct": false,
+          "why": "Mixed basis: GRR never nets off expansion, so netting upsells understates the loss."
+        }
+      ]
+    },
+    {
+      "id": "tech-q07",
+      "industry": "tech",
+      "difficulty": "Advanced",
+      "question": "Which split of 'Monthly LLM API cost for a SaaS AI feature' is MECE?",
+      "parent": "Monthly cost of third-party language model API calls for a SaaS AI feature",
+      "options": [
+        {
+          "split": [
+            "Requests per month",
+            "Tokens per request",
+            "Price per output token"
+          ],
+          "correct": false,
+          "why": "Gap: input tokens, usually most of the volume and priced differently, are not costed."
+        },
+        {
+          "split": [
+            "Requests per month",
+            "Tokens per request",
+            "Blended price per token",
+            "Cost of retries and failed calls"
+          ],
+          "correct": false,
+          "why": "Overlap: retries are requests that consume billed tokens, so they are already in requests per month."
+        },
+        {
+          "split": [
+            "Requests per month",
+            "Tokens per request",
+            "Blended price per token (input and output mix)"
+          ],
+          "correct": true,
+          "why": "A complete multiplicative chain: requests x tokens per request gives billed tokens, and the blended price reflects the input and output mix."
+        },
+        {
+          "split": [
+            "Requests per month",
+            "Tokens per request",
+            "Blended price per token",
+            "Model context window size"
+          ],
+          "correct": false,
+          "why": "Not a driver: the context window is a capacity limit; the bill depends on tokens actually sent, which tokens per request already captures."
+        }
+      ]
+    },
+    {
+      "id": "tech-q08",
+      "industry": "tech",
+      "difficulty": "Advanced",
+      "question": "Which split of 'Why Indian SMB customers stop paying at renewal' is MECE?",
+      "parent": "Reasons an Indian SMB SaaS customer stops paying at renewal",
+      "options": [
+        {
+          "split": [
+            "Business still trading and chose to stop",
+            "Business closed or stopped trading",
+            "Wanted to renew but payment failed"
+          ],
+          "correct": true,
+          "why": "Splits churn by whether the customer chose to leave, could no longer use the product, or never meant to leave; every lost customer fits exactly one."
+        },
+        {
+          "split": [
+            "Moved to a competitor",
+            "Price too high",
+            "Business closed",
+            "Payment failed"
+          ],
+          "correct": false,
+          "why": "Overlap: destinations and reasons are mixed, so a customer who left because of price for a competitor fits two buckets."
+        },
+        {
+          "split": [
+            "Business still trading and chose to stop",
+            "Business closed, merged or sold"
+          ],
+          "correct": false,
+          "why": "Gap: involuntary churn is missing; card and UPI AutoPay renewals can fail at RBI's authentication and pre-debit notice steps even when the customer meant to stay."
+        },
+        {
+          "split": [
+            "Business still trading and chose to stop",
+            "Business closed or stopped trading",
+            "Wanted to renew but payment failed",
+            "Stopped using the product months before renewal"
+          ],
+          "correct": false,
+          "why": "Mixed levels: low usage is a cause of choosing to stop, so these customers already sit inside the first bucket rather than beside it."
+        }
+      ]
+    }
+  ],
+  "chainDrills": [
+    {
+      "id": "tech-v01",
+      "industry": "tech",
+      "difficulty": "Beginner",
+      "type": "locate",
+      "prompt": "Support tickets from long-standing customers doubled in the month after a release that replaced the invoicing screen with a new layout and no in-app guidance. New-customer onboarding was unchanged. Which stage caused the spike?",
+      "options": [
+        "s2",
+        "s3",
+        "s5",
+        "s6"
+      ],
+      "answer": [
+        "s2"
+      ],
+      "why": "The tickets land in support (s6), but the cause is a product and release decision: a redesigned screen shipped without guidance, which is product development (s2). Onboarding (s5) only affects new customers, and these are existing ones."
+    },
+    {
+      "id": "tech-v02",
+      "industry": "tech",
+      "difficulty": "Beginner",
+      "type": "order",
+      "prompt": "Put the stages of the SaaS value chain in order, from inputs to a renewing customer.",
+      "options": [
+        "s4",
+        "s1",
+        "s6",
+        "s3",
+        "s5",
+        "s2"
+      ],
+      "answer": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6"
+      ],
+      "why": "Infrastructure and components feed the product; the product is marketed to create demand; sales converts demand into contracts; onboarding gets the customer live; success, support and renewal keep and grow the customer."
+    },
+    {
+      "id": "tech-v03",
+      "industry": "tech",
+      "difficulty": "Intermediate",
+      "type": "locate",
+      "prompt": "Sales checks confirm new customers fit the target profile, yet 40% of new accounts have not imported data or invited colleagues 30 days after signing, and many cancel within 90 days. Their support ticket volumes are below average. Which stage is failing first?",
+      "options": [
+        "s3",
+        "s4",
+        "s5",
+        "s6"
+      ],
+      "answer": [
+        "s5"
+      ],
+      "why": "The customers are the right ones (so not s3 or s4) but never get set up and activated, which is onboarding and implementation (s5). Low ticket volume is a red herring: these accounts are quiet because they are not using the product. Cancellations show up later in s6, but the cause comes earlier."
+    },
+    {
+      "id": "tech-v04",
+      "industry": "tech",
+      "difficulty": "Intermediate",
+      "type": "assign",
+      "prompt": "Assign each cost to the value chain stage where it is incurred.",
+      "items": [
+        {
+          "item": "Commission paid to a reseller partner on a new deal",
+          "stage": "s4"
+        },
+        {
+          "item": "Salaries of engineers building a new reporting module",
+          "stage": "s2"
+        },
+        {
+          "item": "Per-message fees to a WhatsApp/SMS API used for customer notifications",
+          "stage": "s1"
+        },
+        {
+          "item": "Search ads and webinars to generate leads",
+          "stage": "s3"
+        },
+        {
+          "item": "Consultants configuring the system and migrating data for a new client",
+          "stage": "s5"
+        },
+        {
+          "item": "Customer success manager running a business review before renewal",
+          "stage": "s6"
+        }
+      ],
+      "why": "The messaging API fee is tricky: it feels like customer communication, but it is a per-use third-party input the product consumes, like hosting, so it sits in s1. Configuring and migrating data for a new client is implementation (s5), while a pre-renewal business review is customer success (s6). Reseller commission is a cost of closing the sale (s4), not of marketing."
+    },
+    {
+      "id": "tech-v05",
+      "industry": "tech",
+      "difficulty": "Advanced",
+      "type": "locate",
+      "prompt": "NRR fell from 112% to 98%. The churn is concentrated in customers that a new tier-2 field team found and signed itself at deep discounts, many outside the ideal customer profile. Their onboarding times and support scores match other cohorts. Which stage caused the problem?",
+      "options": [
+        "s3",
+        "s4",
+        "s5",
+        "s6"
+      ],
+      "answer": [
+        "s4"
+      ],
+      "why": "The loss shows up in renewals (s6), and onboarding and support performed normally, so the cause is upstream: the sales team (s4) signed poorly fitting customers with heavy discounts. Marketing (s3) did not source these deals; the field team did."
+    },
+    {
+      "id": "tech-v06",
+      "industry": "tech",
+      "difficulty": "Advanced",
+      "type": "locate",
+      "prompt": "Gross margin fell 6 points after an AI assistant was added free to every plan with no usage limits. The model provider's price per token is unchanged and the client already has the best committed-volume rate it can get. The heaviest 5% of users generate half the calls. Which stage's decision caused the margin fall, and so owns the fix?",
+      "options": [
+        "s1",
+        "s2",
+        "s4",
+        "s6"
+      ],
+      "answer": [
+        "s2"
+      ],
+      "why": "The cost is billed in s1, but nothing changed there: price per token is flat and the contract is already optimised. The cause is a packaging decision, unlimited AI usage free in every plan, which sits in product development and packaging (s2), so the fix belongs there too: usage limits or credits, a paid AI tier, and engineering choices such as routing simple requests to cheaper models. Sales (s4) and renewal (s6) did not create the cost."
+    }
+  ]
+}

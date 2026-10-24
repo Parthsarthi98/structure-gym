@@ -1,0 +1,3917 @@
+{
+  "industry": "public",
+  "valueChain": {
+    "summary": "Money enters as taxes, borrowing, donor grants and CSR, and is spent rather than earned, so the test is outcomes per rupee rather than profit. Private firms, NGOs and PPP operators earn their margins on procurement, construction and service contracts, while user charges recover only part of the cost in utilities and transport.",
+    "stages": [
+      {
+        "id": "s1",
+        "name": "Policy and funding",
+        "activities": [
+          "Scheme design and eligibility rules",
+          "Budget allocation by the Finance Department and legislature",
+          "Centre-state cost sharing and fund release",
+          "Transfers to local bodies (Finance Commission grants)"
+        ],
+        "players": [
+          "Central ministries and NITI Aayog",
+          "State finance and line departments",
+          "Multilateral lenders and philanthropic foundations",
+          "Legislatures and Finance Commissions"
+        ],
+        "revenueDrivers": [
+          "Tax revenue and devolution from the central divisible pool",
+          "Borrowing within fiscal deficit limits (about 3% of GSDP for states)",
+          "Donor grants and CSR (2% of qualifying companies' average net profit)"
+        ],
+        "costDrivers": [
+          "Committed spending (salaries, pensions, interest) that crowds out scheme budgets",
+          "Interest cost of state borrowing"
+        ],
+        "kpis": [
+          {
+            "name": "Fund utilisation",
+            "formula": "expenditure / funds released",
+            "benchmark": "70-85% of releases spent by year end is common for centrally sponsored schemes (approximate)"
+          },
+          {
+            "name": "Release lag",
+            "formula": "days from budget approval to funds reaching the implementing agency",
+            "benchmark": "1-3 months where fund flow works well; 4-6 months is common (approximate)"
+          }
+        ],
+        "marginNote": "No margin: the constraint is fiscal space. Committed spending often takes 40-60% of a state's revenue receipts, leaving limited room for new schemes (approximate)."
+      },
+      {
+        "id": "s2",
+        "name": "Procurement and capacity",
+        "activities": [
+          "Tendering for goods, works and services (GeM, state e-procurement portals)",
+          "Contracting PPP operators and NGOs",
+          "Recruiting and training frontline staff",
+          "Building facilities (schools, health centres, roads)"
+        ],
+        "players": [
+          "EPC contractors",
+          "Drug, equipment and food suppliers",
+          "PPP operators (dialysis, ambulances, waste)",
+          "Staffing agencies and training institutes"
+        ],
+        "revenueDrivers": [
+          "Contract value won in lowest-price (L1) tenders",
+          "Per-unit payments in PPP contracts (per session, per trip, per tonne)"
+        ],
+        "costDrivers": [
+          "Input prices (cement, bitumen, drugs, food grains)",
+          "Working capital tied up by delayed government payments",
+          "Bid preparation and compliance costs"
+        ],
+        "kpis": [
+          {
+            "name": "Tender cycle time",
+            "formula": "days from tender notice to contract award",
+            "benchmark": "60-120 days for many state works tenders (approximate)"
+          },
+          {
+            "name": "Price versus benchmark",
+            "formula": "contract price / benchmark or estimated cost",
+            "benchmark": "within about 10% of benchmark in competitive tenders"
+          },
+          {
+            "name": "Bidders per tender",
+            "formula": "number of qualified bids received",
+            "benchmark": "3 or more for genuine competition"
+          }
+        ],
+        "marginNote": "Where most private profit sits: EPC contractors earn roughly 10-15% EBITDA and drug and equipment suppliers 10-20%, but receivables of 100-200 days are common, so cash returns are lower than margins suggest (approximate)."
+      },
+      {
+        "id": "s3",
+        "name": "Service delivery",
+        "activities": [
+          "Running schools, health centres, buses and utilities",
+          "Frontline work by teachers, ANMs, ASHAs and anganwadi workers",
+          "Direct Benefit Transfer payments and ration distribution",
+          "Operating PPP services (dialysis, ambulances, waste collection)"
+        ],
+        "players": [
+          "State departments and their facilities",
+          "Municipal bodies and state-owned utilities",
+          "PPP operators and NGOs",
+          "Banks and payment networks for DBT"
+        ],
+        "revenueDrivers": [
+          "User charges (fares, water tariffs) recovering part of cost",
+          "Availability or per-unit payments to PPP operators"
+        ],
+        "costDrivers": [
+          "Salaries and honoraria of frontline staff (often 60-80% of health and education scheme cost)",
+          "Consumables (drugs, meals, fuel)",
+          "Facility upkeep and utilities"
+        ],
+        "kpis": [
+          {
+            "name": "Frontline vacancy rate",
+            "formula": "vacant posts / sanctioned posts",
+            "benchmark": "under 10% is good; 15-30% is common in rural health and education cadres (approximate)"
+          },
+          {
+            "name": "Service availability",
+            "formula": "facilities open with staff and supplies on survey day / facilities surveyed",
+            "benchmark": "90%+ target"
+          },
+          {
+            "name": "Cost recovery ratio",
+            "formula": "user charges collected / operating cost",
+            "benchmark": "20-60% for Indian urban water and bus services (approximate)"
+          }
+        ],
+        "marginNote": "The largest cost block. PPP operators earn thin margins of about 8-18% EBITDA on per-unit contracts; government-run delivery is a pure cost centre where staff absence and leakage are the main sources of lost value (approximate)."
+      },
+      {
+        "id": "s4",
+        "name": "Beneficiary uptake",
+        "activities": [
+          "Identifying eligible people (SECC, ration card and other databases)",
+          "Awareness and outreach",
+          "Enrolment and eKYC",
+          "Repeated use of the service (attendance, visits, claims)"
+        ],
+        "players": [
+          "Frontline workers and village officials",
+          "Common Service Centres and enrolment agencies",
+          "NGOs and community groups",
+          "Beneficiaries and their households"
+        ],
+        "revenueDrivers": [
+          "Not revenue-generating; uptake decides how much of the budget becomes service actually received"
+        ],
+        "costDrivers": [
+          "Outreach and enrolment camps",
+          "Beneficiaries' own costs (travel, lost wages, documents, informal payments)"
+        ],
+        "kpis": [
+          {
+            "name": "Coverage",
+            "formula": "eligible people enrolled / eligible population",
+            "benchmark": "80%+ target; 50-70% is common in newer schemes (approximate)"
+          },
+          {
+            "name": "Exclusion error",
+            "formula": "eligible people not enrolled / eligible population",
+            "benchmark": "10-30% in many targeted schemes (approximate)"
+          },
+          {
+            "name": "Inclusion error",
+            "formula": "ineligible people enrolled / people enrolled",
+            "benchmark": "under 5-10% target"
+          }
+        ],
+        "marginNote": "A small share of budgets (often 1-5% on outreach and enrolment) but it has the largest effect on outcomes, because it decides who the rest of the money actually reaches (approximate)."
+      },
+      {
+        "id": "s5",
+        "name": "Outcomes and accountability",
+        "activities": [
+          "Monitoring dashboards and field audits",
+          "Independent evaluations (randomised and quasi-experimental)",
+          "CAG audits and social audits",
+          "Grievance redressal and outcome-linked payments"
+        ],
+        "players": [
+          "CAG and state audit departments",
+          "Evaluation agencies and research labs",
+          "Social audit units (for example under MGNREGA)",
+          "Outcome funders (development impact bonds)"
+        ],
+        "revenueDrivers": [
+          "Outcome-linked payments in results-based contracts and impact bonds",
+          "Performance-linked central grants to states"
+        ],
+        "costDrivers": [
+          "Survey and evaluation costs",
+          "Monitoring systems and data staff"
+        ],
+        "kpis": [
+          {
+            "name": "Cost per outcome",
+            "formula": "programme cost / outcomes achieved (for example children reading at grade level)",
+            "benchmark": "compare with similar programmes rather than a fixed number"
+          },
+          {
+            "name": "Grievance resolution time",
+            "formula": "average days to resolve a complaint",
+            "benchmark": "under 30 days is a typical service standard (approximate)"
+          }
+        ],
+        "marginNote": "Usually under 1-2% of programme budgets, which is why many schemes track spending and outputs rather than outcomes; impact bond investors earn a return only when outcomes are independently verified (approximate)."
+      }
+    ],
+    "profitPools": "Private profit pools sit in procurement and construction (s2) and in operating contracts (s3), where contractors and PPP operators earn roughly 8-20% EBITDA (approximate) but carry long payment delays. For the state the relevant pool is value for money, and most value is lost in delivery (absent staff, leakage) and uptake (exclusion errors), which is why better targeting and Direct Benefit Transfer, by removing duplicate and ineligible beneficiaries, are usually larger savings levers than procurement.",
+    "unitEconomics": {
+      "unit": "per enrolled primary school child per year (mid-day meal under PM POSHAN, approximate)",
+      "lines": [
+        {
+          "item": "Meals served per child (220 school days x ~90% attendance)",
+          "value": "≈200"
+        },
+        {
+          "item": "Material (cooking) cost (₹6.78 per meal, central norm since May 2025)",
+          "value": "₹1,356"
+        },
+        {
+          "item": "Foodgrain (100 g per meal = 20 kg, at FCI economic cost of rice, about ₹44/kg)",
+          "value": "₹880"
+        },
+        {
+          "item": "Cook-cum-helper honorarium (₹1,000/month minimum x 10 months / ~40 children per cook)",
+          "value": "₹250"
+        },
+        {
+          "item": "Transport and management (~3% of the above)",
+          "value": "₹75"
+        },
+        {
+          "item": "Total cost per enrolled child",
+          "value": "₹2,561"
+        },
+        {
+          "item": "Cost per meal served (₹2,561 / 200)",
+          "value": "≈₹12.80"
+        }
+      ],
+      "result": "Cost per enrolled child ≈ ₹2,560 a year, about ₹12.80 per meal served (approximate); falling attendance raises cost per meal because the honorarium and overheads do not fall with it."
+    },
+    "india": "Most services are delivered by states and local bodies, while the centre co-funds through centrally sponsored schemes, typically on a 60:40 centre-state basis (90:10 for north-eastern and Himalayan states), so state capacity and fund flow shape outcomes as much as scheme design. JAM (Jan Dhan accounts, Aadhaar, mobile) made Direct Benefit Transfer possible at scale, GeM is the default portal for government buying, and the CAG, social audits and outcome budgets are the main accountability tools.",
+    "workedExample": {
+      "problem": "A state's institutional delivery rate has stalled at 82% for three years although the maternity scheme's budget is fully spent.",
+      "trace": [
+        "Policy and funding (s1): funds are released and spent in full, so money available is not the constraint.",
+        "Procurement and capacity (s2): delivery kits and drugs are in stock, but 30% of staff nurse posts are vacant, concentrated in 14 tribal blocks.",
+        "Service delivery (s3): in those blocks most PHCs cannot run round-the-clock delivery services, so women are referred to a district hospital two or more hours away.",
+        "Beneficiary uptake (s4): home births are above 35% in those blocks while most other blocks are above 90% institutional, so the stall is local rather than statewide.",
+        "Root cause: unfilled nurse posts in tribal blocks break delivery at s3, which extra incentive money at s1 cannot fix; the remedy is posting incentives or contracted nurses for those blocks."
+      ],
+      "lesson": "A fully spent budget says little about outcomes; follow the chain to the stage where the service stops reaching people, which is usually frontline capacity or uptake."
+    }
+  },
+  "cases": [
+    {
+      "id": "public-c01",
+      "title": "Municipal corporation deficit nearly triples",
+      "industry": "public",
+      "framework": "profitability",
+      "secondary": [],
+      "difficulty": "Beginner",
+      "region": "India",
+      "prompt": "Our client is the municipal corporation of a tier-2 Indian city of about 25 lakh people. Its annual revenue-account deficit has grown from ₹80 crore to ₹220 crore in three years, and the state has refused further bailout grants. Why has the deficit widened, and where should the commissioner look first?",
+      "clarifyingFacts": [
+        "Q: Is this the revenue account or does it include capital works? A: Revenue account only (day-to-day income and spending); capital works are funded separately by scheme grants.",
+        "Q: How have revenue and spending moved? A: Revenue rose from ₹1,250 crore to ₹1,270 crore; spending rose from ₹1,330 crore to ₹1,490 crore.",
+        "Q: What is known about spending? A: A pay revision added about ₹110 crore to salaries and pensions, and electricity for streetlights and water pumping rose by about ₹40 crore.",
+        "Q: How good is property tax collection? A: Annual property tax demand is about ₹400 crore, of which about 45% is collected; the property survey was last updated in 2014."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Why has the revenue-account deficit risen from ₹80 crore to ₹220 crore?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Revenue receipts barely grew (+₹20 crore)",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Property tax (largest own tax)",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Properties on the register (survey last updated 2014)"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Tax per property (rates and assessed values)"
+                  },
+                  {
+                    "id": "a1z",
+                    "label": "Collection efficiency (45% of demand)"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Other own revenue (other taxes, water charges, fees, rents)"
+              },
+              {
+                "id": "a3",
+                "label": "Transfers from state and centre (devolution, grants)"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Spending grew fast (+₹160 crore)",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Establishment cost",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Headcount (permanent and contract)"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Pay and pension per head (pay revision)"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Operations and maintenance",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Electricity for streetlights and water pumping"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Solid waste collection and transport contracts"
+                  },
+                  {
+                    "id": "b2z",
+                    "label": "Other upkeep (roads, drains, parks, offices)"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Interest on borrowings"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "The pay revision (about ₹110 crore) and electricity (about ₹40 crore) together exceed the entire ₹140 crore widening, so this is a spending shock rather than a revenue collapse.",
+        "Property tax is the largest own lever: raising collection from 45% to 65% of the ₹400 crore demand would add about ₹80 crore a year, before any gain from updating the 2014 survey.",
+        "The electricity rise comes mainly from tariff increases rather than more streetlights or pumps, so LED streetlights and efficient pumps could cut that bill by 20-30%."
+      ],
+      "hints": [
+        "hint 1: treat the deficit like a loss and split it the way you would split profit",
+        "hint 2: first-level branches are revenue receipts and revenue spending, each compared across the three years",
+        "hint 3: property tax = properties on the register x tax per property x collection efficiency"
+      ],
+      "keyMetrics": [
+        {
+          "name": "Revenue-account deficit",
+          "formula": "revenue expenditure - revenue receipts"
+        },
+        {
+          "name": "Property tax collection efficiency",
+          "formula": "property tax collected / property tax demand raised"
+        }
+      ],
+      "commonMistakes": [
+        "Jumping to 'raise taxes' without first showing that revenue was flat and spending jumped ₹160 crore, which puts the cause on the spending side.",
+        "Treating state transfers as a lever the commissioner controls, when they are set by the state and its finance commission."
+      ],
+      "frameworkPick": {
+        "options": [
+          "profitability",
+          "pricing",
+          "turnaround",
+          "growth"
+        ],
+        "correct": [
+          "profitability"
+        ],
+        "why": "The question is why the gap between income and spending widened, which is a revenue minus cost diagnosis with deficit in place of profit.",
+        "distractorWhyNot": {
+          "pricing": "Tax rates and user charges are one lever, but the question first asks why the deficit widened, and the data put most of the cause on spending.",
+          "turnaround": "The ask is diagnostic; a restructuring plan comes only after the cause is found.",
+          "growth": "The goal is to explain a widening deficit, not to expand services or revenue streams."
+        }
+      }
+    },
+    {
+      "id": "public-c02",
+      "title": "Free sanitary pads for schoolgirls",
+      "industry": "public",
+      "framework": "market-sizing",
+      "secondary": [],
+      "difficulty": "Beginner",
+      "region": "India",
+      "prompt": "A state government with a population of about 8 crore plans to give free sanitary pads to every girl aged 12 to 17 studying in its government schools. The finance department wants to know how many pads it must buy each year and roughly what the scheme will cost. How would you estimate it?",
+      "clarifyingFacts": [
+        "Q: Who exactly is eligible? A: Girls aged 12-17 enrolled in state government schools who have reached menarche; private and aided schools are excluded.",
+        "Q: What population data do we have? A: Each single year of age from 12 to 17 is about 1.9% of the population, and girls are about 48.5% of each cohort.",
+        "Q: Enrolment? A: About 75% of children aged 12-17 are enrolled, 55% of them in government schools; about 85% of girls in this age band have reached menarche.",
+        "Q: Usage and prices? A: Assume 10 pads per cycle, 12 cycles a year, 90% of eligible girls collecting, ₹2.50 per pad from the tender and ₹0.25 per pad for distribution through schools."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "How many pads a year, and at what cost, for eligible girls in government schools?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Number of eligible girls",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Girls aged 12-17 (8 crore x 6 x 1.9% x 48.5%)"
+              },
+              {
+                "id": "a2",
+                "label": "Share enrolled in government schools (75% x 55%)"
+              },
+              {
+                "id": "a3",
+                "label": "Share who have reached menarche (85%)"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Pads collected per eligible girl per year",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Cycles per year (12)"
+              },
+              {
+                "id": "b2",
+                "label": "Pads per cycle (10)"
+              },
+              {
+                "id": "b3",
+                "label": "Share of eligible girls who collect (90%)"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Cost per pad delivered",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Tender price per pad (₹2.50)"
+              },
+              {
+                "id": "c2",
+                "label": "Distribution cost per pad (₹0.25)"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "About 15.5 lakh girls are eligible, needing roughly 17 crore pads a year at a cost of about ₹46 crore, so affordability is unlikely to be the binding constraint for a state budget.",
+        "Reliable supply in schools, not the tender price, will decide the scheme's reach: uptake of 60% instead of 90% would cut volume by a third."
+      ],
+      "hints": [
+        "hint 1: build a multiplicative chain from the state's population down to rupees",
+        "hint 2: first-level branches are eligible girls, pads collected per eligible girl, and cost per pad delivered",
+        "hint 3: pads collected per eligible girl = cycles a year x pads per cycle x share of eligible girls who actually collect"
+      ],
+      "keyMetrics": [
+        {
+          "name": "Annual pads",
+          "formula": "population x age share x female share x government school share x menarche share x uptake x pads per cycle x cycles per year"
+        },
+        {
+          "name": "Annual cost",
+          "formula": "annual pads x (tender price + distribution cost per pad)"
+        }
+      ],
+      "commonMistakes": [
+        "Using all girls aged 12-17 instead of those in government schools, which overstates volume about 2.4 times.",
+        "Forgetting that not every girl in the age band has reached menarche or will collect pads every month."
+      ],
+      "frameworkPick": {
+        "options": [
+          "market-sizing",
+          "product-launch",
+          "pricing",
+          "operations"
+        ],
+        "correct": [
+          "market-sizing"
+        ],
+        "why": "The ask is how many pads and how much money, which is an estimate built from population, eligibility and usage.",
+        "distractorWhyNot": {
+          "product-launch": "The scheme's design is fixed; the question is the volume and budget, not how to launch it.",
+          "pricing": "The price per pad is a given tender input, not the decision.",
+          "operations": "Distribution logistics matter later, but the question asks how big the requirement is."
+        }
+      }
+    },
+    {
+      "id": "public-c03",
+      "title": "District hospital OPD waits more than double",
+      "industry": "public",
+      "framework": "operations",
+      "secondary": [],
+      "difficulty": "Beginner",
+      "region": "India",
+      "prompt": "A 300-bed district hospital in a north Indian state sees about 2,000 outpatients a day. The average time from registration to collecting medicines has risen from 2 hours to 4.5 hours in a year, and complaints have reached the health secretary. How would you bring the waiting time down?",
+      "clarifyingFacts": [
+        "Q: What is the target? A: Under 2 hours on average within six months, without new buildings.",
+        "Q: When do patients arrive? A: About 70% arrive between 9 am and 12 noon; the OPD runs from 9 am to 2 pm.",
+        "Q: Staffing? A: 12 OPD doctor posts are sanctioned and 9 are filled; on average doctors start seeing patients at about 10 am.",
+        "Q: What else changed this year? A: Footfall rose 30% after free drugs and diagnostics were expanded; about 35% of patients have conditions a primary health centre could treat."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "How can average OPD time fall from 4.5 hours to under 2 hours?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Reduce or smooth patient demand",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Avoidable patient volume",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Patients treatable at PHCs or health and wellness centres (35%)"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Repeat visits for reports or refills"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Arrival timing (70% arrive 9 am-12 noon)"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Raise effective capacity at each step",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Registration (counters open x patients per counter-hour)"
+              },
+              {
+                "id": "b2",
+                "label": "Doctor consultation",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Doctor hours available (vacancies, late starts)"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Minutes per patient"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Diagnostics (sample collection and report turnaround)"
+              },
+              {
+                "id": "b4",
+                "label": "Pharmacy (counters x prescriptions per counter-hour)"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Doctor time is the main bottleneck: 9 doctors starting at 10 am give about 36 doctor-hours a day against 60 if all 12 posts were filled and started at 9 am, a 40% shortfall.",
+        "Moving PHC-treatable cases out (35% of patients) and spreading arrivals with time-slot tokens would cut the 9 am-12 noon load by more than a third."
+      ],
+      "hints": [
+        "hint 1: treat it as a queue: waits build when the load at the peak exceeds what the slowest step can handle",
+        "hint 2: first-level branches are patient demand and capacity along the patient journey",
+        "hint 3: patient demand splits into avoidable volume (cases a PHC could treat, repeat visits for reports) and arrival timing"
+      ],
+      "keyMetrics": [
+        {
+          "name": "Doctor capacity per day",
+          "formula": "doctors present x consulting hours x patients per doctor-hour"
+        },
+        {
+          "name": "Step utilisation at peak",
+          "formula": "patients arriving per hour / patients the step can serve per hour"
+        }
+      ],
+      "commonMistakes": [
+        "Asking only for more doctors without checking whether registration or the pharmacy is the real bottleneck at peak hours.",
+        "Working with daily averages instead of the 9 am-12 noon peak, when the queues actually form."
+      ],
+      "frameworkPick": {
+        "options": [
+          "operations",
+          "profitability",
+          "segmentation",
+          "turnaround"
+        ],
+        "correct": [
+          "operations"
+        ],
+        "why": "The problem is throughput and waiting time in a service process, which is an operations question of demand versus capacity at each step.",
+        "distractorWhyNot": {
+          "profitability": "OPD care is free here; the issue is waiting time, not revenue or cost.",
+          "segmentation": "Sorting patients by need (sending PHC-treatable cases elsewhere) is one lever, but the question is throughput across the whole patient journey.",
+          "turnaround": "The hospital is not in financial distress; a long queue with a six-month target is a process problem, not a rescue."
+        }
+      }
+    },
+    {
+      "id": "public-c04",
+      "title": "Literacy NGO weighs Uttar Pradesh expansion",
+      "industry": "public",
+      "framework": "market-entry",
+      "secondary": [],
+      "difficulty": "Beginner",
+      "region": "India",
+      "prompt": "A Bengaluru-based education NGO runs a foundational reading programme for 1.5 lakh children in 2,000 Karnataka government primary schools, at about ₹1,200 per child per year. A large foundation has offered ₹50 crore over five years if it expands into Uttar Pradesh. Should the NGO take the offer and enter UP?",
+      "clarifyingFacts": [
+        "Q: What does success look like? A: Measurable reading gains for at least 80,000 UP children a year within three years, without hurting the Karnataka programme.",
+        "Q: Is the UP government involved? A: The state runs its own foundational literacy mission under NIPUN Bharat and would need to sign an MoU for school access.",
+        "Q: Who else works there? A: Three larger NGOs already run similar programmes in about 20 of UP's 75 districts.",
+        "Q: What happens after five years? A: The foundation will not renew; the NGO would need state or other donor funding to continue."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Should the NGO accept ₹50 crore to run its reading programme in UP?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Need and demand in UP",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Size of the reading gap (children below grade level)"
+              },
+              {
+                "id": "a2",
+                "label": "State government appetite for an NGO partner (MoU)"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Competition and alternatives",
+            "children": [
+              {
+                "id": "b1",
+                "label": "NGOs already working in UP (20 of 75 districts)"
+              },
+              {
+                "id": "b2",
+                "label": "Overlap with the state's own NIPUN Bharat mission"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Ability to deliver in UP",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Hindi materials and teacher training adaptation"
+              },
+              {
+                "id": "c2",
+                "label": "Local team and leadership bandwidth"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Economics and risk to the organisation",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Funded cost per child (₹10 crore a year / 80,000 = ₹1,250)"
+              },
+              {
+                "id": "d2",
+                "label": "Funding after year five"
+              },
+              {
+                "id": "d3",
+                "label": "Risk to the Karnataka programme"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "The grant funds about ₹1,250 per child, barely above the ₹1,200 Karnataka cost, so start-up costs in a new state (materials, hiring, training) will leave a shortfall in years one and two.",
+        "Without an MoU in which the state commits to absorb the programme after year five, any reading gains will lapse when the grant ends."
+      ],
+      "hints": [
+        "hint 1: use the standard logic of an entry decision, adapted to a non-profit where the payoff is impact and long-term funding rather than profit",
+        "hint 2: first-level branches are need and demand in UP, competition and alternatives, ability to deliver, and economics and risk",
+        "hint 3: economics splits into funded versus actual cost per child, funding after year five, and risk to the existing Karnataka programme"
+      ],
+      "keyMetrics": [
+        {
+          "name": "Cost per child reached",
+          "formula": "annual programme cost / children enrolled"
+        },
+        {
+          "name": "Cost per child reaching grade-level reading",
+          "formula": "annual programme cost / children moving to grade-level reading"
+        }
+      ],
+      "commonMistakes": [
+        "Treating the grant as free money and ignoring what happens to children and staff when funding stops in year six.",
+        "Ignoring the state's own literacy mission, which can be the best route to scale or a reason the NGO adds little."
+      ],
+      "frameworkPick": {
+        "options": [
+          "market-entry",
+          "growth",
+          "ma",
+          "market-sizing"
+        ],
+        "correct": [
+          "market-entry"
+        ],
+        "why": "The NGO is deciding whether to start operating in a new state, so it must test demand, competition, its ability to deliver there and the economics of entering.",
+        "distractorWhyNot": {
+          "growth": "Growth covers every way to expand; here the decision is a go or no-go on one new geography, which is market entry.",
+          "ma": "No acquisition or merger is proposed; the NGO would build the programme itself.",
+          "market-sizing": "Sizing the reading gap is one input, not the whole decision."
+        }
+      }
+    },
+    {
+      "id": "public-c05",
+      "title": "Metro fare revision to close gap",
+      "industry": "public",
+      "framework": "pricing",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "India",
+      "prompt": "A metro rail corporation in a large Indian city carries about 5 lakh riders a day at an average fare of about ₹32. Fare revenue of about ₹580 crore and non-fare income of ₹70 crore leave a ₹90 crore gap to operating costs of ₹740 crore. The Fare Fixation Committee has asked how fares should be restructured to close the gap while losing as few riders as possible. What would you recommend?",
+      "clarifyingFacts": [
+        "Q: What is the objective? A: Cover the ₹90 crore operating gap from fares within a year; debt service is out of scope, and student concessions are politically sensitive.",
+        "Q: How do trips split? A: Peak-hour commuters make 55% of trips at an average ₹36, off-peak riders 30% at ₹30, and student and senior concession holders 15% at ₹20.",
+        "Q: How sensitive are riders to price? A: The last revision suggests an elasticity of about -0.2 for peak trips and -0.5 for off-peak trips.",
+        "Q: Could non-fare income close the gap instead? A: Advertising and property income grows about 5% a year, roughly ₹3-4 crore, so most of the gap must come from fares; the committee's recommendation is binding on the corporation."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Which fare changes raise ₹90 crore a year with the least loss of riders?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Peak commuters (55% of trips, ₹36 average)",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Extra revenue per retained trip (rise on ₹36 base)"
+              },
+              {
+                "id": "a2",
+                "label": "Peak trips lost or moved (elasticity about -0.2)",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Moved to off-peak (revenue stays on the metro)"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Moved to buses or shared autos"
+                  },
+                  {
+                    "id": "a2z",
+                    "label": "Moved to cars and two-wheelers"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Off-peak riders (30% of trips, ₹30 average)",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Extra revenue per retained trip (rise on ₹30 base)"
+              },
+              {
+                "id": "b2",
+                "label": "Off-peak trips lost (elasticity about -0.5)",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Moved to buses or two-wheelers"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Trips dropped or combined"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Concession riders (15% of trips, ₹20 average)",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Extra revenue per retained trip (capped by affordability)"
+              },
+              {
+                "id": "c2",
+                "label": "Concession trips lost",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "Students moving to school or college buses"
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "Seniors dropping trips"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "A peak-only rise of about 34% (₹36 to about ₹48) closes the ₹90 crore gap while losing about 7% of peak trips, roughly 19,000 trips a day or under 4% of all trips.",
+        "A uniform rise on peak and off-peak fares would need about 27% to raise the same ₹90 crore but would lose about 7% of all trips (about 36,000 a day), nearly double, because off-peak riders are 2.5 times as price-sensitive.",
+        "Concession fares are not worth the political cost: even a 20% rise there would raise at most about ₹11 crore."
+      ],
+      "hints": [
+        "hint 1: split by rider group, because price sensitivity differs sharply between groups",
+        "hint 2: first-level branches are peak commuters, off-peak riders and concession riders",
+        "hint 3: off-peak riders split into extra revenue per retained trip and trips lost (to buses and two-wheelers, or dropped altogether)"
+      ],
+      "keyMetrics": [
+        {
+          "name": "Revenue change by segment",
+          "formula": "segment fare revenue x [(1 + fare change) x (1 + elasticity x fare change) - 1], assuming a constant elasticity"
+        },
+        {
+          "name": "Farebox recovery ratio",
+          "formula": "fare revenue / operating cost"
+        }
+      ],
+      "commonMistakes": [
+        "Applying one flat percentage rise to every rider, which loses the most price-sensitive off-peak riders for little extra money.",
+        "Ignoring that riders who leave the metro move to cars and two-wheelers, a public cost (congestion, emissions) the committee will weigh."
+      ],
+      "frameworkPick": {
+        "options": [
+          "pricing",
+          "profitability",
+          "market-sizing",
+          "segmentation"
+        ],
+        "correct": [
+          "pricing"
+        ],
+        "why": "The decision is the level and structure of fares, which turns on willingness to pay and price sensitivity by rider group.",
+        "distractorWhyNot": {
+          "profitability": "The cost base and the gap are given; the question is only which fare changes close it.",
+          "market-sizing": "Ridership is known; nothing needs estimating from scratch.",
+          "segmentation": "Splitting riders into groups is a tool inside the pricing answer, not the decision itself."
+        }
+      }
+    },
+    {
+      "id": "public-c06",
+      "title": "Raising use of state health insurance",
+      "industry": "public",
+      "framework": "growth",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "India",
+      "prompt": "A state's government-funded health insurance scheme covers 1.2 crore poor families for hospital care up to ₹5 lakh a year. In its 12 weakest districts it records about 35 hospital admissions per 1,000 eligible families a year, against about 100 in the best districts. How would you raise use of the scheme in the weak districts?",
+      "clarifyingFacts": [
+        "Q: What is the objective? A: Reach at least 70 admissions per 1,000 eligible families in the weak districts within two years, without a rise in fraud.",
+        "Q: Enrolment? A: About 45% of eligible families in the weak districts have a scheme card, against 70% in the best districts.",
+        "Q: Hospital network? A: Weak districts have about 6 empanelled hospitals each, mostly government; the best districts have about 25, mostly private. Private hospitals in weak districts say claims take 60-90 days to be paid, against a 15-day norm.",
+        "Q: Is a card needed for treatment? A: Families can be verified with Aadhaar at the hospital help desk, but in practice most hospitals ask for the card."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "How can admissions per 1,000 eligible families in weak districts rise from 35 to 70?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Eligible families enrolled (45% carded)",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Awareness of eligibility and of free hospital care"
+              },
+              {
+                "id": "a2",
+                "label": "Ease of enrolment",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Document and eKYC failures"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Distance to enrolment camps or centres"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Enrolled families who need and seek scheme care",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Illness needing hospital care (underlying need)"
+              },
+              {
+                "id": "b3",
+                "label": "Trust in empanelled hospitals versus local clinics",
+                "children": [
+                  {
+                    "id": "b3x",
+                    "label": "Past experience of refusals or extra charges"
+                  },
+                  {
+                    "id": "b3y",
+                    "label": "Perceived quality of government hospitals"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Access to an empanelled hospital",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Hospitals empanelled per district (6 vs 25)",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Private hospitals' willingness (package rates, claim delays)"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Empanelment process time and criteria"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Specialties available (surgery, dialysis, cancer care)"
+              },
+              {
+                "id": "c3",
+                "label": "Cost of reaching the hospital",
+                "children": [
+                  {
+                    "id": "c3x",
+                    "label": "Distance to nearest empanelled hospital"
+                  },
+                  {
+                    "id": "c3y",
+                    "label": "Transport cost and lost wages"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Admission completed under the scheme",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Help desk accepts the patient without extra payment",
+                "children": [
+                  {
+                    "id": "d1x",
+                    "label": "Aadhaar verification for families without a card"
+                  },
+                  {
+                    "id": "d1y",
+                    "label": "Informal charges demanded"
+                  }
+                ]
+              },
+              {
+                "id": "d2",
+                "label": "Pre-authorisation approved",
+                "children": [
+                  {
+                    "id": "d2x",
+                    "label": "Rejection rate of requests"
+                  },
+                  {
+                    "id": "d2y",
+                    "label": "Time taken to approve"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Hospital supply is the binding constraint: 6 mostly government hospitals per weak district against 25 in the best districts explains most of the gap, and private hospitals stay out because claims take 60-90 days to be paid.",
+        "Card possession matters more than the rules intend: because hospitals turn away uncarded families, the 25-point enrolment gap (45% vs 70%) feeds directly into lower admissions."
+      ],
+      "hints": [
+        "hint 1: follow one eligible family through the whole journey to a completed admission and ask where families drop out",
+        "hint 2: first-level branches are enrolment, seeking care when ill, access to an empanelled hospital, and admission completed",
+        "hint 3: admission completed splits into the help desk accepting the patient (Aadhaar verification without a card, informal charges) and pre-authorisation (rejection rate, approval time)"
+      ],
+      "keyMetrics": [
+        {
+          "name": "Admissions per 1,000 eligible families",
+          "formula": "scheme admissions in the year / eligible families x 1,000"
+        },
+        {
+          "name": "Claim settlement time",
+          "formula": "average days from discharge to claim payment"
+        }
+      ],
+      "commonMistakes": [
+        "Running awareness campaigns alone when the binding constraint may be too few hospitals willing to treat scheme patients.",
+        "Pushing utilisation without guarding against unnecessary admissions and upcoding, which the state pays for."
+      ],
+      "frameworkPick": {
+        "options": [
+          "growth",
+          "market-entry",
+          "pricing",
+          "operations"
+        ],
+        "correct": [
+          "growth"
+        ],
+        "why": "The goal is to raise use of an existing scheme among people already eligible, which is a growth problem worked through as an uptake funnel.",
+        "distractorWhyNot": {
+          "market-entry": "The scheme already operates in these districts; nothing new is being entered.",
+          "pricing": "Package rates affect hospital participation but are one lever, not the question.",
+          "operations": "Claim processing is one step; the question spans enrolment, care-seeking, access and admission."
+        }
+      }
+    },
+    {
+      "id": "public-c07",
+      "title": "Launching a micro-pension for informal workers",
+      "industry": "public",
+      "framework": "product-launch",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "Global",
+      "prompt": "The government of a lower-middle-income Southeast Asian country wants to launch a voluntary micro-pension for its 20 million informal workers, matching each worker's contribution one-for-one up to US$5 a month. The minister wants 3 million workers saving actively within three years. How should the scheme be designed and launched?",
+      "clarifyingFacts": [
+        "Q: What counts as success? A: 3 million workers who contributed in at least 9 of the last 12 months, not just accounts opened.",
+        "Q: What infrastructure exists? A: About 70% of informal workers have a mobile money account, and a national digital ID covers 85% of adults.",
+        "Q: Budget? A: The treasury has capped the matching cost at US$120 million a year.",
+        "Q: Experience elsewhere? A: Similar schemes in other countries saw 40-60% of accounts go dormant within a year."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "How to design and launch the micro-pension to reach 3 million active savers?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Target workers to prioritise",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Workers with regular cash income (drivers, vendors, platform workers)"
+              },
+              {
+                "id": "a2",
+                "label": "Workers with seasonal or irregular income (farm labour, construction)"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Product proposition",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Contribution rules",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Low minimum and flexible timing"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Government match and its cap"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Access to savings",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Partial withdrawal for emergencies"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Payout form at retirement (lump sum or annuity)"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Trust in the safety of funds"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Enrolment and continued saving",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Enrolment channels",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Self-enrolment in mobile money apps (digital ID eKYC)"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Aggregators (platforms, cooperatives, market associations)"
+                  },
+                  {
+                    "id": "c1z",
+                    "label": "Assisted agents for low-literacy workers"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Keeping workers contributing",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "Auto-deduction from platform earnings"
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "Reminders and nudges"
+                  },
+                  {
+                    "id": "c2z",
+                    "label": "Reactivating dormant accounts"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Fiscal and operating cost",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Matching cost",
+                "children": [
+                  {
+                    "id": "d1x",
+                    "label": "Number of active savers"
+                  },
+                  {
+                    "id": "d1y",
+                    "label": "Average matched contribution per month"
+                  }
+                ]
+              },
+              {
+                "id": "d2",
+                "label": "Administration cost per account",
+                "children": [
+                  {
+                    "id": "d2x",
+                    "label": "Onboarding and KYC"
+                  },
+                  {
+                    "id": "d2y",
+                    "label": "Fund management and record-keeping"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Persistence, not sign-ups, is the binding constraint: if only 40-60% of accounts stay active, as elsewhere, 3 million active savers needs 5 to 7.5 million accounts unless contributions are automated.",
+        "Auto-deduction through ride-hailing and delivery platforms will produce more active savers per dollar of launch spend than any other channel.",
+        "At an average match of about US$3 a month, 3 million active savers cost about US$108 million a year, inside the US$120 million cap but with little headroom if contributions rise."
+      ],
+      "hints": [
+        "hint 1: treat it as a product launch in which the treasury is the paying sponsor, so the cost to the state is part of the design",
+        "hint 2: first-level branches are target workers, product proposition, enrolment and continued saving, and fiscal and operating cost",
+        "hint 3: the product splits into contribution rules (low flexible minimum, the match and its cap), access to savings (emergency withdrawal, payout form) and trust in the safety of funds"
+      ],
+      "keyMetrics": [
+        {
+          "name": "Active saver rate",
+          "formula": "accounts with contributions in 9 of the last 12 months / accounts opened"
+        },
+        {
+          "name": "Annual matching cost",
+          "formula": "active savers x average monthly matched contribution x 12"
+        }
+      ],
+      "commonMistakes": [
+        "Setting the launch target on accounts opened, which hides the dormancy that sinks most micro-pension schemes.",
+        "Designing a locked-in product with no emergency withdrawal, which workers with volatile income will not trust or use."
+      ],
+      "frameworkPick": {
+        "options": [
+          "product-launch",
+          "market-entry",
+          "pricing",
+          "growth"
+        ],
+        "correct": [
+          "product-launch"
+        ],
+        "why": "A new product is being designed and taken to its users, so the answer must cover target users, proposition, channels and launch economics.",
+        "distractorWhyNot": {
+          "market-entry": "The government is not entering a market as a competitor; it is creating a new product for its citizens.",
+          "pricing": "The match rate is one design parameter, not the whole question.",
+          "growth": "There is no existing product to grow yet."
+        }
+      }
+    },
+    {
+      "id": "public-c08",
+      "title": "Segmenting trainees in a skilling mission",
+      "industry": "public",
+      "framework": "segmentation",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "India",
+      "prompt": "A state skill development mission spends about ₹600 crore a year training 2 lakh young people. Only 35% are placed in jobs and half of those leave within six months, so each job still held at six months costs the state about ₹1.7 lakh. The mission wants to redesign its programme around trainee segments. How would you segment trainees, and which segments should it prioritise?",
+      "clarifyingFacts": [
+        "Q: What data do we have on trainees? A: Enrolment forms record age, education, gender, district, family income and stated goal (wage job or self-employment).",
+        "Q: Where are the jobs? A: About 60% of placements are in apparel, logistics and retail in three industrial districts, often 200-500 km from trainees' homes.",
+        "Q: Why do people leave? A: Exit surveys cite low starting wages (₹10,000-12,000 a month), city living costs and family pressure, especially among young women.",
+        "Q: Can the offer vary by segment? A: Yes: course type, stipends, hostel support and post-placement help can all differ."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "How should the mission segment trainees, and which segments should it prioritise?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Define segments by goal and readiness",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Wage-job seekers willing to migrate",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Job-ready (Class 12 or above, or prior work)"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Needing foundational skills first"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Wage-job seekers who will only work locally"
+              },
+              {
+                "id": "a3",
+                "label": "Self-employment aspirants"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Value of serving each segment",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Gain in sustained employment per trainee",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Placement probability"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Six-month retention"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Wage uplift for those employed versus their outside option"
+              },
+              {
+                "id": "b3",
+                "label": "Cost per trainee",
+                "children": [
+                  {
+                    "id": "b3x",
+                    "label": "Training and stipend"
+                  },
+                  {
+                    "id": "b3y",
+                    "label": "Post-placement support (hostel, mentoring)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Mission's ability to serve each segment",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Employer demand matching the segment (location, sector)"
+              },
+              {
+                "id": "c2",
+                "label": "Training partner and hostel capacity",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "Residential seats near industrial clusters"
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "Partners offering credit-linked enterprise courses"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Retention, not placement, is the main leak: migrants placed at ₹10,000-12,000 a month barely cover city rent, so post-placement housing support for migrating job seekers would lift six-month retention more than any change to training.",
+        "Local-only job seekers, many of them young women, are poorly served by a placement mix concentrated in three distant districts; without local employer tie-ups the mission should stop training them for migrant jobs."
+      ],
+      "hints": [
+        "hint 1: a segmentation answer needs a basis for forming groups and a basis for choosing between them",
+        "hint 2: first-level branches are segment definition, value of serving each segment, and the mission's ability to serve it",
+        "hint 3: ability to serve splits into employer demand matching the segment (location, sector) and training partner and hostel capacity"
+      ],
+      "keyMetrics": [
+        {
+          "name": "Cost per sustained job",
+          "formula": "programme cost / trainees still employed at six months"
+        },
+        {
+          "name": "Sustained employment rate",
+          "formula": "placement rate x six-month retention rate"
+        }
+      ],
+      "commonMistakes": [
+        "Segmenting by demographics alone (age, gender, caste) without tying each segment to different outcomes and a different offer.",
+        "Prioritising the segments with the highest placement rate while ignoring that their earnings gain over what they would have earned anyway may be small."
+      ],
+      "frameworkPick": {
+        "options": [
+          "segmentation",
+          "operations",
+          "growth",
+          "profitability"
+        ],
+        "correct": [
+          "segmentation"
+        ],
+        "why": "The mission wants to split trainees into groups that need different offers and then choose which to prioritise, which is the segmentation approach.",
+        "distractorWhyNot": {
+          "operations": "Delivery efficiency matters, but the ask is who to serve and how to tailor the offer.",
+          "growth": "The mission does not want more trainees; it wants better outcomes per rupee.",
+          "profitability": "Cost per sustained job is the yardstick, but the mission is asking whom to serve and how to tailor the offer, which needs segments first."
+        }
+      }
+    },
+    {
+      "id": "public-c09",
+      "title": "State rail operator faces open-access rival",
+      "industry": "public",
+      "framework": "competitive-response",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "Global",
+      "prompt": "A state-owned national rail operator in a southern European country earns about €650 million a year on its main high-speed intercity route, running 30 departures a day each way. From next year a private open-access operator will run 4 departures a day each way at fares about 30% lower. How should the incumbent respond?",
+      "clarifyingFacts": [
+        "Q: What is the objective? A: Protect route profit; the state-owned group uses it to fund regional services beyond what its public service contract compensates.",
+        "Q: Who travels on the route? A: Leisure travellers are 55% of revenue and book early on price; business travellers are 45% and value frequency and flexibility.",
+        "Q: What limits the incumbent? A: As the dominant operator it cannot price below cost under competition law, and peak paths in next year's timetable are fully allocated; the entrant's 4 departures are in off-peak paths.",
+        "Q: What happened elsewhere? A: On comparable routes, an entrant of similar size took 15-20% of leisure travellers within two years."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "How should the incumbent respond to a lower-fare entrant on its main route?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Size of the threat",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Leisure revenue at risk (55% of €650 million)",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Entrant capacity (4 vs 30 departures)"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Expected share of leisure travellers taken (15-20%)"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Business revenue at risk (45% of €650 million)",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Value placed on frequency and flexibility"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Corporate travel policies pushing cheaper fares"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Response options",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Price",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Targeted low fares around the entrant's departures"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Low-cost sub-brand"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Product and service",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Corporate contracts and loyalty benefits"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Through-ticketing with regional trains"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Timetable (bracket the entrant's off-peak departures)"
+              },
+              {
+                "id": "b4",
+                "label": "Accommodate (no direct response)"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Limits on the incumbent's response",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Legal and capacity limits",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Competition-law bar on below-cost fares"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "No spare peak paths in next year's timetable"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Owner's need for route profit to fund regional services"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Revenue at risk is about €55-70 million a year (15-20% of €357 million leisure revenue), so a blanket 30% fare cut costing about €195 million would do far more damage than the entrant.",
+        "Business travellers will mostly stay, because 30 departures against 4 is worth more to them than a 30% saving; the response should target leisure fares around the entrant's departure times."
+      ],
+      "hints": [
+        "hint 1: order the logic before listing tactics: do not choose a response until you know what it has to protect",
+        "hint 2: first-level branches are size of the threat, response options, and limits on the incumbent's response",
+        "hint 3: limits split into legal and capacity limits (competition law on below-cost fares, no spare peak paths) and the owner's need for route profit"
+      ],
+      "keyMetrics": [
+        {
+          "name": "Revenue at risk",
+          "formula": "leisure revenue x share taken + business revenue x share taken"
+        },
+        {
+          "name": "Net cost of a fare response",
+          "formula": "fare cut x passengers who would have paid full fare - margin on passengers kept or won back"
+        }
+      ],
+      "commonMistakes": [
+        "Matching the entrant's fares across the whole timetable, giving away far more revenue than the entrant could ever take.",
+        "Forgetting competition law: a dominant incumbent that prices below cost to drive out an entrant risks an abuse-of-dominance finding."
+      ],
+      "frameworkPick": {
+        "options": [
+          "competitive-response",
+          "pricing",
+          "market-entry",
+          "profitability"
+        ],
+        "correct": [
+          "competitive-response"
+        ],
+        "why": "The trigger is a rival's move and the question is how to react, so the answer must size the threat, set out options and weigh them against constraints.",
+        "distractorWhyNot": {
+          "pricing": "Fares are one response lever, but non-price options and the size of the threat matter too.",
+          "market-entry": "It is the rival that is entering; the client is defending.",
+          "profitability": "Profit has not fallen yet; the question is how to act on a competitor's announced move."
+        }
+      }
+    },
+    {
+      "id": "public-c10",
+      "title": "Municipal water utility funding crisis",
+      "industry": "public",
+      "framework": "turnaround",
+      "secondary": [
+        "profitability"
+      ],
+      "difficulty": "Advanced",
+      "region": "India",
+      "prompt": "A municipal water utility serving a city of about 40 lakh people produces 600 million litres a day but bills only 330. It collects ₹80 crore a year against operating costs of ₹250 crore, and the state, which covers the gap, is cutting its grant by ₹50 crore from next April. Salaries are already two months late. How should the utility close the ₹50 crore gap within 18 months?",
+      "clarifyingFacts": [
+        "Q: How is the tariff set? A: About ₹9 per kilolitre on average, unchanged for ten years; any rise needs municipal council approval, and council elections are 14 months away.",
+        "Q: What makes up costs? A: Electricity for pumping ₹90 crore, staff ₹110 crore, chemicals ₹30 crore and repairs ₹20 crore.",
+        "Q: How much of what is billed is collected? A: About 74%; arrears from government offices and housing societies total ₹140 crore.",
+        "Q: Why is so much water unbilled? A: Management blames illegal connections, but a pilot in five metered zones found about 65% of the loss is physical leakage from old pipes and 35% is illegal connections, faulty meters and unbilled public taps."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "How can the utility close a ₹50 crore annual gap within 18 months?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Collect more of what is already billed (74% today)",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Arrears recovery (₹140 crore, one-off cash)",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Government department dues"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Housing society and commercial dues"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Collection rate on current bills",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Billing accuracy and bill delivery"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Payment channels and disconnection enforcement"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Bill more of the water produced (55% billed today)",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Commercial losses (about 35% of unbilled water)",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Illegal connections regularised"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Faulty or missing meters replaced"
+                  },
+                  {
+                    "id": "b1z",
+                    "label": "Public taps and bulk users brought onto billing"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Physical leakage (about 65% of unbilled water)",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Repairs in the worst-leaking zones"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Pressure management"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Raise revenue per kilolitre billed",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Average tariff level (₹9, unchanged ten years)"
+              },
+              {
+                "id": "c2",
+                "label": "Tariff structure",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "Higher slabs for heavy domestic users"
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "Commercial and bulk tariffs"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Cut operating cost per kilolitre produced",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Electricity for pumping (₹90 crore)",
+                "children": [
+                  {
+                    "id": "d1x",
+                    "label": "Pump efficiency"
+                  },
+                  {
+                    "id": "d1y",
+                    "label": "Power tariff category and time-of-day use"
+                  }
+                ]
+              },
+              {
+                "id": "d2",
+                "label": "Staff cost (₹110 crore)"
+              },
+              {
+                "id": "d3",
+                "label": "Chemicals and repairs (₹50 crore)"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Collection is the fastest lever: raising the collection rate from 74% to 88% adds about ₹15 crore a year, and recovering a third of the ₹140 crore arrears gives about ₹47 crore of one-off cash to bridge the first 12 months.",
+        "Chasing illegal connections alone will disappoint: the zone pilot puts them at no more than 35% of losses, while fixing physical leaks needs capital and 2-3 years, so leakage cannot close the gap inside 18 months.",
+        "A tariff rise is the largest recurring lever (20% adds about ₹19 crore at 88% collection) but must go to the council within about six months, before the election window closes."
+      ],
+      "hints": [
+        "hint 1: write the utility's cash position as an equation and make each term a branch",
+        "hint 2: first-level branches are collect more of what is billed, bill more of what is produced, raise revenue per kilolitre, and cut cost per kilolitre",
+        "hint 3: cost per kilolitre splits into electricity for pumping (pump efficiency, power tariff category and time-of-day use), staff, and chemicals and repairs"
+      ],
+      "keyMetrics": [
+        {
+          "name": "Non-revenue water",
+          "formula": "(water produced - water billed) / water produced"
+        },
+        {
+          "name": "Cash collected",
+          "formula": "water produced x (1 - non-revenue water) x average tariff x collection rate"
+        },
+        {
+          "name": "Operating cost per kilolitre",
+          "formula": "operating cost / water produced"
+        }
+      ],
+      "commonMistakes": [
+        "Accepting management's view that theft drives losses, when the metered-zone data puts physical leakage at nearly two-thirds of the loss.",
+        "Offering a leakage-reduction programme as the answer to an 18-month cash gap, ignoring that it needs capital and years to pay back."
+      ],
+      "frameworkPick": {
+        "options": [
+          "turnaround",
+          "profitability",
+          "operations",
+          "pricing"
+        ],
+        "correct": [
+          "turnaround",
+          "profitability"
+        ],
+        "why": "Salaries are already late and a grant cut is fixed, so the utility needs a turnaround approach that secures cash first, with levers drawn from a revenue and cost breakdown of the gap.",
+        "distractorWhyNot": {
+          "operations": "Leakage and pumping efficiency are operational levers, but the question is closing a funding gap across revenue and cost within 18 months.",
+          "pricing": "The tariff is one lever and is politically constrained; collection and cost levers matter as much."
+        }
+      }
+    },
+    {
+      "id": "public-c11",
+      "title": "PE diligence on a dialysis PPP operator",
+      "industry": "public",
+      "framework": "pe-dd",
+      "secondary": [
+        "market-sizing"
+      ],
+      "difficulty": "Advanced",
+      "region": "India",
+      "prompt": "A PE fund is considering buying 70% of an Indian company that runs about 2,000 dialysis machines in government hospitals under public-private partnership contracts in five states. Revenue is about ₹320 crore at an 18% EBITDA margin, and the seller wants about 14 times EBITDA. Should the fund invest?",
+      "clarifyingFacts": [
+        "Q: How is the company paid? A: State health departments pay a fixed ₹1,700-2,300 per session under 5-7 year contracts; patients pay nothing. About 70% of contracts have no price indexation.",
+        "Q: What does the fund need? A: A 25% IRR over five years, with exit to a strategic buyer or through an IPO. For a first cut, treat the price as enterprise value for a debt-free business and ignore debt financing and interim dividends.",
+        "Q: Working capital? A: Receivables have risen from 120 to 230 days of revenue in two years; two states account for 60% of overdue amounts, and the gap has been funded with short-term debt.",
+        "Q: Contract renewals? A: Contracts covering 40% of revenue come up for re-tender in the next two years, and tenders go to the lowest qualified bidder."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Should the fund buy 70% of the dialysis PPP operator at about 14x EBITDA?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Market attractiveness",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Demand for subsidised dialysis",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Patients needing dialysis versus those treated today"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Roll-out of government dialysis to more districts"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "How states buy dialysis",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Share outsourced to PPP versus run in-house"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Tender design (lowest bidder, rate caps)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Target's competitive position",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Re-tender win rate and new-contract pipeline"
+              },
+              {
+                "id": "b2",
+                "label": "Cost per session versus rivals",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Machine utilisation (shifts per day)"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Consumables and technician cost"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Clinical quality record (infections, mortality, audits)"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Quality of earnings and cash",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Revenue visibility",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Contracts up for re-tender (40% of revenue)"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Rates without indexation (70% of contracts)"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Cash conversion",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "Receivable days (120 to 230)"
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "Overdue amounts concentrated in two states"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Deal value and exit",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Entry price (about ₹806 crore EV: 14 x ₹58 crore EBITDA)"
+              },
+              {
+                "id": "d2",
+                "label": "Value-creation levers (utilisation, new states, procurement)"
+              },
+              {
+                "id": "d3",
+                "label": "Exit route and buyer appetite"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Reported EBITDA overstates cash: receivables at 230 days tie up about ₹200 crore, and returning to 120 days would release about ₹96 crore, so returns hinge on two states' payment behaviour.",
+        "Margins are at risk on renewal: if re-tendered contracts (40% of revenue) come back 12-15% cheaper with costs unchanged, EBITDA margin falls from 18% to about 13-14%, before any cost inflation on the 70% of contracts without indexation.",
+        "The price is too high for the return target: at about ₹806 crore EV, a 25% unlevered IRR over five years needs an exit value near ₹2,460 crore, so EBITDA must triple to about ₹176 crore at a 14x exit (roughly 48 lakh sessions a year against 16 lakh today), which only large new state contracts could supply."
+      ],
+      "hints": [
+        "hint 1: use the standard diligence logic, but test every answer against whether government revenue turns into cash",
+        "hint 2: first-level branches are market attractiveness, competitive position, quality of earnings and cash, and deal value and exit",
+        "hint 3: competitive position splits into re-tender win rate, cost per session versus rivals (machine utilisation, consumables and technician cost) and clinical quality record"
+      ],
+      "keyMetrics": [
+        {
+          "name": "Receivable days",
+          "formula": "trade receivables / annual revenue x 365"
+        },
+        {
+          "name": "Cash conversion",
+          "formula": "operating cash flow / EBITDA"
+        },
+        {
+          "name": "Required exit EBITDA",
+          "formula": "entry EV x (1 + target IRR)^years / exit EV-to-EBITDA multiple"
+        }
+      ],
+      "commonMistakes": [
+        "Valuing the business on EBITDA without noticing that EBITDA is not turning into cash because states pay late.",
+        "Treating government contracts as safe recurring revenue when they are re-tendered to the lowest bidder every 5-7 years."
+      ],
+      "frameworkPick": {
+        "options": [
+          "pe-dd",
+          "market-sizing",
+          "ma",
+          "operations"
+        ],
+        "correct": [
+          "pe-dd",
+          "market-sizing"
+        ],
+        "why": "A financial buyer deciding whether to invest needs full diligence (market, position, earnings quality, price and exit), and the growth case rests on sizing the untreated need and how much of it states will pay for.",
+        "distractorWhyNot": {
+          "ma": "This is a financial investor's diligence, not a strategic buyer integrating the business for synergies.",
+          "operations": "Utilisation and cost per session are diligence items, but the decision is whether to invest at this price."
+        }
+      }
+    },
+    {
+      "id": "public-c12",
+      "title": "Nutrition NGO weighs merger with partner",
+      "industry": "public",
+      "framework": "ma",
+      "secondary": [
+        "growth"
+      ],
+      "difficulty": "Advanced",
+      "region": "India",
+      "prompt": "A Mumbai-based nutrition NGO with a ₹180 crore annual budget, 40% of it from foreign donors, is considering a merger with a smaller maternal-health NGO in Jharkhand (budget ₹42 crore, 65% foreign-funded, 900 community health workers). The board sees a chance to build a 'first 1,000 days' programme covering pregnancy to age two. Should it go ahead, and in what form?",
+      "clarifyingFacts": [
+        "Q: What is the goal? A: Reach 5 lakh mothers and infants a year within three years with a combined pregnancy-to-age-two programme.",
+        "Q: Any regulatory issue? A: Since the 2020 FCRA amendment, foreign contribution cannot be transferred to another organisation, so the target's foreign grants cannot simply move across; foreign donors would have to re-grant to the merged entity.",
+        "Q: What do the target's stakeholders want? A: Two foreign foundations providing 45% of its budget are open to re-granting but want their programme kept intact; the founder wants to keep the Jharkhand brand under local leadership.",
+        "Q: Costs? A: The target spends about 18% of its budget on administration against 9% at the client; the client's field workers cost about ₹45 crore a year and are paid about 25% less than the target's."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Should the NGO merge with the maternal-health NGO, and in what form?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Impact case",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Programme fit from pregnancy to age two",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Overlap in districts and households served"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Evidence that joint delivery improves outcomes (low birth weight, stunting)"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Reach towards 5 lakh mothers and infants a year"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Financial case",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Cost savings",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Target administration from 18% to about 11% of budget"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Shared procurement and monitoring systems"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Cost increases",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Levelling field worker pay (25% gap)"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Integration and systems cost"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Funding kept after the merger",
+                "children": [
+                  {
+                    "id": "b3x",
+                    "label": "Foreign grants re-granted (65% of target budget)"
+                  },
+                  {
+                    "id": "b3y",
+                    "label": "Domestic and CSR funding continuity"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Feasibility",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Legal route (FCRA transfer bar, registrations of the merged entity)"
+              },
+              {
+                "id": "c2",
+                "label": "Leadership, brand and culture",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "Founder's role and local leadership"
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "Brand recognition with Jharkhand communities"
+                  }
+                ]
+              },
+              {
+                "id": "c3",
+                "label": "Transition of 900 community health workers"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Alternatives to a full merger",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Joint programme under a consortium grant"
+              },
+              {
+                "id": "d2",
+                "label": "Client funds the target with domestic money only"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "The FCRA transfer bar puts about ₹27 crore (65% of the target's budget) at risk: even if the two foundations (about ₹19 crore) re-grant, about ₹8 crore from other foreign donors must be re-secured before closing, or the merger shrinks the combined programme.",
+        "The administration saving of about ₹3 crore a year (target from 18% to 11%) is dwarfed by pay levelling: lifting the client's ₹45 crore field payroll to the target's scale costs about ₹15 crore a year, so the case must rest on impact rather than cost.",
+        "A consortium programme may capture most of the impact without the legal and funding risk, so it should be the base case against which the merger is judged."
+      ],
+      "hints": [
+        "hint 1: test the merger as you would a corporate deal, but with impact in place of profit as the payoff",
+        "hint 2: first-level branches are impact case, financial case, feasibility, and alternatives to a full merger",
+        "hint 3: the financial case splits into cost savings, cost increases, and funding kept after the merger (foreign grants re-granted, domestic funding)"
+      ],
+      "keyMetrics": [
+        {
+          "name": "Cost per mother-infant pair reached",
+          "formula": "combined programme cost / mother-infant pairs served"
+        },
+        {
+          "name": "Funding at risk",
+          "formula": "target's foreign-funded budget x share not re-granted"
+        }
+      ],
+      "commonMistakes": [
+        "Leading with corporate-style cost synergies when the board's goal is impact and the savings are small.",
+        "Ignoring that foreign grants cannot move across under FCRA, which can make a merger destroy funding rather than pool it."
+      ],
+      "frameworkPick": {
+        "options": [
+          "ma",
+          "growth",
+          "market-entry",
+          "turnaround"
+        ],
+        "correct": [
+          "ma",
+          "growth"
+        ],
+        "why": "The decision is whether to combine two organisations (rationale, value, feasibility, alternatives), and the purpose is growing reach, so the merger must be tested against partnership and organic routes to the 5 lakh target.",
+        "distractorWhyNot": {
+          "market-entry": "The client would not enter Jharkhand on its own; it would combine with an organisation already there.",
+          "turnaround": "Neither NGO is in distress; this is an opportunity, not a rescue."
+        }
+      }
+    }
+  ],
+  "flaws": [
+    {
+      "id": "public-f01",
+      "title": "Fall in child immunisation",
+      "industry": "public",
+      "framework": "operations",
+      "difficulty": "Beginner",
+      "tree": {
+        "id": "r",
+        "label": "Why are fewer children fully immunised in the district this year (survey-verified)?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Fewer children brought to sessions",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Caregivers unaware or unconvinced (due dates, fear of side effects)"
+              },
+              {
+                "id": "a2",
+                "label": "Caregivers unable to come (migration, distance, work)"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Fewer sessions held as planned",
+            "children": [
+              {
+                "id": "b1",
+                "label": "No ANM available (vacant post, leave, other duties)"
+              },
+              {
+                "id": "b2",
+                "label": "No venue or mobiliser (anganwadi closed, ASHA absent)"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "r",
+          "type": "gap",
+          "explanation": "The tree covers children not arriving and sessions not happening, but misses sessions that are held with children present where the vaccine itself is not available (stock-outs or cold-chain failure).",
+          "fix": "Add a third branch 'Vaccines unavailable at sessions held', split into stock-outs at the session site and doses spoiled by cold-chain failure."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Why are fewer children fully immunised in the district this year (survey-verified)?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Fewer children brought to sessions",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Caregivers unaware or unconvinced (due dates, fear of side effects)"
+              },
+              {
+                "id": "a2",
+                "label": "Caregivers unable to come (migration, distance, work)"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Fewer sessions held as planned",
+            "children": [
+              {
+                "id": "b1",
+                "label": "No ANM available (vacant post, leave, other duties)"
+              },
+              {
+                "id": "b2",
+                "label": "No venue or mobiliser (anganwadi closed, ASHA absent)"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Vaccines unavailable at sessions held",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Stock-outs at the session site"
+              },
+              {
+                "id": "c2",
+                "label": "Doses spoiled by cold-chain failure"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "public-f02",
+      "title": "Public bus operator revenue",
+      "industry": "public",
+      "framework": "profitability",
+      "difficulty": "Beginner",
+      "tree": {
+        "id": "r",
+        "label": "Revenue of a city's public bus operator",
+        "children": [
+          {
+            "id": "a",
+            "label": "Single-journey tickets",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Paper tickets (on board or at counters)"
+              },
+              {
+                "id": "a2",
+                "label": "Digital tickets (mobile, QR, smart card)"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Passes",
+            "children": [
+              {
+                "id": "b1",
+                "label": "General monthly passes"
+              },
+              {
+                "id": "b2",
+                "label": "Concession passes (students, seniors)"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Fare revenue from students"
+          },
+          {
+            "id": "d",
+            "label": "Payments from the state and third parties",
+            "children": [
+              {
+                "id": "d1",
+                "label": "State payments (concession reimbursement, operating grants)"
+              },
+              {
+                "id": "d2",
+                "label": "Advertising on buses and shelters"
+              },
+              {
+                "id": "d3",
+                "label": "Property and other income (depot leasing, parcels)"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "c",
+          "type": "overlap",
+          "explanation": "Students pay either with single-journey tickets or with concession passes, so their fares are already inside branches a and b; a separate student branch counts the same money twice.",
+          "fix": "Remove 'Fare revenue from students'; if student revenue matters, show it as a cut within tickets and passes rather than a separate branch."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Revenue of a city's public bus operator",
+        "children": [
+          {
+            "id": "a",
+            "label": "Single-journey tickets",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Paper tickets (on board or at counters)"
+              },
+              {
+                "id": "a2",
+                "label": "Digital tickets (mobile, QR, smart card)"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Passes",
+            "children": [
+              {
+                "id": "b1",
+                "label": "General monthly passes"
+              },
+              {
+                "id": "b2",
+                "label": "Concession passes (students, seniors)"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Payments from the state and third parties",
+            "children": [
+              {
+                "id": "d1",
+                "label": "State payments (concession reimbursement, operating grants)"
+              },
+              {
+                "id": "d2",
+                "label": "Advertising on buses and shelters"
+              },
+              {
+                "id": "d3",
+                "label": "Property and other income (depot leasing, parcels)"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "public-f03",
+      "title": "Bus corporation cost per km",
+      "industry": "public",
+      "framework": "profitability",
+      "difficulty": "Intermediate",
+      "tree": {
+        "id": "r",
+        "label": "Why has a state transport corporation's cost per bus-km risen 15%?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Fuel cost",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Diesel price per litre"
+              },
+              {
+                "id": "a2",
+                "label": "Fuel efficiency (km per litre)"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Maintenance cost",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Spare parts and tyres"
+              },
+              {
+                "id": "b2",
+                "label": "Workshop labour (in-house and outsourced)"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Crew cost",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Crew headcount"
+              },
+              {
+                "id": "c2",
+                "label": "Pay per crew member"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Overheads and capital cost",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Depreciation and interest"
+              },
+              {
+                "id": "d2",
+                "label": "Motor vehicle tax, tolls and insurance"
+              },
+              {
+                "id": "d3",
+                "label": "Depot and head-office administration"
+              }
+            ]
+          },
+          {
+            "id": "e",
+            "label": "Earnings per km (EPKM)"
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "e",
+          "type": "not-a-driver",
+          "explanation": "Earnings per km is the revenue side of the business; it does not change what each km costs and belongs in a profit tree, not a cost-per-km tree.",
+          "fix": "Remove 'Earnings per km'."
+        },
+        {
+          "nodeId": "r",
+          "type": "gap",
+          "explanation": "Cost per km is total cost divided by km operated, but the tree lists only cost items. If buses run fewer km (cancelled schedules, buses off road), crew, overheads and depreciation are spread over fewer km and cost per km rises even with no cost increase.",
+          "fix": "Regroup the cost branches under 'Total operating cost' and add 'Bus-km operated', split into buses on road and km per bus per day."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Why has a state transport corporation's cost per bus-km risen 15%?",
+        "children": [
+          {
+            "id": "x",
+            "label": "Total operating cost",
+            "children": [
+              {
+                "id": "a",
+                "label": "Fuel cost",
+                "children": [
+                  {
+                    "id": "a1",
+                    "label": "Diesel price per litre"
+                  },
+                  {
+                    "id": "a2",
+                    "label": "Fuel efficiency (km per litre)"
+                  }
+                ]
+              },
+              {
+                "id": "b",
+                "label": "Maintenance cost",
+                "children": [
+                  {
+                    "id": "b1",
+                    "label": "Spare parts and tyres"
+                  },
+                  {
+                    "id": "b2",
+                    "label": "Workshop labour (in-house and outsourced)"
+                  }
+                ]
+              },
+              {
+                "id": "c",
+                "label": "Crew cost",
+                "children": [
+                  {
+                    "id": "c1",
+                    "label": "Crew headcount"
+                  },
+                  {
+                    "id": "c2",
+                    "label": "Pay per crew member"
+                  }
+                ]
+              },
+              {
+                "id": "d",
+                "label": "Overheads and capital cost",
+                "children": [
+                  {
+                    "id": "d1",
+                    "label": "Depreciation and interest"
+                  },
+                  {
+                    "id": "d2",
+                    "label": "Motor vehicle tax, tolls and insurance"
+                  },
+                  {
+                    "id": "d3",
+                    "label": "Depot and head-office administration"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "y",
+            "label": "Bus-km operated",
+            "children": [
+              {
+                "id": "y1",
+                "label": "Buses on road per day"
+              },
+              {
+                "id": "y2",
+                "label": "Km per bus per day"
+              }
+            ]
+          }
+        ]
+      },
+      "decoys": [
+        {
+          "nodeId": "b2",
+          "whyFine": "Workshop labour looks like a second count of crew cost, but crew means drivers and conductors, while mechanics' wages are a maintenance cost."
+        },
+        {
+          "nodeId": "d1",
+          "whyFine": "Depreciation and interest look like non-operating items, but state transport corporations include them in reported cost per km, and both are spread over km run."
+        }
+      ]
+    },
+    {
+      "id": "public-f04",
+      "title": "Scholarship scheme reaching too few",
+      "industry": "public",
+      "framework": "growth",
+      "difficulty": "Intermediate",
+      "tree": {
+        "id": "r",
+        "label": "Why do only 60% of eligible students receive a state's post-matric scholarship?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Students aware of the scheme",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Information from school or college"
+              },
+              {
+                "id": "a2",
+                "label": "Other channels (media, local offices, peers)"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Applications completed",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Student judges the amount worth the effort"
+              },
+              {
+                "id": "b2",
+                "label": "Documents (income and caste certificates, marksheets) obtained in time"
+              },
+              {
+                "id": "b3",
+                "label": "Portal errors and deadlines"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Applications verified and approved",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Institute verification delays"
+              },
+              {
+                "id": "c2",
+                "label": "District-level approval (backlog, wrongful rejections)"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Payments credited",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Bank account active"
+              },
+              {
+                "id": "d2",
+                "label": "Payment file processed by the treasury"
+              }
+            ]
+          },
+          {
+            "id": "e",
+            "label": "Aadhaar seeded to the bank account"
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "e",
+          "type": "mixed-levels",
+          "explanation": "Aadhaar seeding is one reason a payment fails to land, at the same level as the account being active; placing it beside the four stages of the funnel mixes a sub-cause with a stage.",
+          "fix": "Move 'Aadhaar seeded to the bank account' under 'Payments credited' as a third child."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Why do only 60% of eligible students receive a state's post-matric scholarship?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Students aware of the scheme",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Information from school or college"
+              },
+              {
+                "id": "a2",
+                "label": "Other channels (media, local offices, peers)"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Applications completed",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Student judges the amount worth the effort"
+              },
+              {
+                "id": "b2",
+                "label": "Documents (income and caste certificates, marksheets) obtained in time"
+              },
+              {
+                "id": "b3",
+                "label": "Portal errors and deadlines"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Applications verified and approved",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Institute verification delays"
+              },
+              {
+                "id": "c2",
+                "label": "District-level approval (backlog, wrongful rejections)"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Payments credited",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Bank account active"
+              },
+              {
+                "id": "d2",
+                "label": "Payment file processed by the treasury"
+              },
+              {
+                "id": "d3",
+                "label": "Aadhaar seeded to the bank account"
+              }
+            ]
+          }
+        ]
+      },
+      "decoys": [
+        {
+          "nodeId": "b1",
+          "whyFine": "It sounds like an attitude rather than a driver, but a small award relative to the paperwork is a real reason eligible students never finish applying."
+        }
+      ]
+    },
+    {
+      "id": "public-f05",
+      "title": "Hospital cost per inpatient day",
+      "industry": "public",
+      "framework": "operations",
+      "difficulty": "Intermediate",
+      "tree": {
+        "id": "r",
+        "label": "Why has a government hospital's cost per inpatient day risen 20%?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Inpatient cost (including allocated shared costs)",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Staff",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Regular staff salaries"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Contract nurses and ward staff supplied by manpower agencies"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Drugs, consumables and medical gases"
+              },
+              {
+                "id": "a3",
+                "label": "Utilities (electricity, water, fuel)"
+              },
+              {
+                "id": "a4",
+                "label": "Outsourced service and maintenance contracts",
+                "children": [
+                  {
+                    "id": "a4x",
+                    "label": "Housekeeping and security contracts"
+                  },
+                  {
+                    "id": "a4y",
+                    "label": "Diet and laundry contracts"
+                  },
+                  {
+                    "id": "a4w",
+                    "label": "Equipment maintenance contracts"
+                  },
+                  {
+                    "id": "a4v",
+                    "label": "Other contracts (biomedical waste, IT)"
+                  },
+                  {
+                    "id": "a4z",
+                    "label": "Manpower agency invoices"
+                  }
+                ]
+              },
+              {
+                "id": "a5",
+                "label": "Other running costs (administration, in-house minor repairs)"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Inpatient days",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Admissions"
+              },
+              {
+                "id": "b2",
+                "label": "Average length of stay"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "a4z",
+          "type": "overlap",
+          "explanation": "Manpower agency invoices are how the hospital pays for the contract nurses and ward staff already counted under Staff (a1y), so the same spend appears twice under different wording.",
+          "fix": "Remove 'Manpower agency invoices' and keep contract staff under Staff."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Why has a government hospital's cost per inpatient day risen 20%?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Inpatient cost (including allocated shared costs)",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Staff",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Regular staff salaries"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Contract nurses and ward staff supplied by manpower agencies"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Drugs, consumables and medical gases"
+              },
+              {
+                "id": "a3",
+                "label": "Utilities (electricity, water, fuel)"
+              },
+              {
+                "id": "a4",
+                "label": "Outsourced service and maintenance contracts",
+                "children": [
+                  {
+                    "id": "a4x",
+                    "label": "Housekeeping and security contracts"
+                  },
+                  {
+                    "id": "a4y",
+                    "label": "Diet and laundry contracts"
+                  },
+                  {
+                    "id": "a4w",
+                    "label": "Equipment maintenance contracts"
+                  },
+                  {
+                    "id": "a4v",
+                    "label": "Other contracts (biomedical waste, IT)"
+                  }
+                ]
+              },
+              {
+                "id": "a5",
+                "label": "Other running costs (administration, in-house minor repairs)"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Inpatient days",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Admissions"
+              },
+              {
+                "id": "b2",
+                "label": "Average length of stay"
+              }
+            ]
+          }
+        ]
+      },
+      "decoys": [
+        {
+          "nodeId": "b2",
+          "whyFine": "Length of stay looks like it belongs on the cost side, but it sets inpatient days, the denominator: longer stays spread fixed cost and lower cost per day."
+        },
+        {
+          "nodeId": "a1y",
+          "whyFine": "Agency-supplied nurses look like an outsourced contract, but they are staff cost and this is their one correct home; the duplicate is elsewhere."
+        }
+      ]
+    },
+    {
+      "id": "public-f06",
+      "title": "Drug stock-outs despite full spending",
+      "industry": "public",
+      "framework": "operations",
+      "difficulty": "Advanced",
+      "tree": {
+        "id": "r",
+        "label": "Why PHC stock-outs when a need-based budget at benchmark prices is spent?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Demand forecasting and indents",
+            "children": [
+              {
+                "id": "a1",
+                "label": "PHC indents versus actual consumption",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Consumption data in the drug logistics system"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Indent formula ignoring seasonal disease peaks"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Central annual demand estimate"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Procurement",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Tender timing",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Tenders finalised late in the year"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Failed tenders needing re-bids"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Supplier delivery failures",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Short supply against purchase orders"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Batches rejected in quality testing"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Warehousing and distribution",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Stock held at warehouses",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Late receipt from suppliers at the central warehouse"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Stock expiring before issue"
+                  },
+                  {
+                    "id": "c1z",
+                    "label": "Allocation across districts versus indents"
+                  },
+                  {
+                    "id": "c1w",
+                    "label": "Damage or inventory record errors"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Transport from district warehouse to PHC",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "Delivery frequency"
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "Vehicle availability"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Use at the facility",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Over-prescribing that drains stock"
+              },
+              {
+                "id": "d2",
+                "label": "Diversion and pilferage"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "b",
+          "type": "gap",
+          "explanation": "If the budget matches need at benchmark prices and is fully spent, yet stock is short, the state is getting fewer units per rupee. Procurement covers timing and supplier failures but misses the price paid: rate contracts above benchmark and emergency local purchases, typically at two to three times rate-contract prices, both use up the budget on fewer units.",
+          "fix": "Add 'Units bought per rupee' under Procurement, split into rate-contract prices versus benchmark and the share of budget spent on emergency local purchase."
+        },
+        {
+          "nodeId": "c1x",
+          "type": "overlap",
+          "explanation": "'Late receipt from suppliers at the central warehouse' is the same event as supplier delivery failures (b2), described from the warehouse's side rather than the supplier's.",
+          "fix": "Remove it from warehousing; keep supplier shortfalls under Procurement."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Why PHC stock-outs when a need-based budget at benchmark prices is spent?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Demand forecasting and indents",
+            "children": [
+              {
+                "id": "a1",
+                "label": "PHC indents versus actual consumption",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Consumption data in the drug logistics system"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Indent formula ignoring seasonal disease peaks"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Central annual demand estimate"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Procurement",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Tender timing",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Tenders finalised late in the year"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Failed tenders needing re-bids"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Supplier delivery failures",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Short supply against purchase orders"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Batches rejected in quality testing"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Units bought per rupee",
+                "children": [
+                  {
+                    "id": "b3x",
+                    "label": "Rate-contract prices versus benchmark"
+                  },
+                  {
+                    "id": "b3y",
+                    "label": "Share of budget spent on emergency local purchase"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Warehousing and distribution",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Stock held at warehouses",
+                "children": [
+                  {
+                    "id": "c1y",
+                    "label": "Stock expiring before issue"
+                  },
+                  {
+                    "id": "c1z",
+                    "label": "Allocation across districts versus indents"
+                  },
+                  {
+                    "id": "c1w",
+                    "label": "Damage or inventory record errors"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Transport from district warehouse to PHC",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "Delivery frequency"
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "Vehicle availability"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Use at the facility",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Over-prescribing that drains stock"
+              },
+              {
+                "id": "d2",
+                "label": "Diversion and pilferage"
+              }
+            ]
+          }
+        ]
+      },
+      "decoys": [
+        {
+          "nodeId": "c1z",
+          "whyFine": "Allocation across districts sounds like the indent problem again, but it is the warehouse's decision on how to split scarce stock, a separate failure point."
+        },
+        {
+          "nodeId": "d1",
+          "whyFine": "Over-prescribing looks like a forecasting error, but it is consumption above clinical need at the facility, which drains stock even when indents are accurate."
+        }
+      ]
+    },
+    {
+      "id": "public-f07",
+      "title": "Rising cost of rural roads",
+      "industry": "public",
+      "framework": "profitability",
+      "difficulty": "Advanced",
+      "tree": {
+        "id": "r",
+        "label": "Why has the cost per km of bituminous rural roads risen 30%?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Work content per km",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Design specification",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Carriageway width"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Pavement thickness for heavier traffic"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Site conditions",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Share of roads in hilly or forest terrain"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Weak soils needing treatment"
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Bundled five-year maintenance obligation"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Input prices and taxes",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Aggregates and sand (mining restrictions)"
+              },
+              {
+                "id": "b2",
+                "label": "Cement and steel (culverts, concrete stretches)"
+              },
+              {
+                "id": "b3",
+                "label": "Labour wage rates"
+              },
+              {
+                "id": "b4",
+                "label": "Machinery hire and diesel"
+              },
+              {
+                "id": "b5",
+                "label": "GST on works contracts"
+              },
+              {
+                "id": "b6",
+                "label": "Interest on funding unpaid bills"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Contractor pricing above cost",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Bidders per tender",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Pre-qualification thresholds"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Package size"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Premium for delayed state payments",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "Average days to pay bills"
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "Disputed deductions from bills"
+                  }
+                ]
+              },
+              {
+                "id": "c3",
+                "label": "State's rural road density (km per 1,000 people)"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "c3",
+          "type": "not-a-driver",
+          "explanation": "Road density describes the state's existing network; it does not change what a contractor charges to build one more km.",
+          "fix": "Remove 'State's rural road density'."
+        },
+        {
+          "nodeId": "b",
+          "type": "gap",
+          "explanation": "The roads are bituminous, and bitumen, a refinery product priced off crude oil and separate from diesel or machinery hire, is one of the largest and most volatile material costs in the pavement; an input-price branch without it misses a likely cause of a 30% rise.",
+          "fix": "Add 'Bitumen (linked to crude oil prices)' under Input prices."
+        },
+        {
+          "nodeId": "b6",
+          "type": "overlap",
+          "explanation": "Interest on funding unpaid bills is exactly what the 'premium for delayed state payments' (c2) prices in, so the same driver is counted twice; it is also not an input price.",
+          "fix": "Remove it from Input prices and keep payment delay under contractor pricing."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Why has the cost per km of bituminous rural roads risen 30%?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Work content per km",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Design specification",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Carriageway width"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Pavement thickness for heavier traffic"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Site conditions",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Share of roads in hilly or forest terrain"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Weak soils needing treatment"
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Bundled five-year maintenance obligation"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Input prices and taxes",
+            "children": [
+              {
+                "id": "b0",
+                "label": "Bitumen (linked to crude oil prices)"
+              },
+              {
+                "id": "b1",
+                "label": "Aggregates and sand (mining restrictions)"
+              },
+              {
+                "id": "b2",
+                "label": "Cement and steel (culverts, concrete stretches)"
+              },
+              {
+                "id": "b3",
+                "label": "Labour wage rates"
+              },
+              {
+                "id": "b4",
+                "label": "Machinery hire and diesel"
+              },
+              {
+                "id": "b5",
+                "label": "GST on works contracts"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Contractor pricing above cost",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Bidders per tender",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Pre-qualification thresholds"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Package size"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Premium for delayed state payments",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "Average days to pay bills"
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "Disputed deductions from bills"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "decoys": [
+        {
+          "nodeId": "a3",
+          "whyFine": "A maintenance obligation looks like a running cost, but under such schemes five years of routine maintenance is bundled into the construction contract, so it raises the tendered cost per km."
+        },
+        {
+          "nodeId": "b5",
+          "whyFine": "A tax looks out of place among input prices, but GST is charged on the works contract value, so a rate change moves cost per km directly."
+        }
+      ]
+    }
+  ],
+  "quick": [
+    {
+      "id": "public-q01",
+      "industry": "public",
+      "difficulty": "Beginner",
+      "question": "Which split of 'Revenue of a state road transport corporation' is MECE?",
+      "parent": "Revenue of a state road transport corporation",
+      "options": [
+        {
+          "split": [
+            "Passenger fares (tickets and passes)",
+            "State payments (concession reimbursement, grants)",
+            "Non-fare revenue (advertising, parcels, rent)",
+            "Smart-card top-up receipts"
+          ],
+          "correct": false,
+          "why": "Overlap: smart-card top-ups are prepaid fares, so the same money is already inside passenger fares."
+        },
+        {
+          "split": [
+            "Ticket fares (full and concessional)",
+            "State payments (concession reimbursement, grants)",
+            "Non-fare revenue (advertising, parcels, rent)"
+          ],
+          "correct": false,
+          "why": "Gap: leaves out pass revenue (monthly, student and senior passes), often a large share of fares on city and suburban services."
+        },
+        {
+          "split": [
+            "Passenger fares (tickets and passes)",
+            "State payments (concession reimbursement, grants)",
+            "Non-fare revenue (advertising, parcels, rent)"
+          ],
+          "correct": true,
+          "why": "Splits by who pays: passengers, the state, and third parties; every rupee lands in exactly one bucket."
+        },
+        {
+          "split": [
+            "Passenger fares (tickets and passes)",
+            "State payments (concession reimbursement, grants)",
+            "Non-fare revenue (advertising, parcels, rent)",
+            "Revenue from routes launched this year"
+          ],
+          "correct": false,
+          "why": "Mixed basis: new routes are a cut by route that runs across the other three buckets, so their fares and advertising are counted twice."
+        }
+      ]
+    },
+    {
+      "id": "public-q02",
+      "industry": "public",
+      "difficulty": "Beginner",
+      "question": "Which split of 'Out-of-school children aged 6-14 in a district (never enrolled, or absent 45+ days without notice)' is MECE?",
+      "parent": "Out-of-school children aged 6-14 in a district (never enrolled, or absent 45+ days without notice)",
+      "options": [
+        {
+          "split": [
+            "Never enrolled in any school",
+            "Enrolled but absent 45+ days (struck off or still on the roll)"
+          ],
+          "correct": true,
+          "why": "Under the official definition every out-of-school child either never enrolled or enrolled and then stayed away 45 days or more, whether or not the school has struck the name off."
+        },
+        {
+          "split": [
+            "Never enrolled in any school",
+            "Dropped out (name struck off the roll)"
+          ],
+          "correct": false,
+          "why": "Gap: misses children still on a school roll but absent 45 days or more, who count as out of school under the definition."
+        },
+        {
+          "split": [
+            "Never enrolled",
+            "Enrolled but absent 45+ days",
+            "Children of seasonal migrant families"
+          ],
+          "correct": false,
+          "why": "Overlap: migrant children who are out of school already sit in one of the first two groups."
+        },
+        {
+          "split": [
+            "Never enrolled in any school",
+            "Absent 45+ days from a government school"
+          ],
+          "correct": false,
+          "why": "Gap: misses enrolled children absent 45 days or more from private and aided schools."
+        }
+      ]
+    },
+    {
+      "id": "public-q03",
+      "industry": "public",
+      "difficulty": "Beginner",
+      "question": "Which split of 'Annual running cost of a primary health centre' is MECE?",
+      "parent": "Annual running cost of a primary health centre",
+      "options": [
+        {
+          "split": [
+            "Staff (regular and contractual)",
+            "Drugs, consumables and diagnostics",
+            "Building, utilities and maintenance",
+            "NHM untied funds"
+          ],
+          "correct": false,
+          "why": "Mixed basis: untied funds are a funding source spent on items already in the other buckets (repairs, consumables), so the same spending is counted twice."
+        },
+        {
+          "split": [
+            "Regular staff salaries",
+            "Drugs, consumables and diagnostics",
+            "Building, utilities and maintenance",
+            "Equipment, transport and other costs"
+          ],
+          "correct": false,
+          "why": "Gap: leaves out contractual staff hired under the National Health Mission, a large share of PHC staff in many states."
+        },
+        {
+          "split": [
+            "Staff (regular and contractual)",
+            "Drugs and consumables",
+            "Fixed costs (building, utilities, equipment)",
+            "Variable costs (diagnostics, transport)"
+          ],
+          "correct": false,
+          "why": "Mixed basis: it mixes cost type with cost behaviour; staff are also a fixed cost and drugs also a variable one, so items fit two buckets."
+        },
+        {
+          "split": [
+            "Staff (regular and contractual)",
+            "Drugs, consumables and diagnostics",
+            "Building, utilities and maintenance",
+            "Equipment, transport and other costs"
+          ],
+          "correct": true,
+          "why": "Covers people, medicines and tests, the facility, and everything else; no cost item fits two buckets."
+        }
+      ]
+    },
+    {
+      "id": "public-q04",
+      "industry": "public",
+      "difficulty": "Intermediate",
+      "question": "Which split of 'Eligible people who never receive a scheme's DBT payment' is MECE?",
+      "parent": "Eligible people who never receive a scheme's DBT payment",
+      "options": [
+        {
+          "split": [
+            "Never enrolled",
+            "Enrolled but not approved",
+            "Approved but payment failed",
+            "Failed biometric eKYC"
+          ],
+          "correct": false,
+          "why": "Overlap: an eKYC failure stops a person at enrolment or at approval, so they already sit in one of the first two groups."
+        },
+        {
+          "split": [
+            "Never enrolled",
+            "Enrolled but not approved (rejected or pending)",
+            "Approved but payment failed"
+          ],
+          "correct": true,
+          "why": "Follows the process: every eligible person who is never paid stops at exactly one stage."
+        },
+        {
+          "split": [
+            "Never applied",
+            "Applied but rejected",
+            "Approved but payment failed"
+          ],
+          "correct": false,
+          "why": "Gap: misses applications still pending, neither rejected nor approved, often a large backlog at district level."
+        },
+        {
+          "split": [
+            "Never enrolled",
+            "Enrolled but not approved",
+            "Payment rejected by the bank (account or Aadhaar mapping)"
+          ],
+          "correct": false,
+          "why": "Gap: covers only payments the bank bounces and misses approved payments that were never sent, such as files stuck in PFMS or the treasury."
+        }
+      ]
+    },
+    {
+      "id": "public-q05",
+      "industry": "public",
+      "difficulty": "Intermediate",
+      "question": "Which split of 'Annual cost per student in a state's government schools' is MECE?",
+      "parent": "Annual cost per student in a state's government schools",
+      "options": [
+        {
+          "split": [
+            "Teacher cost per student",
+            "Pupil-teacher ratio",
+            "Entitlements per student (meals, textbooks, uniforms)",
+            "Buildings and administration per student"
+          ],
+          "correct": false,
+          "why": "Mixed levels: the pupil-teacher ratio drives teacher cost per student (average salary / PTR); it is not a cost of its own."
+        },
+        {
+          "split": [
+            "Teaching staff cost per student",
+            "Non-teaching staff cost per student",
+            "Entitlements per student (meals, textbooks, uniforms)",
+            "Samagra Shiksha spending per student"
+          ],
+          "correct": false,
+          "why": "Mixed basis: Samagra Shiksha is a funding source that pays for teachers, uniforms, textbooks and repairs already counted in the other buckets."
+        },
+        {
+          "split": [
+            "Teaching staff cost per student",
+            "Non-teaching staff cost per student",
+            "Entitlements per student (meals, textbooks, uniforms)",
+            "Buildings, upkeep and administration per student"
+          ],
+          "correct": true,
+          "why": "Separates the two kinds of staff, what each child receives directly, and the cost of running schools, with no overlap."
+        },
+        {
+          "split": [
+            "Regular teacher salaries per student",
+            "Non-teaching staff cost per student",
+            "Entitlements per student (meals, textbooks, uniforms)",
+            "Buildings, upkeep and administration per student"
+          ],
+          "correct": false,
+          "why": "Gap: leaves out contract and guest teachers, a large share of the teaching workforce in several states."
+        }
+      ]
+    },
+    {
+      "id": "public-q06",
+      "industry": "public",
+      "difficulty": "Intermediate",
+      "question": "Which split of 'Revenue receipts of a municipal corporation' is MECE?",
+      "parent": "Revenue receipts of a municipal corporation",
+      "options": [
+        {
+          "split": [
+            "Own tax revenue (property, advertisement taxes)",
+            "Own non-tax revenue (user charges, fees, rents)",
+            "Transfers (devolution, grants, assigned taxes)"
+          ],
+          "correct": true,
+          "why": "Splits by source: taxes the corporation levies, charges it collects, and money passed down or assigned by higher governments."
+        },
+        {
+          "split": [
+            "Own tax revenue (property, advertisement taxes)",
+            "Own non-tax revenue (user charges, fees, rents)",
+            "Grants from the state government"
+          ],
+          "correct": false,
+          "why": "Gap: misses central transfers such as Finance Commission grants and state taxes assigned to cities, such as a share of stamp duty."
+        },
+        {
+          "split": [
+            "Own tax revenue (property, advertisement taxes)",
+            "Own non-tax revenue (user charges, fees, rents)",
+            "Transfers (devolution, grants, assigned taxes)",
+            "Property tax arrears recovered"
+          ],
+          "correct": false,
+          "why": "Overlap: arrears recovered are property tax collections, already inside own tax revenue."
+        },
+        {
+          "split": [
+            "Own tax revenue (property, advertisement taxes)",
+            "Own non-tax revenue (user charges, fees, rents)",
+            "Transfers (devolution, grants, assigned taxes)",
+            "Municipal bond proceeds"
+          ],
+          "correct": false,
+          "why": "Not a driver: bond proceeds are borrowing, a capital receipt that must be repaid, so they do not belong in revenue receipts."
+        }
+      ]
+    },
+    {
+      "id": "public-q07",
+      "industry": "public",
+      "difficulty": "Advanced",
+      "question": "Which split of 'Annual compensation a state owes its bus corporation for free travel for women (actual loss)' is MECE?",
+      "parent": "Annual compensation a state owes its bus corporation for free travel for women (actual loss)",
+      "options": [
+        {
+          "split": [
+            "Revenue lost on women's pre-launch trips",
+            "Net fare change from other paying riders",
+            "Fare value of trips the scheme induces",
+            "Extra running cost of induced trips (buses, crew, fuel)",
+            "Scheme administration (net of ticketing savings)"
+          ],
+          "correct": false,
+          "why": "Overlap: induced trips are charged twice, once at fare value and once at the cost of carrying them; the corporation never earned those fares, so only the extra cost is a loss."
+        },
+        {
+          "split": [
+            "Single-ticket fares lost on women's pre-launch trips",
+            "Net fare change from other paying riders",
+            "Extra running cost of induced trips (buses, crew, fuel)",
+            "Scheme administration (net of ticketing savings)"
+          ],
+          "correct": false,
+          "why": "Gap: misses revenue lost on women's passes and the concession reimbursements the state used to pay for women and girl students."
+        },
+        {
+          "split": [
+            "Revenue lost on women's pre-launch trips",
+            "Net fare change from other paying riders",
+            "Running cost of routes given extra buses",
+            "Scheme administration (net of ticketing savings)"
+          ],
+          "correct": false,
+          "why": "Mixed basis: it charges the full cost of the affected routes rather than the increment, so costs the corporation bore anyway are billed to the scheme."
+        },
+        {
+          "split": [
+            "Revenue lost on women's pre-launch trips",
+            "Net fare change from other paying riders",
+            "Extra running cost of induced trips (buses, crew, fuel)",
+            "Scheme administration (net of ticketing savings)"
+          ],
+          "correct": true,
+          "why": "Actual loss = revenue lost on trips women already made, plus any fare change from other riders (crowded out, or travelling with women), plus the incremental cost of new trips and of running the scheme; each rupee falls in one bucket."
+        }
+      ]
+    },
+    {
+      "id": "public-q08",
+      "industry": "public",
+      "difficulty": "Advanced",
+      "question": "Which split of 'Cost per successfully treated TB patient in a state programme' is MECE?",
+      "parent": "Cost per successfully treated TB patient in a state programme",
+      "options": [
+        {
+          "split": [
+            "Cost per patient started on treatment",
+            "Patients started on treatment",
+            "Success rate among those started"
+          ],
+          "correct": false,
+          "why": "Overlap: patients started is already the denominator inside cost per patient started, so volume is counted twice; cost per success is simply cost per patient started / success rate."
+        },
+        {
+          "split": [
+            "Total programme cost",
+            "Patients started on treatment",
+            "Success rate among those started"
+          ],
+          "correct": true,
+          "why": "Cost per outcome = total cost / (patients started x success rate): the numerator and the two parts of the denominator, each counted once."
+        },
+        {
+          "split": [
+            "Treatment cost (diagnosis, drugs, staff)",
+            "Patients started on treatment",
+            "Success rate among those started"
+          ],
+          "correct": false,
+          "why": "Gap: the cost side omits nutrition support paid to every patient through Nikshay Poshan Yojana and overheads such as active case finding."
+        },
+        {
+          "split": [
+            "Total programme cost",
+            "Patients notified (public and private)",
+            "Success rate among those started"
+          ],
+          "correct": false,
+          "why": "Mixed basis: the success rate is measured on patients started but the volume is patients notified, so patients notified but never started break the product."
+        }
+      ]
+    }
+  ],
+  "chainDrills": [
+    {
+      "id": "public-v01",
+      "industry": "public",
+      "difficulty": "Beginner",
+      "type": "locate",
+      "prompt": "A centrally sponsored scheme's money sits unspent for five months because the centre's share arrived late and the state had not released its matching 40%. Which stage is this problem in?",
+      "options": [
+        "s1",
+        "s2",
+        "s3",
+        "s5"
+      ],
+      "answer": [
+        "s1"
+      ],
+      "why": "Fund release and centre-state matching belong to policy and funding; the money has not yet reached procurement or delivery."
+    },
+    {
+      "id": "public-v02",
+      "industry": "public",
+      "difficulty": "Beginner",
+      "type": "order",
+      "prompt": "Put the stages of public service delivery in order, from the decision to fund a scheme to the result it produces.",
+      "options": [
+        "s3",
+        "s5",
+        "s1",
+        "s4",
+        "s2"
+      ],
+      "answer": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5"
+      ],
+      "why": "Money is allocated (s1), used to buy inputs and hire staff (s2), turned into a service (s3), taken up by beneficiaries (s4), and only then can outcomes be measured and accounted for (s5)."
+    },
+    {
+      "id": "public-v03",
+      "industry": "public",
+      "difficulty": "Intermediate",
+      "type": "locate",
+      "prompt": "A state pays about 40% more per ambulance than neighbouring states for the same specification, after tenders that drew a single bidder. Which stage causes this cost?",
+      "options": [
+        "s1",
+        "s2",
+        "s3",
+        "s5"
+      ],
+      "answer": [
+        "s2"
+      ],
+      "why": "The price paid and the lack of competing bids are procurement outcomes. An audit that spots the overpayment sits in s5, but the cost is created in s2."
+    },
+    {
+      "id": "public-v04",
+      "industry": "public",
+      "difficulty": "Intermediate",
+      "type": "locate",
+      "prompt": "A survey finds 30% of eligible widows in a district do not receive the state widow pension, although every widow on the rolls is paid on time. Which stage is failing?",
+      "options": [
+        "s1",
+        "s3",
+        "s4",
+        "s5"
+      ],
+      "answer": [
+        "s4"
+      ],
+      "why": "Payments to enrolled widows work, so delivery (s3) is fine; the failure is that eligible women never get onto the rolls, an exclusion error in beneficiary uptake."
+    },
+    {
+      "id": "public-v05",
+      "industry": "public",
+      "difficulty": "Advanced",
+      "type": "locate",
+      "prompt": "An unconditional cash transfer of ₹500 a month to mothers reaches 98% of enrolled mothers on time, yet an evaluation finds no change in child nutrition because the amount is small next to household needs and goes on other essentials. Which stage caused the weak result?",
+      "options": [
+        "s1",
+        "s3",
+        "s4",
+        "s5"
+      ],
+      "answer": [
+        "s1"
+      ],
+      "why": "Delivery and uptake worked, and s5 is where the problem is detected rather than caused; the cause is the scheme's design (transfer size and no link to nutrition), decided at policy and funding."
+    },
+    {
+      "id": "public-v06",
+      "industry": "public",
+      "difficulty": "Advanced",
+      "type": "assign",
+      "prompt": "Assign each item to the stage of the service delivery chain where it belongs.",
+      "items": [
+        {
+          "item": "Finance Department sanction of a scheme's annual outlay",
+          "stage": "s1"
+        },
+        {
+          "item": "GeM order for tablets for anganwadi workers",
+          "stage": "s2"
+        },
+        {
+          "item": "Monthly honorarium paid to ASHA workers",
+          "stage": "s3"
+        },
+        {
+          "item": "Elderly applicants rejected because fingerprint eKYC fails at enrolment",
+          "stage": "s4"
+        },
+        {
+          "item": "Social audit of MGNREGA works by the gram sabha",
+          "stage": "s5"
+        },
+        {
+          "item": "Toll-free helpline that records and resolves beneficiary complaints",
+          "stage": "s5"
+        }
+      ],
+      "why": "The eKYC failure looks like a technology or delivery problem, but at enrolment it keeps eligible people off the scheme, so it is an uptake barrier (s4). The tablets are for frontline workers, but buying them is procurement and capacity (s2). The ASHA honorarium pays for the service being delivered, so it is a delivery cost (s3), not a recruitment cost. The helpline is grievance redressal, part of accountability (s5)."
+    }
+  ]
+}

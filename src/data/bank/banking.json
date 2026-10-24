@@ -1,0 +1,4084 @@
+{
+  "industry": "banking",
+  "valueChain": {
+    "summary": "Banks earn a spread by gathering deposits and borrowings cheaply and lending them out at higher rates, then add fee income from payments, cards and product distribution. Profit is what is left after operating costs and credit losses, so funding cost, pricing discipline and loss control matter as much as loan growth.",
+    "stages": [
+      {
+        "id": "s1",
+        "name": "Funding and capital",
+        "activities": [
+          "Gather current, savings and term deposits through branches and digital channels",
+          "Raise bonds, refinance and interbank borrowing",
+          "Raise equity and other regulatory capital (AT1, Tier 2)"
+        ],
+        "players": [
+          "Commercial banks",
+          "Small finance banks",
+          "Payments banks (deposits only)",
+          "NBFCs borrowing from banks and bond markets"
+        ],
+        "revenueDrivers": [
+          "Internal transfer-price credit earned on deposits",
+          "Interest-free float on current accounts"
+        ],
+        "costDrivers": [
+          "Interest paid on deposits and borrowings",
+          "Branch network cost of the deposit franchise",
+          "Deposit insurance premium"
+        ],
+        "kpis": [
+          {
+            "name": "CASA ratio",
+            "formula": "(current + savings deposits) / total deposits",
+            "benchmark": "about 33-42% for large Indian private banks (approx., FY26)"
+          },
+          {
+            "name": "Cost of deposits",
+            "formula": "interest paid on deposits / average deposits",
+            "benchmark": "about 4.5-5.5% for large Indian banks (approx., FY26), falling after the 2025 repo rate cuts"
+          },
+          {
+            "name": "Liquidity coverage ratio",
+            "formula": "high-quality liquid assets / net cash outflows over 30 days",
+            "benchmark": "regulatory minimum 100%; most banks run 110-135%"
+          }
+        ],
+        "marginNote": "A cost centre, but the biggest source of competitive advantage: every 10 points of CASA ratio is worth roughly 30-45 bp of NIM (approx.)."
+      },
+      {
+        "id": "s2",
+        "name": "Treasury and ALM",
+        "activities": [
+          "Hold CRR and SLR balances and run the investment book",
+          "Manage liquidity and interest-rate mismatch between assets and liabilities",
+          "Set internal funds transfer prices for lending and deposit businesses",
+          "Run FX and derivatives for clients"
+        ],
+        "players": [
+          "Bank treasuries",
+          "Primary dealers",
+          "Mutual funds and insurers as counterparties",
+          "RBI as regulator and liquidity provider"
+        ],
+        "revenueDrivers": [
+          "Interest on government and corporate bonds",
+          "Trading and revaluation gains",
+          "FX spreads on client flows"
+        ],
+        "costDrivers": [
+          "Negative carry on zero-yield CRR balances",
+          "Mark-to-market losses when bond yields rise",
+          "Hedging costs"
+        ],
+        "kpis": [
+          {
+            "name": "Net interest margin",
+            "formula": "net interest income / average interest-earning assets",
+            "benchmark": "about 3.3-4.5% for large private banks and 2.5-3.0% for public sector banks (approx., FY26)"
+          },
+          {
+            "name": "Credit-deposit ratio",
+            "formula": "advances / deposits",
+            "benchmark": "about 78-80% for the banking system; higher for some large private banks (approx.)"
+          },
+          {
+            "name": "Repricing gap",
+            "formula": "rate-sensitive assets - rate-sensitive liabilities within one year",
+            "benchmark": "kept within board limits; a positive gap gains when rates rise"
+          }
+        ],
+        "marginNote": "Thin and volatile direct profit; its real value is pricing funds correctly and avoiding rate and liquidity mismatches that can wipe out a year's earnings."
+      },
+      {
+        "id": "s3",
+        "name": "Sourcing and distribution",
+        "activities": [
+          "Originate loans through branches and relationship managers",
+          "Use direct selling agents, car dealers and property developers",
+          "Partner with fintechs and co-lend with NBFCs",
+          "Cross-sell to existing deposit customers"
+        ],
+        "players": [
+          "Bank branches and sales teams",
+          "Direct selling agents and loan aggregators",
+          "Dealers and developers",
+          "Fintech platforms"
+        ],
+        "revenueDrivers": [
+          "Processing fees on loans",
+          "Cross-sell of other products at the point of sale"
+        ],
+        "costDrivers": [
+          "Agent and dealer payouts per loan",
+          "Sales staff incentives",
+          "Digital marketing"
+        ],
+        "kpis": [
+          {
+            "name": "Cost of acquisition",
+            "formula": "sourcing cost / loans disbursed",
+            "benchmark": "about 0.3-0.8% of loan amount for home loans, 1.5-3% for personal loans (approx.)"
+          },
+          {
+            "name": "Login-to-disbursal conversion",
+            "formula": "loans disbursed / applications logged",
+            "benchmark": "roughly 30-50% for retail loans"
+          },
+          {
+            "name": "Share of loans to existing customers",
+            "formula": "loans to existing customers / total loans disbursed",
+            "benchmark": "higher share means cheaper, lower-risk sourcing"
+          }
+        ],
+        "marginNote": "A cost centre whose channel mix decides both the cost and the risk of the book; paying channels per disbursal without risk checks is a classic source of later losses."
+      },
+      {
+        "id": "s4",
+        "name": "Underwriting and disbursal",
+        "activities": [
+          "KYC, bureau checks and fraud screening",
+          "Income and cash-flow assessment, scorecards",
+          "Collateral valuation and legal title checks",
+          "Risk-based pricing, sanction, documentation and disbursal"
+        ],
+        "players": [
+          "Bank credit teams",
+          "Credit bureaus",
+          "Account Aggregators",
+          "Empanelled valuers and lawyers"
+        ],
+        "revenueDrivers": [
+          "Spread charged over the benchmark rate for the borrower's risk"
+        ],
+        "costDrivers": [
+          "Credit team and processing staff",
+          "Bureau, verification and valuation fees",
+          "Fraud losses"
+        ],
+        "kpis": [
+          {
+            "name": "Approval rate",
+            "formula": "applications approved / applications assessed",
+            "benchmark": "varies by product; sharp rises without a change in policy are a warning sign"
+          },
+          {
+            "name": "Turnaround time",
+            "formula": "days from application to disbursal",
+            "benchmark": "about 5-10 days for home loans at leading lenders, minutes for pre-approved personal loans"
+          },
+          {
+            "name": "Early delinquency",
+            "formula": "loans 30+ days overdue at 6 months on book / loans disbursed in that cohort",
+            "benchmark": "well under 1% for good secured retail books (approx.)"
+          }
+        ],
+        "marginNote": "A small cost line that decides most of the loan's lifetime credit cost; a mispriced or badly underwritten cohort cannot be fixed later."
+      },
+      {
+        "id": "s5",
+        "name": "Servicing, payments and fee products",
+        "activities": [
+          "Service accounts and loan EMIs",
+          "Run cards, UPI and other payments",
+          "Provide cash management and trade finance to businesses",
+          "Distribute insurance, mutual funds and wealth products"
+        ],
+        "players": [
+          "Banks",
+          "Card networks and NPCI",
+          "Payment apps",
+          "Insurers and asset managers (as product makers)"
+        ],
+        "revenueDrivers": [
+          "Card interchange and fees",
+          "Transaction banking and FX fees",
+          "Distribution commissions",
+          "Account service charges"
+        ],
+        "costDrivers": [
+          "Card rewards and cashback",
+          "Technology and processing",
+          "Contact centres",
+          "Payment fraud"
+        ],
+        "kpis": [
+          {
+            "name": "Fee income share",
+            "formula": "fee income / (net interest income + fee income)",
+            "benchmark": "about 20-30% for large Indian private banks (approx.)"
+          },
+          {
+            "name": "Cost-to-income ratio",
+            "formula": "operating cost / (net interest income + non-interest income)",
+            "benchmark": "about 40-50% for large private banks, higher for public sector banks"
+          },
+          {
+            "name": "Products per customer",
+            "formula": "products held / active customers",
+            "benchmark": "higher is better; leaders target 3+ for primary customers"
+          }
+        ],
+        "marginNote": "The most attractive pool: fee income needs little capital, so ROE on cards, payments and distribution is far above that on plain lending."
+      },
+      {
+        "id": "s6",
+        "name": "Collections and recovery",
+        "activities": [
+          "Early-bucket reminders and digital nudges",
+          "Field collections and restructuring",
+          "Enforcement through SARFAESI, debt recovery tribunals and IBC",
+          "Sale of bad loans to asset reconstruction companies, write-offs"
+        ],
+        "players": [
+          "In-house collection teams",
+          "Collection agencies",
+          "Asset reconstruction companies",
+          "Tribunals and resolution professionals"
+        ],
+        "revenueDrivers": [
+          "Recoveries from written-off loans",
+          "Penal charges on overdue accounts"
+        ],
+        "costDrivers": [
+          "Provisions for bad loans",
+          "Agency and legal costs",
+          "Haircuts on recoveries and NPA sales"
+        ],
+        "kpis": [
+          {
+            "name": "Collection efficiency",
+            "formula": "amount collected / amount billed in the month",
+            "benchmark": "98-99%+ for healthy retail books"
+          },
+          {
+            "name": "Gross NPA ratio",
+            "formula": "gross non-performing loans / gross advances",
+            "benchmark": "about 2-2.5% for Indian scheduled commercial banks overall (approx., 2025-26)"
+          },
+          {
+            "name": "Credit cost",
+            "formula": "provisions for loan losses / average loans",
+            "benchmark": "about 0.5-1.5% a year; 3-5% for unsecured retail"
+          }
+        ],
+        "marginNote": "Creates no profit but is where it is most often lost: one extra point of credit cost removes nearly half of a typical bank's pre-tax profit on lending."
+      }
+    ],
+    "profitPools": "The largest pools sit where the bank has pricing power: a low-cost deposit franchise (s1) that lowers funding cost for everything it lends, and fee businesses in s5 (cards, payments, distribution, transaction banking) that need little capital. Unsecured retail and cards carry the highest yields but give much of it back in credit cost, while large-corporate lending is a thin pool where funding cost and risk decide returns. Collections (s6) adds no profit but is where profit is most often lost.",
+    "unitEconomics": {
+      "unit": "per ₹100 of average loans (mid-sized Indian private bank, approx.)",
+      "lines": [
+        {
+          "item": "Interest earned on loans (yield ~10%)",
+          "value": "₹10.00"
+        },
+        {
+          "item": "Cost of funds, including CRR/SLR drag (~5.8%)",
+          "value": "-₹5.80"
+        },
+        {
+          "item": "Fee and other income",
+          "value": "₹1.50"
+        },
+        {
+          "item": "Staff costs",
+          "value": "-₹1.30"
+        },
+        {
+          "item": "Premises, technology and other operating costs",
+          "value": "-₹1.30"
+        },
+        {
+          "item": "Credit cost (provisions)",
+          "value": "-₹0.90"
+        },
+        {
+          "item": "Tax (~25% of ₹2.20 pre-tax profit)",
+          "value": "-₹0.55"
+        }
+      ],
+      "result": "Profit after tax ≈ ₹1.65 per ₹100 of loans (NII ₹4.20, cost-to-income ~46%); with roughly ₹11 of equity allocated per ₹100 of loans, ROE ≈ 15%."
+    },
+    "india": "Public sector banks still hold over half of deposits, while private banks have gained share in retail lending, cards and low-cost deposits over the past decade. RBI shapes economics directly: CRR and SLR tie up about a fifth of deposits in low- or zero-yield assets, priority sector rules require domestic commercial banks to lend 40% of adjusted net bank credit to agriculture, small firms, weaker sections and other listed sectors, floating retail loans are priced off external benchmarks such as the repo rate, and weak banks are placed under the Prompt Corrective Action framework. UPI, Jan Dhan accounts and Account Aggregators have made payments almost free for customers and opened data-led lending to borrowers with thin credit files.",
+    "workedExample": {
+      "problem": "A bank's unsecured personal loan profits fell 40% in a year even though disbursals grew 25%.",
+      "trace": [
+        "Split the loan's economics by stage: yield and fees (s4, s5) and cost of funds (s1, s2) are roughly unchanged, so the fall is not in the spread.",
+        "Credit cost has risen from 2.5% to 4.5% of the book, which on its own explains most of the profit fall.",
+        "Collections (s6): collection efficiency in early buckets is stable for older cohorts, so the collection engine has not got worse.",
+        "Underwriting (s4): loans disbursed in the last 12 months default at about twice the rate of earlier cohorts at the same months on book.",
+        "Sourcing (s3): most of these cohorts came from a new fintech partner paid per disbursal, and 40% of those borrowers already had three or more unsecured loans; the root cause is the channel's incentives combined with a policy that did not cap borrower indebtedness."
+      ],
+      "lesson": "Credit cost shows up in collections, but its cause usually sits two stages earlier, in whom the bank sourced and how it paid for them."
+    }
+  },
+  "cases": [
+    {
+      "id": "banking-c01",
+      "title": "Credit card profits fall despite growth",
+      "industry": "banking",
+      "framework": "profitability",
+      "secondary": [],
+      "difficulty": "Beginner",
+      "region": "India",
+      "prompt": "Our client is a large Indian private bank with about 30 lakh credit cards in force. Over the last year the card base grew 20%, but pre-tax profit of the card business fell 30%, from ₹500 crore to ₹350 crore. The CEO wants to know why profit fell while the business grew.",
+      "clarifyingFacts": [
+        "Q: Is this happening to peers too? A: No, peers' card profits are roughly flat, so the problem is mostly specific to the client.",
+        "Q: Where did the new cards come from? A: Most of the 5 lakh net new cards are lifetime-free cards from a co-brand tie-up with an e-commerce platform and a RuPay card that can be used on UPI.",
+        "Q: Has usage grown with the card base? A: Total spend grew 12% and revolving balances grew only 5%.",
+        "Q: What is the objective? A: Get back to ₹500 crore of profit within two years without shrinking the card base."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Why did card profit fall 30% while cards grew 20%?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Revenue",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Interest on revolving balances (balances x interest rate)"
+              },
+              {
+                "id": "a2",
+                "label": "Interchange on spends (spend x interchange rate)"
+              },
+              {
+                "id": "a3",
+                "label": "Card fees (joining, annual, late payment, forex markup)"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Costs",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Cost of funds on card receivables"
+              },
+              {
+                "id": "b2",
+                "label": "Rewards and cashback paid to cardholders"
+              },
+              {
+                "id": "b3",
+                "label": "Acquisition cost of new cards (partner payouts, onboarding)"
+              },
+              {
+                "id": "b4",
+                "label": "Operating cost (processing, network fees, servicing)"
+              },
+              {
+                "id": "b5",
+                "label": "Credit losses on cards that default"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "The lifetime-free co-brand cards pay no annual fee and carry heavy cashback, so each new card earns less than its reward and acquisition cost.",
+        "Spend on the UPI-linked RuPay cards is mostly small merchant payments that earn little interchange, so revenue grew far slower than spend.",
+        "Credit losses on the new-to-bank cohort are running at about twice the rate of the seasoned book."
+      ],
+      "hints": [
+        "Use the profit identity of the card business, then break each side into the lines a card issuer actually books.",
+        "First level: revenue and costs of the card business.",
+        "Revenue: interest on revolving balances (balances x rate), interchange on spends (spend x interchange rate), card fees (joining, annual, late payment, forex). Then ask which of these moved when the 5 lakh new cards came in."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Profit per active card",
+          "formula": "(interest + interchange + fees - cost of funds - rewards - acquisition - operating cost - credit losses) / active cards"
+        },
+        {
+          "name": "Revolve rate",
+          "formula": "revolving balances / total card receivables"
+        },
+        {
+          "name": "Activation rate",
+          "formula": "cards used at least once in 90 days / cards issued"
+        }
+      ],
+      "commonMistakes": [
+        "Treating the number of cards as the volume driver; card profit comes from active cards that spend and revolve, and free co-brand cards are mostly customers who pay in full and never pay interest.",
+        "Jumping straight to credit losses and forgetting that rewards and acquisition payouts are large cost lines for a card launched through a partner."
+      ],
+      "frameworkPick": {
+        "options": [
+          "profitability",
+          "growth",
+          "pricing",
+          "segmentation"
+        ],
+        "correct": [
+          "profitability"
+        ],
+        "why": "The question asks why profit fell while volume rose, which needs a diagnostic split of the revenue and cost lines of the card business.",
+        "distractorWhyNot": {
+          "growth": "The card base is already growing fast; the problem is that the growth is unprofitable.",
+          "pricing": "Fees and interest rates are one input, but the fall could equally come from rewards, acquisition cost or credit losses.",
+          "segmentation": "Separating the new co-brand and RuPay cards from the legacy book is a useful cut inside the tree, but the question is why profit fell, which needs every revenue and cost line."
+        }
+      }
+    },
+    {
+      "id": "banking-c02",
+      "title": "Size India's two-wheeler loan market",
+      "industry": "banking",
+      "framework": "market-sizing",
+      "secondary": [],
+      "difficulty": "Beginner",
+      "region": "India",
+      "prompt": "A mid-sized Indian NBFC is deciding whether to scale up its two-wheeler loan business. Before anything else, the CEO wants a quick estimate of how much money is lent each year in India to buy two-wheelers. How big is this market?",
+      "clarifyingFacts": [
+        "Q: Disbursements or outstanding loans? A: Annual disbursements, in ₹ crore.",
+        "Q: New and used vehicles? A: Both, though the CEO cares mainly about new vehicles.",
+        "Q: Is there data on sales? A: Assume about 2 crore new two-wheelers are sold in India each year and about 1 crore used ones change hands.",
+        "Q: What does a typical bike or scooter cost? A: Assume an average on-road price of about ₹1 lakh for new vehicles; lenders fund around 80% of it."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Value of two-wheeler loans disbursed in India each year (₹ crore)",
+        "children": [
+          {
+            "id": "a",
+            "label": "New two-wheeler loans",
+            "children": [
+              {
+                "id": "a1",
+                "label": "New vehicles sold (~2 crore a year)"
+              },
+              {
+                "id": "a2",
+                "label": "Share bought on credit (~55%)"
+              },
+              {
+                "id": "a3",
+                "label": "Average loan per vehicle (~₹80,000)"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Used two-wheeler loans",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Used vehicles sold (~1 crore a year)"
+              },
+              {
+                "id": "b2",
+                "label": "Share bought on credit (~15%)"
+              },
+              {
+                "id": "b3",
+                "label": "Average loan per vehicle (~₹40,000)"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "New-vehicle loans are over 90% of the market: about ₹88,000 crore of a total near ₹94,000 crore.",
+        "Finance penetration is the swing factor: every 5 points of penetration on new vehicles is worth about ₹8,000 crore of disbursements a year."
+      ],
+      "hints": [
+        "Split by the kind of purchase being financed, and size each piece with the same chain of drivers.",
+        "First level: loans for new two-wheelers and loans for used two-wheelers.",
+        "Used loans: used vehicles changing hands (~1 crore a year) x share bought on credit (~15%) x average loan (~₹40,000) ≈ ₹6,000 crore."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Annual disbursements",
+          "formula": "units sold x share financed x average loan, summed over new and used"
+        },
+        {
+          "name": "Average loan",
+          "formula": "average on-road price x loan-to-value"
+        }
+      ],
+      "commonMistakes": [
+        "Using the full on-road price as the loan size; lenders fund about 75-85%, so the down payment has to come off.",
+        "Starting from population and two-wheeler ownership when annual sales figures are available, which adds error and time for no benefit."
+      ],
+      "frameworkPick": {
+        "options": [
+          "market-sizing",
+          "market-entry",
+          "growth",
+          "segmentation"
+        ],
+        "correct": [
+          "market-sizing"
+        ],
+        "why": "The CEO asks for one number, the annual value of two-wheeler lending, so an estimation tree is the right tool.",
+        "distractorWhyNot": {
+          "market-entry": "The NBFC already lends against two-wheelers and the question is only how big the pool is, not whether to enter.",
+          "growth": "How to scale comes later; the immediate ask is a size estimate.",
+          "segmentation": "Splitting new and used helps the estimate, but the question is size, not which customers to target."
+        }
+      }
+    },
+    {
+      "id": "banking-c03",
+      "title": "Pricing a premium account for freelancers",
+      "industry": "banking",
+      "framework": "pricing",
+      "secondary": [],
+      "difficulty": "Beginner",
+      "region": "Global",
+      "prompt": "A UK digital bank has 400,000 freelancers and sole traders on its free business current account. It is launching a paid tier with automatic tax set-aside, invoicing and links to accounting software. What monthly fee should it charge?",
+      "clarifyingFacts": [
+        "Q: What is the objective? A: Maximise revenue from the tier over three years without raising churn on the free account.",
+        "Q: What do competitors charge? A: Two rival digital banks charge £7 and £15 a month for similar tiers; standalone accounting apps for sole traders cost £10-15 a month.",
+        "Q: What does it cost to serve? A: Software licences and extra support cost about £2.50 per subscriber per month.",
+        "Q: What do customers say? A: Freelancers report spending about 3 hours a month on invoicing and tax admin, and HMRC's digital tax reporting for sole traders is being phased in by income band."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "What monthly fee maximises three-year tier revenue without raising free-account churn?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Cost floor",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Software licences and support (~£2.50 a month)"
+              },
+              {
+                "id": "a2",
+                "label": "Onboarding and payment processing per subscriber"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Value to the freelancer",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Time saved on invoicing and tax admin (~3 hours a month)"
+              },
+              {
+                "id": "b2",
+                "label": "Spend avoided on a separate accounting app (£10-15)"
+              },
+              {
+                "id": "b3",
+                "label": "Easier compliance with digital tax reporting"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Competitor reference points",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Rival bank tiers at £7 and £15 a month"
+              },
+              {
+                "id": "c2",
+                "label": "Feature gaps between our tier and rivals'"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Revenue at each price point",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Take-up from the 400,000 free customers"
+              },
+              {
+                "id": "d2",
+                "label": "Downgrades and churn after launch"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "A fee of about £10 a month captures much of the value of replacing a £10-15 accounting app while sitting inside the £7-15 range rivals have set.",
+        "Take-up will be highest among higher-earning sole traders who face the new digital tax reporting, so a single price may matter less than targeting them well."
+      ],
+      "hints": [
+        "Bound the price from both sides, anchor it on what customers could buy instead, then let the volume response pick the point.",
+        "First level: cost floor, value to the freelancer, competitor reference points, revenue at each price point.",
+        "Revenue at each price point: take-up among the 400,000 free customers, and downgrades and churn after launch."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Monthly tier revenue",
+          "formula": "eligible customers x take-up rate x monthly fee"
+        },
+        {
+          "name": "Contribution per subscriber",
+          "formula": "monthly fee - software and support cost (~£2.50) - onboarding and processing cost"
+        }
+      ],
+      "commonMistakes": [
+        "Setting the fee as cost plus a margin (£2.50 plus a markup), which leaves most of the value with the customer.",
+        "Maximising the fee instead of revenue: revenue is fee x take-up, and a lower price with much higher take-up can win."
+      ],
+      "frameworkPick": {
+        "options": [
+          "pricing",
+          "product-launch",
+          "profitability",
+          "competitive-response"
+        ],
+        "correct": [
+          "pricing"
+        ],
+        "why": "The tier is being launched regardless; the question is the price point, which is set by cost floor, customer value, competitor prices and the volume response.",
+        "distractorWhyNot": {
+          "product-launch": "The launch decision has been made, so a should-we-launch structure answers the wrong question.",
+          "profitability": "There is no profit problem to diagnose; this is a forward-looking price decision.",
+          "competitive-response": "Rivals' prices are an input, but no competitor move has triggered the question."
+        }
+      }
+    },
+    {
+      "id": "banking-c04",
+      "title": "Rebuilding a bank's low-cost deposits",
+      "industry": "banking",
+      "framework": "growth",
+      "secondary": [],
+      "difficulty": "Beginner",
+      "region": "India",
+      "prompt": "A mid-sized Indian private bank's CASA ratio has fallen from 42% to 34% in two years as customers moved money into fixed deposits. Every lost point of CASA raises its funding cost. How can the bank grow its current and savings account balances?",
+      "clarifyingFacts": [
+        "Q: How big is the deposit base? A: Total deposits are ₹1.2 lakh crore, so CASA is about ₹41,000 crore.",
+        "Q: Is the fall industry-wide? A: Partly; CASA ratios fell across the system as fixed deposit rates rose, but the client fell faster than peers.",
+        "Q: Any constraints? A: The bank will not pay above peers on savings accounts; it wants growth from its franchise, not from price.",
+        "Q: What does the customer base look like? A: About 80 lakh savings accounts and 6 lakh current accounts; roughly 30% of savings accounts are inactive."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "How can the bank grow CASA balances (~₹41,000 crore) without paying above-market rates?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Grow the number of active accounts",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Acquire new savings customers (salary tie-ups, digital onboarding)"
+              },
+              {
+                "id": "a2",
+                "label": "Acquire new current account customers (MSMEs, merchants)"
+              },
+              {
+                "id": "a3",
+                "label": "Reactivate the ~24 lakh inactive savings accounts"
+              },
+              {
+                "id": "a4",
+                "label": "Reduce account closures"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Raise the average balance per active account",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Bring more inflows into accounts (salaries, merchant settlements, government payments)"
+              },
+              {
+                "id": "b2",
+                "label": "Reduce outflows",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Sweeps into the bank's own fixed deposits"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Transfers to other banks, mutual funds and brokers"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Most of the fall came from existing customers moving balances into fixed deposits rather than from lost accounts, so balance per account is the bigger lever.",
+        "Current accounts are underweight (6 lakh against 80 lakh savings accounts); winning MSME and merchant accounts through cash management and UPI settlement would add the most balance per account."
+      ],
+      "hints": [
+        "Write CASA balances as a product of two drivers and split on that identity.",
+        "First level: number of active accounts; average balance per active account.",
+        "Number of active accounts: new savings customers, new current account customers, reactivating inactive accounts, fewer closures."
+      ],
+      "keyMetrics": [
+        {
+          "name": "CASA ratio",
+          "formula": "(current + savings deposits) / total deposits"
+        },
+        {
+          "name": "Average balance per active account",
+          "formula": "CASA balances / active CASA accounts"
+        },
+        {
+          "name": "Cost of deposits",
+          "formula": "interest paid on deposits / average deposits"
+        }
+      ],
+      "commonMistakes": [
+        "Proposing a higher savings rate, which the client has ruled out and which raises the cost of the whole savings book, not just new money.",
+        "Counting accounts opened instead of active balances; zero-balance accounts add cost but little CASA."
+      ],
+      "frameworkPick": {
+        "options": [
+          "growth",
+          "profitability",
+          "pricing",
+          "segmentation"
+        ],
+        "correct": [
+          "growth"
+        ],
+        "why": "The question is how to grow one revenue-enabling line (CASA balances), which a volume x value growth tree answers directly.",
+        "distractorWhyNot": {
+          "profitability": "Funding cost is the motivation, but the question is specifically how to grow CASA, not why profit moved.",
+          "pricing": "Price has been ruled out as a lever, so a pricing structure misses the options left.",
+          "segmentation": "Target segments matter within the answer, but the question is about the levers for growth overall."
+        }
+      }
+    },
+    {
+      "id": "banking-c05",
+      "title": "Big bank entering gold loans",
+      "industry": "banking",
+      "framework": "market-entry",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "India",
+      "prompt": "A large Indian private bank with 4,000 branches, mostly in metros and cities, lends very little against gold. Specialist gold loan NBFCs earn yields of 18-24% and their books have grown fast as gold prices rose. Should the bank enter non-agricultural gold loans at scale, and if so, how?",
+      "clarifyingFacts": [
+        "Q: What is the goal? A: A gold loan book of ₹25,000 crore within five years at a return on assets of at least 2.5%.",
+        "Q: Who is the customer? A: Mostly small traders and salaried families in semi-urban towns needing ₹50,000-1.5 lakh within hours.",
+        "Q: What are the bank's strengths? A: Cost of funds about 6%, roughly 3 points below the gold loan NBFCs. About 800 of its branches are semi-urban. Assume a new gold desk builds ₹8-10 crore of book in five years, against ₹20-30 crore at a mature specialist branch.",
+        "Q: Any constraints? A: The board will not accept reputational risk from aggressive auctions, and RBI's new gold loan rules, in force from April 2026, standardise valuation, loan-to-value limits and auction practice for all lenders."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Should the bank build a ₹25,000 cr gold book at 2.5%+ ROA, and how?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Is the market attractive?",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Size and growth of non-agri gold loan demand",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Borrowers moving from pawnbrokers to formal lenders"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Higher gold prices raising loan sizes"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Profit pool at today's lenders",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Yields (18-24% at NBFCs, lower at banks)"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "NBFC cost to serve and credit losses"
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Risks",
+                "children": [
+                  {
+                    "id": "a3x",
+                    "label": "RBI rules on loan-to-value, valuation, auctions"
+                  },
+                  {
+                    "id": "a3y",
+                    "label": "Gold price falls pushing loans above LTV limits"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Can the bank win?",
+            "children": [
+              {
+                "id": "b1",
+                "label": "What borrowers value",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Speed: cash within an hour"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "A nearby, trusted branch"
+                  },
+                  {
+                    "id": "b1z",
+                    "label": "Rate and loan-to-value offered"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Competitor strength",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Specialist NBFCs with dense semi-urban networks"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Public sector banks' agricultural gold loans"
+                  },
+                  {
+                    "id": "b2z",
+                    "label": "Informal pawnbrokers"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Client's position",
+                "children": [
+                  {
+                    "id": "b3x",
+                    "label": "Advantages: funding ~3 points cheaper, large customer base"
+                  },
+                  {
+                    "id": "b3y",
+                    "label": "Gaps: few semi-urban branches, no vaulting or appraisal set-up"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "How to enter",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Build: gold loan desks in existing branches",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Desks in the ~800 semi-urban branches first"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "New small-format branches in high-demand towns"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Buy: acquire a regional gold loan NBFC",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "Price versus book and branch network acquired"
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "Integrating vaults, staff and processes"
+                  }
+                ]
+              },
+              {
+                "id": "c3",
+                "label": "Partner: co-lending or business correspondents"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Does it meet the client's return target?",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Book size reachable in five years under each entry mode"
+              },
+              {
+                "id": "d2",
+                "label": "ROA after funding, operating and auction costs"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "The 3-point funding advantage lets the bank price at 13-15%, well below NBFCs, and still clear 2.5% ROA if operating cost stays near 2.5% of the book, but only if it matches NBFCs on disbursal speed.",
+        "Building alone falls short: 800 semi-urban desks at ₹8-10 crore each reach only ₹6,400-8,000 crore in five years, about a third of the ₹25,000 crore goal, so an acquisition or co-lending partner is needed for reach."
+      ],
+      "hints": [
+        "This is a go/no-go plus a 'how': use the classic entry questions, and finish by testing the client's own return target.",
+        "First level: market attractiveness, ability to win, entry mode, the client's return target.",
+        "Market attractiveness: size and growth of non-agri demand (formalisation, higher gold prices), the profit pool at today's lenders (yields, cost to serve), and risks (RBI gold loan rules, gold price falls)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "ROA on gold loans",
+          "formula": "(yield - cost of funds - operating cost - credit and auction losses) x (1 - tax rate)"
+        },
+        {
+          "name": "Loan-to-value",
+          "formula": "loan amount / appraised value of the gold pledged"
+        },
+        {
+          "name": "Book per branch",
+          "formula": "gold loan book / branches offering gold loans"
+        }
+      ],
+      "commonMistakes": [
+        "Assuming the bank's cheaper funding settles the question; borrowers choose gold lenders on speed and proximity far more than on rate.",
+        "Skipping the auction and regulatory risk that the board named as a constraint, which shapes how aggressive the LTV and collections can be."
+      ],
+      "frameworkPick": {
+        "options": [
+          "market-entry",
+          "growth",
+          "ma",
+          "product-launch"
+        ],
+        "correct": [
+          "market-entry"
+        ],
+        "why": "The bank barely lends against gold today, and the question is whether to enter a segment with different customers, channels and competitors, and by which route.",
+        "distractorWhyNot": {
+          "growth": "A growth tree assumes an existing business to expand; here market attractiveness and the right to win come first.",
+          "ma": "Buying an NBFC is one entry route inside the tree, not the question itself.",
+          "product-launch": "This is not a new product for existing customers through existing branches; the customers and geography are largely new to the bank."
+        }
+      }
+    },
+    {
+      "id": "banking-c06",
+      "title": "Cutting home loan turnaround time",
+      "industry": "banking",
+      "framework": "operations",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "India",
+      "prompt": "A large Indian public sector bank takes 21 days on average from application to disbursal of a home loan, against about 7 days at leading private banks and housing finance companies. Around a quarter of applicants drop out before disbursal, most to faster lenders. How can the bank bring turnaround down to 7 days?",
+      "clarifyingFacts": [
+        "Q: Where does the time go? A: Application to credit decision takes 6 days, legal and technical checks on the property 10 days, and documentation to disbursal 5 days.",
+        "Q: How is the work organised? A: Branches collect documents; credit, legal and valuation work happens at regional processing hubs using empanelled lawyers and valuers. Legal and technical checks start only after the credit decision.",
+        "Q: Any constraints? A: No change to credit policy and no extra headcount in year one; a technology budget is available.",
+        "Q: What volume are we talking about? A: About 15,000 applications a month."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "How to cut home loan TAT from 21 to 7 days, same policy and staff?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Application to credit decision (6 days)",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Waiting time",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Physical files couriered from branch to hub"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Files queued at the hub before review"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Rework",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Incomplete documents sent back to the customer"
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Processing time",
+                "children": [
+                  {
+                    "id": "a3x",
+                    "label": "Manual income checks and bureau pulls"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Legal and technical checks (10 days)",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Waiting time",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Allocating the file to an empanelled lawyer and valuer"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Scheduling the site visit"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Rework",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Missing or unclear title documents"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Processing time",
+                "children": [
+                  {
+                    "id": "b3x",
+                    "label": "Title search and legal opinion"
+                  },
+                  {
+                    "id": "b3y",
+                    "label": "Valuation report"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Documentation to disbursal (5 days)",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Waiting time",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Appointments to sign the agreement"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Rework",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "Errors in agreements or payment details"
+                  }
+                ]
+              },
+              {
+                "id": "c3",
+                "label": "Processing time",
+                "children": [
+                  {
+                    "id": "c3x",
+                    "label": "Mortgage creation and payment to seller or builder"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Most of the 10 days of legal and technical checks is waiting for vendor allocation and site visits; starting them in parallel with credit appraisal could save 5-6 days.",
+        "Incomplete documents at login cause 2-3 days of rework in the first stage; a digital checklist and Account Aggregator income data would remove most of it."
+      ],
+      "hints": [
+        "Elapsed time builds up stage by stage, so split along the process first, then split each stage's time by what kind of time it is.",
+        "First level: application to credit decision, legal and technical checks, documentation to disbursal.",
+        "Documentation to disbursal: waiting (appointments to sign the agreement), rework (errors in agreements or payment details), processing (mortgage creation and payment to the seller or builder)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Turnaround time",
+          "formula": "sum over stages of (processing + waiting + rework time)"
+        },
+        {
+          "name": "First-time-right rate",
+          "formula": "files needing no rework / total files"
+        },
+        {
+          "name": "Drop-off rate",
+          "formula": "applications not disbursed / applications logged"
+        }
+      ],
+      "commonMistakes": [
+        "Recommending more staff, which the client has ruled out, before checking that most of the 21 days is waiting rather than working.",
+        "Treating the stages as a fixed sequence; legal, technical and credit checks can run in parallel, especially for pre-approved housing projects."
+      ],
+      "frameworkPick": {
+        "options": [
+          "operations",
+          "profitability",
+          "growth",
+          "competitive-response"
+        ],
+        "correct": [
+          "operations"
+        ],
+        "why": "The question is how to make a process faster without changing policy or headcount, so a stage-by-stage process tree is the right structure.",
+        "distractorWhyNot": {
+          "profitability": "Lost applications hurt revenue, but the question asks how to fix turnaround, not why profit moved.",
+          "growth": "Faster turnaround will help growth, but the levers are in the process, not in markets or products.",
+          "competitive-response": "Faster rivals are the context, not a sudden competitor move that needs a response plan."
+        }
+      }
+    },
+    {
+      "id": "banking-c07",
+      "title": "Defending savings against a challenger bank",
+      "industry": "banking",
+      "framework": "competitive-response",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "Global",
+      "prompt": "A UK high-street bank pays 1.5% on its £40 billion of easy-access savings. A digital challenger has started paying 4.5% on easy-access accounts, and the client has lost £2 billion of balances in nine months. How should the bank respond?",
+      "clarifyingFacts": [
+        "Q: What are market rates? A: Assume Bank Rate is 4%; the challenger's 4.5% is an introductory rate for the first 12 months.",
+        "Q: Who is leaving? A: Mostly digitally active customers with balances above £20,000; these hold about £12 billion of the remaining book. Smaller balances have barely moved.",
+        "Q: How would lost deposits be replaced? A: Wholesale funding costs about Bank Rate plus 0.3%; the bank's loan-to-deposit ratio is 85%.",
+        "Q: Any regulatory angle? A: Under the FCA's Consumer Duty the bank must show its savings rates offer fair value, so paying long-standing customers far less than new ones is under scrutiny."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "How should the bank stem a £2bn savings outflow at lowest total cost?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Size the threat",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Balances at risk",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Rate-sensitive: large, digitally active (~£12bn)"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Sticky: smaller, linked to a current account"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Challenger's staying power",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Introductory rate ends after 12 months"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Its capacity to lend out what it gathers"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Keep the balances",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Price",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Raise rates across the whole easy-access book"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Targeted rates for at-risk customers, within Consumer Duty"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Product",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Fixed-term and notice accounts that lock balances in"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "A digital-only saver at a higher rate"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Relationship",
+                "children": [
+                  {
+                    "id": "b3x",
+                    "label": "Bonus rate for customers whose main current account is with us"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Let them go and replace the funding",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Wholesale or term funding",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Cost: about Bank Rate plus 0.3%"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Refinancing and liquidity risk"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Slower loan growth to need less funding"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Replacing the £2 billion lost at about 4.3% costs roughly £56 million a year, far less than the ~£380 million of a 1-point rise on the remaining £38 billion, so a blanket rate match is the wrong answer.",
+        "Outflows are concentrated in the ~£12 billion of large, digitally active balances, so a targeted product for that group protects most of what is at risk for a fraction of the cost."
+      ],
+      "hints": [
+        "Treat the outflow as a funding problem: first establish how much is really at stake, then compare the responses on their total cost.",
+        "First level: size the threat, keep the balances, let them go and replace the funding.",
+        "Let them go: wholesale or term funding (about Bank Rate plus 0.3%, with refinancing and liquidity risk), or slower loan growth so that less funding is needed."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Cost of retention",
+          "formula": "rate increase x balances repriced"
+        },
+        {
+          "name": "Cost of replacement",
+          "formula": "balances lost x (replacement funding rate - current savings rate)"
+        },
+        {
+          "name": "Deposit beta",
+          "formula": "change in savings rate paid / change in Bank Rate"
+        }
+      ],
+      "commonMistakes": [
+        "Matching 4.5% across the book, which reprices £38 billion of mostly sticky money to protect a few billion.",
+        "Forgetting that deposits are a funding source with substitutes; the right comparison is retention cost versus replacement cost."
+      ],
+      "frameworkPick": {
+        "options": [
+          "competitive-response",
+          "pricing",
+          "profitability",
+          "segmentation"
+        ],
+        "correct": [
+          "competitive-response"
+        ],
+        "why": "A rival's move is draining balances, and the question is how to respond, which means sizing the threat, weighing response options and the cost of not responding.",
+        "distractorWhyNot": {
+          "pricing": "The savings rate is one lever, but the answer also covers product, relationship and replacing the funding instead.",
+          "profitability": "Funding cost hits the P&L, but there is nothing to diagnose: the cause, a rival's rate, is known and the question is how to respond.",
+          "segmentation": "Separating rate-sensitive from sticky customers is a step inside the answer, not the whole question."
+        }
+      }
+    },
+    {
+      "id": "banking-c08",
+      "title": "Launching a credit line on UPI",
+      "industry": "banking",
+      "framework": "product-launch",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "India",
+      "prompt": "A large Indian private bank wants to offer small pre-approved credit lines that customers can spend through UPI, which RBI has allowed banks to do since 2023. It would target its 1 crore savings customers who have no credit card. Should it launch, and with which customers first?",
+      "clarifyingFacts": [
+        "Q: What is the product? A: Lines of ₹10,000-50,000, interest-free for up to 30 days on purchases, then about 17% a year on balances carried over.",
+        "Q: How does the bank earn on spends? A: Assume merchant fee income averages about 0.8% of spend, with little or nothing on small-merchant transactions.",
+        "Q: What data does the bank have? A: Twelve months of account transactions for all these customers; about 40% have a credit bureau record.",
+        "Q: What is the target? A: 15 lakh active lines within three years, breaking even by year three."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Should we launch UPI credit lines (break-even in year three), and for whom first?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Customer demand",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Segments that need short-term credit",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Salaried customers with regular credits"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Self-employed, gig and other customers"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Expected usage",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Share of customers who activate the line"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Monthly spend and share of balances carried over"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Economics per active line",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Revenue",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Interest on balances carried over"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Merchant fee income on spends"
+                  },
+                  {
+                    "id": "b1z",
+                    "label": "Fees (annual, late payment)"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Costs",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Cost of funds on drawn balances"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Credit losses"
+                  },
+                  {
+                    "id": "b2z",
+                    "label": "Acquisition, servicing and collections cost"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Ability to run it within risk appetite",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Underwriting customers with thin credit files",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Cash-flow scores from account data"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Bureau data for the 40% who have it"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Collecting small overdue balances at low cost"
+              },
+              {
+                "id": "c3",
+                "label": "Integration with UPI apps and partner platforms"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Salaried customers whose salary has been credited to the bank for 12 months can be underwritten from account data alone and should go first, with expected losses under 3%.",
+        "Interest-free spends earn only thin merchant fees, so the line breaks even only if roughly a third of drawn balances are carried over and pay interest."
+      ],
+      "hints": [
+        "For a should-we-launch question, test the conditions the product needs to succeed, and let 'who first' fall out of them.",
+        "First level: customer demand, economics per active line, ability to run it within risk appetite.",
+        "Customer demand: segments that need short-term credit (salaried; self-employed, gig and others) and expected usage (activation, monthly spend, share of balances carried over)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Contribution per active line",
+          "formula": "interest on carried balances + merchant fees + other fees - cost of funds on drawn balances - credit losses - servicing cost"
+        },
+        {
+          "name": "Activation rate",
+          "formula": "lines used in the last 90 days / lines issued"
+        }
+      ],
+      "commonMistakes": [
+        "Sizing demand from all 1 crore customers rather than those the bank can underwrite from its own data and who will actually use the line.",
+        "Assuming card-style interchange; merchant fees on UPI credit are lower and often nil on small transactions, so the economics depend on interest."
+      ],
+      "frameworkPick": {
+        "options": [
+          "product-launch",
+          "market-entry",
+          "pricing",
+          "segmentation"
+        ],
+        "correct": [
+          "product-launch"
+        ],
+        "why": "The bank is deciding whether to launch a new product to its existing customers through an existing channel, so demand, economics and ability to execute are the tests.",
+        "distractorWhyNot": {
+          "market-entry": "The customers are already the bank's own and UPI is an existing channel, so there is no new market to enter.",
+          "pricing": "The price is largely set; the open question is whether the product works at all.",
+          "segmentation": "Choosing who goes first is part of the answer, but the main question is whether to launch."
+        }
+      }
+    },
+    {
+      "id": "banking-c09",
+      "title": "Picking segments for a premium bank offer",
+      "industry": "banking",
+      "framework": "segmentation",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "Global",
+      "prompt": "A UAE retail bank with 1.2 million customers is launching a premium proposition with dedicated relationship managers. It has budget for 150 relationship managers, enough to serve about 30,000 customers well, and wants AED 300 million a year of extra revenue by year three. Which customer segments should it prioritise?",
+      "clarifyingFacts": [
+        "Q: Which groups are being considered? A: Four: UAE nationals on high salaries, long-tenure expatriate professionals, newly arrived expatriate professionals, and small-business owners who bank personally with us.",
+        "Q: How valuable are premium customers? A: Customers with AED 500,000 or more in balances and investments earn about 10 times the revenue of the average customer.",
+        "Q: What is the competition? A: International banks focus on the very wealthy (AED 5 million+); local banks compete hard for nationals' salary accounts.",
+        "Q: Anything else? A: Expatriate customers stay six years on average, and newly arrived ones often move their main account within two years."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Which segments should fill 30,000 premium slots to add AED 300m a year?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Revenue potential of each segment",
+            "children": [
+              {
+                "id": "a0",
+                "label": "Eligible customers we hold or can reach",
+                "children": []
+              },
+              {
+                "id": "a1",
+                "label": "Wallet size",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Balances and investable assets"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Borrowing needs (mortgages, business credit)"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Share of wallet the bank can capture",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Share already with the bank"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Products not yet held (investments, insurance, FX)"
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Expected time as a customer",
+                "children": [
+                  {
+                    "id": "a3x",
+                    "label": "Length of stay in the country"
+                  },
+                  {
+                    "id": "a3y",
+                    "label": "Likelihood of moving the main account"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Cost to serve and risk",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Relationship manager time per customer"
+              },
+              {
+                "id": "b2",
+                "label": "Compliance cost for cross-border and business flows"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Ability to win",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Fit of the proposition with segment needs",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Needs the offer meets well"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Needs it cannot meet (e.g. global private banking)"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Competitive intensity",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "International banks at the top end"
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "Local banks for nationals' salary accounts"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Long-tenure expatriate professionals offer the best mix: large investable assets, a low current share of wallet and less competition than nationals.",
+        "Newly arrived expatriates look attractive on salary but often move their main account within two years, so their three-year value is lower than their income suggests."
+      ],
+      "hints": [
+        "Turn it into a scoring exercise: set the criteria that decide what one scarce relationship slot is worth, then rank the four groups on them.",
+        "First level: revenue potential of each segment, cost to serve and risk, ability to win.",
+        "Ability to win: fit of the proposition with segment needs (what it meets well, what it cannot), and competitive intensity (international banks at the top end, local banks for nationals' salary accounts)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Segment value",
+          "formula": "customers served x (incremental revenue per customer - cost to serve) x expected years retained"
+        },
+        {
+          "name": "Revenue per relationship manager",
+          "formula": "premium segment revenue / number of relationship managers"
+        },
+        {
+          "name": "Share of wallet",
+          "formula": "customer's balances and products with the bank / customer's total financial holdings"
+        }
+      ],
+      "commonMistakes": [
+        "Ranking segments by income alone, ignoring how long expatriates stay and how much of their wallet is already with the bank.",
+        "Picking the largest segment rather than the one where a fixed 30,000 relationship slots add the most revenue."
+      ],
+      "frameworkPick": {
+        "options": [
+          "segmentation",
+          "growth",
+          "product-launch",
+          "market-sizing"
+        ],
+        "correct": [
+          "segmentation"
+        ],
+        "why": "With a fixed capacity of about 30,000 customers, the question is which groups to serve, which calls for comparing segments on value, cost and ability to win.",
+        "distractorWhyNot": {
+          "growth": "The revenue target is the goal, but the decision asked is where to point limited relationship capacity.",
+          "product-launch": "The proposition is being launched; the open question is for whom.",
+          "market-sizing": "Segment sizes are an input, but the answer is a choice among segments, not a single number."
+        }
+      }
+    },
+    {
+      "id": "banking-c10",
+      "title": "Getting a bank out of PCA",
+      "industry": "banking",
+      "framework": "turnaround",
+      "secondary": [
+        "profitability"
+      ],
+      "difficulty": "Advanced",
+      "region": "India",
+      "prompt": "A mid-sized Indian old private-sector bank has been placed under RBI's Prompt Corrective Action framework after its net NPA ratio reached 6.8%. The board wants to exit PCA within 18 months, and its first instinct is to provide aggressively against bad loans. How should the bank get out of PCA?",
+      "clarifyingFacts": [
+        "Q: What does the loan book look like? A: Gross advances ₹36,000 crore; gross NPAs ₹4,300 crore (11.9%) with 46% provision cover, so net NPAs are about ₹2,320 crore (6.8%). Another ₹2,000 crore is 61-90 days overdue (SMA-2).",
+        "Q: What about capital? A: CET1 capital is ₹3,150 crore on risk-weighted assets of ₹38,000 crore (8.3%), total capital adequacy is 11.9% and the Tier 1 leverage ratio about 6%. The PCA lines are net NPA 6%, CET1 8%, total capital 11.5% and leverage 3.5%.",
+        "Q: How profitable is the bank before provisions? A: Pre-provision operating profit is about ₹900 crore a year.",
+        "Q: Who are the shareholders? A: The shares trade at 0.8x book value of about ₹3,500 crore. The largest shareholder group (24%) opposes any share issue below book value. RBI expects no threshold breach for four consecutive quarters, one of them audited, before it allows exit."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "How can the bank meet all PCA thresholds for four quarters within 18 months?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Bring net NPAs well below 6% (target ~4%)",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Reduce existing gross NPAs (₹4,300 crore)",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Cash recoveries and upgrades (settlements, SARFAESI, IBC)"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Sale to ARCs and write-off of fully provided loans"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Stop fresh slippage into NPAs",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Work out the ₹2,000 crore SMA-2 book before it slips"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Tighter underwriting on new loans"
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Raise provision cover on remaining NPAs (46% to ~70%)",
+                "children": [
+                  {
+                    "id": "a3x",
+                    "label": "Start with unsecured and old NPAs least likely to recover"
+                  }
+                ]
+              },
+              {
+                "id": "a4",
+                "label": "Grow good-quality advances in segments PCA still allows"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Keep CET1 above 8% and total capital above 11.5%",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Add CET1 capital",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Retained profit: ₹900 crore operating profit less provisions and tax"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Rights issue to existing shareholders"
+                  },
+                  {
+                    "id": "b1z",
+                    "label": "New equity from outside investors (QIP, strategic stake)"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Add AT1 and Tier 2 capital (lifts total capital, not CET1)"
+              },
+              {
+                "id": "b3",
+                "label": "Reduce risk-weighted assets (₹38,000 crore)",
+                "children": [
+                  {
+                    "id": "b3x",
+                    "label": "Run down or sell high risk-weight corporate loans"
+                  },
+                  {
+                    "id": "b3y",
+                    "label": "Lower risk weights through external ratings and eligible collateral"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Providing first is self-defeating: lifting cover from 46% to about 70% needs roughly ₹1,030 crore, which on its own takes CET1 from 8.3% to about 5.6%, below the 8% line, so the bank swaps an asset quality breach for a capital breach. Capital has to come before or with the clean-up.",
+        "To log four clean quarters within 18 months the bank must be inside every line by about month six. Six months of operating profit (~₹450 crore) against ~₹1,030 crore of extra cover and ~₹300 crore of provisions if half the SMA-2 book slips leaves CET1 near 6%, so about ₹1,300-1,400 crore of new equity is needed for a 9.5% buffer. At 0.8x book (market value ~₹2,800 crore) that is almost 50% more shares, so the 24% group's objection is the binding constraint; a rights issue lets it avoid dilution.",
+        "Unless the ₹2,000 crore SMA-2 book is worked out, new slippage will refill gross NPAs and undo the clean-up within a year."
+      ],
+      "hints": [
+        "PCA exit is defined by ratios, so split by the ratios that breach or are at risk, then decompose each into numerator and denominator.",
+        "First level: bring net NPAs well below 6%; keep CET1 above 8% and total capital above 11.5%.",
+        "Net NPAs: shrink the gross NPA stock, stop fresh slippage, raise provision cover, grow good-quality advances (the denominator)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Net NPA ratio",
+          "formula": "(gross NPAs - specific provisions) / (gross advances - specific provisions)"
+        },
+        {
+          "name": "CET1 ratio",
+          "formula": "CET1 capital / risk-weighted assets"
+        },
+        {
+          "name": "Provision coverage ratio",
+          "formula": "specific provisions / gross NPAs"
+        }
+      ],
+      "commonMistakes": [
+        "Following the board's instinct to provide heavily without noticing that every ₹100 crore of provisions removes about 0.26 points of CET1, so the bank swaps one PCA breach for another.",
+        "Treating the capital raise as a question of market appetite when the binding constraint is the 24% shareholder who will not accept an issue below book."
+      ],
+      "frameworkPick": {
+        "options": [
+          "turnaround",
+          "profitability",
+          "ma",
+          "operations"
+        ],
+        "correct": [
+          "turnaround",
+          "profitability"
+        ],
+        "why": "The bank must fix a regulatory breach against a deadline (turnaround), and the capital plan depends on how much profit it can retain after provisions (profitability).",
+        "distractorWhyNot": {
+          "ma": "A merger into a stronger bank is a fallback if the plan fails, but the question asks how this bank exits PCA on its own.",
+          "operations": "Better collections processes help, but they do not solve the provisioning and capital arithmetic that decides PCA exit."
+        }
+      }
+    },
+    {
+      "id": "banking-c11",
+      "title": "PE stake in a fast-growing MSME lender",
+      "industry": "banking",
+      "framework": "pe-dd",
+      "secondary": [
+        "profitability"
+      ],
+      "difficulty": "Advanced",
+      "region": "India",
+      "prompt": "A PE fund is offered a 20% secondary stake in an Indian NBFC that lends to small businesses against property. Its loan book has grown 35% a year to ₹14,000 crore, gross NPAs are just 1.8% and reported ROE is 17%. The seller wants ₹1,400 crore, about 2.8x book. Should the fund invest?",
+      "clarifyingFacts": [
+        "Q: What return does the fund need? A: 20% IRR over a five-year hold, which means about 2.5x its money.",
+        "Q: How seasoned is the book? A: About 60% of loans were disbursed in the last 24 months; loans against property usually take three to four years to show their full default rate.",
+        "Q: How is it funded? A: 70% of borrowings are bank term loans, so its cost of funds moves with banks' appetite for lending to NBFCs (RBI raised risk weights on bank loans to NBFCs in late 2023 and reversed the rise in 2025). Assume its own borrowing cost is 0.5 points higher than two years ago.",
+        "Q: What do listed peers trade at? A: Listed small-business and property lenders trade at 1.8-3.0x book depending on growth and asset quality."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Should the fund pay ₹1,400 cr (2.8x book) for 20%, targeting 20% IRR?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Is the market attractive?",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Demand for secured small-business credit",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Credit gap among small firms becoming formal (GST, Udyam)"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Shift of borrowing from informal to formal lenders"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Competitive intensity",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Banks moving into small-ticket property loans"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Pricing pressure from other NBFCs"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Is the reported 17% ROE sustainable?",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Income: spread over borrowing cost, plus fees",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Yield trend as competition rises"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Borrowing cost and reliance on bank loans"
+                  },
+                  {
+                    "id": "b1z",
+                    "label": "Fee and insurance cross-sell income",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Operating cost",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Branch and staff cost per ₹ of loans as growth slows"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Credit cost on a seasoned basis",
+                "children": [
+                  {
+                    "id": "b3x",
+                    "label": "Defaults by months on book, cohort by cohort"
+                  },
+                  {
+                    "id": "b3y",
+                    "label": "Recovery from property collateral (time, haircut)"
+                  }
+                ]
+              },
+              {
+                "id": "b4",
+                "label": "Leverage (~5.6x) and fresh equity needed to keep growing"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Is the price right?",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Value at entry",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "2.8x book against peers at 1.8-3.0x"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Quality of reported book value (provisions, fee accounting)"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Value at exit",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "Book value growth over five years"
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "Exit multiple and route (IPO, strategic sale)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Management and deal protections",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Depth of management and incentives"
+              },
+              {
+                "id": "d2",
+                "label": "Rights for a 20% minority holder (board seat, vetoes, exit)"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "The 1.8% gross NPA ratio flatters the book: with 60% of loans under two years old, seasoned credit cost is likely 0.8-1.0 point higher, taking ROE from 17% to about 13%.",
+        "At 2.8x book the fund reaches 20% IRR only if ROE rises to about 20% and the exit multiple holds; at a more realistic 15% ROE and 2.5x exit the IRR is about 12%, which points to a price nearer 2.0x book (about ₹1,000 crore).",
+        "Because the stake is secondary, none of the ₹1,400 crore funds growth; sustaining 25-35% growth at 5-6x leverage will need new equity that dilutes the fund."
+      ],
+      "hints": [
+        "Use the standard screen a financial investor runs, adapted to how a lender makes money.",
+        "First level: market attractiveness, sustainability of the 17% ROE, whether the price is right, management and deal protections.",
+        "Market attractiveness: demand for secured small-business credit (formalisation through GST and Udyam, the shift from informal lenders) and competitive intensity (banks entering small-ticket property loans, pricing pressure from other NBFCs)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "ROE",
+          "formula": "(net interest income + fees - operating cost - credit cost) / average assets x (1 - tax rate) x assets / equity"
+        },
+        {
+          "name": "IRR",
+          "formula": "(exit P/B x book value at exit x stake / entry price)^(1/5) - 1"
+        },
+        {
+          "name": "Vintage default rate",
+          "formula": "loans 90+ days overdue from a disbursal cohort / amount disbursed in that cohort"
+        }
+      ],
+      "commonMistakes": [
+        "Taking the 1.8% gross NPA ratio at face value; on a book growing 35% a year, new loans dilute the ratio before they have had time to default.",
+        "Valuing on today's ROE and today's multiple without testing what happens to IRR when both normalise."
+      ],
+      "frameworkPick": {
+        "options": [
+          "pe-dd",
+          "profitability",
+          "ma",
+          "growth"
+        ],
+        "correct": [
+          "pe-dd",
+          "profitability"
+        ],
+        "why": "A financial investor is deciding whether to buy at a given price (PE due diligence), and the crux is whether the lender's reported ROE survives once its young loan book seasons (profitability).",
+        "distractorWhyNot": {
+          "ma": "A PE fund is a financial buyer with no operating synergies to value; its case rests on returns at exit.",
+          "growth": "Growth feeds the valuation, but the fund is not deciding how to grow the NBFC."
+        }
+      }
+    },
+    {
+      "id": "banking-c12",
+      "title": "Buying a lender in a shrinking market",
+      "industry": "banking",
+      "framework": "ma",
+      "secondary": [
+        "growth"
+      ],
+      "difficulty": "Advanced",
+      "region": "Global",
+      "prompt": "A mid-sized UK bank with a residential mortgage book and surplus retail deposits is considering buying a specialist buy-to-let lender for £1.6 billion, about 1.4x tangible book. The target's £9 billion loan book is funded mostly by wholesale markets and securitisation, and the deal thesis is to refinance it with the bank's cheaper deposits. Should the bank do the deal?",
+      "clarifyingFacts": [
+        "Q: What synergies are claimed? A: Replacing £5 billion of wholesale funding with deposits saves about 1 point, or £50 million a year before tax, plus £25 million a year of cost savings.",
+        "Q: How is the market doing? A: Assume buy-to-let new lending keeps shrinking as limits on mortgage-interest tax relief, higher rates and new rules for renters push smaller landlords out. The target's new lending fell 25% last year.",
+        "Q: What are the acquirer's surplus deposits? A: About £6 billion, mostly easy-access savings. The target's loans are mostly five-year fixed rate.",
+        "Q: How is the target performing? A: Assume post-tax profit of about £140 million last year. Arrears are low but rising among small landlords whose rent barely covers interest. The bank's cost of equity is about 12% and its tax rate about 27%."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Should the bank pay £1.6 billion (1.4x tangible book) for the buy-to-let lender?",
+        "children": [
+          {
+            "id": "a",
+            "label": "What is the target worth on its own?",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Earnings from the existing £9 billion book",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Run-off speed as fixed rates end and landlords sell"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Credit losses among highly geared small landlords"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "New lending in a shrinking market",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Buy-to-let volumes after tax and rental rule changes"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Shift towards professional and company-owned landlords"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "What are the synergies really worth?",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Funding synergy (£50 million claimed)",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Hedging cost of funding fixed-rate loans with easy-access deposits"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "How much of the £6 billion surplus is stable funding"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Cost synergies (£25 million claimed)",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Overlap in servicing, IT and head office"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Revenue synergies",
+                "children": [
+                  {
+                    "id": "b3x",
+                    "label": "Selling savings and business banking to landlords"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "What else does the deal cost?",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Capital: ~£460 million goodwill deducted from CET1"
+              },
+              {
+                "id": "c2",
+                "label": "Integration costs and risks",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "One-off IT migration and restructuring costs"
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "Keeping the target's mortgage broker relationships"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Are there better uses for the surplus deposits?",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Buy mortgage portfolios instead of a whole company"
+              },
+              {
+                "id": "d2",
+                "label": "Grow the bank's own mortgage lending"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "The funding synergy is overstated: five-year fixed loans funded by easy-access deposits need interest-rate hedging, and rate-sensitive savers will reprice, so the net saving may be closer to half of the £50 million claimed.",
+        "Even with every claimed synergy the deal returns only about 12% on £1.6 billion ((£140m + £75m x 0.73) / £1.6bn), barely the cost of equity; with half the funding synergy and target earnings down 10% as the book runs off, it falls to about 10%, so the price is too high.",
+        "Buying mortgage portfolios would put the surplus deposits to work without about £460 million of goodwill coming straight off CET1."
+      ],
+      "hints": [
+        "For an acquisition, build the value case from its parts, set it against everything the deal costs, and ask whether a cheaper route reaches the same goal.",
+        "First level: standalone value of the target, real value of the synergies, other costs of the deal, better uses of the surplus deposits.",
+        "Other costs of the deal: capital (about £460 million of goodwill deducted from CET1) and integration (one-off IT migration and restructuring, keeping the target's broker relationships)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Value created",
+          "formula": "PV(standalone earnings) + PV(net synergies) - price - integration costs"
+        },
+        {
+          "name": "Net funding synergy",
+          "formula": "balances refinanced x (wholesale cost - deposit cost - hedging cost)"
+        },
+        {
+          "name": "Return on the deal",
+          "formula": "(target post-tax earnings + post-tax net synergies) / price paid"
+        }
+      ],
+      "commonMistakes": [
+        "Accepting the £50 million funding synergy without asking how fixed-rate loans will be matched with variable-rate easy-access deposits.",
+        "Valuing the target on its past growth when its new lending has just fallen 25% in a shrinking market."
+      ],
+      "frameworkPick": {
+        "options": [
+          "ma",
+          "growth",
+          "pe-dd",
+          "market-entry"
+        ],
+        "correct": [
+          "ma",
+          "growth"
+        ],
+        "why": "The bank must judge whether this acquisition creates value at £1.6 billion (M&A), and the deal is really a growth choice: is buying this lender the best way to put surplus deposits to work in a shrinking market?",
+        "distractorWhyNot": {
+          "pe-dd": "The bank is a strategic buyer whose case rests on funding and cost synergies, not a financial investor planning an exit.",
+          "market-entry": "The bank already lends mortgages, so the question is the value of a specific target rather than whether to enter."
+        }
+      }
+    }
+  ],
+  "flaws": [
+    {
+      "id": "banking-f01",
+      "title": "Growing retail fee income",
+      "industry": "banking",
+      "framework": "growth",
+      "difficulty": "Beginner",
+      "tree": {
+        "id": "r",
+        "label": "How can the bank grow retail fee income?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Lending and credit card fees",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Loan processing fees"
+              },
+              {
+                "id": "a2",
+                "label": "Credit card annual, late payment and cross-currency fees"
+              },
+              {
+                "id": "a3",
+                "label": "Card interchange on spends"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Deposit and payment fees",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Account service charges, locker rent and cash handling"
+              },
+              {
+                "id": "b2",
+                "label": "Remittance and debit card fees"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Distribution commissions",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Insurance sold through the bank"
+              },
+              {
+                "id": "c2",
+                "label": "Mutual funds and other investments"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Fees earned through the mobile app",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Insurance bought in the app"
+              },
+              {
+                "id": "d2",
+                "label": "Card fees from customers who joined via the app"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "d",
+          "type": "overlap",
+          "explanation": "The other branches split fees by product; 'fees earned through the mobile app' splits by channel. Insurance bought in the app is already in distribution commissions and app customers' card fees are already in lending and card fees, so the same rupee is counted twice.",
+          "fix": "Remove the mobile app branch. If channel matters, analyse it inside each product branch (for example, share of insurance sold digitally)."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "How can the bank grow retail fee income?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Lending and credit card fees",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Loan processing fees"
+              },
+              {
+                "id": "a2",
+                "label": "Credit card annual, late payment and cross-currency fees"
+              },
+              {
+                "id": "a3",
+                "label": "Card interchange on spends"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Deposit and payment fees",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Account service charges, locker rent and cash handling"
+              },
+              {
+                "id": "b2",
+                "label": "Remittance and debit card fees"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Distribution commissions",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Insurance sold through the bank"
+              },
+              {
+                "id": "c2",
+                "label": "Mutual funds and other investments"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "banking-f02",
+      "title": "Why is bank profit down?",
+      "industry": "banking",
+      "framework": "profitability",
+      "difficulty": "Beginner",
+      "tree": {
+        "id": "r",
+        "label": "Why has the bank's pre-tax profit fallen?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Revenue",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Net interest income (interest earned less interest paid)"
+              },
+              {
+                "id": "a2",
+                "label": "Non-interest income (fees, treasury gains, other)"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Costs",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Staff costs"
+              },
+              {
+                "id": "b2",
+                "label": "Premises, technology and other operating costs"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "b",
+          "type": "gap",
+          "explanation": "Costs list only operating costs. For a bank, provisions for bad loans are a major cost line between operating profit and pre-tax profit, and they are often the reason profit falls. (Interest paid is correctly left out because it sits inside net interest income.)",
+          "fix": "Add 'Provisions for bad loans (credit costs)' under costs."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Why has the bank's pre-tax profit fallen?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Revenue",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Net interest income (interest earned less interest paid)"
+              },
+              {
+                "id": "a2",
+                "label": "Non-interest income (fees, treasury gains, other)"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Costs",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Staff costs"
+              },
+              {
+                "id": "b2",
+                "label": "Premises, technology and other operating costs"
+              },
+              {
+                "id": "b3",
+                "label": "Provisions for bad loans (credit costs)"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "banking-f03",
+      "title": "Entering microfinance lending",
+      "industry": "banking",
+      "framework": "market-entry",
+      "difficulty": "Intermediate",
+      "tree": {
+        "id": "r",
+        "label": "Should a mid-sized private bank enter microfinance lending directly?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Market attractiveness",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Size and growth of microloan demand"
+              },
+              {
+                "id": "a2",
+                "label": "Segment profitability",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Yields (~22-24%)"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Field operating costs"
+                  },
+                  {
+                    "id": "a2z",
+                    "label": "Credit costs by state and cycle"
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Regulatory and political risk (income caps, loan waivers)"
+              },
+              {
+                "id": "a4",
+                "label": "Portfolio at risk in Bihar last quarter"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Competition",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Specialist lenders (NBFC-MFIs, small finance banks)"
+              },
+              {
+                "id": "b2",
+                "label": "Universal banks (direct, SHG-linked, via correspondents)"
+              },
+              {
+                "id": "b3",
+                "label": "Other NBFCs and informal moneylenders"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Bank's ability to win",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Rural and semi-urban reach"
+              },
+              {
+                "id": "c2",
+                "label": "Group lending and weekly field collection capability"
+              },
+              {
+                "id": "c3",
+                "label": "Funding cost advantage from low-cost deposits"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Entry mode",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Build an in-house microfinance unit"
+              },
+              {
+                "id": "d2",
+                "label": "Acquire an NBFC-MFI"
+              },
+              {
+                "id": "d3",
+                "label": "Partner through business correspondents or co-lending"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "a4",
+          "type": "mixed-levels",
+          "explanation": "Its siblings are broad categories (demand, profitability, regulatory risk), but this is a single data point for one state and one quarter. It is evidence for 'credit costs by state and cycle' under segment profitability, so it sits two levels too high.",
+          "fix": "Remove it as a branch and use the Bihar figure as data when analysing credit costs by state under segment profitability."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Should a mid-sized private bank enter microfinance lending directly?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Market attractiveness",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Size and growth of microloan demand"
+              },
+              {
+                "id": "a2",
+                "label": "Segment profitability",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Yields (~22-24%)"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Field operating costs"
+                  },
+                  {
+                    "id": "a2z",
+                    "label": "Credit costs by state and cycle"
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Regulatory and political risk (income caps, loan waivers)"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Competition",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Specialist lenders (NBFC-MFIs, small finance banks)"
+              },
+              {
+                "id": "b2",
+                "label": "Universal banks (direct, SHG-linked, via correspondents)"
+              },
+              {
+                "id": "b3",
+                "label": "Other NBFCs and informal moneylenders"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Bank's ability to win",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Rural and semi-urban reach"
+              },
+              {
+                "id": "c2",
+                "label": "Group lending and weekly field collection capability"
+              },
+              {
+                "id": "c3",
+                "label": "Funding cost advantage from low-cost deposits"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Entry mode",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Build an in-house microfinance unit"
+              },
+              {
+                "id": "d2",
+                "label": "Acquire an NBFC-MFI"
+              },
+              {
+                "id": "d3",
+                "label": "Partner through business correspondents or co-lending"
+              }
+            ]
+          }
+        ]
+      },
+      "decoys": [
+        {
+          "nodeId": "a3",
+          "whyFine": "Household income limits and state loan waivers directly cap volumes and recoveries, so regulatory and political risk is a genuine driver of market attractiveness, not a side note."
+        }
+      ]
+    },
+    {
+      "id": "banking-f04",
+      "title": "Rising cost per ATM transaction",
+      "industry": "banking",
+      "framework": "operations",
+      "difficulty": "Intermediate",
+      "tree": {
+        "id": "r",
+        "label": "Why has cost per ATM transaction risen 30% at an Indian bank?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Total ATM running cost",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Cash management (replenishment, cash-in-transit, idle cash)"
+              },
+              {
+                "id": "a2",
+                "label": "Site costs (rent, power, security)"
+              },
+              {
+                "id": "a3",
+                "label": "Machine costs (depreciation, maintenance, network)"
+              },
+              {
+                "id": "a4",
+                "label": "Interchange income from other banks' cardholders"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Number of transactions",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Transactions by the bank's own customers"
+              },
+              {
+                "id": "b2",
+                "label": "Transactions by other banks' customers"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "a4",
+          "type": "not-a-driver",
+          "explanation": "Interchange the bank earns when other banks' customers use its ATMs is income, not cost. It changes the net economics of the network but has no effect on cost per transaction, which is the question. (Other banks' transactions do matter, and are already counted in the denominator.)",
+          "fix": "Remove it from the cost branch. If the question widens to net cost per transaction, add income as a separate branch."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Why has cost per ATM transaction risen 30% at an Indian bank?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Total ATM running cost",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Cash management (replenishment, cash-in-transit, idle cash)"
+              },
+              {
+                "id": "a2",
+                "label": "Site costs (rent, power, security)"
+              },
+              {
+                "id": "a3",
+                "label": "Machine costs (depreciation, maintenance, network)"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Number of transactions",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Transactions by the bank's own customers"
+              },
+              {
+                "id": "b2",
+                "label": "Transactions by other banks' customers"
+              }
+            ]
+          }
+        ]
+      },
+      "decoys": [
+        {
+          "nodeId": "b2",
+          "whyFine": "Other banks' customers use the same machines and cash, so their transactions belong in the denominator; only the interchange income they bring is out of place in a cost tree."
+        }
+      ]
+    },
+    {
+      "id": "banking-f05",
+      "title": "Floor rate for personal loans",
+      "industry": "banking",
+      "framework": "pricing",
+      "difficulty": "Intermediate",
+      "tree": {
+        "id": "r",
+        "label": "What minimum rate earns the bank's 15% hurdle return on personal loans?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Cost of funds",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Marginal cost of deposits and borrowings for the loan's tenor"
+              },
+              {
+                "id": "a2",
+                "label": "Cost of CRR balances that earn no interest"
+              },
+              {
+                "id": "a3",
+                "label": "The bank's one-year MCLR"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Operating cost",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Sourcing cost (agent payouts, digital marketing)"
+              },
+              {
+                "id": "b2",
+                "label": "Underwriting, servicing and collections"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Expected credit loss rate (per ₹ lent)",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Probability of default by risk band"
+              },
+              {
+                "id": "c2",
+                "label": "Loss given default on unsecured loans"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "r",
+          "type": "gap",
+          "explanation": "Funding, operating cost and expected loss only get the bank to break-even. The question asks for the rate that earns a 15% hurdle return, so the return on the capital held against each loan must be added; unsecured consumer loans carry a high risk weight, so this capital charge is a material part of the rate.",
+          "fix": "Add a fourth branch, 'Capital charge', split into capital held per loan and the 15% required return on it."
+        },
+        {
+          "nodeId": "a3",
+          "type": "overlap",
+          "explanation": "MCLR is a composite: RBI's method builds it from the marginal cost of funds (including a return on net worth), the negative carry on CRR, operating cost and a tenor premium. Listing it beside its own components counts funding cost twice, and part of operating cost and capital cost too.",
+          "fix": "Remove MCLR; build the floor from its components, which is what the other branches already do."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "What minimum rate earns the bank's 15% hurdle return on personal loans?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Cost of funds",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Marginal cost of deposits and borrowings for the loan's tenor"
+              },
+              {
+                "id": "a2",
+                "label": "Cost of CRR balances that earn no interest"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Operating cost",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Sourcing cost (agent payouts, digital marketing)"
+              },
+              {
+                "id": "b2",
+                "label": "Underwriting, servicing and collections"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Expected credit loss rate (per ₹ lent)",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Probability of default by risk band"
+              },
+              {
+                "id": "c2",
+                "label": "Loss given default on unsecured loans"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Capital charge",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Capital held (higher risk weight on unsecured consumer loans)"
+              },
+              {
+                "id": "d2",
+                "label": "Required return on that capital"
+              }
+            ]
+          }
+        ]
+      },
+      "decoys": [
+        {
+          "nodeId": "a2",
+          "whyFine": "Part of every deposit rupee must sit in CRR earning nothing, so the lending rupee has to carry that cost; it is a separate component of funding cost, not a repeat of a1."
+        }
+      ]
+    },
+    {
+      "id": "banking-f06",
+      "title": "Diagnosing a fall in bank ROE",
+      "industry": "banking",
+      "framework": "profitability",
+      "difficulty": "Advanced",
+      "tree": {
+        "id": "r",
+        "label": "Why has the bank's ROE fallen from 16% to 11%?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Return on assets fell",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Net interest income / assets",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Yield on advances"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Cost of deposits and borrowings"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Non-interest income / assets",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Fee income"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Treasury gains"
+                  },
+                  {
+                    "id": "a2z",
+                    "label": "Other income (recoveries on loans already written off)"
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Operating cost / assets",
+                "children": [
+                  {
+                    "id": "a3x",
+                    "label": "Employee costs"
+                  },
+                  {
+                    "id": "a3y",
+                    "label": "Premises and technology costs"
+                  },
+                  {
+                    "id": "a3z",
+                    "label": "Running costs of the 300 new branches"
+                  }
+                ]
+              },
+              {
+                "id": "a4",
+                "label": "Credit cost / assets",
+                "children": [
+                  {
+                    "id": "a4x",
+                    "label": "Provisions on fresh slippages"
+                  },
+                  {
+                    "id": "a4y",
+                    "label": "Top-up provisions on ageing NPAs and standard assets"
+                  },
+                  {
+                    "id": "a4z",
+                    "label": "Provision write-backs on NPAs upgraded or repaid"
+                  }
+                ]
+              },
+              {
+                "id": "a5",
+                "label": "Effective tax rate"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Leverage (assets / equity) fell",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Growth in assets",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Loan growth"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Investment and liquidity book growth"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Growth in equity",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Fresh capital raised"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Retained earnings net of dividends"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Fall in the bank's share price"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "a1",
+          "type": "gap",
+          "explanation": "An Indian bank holds roughly a quarter of its assets in investments, mostly SLR government bonds, and their yield (and the mix between loans and bonds) moves net interest income. Yield on advances and cost of funds alone cannot explain it.",
+          "fix": "Add 'Yield on investments (SLR and other bonds)' under net interest income / assets, and look at the asset mix when comparing years."
+        },
+        {
+          "nodeId": "a3z",
+          "type": "overlap",
+          "explanation": "The other two nodes split operating cost by type of cost; this one splits by project. The new branches' salaries are already in employee costs and their rent and IT in premises and technology, so the same costs are counted twice.",
+          "fix": "Remove it as a sibling; analyse the new branches' contribution within employee costs and premises and technology costs."
+        },
+        {
+          "nodeId": "b3",
+          "type": "not-a-driver",
+          "explanation": "ROE is profit over book equity. The share price changes market value and the price-to-book multiple, but not book equity, so it cannot move ROE (unless shares are issued, which is already in fresh capital raised).",
+          "fix": "Remove it from the tree."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Why has the bank's ROE fallen from 16% to 11%?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Return on assets fell",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Net interest income / assets",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Yield on advances"
+                  },
+                  {
+                    "id": "a1w",
+                    "label": "Yield on investments (SLR and other bonds)"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Cost of deposits and borrowings"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Non-interest income / assets",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Fee income"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Treasury gains"
+                  },
+                  {
+                    "id": "a2z",
+                    "label": "Other income (recoveries on loans already written off)"
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Operating cost / assets",
+                "children": [
+                  {
+                    "id": "a3x",
+                    "label": "Employee costs"
+                  },
+                  {
+                    "id": "a3y",
+                    "label": "Premises and technology costs"
+                  }
+                ]
+              },
+              {
+                "id": "a4",
+                "label": "Credit cost / assets",
+                "children": [
+                  {
+                    "id": "a4x",
+                    "label": "Provisions on fresh slippages"
+                  },
+                  {
+                    "id": "a4y",
+                    "label": "Top-up provisions on ageing NPAs and standard assets"
+                  },
+                  {
+                    "id": "a4z",
+                    "label": "Provision write-backs on NPAs upgraded or repaid"
+                  }
+                ]
+              },
+              {
+                "id": "a5",
+                "label": "Effective tax rate"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Leverage (assets / equity) fell",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Growth in assets",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Loan growth"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Investment and liquidity book growth"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Growth in equity",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Fresh capital raised"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Retained earnings net of dividends"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "decoys": [
+        {
+          "nodeId": "a2z",
+          "whyFine": "Recoveries on loans already written off are booked as other income, while write-backs (a4z) release provisions on NPAs still on the books, so the two do not overlap."
+        },
+        {
+          "nodeId": "a5",
+          "whyFine": "ROA is a post-tax ratio, so the effective tax rate is a genuine driver alongside the pre-tax lines."
+        }
+      ]
+    },
+    {
+      "id": "banking-f07",
+      "title": "PE bet on a small finance bank",
+      "industry": "banking",
+      "framework": "pe-dd",
+      "difficulty": "Advanced",
+      "tree": {
+        "id": "r",
+        "label": "Should the fund inject ₹900 crore for 15% of a small finance bank pre-IPO?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Demand for the bank's loan products",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Microfinance group loans",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Borrower growth in core states",
+                    "children": []
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Household indebtedness limits and repayment capacity",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Affordable housing loans",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Number of eligible first-time buyers",
+                    "children": []
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Average loan size and tenure",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Vehicle loans",
+                "children": [
+                  {
+                    "id": "a3x",
+                    "label": "New and used commercial vehicle demand",
+                    "children": []
+                  },
+                  {
+                    "id": "a3y",
+                    "label": "Average loan size and tenure",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "a4",
+                "label": "Gold loans to farmers in Tamil Nadu",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Bank's sustainable return on equity",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Interest and fee income / assets",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Loan yields by product",
+                    "children": []
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Fee and insurance cross-sell income",
+                    "children": []
+                  },
+                  {
+                    "id": "b1z",
+                    "label": "Processing charges collected at disbursal",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Interest expense / assets",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Savings and current accounts",
+                    "children": []
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Retail term deposits",
+                    "children": []
+                  },
+                  {
+                    "id": "b2z",
+                    "label": "Bulk deposits (₹3 crore and above)",
+                    "children": []
+                  },
+                  {
+                    "id": "b2w",
+                    "label": "Refinance and other borrowings",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Operating cost / assets",
+                "children": [
+                  {
+                    "id": "b3x",
+                    "label": "Branch network and staff",
+                    "children": []
+                  },
+                  {
+                    "id": "b3y",
+                    "label": "Technology, servicing and collections",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "b4",
+                "label": "Credit cost / assets",
+                "children": [
+                  {
+                    "id": "b4x",
+                    "label": "Microfinance losses through the credit cycle",
+                    "children": []
+                  },
+                  {
+                    "id": "b4y",
+                    "label": "Secured book losses, seasoned and recent cohorts",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "b5",
+                "label": "Tax rate",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Risks to the investment case",
+            "children": [
+              {
+                "id": "c1",
+                "label": "External: microfinance cycle, state loan waivers, RBI rules",
+                "children": []
+              },
+              {
+                "id": "c2",
+                "label": "Internal: governance, controls, promoter dependence",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Valuation and exit",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Entry price: 2.5x post-money book against listed peers",
+                "children": []
+              },
+              {
+                "id": "d2",
+                "label": "Exit route: IPO, then sale after lock-up",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "a4",
+          "type": "mixed-levels",
+          "explanation": "Its siblings are whole product lines (microfinance, housing, vehicles), but this node is one product, one customer type and one state. It is a sub-segment sitting at product-line level, so the market branch mixes levels and gold lending outside Tamil Nadu has no home.",
+          "fix": "Replace it with 'Gold and other secured retail loans', with the same children as the other product lines, and treat Tamil Nadu farmers as one sub-segment inside it."
+        },
+        {
+          "nodeId": "b1z",
+          "type": "overlap",
+          "explanation": "Processing charges are fee income, already inside 'fee and insurance cross-sell income' (or, where fees are spread over the loan's life, inside loan yield). Either way the same rupee is counted twice under a different name.",
+          "fix": "Remove it; analyse processing charges within fee income."
+        },
+        {
+          "nodeId": "b",
+          "type": "gap",
+          "explanation": "Every other child of this node is a ratio to assets, plus tax, so together they give return on assets. ROE = ROA x assets / equity, and leverage is missing. It matters here: the ₹900 crore is new equity, so leverage, and with it ROE, falls until the capital is lent out.",
+          "fix": "Add 'Leverage (assets / equity), lower after the new capital' under the bank's return on equity."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Should the fund inject ₹900 crore for 15% of a small finance bank pre-IPO?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Demand for the bank's loan products",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Microfinance group loans",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Borrower growth in core states",
+                    "children": []
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Household indebtedness limits and repayment capacity",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Affordable housing loans",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Number of eligible first-time buyers",
+                    "children": []
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Average loan size and tenure",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Vehicle loans",
+                "children": [
+                  {
+                    "id": "a3x",
+                    "label": "New and used commercial vehicle demand",
+                    "children": []
+                  },
+                  {
+                    "id": "a3y",
+                    "label": "Average loan size and tenure",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "a4",
+                "label": "Gold and other secured retail loans",
+                "children": [
+                  {
+                    "id": "a4x",
+                    "label": "Number of eligible borrowers",
+                    "children": []
+                  },
+                  {
+                    "id": "a4y",
+                    "label": "Average loan size and repeat borrowing",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Bank's sustainable return on equity",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Interest and fee income / assets",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Loan yields by product",
+                    "children": []
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Fee and insurance cross-sell income",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Interest expense / assets",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Savings and current accounts",
+                    "children": []
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Retail term deposits",
+                    "children": []
+                  },
+                  {
+                    "id": "b2z",
+                    "label": "Bulk deposits (₹3 crore and above)",
+                    "children": []
+                  },
+                  {
+                    "id": "b2w",
+                    "label": "Refinance and other borrowings",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Operating cost / assets",
+                "children": [
+                  {
+                    "id": "b3x",
+                    "label": "Branch network and staff",
+                    "children": []
+                  },
+                  {
+                    "id": "b3y",
+                    "label": "Technology, servicing and collections",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "b4",
+                "label": "Credit cost / assets",
+                "children": [
+                  {
+                    "id": "b4x",
+                    "label": "Microfinance losses through the credit cycle",
+                    "children": []
+                  },
+                  {
+                    "id": "b4y",
+                    "label": "Secured book losses, seasoned and recent cohorts",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "b5",
+                "label": "Tax rate",
+                "children": []
+              },
+              {
+                "id": "b6",
+                "label": "Leverage (assets / equity), lower after the new capital",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Risks to the investment case",
+            "children": [
+              {
+                "id": "c1",
+                "label": "External: microfinance cycle, state loan waivers, RBI rules",
+                "children": []
+              },
+              {
+                "id": "c2",
+                "label": "Internal: governance, controls, promoter dependence",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Valuation and exit",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Entry price: 2.5x post-money book against listed peers",
+                "children": []
+              },
+              {
+                "id": "d2",
+                "label": "Exit route: IPO, then sale after lock-up",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      "decoys": [
+        {
+          "nodeId": "b2z",
+          "whyFine": "Bulk deposits look like a repeat of term deposits, but the sibling is retail term deposits; retail and bulk split term deposits cleanly, and bulk money is priced differently."
+        },
+        {
+          "nodeId": "b5",
+          "whyFine": "The other children are pre-tax ratios to assets, so the tax rate is needed to reach post-tax ROA; it is a real driver, not padding."
+        }
+      ]
+    }
+  ],
+  "quick": [
+    {
+      "id": "banking-q01",
+      "industry": "banking",
+      "difficulty": "Beginner",
+      "question": "Which split of 'Operating income (net of interest paid) of an Indian bank' is MECE?",
+      "parent": "Operating income (net of interest paid) of an Indian bank",
+      "options": [
+        {
+          "split": [
+            "Net interest income",
+            "Fee and commission income",
+            "Treasury and forex gains",
+            "Other income (recoveries, dividends, processing fees)"
+          ],
+          "correct": false,
+          "why": "Overlap: processing fees on loans are fee income, so tucking them into 'other income' counts them twice."
+        },
+        {
+          "split": [
+            "Net interest income",
+            "Fee and commission income",
+            "Treasury and forex gains",
+            "Other income (recoveries, dividends)"
+          ],
+          "correct": true,
+          "why": "Covers every type of bank income once: spread, fees, treasury and forex, and the remaining other income."
+        },
+        {
+          "split": [
+            "Interest earned on loans and investments",
+            "Fee and commission income",
+            "Treasury and forex gains",
+            "Other income (recoveries, dividends)"
+          ],
+          "correct": false,
+          "why": "Mixed basis: the parent is net of interest paid, but the first branch is gross interest earned, so the split adds up to total income, not operating income."
+        },
+        {
+          "split": [
+            "Net interest income",
+            "Fee and commission income",
+            "Recoveries from written-off loans and dividends"
+          ],
+          "correct": false,
+          "why": "Gap: treasury income (profit on sale and revaluation of investments, forex) is missing, and it is material for Indian banks with large SLR books."
+        }
+      ]
+    },
+    {
+      "id": "banking-q02",
+      "industry": "banking",
+      "difficulty": "Beginner",
+      "question": "Which split of 'Credit cards in force at year end' is MECE?",
+      "parent": "Credit cards in force at year end",
+      "options": [
+        {
+          "split": [
+            "Cards in force at start of year",
+            "New cards issued",
+            "Cards closed at the customer's request"
+          ],
+          "correct": false,
+          "why": "Gap: bank-initiated closures are missing; RBI requires issuers to close cards unused for over a year after notice, and cards are also cancelled for fraud or default."
+        },
+        {
+          "split": [
+            "Active cards at start of year",
+            "New cards issued",
+            "Cards closed (by customer or bank)"
+          ],
+          "correct": false,
+          "why": "Mixed basis: the opening stock counts only active cards, while cards in force include inactive ones."
+        },
+        {
+          "split": [
+            "Cards in force at start of year",
+            "Cards issued to new-to-bank customers",
+            "Cards issued to existing customers",
+            "Lifetime-free cards issued",
+            "Cards closed (by customer or bank)"
+          ],
+          "correct": false,
+          "why": "Overlap: lifetime-free cards are issued to new or existing customers, so they are already counted in those two lines."
+        },
+        {
+          "split": [
+            "Cards in force at start of year",
+            "New cards issued",
+            "Cards closed (by customer or bank)"
+          ],
+          "correct": true,
+          "why": "A complete stock-and-flow split: opening stock plus all additions minus all closures."
+        }
+      ]
+    },
+    {
+      "id": "banking-q03",
+      "industry": "banking",
+      "difficulty": "Beginner",
+      "question": "Which split of 'Total deposits of an Indian bank' is MECE?",
+      "parent": "Total deposits of an Indian bank",
+      "options": [
+        {
+          "split": [
+            "Current account deposits",
+            "Savings deposits",
+            "Term deposits"
+          ],
+          "correct": true,
+          "why": "The three deposit types are mutually exclusive and together make up all deposits."
+        },
+        {
+          "split": [
+            "Current account deposits",
+            "Savings deposits",
+            "Term deposits",
+            "NRI deposits (NRE, NRO, FCNR)"
+          ],
+          "correct": false,
+          "why": "Overlap: NRE and NRO accounts are themselves savings or term deposits (FCNR are term deposits), so NRI money is counted twice."
+        },
+        {
+          "split": [
+            "Savings deposits",
+            "Fixed deposits",
+            "Recurring deposits"
+          ],
+          "correct": false,
+          "why": "Gap: fixed and recurring deposits together are term deposits, but current account deposits are missing."
+        },
+        {
+          "split": [
+            "Retail deposits (under ₹3 crore)",
+            "Bulk deposits (₹3 crore and above)",
+            "CASA deposits"
+          ],
+          "correct": false,
+          "why": "Mixed basis: it splits by size and then by type; CASA balances are also retail or bulk by size, so they overlap."
+        }
+      ]
+    },
+    {
+      "id": "banking-q04",
+      "industry": "banking",
+      "difficulty": "Intermediate",
+      "question": "Which split of 'Expected credit loss on a personal loan book (₹ per year)' is MECE?",
+      "parent": "Expected credit loss on a personal loan book (₹ per year)",
+      "options": [
+        {
+          "split": [
+            "Expected loss on salaried borrowers",
+            "Expected loss on self-employed borrowers",
+            "Expected loss on new-to-credit borrowers"
+          ],
+          "correct": false,
+          "why": "Overlap: new-to-credit borrowers are also salaried or self-employed; the third line cuts by credit history, not employment."
+        },
+        {
+          "split": [
+            "Exposure at default",
+            "Probability of default within the year",
+            "Loss given default",
+            "Recovery rate after default"
+          ],
+          "correct": false,
+          "why": "Overlap: loss given default is one minus the recovery rate, so recoveries are counted twice."
+        },
+        {
+          "split": [
+            "Exposure at default",
+            "Probability of default within the year",
+            "Loss given default"
+          ],
+          "correct": true,
+          "why": "Expected loss per year = EAD x one-year PD x LGD, which explains the rupee amount fully with no overlap."
+        },
+        {
+          "split": [
+            "Exposure at default",
+            "Probability of default over the loan's life",
+            "Loss given default"
+          ],
+          "correct": false,
+          "why": "Mixed basis: a lifetime PD gives the loss over the whole loan, not the loss per year that the parent asks for."
+        }
+      ]
+    },
+    {
+      "id": "banking-q05",
+      "industry": "banking",
+      "difficulty": "Intermediate",
+      "question": "Which split of 'Interest expense of a bank' is MECE?",
+      "parent": "Interest expense of a bank",
+      "options": [
+        {
+          "split": [
+            "Interest on savings deposits",
+            "Interest on term deposits",
+            "Interest on borrowings",
+            "Interest on bulk deposits (₹3 crore and above)"
+          ],
+          "correct": false,
+          "why": "Overlap: bulk deposits are term deposits, so their interest is already in the term deposit line."
+        },
+        {
+          "split": [
+            "Interest on CASA deposits",
+            "Interest on term deposits",
+            "Interest on refinance from NABARD and SIDBI"
+          ],
+          "correct": false,
+          "why": "Gap: refinance is only one kind of borrowing; bonds, interbank and RBI borrowing are missing."
+        },
+        {
+          "split": [
+            "Volume of interest-bearing deposits",
+            "Average rate paid on deposits",
+            "Interest on borrowings"
+          ],
+          "correct": false,
+          "why": "Mixed levels: volume and rate are multiplied to give deposit interest, so they cannot be added beside interest on borrowings."
+        },
+        {
+          "split": [
+            "Interest on savings deposits",
+            "Interest on term deposits",
+            "Interest on borrowings (bonds, refinance, interbank)"
+          ],
+          "correct": true,
+          "why": "Covers every interest-bearing liability once; current accounts are left out correctly because Indian banks may not pay interest on them."
+        }
+      ]
+    },
+    {
+      "id": "banking-q06",
+      "industry": "banking",
+      "difficulty": "Intermediate",
+      "question": "Which split of 'Turnaround time of a home loan application' is MECE?",
+      "parent": "Turnaround time of a home loan application",
+      "options": [
+        {
+          "split": [
+            "Time at the branch",
+            "Time at the processing hub",
+            "Time with the customer"
+          ],
+          "correct": false,
+          "why": "Gap: legal and valuation work is done by empanelled lawyers and valuers outside the bank, and that time is missing."
+        },
+        {
+          "split": [
+            "Login to credit decision",
+            "Credit decision to legal and technical clearance",
+            "Clearance to disbursal"
+          ],
+          "correct": true,
+          "why": "Milestone-to-milestone stages that together cover the whole journey with no overlap."
+        },
+        {
+          "split": [
+            "Login to credit decision",
+            "Credit decision to clearance",
+            "Clearance to disbursal",
+            "Time customers take to supply missing documents"
+          ],
+          "correct": false,
+          "why": "Overlap: customer delays happen inside the stages, so they are already counted in each stage's elapsed time."
+        },
+        {
+          "split": [
+            "Processing time",
+            "Waiting time",
+            "Rework time",
+            "Legal and technical checks"
+          ],
+          "correct": false,
+          "why": "Mixed basis: three lines split time by type and the fourth is a stage, which itself contains processing, waiting and rework time."
+        }
+      ]
+    },
+    {
+      "id": "banking-q07",
+      "industry": "banking",
+      "difficulty": "Advanced",
+      "question": "Which split of 'Return on equity of a bank' is MECE?",
+      "parent": "Return on equity of a bank",
+      "options": [
+        {
+          "split": [
+            "Net interest income / assets",
+            "Non-interest income / assets",
+            "Operating cost / assets",
+            "Credit cost / assets",
+            "Tax"
+          ],
+          "correct": false,
+          "why": "Gap: these lines build return on assets; leverage (assets / equity) is missing, so they cannot reach ROE."
+        },
+        {
+          "split": [
+            "Net profit / total income",
+            "Total income / assets",
+            "Return on assets",
+            "Assets / equity"
+          ],
+          "correct": false,
+          "why": "Overlap: return on assets is the product of the first two lines, so it is counted twice."
+        },
+        {
+          "split": [
+            "Return on risk-weighted assets",
+            "Risk-weighted assets / equity"
+          ],
+          "correct": true,
+          "why": "ROE = profit / RWA x RWA / equity exactly, so the two cover it fully with no overlap."
+        },
+        {
+          "split": [
+            "Return on risk-weighted assets",
+            "Assets / equity"
+          ],
+          "correct": false,
+          "why": "Mixed basis: the return is per rupee of risk-weighted assets but the leverage is per rupee of total assets, so the product is not ROE."
+        }
+      ]
+    },
+    {
+      "id": "banking-q08",
+      "industry": "banking",
+      "difficulty": "Advanced",
+      "question": "Which split of 'Change in a bank's net interest income from a 1% rise in rates over the next year' is MECE?",
+      "parent": "Change in a bank's net interest income from a 1% rise in rates over the next year",
+      "options": [
+        {
+          "split": [
+            "Rate-sensitive assets repricing within a year",
+            "Rate-sensitive liabilities repricing within a year"
+          ],
+          "correct": true,
+          "why": "The NII impact is roughly (rate-sensitive assets - rate-sensitive liabilities) x 1%, so these two cover it."
+        },
+        {
+          "split": [
+            "Rate-sensitive assets repricing within a year",
+            "Rate-sensitive liabilities repricing within a year",
+            "Repo-linked retail and MSME loans"
+          ],
+          "correct": false,
+          "why": "Overlap: repo-linked (external benchmark) loans reprice within the year, so they are already rate-sensitive assets."
+        },
+        {
+          "split": [
+            "Rate-sensitive assets repricing within a year",
+            "All deposits and borrowings"
+          ],
+          "correct": false,
+          "why": "Mixed basis: assets are limited to those repricing within the year but liabilities are not, so long fixed deposits that will not reprice are wrongly included."
+        },
+        {
+          "split": [
+            "Rate-sensitive assets repricing within a year",
+            "Rate-sensitive liabilities repricing within a year",
+            "Mark-to-market loss on the bond portfolio"
+          ],
+          "correct": false,
+          "why": "Not a driver: mark-to-market losses hit treasury income and reserves, not net interest income."
+        }
+      ]
+    }
+  ],
+  "chainDrills": [
+    {
+      "id": "banking-v01",
+      "industry": "banking",
+      "difficulty": "Beginner",
+      "type": "locate",
+      "prompt": "Payouts to direct selling agents for every home loan they bring in. Which stage does this cost belong to?",
+      "options": [
+        "s1",
+        "s3",
+        "s4",
+        "s6"
+      ],
+      "answer": [
+        "s3"
+      ],
+      "why": "Agent payouts are the cost of finding and bringing in borrowers, which is sourcing and distribution. Underwriting (s4) starts once the application is in."
+    },
+    {
+      "id": "banking-v02",
+      "industry": "banking",
+      "difficulty": "Beginner",
+      "type": "order",
+      "prompt": "Follow one rupee from the moment a depositor places it with the bank until it is repaid by a borrower, or recovered if the borrower defaults. Put the stages in that order.",
+      "options": [
+        "s4",
+        "s1",
+        "s6",
+        "s3",
+        "s5",
+        "s2"
+      ],
+      "answer": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6"
+      ],
+      "why": "The rupee is raised (s1), treasury sets aside CRR and SLR and prices it for lending (s2), a borrower is found (s3), assessed and paid out (s4), serviced through EMIs (s5) and, only if it goes overdue, collected or recovered (s6)."
+    },
+    {
+      "id": "banking-v03",
+      "industry": "banking",
+      "difficulty": "Intermediate",
+      "type": "locate",
+      "prompt": "The bank's cost of deposits rose 40 bp in a year although it did not change any deposit rates. Salary credits from two large employers moved to other banks after repeated failures of the bank's app and UPI service at peak hours, and the balances followed them. Where does the root cause sit?",
+      "options": [
+        "s1",
+        "s2",
+        "s5",
+        "s3"
+      ],
+      "answer": [
+        "s5"
+      ],
+      "why": "The symptom shows up in funding (s1) as a lower CASA ratio, but savings balances follow the primary transaction account, and that was lost through payment and servicing failures (s5). Treasury (s2) and sourcing (s3) did not cause the shift."
+    },
+    {
+      "id": "banking-v04",
+      "industry": "banking",
+      "difficulty": "Intermediate",
+      "type": "assign",
+      "prompt": "Assign each item to the stage where it arises.",
+      "items": [
+        {
+          "item": "Interchange earned on credit card spends",
+          "stage": "s5"
+        },
+        {
+          "item": "Bureau pull and fraud check on a loan application",
+          "stage": "s4"
+        },
+        {
+          "item": "Mark-to-market loss on government bonds when yields rise",
+          "stage": "s2"
+        },
+        {
+          "item": "Commission paid to a car dealer for a vehicle loan lead",
+          "stage": "s3"
+        },
+        {
+          "item": "Fees paid to an agency recovering overdue EMIs",
+          "stage": "s6"
+        },
+        {
+          "item": "Deposit insurance premium paid to DICGC",
+          "stage": "s1"
+        }
+      ],
+      "why": "Interchange is payments income (s5), not sourcing, even though cards are a credit product. Bureau and fraud checks are part of the credit decision (s4), not lead generation. Bond losses sit in the treasury book (s2), not in funding, because they come from assets the bank holds for liquidity and SLR. The deposit insurance premium is a cost of holding deposits, so it sits with funding (s1) even though it is not interest."
+    },
+    {
+      "id": "banking-v05",
+      "industry": "banking",
+      "difficulty": "Advanced",
+      "type": "locate",
+      "prompt": "Net interest margin fell sharply in the quarter after RBI cut the repo rate by 50 bp, even though the bank's deposit costs were flat and loan spreads over the benchmark were unchanged. Where in the chain does the root cause sit?",
+      "options": [
+        "s1",
+        "s4",
+        "s2",
+        "s5"
+      ],
+      "answer": [
+        "s2"
+      ],
+      "why": "Floating retail loans linked to the repo rate repriced down at once, while term deposits reprice only at maturity. That repricing mismatch between assets and liabilities is managed in treasury and ALM. Deposits (s1) did not change, and underwriting (s4) kept the same spread."
+    },
+    {
+      "id": "banking-v06",
+      "industry": "banking",
+      "difficulty": "Advanced",
+      "type": "locate",
+      "prompt": "A bank's provisions on secured business loans rose 30% although fresh slippages into NPA were flat. Recoveries from enforcement are coming in far below the collateral values on file: many properties were valued well above market at sanction and some titles turned out to be defective. Where does the root cause sit?",
+      "options": [
+        "s3",
+        "s4",
+        "s6",
+        "s2"
+      ],
+      "answer": [
+        "s4"
+      ],
+      "why": "The losses show up in collections and recovery (s6), but the shortfall was created at underwriting (s4), where collateral is valued and titles are checked. Flat slippages rule out a change in who was sourced (s3), and the recovery process itself is recovering what the collateral is really worth."
+    }
+  ]
+}

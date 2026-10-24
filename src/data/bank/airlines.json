@@ -1,0 +1,4087 @@
+{
+  "industry": "airlines",
+  "valueChain": {
+    "summary": "Airlines sell a perishable product (a seat on a given flight) using aircraft and fuel paid for in dollars, and fares are reset daily against rivals, so a typical airline keeps only a few per cent of revenue as profit. Much of the money in the chain is made around the airline: by lessors, engine makers and MRO shops upstream, regulated airports in the middle, and distribution platforms and loyalty programmes downstream.",
+    "stages": [
+      {
+        "id": "s1",
+        "name": "Aircraft, engines and leasing",
+        "activities": [
+          "Design, certify and build airframes and engines",
+          "Finance aircraft through operating leases and sale-and-leaseback",
+          "Sell spare parts and long-term engine service contracts"
+        ],
+        "players": [
+          "Airframe makers",
+          "Engine makers",
+          "Aircraft lessors",
+          "Banks and export credit agencies"
+        ],
+        "revenueDrivers": [
+          "Aircraft deliveries and list-price escalation",
+          "Engine aftermarket (parts, shop visits) over a 20 to 25 year engine life",
+          "Lease rentals set by aircraft value and lease rate factor"
+        ],
+        "costDrivers": [
+          "R&D and certification of new models",
+          "Supply chain for engines, castings and avionics",
+          "Lessors' funding cost (interest rates)"
+        ],
+        "kpis": [
+          {
+            "name": "Lease rate factor",
+            "formula": "monthly lease rental / aircraft market value",
+            "benchmark": "approx. 0.65-0.85% a month for new narrowbodies, rising with interest rates"
+          },
+          {
+            "name": "Order backlog cover",
+            "formula": "aircraft on order / annual deliveries",
+            "benchmark": "approx. 10 years or more for current narrowbody families"
+          }
+        ],
+        "marginNote": "Strong: the engine aftermarket and leasing earn well above airlines. Large lessors run operating EBITDA of roughly 85% of lease revenue (much lower net after depreciation and interest); airframe makers earn mid to high single-digit operating margins on commercial aircraft (approx.)."
+      },
+      {
+        "id": "s2",
+        "name": "Maintenance and engine overhaul (MRO)",
+        "activities": [
+          "Line maintenance between flights",
+          "Heavy airframe checks (C-checks)",
+          "Engine and component overhaul"
+        ],
+        "players": [
+          "Airline in-house engineering units",
+          "Independent MRO providers",
+          "Engine-maker owned overhaul shops",
+          "Component repair specialists"
+        ],
+        "revenueDrivers": [
+          "Fleet size, age and flight hours",
+          "Engine shop visits (the largest single maintenance events)",
+          "Power-by-the-hour contracts priced per flight hour"
+        ],
+        "costDrivers": [
+          "Licensed engineers and technicians",
+          "Spare parts and rotable components",
+          "Hangar space and tooling"
+        ],
+        "kpis": [
+          {
+            "name": "Technical dispatch reliability",
+            "formula": "flights departing without a technical delay / scheduled flights",
+            "benchmark": "approx. 99.5% or better for a well-run narrowbody fleet"
+          },
+          {
+            "name": "Engine shop visit turnaround",
+            "formula": "days from engine removal to return to service",
+            "benchmark": "approx. 60-90 days normally; far longer during parts shortages"
+          }
+        ],
+        "marginNote": "Moderate to good: roughly 10-15% EBITDA for independent MROs (approx.), higher on engine work controlled by the engine makers."
+      },
+      {
+        "id": "s3",
+        "name": "Airports, fuel and ground services",
+        "activities": [
+          "Runways, terminals and air traffic control",
+          "Ground handling: check-in, baggage, ramp, pushback",
+          "Into-plane fuel supply"
+        ],
+        "players": [
+          "Airport operators (government and private concessionaires)",
+          "Air navigation service providers",
+          "Ground handlers",
+          "Oil marketing companies and fuel farms"
+        ],
+        "revenueDrivers": [
+          "Aeronautical charges (landing, parking, user development fees) set by regulators",
+          "Non-aeronautical income: retail, duty free, car parks, real estate",
+          "Handling fees per aircraft turn"
+        ],
+        "costDrivers": [
+          "Terminal and runway capex",
+          "Staff for handling and security",
+          "Concession fees paid to government"
+        ],
+        "kpis": [
+          {
+            "name": "Non-aero revenue share",
+            "formula": "non-aeronautical revenue / total airport revenue",
+            "benchmark": "approx. 40-60% at large private airports"
+          },
+          {
+            "name": "Aircraft turnaround time",
+            "formula": "minutes from on-block to off-block",
+            "benchmark": "approx. 25-35 minutes for a low-cost narrowbody turn"
+          }
+        ],
+        "marginNote": "Split: large airports earn high EBITDA (often 50%+) under regulated returns; ground handlers are labour-heavy with thin single-digit to low double-digit EBITDA (approx.)."
+      },
+      {
+        "id": "s4",
+        "name": "Airline network and flight operations",
+        "activities": [
+          "Network and schedule planning",
+          "Revenue management and pricing",
+          "Flying the schedule: crew, fuel, dispatch, disruption recovery"
+        ],
+        "players": [
+          "Full-service airlines",
+          "Low-cost airlines",
+          "Regional airlines",
+          "Cargo airlines"
+        ],
+        "revenueDrivers": [
+          "Capacity flown (available seat kilometres, ASKs)",
+          "Load factor",
+          "Yield (revenue per passenger kilometre)"
+        ],
+        "costDrivers": [
+          "Fuel (approx. 30-40% of costs for Indian airlines)",
+          "Aircraft ownership (leases, depreciation)",
+          "Crew, maintenance and airport charges"
+        ],
+        "kpis": [
+          {
+            "name": "Load factor",
+            "formula": "revenue passenger km (RPK) / available seat km (ASK)",
+            "benchmark": "approx. 85-90% for Indian domestic airlines"
+          },
+          {
+            "name": "Aircraft utilisation",
+            "formula": "block hours flown / aircraft / day",
+            "benchmark": "approx. 12-14 hours for low-cost narrowbodies"
+          },
+          {
+            "name": "Unit margin",
+            "formula": "RASK - CASK (operating revenue minus operating cost, per ASK)",
+            "benchmark": "approx. ₹0.2-0.6 per ASK in a good year for Indian airlines; negative in downturns"
+          }
+        ],
+        "marginNote": "Thin and volatile: global airline net margins of about 2-4% in good years (approx.) and deep losses in downturns."
+      },
+      {
+        "id": "s5",
+        "name": "Distribution and booking",
+        "activities": [
+          "Shopping, booking and ticketing",
+          "Distributing fares and seats to agents (GDS, NDC connections)",
+          "Managing corporate travel"
+        ],
+        "players": [
+          "Global distribution systems (GDS)",
+          "Online travel agencies (OTAs)",
+          "Travel management companies",
+          "Airline website and app"
+        ],
+        "revenueDrivers": [
+          "GDS fees per booked flight segment",
+          "OTA commissions, incentives and convenience fees",
+          "Corporate service fees"
+        ],
+        "costDrivers": [
+          "Technology platforms",
+          "Customer acquisition (search marketing, discounts)",
+          "Payment gateway fees"
+        ],
+        "kpis": [
+          {
+            "name": "Direct booking share",
+            "formula": "bookings through the airline's own channels / total bookings",
+            "benchmark": "approx. 50-70% for Indian low-cost airlines"
+          },
+          {
+            "name": "Distribution cost per passenger",
+            "formula": "(GDS fees + commissions + payment costs) / passengers",
+            "benchmark": "approx. 2-5% of the fare"
+          }
+        ],
+        "marginNote": "Attractive at scale but uneven: the largest GDS group earns EBITDA of about 35-40%, smaller rivals nearer 15-20% (approx.); Indian OTAs earn thin take rates on flights (low to mid single digits of booking value) and more on hotels."
+      },
+      {
+        "id": "s6",
+        "name": "Loyalty, ancillaries and the traveller",
+        "activities": [
+          "Selling add-ons: bags, seats, meals, upgrades",
+          "Running loyalty programmes and co-brand cards",
+          "Serving the traveller through disruptions, refunds and complaints"
+        ],
+        "players": [
+          "Airline loyalty programmes",
+          "Co-brand card issuers (banks)",
+          "Ancillary partners (insurance, hotels, car hire)"
+        ],
+        "revenueDrivers": [
+          "Ancillary attach rate x price",
+          "Points sold to banks and partners",
+          "Breakage on points never redeemed"
+        ],
+        "costDrivers": [
+          "Cost of seats given for redemptions",
+          "Disruption costs (refunds, compensation, hotels)",
+          "Customer service"
+        ],
+        "kpis": [
+          {
+            "name": "Ancillary revenue per passenger",
+            "formula": "ancillary revenue / passengers",
+            "benchmark": "approx. ₹500-700 for Indian low-cost airlines (reported non-ticket revenue, which can include some cargo); about €20-50 at European low-cost and ultra-low-cost airlines"
+          },
+          {
+            "name": "Points breakage",
+            "formula": "points expected never to be redeemed / points issued",
+            "benchmark": "approx. 15-25%"
+          }
+        ],
+        "marginNote": "High: loyalty programmes often earn 30-50%+ margins on points sold to partners (approx.), which is why some have been valued above their parent airline."
+      }
+    ],
+    "profitPools": "Over a cycle, airlines earn below their cost of capital, while lessors, engine makers (through the aftermarket), large airports, GDSs and loyalty programmes earn above it. Those stages own scarce or locked-in assets: certified designs and installed engine fleets, airport monopolies with regulated returns, two-sided booking networks, and loyalty currencies that banks must buy. Airlines compete in a fragmented, price-transparent market with perishable inventory, so most cost savings are passed on to travellers as lower fares.",
+    "unitEconomics": {
+      "unit": "per passenger, Indian domestic low-cost sector of about 1,100 km (approximate)",
+      "lines": [
+        {
+          "item": "Base fare (excluding taxes and airport fees passed through)",
+          "value": "₹5,200"
+        },
+        {
+          "item": "Ancillaries (bags, seats, meals, fees)",
+          "value": "₹600"
+        },
+        {
+          "item": "Fuel",
+          "value": "-₹2,100"
+        },
+        {
+          "item": "Aircraft ownership (lease rentals, depreciation)",
+          "value": "-₹800"
+        },
+        {
+          "item": "Airport, navigation and ground handling",
+          "value": "-₹550"
+        },
+        {
+          "item": "Maintenance",
+          "value": "-₹650"
+        },
+        {
+          "item": "Crew and staff",
+          "value": "-₹600"
+        },
+        {
+          "item": "Distribution, overheads and other",
+          "value": "-₹700"
+        }
+      ],
+      "result": "Operating profit per passenger ≈ ₹400 (about 7% of ₹5,800 revenue); a 5% rise in fuel cost wipes out over a quarter of it"
+    },
+    "india": "Two airline groups carry roughly 90% of domestic passengers, slots at metro airports are scarce, and new entrants have a long record of failure. Jet fuel sits outside GST and carries state VAT (high in several states, though some cut it temporarily during the 2026 fuel price spike), which helps make fuel about 30-40% of airline costs, and most aircraft are leased in dollars, so rupee weakness raises costs directly. DGCA regulates safety, AERA sets charges at major airports, the UDAN scheme subsidises regional routes, and since 2025 India has given the Cape Town Convention the force of law, which strengthens lessors' repossession rights and should lower leasing costs.",
+    "workedExample": {
+      "problem": "An Indian low-cost airline's operating margin fell 3 points even though load factor and yield were flat",
+      "trace": [
+        "Start at the airline (s4): revenue per ASK is flat, so the fall must be in cost per ASK, which rose about 3%.",
+        "Fuel, crew and airport costs per ASK are flat; the rise sits in aircraft ownership and maintenance per ASK, which together rose about 12% (about ₹175 on a ₹5,400 cost base per passenger, or 3 points of margin).",
+        "Trace ownership upstream to s1: several aircraft are grounded waiting for engines, yet their rent is still payable, and the airline has taken short-term replacement aircraft to protect the schedule, so it pays twice for the same ASKs.",
+        "Trace maintenance to s2: engine shop visits that took about 75 days now take over 200 because overhaul shops are short of parts, and the airline pays for spare and short-term leased engines.",
+        "Root cause: an engine durability and parts problem two stages upstream, not anything the airline changed in its own operation."
+      ],
+      "lesson": "When an airline cost line moves, follow it to the stage that controls it; many airline problems start with suppliers the airline cannot manage directly."
+    }
+  },
+  "cases": [
+    {
+      "id": "airlines-c01",
+      "title": "Domestic LCC profit halves despite growth",
+      "industry": "airlines",
+      "framework": "profitability",
+      "secondary": [],
+      "difficulty": "Beginner",
+      "region": "India",
+      "prompt": "Our client is a mid-sized Indian low-cost airline that flies only domestic routes. Last year its revenue grew 9% to about ₹12,000 crore, but operating profit halved from ₹1,400 crore to ₹700 crore. The CEO wants to know why profit fell and what to do about it.",
+      "clarifyingFacts": [
+        "Q: Did capacity change? A: Yes. The airline added 12 aircraft and grew available seat kilometres (ASKs) by 15%.",
+        "Q: What happened to load factor and fares? A: Load factor fell from 88% to 84%; the average fare per passenger was roughly flat.",
+        "Q: Did fuel prices move? A: Jet fuel prices were roughly flat in rupees, and fuel burned per ASK did not change.",
+        "Q: Anything else new? A: The new aircraft came on sale-and-leaseback deals at higher rentals, and most new routes link Tier-2 cities."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Why did operating profit halve to ₹700 crore despite 9% revenue growth?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Revenue: why only +9% when capacity grew 15%?",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Passenger revenue",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Capacity added (ASKs, new Tier-2 routes)"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Load factor (88% to 84%)"
+                  },
+                  {
+                    "id": "a1z",
+                    "label": "Yield (fare per passenger kilometre)"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Ancillary revenue (bags, seats, meals)"
+              },
+              {
+                "id": "a3",
+                "label": "Cargo and other revenue"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Costs: why +18% when capacity grew 15%?",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Fuel",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Jet fuel price per litre"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Litres burned per ASK"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Aircraft ownership",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Rentals on new sale-and-leaseback aircraft"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Rentals and depreciation on existing fleet"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Airport, navigation and ground handling charges"
+              },
+              {
+                "id": "b4",
+                "label": "Staff, maintenance, distribution and overheads"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Capacity on new Tier-2 routes ran ahead of demand: the 4-point fall in load factor (88% to 84%) alone cuts passenger revenue growth from about 15% to about 10%.",
+        "Higher rentals on the new sale-and-leaseback aircraft pushed aircraft ownership cost per ASK up while fuel per ASK stayed flat."
+      ],
+      "hints": [
+        "Use the profit identity, but judge each side against the growth in capacity rather than in absolute terms.",
+        "Level 1: revenue, judged against 15% more capacity, and costs, judged against the same 15%.",
+        "Fuel: jet fuel price per litre and litres burned per ASK. Both are flat here, so fuel grew in line with capacity and can be set aside."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Revenue per ASK (RASK)",
+          "formula": "total revenue / available seat kilometres"
+        },
+        {
+          "name": "Cost per ASK (CASK)",
+          "formula": "total operating cost / available seat kilometres"
+        },
+        {
+          "name": "Load factor",
+          "formula": "revenue passenger kilometres / available seat kilometres"
+        }
+      ],
+      "commonMistakes": [
+        "Treating 9% revenue growth as good news and jumping to cost cuts, when revenue per ASK actually fell about 5% because capacity outgrew demand.",
+        "Comparing costs in absolute terms; costs were bound to rise with 15% more flying, so the useful question is cost per ASK."
+      ],
+      "frameworkPick": {
+        "options": [
+          "profitability",
+          "growth",
+          "operations",
+          "turnaround"
+        ],
+        "correct": [
+          "profitability"
+        ],
+        "why": "The question is why operating profit fell, so decompose profit into revenue and cost drivers and compare each with capacity growth.",
+        "distractorWhyNot": {
+          "growth": "The airline is already growing fast; the problem is that growth diluted profit.",
+          "operations": "Operating efficiency is one possible cost driver inside the profit tree, not the overall frame.",
+          "turnaround": "Profit halved but the airline is still profitable and has no cash crisis; a turnaround frame jumps to rescue actions before diagnosing why profit fell."
+        }
+      }
+    },
+    {
+      "id": "airlines-c02",
+      "title": "Size paid seat selection in India",
+      "industry": "airlines",
+      "framework": "market-sizing",
+      "secondary": [],
+      "difficulty": "Beginner",
+      "region": "India",
+      "prompt": "An Indian low-cost airline is deciding how much to invest in a new seat-merchandising tool and wants to know how big the paid seat selection market is. India flies about 165 million domestic passengers a year. How big is the annual revenue pool for paid seat selection across all domestic airlines?",
+      "clarifyingFacts": [
+        "Q: Do seats included free in bundled or business fares count? A: No, only seats a passenger pays for separately.",
+        "Q: What passenger mix should I assume? A: Roughly 35% business travellers, 30% leisure solo travellers or couples, 35% families and groups.",
+        "Q: What does a paid seat cost? A: Between ₹200 and ₹1,500 depending on the row; front rows and extra legroom are at the top end.",
+        "Q: What time frame and currency? A: One year, today's market, in rupees."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Annual paid seat-selection revenue on Indian domestic flights (₹ crore)",
+        "children": [
+          {
+            "id": "a",
+            "label": "Business travellers (~35% of 165m)",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Passengers: ~58 million"
+              },
+              {
+                "id": "a2",
+                "label": "Share buying a paid seat: ~25% (aisle, front rows)"
+              },
+              {
+                "id": "a3",
+                "label": "Average price per paid seat: ~₹600"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Leisure solo travellers and couples (~30%)",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Passengers: ~50 million"
+              },
+              {
+                "id": "b2",
+                "label": "Share buying a paid seat: ~10%"
+              },
+              {
+                "id": "b3",
+                "label": "Average price per paid seat: ~₹300"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Families and groups (~35%)",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Passengers: ~58 million"
+              },
+              {
+                "id": "c2",
+                "label": "Share buying a paid seat: ~35% (to sit together)"
+              },
+              {
+                "id": "c3",
+                "label": "Average price per paid seat: ~₹350"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "The total pool is about ₹1,700 crore a year (business ~₹870 crore, families ~₹710 crore, solo leisure ~₹150 crore).",
+        "Business travellers and families make up over 90% of the pool, so the tool should prioritise front-row and 'sit together' offers.",
+        "Each 1-point rise in industry attach rate is worth roughly ₹70 crore a year at today's average paid-seat price of about ₹435."
+      ],
+      "hints": [
+        "Segment passengers by why they would pay for a seat, because attach rates differ a lot between segments.",
+        "Level 1: business travellers; leisure solo travellers and couples; families and groups.",
+        "Solo leisure and couples: 30% of 165m ≈ 50m passengers x ~10% buying x ~₹300 ≈ ₹150 crore."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Seat revenue pool",
+          "formula": "sum over segments of (passengers x attach rate x average paid-seat price)"
+        },
+        {
+          "name": "Attach rate",
+          "formula": "paid seats sold / passengers flown"
+        }
+      ],
+      "commonMistakes": [
+        "Applying one attach rate to all 165 million passengers, when families and business travellers buy at roughly three times the rate of solo leisure travellers.",
+        "Counting seats included in bundled fares or business cabins, which no airline can sell separately."
+      ],
+      "frameworkPick": {
+        "options": [
+          "market-sizing",
+          "pricing",
+          "segmentation",
+          "growth"
+        ],
+        "correct": [
+          "market-sizing"
+        ],
+        "why": "The question asks how big a revenue pool is, so build an estimate from passengers, attach rate and price.",
+        "distractorWhyNot": {
+          "pricing": "No seat price is being set; current prices are only an input to the estimate.",
+          "segmentation": "Segments are a tool inside the estimate, not the question being asked.",
+          "growth": "The client is not yet asking how to grow its seat revenue, only how big the pool is."
+        }
+      }
+    },
+    {
+      "id": "airlines-c03",
+      "title": "Should an OTA drop its convenience fee?",
+      "industry": "airlines",
+      "framework": "pricing",
+      "secondary": [],
+      "difficulty": "Beginner",
+      "region": "India",
+      "prompt": "Our client is an Indian online travel agency that sells about 12 million domestic flight bookings a year. It charges a ₹350 convenience fee per booking, and a rival has just made flight bookings fee-free. Should our client drop its fee too?",
+      "clarifyingFacts": [
+        "Q: What does the OTA earn per booking apart from the fee? A: About ₹250 from airline commissions and GDS incentives; variable costs (payment gateway, customer support) are about ₹150 per booking.",
+        "Q: Has volume fallen since the rival's move? A: Bookings are down about 5% in the six weeks since.",
+        "Q: Does the OTA sell anything else to flight customers? A: About 8% of flight customers also book a hotel, worth roughly ₹900 contribution per hotel booking.",
+        "Q: What is the objective? A: Protect contribution from domestic flights, currently about ₹540 crore a year."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Should the OTA drop its ₹350 fee on domestic flight bookings?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Contribution if we drop the fee",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Bookings after the change",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Bookings won back from the rival"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "New flyers attracted by a lower total price"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Flight contribution per booking without fee (~₹100)"
+              },
+              {
+                "id": "a3",
+                "label": "Hotel cross-sell contribution (~8% of customers)"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Contribution if we keep the fee",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Bookings lost to the fee-free rival",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Loss so far (~5%)"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "How long the rival can fund zero fees"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Flight contribution per booking with fee (~₹450)"
+              },
+              {
+                "id": "b3",
+                "label": "Hotel cross-sell lost with lost bookings"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Options between the two extremes",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Lower fee (e.g. ₹199)"
+              },
+              {
+                "id": "c2",
+                "label": "Waive fee for app or loyalty bookings only"
+              },
+              {
+                "id": "c3",
+                "label": "Waive fee only on routes where the rival is strongest"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Dropping the fee gives up about ₹420 crore a year (12m x ₹350); bookings would need to roughly triple to recover it, which no realistic share gain delivers.",
+        "Keeping the fee costs far less: even a 15% loss of bookings costs about ₹95 crore of contribution, including lost hotel cross-sell.",
+        "A targeted waiver for app or loyalty bookings defends the most price-sensitive repeat customers at a fraction of the cost."
+      ],
+      "hints": [
+        "Compare the contribution under each pricing option, including how volume responds.",
+        "Level 1: contribution if we drop the fee, contribution if we keep it, and middle options between the two.",
+        "Middle options: a lower fee (say ₹199), a waiver for app or loyalty bookings only, or a waiver only on routes where the rival is strongest."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Contribution per booking",
+          "formula": "convenience fee + airline commissions and incentives - payment and support costs"
+        },
+        {
+          "name": "Breakeven volume",
+          "formula": "current contribution / contribution per booking without the fee (including cross-sell)"
+        }
+      ],
+      "commonMistakes": [
+        "Assuming the client must match the rival, when the fee is about three-quarters of contribution per booking and matching costs far more than losing some share.",
+        "Ignoring hotel cross-sell entirely; it improves the no-fee case slightly but does not change the answer."
+      ],
+      "frameworkPick": {
+        "options": [
+          "pricing",
+          "profitability",
+          "competitive-response",
+          "growth"
+        ],
+        "correct": [
+          "pricing"
+        ],
+        "why": "The decision is whether to change a price, so compare contribution at each price point, including the volume response.",
+        "distractorWhyNot": {
+          "profitability": "Profit has not yet fallen much; the question is a forward-looking price decision.",
+          "competitive-response": "The rival's move is the trigger, but the only decision asked is one price change; the rival matters only through one input (bookings lost while it keeps fees at zero), so a full competitive-response frame is wider than the question.",
+          "growth": "Dropping the fee might add bookings, but the question is whether the price change pays, not how to grow."
+        }
+      }
+    },
+    {
+      "id": "airlines-c04",
+      "title": "Hub on-time performance has collapsed",
+      "industry": "airlines",
+      "framework": "operations",
+      "secondary": [],
+      "difficulty": "Beginner",
+      "region": "Global",
+      "prompt": "A Southeast Asian low-cost airline has seen on-time departures at its main hub fall from 85% to 72% in six months, and complaints and compensation costs are rising. The COO asks you to find out why flights are leaving late.",
+      "clarifyingFacts": [
+        "Q: How is on-time defined? A: Departing within 15 minutes of the scheduled time.",
+        "Q: Did the schedule change? A: Yes. The airline added 20 daily departures at the hub and cut scheduled turnaround time from 35 to 30 minutes.",
+        "Q: Anything changing at the airport? A: A new runway is being built, and one taxiway is closed at peak hours.",
+        "Q: Is there delay data? A: Yes, each delayed flight is tagged with a delay reason by the duty manager."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Why have on-time departures at the hub fallen from 85% to 72%?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Aircraft arrived late from its previous flight",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Late departure from the previous airport"
+              },
+              {
+                "id": "a2",
+                "label": "Longer flight or taxi-in time (holding, congestion)"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Turnaround at the hub overran the 30-minute plan",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Passenger processes (deplaning, boarding, late passengers)"
+              },
+              {
+                "id": "b2",
+                "label": "Ground handling (bags, fuel, catering, cleaning)"
+              },
+              {
+                "id": "b3",
+                "label": "Technical checks and crew availability"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Aircraft ready but held after doors closed",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Air traffic control and departure slots"
+              },
+              {
+                "id": "c2",
+                "label": "Taxiway congestion (closed taxiway at peaks)"
+              },
+              {
+                "id": "c3",
+                "label": "Pushback tug not at the aircraft when doors close"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Cutting the planned turnaround from 35 to 30 minutes removed the buffer, so most new delays start in the turnaround and then knock on through the day.",
+        "The closed taxiway adds 5 to 10 minutes of taxi time at peaks, pushing flights already near the limit past the 15-minute threshold."
+      ],
+      "hints": [
+        "Split delays along the timeline of one departure: before the aircraft lands, while it is on the ground, and after the doors close.",
+        "Level 1: aircraft arrived late, turnaround overran, aircraft held after doors closed.",
+        "Aircraft arrived late: late departure from the previous airport, and longer flight or taxi-in time (holding, congestion)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "On-time performance",
+          "formula": "departures within 15 minutes of schedule / total departures"
+        },
+        {
+          "name": "Delay minutes by cause",
+          "formula": "sum of delay minutes tagged to each cause code"
+        },
+        {
+          "name": "Turnaround buffer",
+          "formula": "scheduled turnaround time - median actual turnaround time"
+        }
+      ],
+      "commonMistakes": [
+        "Listing causes (weather, air traffic control, staff) without a timeline, so knock-on delays get double counted with the delay that caused them.",
+        "Ignoring the schedule change: a 5-minute cut in planned turnaround creates delays even if every process runs exactly as before."
+      ],
+      "frameworkPick": {
+        "options": [
+          "operations",
+          "profitability",
+          "growth",
+          "turnaround"
+        ],
+        "correct": [
+          "operations"
+        ],
+        "why": "The question is why a process (departing on time) is failing, so trace the delay through the operational steps of a departure.",
+        "distractorWhyNot": {
+          "profitability": "Compensation costs are a symptom; the question asks what causes late departures, not why profit moved.",
+          "growth": "Extra departures are one possible cause, but the client is not asking how to grow.",
+          "turnaround": "Nothing suggests a financial crisis; an operating KPI has slipped, so a turnaround frame (cash, restructuring) overshoots the question."
+        }
+      }
+    },
+    {
+      "id": "airlines-c05",
+      "title": "Launch a regional airline on UDAN routes?",
+      "industry": "airlines",
+      "framework": "market-entry",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "India",
+      "prompt": "An Indian infrastructure group wants to launch a regional airline with 10 leased 72-seat turboprops, flying Tier-2 and Tier-3 routes under the government's UDAN scheme. It would commit about ₹600 crore over five years. Should it enter, and if so, how?",
+      "clarifyingFacts": [
+        "Q: What does UDAN offer? A: On awarded routes, viability gap funding (VGF) and route exclusivity for three years, in return for capped fares on about half the seats.",
+        "Q: Does the group have airline experience? A: No, but it runs three regional airports and has a strong balance sheet.",
+        "Q: What does success look like? A: Operating breakeven by year 3 and a 15% annual return on the ₹600 crore by year 5.",
+        "Q: How have past regional airlines done? A: Several have shut or shrunk after VGF ended; load factors on UDAN routes are typically 60-70%."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Should the group launch a 10-turboprop UDAN airline, and how?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Is the regional market attractive?",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Demand on candidate routes",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Travellers today by road and rail on these city pairs"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Share likely to switch to air at capped fares"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Competition",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Exclusive UDAN routes vs contested routes"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "New fast trains and expressways on the same pairs"
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Scheme terms",
+                "children": [
+                  {
+                    "id": "a3x",
+                    "label": "VGF size and three-year duration"
+                  },
+                  {
+                    "id": "a3y",
+                    "label": "Fare caps and exclusivity rules"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Can the group run an airline well?",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Air operator certificate and DGCA safety approvals"
+              },
+              {
+                "id": "b2",
+                "label": "Pilots and engineers rated on turboprops",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Availability in the hiring market"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Training pipeline and cost"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Advantages from owning three regional airports"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Which entry route is best?",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Build from scratch",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Time to certificate and first flight"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Start-up cost of teams and systems"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Acquire a small existing operator",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "Price vs value of its certificate, routes and crew"
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "Inherited liabilities and safety record"
+                  }
+                ]
+              },
+              {
+                "id": "c3",
+                "label": "Partner with a major airline (codeshare, wet lease)"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Do the returns justify the risk?",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Economics per flight with VGF (years 1-3)",
+                "children": [
+                  {
+                    "id": "d1x",
+                    "label": "Revenue: seats x load factor x fare + VGF"
+                  },
+                  {
+                    "id": "d1y",
+                    "label": "Cost: fuel, lease, crew, airport charges"
+                  }
+                ]
+              },
+              {
+                "id": "d2",
+                "label": "Economics after VGF ends",
+                "children": [
+                  {
+                    "id": "d2x",
+                    "label": "Fare headroom above the capped level"
+                  },
+                  {
+                    "id": "d2y",
+                    "label": "Breakeven load factor without subsidy"
+                  }
+                ]
+              },
+              {
+                "id": "d3",
+                "label": "Downside: lease commitments if routes fail"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Most candidate routes work with VGF but need load factors above about 80% once VGF ends, well above the 60-70% typical on UDAN routes.",
+        "Owning airports helps on slots and ground costs but does not solve the binding constraints (certification, crew, safety culture), so partnering or acquiring beats building from scratch."
+      ],
+      "hints": [
+        "Structure it as a go or no-go entry decision, and make the end of the subsidy visible somewhere in the structure.",
+        "Level 1: regional market attractiveness; capability to run an airline; entry route; returns.",
+        "Capability: air operator certificate and DGCA approvals; turboprop-rated pilots and engineers (availability, training pipeline); advantages from owning three regional airports."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Revenue per flight",
+          "formula": "seats x load factor x average fare + VGF per flight"
+        },
+        {
+          "name": "Breakeven load factor",
+          "formula": "cost per flight / (seats x average fare)"
+        },
+        {
+          "name": "Payback period",
+          "formula": "upfront investment / annual operating cash flow"
+        }
+      ],
+      "commonMistakes": [
+        "Judging the market on years 1-3, when VGF and exclusivity make most routes look profitable; the real test is year 4 onwards.",
+        "Assuming that owning airports means the group can run an airline; certification, crew and safety are the binding constraints."
+      ],
+      "frameworkPick": {
+        "options": [
+          "market-entry",
+          "growth",
+          "product-launch",
+          "pe-dd"
+        ],
+        "correct": [
+          "market-entry"
+        ],
+        "why": "The client is deciding whether and how to enter a business it is not in today, so test market attractiveness, ability to win, entry route and returns.",
+        "distractorWhyNot": {
+          "growth": "Growth frames assume an existing business to expand; the group has no airline today.",
+          "product-launch": "This is a new business in a new industry for the client, not a new product for existing customers.",
+          "pe-dd": "The group would build and run the airline itself, not buy a company for a financial return."
+        }
+      }
+    },
+    {
+      "id": "airlines-c06",
+      "title": "Lift ancillary revenue per passenger",
+      "industry": "airlines",
+      "framework": "growth",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "Global",
+      "prompt": "A European budget airline carries 40 million passengers a year at an average fare of €45 and earns about €22 of ancillary revenue per passenger on top. The board wants ancillary revenue per passenger at €30 within three years. How could it get there?",
+      "clarifyingFacts": [
+        "Q: What makes up the €22 today? A: Bags about €12, seats €5, priority boarding and bundles €3, onboard sales €1.50, and third-party commissions (hotels, car hire) €0.50.",
+        "Q: Any constraints? A: Base fares should not rise, customer satisfaction scores must not fall, and passenger numbers are expected to stay roughly flat.",
+        "Q: Where do customers buy add-ons? A: About 70% of ancillary sales happen at booking, 20% in manage-booking and check-in, and 10% at the airport or onboard.",
+        "Q: How does €22 compare with rivals? A: An ultra-low-cost rival earns about €45 per passenger, mostly by charging for cabin bags and through fees at the airport."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "How can ancillary revenue per passenger rise from €22 to €30 in three years?",
+        "children": [
+          {
+            "id": "a",
+            "label": "More passengers buy airline add-ons (attach rate)",
+            "children": [
+              {
+                "id": "a1",
+                "label": "At booking",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Bundle design and default selections"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Offers tailored to trip type (families, business)"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Between booking and departure",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Manage-booking and app prompts"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Check-in offers (seats, bags, priority)"
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "At the airport and onboard",
+                "children": [
+                  {
+                    "id": "a3x",
+                    "label": "Gate bag enforcement and priority upsell"
+                  },
+                  {
+                    "id": "a3y",
+                    "label": "Onboard pre-order and cashless sales"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Buyers spend more per airline add-on (price and mix)",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Dynamic pricing of bags and seats",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "By route, season and days to departure"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "By channel (cheaper at booking than at the gate)"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Mix towards bigger bags, extra legroom, premium bundles"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Third-party and new revenue streams",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Third-party travel products",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Hotels and car hire"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Travel insurance and airport transfers"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Paid membership (bag or seat subscription)"
+              },
+              {
+                "id": "c3",
+                "label": "Advertising and retail (app, boarding pass, onboard)"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Dynamic pricing of bags and seats by route, season and booking window can add €2-3 per passenger without raising base fares.",
+        "Third-party revenue (€0.50) cannot close the gap alone: even 5% of passengers booking a hotel, car or insurance at about €20 commission adds only about €1 per passenger, so most of the €8 must come from airline add-ons.",
+        "Moving more seat and bag sales into the weeks before departure via app prompts lifts attach rates without raising headline prices."
+      ],
+      "hints": [
+        "Ancillary revenue per passenger is a sum over products of attach rate x price; build the split from that identity and decide where products the airline does not sell itself belong.",
+        "Level 1: attach rate on airline add-ons; spend per buyer; third-party and new streams.",
+        "Attach rate by touchpoint: at booking (bundles, defaults), between booking and departure (app, check-in), at the airport and onboard."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Ancillary revenue per passenger",
+          "formula": "sum over products of (attach rate x average price)"
+        },
+        {
+          "name": "Attach rate",
+          "formula": "passengers buying the product / total passengers"
+        },
+        {
+          "name": "Revenue gap",
+          "formula": "(€30 - €22) x 40m passengers ≈ €320m a year"
+        }
+      ],
+      "commonMistakes": [
+        "Copying the ultra-low-cost rival's €45 by charging for cabin bags and airport fees, which breaks the satisfaction constraint; across-the-board fee rises also ignore attach-rate levers.",
+        "Listing ideas without sizing them; each lever should be expressed in euros per passenger against the €8 gap."
+      ],
+      "frameworkPick": {
+        "options": [
+          "growth",
+          "pricing",
+          "product-launch",
+          "profitability"
+        ],
+        "correct": [
+          "growth"
+        ],
+        "why": "The goal is to grow a revenue line to a target, so break revenue per passenger into volume, spend and new-stream levers.",
+        "distractorWhyNot": {
+          "pricing": "Pricing is one lever (spend per buyer), but the question also covers attach rates and new products.",
+          "product-launch": "New products are one branch; the question concerns the whole ancillary revenue line, mostly existing products.",
+          "profitability": "Profit has not fallen; the question is a revenue growth target."
+        }
+      }
+    },
+    {
+      "id": "airlines-c07",
+      "title": "New LCC attacks our best routes",
+      "industry": "airlines",
+      "framework": "competitive-response",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "India",
+      "prompt": "Our client is a large Indian full-service airline. A newly launched low-cost airline has started flying 6 of its 10 most profitable domestic routes from Bengaluru, at fares about 25% lower. These routes bring the client about ₹1,800 crore a year, and its load factor on them has fallen from 86% to 80% in three months. How should the client respond?",
+      "clarifyingFacts": [
+        "Q: How big is the entrant? A: It has 12 aircraft and plans 40 within three years, backed by a well-funded investor group.",
+        "Q: Who flies on these routes? A: About 45% of the client's passengers are business travellers, many on negotiated corporate fares; the rest travel for leisure or to visit friends and relatives.",
+        "Q: How do costs compare? A: The client's cost per seat is about 20% above the entrant's because of premium cabins, lounges and older aircraft.",
+        "Q: Any constraints? A: The client is profitable and wants to protect margins; it owns a low-cost subsidiary that flies other routes."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "How should the full-service airline respond to the new LCC on its 6 Bengaluru routes?",
+        "children": [
+          {
+            "id": "a",
+            "label": "How serious and lasting is the threat?",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Entrant's cost advantage",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Structural: fleet, single cabin, labour"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Temporary: launch-phase discounting"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Entrant's staying power",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Funding vs cash burn at launch fares"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Fleet plan: 12 to 40 aircraft"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Which of our revenue is at risk?",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Leisure and visiting-family passengers",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Passengers lost so far (86% to 80% load factor)"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Share price-sensitive enough to switch"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Business passengers",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Contracted corporates (negotiated fares, travel policy)"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Business travellers without a corporate contract"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "What can we do?",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Price: match selectively",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Which fare buckets and departures to match"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Cost of matching vs passengers kept"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Capacity: change frequencies and timings",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "Add flights at peak business times"
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "Move capacity to routes without overlap"
+                  }
+                ]
+              },
+              {
+                "id": "c3",
+                "label": "Product: sharpen the offer for business travellers",
+                "children": [
+                  {
+                    "id": "c3x",
+                    "label": "Corporate deals and travel-policy wins"
+                  },
+                  {
+                    "id": "c3y",
+                    "label": "Loyalty bonuses on contested routes"
+                  }
+                ]
+              },
+              {
+                "id": "c4",
+                "label": "Structure: move flying to our low-cost subsidiary",
+                "children": [
+                  {
+                    "id": "c4x",
+                    "label": "Subsidiary's cost per seat vs entrant's"
+                  },
+                  {
+                    "id": "c4y",
+                    "label": "Risk of confusing corporate customers"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Which response creates most value?",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Revenue kept vs margin given up per option"
+              },
+              {
+                "id": "d2",
+                "label": "Entrant's likely counter-move"
+              },
+              {
+                "id": "d3",
+                "label": "Competition law risk of pricing below cost (CCI, if dominant)"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Business passengers (about 45%) are largely held by contracts and schedules; the real exposure is leisure and visiting-family traffic, so a blanket fare cut gives away margin on passengers who were not leaving.",
+        "Moving the most leisure-heavy routes to the low-cost subsidiary defends share at a cost per seat close to the entrant's.",
+        "Our cost per seat is 20% above the entrant's, so its cost is only about 17% below ours, yet its fares are 25% lower; part of the discount is launch pricing that it must narrow to make money."
+      ],
+      "hints": [
+        "Sequence the structure as you would brief a CEO on a rival's move: diagnosis before action.",
+        "Level 1: seriousness and duration of the threat; revenue at risk; response options; choice between options.",
+        "Threat: the entrant's cost advantage (structural versus launch-phase) and its staying power (funding against cash burn, fleet plan from 12 to 40 aircraft)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Revenue at risk",
+          "formula": "passengers lost x average fare + fare reduction x passengers kept"
+        },
+        {
+          "name": "Cost per available seat",
+          "formula": "total route operating cost / seats offered"
+        },
+        {
+          "name": "Load factor",
+          "formula": "passengers carried / seats offered"
+        }
+      ],
+      "commonMistakes": [
+        "Matching the 25% cut on all fares, which could cost up to about ₹450 crore a year against about ₹125 crore lost from the load factor fall so far.",
+        "Ignoring the low-cost subsidiary, the one option that can match the entrant's cost base."
+      ],
+      "frameworkPick": {
+        "options": [
+          "competitive-response",
+          "pricing",
+          "profitability",
+          "market-entry"
+        ],
+        "correct": [
+          "competitive-response"
+        ],
+        "why": "A rival's move triggered the problem and the client must choose a response, weighing the entrant's staying power, its own exposure and likely counter-moves.",
+        "distractorWhyNot": {
+          "pricing": "Price is one response option, but capacity, product and the subsidiary matter as much.",
+          "profitability": "The cause of the revenue loss is already known (the entrant); the question is how to respond.",
+          "market-entry": "The rival is the one entering; our client is the incumbent deciding how to defend."
+        }
+      }
+    },
+    {
+      "id": "airlines-c08",
+      "title": "Who should the new business class serve?",
+      "industry": "airlines",
+      "framework": "segmentation",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "Global",
+      "prompt": "A Middle Eastern hub airline is redesigning its long-haul business class. Premium cabins are 10% of seats but bring 30% of passenger revenue. Before spending about US$400 million on new seats and lounges, management wants to know which premium passenger segments to design for.",
+      "clarifyingFacts": [
+        "Q: Who are today's premium passengers? A: About 55% fly on employer-paid tickets, 25% pay for their own tickets, and 20% are in the cabin through upgrades or points.",
+        "Q: What do they pay? A: Employer-paid tickets average about US$3,200 one-way and self-paid about US$2,400; upgrades and redemptions bring little cash.",
+        "Q: How does the hub shape the mix? A: About 70% of premium passengers connect through the hub between two other countries.",
+        "Q: What is the objective? A: Maximise premium cash revenue over the cabin's 10-year life."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Which premium passenger segments should the new business class target?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Premium ticket paid by employer (~55%)",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Large corporates on negotiated contracts",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Value: volume and yield per contract"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Needs: schedule, flexibility, space to work and sleep"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Employer-paid travellers without a corporate contract",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Value: higher fares, weaker loyalty"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Needs: comfort for price, easy rebooking"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Premium ticket paid by traveller (~25%)",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Premium leisure (couples, families)",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Value: book early, more price-sensitive"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Needs: lounges, seats for travelling together"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Business owners and self-employed",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Value: frequent, price-aware"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Needs: flexibility at a fair price"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Upgraded or redeemed into the cabin (~20%)",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Elite members upgraded on status"
+              },
+              {
+                "id": "c2",
+                "label": "Points redemptions"
+              },
+              {
+                "id": "c3",
+                "label": "Paid upgrades from economy or premium economy"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Employer-paid travellers are about 55% of premium passengers but roughly three-quarters of premium cash ticket revenue, so their needs (sleep, work, schedule) should anchor the design.",
+        "Self-paid premium leisure is the growth segment and values lounges and seats for travelling together, so a layout built only for solo business travellers would under-serve it.",
+        "The 20% on upgrades and points dilutes cash yield; a smaller business cabin plus a premium economy cabin could absorb upgrades and lift revenue per seat."
+      ],
+      "hints": [
+        "Segment by how the passenger came to be in the premium seat and who paid, because value and needs follow from that.",
+        "Level 1: premium ticket paid by employer, premium ticket paid by traveller, upgraded or redeemed into the cabin.",
+        "Upgraded or redeemed into the cabin: elite members upgraded on status, points redemptions, and paid upgrades from economy or premium economy."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Segment share of cash revenue",
+          "formula": "segment passengers x average cash fare / total premium cash revenue"
+        },
+        {
+          "name": "Premium revenue per seat",
+          "formula": "premium cabin passenger revenue / premium seats flown"
+        }
+      ],
+      "commonMistakes": [
+        "Segmenting by demographics (age, nationality) rather than by who pays and why they fly, which is what drives willingness to pay and product needs.",
+        "Designing for the 70% who connect as if connection were a segment; connecting or not cuts across every payer group and shapes lounge and transfer needs, not who to design the seat for."
+      ],
+      "frameworkPick": {
+        "options": [
+          "segmentation",
+          "product-launch",
+          "pricing",
+          "market-sizing"
+        ],
+        "correct": [
+          "segmentation"
+        ],
+        "why": "Management needs to know which customer groups to design for, which means splitting premium passengers into groups with distinct value and needs and choosing targets.",
+        "distractorWhyNot": {
+          "product-launch": "The new cabin is a product, but the question asked is who to design it for, which comes before any launch decision.",
+          "pricing": "Fares measure segment value here, but no price is being set.",
+          "market-sizing": "The airline already knows its premium volumes; the issue is which groups matter."
+        }
+      }
+    },
+    {
+      "id": "airlines-c09",
+      "title": "Launch a monthly flight subscription pass?",
+      "industry": "airlines",
+      "framework": "product-launch",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "India",
+      "prompt": "An Indian low-cost airline is considering a monthly subscription for frequent business flyers: ₹14,999 a month for up to four one-way flights on one route pair, such as Mumbai-Delhi. Its frequent flyers on that route currently pay about ₹6,500 per one-way ticket on average. Should the airline launch the pass?",
+      "clarifyingFacts": [
+        "Q: Who would buy it? A: Research points to SME owners and sales staff who fly the route three to five times a month.",
+        "Q: How full are the flights? A: Mumbai-Delhi runs at about 88% load factor and is close to full at morning and evening peaks.",
+        "Q: What does it cost to carry one more passenger in an empty seat? A: About ₹800 (extra fuel for the weight, passenger handling, catering, payment costs).",
+        "Q: Are the pass rules decided? A: No. The team wants your view on booking windows, blackout dates and seat limits."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Should the airline launch a ₹14,999 monthly pass for four flights on a route pair?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Is there enough demand?",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Frequent flyers on the route",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Flying with us today"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Flying with rivals or by train today"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Take-up at ₹14,999",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Willingness to pay from customer research"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Take-up of similar passes elsewhere"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Does it make money?",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Pass revenue (subscribers x ₹14,999)",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Subscribers new to the airline"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Subscribers already flying with us"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Ticket revenue lost from customers who switch",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Trips per month before the pass"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Average fare they paid (~₹6,500)"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Cost of carrying subscribers",
+                "children": [
+                  {
+                    "id": "b3x",
+                    "label": "Marginal cost in an otherwise empty seat (~₹800)"
+                  },
+                  {
+                    "id": "b3y",
+                    "label": "Fares lost when subscribers displace buyers on full flights"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Can we run it?",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Seat controls: booking windows, blackouts, caps per flight"
+              },
+              {
+                "id": "c2",
+                "label": "Systems: booking engine, fraud and name-change rules"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "How will rivals and customers react?",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Rivals launching matching passes"
+              },
+              {
+                "id": "d2",
+                "label": "Customers coming to expect cheaper fares"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Cannibalisation decides the case: each existing customer who switches cuts monthly spend from ₹26,000 to ₹14,999 (about ₹11,000 lost), while a new subscriber adds about ₹11,800, so the pass loses money if more than about half of subscribers already fly with the airline.",
+        "On peak flights near 90% full, subscribers displace last-minute buyers paying well above ₹6,500, so blackout dates or seat caps on peak departures are essential."
+      ],
+      "hints": [
+        "Treat it as a launch decision and keep the economics strictly incremental: what changes only because the pass exists.",
+        "Level 1: demand; economics; ability to run it; rival and customer reaction.",
+        "Ability to run it: seat controls (booking windows, blackouts, caps per flight) and systems (booking engine, fraud and name-change rules)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Net gain per new subscriber",
+          "formula": "₹14,999 - trips used x marginal cost per seat"
+        },
+        {
+          "name": "Net loss per switching customer",
+          "formula": "previous monthly spend (trips x average fare) - ₹14,999"
+        },
+        {
+          "name": "Breakeven share of existing customers",
+          "formula": "gain per new subscriber / (gain per new subscriber + loss per switcher)"
+        }
+      ],
+      "commonMistakes": [
+        "Counting all pass revenue as new money, when the likeliest buyers are the airline's own most frequent, highest-paying customers.",
+        "Assuming the cost of carrying a subscriber is near zero; on a full peak flight the true cost is the fare of the passenger displaced."
+      ],
+      "frameworkPick": {
+        "options": [
+          "product-launch",
+          "pricing",
+          "growth",
+          "segmentation"
+        ],
+        "correct": [
+          "product-launch"
+        ],
+        "why": "The question is whether to launch a new product, so test demand, incremental economics including cannibalisation, feasibility and reaction.",
+        "distractorWhyNot": {
+          "pricing": "The ₹14,999 price is one design choice inside the launch decision, not the whole question.",
+          "growth": "The pass may add volume, but the decision hinges on whether this specific product creates value.",
+          "segmentation": "Knowing the target customer is one input to the launch decision, not the decision itself."
+        }
+      }
+    },
+    {
+      "id": "airlines-c10",
+      "title": "Engine groundings push LCC into crisis",
+      "industry": "airlines",
+      "framework": "turnaround",
+      "secondary": [
+        "operations"
+      ],
+      "difficulty": "Advanced",
+      "region": "India",
+      "prompt": "A mid-sized Indian low-cost airline has 60 leased aircraft, but 22 are grounded waiting for engines. It burns about ₹90 crore of cash a month, has ₹450 crore left, and lessors on 15 aircraft are demanding ₹300 crore of overdue rent. The 38 flying aircraft cover their own cash operating costs, but overheads are sized for 60. The board asks what the airline must do in the next 90 days to survive, and how it returns to profit within 18 months.",
+      "clarifyingFacts": [
+        "Q: Can lessors take the aircraft back? A: Yes. Under the Cape Town Convention, which India enacted in 2025, a lessor can declare a default and ask DGCA to deregister and export the aircraft; even an insolvency filing would hold lessors off for no more than two months.",
+        "Q: What makes up the ₹90 crore monthly burn? A: Rent on the 22 grounded aircraft, about ₹3 crore each a month (about ₹66 crore); the rest is overheads that the flying fleet's contribution does not cover.",
+        "Q: What is the engine maker offering? A: About ₹15 crore per grounded aircraft per year in compensation, paid as credits against future purchases, and spare engines only from next year.",
+        "Q: Will the promoter invest? A: The promoter will put in ₹500 crore only if lessors agree to defer dues and the plan shows a path to profit; outside investors want a majority stake."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "What must the airline do to survive 90 days and be profitable within 18 months?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Fund the 90-day cash gap",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Size the gap",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Operating cash burn (~₹90 crore a month)"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Overdue rent (₹300 crore) and other arrears"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Raise new money",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Promoter equity (₹500 crore, conditional)"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Outside investor or strategic partner"
+                  },
+                  {
+                    "id": "a2z",
+                    "label": "Sale of owned assets (spare engines, parts)"
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Defer or restructure payments",
+                "children": [
+                  {
+                    "id": "a3x",
+                    "label": "Lessor rent deferral for lease extensions"
+                  },
+                  {
+                    "id": "a3y",
+                    "label": "Credit terms from fuel suppliers, airports, vendors"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Decide the fate of the 22 grounded aircraft",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Get engines back",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Spare engines and shop-visit priority from the maker"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Turn compensation credits into cash or rent offsets"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Replace capacity meanwhile",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Wet or damp lease on the most profitable routes"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Cost of leased capacity vs route contribution"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Return surplus aircraft to lessors"
+              },
+              {
+                "id": "b4",
+                "label": "Cut holding costs while parked (parking, insurance, storage)"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Make the flying fleet profitable",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Network",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Cut routes that do not cover cash costs"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Concentrate on strongest metro routes"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Revenue",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "Yield management on reduced capacity"
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "Ancillary revenue per passenger"
+                  }
+                ]
+              },
+              {
+                "id": "c3",
+                "label": "Cost",
+                "children": [
+                  {
+                    "id": "c3x",
+                    "label": "Resize overheads to a 38-aircraft airline"
+                  },
+                  {
+                    "id": "c3y",
+                    "label": "Lower variable cost per flight (handling, fuel efficiency)"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Real runway is under two months: ₹450 crore of cash less ₹300 crore of overdue rent covers only about 1.7 months of the ₹90 crore monthly burn, so a lessor standstill must come before anything else.",
+        "Rent on grounded aircraft (22 x ₹3 crore ≈ ₹66 crore a month) is about three-quarters of the burn; a rent holiday on them, traded for lease extensions and with lessors part-compensated by assigning engine-maker credits (≈ ₹27 crore a month), cuts burn to about ₹24 crore, and with the promoter's ₹500 crore gives about 27 months even after clearing the arrears.",
+        "Stakeholder goals are locked together (the promoter invests only if lessors defer, lessors defer only if new money arrives), so both must close in one package; resizing overheads to 38 aircraft then removes the last ₹24 crore."
+      ],
+      "hints": [
+        "Split by time horizon, and give the root cause of the crisis its own branch rather than burying it in costs.",
+        "Level 1: fund the 90-day cash gap; decide the grounded fleet; make the flying fleet profitable.",
+        "Flying fleet: network (cut routes that do not cover cash costs, concentrate on metro routes), revenue (yield management, ancillaries) and cost (resize overheads, lower variable cost per flight)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Cash runway (months)",
+          "formula": "(cash - overdue payables that must be paid now) / monthly cash burn"
+        },
+        {
+          "name": "Cash contribution per flying aircraft",
+          "formula": "route revenue - cash operating costs (fuel, crew, airport, maintenance, rent)"
+        },
+        {
+          "name": "Grounded share of burn",
+          "formula": "grounded aircraft x monthly rent / monthly cash burn (22 x ₹3 crore / ₹90 crore ≈ 73%)"
+        }
+      ],
+      "commonMistakes": [
+        "Jumping to long-term strategy (network, brand) before securing a lessor standstill; Cape Town remedies let lessors deregister and export aircraft quickly, and insolvency would buy at most two months.",
+        "Treating the engine maker's compensation as cash; credits against future purchases do nothing for the 90-day gap unless converted."
+      ],
+      "frameworkPick": {
+        "options": [
+          "turnaround",
+          "operations",
+          "profitability",
+          "ma"
+        ],
+        "correct": [
+          "turnaround",
+          "operations"
+        ],
+        "why": "The airline faces a liquidity crisis that needs a turnaround plan (cash first, then profit), and the root cause is operational: grounded aircraft that must be fixed, replaced or returned.",
+        "distractorWhyNot": {
+          "profitability": "A pure profit diagnosis ignores that the airline may run out of cash before any profit fix lands.",
+          "ma": "A sale may be one outcome, but the board asked how the airline survives and recovers."
+        }
+      }
+    },
+    {
+      "id": "airlines-c11",
+      "title": "Gulf airline eyes stake in Indian carrier",
+      "industry": "airlines",
+      "framework": "ma",
+      "secondary": [
+        "market-entry"
+      ],
+      "difficulty": "Advanced",
+      "region": "India",
+      "prompt": "A large Gulf hub airline is considering buying 49% of a mid-sized Indian airline for about ₹2,500 crore. The Indian airline has 40 aircraft, about 8% domestic share, ₹8,000 crore of revenue and a small operating loss. The Gulf airline wants Indian traffic to feed its hub, the Indian promoter wants growth capital and to keep control, and Indian rivals are expected to lobby against the deal. Should the Gulf airline do it?",
+      "clarifyingFacts": [
+        "Q: What do the rules allow? A: Foreign airlines may own up to 49% of an Indian scheduled airline (FDI and portfolio investment combined) with government approval; substantial ownership and effective control must stay with Indian nationals, and the chairman and at least two-thirds of directors must be Indian citizens.",
+        "Q: Can the Gulf airline simply add its own flights to India? A: No. Its seats under the bilateral air services agreement are fully used and India has shown no sign of raising them. Indian-side seats are allocated by the government among Indian airlines, so the partner would need a larger allocation to add flights to the hub.",
+        "Q: What synergies does the Gulf airline expect? A: About ₹1,200 crore a year of extra revenue on its own network from Indian connecting passengers, at roughly 25% contribution (pre-tax), plus procurement and maintenance savings it has not quantified. Assume synergies last 10 years and a 12% discount rate.",
+        "Q: What is the Indian airline worth on its own? A: Assume about ₹2,000 crore of equity value on its own plan."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Should the Gulf airline buy 49% of the Indian airline for ₹2,500 crore?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Is the stake worth the price on a standalone basis?",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Path from small loss to profit",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Cost per seat vs larger Indian rivals"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Share and yield trend in a concentrated market"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Implied valuation",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Implied ₹5,100 crore equity value vs ~₹2,000 crore standalone"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Lease liabilities and capital needed to grow"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "What synergies can the Gulf airline actually capture?",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Revenue: Indian passengers fed to the hub",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Partner flights to the hub on Indian-side seat allocations"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Codeshare and joint sales on domestic feed"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Cost savings",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Joint fuel and aircraft procurement"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Shared maintenance and loyalty programme"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Dis-synergies: partner's own international plans vs hub feed"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Can the deal be approved and governed?",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Regulatory approvals",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "FDI approval and effective-control test"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Competition Commission review"
+                  },
+                  {
+                    "id": "c1z",
+                    "label": "Government stance on bilateral rights feeding a foreign hub"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Governance within a 49% stake",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "Board seats, vetoes and management rights"
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "Promoter's insistence on control"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Is there a better route into India?",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Codeshare or revenue-sharing joint venture without equity"
+              },
+              {
+                "id": "d2",
+                "label": "Stake in a different Indian airline"
+              },
+              {
+                "id": "d3",
+                "label": "Wait and push for a larger bilateral"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Most of the deal's value depends on the partner winning Indian-side seats to fly to the Gulf hub; if the government withholds them, synergies shrink to codeshare level and the price cannot be justified.",
+        "The partners' goals conflict: the promoter wants capital for domestic and wider international growth, while the Gulf airline wants the partner's international flying pointed at its hub.",
+        "The price is about ₹1,500 crore above the stake's standalone value (₹2,500 crore vs 49% of ₹2,000 crore); ₹300 crore a year of synergy contribution for 10 years at 12% is worth about ₹1,700 crore, so the deal pays only if close to 90% of the network synergies are delivered."
+      ],
+      "hints": [
+        "Value the stake as any acquirer would, then ask what a strategic buyer must add in a market where traffic rights and control are regulated.",
+        "Level 1: standalone value; synergies that can actually be captured; approval and governance; alternatives.",
+        "Alternatives: a codeshare or revenue-sharing joint venture without equity, a stake in a different Indian airline, or waiting and pushing for a larger bilateral."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Implied equity value",
+          "formula": "price paid / stake acquired (₹2,500 crore / 49% ≈ ₹5,100 crore)"
+        },
+        {
+          "name": "Synergy capture needed to break even",
+          "formula": "(price - 49% x standalone equity value) / PV of synergies (₹1,500 crore / ₹1,695 crore ≈ 88%)"
+        },
+        {
+          "name": "Synergy contribution",
+          "formula": "extra network revenue x contribution margin (₹1,200 crore x ~25% ≈ ₹300 crore a year)"
+        }
+      ],
+      "commonMistakes": [
+        "Treating synergies as certain when they depend on the government letting Indian bilateral rights feed a foreign hub.",
+        "Ignoring that a 49% stake with Indian effective control means the Gulf airline cannot direct the network; governance rights matter as much as price."
+      ],
+      "frameworkPick": {
+        "options": [
+          "ma",
+          "market-entry",
+          "growth",
+          "pe-dd"
+        ],
+        "correct": [
+          "ma",
+          "market-entry"
+        ],
+        "why": "This is an acquisition decision (value, synergies, price, governance) and also the Gulf airline's chosen route into a market it cannot grow in on its own, so other entry routes must be compared.",
+        "distractorWhyNot": {
+          "growth": "Growth is the motive, but the question is whether this specific acquisition is the right way to achieve it.",
+          "pe-dd": "The buyer is a strategic acquirer seeking network synergies, not a financial investor seeking an exit return."
+        }
+      }
+    },
+    {
+      "id": "airlines-c12",
+      "title": "PE fund weighs European ground handler",
+      "industry": "airlines",
+      "framework": "pe-dd",
+      "secondary": [
+        "operations"
+      ],
+      "difficulty": "Advanced",
+      "region": "Global",
+      "prompt": "A private equity fund is considering buying an independent ground-handling company that serves airlines at 12 European airports. It has €600 million of revenue and €54 million of EBITDA, and the seller wants 9x EBITDA. Air traffic is growing about 3% a year, and the fund needs 2.5x its equity in five years. Should it buy?",
+      "clarifyingFacts": [
+        "Q: How is the deal financed? A: About 4x EBITDA of debt (€216 million) and €270 million of fund equity, ignoring fees. Assume exit after five years at the same 9x, with net debt cut to about €120 million from cash flow.",
+        "Q: How does the company win work? A: Under EU rules, airports above about 2 million passengers a year may limit ramp and baggage handlers (to no fewer than two) and award those licences by tender for up to seven years; licences at two airports, about 35% of revenue, are re-tendered within two years.",
+        "Q: What drives costs? A: Staff are about 65% of costs, and a new collective agreement raises wages 5% next year.",
+        "Q: How are airline contracts priced? A: Mostly per aircraft turn, on three to five year terms; only some include inflation indexation."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Should the fund buy the ground handler at 9x EBITDA (€486 million)?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Is the market attractive?",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Volume growth",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Traffic growth at its 12 airports (~3% a year)"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Growth plans of its main airline customers"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Market structure and pricing power",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Licence limits and tender cycles at large airports"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Airline self-handling and rival handlers"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Is the target's position defensible?",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Licences and contracts",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Chance of keeping the two licences re-tendered (35% of revenue)"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Customer concentration and contract length"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Cost position",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Labour productivity: staff hours per turn"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Wage inflation: 5% rise next year on 65% of costs"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Service quality: on-time turns and baggage performance"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Can EBITDA grow from €54 million to about €90 million?",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Revenue growth",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Volume growth with traffic"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Price: indexation at contract renewal"
+                  },
+                  {
+                    "id": "c1z",
+                    "label": "New airports, contracts and services (cargo, de-icing)"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Margin improvement",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "Rostering staff to flight peaks"
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "Sharing and electrifying ground equipment"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Does the deal return 2.5x?",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Entry price vs comparable deals"
+              },
+              {
+                "id": "d2",
+                "label": "Exit multiple and likely buyers"
+              },
+              {
+                "id": "d3",
+                "label": "Downside returns if one re-tendered licence is lost"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Traffic growth is not the value driver: with staff at 65% of costs, the 5% wage rise adds about €18 million of cost, a third of EBITDA, unless contracts pass it through.",
+        "Reaching about €90 million of EBITDA needs roughly 10% growth a year, so margin must rise from 9% to about 12-13% even if every licence is retained.",
+        "Losing one re-tendered licence (about 17.5% of revenue) caps year-5 EBITDA near €73 million even at a 12.7% margin, about 2.0x equity, so the price should reflect re-tender risk or include an earn-out."
+      ],
+      "hints": [
+        "Use the due-diligence sequence a fund follows, then work back from the 2.5x target to the EBITDA needed at exit.",
+        "Level 1: market attractiveness; defensibility of licences, contracts and costs; EBITDA growth plan; deal returns and downside.",
+        "Market: volume growth (traffic at its 12 airports, main airline customers' plans) and market structure (licence limits and tender cycles, airline self-handling and rival handlers)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Equity multiple",
+          "formula": "(exit EBITDA x exit multiple - net debt at exit) / equity invested"
+        },
+        {
+          "name": "Required exit EBITDA",
+          "formula": "(2.5 x €270m + net debt at exit) / exit multiple ≈ €88m at 9x with ~€120m net debt"
+        },
+        {
+          "name": "Contribution per aircraft turn",
+          "formula": "revenue per turn - staff and equipment cost per turn"
+        }
+      ],
+      "commonMistakes": [
+        "Resting the investment case on traffic growth; in a labour-heavy business with partial indexation, wages can outrun volume.",
+        "Treating licences as permanent; EU tender cycles mean a third of revenue can be lost within the holding period."
+      ],
+      "frameworkPick": {
+        "options": [
+          "pe-dd",
+          "operations",
+          "ma",
+          "market-entry"
+        ],
+        "correct": [
+          "pe-dd",
+          "operations"
+        ],
+        "why": "A financial buyer must test market, target and deal returns, and here the return depends on operational levers (rostering, productivity, passing through wage costs) in a labour-heavy business.",
+        "distractorWhyNot": {
+          "ma": "M&A frames centre on synergies with the buyer's own business; a PE fund has none and needs a standalone return.",
+          "market-entry": "The fund is buying a company for a return on exit, not entering a market to operate in for the long term."
+        }
+      }
+    }
+  ],
+  "flaws": [
+    {
+      "id": "airlines-f01",
+      "title": "Domestic passenger revenue decline",
+      "industry": "airlines",
+      "framework": "profitability",
+      "difficulty": "Beginner",
+      "tree": {
+        "id": "r",
+        "label": "Why has an Indian airline's domestic passenger revenue fallen 8%?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Business travellers",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Number of business passengers"
+              },
+              {
+                "id": "a2",
+                "label": "Average business fare"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Leisure, family and other personal travellers",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Number of personal-travel passengers"
+              },
+              {
+                "id": "b2",
+                "label": "Average personal-travel fare"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Passengers who booked through online travel agencies",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Number of OTA passengers"
+              },
+              {
+                "id": "c2",
+                "label": "Average OTA fare"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "c",
+          "type": "overlap",
+          "explanation": "Booking channel is a different dimension from trip purpose. Every OTA booker is also a business or personal traveller, so their revenue is counted twice.",
+          "fix": "Remove the OTA branch from this level. If channel matters, analyse it as a separate cut, for example inside average fare (share sold through OTAs vs direct)."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Why has an Indian airline's domestic passenger revenue fallen 8%?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Business travellers",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Number of business passengers"
+              },
+              {
+                "id": "a2",
+                "label": "Average business fare"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Leisure, family and other personal travellers",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Number of personal-travel passengers"
+              },
+              {
+                "id": "b2",
+                "label": "Average personal-travel fare"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "airlines-f02",
+      "title": "Airport lounge visits in India",
+      "industry": "airlines",
+      "framework": "market-sizing",
+      "difficulty": "Beginner",
+      "tree": {
+        "id": "r",
+        "label": "How many airport lounge visits happen in India each year?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Domestic departing passengers",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Free visits through credit and debit cards"
+              },
+              {
+                "id": "a2",
+                "label": "Visits paid by traveller or employer (walk-in, membership)"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "International departing and transit passengers",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Visits provided by the airline (premium cabins, elite status)"
+              },
+              {
+                "id": "b2",
+                "label": "Free visits through credit and debit cards"
+              },
+              {
+                "id": "b3",
+                "label": "Visits paid by traveller or employer (walk-in, membership)"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "a",
+          "type": "gap",
+          "explanation": "Domestic business-class passengers and airline elite members also use lounges, but the domestic branch has no airline-provided access, unlike the international branch.",
+          "fix": "Add 'Visits provided by the airline (business class, elite status)' under domestic departing passengers."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "How many airport lounge visits happen in India each year?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Domestic departing passengers",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Free visits through credit and debit cards"
+              },
+              {
+                "id": "a2",
+                "label": "Visits paid by traveller or employer (walk-in, membership)"
+              },
+              {
+                "id": "a3",
+                "label": "Visits provided by the airline (business class, elite status)"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "International departing and transit passengers",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Visits provided by the airline (premium cabins, elite status)"
+              },
+              {
+                "id": "b2",
+                "label": "Free visits through credit and debit cards"
+              },
+              {
+                "id": "b3",
+                "label": "Visits paid by traveller or employer (walk-in, membership)"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "airlines-f03",
+      "title": "Turnaround time above target",
+      "industry": "airlines",
+      "framework": "operations",
+      "difficulty": "Intermediate",
+      "tree": {
+        "id": "r",
+        "label": "Why do hub turnarounds take 45 minutes against a 30-minute target?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Passenger processes",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Deplaning (steps or airbridge in place, doors open)"
+              },
+              {
+                "id": "a2",
+                "label": "Boarding, including late passengers and cabin bags"
+              },
+              {
+                "id": "a3",
+                "label": "Special assistance (wheelchairs, unaccompanied minors)"
+              }
+            ]
+          },
+          {
+            "id": "e",
+            "label": "Baggage and cargo",
+            "children": [
+              {
+                "id": "e1",
+                "label": "Unloading"
+              },
+              {
+                "id": "e2",
+                "label": "Loading and hold closing"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Aircraft servicing",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Cleaning"
+              },
+              {
+                "id": "b2",
+                "label": "Catering"
+              },
+              {
+                "id": "b4",
+                "label": "Water and waste servicing"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Readiness to depart",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Transit technical check and defect fixes"
+              },
+              {
+                "id": "c2",
+                "label": "Crew handover and load sheet sign-off"
+              },
+              {
+                "id": "c3",
+                "label": "Pushback tug and ground crew at the aircraft"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Ground-time cost per minute (lease, crew, parking)"
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "b",
+          "type": "gap",
+          "explanation": "Refuelling is missing from aircraft servicing. On a narrowbody turn it is often on the critical path, and where fuelling with passengers on board needs extra safety steps it can hold up boarding.",
+          "fix": "Add 'Refuelling' under aircraft servicing."
+        },
+        {
+          "nodeId": "d",
+          "type": "not-a-driver",
+          "explanation": "The cost of each minute on the ground tells you what the extra 15 minutes cost; it does not make the turnaround any slower, so it is a consequence, not a driver.",
+          "fix": "Remove it from the tree; use it later when sizing the value of fixing the problem."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Why do hub turnarounds take 45 minutes against a 30-minute target?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Passenger processes",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Deplaning (steps or airbridge in place, doors open)"
+              },
+              {
+                "id": "a2",
+                "label": "Boarding, including late passengers and cabin bags"
+              },
+              {
+                "id": "a3",
+                "label": "Special assistance (wheelchairs, unaccompanied minors)"
+              }
+            ]
+          },
+          {
+            "id": "e",
+            "label": "Baggage and cargo",
+            "children": [
+              {
+                "id": "e1",
+                "label": "Unloading"
+              },
+              {
+                "id": "e2",
+                "label": "Loading and hold closing"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Aircraft servicing",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Cleaning"
+              },
+              {
+                "id": "b2",
+                "label": "Catering"
+              },
+              {
+                "id": "b3",
+                "label": "Refuelling"
+              },
+              {
+                "id": "b4",
+                "label": "Water and waste servicing"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Readiness to depart",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Transit technical check and defect fixes"
+              },
+              {
+                "id": "c2",
+                "label": "Crew handover and load sheet sign-off"
+              },
+              {
+                "id": "c3",
+                "label": "Pushback tug and ground crew at the aircraft"
+              }
+            ]
+          }
+        ]
+      },
+      "decoys": [
+        {
+          "nodeId": "c2",
+          "whyFine": "The load and trim sheet can only be closed once final passenger and bag numbers are known, so its sign-off is a genuine step on the critical path."
+        }
+      ]
+    },
+    {
+      "id": "airlines-f04",
+      "title": "Growing OTA flight revenue",
+      "industry": "airlines",
+      "framework": "growth",
+      "difficulty": "Intermediate",
+      "tree": {
+        "id": "r",
+        "label": "How can an Indian OTA grow revenue from domestic flight bookings?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Grow the number of bookings",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Acquire new customers"
+              },
+              {
+                "id": "a2",
+                "label": "Get existing customers to book more often"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Grow revenue per booking",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Airline commissions and GDS incentives"
+              },
+              {
+                "id": "b2",
+                "label": "Customer fees (convenience, change, cancellation)"
+              },
+              {
+                "id": "b3",
+                "label": "Add-ons sold with the booking (insurance, seats, meals)"
+              },
+              {
+                "id": "b4",
+                "label": "Net take rate on ticket value sold"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Re-engage app users lapsed for 90+ days"
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "c",
+          "type": "mixed-levels",
+          "explanation": "Re-engaging lapsed users is one tactic for getting existing customers to book more often, yet it sits at the same level as the two top-level revenue drivers.",
+          "fix": "Move it under 'Get existing customers to book more often' as one tactic."
+        },
+        {
+          "nodeId": "b4",
+          "type": "overlap",
+          "explanation": "Take rate is simply airline commissions, incentives and customer fees expressed as a share of ticket value, so it is the same money as b1 and b2 in different wording, counted twice.",
+          "fix": "Delete it; if take rate is the preferred lens, use it instead of b1 and b2, not alongside them."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "How can an Indian OTA grow revenue from domestic flight bookings?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Grow the number of bookings",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Acquire new customers"
+              },
+              {
+                "id": "a2",
+                "label": "Get existing customers to book more often",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Re-engage app users lapsed for 90+ days"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Raise booking frequency of active users (loyalty rewards)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Grow revenue per booking",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Airline commissions and GDS incentives"
+              },
+              {
+                "id": "b2",
+                "label": "Customer fees (convenience, change, cancellation)"
+              },
+              {
+                "id": "b3",
+                "label": "Add-ons sold with the booking (insurance, seats, meals)"
+              }
+            ]
+          }
+        ]
+      },
+      "decoys": [
+        {
+          "nodeId": "b3",
+          "whyFine": "Insurance, seats and meals sold with a flight booking are revenue the OTA earns per flight booking, so they belong in revenue per booking."
+        }
+      ]
+    },
+    {
+      "id": "airlines-f05",
+      "title": "Responding to a low-cost rival",
+      "industry": "airlines",
+      "framework": "competitive-response",
+      "difficulty": "Intermediate",
+      "tree": {
+        "id": "r",
+        "label": "How should a full-service airline respond to a new low-cost rival on its routes?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Assess the rival",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Cost advantage per seat"
+              },
+              {
+                "id": "a2",
+                "label": "Funding and staying power"
+              },
+              {
+                "id": "a3",
+                "label": "Planned capacity on our routes"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Assess our exposure",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Leisure and other personal travellers at risk"
+              },
+              {
+                "id": "b2",
+                "label": "Business travellers at risk"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Choose a response",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Match fares in our lowest fare buckets"
+              },
+              {
+                "id": "c2",
+                "label": "Adjust capacity and schedules"
+              },
+              {
+                "id": "c3",
+                "label": "Strengthen the offer for business travellers (lounges, flexibility, loyalty)"
+              },
+              {
+                "id": "c4",
+                "label": "Shift flying to a low-cost subsidiary or partner"
+              },
+              {
+                "id": "c5",
+                "label": "Time-limited sale fares on contested routes"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "c5",
+          "type": "overlap",
+          "explanation": "A time-limited sale on the contested routes and matching fares in the lowest buckets are the same lever: both cut the price customers see on those routes. Being temporary changes the duration, not the lever.",
+          "fix": "Merge into one pricing option, e.g. 'Price: match or undercut selectively in lower fare buckets on contested routes'."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "How should a full-service airline respond to a new low-cost rival on its routes?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Assess the rival",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Cost advantage per seat"
+              },
+              {
+                "id": "a2",
+                "label": "Funding and staying power"
+              },
+              {
+                "id": "a3",
+                "label": "Planned capacity on our routes"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Assess our exposure",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Leisure and other personal travellers at risk"
+              },
+              {
+                "id": "b2",
+                "label": "Business travellers at risk"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Choose a response",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Price: match selectively in lower fare buckets on contested routes"
+              },
+              {
+                "id": "c2",
+                "label": "Adjust capacity and schedules"
+              },
+              {
+                "id": "c3",
+                "label": "Strengthen the offer for business travellers (lounges, flexibility, loyalty)"
+              },
+              {
+                "id": "c4",
+                "label": "Shift flying to a low-cost subsidiary or partner"
+              }
+            ]
+          }
+        ]
+      },
+      "decoys": [
+        {
+          "nodeId": "c4",
+          "whyFine": "Moving flying to a lower-cost subsidiary changes the cost base behind the seats, not their number or timing, so it does not overlap 'Adjust capacity and schedules'."
+        }
+      ]
+    },
+    {
+      "id": "airlines-f06",
+      "title": "Loss-making long-haul route",
+      "industry": "airlines",
+      "framework": "profitability",
+      "difficulty": "Advanced",
+      "tree": {
+        "id": "r",
+        "label": "Why is the airline's new Delhi to North America nonstop losing money?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Revenue per round trip",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Passenger revenue",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Business cabin: passengers x average fare"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Premium economy and economy: passengers x average fare"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Ancillary revenue",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Paid seats and extra baggage"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Paid upgrades and onboard sales"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Variable cost per round trip",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Fuel",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Block hours per round trip"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Fuel burn per block hour"
+                  },
+                  {
+                    "id": "b1z",
+                    "label": "Jet fuel price per litre"
+                  },
+                  {
+                    "id": "b1w",
+                    "label": "Extra fuel cost of routing around closed airspace"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Crew",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Crew sets needed for an ultra-long-haul flight"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Layover hotels and allowances"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Airport, navigation and handling charges",
+                "children": [
+                  {
+                    "id": "b3x",
+                    "label": "Landing, parking and ground handling at both ends"
+                  },
+                  {
+                    "id": "b3y",
+                    "label": "En-route navigation and overflight fees"
+                  }
+                ]
+              },
+              {
+                "id": "b4",
+                "label": "Passenger-related costs",
+                "children": [
+                  {
+                    "id": "b4x",
+                    "label": "Catering"
+                  },
+                  {
+                    "id": "b4y",
+                    "label": "Distribution costs and agent commissions"
+                  }
+                ]
+              },
+              {
+                "id": "b5",
+                "label": "Maintenance per block hour"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Fixed and allocated cost per round trip",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Widebody lease rental"
+              },
+              {
+                "id": "c2",
+                "label": "Share of overheads"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "a",
+          "type": "gap",
+          "explanation": "Belly cargo is missing. A long-haul widebody carries freight under the cabin floor that can bring roughly 5-15% of route revenue, and it is a key lever when passenger revenue cannot cover a long-haul cost base. It is not a passenger ancillary, so the gap sits at the revenue node, not under ancillary revenue.",
+          "fix": "Add 'Belly cargo revenue' under revenue, split into cargo tonnes per flight and yield per kg."
+        },
+        {
+          "nodeId": "b1w",
+          "type": "overlap",
+          "explanation": "The detour around closed airspace lengthens block hours, and block hours x burn per hour x price already gives the full fuel bill, so the extra fuel from the detour is counted twice.",
+          "fix": "Delete it; the detour belongs inside block hours."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Why is the airline's new Delhi to North America nonstop losing money?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Revenue per round trip",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Passenger revenue",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Business cabin: passengers x average fare"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Premium economy and economy: passengers x average fare"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Ancillary revenue",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Paid seats and extra baggage"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Paid upgrades and onboard sales"
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Belly cargo revenue",
+                "children": [
+                  {
+                    "id": "a3x",
+                    "label": "Cargo tonnes per flight"
+                  },
+                  {
+                    "id": "a3y",
+                    "label": "Yield per kg"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Variable cost per round trip",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Fuel",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Block hours per round trip"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Fuel burn per block hour"
+                  },
+                  {
+                    "id": "b1z",
+                    "label": "Jet fuel price per litre"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Crew",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Crew sets needed for an ultra-long-haul flight"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Layover hotels and allowances"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Airport, navigation and handling charges",
+                "children": [
+                  {
+                    "id": "b3x",
+                    "label": "Landing, parking and ground handling at both ends"
+                  },
+                  {
+                    "id": "b3y",
+                    "label": "En-route navigation and overflight fees"
+                  }
+                ]
+              },
+              {
+                "id": "b4",
+                "label": "Passenger-related costs",
+                "children": [
+                  {
+                    "id": "b4x",
+                    "label": "Catering"
+                  },
+                  {
+                    "id": "b4y",
+                    "label": "Distribution costs and agent commissions"
+                  }
+                ]
+              },
+              {
+                "id": "b5",
+                "label": "Maintenance per block hour"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Fixed and allocated cost per round trip",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Widebody lease rental"
+              },
+              {
+                "id": "c2",
+                "label": "Share of overheads"
+              }
+            ]
+          }
+        ]
+      },
+      "decoys": [
+        {
+          "nodeId": "b3y",
+          "whyFine": "Overflight and navigation fees are charges paid to air navigation providers for using their airspace, a separate cash cost from the fuel burned, so they do not double count the detour."
+        }
+      ]
+    },
+    {
+      "id": "airlines-f07",
+      "title": "Buying an Indian MRO provider",
+      "industry": "airlines",
+      "framework": "pe-dd",
+      "difficulty": "Advanced",
+      "tree": {
+        "id": "r",
+        "label": "Should the fund buy an independent Indian MRO provider at 14x EBITDA?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Is Indian MRO demand growing?",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Size of the fleet to be maintained",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "New aircraft deliveries to Indian airlines"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Retirements and returns to lessors"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Maintenance work per aircraft",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Fleet age and check cycles"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Utilisation (flight hours per day)"
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Share of work done in India rather than abroad",
+                "children": [
+                  {
+                    "id": "a3x",
+                    "label": "Tax changes (GST on MRO services cut to 5%)"
+                  },
+                  {
+                    "id": "a3y",
+                    "label": "Airlines' willingness to move work from foreign shops"
+                  }
+                ]
+              },
+              {
+                "id": "a4",
+                "label": "C-checks due at one airline in 2027"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Can the target win work profitably?",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Capabilities",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Approvals (DGCA, EASA, FAA)"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Aircraft types and check levels covered"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Customers",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Share of revenue from the top two airlines"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Contract length and renewal dates"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Cost position",
+                "children": [
+                  {
+                    "id": "b3x",
+                    "label": "Man-hours per check vs foreign shops"
+                  },
+                  {
+                    "id": "b3y",
+                    "label": "Hangar and land costs"
+                  }
+                ]
+              },
+              {
+                "id": "b4",
+                "label": "Dependence on a few airline clients"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "How can value be created?",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Win new airline and lessor customers"
+              },
+              {
+                "id": "c2",
+                "label": "Add higher-value work (components, engines, lease-return checks)"
+              },
+              {
+                "id": "c3",
+                "label": "Move contracts to inflation-linked pricing"
+              },
+              {
+                "id": "c4",
+                "label": "Raise productivity and hangar slot utilisation"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Do the deal terms work?",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Entry multiple vs comparable deals"
+              },
+              {
+                "id": "d2",
+                "label": "Debt capacity and financing structure"
+              },
+              {
+                "id": "d3",
+                "label": "Exit routes (strategic buyer, IPO)"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "a4",
+          "type": "mixed-levels",
+          "explanation": "One airline's C-checks in one year is a single data point, not a demand driver. It sits alongside fleet size, work per aircraft and onshoring share, which are whole-market drivers.",
+          "fix": "Remove it from this level and use it as evidence under 'Fleet age and check cycles'."
+        },
+        {
+          "nodeId": "b4",
+          "type": "overlap",
+          "explanation": "'Dependence on a few airline clients' is customer concentration, which is already measured by 'Share of revenue from the top two airlines' under Customers; the wording differs but the analysis is identical.",
+          "fix": "Delete it; customer concentration stays under Customers."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Should the fund buy an independent Indian MRO provider at 14x EBITDA?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Is Indian MRO demand growing?",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Size of the fleet to be maintained",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "New aircraft deliveries to Indian airlines"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Retirements and returns to lessors"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Maintenance work per aircraft",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Fleet age and check cycles"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Utilisation (flight hours per day)"
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Share of work done in India rather than abroad",
+                "children": [
+                  {
+                    "id": "a3x",
+                    "label": "Tax changes (GST on MRO services cut to 5%)"
+                  },
+                  {
+                    "id": "a3y",
+                    "label": "Airlines' willingness to move work from foreign shops"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Can the target win work profitably?",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Capabilities",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Approvals (DGCA, EASA, FAA)"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Aircraft types and check levels covered"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Customers",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Share of revenue from the top two airlines"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Contract length and renewal dates"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Cost position",
+                "children": [
+                  {
+                    "id": "b3x",
+                    "label": "Man-hours per check vs foreign shops"
+                  },
+                  {
+                    "id": "b3y",
+                    "label": "Hangar and land costs"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "How can value be created?",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Win new airline and lessor customers"
+              },
+              {
+                "id": "c2",
+                "label": "Add higher-value work (components, engines, lease-return checks)"
+              },
+              {
+                "id": "c3",
+                "label": "Move contracts to inflation-linked pricing"
+              },
+              {
+                "id": "c4",
+                "label": "Raise productivity and hangar slot utilisation"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Do the deal terms work?",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Entry multiple vs comparable deals"
+              },
+              {
+                "id": "d2",
+                "label": "Debt capacity and financing structure"
+              },
+              {
+                "id": "d3",
+                "label": "Exit routes (strategic buyer, IPO)"
+              }
+            ]
+          }
+        ]
+      },
+      "decoys": [
+        {
+          "nodeId": "b1x",
+          "whyFine": "Approvals look like hygiene, but they decide which work the target can bid for (foreign-registered aircraft, lessor return checks), so they are a real capability driver."
+        }
+      ]
+    }
+  ],
+  "quick": [
+    {
+      "id": "airlines-q01",
+      "industry": "airlines",
+      "difficulty": "Beginner",
+      "question": "Which split of 'Revenue of a full-service airline' is MECE?",
+      "parent": "Revenue of a full-service airline",
+      "options": [
+        {
+          "split": [
+            "Passenger tickets",
+            "Ancillaries (bags, seats, upgrades)",
+            "Cargo",
+            "Loyalty programme revenue",
+            "Co-brand card income"
+          ],
+          "correct": false,
+          "why": "Overlap: co-brand card income is mostly points sold to the partner bank, which is loyalty programme revenue under another name."
+        },
+        {
+          "split": [
+            "Passenger tickets",
+            "Cargo",
+            "Loyalty and partner income"
+          ],
+          "correct": false,
+          "why": "Gap: ancillaries (bags, seats, upgrades, fees) are sold separately from the ticket and appear nowhere."
+        },
+        {
+          "split": [
+            "Passenger tickets",
+            "Ancillaries",
+            "Cargo",
+            "Other (loyalty, third-party)"
+          ],
+          "correct": true,
+          "why": "Covers every revenue source once: what passengers pay to fly, what they pay on top, freight, and a catch-all for the rest."
+        },
+        {
+          "split": [
+            "Passenger tickets",
+            "Ancillaries",
+            "Excess baggage",
+            "Cargo and other"
+          ],
+          "correct": false,
+          "why": "Mixed levels: excess baggage is one type of ancillary, so it sits inside 'Ancillaries' as well."
+        }
+      ]
+    },
+    {
+      "id": "airlines-q02",
+      "industry": "airlines",
+      "difficulty": "Beginner",
+      "question": "Which split of 'Operating costs of an Indian low-cost airline' is MECE?",
+      "parent": "Operating costs of an Indian low-cost airline",
+      "options": [
+        {
+          "split": [
+            "Fuel",
+            "Aircraft ownership",
+            "Staff",
+            "Maintenance (parts, outside work)",
+            "Airport, navigation and other"
+          ],
+          "correct": true,
+          "why": "Each cost falls into exactly one bucket: maintenance is defined as parts and outside work so in-house engineers sit only in staff, and the last bucket catches distribution and everything else."
+        },
+        {
+          "split": [
+            "Fuel",
+            "Aircraft ownership",
+            "Staff",
+            "Airport and navigation charges",
+            "Distribution and overheads"
+          ],
+          "correct": false,
+          "why": "Gap: maintenance (parts, engine shop visits, outside work), often around a tenth of an airline's costs, is missing."
+        },
+        {
+          "split": [
+            "Fixed costs (leases, salaries, overheads)",
+            "Variable costs (fuel, airport charges, maintenance)",
+            "Costs incurred in US dollars"
+          ],
+          "correct": false,
+          "why": "Overlap: currency cuts across the fixed and variable buckets; leases and much of fuel and maintenance are dollar-linked, so they would be counted twice."
+        },
+        {
+          "split": [
+            "Fuel",
+            "Aircraft ownership",
+            "Staff",
+            "Maintenance",
+            "Power-by-the-hour engine contracts",
+            "Airport and other"
+          ],
+          "correct": false,
+          "why": "Overlap: power-by-the-hour contracts are how much of the engine maintenance bill is paid, so that cost already sits in maintenance."
+        }
+      ]
+    },
+    {
+      "id": "airlines-q03",
+      "industry": "airlines",
+      "difficulty": "Beginner",
+      "question": "Which split of 'Ticket bookings of an Indian domestic airline, by sales channel' is MECE?",
+      "parent": "Ticket bookings of an Indian domestic airline, by sales channel",
+      "options": [
+        {
+          "split": [
+            "Airline website and app",
+            "Online travel agencies",
+            "Offline agents and travel management companies"
+          ],
+          "correct": false,
+          "why": "Gap: the airline's own offline points of sale (airport counters, call centre) are missing."
+        },
+        {
+          "split": [
+            "Direct (website, app, counters, call centre)",
+            "Indirect (OTAs, agents, TMCs)",
+            "Corporate bookings"
+          ],
+          "correct": false,
+          "why": "Overlap: corporate bookings come through a TMC or direct, so they are already inside the first two; customer type is mixed with channel."
+        },
+        {
+          "split": [
+            "Airline website",
+            "Airline mobile app",
+            "Online travel agencies",
+            "Metasearch referrals",
+            "Offline agents, airport and call centre"
+          ],
+          "correct": false,
+          "why": "Overlap: metasearch sites do not ticket; their referrals are completed on the airline website or an OTA, so those bookings are counted twice."
+        },
+        {
+          "split": [
+            "Airline website and app",
+            "Online travel agencies",
+            "Offline agents and TMCs",
+            "Airport, call centre and other"
+          ],
+          "correct": true,
+          "why": "Every booking comes through exactly one of these: the airline's own digital channels, online intermediaries, offline intermediaries, or the airline's own offline and other points."
+        }
+      ]
+    },
+    {
+      "id": "airlines-q04",
+      "industry": "airlines",
+      "difficulty": "Intermediate",
+      "question": "Which split of 'Revenue per available seat kilometre (RASK) of an airline' is MECE?",
+      "parent": "Revenue per available seat kilometre (RASK) of an airline",
+      "options": [
+        {
+          "split": [
+            "Yield x load factor",
+            "Average fare x passengers per ASK",
+            "Non-ticket revenue per ASK"
+          ],
+          "correct": false,
+          "why": "Overlap: average fare x passengers per ASK is ticket revenue per ASK again, the same quantity as yield x load factor computed another way."
+        },
+        {
+          "split": [
+            "Ticket revenue per ASK (yield x load factor)",
+            "Non-ticket revenue per ASK (ancillaries, cargo, other)"
+          ],
+          "correct": true,
+          "why": "RASK is total revenue over ASKs, so it splits exactly into ticket revenue per ASK (yield times load factor) and everything else per ASK."
+        },
+        {
+          "split": [
+            "Ticket revenue per ASK (yield x load factor)",
+            "Cargo revenue per ASK"
+          ],
+          "correct": false,
+          "why": "Gap: ancillary and other non-ticket revenue is missing."
+        },
+        {
+          "split": [
+            "Ticket revenue per ASK (yield x load factor)",
+            "Ancillary revenue per passenger",
+            "Cargo and other revenue per ASK"
+          ],
+          "correct": false,
+          "why": "Mixed levels: ancillary revenue is per passenger, not per ASK, so the three cannot be added to give RASK."
+        }
+      ]
+    },
+    {
+      "id": "airlines-q05",
+      "industry": "airlines",
+      "difficulty": "Intermediate",
+      "question": "Which split of 'Aircraft utilisation (block hours per aircraft per day)' is MECE?",
+      "parent": "Aircraft utilisation (block hours per aircraft per day)",
+      "options": [
+        {
+          "split": [
+            "Flights per aircraft per day",
+            "Average block hours per flight",
+            "Minutes airborne per day"
+          ],
+          "correct": false,
+          "why": "Overlap: airborne time is part of the block hours already captured by the first two, so it is counted twice."
+        },
+        {
+          "split": [
+            "Flights per aircraft per day",
+            "Average block hours per flight",
+            "Fleet size"
+          ],
+          "correct": false,
+          "why": "Not a driver: utilisation is per aircraft, so adding aircraft changes total hours flown, not hours per aircraft per day."
+        },
+        {
+          "split": [
+            "Flights per aircraft per day",
+            "Average block hours per flight"
+          ],
+          "correct": true,
+          "why": "Utilisation is exactly flights per day multiplied by block hours per flight."
+        },
+        {
+          "split": [
+            "Turnaround time per flight",
+            "Maintenance downtime per day"
+          ],
+          "correct": false,
+          "why": "Gap: block hours equal the operating day minus all ground time; this leaves out the length of the operating day (curfews, night stops) and idle time between scheduled flights."
+        }
+      ]
+    },
+    {
+      "id": "airlines-q06",
+      "industry": "airlines",
+      "difficulty": "Intermediate",
+      "question": "Which split of 'Indian domestic travellers buying cash fares, segmented to design fare bundles' is MECE?",
+      "parent": "Indian domestic travellers buying cash fares, segmented to design fare bundles",
+      "options": [
+        {
+          "split": [
+            "Paid by an employer or other organisation",
+            "Paid privately, work trip",
+            "Paid privately, personal trip"
+          ],
+          "correct": true,
+          "why": "Every cash fare is paid either by an organisation or privately, and a privately paid trip is either for work or not; who pays and why decides willingness to pay for flexibility. Employer-funded leave travel sits with organisation-paid."
+        },
+        {
+          "split": [
+            "Paid by an employer or other organisation",
+            "Paid privately, work trip",
+            "Paid privately, leisure trip"
+          ],
+          "correct": false,
+          "why": "Gap: privately paid trips to visit friends and relatives, for study or for medical care are not leisure, and they are a large share of Indian domestic travel."
+        },
+        {
+          "split": [
+            "Corporate travellers on negotiated fares",
+            "SME owners and self-employed",
+            "Leisure and family travellers"
+          ],
+          "correct": false,
+          "why": "Gap: employees whose firms pay but have no negotiated fare (most small and mid-sized employers) fit none of the three."
+        },
+        {
+          "split": [
+            "Business trips",
+            "Personal trips",
+            "Trips booked within 7 days of departure"
+          ],
+          "correct": false,
+          "why": "Overlap: booking window cuts across trip purpose; a late booking is still a business or personal trip."
+        }
+      ]
+    },
+    {
+      "id": "airlines-q07",
+      "industry": "airlines",
+      "difficulty": "Advanced",
+      "question": "Which split of 'Year-on-year change in an airline's operating profit' is MECE?",
+      "parent": "Year-on-year change in an airline's operating profit",
+      "options": [
+        {
+          "split": [
+            "Change in capacity (ASKs)",
+            "Change in RASK",
+            "Change in CASK",
+            "Change in load factor"
+          ],
+          "correct": false,
+          "why": "Overlap: load factor is already inside RASK (ticket revenue per ASK = yield x load factor), so its effect is counted twice."
+        },
+        {
+          "split": [
+            "Change in capacity (ASKs)",
+            "Change in unit margin (RASK - CASK)",
+            "Change in fuel cost per ASK"
+          ],
+          "correct": false,
+          "why": "Overlap: fuel cost per ASK is part of CASK, so it already sits inside the change in unit margin."
+        },
+        {
+          "split": [
+            "Change in RASK",
+            "Change in CASK"
+          ],
+          "correct": false,
+          "why": "Gap: profit = ASKs x (RASK - CASK), so a change in capacity moves profit even when unit revenue and unit cost are flat."
+        },
+        {
+          "split": [
+            "Change in capacity (ASKs)",
+            "Change in unit revenue (RASK)",
+            "Change in unit cost (CASK)"
+          ],
+          "correct": true,
+          "why": "Operating profit = ASKs x (RASK - CASK). Taking capacity at last year's unit margin, then RASK and CASK changes at this year's capacity, the three effects add up exactly to the change in profit."
+        }
+      ]
+    },
+    {
+      "id": "airlines-q08",
+      "industry": "airlines",
+      "difficulty": "Advanced",
+      "question": "Which split of 'Fuel cost per ASK of an Indian airline' is MECE?",
+      "parent": "Fuel cost per ASK of an Indian airline",
+      "options": [
+        {
+          "split": [
+            "Jet fuel price per litre in dollars",
+            "State VAT on jet fuel",
+            "Litres burned per ASK"
+          ],
+          "correct": false,
+          "why": "Gap: the rupee-dollar exchange rate is missing; jet fuel is priced off dollar benchmarks, so a weaker rupee raises fuel cost even with flat dollar prices and flat VAT."
+        },
+        {
+          "split": [
+            "Price per litre in rupees",
+            "Litres burned per ASK"
+          ],
+          "correct": true,
+          "why": "Fuel cost per ASK is exactly rupee price per litre times litres per ASK; benchmark price, exchange rate, taxes and into-plane fees sit in the first, fleet, sector length and flying practice in the second."
+        },
+        {
+          "split": [
+            "Price per litre in rupees",
+            "Litres burned per ASK",
+            "Rupee depreciation"
+          ],
+          "correct": false,
+          "why": "Overlap: the rupee price already reflects the exchange rate, so depreciation is counted twice."
+        },
+        {
+          "split": [
+            "Price per litre in rupees",
+            "Litres burned per ASK",
+            "Number of flights operated"
+          ],
+          "correct": false,
+          "why": "Not a driver: more flights raise total fuel cost but not fuel cost per ASK."
+        }
+      ]
+    }
+  ],
+  "chainDrills": [
+    {
+      "id": "airlines-v01",
+      "industry": "airlines",
+      "difficulty": "Beginner",
+      "type": "locate",
+      "prompt": "Monthly rentals for new narrowbody aircraft rise about 15% because manufacturers cannot deliver aircraft fast enough. In which stage does this cost originate?",
+      "options": [
+        "s1",
+        "s2",
+        "s4",
+        "s5"
+      ],
+      "answer": [
+        "s1"
+      ],
+      "why": "Lease rentals are set by lessors and by the supply of new aircraft, both in the aircraft, engines and leasing stage. The airline (s4) pays the higher rent, but the cause is upstream scarcity."
+    },
+    {
+      "id": "airlines-v02",
+      "industry": "airlines",
+      "difficulty": "Beginner",
+      "type": "order",
+      "prompt": "Put the stages in order, from the aircraft as an asset (built, financed, then kept airworthy), through the inputs each flight consumes, to the airline and on to the end traveller.",
+      "options": [
+        "s4",
+        "s1",
+        "s6",
+        "s3",
+        "s5",
+        "s2"
+      ],
+      "answer": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6"
+      ],
+      "why": "Aircraft are built and financed (s1) and kept airworthy by MRO (s2); airports, fuel and ground services (s3) are the infrastructure each flight needs; the airline plans and flies the network (s4); distribution sells the seats (s5); and ancillaries and loyalty earn more from the traveller (s6)."
+    },
+    {
+      "id": "airlines-v03",
+      "industry": "airlines",
+      "difficulty": "Intermediate",
+      "type": "locate",
+      "prompt": "An Indian full-service airline's distribution cost per passenger rises because more corporate bookings now come through agents using a GDS, which charges the airline a fee for each flight segment booked. Which stage earns this fee?",
+      "options": [
+        "s3",
+        "s4",
+        "s5",
+        "s6"
+      ],
+      "answer": [
+        "s5"
+      ],
+      "why": "GDS segment fees are revenue for the distribution stage. The airline bears the cost, but the pricing power sits with the GDS, which is why airlines push direct and NDC bookings."
+    },
+    {
+      "id": "airlines-v04",
+      "industry": "airlines",
+      "difficulty": "Intermediate",
+      "type": "assign",
+      "prompt": "Assign each item to the stage whose business earns it as revenue or, for a metric, the stage it measures.",
+      "items": [
+        {
+          "item": "Monthly rental on a leased A320neo",
+          "stage": "s1"
+        },
+        {
+          "item": "Engine shop visit after a set number of flight cycles",
+          "stage": "s2"
+        },
+        {
+          "item": "User development fee (UDF) shown on the passenger's ticket",
+          "stage": "s3"
+        },
+        {
+          "item": "Load factor on the Delhi-Mumbai route",
+          "stage": "s4"
+        },
+        {
+          "item": "Fee per flight segment charged by a GDS",
+          "stage": "s5"
+        },
+        {
+          "item": "Points bought by a bank for its co-brand credit card",
+          "stage": "s6"
+        }
+      ],
+      "why": "The UDF appears on the airline ticket, but it is airport revenue (s3); the airline only collects and passes it on. The lease rental is the airline's biggest fixed cost but is earned by the lessor (s1). Points sold to a bank are loyalty revenue (s6) even if the cardholder never flies."
+    },
+    {
+      "id": "airlines-v05",
+      "industry": "airlines",
+      "difficulty": "Advanced",
+      "type": "locate",
+      "prompt": "A full-service airline's operating margin is unchanged, but its cash balance jumps by about ₹1,500 crore after a bank partner pays upfront for several years of points for its co-brand card. In which stage is this value created?",
+      "options": [
+        "s3",
+        "s4",
+        "s5",
+        "s6"
+      ],
+      "answer": [
+        "s6"
+      ],
+      "why": "Pre-sold points are a loyalty transaction: the bank pays cash now, and the airline books deferred revenue that it recognises as points are redeemed or expire. The value sits in s6, not in flight operations, which is why loyalty programmes can fund airlines through a crisis."
+    },
+    {
+      "id": "airlines-v06",
+      "industry": "airlines",
+      "difficulty": "Advanced",
+      "type": "locate",
+      "prompt": "After a terminal expansion, the regulator approves sharply higher landing and user development charges at a metro airport. The airline's cost per ASK rises 2% and its all-in fares lose ground to rail. Where does the root cause sit?",
+      "options": [
+        "s2",
+        "s3",
+        "s4",
+        "s5"
+      ],
+      "answer": [
+        "s3"
+      ],
+      "why": "The cost shows up in the airline's CASK (s4), but it originates in regulated airport charges (s3), which AERA sets to give the airport its allowed return on the new terminal investment."
+    }
+  ]
+}

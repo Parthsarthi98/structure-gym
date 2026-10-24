@@ -1,0 +1,4104 @@
+{
+  "industry": "media",
+  "valueChain": {
+    "summary": "Media and entertainment firms turn creative IP into money in two ways: selling audiences to advertisers, and selling content to audiences through tickets, subscriptions and rights licences. Content costs are mostly fixed and paid upfront while demand is hit-driven, so profit depends on spreading each title across as many windows, formats and audiences as possible.",
+    "stages": [
+      {
+        "id": "s1",
+        "name": "Development and financing",
+        "activities": [
+          "Acquire IP, books and scripts",
+          "Attach stars and directors",
+          "Budget and greenlight projects",
+          "Raise finance and pre-sell rights (streaming, satellite, music)"
+        ],
+        "players": [
+          "Film studios and producers",
+          "Talent agencies",
+          "Film financiers and co-producers"
+        ],
+        "revenueDrivers": [
+          "Pre-sales of streaming, satellite and music rights",
+          "Co-production and co-financing contributions"
+        ],
+        "costDrivers": [
+          "Story and script rights",
+          "Signing amounts for stars and directors",
+          "Write-offs on projects that are never made",
+          "Cost of capital on production loans"
+        ],
+        "kpis": [
+          {
+            "name": "Pre-sales cover",
+            "formula": "value of rights sold before release / production budget",
+            "benchmark": "varies widely; mid-budget Hindi films recovered much of their budget from pre-sold rights during the 2020-22 OTT buying spree and far less since platforms cut film spend (approx, check per deal)"
+          },
+          {
+            "name": "Greenlight rate",
+            "formula": "projects greenlit / projects in development",
+            "benchmark": "often 10-20% at established studios (approx)"
+          }
+        ],
+        "marginNote": "Highly skewed: a minority of hits earn most of the profit, while many projects lose money or are written off."
+      },
+      {
+        "id": "s2",
+        "name": "Production and post-production",
+        "activities": [
+          "Shoot films, series and TV shows",
+          "VFX, animation and editing",
+          "Music, sound design and dubbing",
+          "Deliver masters to the buyer"
+        ],
+        "players": [
+          "Production houses",
+          "VFX and animation studios",
+          "Dubbing and post-production studios",
+          "Equipment and studio-floor rental firms"
+        ],
+        "revenueDrivers": [
+          "Cost-plus production fees for commissioned shows",
+          "Per-minute rates for VFX and animation work"
+        ],
+        "costDrivers": [
+          "Cast fees",
+          "Crew, sets and locations per shooting day",
+          "Artist salaries in VFX and animation",
+          "Overruns from re-shoots and schedule slippage"
+        ],
+        "kpis": [
+          {
+            "name": "Budget variance",
+            "formula": "(actual cost - approved budget) / approved budget",
+            "benchmark": "within +/-5% for well-run productions (approx)"
+          },
+          {
+            "name": "Cost per episode",
+            "formula": "total production cost / episodes delivered",
+            "benchmark": "roughly ₹10-25 lakh for a Hindi prime-time daily soap (approx)"
+          }
+        ],
+        "marginNote": "Commissioned production earns a steady fee margin of roughly 10-15% of budget (approx); speculative production carries full hit risk."
+      },
+      {
+        "id": "s3",
+        "name": "Aggregation and packaging",
+        "activities": [
+          "Commission and license content",
+          "Schedule channels and curate OTT catalogues",
+          "Buy sports and event rights",
+          "Sell advertising and set subscription prices"
+        ],
+        "players": [
+          "TV broadcasters",
+          "OTT video platforms",
+          "Music streaming services",
+          "Newspaper and digital publishers"
+        ],
+        "revenueDrivers": [
+          "Advertising (ad seconds sold x rate, or impressions x CPM)",
+          "Subscriptions from viewers or via distributors",
+          "Syndication of content to other platforms"
+        ],
+        "costDrivers": [
+          "Content amortisation (originals and licensed)",
+          "Sports and live rights",
+          "Marketing to acquire viewers",
+          "Technology and staff"
+        ],
+        "kpis": [
+          {
+            "name": "Content cost ratio",
+            "formula": "content amortisation / revenue",
+            "benchmark": "roughly 40-60% for Indian TV broadcasters, often above 70% at loss-making OTT platforms (approx)"
+          },
+          {
+            "name": "ARPU",
+            "formula": "subscription revenue / average paying subscribers",
+            "benchmark": "blended Indian SVOD revenue is only about US$0.5 (roughly ₹40-45) a month per subscription because so much is bundled or telco-paid; direct-paying users of premium platforms pay several times that (approx)"
+          },
+          {
+            "name": "Ad yield",
+            "formula": "ad revenue / (ad seconds sold / 10), i.e. effective rate per 10 seconds",
+            "benchmark": "varies widely by channel rank and season; track against own history and rivals"
+          }
+        ],
+        "marginNote": "Largest pool when it controls scarce IP: large Indian TV broadcasters historically earned roughly 20-30% EBITDA, but falling TV ad revenue has pushed some well below that, and most OTT platforms are still loss-making (approx)."
+      },
+      {
+        "id": "s4",
+        "name": "Distribution",
+        "activities": [
+          "Book screens and run theatrical release marketing (P&A)",
+          "Deliver digital copies to cinemas",
+          "Carry channels to homes via DTH, cable and IPTV",
+          "Stream content via CDNs, telco bundles and app stores",
+          "Move newspapers to readers via agents and hawkers"
+        ],
+        "players": [
+          "Film distributors",
+          "Digital cinema service providers",
+          "DTH operators, MSOs and local cable operators",
+          "CDNs, telcos and app stores",
+          "Newspaper agents and hawkers"
+        ],
+        "revenueDrivers": [
+          "Distributor's share of net box office",
+          "Pay-TV subscription and carriage or placement fees",
+          "Telco bundle and app store fees"
+        ],
+        "costDrivers": [
+          "Prints and advertising (P&A) and virtual print fees",
+          "Set-top box subsidies and satellite capacity",
+          "Bandwidth and CDN capacity",
+          "Trade margins to agents and hawkers"
+        ],
+        "kpis": [
+          {
+            "name": "Distributor share of net box office",
+            "formula": "distributor receipts / net box office (gross less GST)",
+            "benchmark": "about 50% in week one for Hindi films at multiplexes, falling in later weeks (approx)"
+          },
+          {
+            "name": "DTH ARPU",
+            "formula": "subscription revenue / active subscribers",
+            "benchmark": "roughly ₹150-250 a month for Indian DTH (approx)"
+          }
+        ],
+        "marginNote": "Under pressure: theatrical distribution is volatile, and Indian DTH and cable are losing paying homes to free DTH and OTT."
+      },
+      {
+        "id": "s5",
+        "name": "Exhibition and consumer access",
+        "activities": [
+          "Programme screens and sell tickets",
+          "Sell food and beverages",
+          "Sell on-screen and in-lobby advertising",
+          "Run live venues; reach viewers through smart TVs and devices"
+        ],
+        "players": [
+          "Multiplex chains",
+          "Single-screen cinemas",
+          "Live-event venues and ticketing platforms",
+          "Smart-TV and streaming-device makers"
+        ],
+        "revenueDrivers": [
+          "Tickets net of GST and distributor share",
+          "F&B spend per head",
+          "Screen advertising and convenience fees"
+        ],
+        "costDrivers": [
+          "Film hire paid to distributors",
+          "Rent and common area maintenance",
+          "Staff and power",
+          "F&B cost of goods"
+        ],
+        "kpis": [
+          {
+            "name": "Occupancy",
+            "formula": "admissions / (seats x shows)",
+            "benchmark": "roughly 22-27% at the largest Indian multiplex chain in recent quarters (approx)"
+          },
+          {
+            "name": "Spend per head (SPH)",
+            "formula": "F&B revenue / admissions",
+            "benchmark": "about ₹145-160 at leading Indian multiplexes in FY26 (approx)"
+          },
+          {
+            "name": "Average ticket price (ATP)",
+            "formula": "ticket revenue / admissions (reported gross of GST; net ATP excludes GST)",
+            "benchmark": "about ₹260-290 gross, roughly ₹230 net of GST, at leading Indian multiplexes in FY26 (approx)"
+          }
+        ],
+        "marginNote": "Indian multiplexes earn roughly 10-15% EBITDA on a pre-Ind AS 116 basis in a normal year (the largest chain was about 13% in FY26 and under 7% in weak FY25) (approx), driven more by F&B and ads than by tickets."
+      }
+    ],
+    "profitPools": "In India the deepest pool has sat with aggregators (s3) that own scarce IP and earn both advertising and subscription revenue, such as large TV broadcasters and holders of popular sports rights, though falling TV advertising is shrinking it. In film, star talent captures a large share through upfront fees, leaving producers with the hit risk on thin expected margins. Exhibitors make most of their profit on F&B (gross margin about 75%) and advertising rather than tickets, where roughly 40-45% of the net ticket goes to the distributor.",
+    "unitEconomics": {
+      "unit": "per multiplex patron (one admission), approximate, pre-Ind AS 116, calibrated to FY26 large-chain figures",
+      "lines": [
+        {
+          "item": "Average ticket price, net of GST",
+          "value": "₹230"
+        },
+        {
+          "item": "Film hire paid to distributor (about 42% of net ticket)",
+          "value": "-₹97"
+        },
+        {
+          "item": "F&B spend per head, net of GST",
+          "value": "₹145"
+        },
+        {
+          "item": "F&B cost of goods (about 25%)",
+          "value": "-₹36"
+        },
+        {
+          "item": "Screen advertising and convenience fees",
+          "value": "₹45"
+        },
+        {
+          "item": "Rent and common area maintenance",
+          "value": "-₹85"
+        },
+        {
+          "item": "Staff",
+          "value": "-₹42"
+        },
+        {
+          "item": "Power and utilities",
+          "value": "-₹38"
+        },
+        {
+          "item": "Other overheads (housekeeping, security, marketing, repairs)",
+          "value": "-₹67"
+        }
+      ],
+      "result": "EBITDA per patron ≈ ₹55, about 13% of ₹420 revenue per patron"
+    },
+    "india": "India certifies around 1,800 feature films a year across more than 20 languages but has only about 7 cinema screens per million people (around 9,900 screens), against well over 100 in the US, so a few big releases carry the box office and regional-language films take a large share. Pay-TV channels are priced and bundled under TRAI's tariff orders, DD Free Dish serves a large free-to-air base, and the 12-minute hourly cap on TV advertising (Rule 7(11) of the Cable Television Networks Rules) was removed in August 2026, so ad inventory is now a channel's own choice; OTT growth is led by mobile, ad-supported and telco-bundled viewing at low ARPUs.",
+    "workedExample": {
+      "problem": "A multiplex chain's EBITDA margin fell about 3.6 points in a year while admissions were flat.",
+      "trace": [
+        "Start where the symptom shows, exhibition (s5): EBITDA per patron fell from about ₹55 on ₹420 of revenue (13.1%) to about ₹40 on ₹416 (9.5%).",
+        "Check exhibition's own revenue lines: ticket price and F&B spend per head were flat, but screen advertising per patron fell about ₹4 as brands moved budgets to digital and connected TV, worth about 1 point.",
+        "Check costs: rent, staff and power per patron were flat, but film hire rose from 42% to 47% of net ticket revenue, adding about ₹11.5 per patron, worth about 2.8 points.",
+        "Trace that cost upstream to distribution (s4): distributors of big-star releases negotiated higher shares, because rising star fees in development and production (s1, s2) pushed them to recover more from theatrical."
+      ],
+      "lesson": "A margin problem at one stage is often a shift in bargaining power at another, so follow each cost line upstream before fixing operations."
+    }
+  },
+  "cases": [
+    {
+      "id": "media-c01",
+      "title": "Hindi news channel profits collapse",
+      "framework": "profitability",
+      "secondary": [],
+      "difficulty": "Beginner",
+      "region": "India",
+      "prompt": "Our client is a Hindi national news channel with revenue of about ₹320 crore. EBITDA has fallen from ₹70 crore to ₹20 crore over two years, even though the channel still ranks in the top five of its genre. The CEO wants to know why profits have fallen and what to fix first.",
+      "clarifyingFacts": [
+        "Q: What is the revenue mix? A: About 85% advertising, 10% subscription income from distribution platforms and 5% digital (YouTube and website).",
+        "Q: How have revenue and costs moved? A: Revenue fell from ₹340 crore to ₹320 crore; total costs rose from ₹270 crore to ₹300 crore.",
+        "Q: What drove the cost increase? A: Carriage and placement fees paid to DTH and cable platforms rose from ₹60 crore to ₹85 crore; newsroom costs rose about ₹5 crore; everything else was flat.",
+        "Q: What happened to advertising? A: Ad seconds sold were flat, but the effective rate per 10 seconds fell about 7% as advertisers moved budgets to digital."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Why has EBITDA fallen from ₹70 crore to ₹20 crore?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Revenue (₹340 crore to ₹320 crore)",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Advertising revenue",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Spot ads: ad seconds sold x effective rate per 10 seconds"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Sponsorships and branded segments (priced per package)"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Subscription income from distribution platforms",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Paying homes reached",
+                    "children": []
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Rate per paying home",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Digital revenue (YouTube, website, apps)",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Costs (₹270 crore to ₹300 crore)",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Carriage and placement fees",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Platforms and regions paid",
+                    "children": []
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Fee per platform (landing page, channel number slot)",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Newsroom and content",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Anchors and editorial staff",
+                    "children": []
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Bureaus, OB vans and news gathering",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Broadcast operations (uplink, transponder, playout)",
+                "children": []
+              },
+              {
+                "id": "b4",
+                "label": "Marketing and overheads",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Carriage and placement fees rising from ₹60 crore to ₹85 crore explain half of the ₹50 crore EBITDA fall, as news channels bid against each other for prime channel slots.",
+        "A 7% fall in rate per 10 seconds on flat volume explains about ₹20 crore, so the revenue problem is yield (advertiser shift to digital), not ratings."
+      ],
+      "hints": [
+        "Use the profit equation, then break each side into this channel's own revenue streams and cost buckets, not textbook labels.",
+        "First level: revenue and costs.",
+        "Revenue branch in full: advertising (spot ads = seconds sold x rate per 10 seconds; sponsorships); subscription from platforms (paying homes, rate per home); digital (YouTube, website, apps)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Spot advertising revenue",
+          "formula": "(ad seconds sold / 10) x effective rate per 10 seconds; sponsorships are added separately"
+        },
+        {
+          "name": "Carriage cost ratio",
+          "formula": "carriage and placement fees / total revenue (₹85 crore / ₹320 crore ≈ 27%)"
+        }
+      ],
+      "commonMistakes": [
+        "Assuming ratings are the problem: the channel's rank held and ad seconds were flat, so the evidence points to rate per 10 seconds, not volume.",
+        "Leaving out carriage and placement fees, the cost line most specific to Indian news broadcasting, and looking only at staff costs."
+      ],
+      "frameworkPick": {
+        "options": [
+          "profitability",
+          "competitive-response",
+          "pricing",
+          "turnaround"
+        ],
+        "correct": [
+          "profitability"
+        ],
+        "why": "The CEO asks why EBITDA fell with no single named trigger, so the job is to break profit into revenue and cost drivers and find which moved.",
+        "distractorWhyNot": {
+          "competitive-response": "No specific rival move has been identified; competition shows up as one possible cause inside the revenue and cost branches.",
+          "pricing": "Ad rate is one driver inside revenue, but half the fall came from costs, which a pricing tree would miss.",
+          "turnaround": "The channel is still profitable and has no cash crisis, so a survival-first turnaround plan is premature."
+        }
+      },
+      "industry": "media"
+    },
+    {
+      "id": "media-c02",
+      "title": "Size India's annual box office",
+      "framework": "market-sizing",
+      "secondary": [],
+      "difficulty": "Beginner",
+      "region": "India",
+      "prompt": "A private equity fund is studying Indian film exhibition and wants a quick sense of scale. Estimate India's annual gross box office in rupees, and what share of it multiplexes take. Assume the country has about 10,000 cinema screens.",
+      "clarifyingFacts": [
+        "Q: Gross or net of tax? A: What audiences pay at the counter; ignore the tax split.",
+        "Q: How are the screens split? A: About 3,500 multiplex screens and 6,500 single screens.",
+        "Q: Which period? A: One normal year with a typical release calendar.",
+        "Q: Are prices or occupancy available? A: Make your own assumptions and justify them."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "India's annual box office collections (₹ crore)",
+        "children": [
+          {
+            "id": "a",
+            "label": "Multiplex box office",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Annual admissions (about 32 crore)",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Screens (about 3,500)",
+                    "children": []
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Seats per screen x shows per day (200 x 4.5)",
+                    "children": []
+                  },
+                  {
+                    "id": "a1z",
+                    "label": "Occupancy (about 28%) x 365 days",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Average ticket price, gross (about ₹260)",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Single-screen box office",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Annual admissions (about 57 crore)",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Screens (about 6,500)",
+                    "children": []
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Seats per screen x shows per day (400 x 4)",
+                    "children": []
+                  },
+                  {
+                    "id": "b1z",
+                    "label": "Occupancy (about 15%) x 365 days",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Average ticket price (about ₹90)",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Total gross box office is about ₹13,500 crore (multiplex about ₹8,400 crore, single screens about ₹5,100 crore) on about 89 crore admissions, close to published estimates of about ₹13,400 crore and 83 crore footfalls for 2025.",
+        "Multiplexes sell only about 36% of tickets but take about 62% of box office, because their average ticket is close to three times a single screen's."
+      ],
+      "hints": [
+        "Size from the supply side (capacity x utilisation x price), and split first wherever price and utilisation differ sharply.",
+        "First level: multiplex box office and single-screen box office.",
+        "Single-screen branch: annual admissions (screens x seats per screen x shows per day x occupancy x 365) x average ticket price."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Annual admissions",
+          "formula": "screens x seats per screen x shows per day x occupancy x 365"
+        },
+        {
+          "name": "Box office",
+          "formula": "annual admissions x average ticket price"
+        }
+      ],
+      "commonMistakes": [
+        "Using one blended ticket price for all screens, which hides the roughly 3x price gap between multiplexes and single screens.",
+        "Assuming 50% or higher occupancy; Indian cinemas fill well under a third of seats on average outside big release weekends."
+      ],
+      "frameworkPick": {
+        "options": [
+          "market-sizing",
+          "pe-dd",
+          "market-entry",
+          "segmentation"
+        ],
+        "correct": [
+          "market-sizing"
+        ],
+        "why": "The fund asks for a number, the size of the market, which is a structured estimate built from screens, seats, occupancy and price.",
+        "distractorWhyNot": {
+          "pe-dd": "There is no target company or deal yet; the fund only wants the scale of the market.",
+          "market-entry": "The fund is not deciding whether to enter; it is asking how big the pool is.",
+          "segmentation": "Splitting by screen type helps the estimate, but the goal is a number, not choosing which customers to target."
+        }
+      },
+      "industry": "media"
+    },
+    {
+      "id": "media-c03",
+      "title": "Annual plan for a Tamil OTT",
+      "framework": "pricing",
+      "secondary": [],
+      "difficulty": "Beginner",
+      "region": "India",
+      "prompt": "Our client is a Tamil-language OTT platform with 17 lakh paying subscribers, almost all on a ₹99 monthly plan, and monthly churn of about 12%. The founder wants to launch an annual plan and asks whether ₹799 is the right price.",
+      "clarifyingFacts": [
+        "Q: What is the objective? A: Raise revenue per subscriber over their lifetime and reduce churn, without hurting new sign-ups.",
+        "Q: What do competitors charge? A: Two national OTT platforms with Tamil content sell annual plans at ₹899 and ₹1,499; a smaller Tamil rival charges ₹699 a year.",
+        "Q: How do subscribers behave? A: About 30% are loyal and stay well over a year; the rest typically join for a big release and leave after 2 to 3 months.",
+        "Q: What does a subscriber cost to serve? A: Content and tech are largely fixed; variable cost (payment fees, bandwidth) is about ₹15 a month."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "What annual price maximises lifetime revenue per subscriber; is ₹799 right?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Value to subscribers (price ceiling)",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Saving versus 12 monthly payments (₹1,188)",
+                "children": []
+              },
+              {
+                "id": "a2",
+                "label": "Willingness to pay: loyal viewers vs release-bingers",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Competitor reference prices",
+            "children": [
+              {
+                "id": "b1",
+                "label": "National platforms with Tamil content (₹899, ₹1,499)",
+                "children": []
+              },
+              {
+                "id": "b2",
+                "label": "Tamil rival (₹699)",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Cost to serve (price floor)",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Variable cost about ₹180 a year",
+                "children": []
+              },
+              {
+                "id": "c2",
+                "label": "Upfront cash benefit of annual billing",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Net revenue impact on the base",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Loyal monthly payers trading down (lose ₹389 each)",
+                "children": []
+              },
+              {
+                "id": "d2",
+                "label": "Short-stay viewers locked in for 12 months (gain ₹601 each)",
+                "children": []
+              },
+              {
+                "id": "d3",
+                "label": "Lower churn and renewal rate at year end",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Loyal subscribers, who already pay ₹1,188 a year, will be most of the take-up at ₹799, so the plan loses ₹389 on each unless it converts about 0.65 short-stay viewers per loyal trade-down.",
+        "A price nearer ₹899 still sits inside the competitor range and cuts the loss per loyal trade-down from ₹389 to ₹289."
+      ],
+      "hints": [
+        "Bound the price from above and below, then test what the new plan does to people who already pay you.",
+        "First level: value to subscribers, competitor reference prices, cost to serve, net revenue impact on the base.",
+        "Value branch in full: saving versus 12 monthly payments (₹1,188); willingness to pay of loyal viewers versus release-driven viewers."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Lifetime revenue per monthly subscriber",
+          "formula": "monthly price / monthly churn (₹99 / 0.12 ≈ ₹825)"
+        },
+        {
+          "name": "Break-even conversion ratio",
+          "formula": "(₹1,188 - annual price) / (annual price - revenue from a short-stay subscriber)"
+        }
+      ],
+      "commonMistakes": [
+        "Calling ₹799 'a 33% discount on ₹1,188' without asking who will buy it: loyal users self-select into annual plans, so cannibalisation is the main risk.",
+        "Setting the price with no anchor in competitor plans or the cost floor, so the recommendation cannot be defended."
+      ],
+      "frameworkPick": {
+        "options": [
+          "pricing",
+          "product-launch",
+          "segmentation",
+          "growth"
+        ],
+        "correct": [
+          "pricing"
+        ],
+        "why": "The decision is a price point for a new plan on the same product, so value, competitor and cost anchors plus cannibalisation answer it directly.",
+        "distractorWhyNot": {
+          "product-launch": "The content and app are unchanged; this is a new price and billing term, not a new product needing a market and capability assessment.",
+          "segmentation": "Loyal versus short-stay segments matter, but they are an input to the price decision, not the question.",
+          "growth": "The objective mentions revenue, but the founder has one specific decision, a price for a new plan, not a search for every growth lever."
+        }
+      },
+      "industry": "media"
+    },
+    {
+      "id": "media-c04",
+      "title": "Double a podcast network's revenue",
+      "framework": "growth",
+      "secondary": [],
+      "difficulty": "Beginner",
+      "region": "Global",
+      "prompt": "Our client is a German podcast network with €18 million in annual revenue, about 80% of it from audio advertising. Its new owners want to double revenue within three years. How should the client get there?",
+      "clarifyingFacts": [
+        "Q: What is the revenue split? A: €14.5 million advertising, €2 million paid subscriptions (ad-free and bonus episodes), €1.5 million branded podcasts and live shows.",
+        "Q: What drives the ad business? A: About 300 million downloads a year, 3 ad slots per episode, 70% of slots sold, average CPM about €23.",
+        "Q: How fast is the market growing? A: German-language podcast advertising grows about 10% a year.",
+        "Q: Any constraints? A: Mostly organic growth; small acquisitions of shows up to €10 million in total are allowed."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "How can revenue grow from €18 million to €36 million in three years?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Audio advertising (€14.5 million)",
+            "children": [
+              {
+                "id": "a1",
+                "label": "More downloads",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Grow audiences of existing shows",
+                    "children": []
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Launch new shows",
+                    "children": []
+                  },
+                  {
+                    "id": "a1z",
+                    "label": "Acquire shows",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "More slots sold (slots per episode, 70% sell-through)",
+                "children": []
+              },
+              {
+                "id": "a3",
+                "label": "Higher CPM (targeting data, host-read premium)",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Listener subscriptions (€2 million)",
+            "children": [
+              {
+                "id": "b1",
+                "label": "More paying listeners",
+                "children": []
+              },
+              {
+                "id": "b2",
+                "label": "Revenue per subscriber (price, bundles)",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Branded podcasts and live shows (€1.5 million)",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Branded podcasts sold to existing ad clients",
+                "children": []
+              },
+              {
+                "id": "c2",
+                "label": "Live shows and tours",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "New revenue streams",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Licensing show IP for TV, film and books",
+                "children": []
+              },
+              {
+                "id": "d2",
+                "label": "Video podcast revenue share on video platforms",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Market growth of 10% a year plus sell-through rising from 70% to 80% only takes advertising to about €22 million, so doubling needs downloads to grow well ahead of the market through new or acquired shows.",
+        "Branded podcasts are under-sold: offering them to the existing advertiser roster could triple the €1.5 million line within two years."
+      ],
+      "hints": [
+        "Split by revenue stream, and write the biggest stream as its own revenue equation.",
+        "First level: audio advertising, listener subscriptions, branded podcasts and live shows, new revenue streams.",
+        "Subscriptions branch in full: more paying listeners; revenue per subscriber (price, bundles)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Audio ad revenue",
+          "formula": "downloads x ad slots per episode x sell-through x CPM / 1,000"
+        },
+        {
+          "name": "Required growth rate",
+          "formula": "(€36m / €18m)^(1/3) - 1 ≈ 26% a year"
+        }
+      ],
+      "commonMistakes": [
+        "Listing ideas (events, merchandise, new shows) without the revenue equation, so none of them is sized against the €18 million gap.",
+        "Spending time on the €2 million subscription line: even doubling it adds only €2 million, about 11% of the €18 million gap."
+      ],
+      "frameworkPick": {
+        "options": [
+          "growth",
+          "ma",
+          "profitability",
+          "product-launch"
+        ],
+        "correct": [
+          "growth"
+        ],
+        "why": "The owners set a revenue growth target with no single move in mind, so the tree must lay out every lever that adds revenue.",
+        "distractorWhyNot": {
+          "ma": "Acquisitions are capped at €10 million in total and are one lever inside the plan, not the question.",
+          "profitability": "The target is revenue growth, not diagnosing or fixing profit.",
+          "product-launch": "No specific new product is being evaluated; new formats are just one branch."
+        }
+      },
+      "industry": "media"
+    },
+    {
+      "id": "media-c05",
+      "title": "Indian multiplex chain eyes Saudi Arabia",
+      "framework": "market-entry",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "Global",
+      "prompt": "Our client is a mid-sized Indian multiplex chain with 400 screens. Saudi Arabia has allowed cinemas again since 2018, and the client is considering opening 60 screens there over four years. Should it enter, and if so, how?",
+      "clarifyingFacts": [
+        "Q: What is the objective? A: Diversify away from India and earn at least an 18% pre-tax return on investment within five years.",
+        "Q: What does the market look like? A: The client's research estimates Saudi box office at roughly SAR 900 million a year from about 600 screens, about 19 million tickets at an average of about SAR 50; the screen count has barely grown in the last two years.",
+        "Q: Who are the competitors, and will Indian films help? A: Three or four large regional and international chains hold most screens on long mall leases. The client's team expects South Asian expatriates to fill screens, but its own research puts Indian-language films at under 10% of box office.",
+        "Q: What would it cost? A: About SAR 4.5 million per screen to fit out, so about SAR 270 million for 60 screens; the client has no local partner today."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Should the client open 60 screens in Saudi Arabia, and how?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Market attractiveness",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Size and growth",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Box office and admissions trend",
+                    "children": []
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Screen supply vs admissions trend",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Revenue per patron potential",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Ticket prices and content mix (Hollywood, Arabic, Indian)",
+                    "children": []
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "F&B and advertising spend per patron",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Regulation and operating rules",
+                "children": [
+                  {
+                    "id": "a3x",
+                    "label": "Cinema licensing and content approval",
+                    "children": []
+                  },
+                  {
+                    "id": "a3y",
+                    "label": "Localisation quotas for staff (Nitaqat)",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Competitive landscape",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Incumbents' share, sites and lease terms",
+                "children": []
+              },
+              {
+                "id": "b2",
+                "label": "Likely response to a new entrant",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Client's ability to win",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Transferable strengths (low-cost operations, F&B, programming)",
+                "children": []
+              },
+              {
+                "id": "c2",
+                "label": "Gaps (mall-developer ties, local brand, partners)",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Economics and entry mode",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Returns on a 60-screen rollout",
+                "children": [
+                  {
+                    "id": "d1x",
+                    "label": "Capex (about SAR 4.5 million per screen)",
+                    "children": []
+                  },
+                  {
+                    "id": "d1y",
+                    "label": "EBITDA per screen at maturity",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "d2",
+                "label": "Entry mode",
+                "children": [
+                  {
+                    "id": "d2x",
+                    "label": "Organic rollout with mall developers",
+                    "children": []
+                  },
+                  {
+                    "id": "d2y",
+                    "label": "Joint venture with a local partner",
+                    "children": []
+                  },
+                  {
+                    "id": "d2z",
+                    "label": "Acquire a small existing chain",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Organic entry fails the hurdle: box office of about SAR 1.5 million per screen implies gross revenue of about SAR 2.3 million per screen with F&B and ads, but an 18% pre-tax return on SAR 4.5 million needs about SAR 1.26 million of EBITDA per screen (after about SAR 0.45 million depreciation), roughly 55% of gross revenue against 15-20% for a good cinema.",
+        "Indian films are too small a share of Saudi box office to justify 60 screens, so the expatriate audience is a red herring; any case must rest on operating skill.",
+        "The only route that could clear 18% is capital-light: a management contract or a joint venture where a mall developer funds the fit-out, or buying an existing chain below replacement cost."
+      ],
+      "hints": [
+        "Ask in turn whether the prize is worth having, whether the client can take it, and whether the numbers and the route in work.",
+        "First level: market attractiveness, competitive landscape, client's ability to win, economics and entry mode.",
+        "Competitive landscape in full: incumbents' share, sites and lease terms; likely response to a new entrant."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Pre-tax ROI per screen",
+          "formula": "(EBITDA per screen - depreciation per screen) / capex per screen"
+        },
+        {
+          "name": "Revenue per screen",
+          "formula": "admissions per screen x (net ticket price x exhibitor share + F&B spend per head + ad revenue per head)"
+        }
+      ],
+      "commonMistakes": [
+        "Copying Indian multiplex economics, or counting on Indian films and expatriate audiences, in a market with very different ticket prices, content mix, rents and labour rules.",
+        "Skipping the return check: at about SAR 4.5 million per screen and roughly SAR 1.5 million of box office per screen, organic entry cannot reach 18%, so entry mode decides the answer."
+      ],
+      "frameworkPick": {
+        "options": [
+          "market-entry",
+          "growth",
+          "ma",
+          "market-sizing"
+        ],
+        "correct": [
+          "market-entry"
+        ],
+        "why": "The client asks whether and how to enter a new country, which needs attractiveness, competition, ability to win and entry mode together.",
+        "distractorWhyNot": {
+          "growth": "A generic growth tree would not force the country-specific questions on regulation, incumbents and entry route.",
+          "ma": "Acquiring a chain is one entry mode inside the tree, not the question.",
+          "market-sizing": "Market size is one input under attractiveness; the question is a go or no-go decision."
+        }
+      },
+      "industry": "media"
+    },
+    {
+      "id": "media-c06",
+      "title": "Marathi daily faces a price war",
+      "framework": "competitive-response",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "India",
+      "prompt": "Our client publishes the leading Marathi daily in Mumbai and Pune, selling about 9 lakh copies a day at ₹6. A well-funded rival has just launched in Pune at ₹2 a copy with heavy door-to-door subscription offers. How should our client respond?",
+      "clarifyingFacts": [
+        "Q: What is the revenue model? A: About ₹430 crore a year: roughly 70% advertising and 30% circulation, after a trade margin of about 35% to agents and hawkers. Ad rates are linked to audited circulation and readership in each city.",
+        "Q: How exposed is Pune? A: Pune is about 4 lakh of the 9 lakh copies and about 45% of advertising revenue.",
+        "Q: Who is the rival? A: Part of a large group with titles in other states; it can probably absorb losses for 2 to 3 years.",
+        "Q: What has happened so far? A: In two months Pune circulation is down about 6%, mostly price-sensitive homes in newer suburbs; hawkers say the rival pays them a higher commission. Separately, the CFO points out that newsprint prices are up about 12% this year."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "How should the client respond to a rival's ₹2 launch in Pune?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Understand the rival's move",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Objective and staying power",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Share grab or long-term entry",
+                    "children": []
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Funding and loss tolerance (2 to 3 years)",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Scope of the attack",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Geography: Pune only, or Mumbai next",
+                    "children": []
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Target readers: price-sensitive newer suburbs",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Size the impact on the client",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Circulation revenue at risk (copies x price x 65%)",
+                "children": []
+              },
+              {
+                "id": "b2",
+                "label": "Advertising revenue at risk",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Readership lead in Pune",
+                    "children": []
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Advertiser loyalty and rate pressure",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Response options",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Defend readers",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Targeted offers in at-risk suburbs",
+                    "children": []
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Hyperlocal pages and supplements",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Defend the distribution channel",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "Hawker and agent commissions",
+                    "children": []
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "Exclusive delivery and subscription schemes",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "c3",
+                "label": "Defend advertisers",
+                "children": [
+                  {
+                    "id": "c3x",
+                    "label": "Mumbai-Pune bundled ad packages",
+                    "children": []
+                  },
+                  {
+                    "id": "c3y",
+                    "label": "Readership-backed rate guarantees",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Evaluate and sequence",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Cost of each option vs revenue protected",
+                "children": []
+              },
+              {
+                "id": "d2",
+                "label": "Rival's likely counter-move",
+                "children": []
+              },
+              {
+                "id": "d3",
+                "label": "Timing vs advertisers' annual contract renewals",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Advertising, not cover price, is what is at stake: the 6% Pune circulation loss costs only about ₹3.4 crore a year net, while about ₹135 crore of Pune ad revenue depends on keeping the readership lead.",
+        "Matching ₹2 across Pune would give up about ₹38 crore a year of net circulation revenue, roughly ten times the loss so far, so targeted suburb offers plus hawker incentives beat a city-wide price cut."
+      ],
+      "hints": [
+        "Follow the order a strategist would: understand the attack, measure what it puts at risk, then generate and judge responses.",
+        "First level: understand the rival's move, size the impact, response options, evaluate and sequence.",
+        "Rival's move in full: objective and staying power (share grab or long-term entry, loss tolerance); scope (Pune only or Mumbai next, which readers)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Net circulation revenue",
+          "formula": "copies a day x cover price x (1 - trade margin) x 365"
+        },
+        {
+          "name": "Ad revenue at risk",
+          "formula": "Pune ad revenue x expected rate or volume loss if the readership lead is lost"
+        }
+      ],
+      "commonMistakes": [
+        "Jumping to 'match the price' before sizing what is actually at risk, which is advertising tied to readership, not the cover price.",
+        "Ignoring agents and hawkers, who largely decide which paper reaches the doorstep in Indian print, or getting drawn into the newsprint price rise, which hits both papers and is not part of the response decision."
+      ],
+      "frameworkPick": {
+        "options": [
+          "competitive-response",
+          "pricing",
+          "profitability",
+          "market-entry"
+        ],
+        "correct": [
+          "competitive-response"
+        ],
+        "why": "A specific rival has made a specific move, and the client must understand it, size the threat and choose a response across price, product, channel and advertisers.",
+        "distractorWhyNot": {
+          "pricing": "Price is one response lever; a pricing tree would miss the channel and advertiser responses that matter more.",
+          "profitability": "Profits have barely moved yet; the task is to pre-empt a threat, not diagnose a decline.",
+          "market-entry": "The rival is the one entering; the client is the incumbent and needs a defence."
+        }
+      },
+      "industry": "media"
+    },
+    {
+      "id": "media-c07",
+      "title": "Cut cost per episode of daily soaps",
+      "framework": "operations",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "India",
+      "prompt": "Our client is a Mumbai production house that makes three Hindi daily soaps for one broadcaster, about 936 episodes a year. Cost per episode has risen from ₹16 lakh to ₹19 lakh in 18 months, while the broadcaster pays a fixed ₹18 lakh. How can the client get cost back below ₹17 lakh without hurting ratings?",
+      "clarifyingFacts": [
+        "Q: What is the cost breakdown now? A: Cast ₹7 lakh, crew and technicians ₹4 lakh, sets, locations and equipment ₹3 lakh, writing and post-production ₹2.5 lakh, overheads ₹2.5 lakh.",
+        "Q: How are costs incurred? A: Cast, crew and equipment are paid per shooting shift; cost per shift is ₹8.75 lakh, up about 3% from ₹8.5 lakh.",
+        "Q: Has the shooting pattern changed? A: Each episode now takes about 1.6 shifts, up from 1.3, because scripts arrive late and are rewritten on set, and the two leads are available only 20 days a month.",
+        "Q: Any constraints? A: Ratings must hold, and the broadcaster will not raise the fee this year. The broadcaster's team says rival producers make similar soaps for about ₹15 lakh, mainly by paying their leads less."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "How can cost per episode fall from ₹19 lakh to below ₹17 lakh?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Shooting shifts per episode (1.3 to 1.6)",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Pre-production readiness",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Script lock lead time",
+                    "children": []
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Scene breakdown and call sheets",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "On-set productivity",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Usable minutes shot per shift",
+                    "children": []
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Retakes and set changeover time",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Lead actors' availability",
+                "children": [
+                  {
+                    "id": "a3x",
+                    "label": "Dates per month",
+                    "children": []
+                  },
+                  {
+                    "id": "a3y",
+                    "label": "Scenes grouped around lead dates",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Cost per shooting shift (₹8.75 lakh)",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Cast cost per shift",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Rates: leads vs supporting cast",
+                    "children": []
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Actors called per shift",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Crew size and overtime per shift",
+                "children": []
+              },
+              {
+                "id": "b3",
+                "label": "Sets, locations and equipment per shift",
+                "children": [
+                  {
+                    "id": "b3x",
+                    "label": "Standing sets vs outdoor locations",
+                    "children": []
+                  },
+                  {
+                    "id": "b3y",
+                    "label": "Owned vs rented equipment",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Non-shift costs per episode (₹5 lakh)",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Writing and post-production",
+                "children": []
+              },
+              {
+                "id": "c2",
+                "label": "Allocated overheads",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "The extra 0.3 shifts per episode explain about ₹2.6 lakh of the ₹3 lakh rise; rates per shift rose only about 3%.",
+        "Late script lock is the root cause: locking scripts a week ahead and grouping lead scenes could bring shifts back to about 1.35, which alone takes cost to about ₹16.8 lakh."
+      ],
+      "hints": [
+        "Write cost per episode as an equation of how many shooting shifts it takes and what a shift costs, plus what does not depend on shifts.",
+        "First level: shooting shifts per episode, cost per shooting shift, non-shift costs per episode.",
+        "Cost per shift in full: cast cost per shift (lead vs supporting rates, actors called); crew size and overtime; sets, locations and equipment (standing sets vs outdoor, owned vs rented)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Cost per episode",
+          "formula": "shifts per episode x cost per shift + non-shift cost per episode (1.6 x ₹8.75 lakh + ₹5 lakh = ₹19 lakh)"
+        },
+        {
+          "name": "Usable minutes per shift",
+          "formula": "minutes of final edited content / shooting shifts"
+        }
+      ],
+      "commonMistakes": [
+        "Following the broadcaster's hint and cutting cast fees first: the leads drive ratings, and the data shows the rise came from more shifts per episode, not higher rates per shift.",
+        "Treating cost as one pool instead of shifts x cost per shift, which hides the productivity problem."
+      ],
+      "frameworkPick": {
+        "options": [
+          "operations",
+          "profitability",
+          "pricing",
+          "turnaround"
+        ],
+        "correct": [
+          "operations"
+        ],
+        "why": "Revenue is fixed by contract and the target is a cost per unit, so the tree must break the production process into throughput and input costs.",
+        "distractorWhyNot": {
+          "profitability": "Half of a revenue-and-cost tree would be wasted on a fixed per-episode fee; the issue is process efficiency.",
+          "pricing": "The broadcaster has already refused a fee increase this year.",
+          "turnaround": "There is no cash crisis; one cost line needs a process fix."
+        }
+      },
+      "industry": "media"
+    },
+    {
+      "id": "media-c08",
+      "title": "Launch an ad-supported streaming tier",
+      "framework": "product-launch",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "Global",
+      "prompt": "Our client is a mid-sized US streaming service with 12 million subscribers, all on a $14.99 ad-free plan. Growth has stalled, and the board is considering an ad-supported plan at $7.99. Should it launch, and what would need to be true?",
+      "clarifyingFacts": [
+        "Q: What is the objective? A: Grow total revenue within two years; the board will not accept a decline.",
+        "Q: How many would downgrade? A: Research suggests about 10% of current subscribers, 1.2 million, would switch to the ad plan.",
+        "Q: What are the ad assumptions? A: Ad-plan users watch about 20 hours a month with eight 30-second slots per hour; 60% of slots are filled at a $30 CPM.",
+        "Q: Does the client sell ads today? A: No; it has no ad sales team or ad-serving technology. A board member adds that a large rival says about half its new sign-ups now choose its ad tier."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Should the client launch a $7.99 ad plan; what must be true?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Customer uptake",
+            "children": [
+              {
+                "id": "a1",
+                "label": "New subscribers attracted",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Price-sensitive homes not subscribing today",
+                    "children": []
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Lapsed subscribers returning",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Existing subscribers downgrading",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Downgrade rate (about 10% of base)",
+                    "children": []
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Timing: at launch vs over two years",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Churn on the ad plan",
+                "children": [
+                  {
+                    "id": "a3x",
+                    "label": "Tolerance of ad load",
+                    "children": []
+                  },
+                  {
+                    "id": "a3y",
+                    "label": "Lower price reducing cancellations",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Revenue per user",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Ad-plan ARPU ($7.99 plus ads)",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Ad impressions per user (hours x slots x fill)",
+                    "children": []
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "CPM achieved",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Revenue lost per downgrade",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Costs and capabilities to launch",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Ad sales and ad serving",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Build in-house (cost, 12-18 month lead time)",
+                    "children": []
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Partner with an ad-tech firm (revenue share)",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Content rights for ad-supported viewing",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "Licensed titles lacking ad rights",
+                    "children": []
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "Cost to renegotiate licences",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Competitive context",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Rivals' ad-plan prices and ad loads",
+                "children": []
+              },
+              {
+                "id": "d2",
+                "label": "Likely rival response",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Each downgrade loses $4.12 a month ($14.99 against $7.99 plus $2.88 of ads), so the plan needs about 0.38 new ad-plan subscribers per downgrade, roughly 455,000 for 1.2 million downgrades.",
+        "Working through an ad-tech partner, the client may net nearer $25 CPM after revenue share, which raises break-even to about 530,000 new subscribers."
+      ],
+      "hints": [
+        "Treat it as a launch decision: who will take it, what each user is worth, what it takes to deliver, and the market around it.",
+        "First level: customer uptake, revenue per user, costs and capabilities to launch, competitive context.",
+        "Costs and capabilities in full: ad sales and ad serving (build in-house or partner with an ad-tech firm); content rights for ad-supported viewing (titles lacking ad rights, cost to renegotiate)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Ad-plan ARPU",
+          "formula": "plan price + hours per month x ad slots per hour x fill rate x CPM / 1,000"
+        },
+        {
+          "name": "Break-even new subscribers",
+          "formula": "downgrades x (ad-free price - ad-plan ARPU) / ad-plan ARPU"
+        }
+      ],
+      "commonMistakes": [
+        "Treating the rival's 'half of sign-ups choose the ad tier' as proof of success: what matters is incremental subscribers per downgrade, and at these assumptions ads add only $2.88 a month, so about 0.38 new subscribers are needed for every downgrade.",
+        "Forgetting that some licensed titles may not allow ad insertion, which can shrink the ad-plan catalogue or add cost."
+      ],
+      "frameworkPick": {
+        "options": [
+          "product-launch",
+          "pricing",
+          "growth",
+          "segmentation"
+        ],
+        "correct": [
+          "product-launch"
+        ],
+        "why": "The board must decide whether to launch a new tier that needs new customers, new capabilities and a new revenue model, which is a product-launch question.",
+        "distractorWhyNot": {
+          "pricing": "The $7.99 price is a lever inside the decision; the bigger questions are uptake, ad capability and cannibalisation.",
+          "growth": "Too broad: the board has one specific product decision on the table.",
+          "segmentation": "Who downgrades and who joins are inputs, not the decision."
+        }
+      },
+      "industry": "media"
+    },
+    {
+      "id": "media-c09",
+      "title": "Convert free music listeners to paid",
+      "framework": "segmentation",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "India",
+      "prompt": "Our client is an Indian music streaming app with 2.5 crore monthly active users, of whom only 15 lakh (6%) pay, at an average of ₹78 a month after discounts. Management wants to double paying subscribers in two years without heavy discounting. Which users should it target, and with what offer?",
+      "clarifyingFacts": [
+        "Q: Who are the users? A: About 60% of users live outside the top eight cities; Hindi and Punjabi are the most streamed languages.",
+        "Q: What does the paid plan add? A: No ads, offline downloads, unlimited skips and higher audio quality. Marketing wants to target college students, the fastest-growing user group.",
+        "Q: Who pays today? A: Payers skew to metro users aged 22 to 35 on iPhones or premium Android phones, and they stream about three times as much as free users.",
+        "Q: Constraints? A: Average price per payer should not fall below ₹70, and there is no extra content budget."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Which free users to target, with what offer, to reach 30 lakh payers?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Segment the 2.35 crore free users",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Who they are",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "City tier and language",
+                    "children": []
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Age and device type",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "How they listen",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Listening hours per week",
+                    "children": []
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Hitting paid limits (skips, download attempts)",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Why they would pay",
+                "children": [
+                  {
+                    "id": "a3x",
+                    "label": "Annoyance with ads",
+                    "children": []
+                  },
+                  {
+                    "id": "a3y",
+                    "label": "Need to listen offline (patchy data, commutes)",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Evaluate each segment",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Size (number of free users)",
+                "children": []
+              },
+              {
+                "id": "b2",
+                "label": "Likelihood to convert",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Conversion of similar users already paying",
+                    "children": []
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Response to past trials and offers",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Value per convert (price paid, months retained)",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Target and tailor the offer",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Offer design",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Price point and pack length",
+                    "children": []
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Feature packs (e.g. download-only)",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Channel and billing",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "In-app prompts at moments of friction",
+                    "children": []
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "Telco billing and UPI AutoPay",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Heavy free listeners (10+ hours a week) who keep hitting the skip limit convert at three to four times the base rate, and they are a large enough pool to supply most of the 15 lakh new payers.",
+        "Smaller-town Android users will pay for a cheaper weekly or download-only pack billed through UPI AutoPay, but not for a full monthly plan priced like the metro one."
+      ],
+      "hints": [
+        "Use segment, evaluate, target: first the ways to cut the base, then how to rank segments, then the offer.",
+        "First level: segment the free users, evaluate each segment, target and tailor the offer.",
+        "Evaluation branch in full: size of each segment; likelihood to convert (conversion of similar payers, response to past offers); value per convert (price, months retained)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Paid conversion rate",
+          "formula": "paying subscribers / monthly active users"
+        },
+        {
+          "name": "Segment value",
+          "formula": "free users in segment x expected conversion rate x monthly price x expected paid months"
+        }
+      ],
+      "commonMistakes": [
+        "Segmenting only on demographics (age, city) or chasing the fastest-growing group (students) when listening behaviour is the strongest predictor of who pays.",
+        "Recommending a deep discount, which breaks the ₹70 price floor and attracts users who leave when the offer ends."
+      ],
+      "frameworkPick": {
+        "options": [
+          "segmentation",
+          "pricing",
+          "growth",
+          "product-launch"
+        ],
+        "correct": [
+          "segmentation"
+        ],
+        "why": "Management asks which users to target and with what offer, which means cutting the base into segments, ranking them and tailoring a proposition.",
+        "distractorWhyNot": {
+          "pricing": "Price points matter for the offer, but the question starts with who to target, which pricing alone does not answer.",
+          "growth": "Too broad: the goal is specifically converting existing free users, not every possible growth lever.",
+          "product-launch": "The paid product already exists; feature packs are an offer variant, not a new launch."
+        }
+      },
+      "industry": "media"
+    },
+    {
+      "id": "media-c10",
+      "title": "Rescue a debt-laden Hindi film studio",
+      "framework": "turnaround",
+      "secondary": [
+        "profitability"
+      ],
+      "difficulty": "Advanced",
+      "region": "India",
+      "prompt": "Our client is a mid-sized Hindi film studio that releases 6 to 8 films a year. Four of its last five films lost money, and it now has ₹450 crore of debt, ₹40 crore of cash and ₹180 crore of loan repayments due within 12 months. The promoter wants to bet on a big-star film to recover; the lenders want assets sold. What should the studio do?",
+      "clarifyingFacts": [
+        "Q: Why did the films lose money? A: Interviewer data: average budgets rose about 40% in three years, mostly star fees, while rights deals that used to recover 60-70% of budget before release now recover about 35%.",
+        "Q: What assets does it own? A: A library of about 150 films with full rights, a music catalogue, and two films in post-production with no rights sold. A streaming platform has informally offered about ₹150 crore for seven-year rights to 100 library titles.",
+        "Q: What else must be paid? A: Interest of about ₹50 crore a year and fixed overheads of about ₹30 crore a year.",
+        "Q: What is the big-star film? A: A ₹250 crore budget including a ₹110 crore star fee, with no rights pre-sold."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "How should the studio survive 12 months and fix its film economics?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Stabilise cash over the next 12 months",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Raise cash from existing assets",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "License or sell library rights",
+                    "children": []
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Monetise the music catalogue",
+                    "children": []
+                  },
+                  {
+                    "id": "a1z",
+                    "label": "Sell rights to the two near-complete films",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Cut cash outflows",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Pause uncommitted projects",
+                    "children": []
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Reduce fixed overheads",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Restructure the balance sheet",
+                "children": [
+                  {
+                    "id": "a3x",
+                    "label": "Extend loan maturities",
+                    "children": []
+                  },
+                  {
+                    "id": "a3y",
+                    "label": "Bring in equity or a strategic partner",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Fix the economics of future films",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Revenue per film",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Theatrical share (domestic and overseas)",
+                    "children": []
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Rights recovery before release (% of budget)",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Cost per film",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Star fees: fixed vs profit share",
+                    "children": []
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Production, VFX and P&A spend",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Reset slate strategy and governance",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Slate mix (budget tiers, genres, languages)",
+                "children": []
+              },
+              {
+                "id": "c2",
+                "label": "Greenlight rule: minimum pre-sales cover",
+                "children": []
+              },
+              {
+                "id": "c3",
+                "label": "Risk-sharing structures",
+                "children": [
+                  {
+                    "id": "c3x",
+                    "label": "Co-producers and co-financiers",
+                    "children": []
+                  },
+                  {
+                    "id": "c3y",
+                    "label": "Platform-funded originals at cost-plus",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "The 12-month funding gap is about ₹220 crore (₹180 crore repayments plus ₹80 crore interest and overheads, less ₹40 crore cash); the ₹150 crore library offer plus rights on the two near-complete films and a maturity extension can close it without a fire sale.",
+        "The star film is the wrong bet as structured: at 35% pre-sales cover it needs about ₹425 crore of domestic gross box office to recover its budget before P&A (assuming a blended 45% distributor share of net and 18% GST), a level only a handful of Hindi films reach each year.",
+        "Lenders will accept the film only with a lower fixed star fee plus profit share and a co-producer, which bridges the promoter's and lenders' positions."
+      ],
+      "hints": [
+        "Split by time horizon: what keeps the company alive first, then what makes each film pay, then how the business is run.",
+        "First level: stabilise cash over 12 months, fix the economics of future films, reset slate strategy and governance.",
+        "Slate branch in full: slate mix (budget tiers, genres, languages); a greenlight rule on minimum pre-sales cover; risk-sharing (co-producers, platform-funded originals at cost-plus)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "12-month funding gap",
+          "formula": "debt repayments + interest + overheads - cash - committed inflows"
+        },
+        {
+          "name": "Pre-sales cover",
+          "formula": "value of rights sold before release / production budget"
+        },
+        {
+          "name": "Break-even gross box office",
+          "formula": "(budget - pre-sold rights) / distributor share of net box office x (1 + GST rate); (₹250 - ₹87.5) / 0.45 x 1.18 ≈ ₹425 crore"
+        }
+      ],
+      "commonMistakes": [
+        "Working only on the long-term slate and missing that the studio may default within 12 months.",
+        "Siding with the promoter or the lenders instead of designing a plan both can accept, such as library licensing plus a restructured star deal."
+      ],
+      "frameworkPick": {
+        "options": [
+          "turnaround",
+          "profitability",
+          "ma",
+          "growth"
+        ],
+        "correct": [
+          "turnaround",
+          "profitability"
+        ],
+        "why": "A 12-month cash gap makes survival the first job, which needs a turnaround structure, and the loss-making films need a profitability split of revenue and cost per film.",
+        "distractorWhyNot": {
+          "ma": "Selling the library or the company is one option inside the cash branch, not the question.",
+          "growth": "Growth is the promoter's instinct, but the studio cannot fund it until liquidity is solved."
+        }
+      },
+      "industry": "media"
+    },
+    {
+      "id": "media-c11",
+      "title": "PE stake in a VFX studio",
+      "framework": "pe-dd",
+      "secondary": [
+        "growth"
+      ],
+      "difficulty": "Advanced",
+      "region": "India",
+      "prompt": "A private equity fund is considering buying 60% of an Indian VFX and animation studio at about 14x EBITDA. Revenue has grown from ₹215 crore to ₹420 crore in four years at a 25% EBITDA margin, mostly from outsourced work for Hollywood studios and global streamers. Should the fund invest?",
+      "clarifyingFacts": [
+        "Q: How concentrated are clients? A: The top two clients are 62% of revenue, on project-by-project contracts.",
+        "Q: What drove growth? A: Minutes delivered rose about 2.8 times, but average price per minute fell about 30% as clients pushed rates down and Indian and East European rivals competed harder.",
+        "Q: What does the cost base look like? A: About 3,000 artists; artist cost is 55% of revenue. Generative AI tools are starting to automate rotoscoping and clean-up, about 25% of the studio's work.",
+        "Q: What does the fund need? A: 2.5x its money in five years, exiting by IPO or sale to a strategic buyer."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Should the fund buy 60% at about 14x EBITDA (₹1,470 crore EV)?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Market attractiveness",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Demand for outsourced VFX and animation",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Global studio and streamer content spend",
+                    "children": []
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Share of work outsourced to India",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Pricing pressure",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Competing vendors (India, Eastern Europe)",
+                    "children": []
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "AI tools reducing demand for commodity tasks",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Target's competitive position",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Client relationships",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Concentration (top two clients 62%)",
+                    "children": []
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Repeat business and contract terms",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Capabilities",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Mix of high-end vs commodity work",
+                    "children": []
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Artist attrition and pipeline technology",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Quality of earnings",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Growth split: minutes x price per minute",
+                "children": []
+              },
+              {
+                "id": "c2",
+                "label": "Margin durability (artist cost at 55%)",
+                "children": []
+              },
+              {
+                "id": "c3",
+                "label": "Cash conversion (receivables, work in progress)",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Value creation and deal terms",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Value creation levers",
+                "children": [
+                  {
+                    "id": "d1x",
+                    "label": "Move up to high-end work and own IP",
+                    "children": []
+                  },
+                  {
+                    "id": "d1y",
+                    "label": "Adopt AI to raise artist productivity",
+                    "children": []
+                  },
+                  {
+                    "id": "d1z",
+                    "label": "New clients and geographies",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "d2",
+                "label": "Valuation and exit",
+                "children": [
+                  {
+                    "id": "d2x",
+                    "label": "Entry multiple vs listed peers",
+                    "children": []
+                  },
+                  {
+                    "id": "d2y",
+                    "label": "Exit route and exit multiple",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Growth is volume-led and hides price erosion: minutes rose about 2.8 times while price per minute fell about 30%, so EBITDA is exposed if volumes slow.",
+        "About 25% of revenue (rotoscoping, clean-up) is at risk from AI automation unless the studio reprices to outcomes and keeps the productivity gain.",
+        "At a flat 14x exit and no leverage, 2.5x needs EBITDA to grow from ₹105 crore to about ₹262 crore, roughly 20% a year for five years."
+      ],
+      "hints": [
+        "Use the due diligence sequence a financial buyer runs: the market, the target's place in it, the quality of its numbers, then the returns.",
+        "First level: market attractiveness, target's competitive position, quality of earnings, value creation and deal terms.",
+        "Competitive position in full: client relationships (concentration, repeat business and contract terms); capabilities (high-end vs commodity mix, artist attrition and pipeline technology)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Revenue",
+          "formula": "minutes delivered x average price per minute"
+        },
+        {
+          "name": "Required EBITDA growth",
+          "formula": "(target money multiple x entry EV / exit multiple / entry EBITDA)^(1/5) - 1, ignoring leverage"
+        },
+        {
+          "name": "Client concentration",
+          "formula": "revenue from top two clients / total revenue"
+        }
+      ],
+      "commonMistakes": [
+        "Taking the 18% revenue CAGR at face value without splitting it into volume and price, which hides a 30% fall in price per minute.",
+        "Treating AI only as an upside lever and not as a threat to the quarter of revenue from commodity tasks."
+      ],
+      "frameworkPick": {
+        "options": [
+          "pe-dd",
+          "growth",
+          "ma",
+          "market-sizing"
+        ],
+        "correct": [
+          "pe-dd",
+          "growth"
+        ],
+        "why": "A financial buyer is testing whether a target can return 2.5x, which needs PE due diligence on market, position and earnings quality plus a growth plan that delivers about 20% EBITDA growth.",
+        "distractorWhyNot": {
+          "ma": "An M&A tree centres on synergies with the buyer's own business; a PE fund cares about standalone returns and exit.",
+          "market-sizing": "Market demand is one input; the question is an investment decision."
+        }
+      },
+      "industry": "media"
+    },
+    {
+      "id": "media-c12",
+      "title": "Foreign group bids for Indian broadcaster",
+      "framework": "ma",
+      "secondary": [
+        "market-entry"
+      ],
+      "difficulty": "Advanced",
+      "region": "India",
+      "prompt": "A US-based media group with no business in India wants to enter by buying 100% of an Indian broadcaster with 12 entertainment channels, 2 news channels and a small OTT app. The target has revenue of ₹2,100 crore and EBITDA of ₹380 crore, and the seller is asking ₹4,600 crore. Should the client do the deal?",
+      "clarifyingFacts": [
+        "Q: What does the client want? A: An Indian base for its global streaming service and its film and kids' library; it does not see news as core.",
+        "Q: How is the target trending? A: Linear TV ad revenue fell about 6% last year and pay-TV homes are declining as viewers move to OTT and free DTH; the OTT app is loss-making with about 20 lakh paying users and also streams the two news channels live.",
+        "Q: Any regulatory issues? A: Foreign investment up to 100% is allowed under the automatic route for non-news channels, but news and current affairs TV channels are capped at 49% with government approval, and streaming news on digital platforms at 26% with government approval. The deal also needs CCI approval and Ministry of Information and Broadcasting permissions.",
+        "Q: Synergies? A: The client estimates about ₹150 crore a year of revenue and cost synergies by year three, mainly from its library and shared ad sales."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Should the client pay ₹4,600 crore (about 12x EBITDA) for 100%?",
+        "children": [
+          {
+            "id": "a",
+            "label": "India market attractiveness for the client",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Linear TV outlook",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Ad revenue trend (down 6%)",
+                    "children": []
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Pay-TV homes lost to OTT and free DTH",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Streaming outlook",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Paid OTT subscriber growth",
+                    "children": []
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "ARPU ceiling in India",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Standalone value of the target",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Entertainment channels",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Viewership share and ad yield by channel",
+                    "children": []
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Content costs and owned library",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "News channels (non-core)",
+                "children": []
+              },
+              {
+                "id": "b3",
+                "label": "OTT app (20 lakh payers)",
+                "children": [
+                  {
+                    "id": "b3x",
+                    "label": "Losses and path to break-even",
+                    "children": []
+                  },
+                  {
+                    "id": "b3y",
+                    "label": "Value as a ready-made Indian platform",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Synergies and integration",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Revenue synergies (library, shared ad sales)",
+                "children": []
+              },
+              {
+                "id": "c2",
+                "label": "Cost synergies (content, tech, overheads)",
+                "children": []
+              },
+              {
+                "id": "c3",
+                "label": "Integration risks (talent, culture)",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Deal feasibility and price",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Regulatory approvals",
+                "children": [
+                  {
+                    "id": "d1x",
+                    "label": "News: 49% FDI cap on TV, 26% on digital news",
+                    "children": []
+                  },
+                  {
+                    "id": "d1y",
+                    "label": "CCI and ministry permissions",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "d2",
+                "label": "Price and structure",
+                "children": [
+                  {
+                    "id": "d2x",
+                    "label": "Value with and without synergies vs ₹4,600 crore",
+                    "children": []
+                  },
+                  {
+                    "id": "d2y",
+                    "label": "Carve out news or hold it with an Indian partner",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "d3",
+                "label": "Alternatives: organic launch or minority JV",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "If declining linear TV earnings merit about 9x, standalone value is about ₹3,400 crore, so the asking price pays away about ₹1,200 crore of synergy value, close to 8x the ₹150 crore run-rate synergies.",
+        "The deal cannot close as structured: a foreign buyer can own at most 49% of the news channels and 26% of any entity streaming news, so the news channels and the app's live news feed must be carved out or held with an Indian partner, which fits the client's view that news is non-core.",
+        "The OTT app and the library rights are worth more to this client than the linear channels, so a narrower deal (entertainment channels plus app) at a lower price may beat the full perimeter."
+      ],
+      "hints": [
+        "Combine the two questions behind the deal: is the country worth entering for this buyer, and is this the right asset at this price.",
+        "First level: India market attractiveness, standalone value of the target, synergies and integration, deal feasibility and price.",
+        "Synergies branch in full: revenue synergies (library, shared ad sales); cost synergies (content, tech, overheads); integration risks (talent, culture)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "EV/EBITDA",
+          "formula": "offer price / EBITDA (₹4,600 crore / ₹380 crore ≈ 12x)"
+        },
+        {
+          "name": "Synergy value paid away",
+          "formula": "offer price - standalone value"
+        },
+        {
+          "name": "Value of synergies",
+          "formula": "run-rate synergies x multiple - one-off integration costs"
+        }
+      ],
+      "commonMistakes": [
+        "Valuing the target on last year's EBITDA when linear TV earnings are falling every year.",
+        "Missing the foreign investment caps on news (49% for TV channels, 26% for digital news), which make a 100% purchase of this exact perimeter, including the app's news feed, impossible without restructuring."
+      ],
+      "frameworkPick": {
+        "options": [
+          "ma",
+          "market-entry",
+          "pe-dd",
+          "growth"
+        ],
+        "correct": [
+          "ma",
+          "market-entry"
+        ],
+        "why": "The client is entering a new country through one specific acquisition, so it needs market-entry questions (is India attractive for us, by which route) and M&A questions (standalone value, synergies, price, approvals).",
+        "distractorWhyNot": {
+          "pe-dd": "The buyer is a strategic acquirer seeking synergies and a market foothold, not a financial investor planning a five-year exit.",
+          "growth": "Too generic: the decision is a specific acquisition as an entry route."
+        }
+      },
+      "industry": "media"
+    }
+  ],
+  "flaws": [
+    {
+      "id": "media-f01",
+      "title": "Music label revenue",
+      "framework": "profitability",
+      "difficulty": "Beginner",
+      "tree": {
+        "id": "r",
+        "label": "Annual revenue of an Indian music label",
+        "children": [
+          {
+            "id": "a",
+            "label": "Streaming royalties",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Audio streaming apps (paid and ad-supported)",
+                "children": []
+              },
+              {
+                "id": "a2",
+                "label": "Video and short-video platforms",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Synchronisation licensing",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Films and OTT series",
+                "children": []
+              },
+              {
+                "id": "b2",
+                "label": "Advertising and TV shows",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Public performance and broadcast",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Radio and TV broadcast",
+                "children": []
+              },
+              {
+                "id": "c2",
+                "label": "Events, venues and public spaces",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Platform licensing income",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Per-stream fees from music apps"
+              },
+              {
+                "id": "d2",
+                "label": "Ad revenue share from video platforms"
+              }
+            ]
+          },
+          {
+            "id": "e",
+            "label": "Other (caller tunes, artist management, merchandise)",
+            "children": []
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "d",
+          "type": "overlap",
+          "explanation": "'Platform licensing income' is the same money as 'Streaming royalties': per-stream fees from music apps and ad share from video platforms are exactly what a1 and a2 already cover, so revenue would be counted twice.",
+          "fix": "Remove 'Platform licensing income'; streaming income stays under 'Streaming royalties'."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Annual revenue of an Indian music label",
+        "children": [
+          {
+            "id": "a",
+            "label": "Streaming royalties",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Audio streaming apps (paid and ad-supported)",
+                "children": []
+              },
+              {
+                "id": "a2",
+                "label": "Video and short-video platforms",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Synchronisation licensing",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Films and OTT series",
+                "children": []
+              },
+              {
+                "id": "b2",
+                "label": "Advertising and TV shows",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Public performance and broadcast",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Radio and TV broadcast",
+                "children": []
+              },
+              {
+                "id": "c2",
+                "label": "Events, venues and public spaces",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "e",
+            "label": "Other (caller tunes, artist management, merchandise)",
+            "children": []
+          }
+        ]
+      },
+      "industry": "media"
+    },
+    {
+      "id": "media-f02",
+      "title": "Multiplex operating costs",
+      "framework": "profitability",
+      "difficulty": "Beginner",
+      "tree": {
+        "id": "r",
+        "label": "Operating costs (before depreciation) of a multiplex chain",
+        "children": [
+          {
+            "id": "a",
+            "label": "Variable costs",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Food and beverage cost of goods",
+                "children": []
+              },
+              {
+                "id": "a2",
+                "label": "Ticketing and payment gateway fees",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Fixed costs",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Rent and common area maintenance",
+                "children": []
+              },
+              {
+                "id": "b2",
+                "label": "Staff",
+                "children": []
+              },
+              {
+                "id": "b3",
+                "label": "Power and utilities",
+                "children": []
+              },
+              {
+                "id": "b4",
+                "label": "Housekeeping, security and repairs",
+                "children": []
+              },
+              {
+                "id": "b5",
+                "label": "Marketing and corporate overheads",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "a",
+          "type": "gap",
+          "explanation": "Variable costs leave out film hire, the share of net ticket revenue paid to distributors (roughly 40-50%). It is the single largest cost of a multiplex and moves directly with ticket sales.",
+          "fix": "Add 'Film hire paid to distributors (share of net ticket revenue)' under Variable costs."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Operating costs (before depreciation) of a multiplex chain",
+        "children": [
+          {
+            "id": "a",
+            "label": "Variable costs",
+            "children": [
+              {
+                "id": "a0",
+                "label": "Film hire paid to distributors (share of net ticket revenue)",
+                "children": []
+              },
+              {
+                "id": "a1",
+                "label": "Food and beverage cost of goods",
+                "children": []
+              },
+              {
+                "id": "a2",
+                "label": "Ticketing and payment gateway fees",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Fixed costs",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Rent and common area maintenance",
+                "children": []
+              },
+              {
+                "id": "b2",
+                "label": "Staff",
+                "children": []
+              },
+              {
+                "id": "b3",
+                "label": "Power and utilities",
+                "children": []
+              },
+              {
+                "id": "b4",
+                "label": "Housekeeping, security and repairs",
+                "children": []
+              },
+              {
+                "id": "b5",
+                "label": "Marketing and corporate overheads",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      "industry": "media"
+    },
+    {
+      "id": "media-f03",
+      "title": "OTT subscriber decline",
+      "framework": "growth",
+      "difficulty": "Intermediate",
+      "tree": {
+        "id": "r",
+        "label": "Why have a Hindi OTT platform's paying subscribers fallen 10% in a year?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Fewer gross additions",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Fewer prospects reaching the paywall",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Marketing reach",
+                    "children": []
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Telco and device bundle partnerships",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Lower conversion at the paywall",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Price and offers vs rivals",
+                    "children": []
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Appeal of new releases",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "More subscribers leaving",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Voluntary cancellations",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Content gaps between big releases",
+                    "children": []
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Price rise at renewal",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Involuntary churn (failed renewals)",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Expired or declined cards",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "UPI AutoPay mandate failures at renewal",
+            "children": []
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "c",
+          "type": "mixed-levels",
+          "explanation": "UPI AutoPay mandate failures are one specific cause of involuntary churn, two levels down, yet the node sits at the top level next to the two broad drivers (gross additions and leavers). It belongs under 'Involuntary churn' beside expired cards.",
+          "fix": "Move it under b2 as 'UPI AutoPay mandate failures', a sibling of 'Expired or declined cards'."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Why have a Hindi OTT platform's paying subscribers fallen 10% in a year?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Fewer gross additions",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Fewer prospects reaching the paywall",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Marketing reach",
+                    "children": []
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Telco and device bundle partnerships",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Lower conversion at the paywall",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Price and offers vs rivals",
+                    "children": []
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Appeal of new releases",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "More subscribers leaving",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Voluntary cancellations",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Content gaps between big releases",
+                    "children": []
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Price rise at renewal",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Involuntary churn (failed renewals)",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Expired or declined cards",
+                    "children": []
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "UPI AutoPay mandate failures",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "industry": "media",
+      "decoys": [
+        {
+          "nodeId": "b1y",
+          "whyFine": "It looks like a repeat of 'Price and offers vs rivals', but that node is about winning new payers at the paywall while this one is about losing existing payers at renewal."
+        }
+      ]
+    },
+    {
+      "id": "media-f04",
+      "title": "Box office of a new film",
+      "framework": "market-sizing",
+      "difficulty": "Intermediate",
+      "tree": {
+        "id": "r",
+        "label": "Domestic gross box office of a new Hindi film",
+        "children": [
+          {
+            "id": "a",
+            "label": "Admissions",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Shows played (screens x shows per day x days in run)"
+              },
+              {
+                "id": "a2",
+                "label": "Seats per show"
+              },
+              {
+                "id": "a3",
+                "label": "Average occupancy"
+              },
+              {
+                "id": "a4",
+                "label": "Advance bookings before release day"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Average ticket price",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Screen mix (multiplex vs single screen)"
+              },
+              {
+                "id": "b2",
+                "label": "Price within each screen type (city, weekend, premium formats)"
+              },
+              {
+                "id": "b3",
+                "label": "Distributor's share of net collections"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "b3",
+          "type": "not-a-driver",
+          "explanation": "Gross box office is what audiences pay at the counter. How the net amount is then split between exhibitor and distributor changes who earns what, not the size of the gross.",
+          "fix": "Remove 'Distributor's share of net collections'; it belongs in a tree for the studio's theatrical revenue, not gross box office."
+        },
+        {
+          "nodeId": "a4",
+          "type": "overlap",
+          "explanation": "Advance bookings are admissions that happen to be bought early; they are already inside shows x seats x occupancy, so adding them counts the same tickets twice.",
+          "fix": "Remove 'Advance bookings'; use it, if at all, as an input to estimate opening-week occupancy."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Domestic gross box office of a new Hindi film",
+        "children": [
+          {
+            "id": "a",
+            "label": "Admissions",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Shows played (screens x shows per day x days in run)"
+              },
+              {
+                "id": "a2",
+                "label": "Seats per show"
+              },
+              {
+                "id": "a3",
+                "label": "Average occupancy"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Average ticket price",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Screen mix (multiplex vs single screen)"
+              },
+              {
+                "id": "b2",
+                "label": "Price within each screen type (city, weekend, premium formats)"
+              }
+            ]
+          }
+        ]
+      },
+      "industry": "media",
+      "decoys": [
+        {
+          "nodeId": "b1",
+          "whyFine": "Screen mix looks like it belongs under admissions, but the average ticket price is a weighted average across screen types, so the mix is a real driver of price."
+        }
+      ]
+    },
+    {
+      "id": "media-f05",
+      "title": "Broadcaster cost base",
+      "framework": "operations",
+      "difficulty": "Intermediate",
+      "tree": {
+        "id": "r",
+        "label": "Annual costs of a Hindi general entertainment broadcaster",
+        "children": [
+          {
+            "id": "a",
+            "label": "Content costs",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Commissioned shows (cost per episode x episodes)",
+                "children": []
+              },
+              {
+                "id": "a2",
+                "label": "Acquired films and syndicated shows",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Distribution costs",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Carriage and placement fees to DTH and cable",
+                "children": []
+              },
+              {
+                "id": "b2",
+                "label": "Satellite transponder and uplinking",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Marketing costs",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Show promotion (on-air, digital, outdoor)",
+                "children": []
+              },
+              {
+                "id": "c2",
+                "label": "Trade marketing to advertisers and agencies",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Employee and overhead costs",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Ad sales and programming teams",
+                "children": []
+              },
+              {
+                "id": "d2",
+                "label": "Corporate overheads (rent, IT, admin)",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "e",
+            "label": "Programming spend",
+            "children": [
+              {
+                "id": "e1",
+                "label": "Episode budgets paid to production houses"
+              },
+              {
+                "id": "e2",
+                "label": "Telecast rights for films"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "e",
+          "type": "overlap",
+          "explanation": "In broadcasting, programming spend is another name for content cost: episode budgets paid to production houses are the commissioned shows in a1, and film telecast rights are the acquired films in a2. The same spend would be counted twice.",
+          "fix": "Remove 'Programming spend'; all show and film spend sits under 'Content costs'."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Annual costs of a Hindi general entertainment broadcaster",
+        "children": [
+          {
+            "id": "a",
+            "label": "Content costs",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Commissioned shows (cost per episode x episodes)",
+                "children": []
+              },
+              {
+                "id": "a2",
+                "label": "Acquired films and syndicated shows",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Distribution costs",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Carriage and placement fees to DTH and cable",
+                "children": []
+              },
+              {
+                "id": "b2",
+                "label": "Satellite transponder and uplinking",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Marketing costs",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Show promotion (on-air, digital, outdoor)",
+                "children": []
+              },
+              {
+                "id": "c2",
+                "label": "Trade marketing to advertisers and agencies",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Employee and overhead costs",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Ad sales and programming teams",
+                "children": []
+              },
+              {
+                "id": "d2",
+                "label": "Corporate overheads (rent, IT, admin)",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      "industry": "media",
+      "decoys": [
+        {
+          "nodeId": "d1",
+          "whyFine": "'Programming teams' sounds like programming spend, but it is the salaries of the scheduling and commissioning staff, not money paid for shows."
+        }
+      ]
+    },
+    {
+      "id": "media-f06",
+      "title": "Studio profit on one film",
+      "framework": "profitability",
+      "difficulty": "Advanced",
+      "tree": {
+        "id": "r",
+        "label": "Profit on a ₹120 crore Hindi film for a studio that produces and distributes it",
+        "children": [
+          {
+            "id": "a",
+            "label": "Theatrical revenue",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Domestic theatrical share",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Net box office (gross less GST)",
+                    "children": []
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Studio's share of net box office",
+                    "children": []
+                  },
+                  {
+                    "id": "a1z",
+                    "label": "Cinema F&B sales during the film's run",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Overseas theatrical share",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Non-theatrical revenue",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Streaming rights",
+                "children": []
+              },
+              {
+                "id": "b2",
+                "label": "Satellite TV rights",
+                "children": []
+              },
+              {
+                "id": "b3",
+                "label": "Music rights",
+                "children": []
+              },
+              {
+                "id": "b4",
+                "label": "OTT premiere licence fee",
+                "children": []
+              },
+              {
+                "id": "b5",
+                "label": "Other (remake, dubbing, in-film brand deals)",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Costs",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Production cost",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Cast and director fees",
+                    "children": []
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Crew, shoot and locations",
+                    "children": []
+                  },
+                  {
+                    "id": "c1z",
+                    "label": "VFX, post-production and music",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Interest on production finance",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "a1z",
+          "type": "not-a-driver",
+          "explanation": "Exhibitors keep all F&B revenue; none of it is shared with the distributor. A hit film may lift a cinema's snack sales, but that money never reaches the studio.",
+          "fix": "Remove 'Cinema F&B sales'; domestic theatrical share is net box office x the studio's share."
+        },
+        {
+          "nodeId": "b4",
+          "type": "overlap",
+          "explanation": "An 'OTT premiere licence fee' is what a streaming platform pays for the film's streaming rights, so it is the same deal as b1 under a different name.",
+          "fix": "Remove 'OTT premiere licence fee' and keep 'Streaming rights'."
+        },
+        {
+          "nodeId": "c",
+          "type": "gap",
+          "explanation": "A studio that distributes its own film pays prints and advertising (P&A): virtual print fees to put the film on screens and the release marketing campaign. This is often 10-20% of the production budget and is missing from costs.",
+          "fix": "Add 'Prints and advertising (P&A)' with children 'Virtual print and delivery fees' and 'Release marketing'."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Profit on a ₹120 crore Hindi film for a studio that produces and distributes it",
+        "children": [
+          {
+            "id": "a",
+            "label": "Theatrical revenue",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Domestic theatrical share",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Net box office (gross less GST)",
+                    "children": []
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Studio's share of net box office",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Overseas theatrical share",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Non-theatrical revenue",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Streaming rights",
+                "children": []
+              },
+              {
+                "id": "b2",
+                "label": "Satellite TV rights",
+                "children": []
+              },
+              {
+                "id": "b3",
+                "label": "Music rights",
+                "children": []
+              },
+              {
+                "id": "b5",
+                "label": "Other (remake, dubbing, in-film brand deals)",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Costs",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Production cost",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Cast and director fees",
+                    "children": []
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Crew, shoot and locations",
+                    "children": []
+                  },
+                  {
+                    "id": "c1z",
+                    "label": "VFX, post-production and music",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "c3",
+                "label": "Prints and advertising (P&A)",
+                "children": [
+                  {
+                    "id": "c3x",
+                    "label": "Virtual print and delivery fees",
+                    "children": []
+                  },
+                  {
+                    "id": "c3y",
+                    "label": "Release marketing",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Interest on production finance",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      "industry": "media",
+      "decoys": [
+        {
+          "nodeId": "c2",
+          "whyFine": "Interest looks like a financing item that does not belong in an operating tree, but film budgets are often loan-funded for 1 to 2 years, so finance cost is a real part of one film's profit."
+        }
+      ]
+    },
+    {
+      "id": "media-f07",
+      "title": "TV network ad revenue fall",
+      "framework": "profitability",
+      "difficulty": "Advanced",
+      "tree": {
+        "id": "r",
+        "label": "Why has a Hindi entertainment network's total advertising revenue fallen 12%?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Ad seconds sold",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Inventory available",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Channels x hours broadcast",
+                    "children": []
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Ad minutes aired per hour",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Sell-through rate",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Spot volume booked by key categories (FMCG, auto)",
+                    "children": []
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Network's share of category spot volume",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Effective rate per 10 seconds",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Rate card",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Ratings delivered (TV viewing x network share)",
+                    "children": []
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Price per rating point vs rivals",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Discounts off rate card",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Agency and volume discounts",
+                    "children": []
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Bonus (free) spots",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Complimentary airtime added to package deals",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "b3",
+          "type": "overlap",
+          "explanation": "'Complimentary airtime added to package deals' is the bonus (free) spots already listed under discounts (b2y). The different wording hides that the same rate dilution is counted twice.",
+          "fix": "Remove b3; bonus spots stay under 'Discounts off rate card'."
+        },
+        {
+          "nodeId": "r",
+          "type": "gap",
+          "explanation": "Seconds sold x effective rate per 10 seconds covers only spot (FCT) advertising. The root asks about total advertising revenue, and Indian entertainment networks also earn a material share from show and event sponsorships and in-show brand integrations. These are priced as packages per show or event, not per 10 seconds, so no branch of the tree can capture them.",
+          "fix": "Restructure the root into 'Spot (FCT) revenue' (seconds sold x effective rate) and 'Non-spot revenue' with children 'Show and event sponsorships' and 'In-show brand integrations'."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Why has a Hindi entertainment network's total advertising revenue fallen 12%?",
+        "children": [
+          {
+            "id": "s",
+            "label": "Spot (FCT) revenue: seconds sold x rate per 10 seconds",
+            "children": [
+              {
+                "id": "a",
+                "label": "Ad seconds sold",
+                "children": [
+                  {
+                    "id": "a1",
+                    "label": "Inventory available",
+                    "children": [
+                      {
+                        "id": "a1x",
+                        "label": "Channels x hours broadcast",
+                        "children": []
+                      },
+                      {
+                        "id": "a1y",
+                        "label": "Ad minutes aired per hour",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "a2",
+                    "label": "Sell-through rate",
+                    "children": [
+                      {
+                        "id": "a2x",
+                        "label": "Spot volume booked by key categories (FMCG, auto)",
+                        "children": []
+                      },
+                      {
+                        "id": "a2y",
+                        "label": "Network's share of category spot volume",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "b",
+                "label": "Effective rate per 10 seconds",
+                "children": [
+                  {
+                    "id": "b1",
+                    "label": "Rate card",
+                    "children": [
+                      {
+                        "id": "b1x",
+                        "label": "Ratings delivered (TV viewing x network share)",
+                        "children": []
+                      },
+                      {
+                        "id": "b1y",
+                        "label": "Price per rating point vs rivals",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "b2",
+                    "label": "Discounts off rate card",
+                    "children": [
+                      {
+                        "id": "b2x",
+                        "label": "Agency and volume discounts",
+                        "children": []
+                      },
+                      {
+                        "id": "b2y",
+                        "label": "Bonus (free) spots",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Non-spot revenue",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Show and event sponsorships",
+                "children": []
+              },
+              {
+                "id": "c2",
+                "label": "In-show brand integrations",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      "industry": "media",
+      "decoys": [
+        {
+          "nodeId": "b1x",
+          "whyFine": "Ratings look like a volume driver misplaced under price, but Indian TV airtime is priced on ratings delivered, so ratings set the rate per 10 seconds while seconds sold measure volume."
+        },
+        {
+          "nodeId": "a1y",
+          "whyFine": "It may look like a fixed regulatory number, but the 12-minute hourly cap was removed in August 2026, so ad minutes per hour is now a real lever the network sets."
+        }
+      ]
+    }
+  ],
+  "quick": [
+    {
+      "id": "media-q01",
+      "industry": "media",
+      "difficulty": "Beginner",
+      "question": "Which split of 'Revenue of a multiplex chain' is MECE?",
+      "parent": "Revenue of a multiplex chain",
+      "options": [
+        {
+          "split": [
+            "Ticket sales",
+            "Food and beverage",
+            "Advertising",
+            "Online booking revenue"
+          ],
+          "correct": false,
+          "why": "Overlap: online booking revenue is mostly tickets (and some F&B) bought online, which the first two branches already count."
+        },
+        {
+          "split": [
+            "Ticket sales net of film hire",
+            "Food and beverage",
+            "Advertising",
+            "Other (convenience fees, events)"
+          ],
+          "correct": false,
+          "why": "Mixed basis: ticket sales net of film hire is a margin, while the other branches are gross revenue, so the split neither adds to revenue nor compares like with like."
+        },
+        {
+          "split": [
+            "Ticket sales",
+            "Food and beverage",
+            "Advertising",
+            "Other (convenience fees, events, rentals)"
+          ],
+          "correct": true,
+          "why": "Each stream is distinct and together they cover all of a multiplex's revenue, with 'Other' catching the small items."
+        },
+        {
+          "split": [
+            "Ticket sales",
+            "Food and beverage",
+            "Convenience fees",
+            "Other (events, screen rentals)"
+          ],
+          "correct": false,
+          "why": "Gap: on-screen and lobby advertising, a meaningful and high-margin stream for Indian multiplexes, has no home."
+        }
+      ]
+    },
+    {
+      "id": "media-q02",
+      "industry": "media",
+      "difficulty": "Beginner",
+      "question": "Which split of 'Paying subscribers of an OTT platform at year end' is MECE?",
+      "parent": "Paying subscribers of an OTT platform at year end",
+      "options": [
+        {
+          "split": [
+            "Opening paying subscribers",
+            "Gross additions",
+            "Cancellations and failed renewals"
+          ],
+          "correct": true,
+          "why": "Closing base = opening + gross additions - all losses (voluntary and involuntary), a complete flow with no double counting."
+        },
+        {
+          "split": [
+            "Opening paying subscribers",
+            "Gross additions",
+            "Voluntary cancellations"
+          ],
+          "correct": false,
+          "why": "Gap: involuntary churn, renewals that fail on expired cards or lapsed UPI mandates, is missing, and it is a large share of losses in India."
+        },
+        {
+          "split": [
+            "Opening paying subscribers",
+            "Gross additions",
+            "Net churn (losses less win-backs)"
+          ],
+          "correct": false,
+          "why": "Overlap: win-backs are already inside gross additions, so netting them off churn as well counts them twice."
+        },
+        {
+          "split": [
+            "Average paying subscribers in the year",
+            "Gross additions",
+            "Cancellations and failed renewals"
+          ],
+          "correct": false,
+          "why": "Mixed basis: an average stock cannot be combined with the year's flows; the bridge to the closing base must start from the opening stock."
+        }
+      ]
+    },
+    {
+      "id": "media-q03",
+      "industry": "media",
+      "difficulty": "Beginner",
+      "question": "Which split of 'Cost of producing a feature film' is MECE?",
+      "parent": "Cost of producing a feature film",
+      "options": [
+        {
+          "split": [
+            "Above-the-line (story rights, director, cast)",
+            "Production (crew, sets, locations, equipment)",
+            "Post-production (edit, VFX, sound, music)",
+            "Song shoots (choreography, sets, dancers)"
+          ],
+          "correct": false,
+          "why": "Overlap: song shoots happen on production days with the same crew, sets and cast, so their cost is already inside production and above-the-line."
+        },
+        {
+          "split": [
+            "Above-the-line (story rights, director, cast)",
+            "Production (crew, sets, locations, equipment)",
+            "Post-production (edit, VFX, sound, music)",
+            "Other (insurance, finance, contingency, P&A)"
+          ],
+          "correct": false,
+          "why": "Not a driver: prints and advertising is a release cost borne by the distributor, not part of the cost of producing the film."
+        },
+        {
+          "split": [
+            "Above-the-line (story rights, director, cast)",
+            "Production (crew, sets, locations, equipment)",
+            "Post-production (edit, VFX, sound, music)"
+          ],
+          "correct": false,
+          "why": "Gap: insurance, interest on production loans and contingency have no home, and finance cost alone is material on a loan-funded Hindi film."
+        },
+        {
+          "split": [
+            "Above-the-line (story rights, director, cast)",
+            "Production (crew, sets, locations, equipment)",
+            "Post-production (edit, VFX, sound, music)",
+            "Other (insurance, finance, contingency)"
+          ],
+          "correct": true,
+          "why": "This follows a standard film budget: each cost sits in exactly one bucket, and together they cover the whole production budget."
+        }
+      ]
+    },
+    {
+      "id": "media-q04",
+      "industry": "media",
+      "difficulty": "Intermediate",
+      "question": "Which split of 'Spot (FCT) advertising revenue of a TV channel' is MECE?",
+      "parent": "Spot (FCT) advertising revenue of a TV channel",
+      "options": [
+        {
+          "split": [
+            "Ad seconds available",
+            "Effective rate per 10 seconds"
+          ],
+          "correct": false,
+          "why": "Gap: seconds available are not seconds sold; the split leaves out sell-through, so unsold inventory would be counted as revenue."
+        },
+        {
+          "split": [
+            "Ad seconds sold",
+            "Effective rate per 10 seconds"
+          ],
+          "correct": true,
+          "why": "Spot revenue = (seconds sold / 10) x effective rate per 10 seconds, a complete product with no overlap."
+        },
+        {
+          "split": [
+            "Ad seconds sold",
+            "Rate-card price per 10 seconds"
+          ],
+          "correct": false,
+          "why": "Gap: rate card is not what is realised; agency and volume discounts and bonus spots sit between the two, so the product overstates revenue."
+        },
+        {
+          "split": [
+            "Ad seconds sold",
+            "Effective rate per 10 seconds",
+            "Sponsorship fees"
+          ],
+          "correct": false,
+          "why": "Not a driver: the parent is spot (FCT) revenue; sponsorships are priced as packages per show and sit outside it."
+        }
+      ]
+    },
+    {
+      "id": "media-q05",
+      "industry": "media",
+      "difficulty": "Intermediate",
+      "question": "Which split of 'Content cost of a video streaming platform this year' is MECE?",
+      "parent": "Content cost of a video streaming platform this year",
+      "options": [
+        {
+          "split": [
+            "Hindi content",
+            "Regional-language content",
+            "Originals"
+          ],
+          "correct": false,
+          "why": "Mixed basis: language and ownership are different cuts, so every original is also counted as Hindi or regional content."
+        },
+        {
+          "split": [
+            "Originals (cash spent on production this year)",
+            "Licensed films and series",
+            "Live sports and event rights"
+          ],
+          "correct": false,
+          "why": "Mixed basis: content cost in the P&L is amortised, so this year's production cash for originals cannot be added to expensed licence and rights costs."
+        },
+        {
+          "split": [
+            "Originals (amortised production cost)",
+            "Licensed films and series",
+            "Live sports and event rights"
+          ],
+          "correct": true,
+          "why": "Every title the platform pays for is owned, licensed or a live right, all on the same amortised cost basis, and no title falls into two buckets."
+        },
+        {
+          "split": [
+            "Originals (amortised production cost)",
+            "Licensed films and series",
+            "Live sports and event rights",
+            "Direct-to-digital film premieres"
+          ],
+          "correct": false,
+          "why": "Overlap: a direct-to-digital premiere is a film the platform licenses or owns, so it is already inside licensed films or originals."
+        }
+      ]
+    },
+    {
+      "id": "media-q06",
+      "industry": "media",
+      "difficulty": "Intermediate",
+      "question": "Which split of 'Hours streamed on a music app per month' is MECE?",
+      "parent": "Hours streamed on a music app per month",
+      "options": [
+        {
+          "split": [
+            "Monthly active users",
+            "Hours streamed per active user"
+          ],
+          "correct": true,
+          "why": "Hours = active users x hours per active user, a complete two-factor product on the same user base."
+        },
+        {
+          "split": [
+            "Monthly active users",
+            "Sessions per user",
+            "Songs per session"
+          ],
+          "correct": false,
+          "why": "Gap: the product gives songs, not hours; average song length is missing."
+        },
+        {
+          "split": [
+            "Registered users",
+            "Hours streamed per active user"
+          ],
+          "correct": false,
+          "why": "Mixed basis: registered users include dormant accounts, so multiplying them by hours per active user overstates the total."
+        },
+        {
+          "split": [
+            "Free users' hours",
+            "Paid users' hours",
+            "Offline listening hours"
+          ],
+          "correct": false,
+          "why": "Overlap: offline downloads are a paid feature, so offline hours are already inside paid users' hours."
+        }
+      ]
+    },
+    {
+      "id": "media-q07",
+      "industry": "media",
+      "difficulty": "Advanced",
+      "question": "Which split of 'Revenue a studio earns from one film it produces and distributes' is MECE?",
+      "parent": "Revenue a studio earns from one film it produces and distributes",
+      "options": [
+        {
+          "split": [
+            "Domestic gross box office",
+            "Overseas theatrical share",
+            "Rights licensing (streaming, satellite, music)",
+            "Other (brand integrations, remakes)"
+          ],
+          "correct": false,
+          "why": "Mixed basis: gross box office includes GST and the exhibitor's share, so it is not revenue to the studio, while the other branches are."
+        },
+        {
+          "split": [
+            "Theatrical share (domestic and overseas)",
+            "Digital rights (video and music streaming)",
+            "Satellite TV rights",
+            "Music rights"
+          ],
+          "correct": false,
+          "why": "Overlap: music streaming income sits in both digital rights and music rights."
+        },
+        {
+          "split": [
+            "Theatrical share (domestic and overseas)",
+            "Pre-sold rights (streaming, satellite, music)",
+            "Other (brand integrations, remakes)"
+          ],
+          "correct": false,
+          "why": "Gap: rights sold after release, common when a studio holds them back or fails to pre-sell, have no home."
+        },
+        {
+          "split": [
+            "Domestic theatrical share",
+            "Overseas theatrical share",
+            "Rights licensing (streaming, satellite, music)",
+            "Other (brand integrations, remakes)"
+          ],
+          "correct": true,
+          "why": "Covers every source of a studio's film income once, all on the studio's own receipts basis."
+        }
+      ]
+    },
+    {
+      "id": "media-q08",
+      "industry": "media",
+      "difficulty": "Advanced",
+      "question": "Which split of 'Change in a newspaper's newsprint cost this year' is MECE?",
+      "parent": "Change in a newspaper's newsprint cost this year",
+      "options": [
+        {
+          "split": [
+            "Copies sold",
+            "Pages per copy",
+            "Paper weight per page",
+            "Landed price per tonne"
+          ],
+          "correct": false,
+          "why": "Gap: copies printed exceed copies sold because of unsold returns and print wastage, so the split understates consumption."
+        },
+        {
+          "split": [
+            "Tonnes of newsprint consumed",
+            "Landed price per tonne"
+          ],
+          "correct": true,
+          "why": "Newsprint cost = tonnes consumed x landed price per tonne; every cause (print run, pages, paper weight, import price, rupee) sits under one of the two."
+        },
+        {
+          "split": [
+            "Tonnes of newsprint consumed",
+            "Landed price per tonne",
+            "Rupee-dollar exchange rate"
+          ],
+          "correct": false,
+          "why": "Overlap: imported newsprint is priced in dollars, so the exchange rate is already inside the landed price per tonne."
+        },
+        {
+          "split": [
+            "Tonnes of newsprint consumed",
+            "Landed price per tonne",
+            "Pages per copy"
+          ],
+          "correct": false,
+          "why": "Mixed levels: pages per copy is a sub-driver of tonnes consumed and sits a level below its siblings."
+        }
+      ]
+    }
+  ],
+  "chainDrills": [
+    {
+      "id": "media-v01",
+      "industry": "media",
+      "difficulty": "Beginner",
+      "type": "locate",
+      "prompt": "A Hindi GEC's prime-time ad yield fell after it ran repeats on four evenings in a month, because the episodes of a commissioned show were not ready. Which stage caused the problem?",
+      "options": [
+        "s1",
+        "s2",
+        "s3",
+        "s4"
+      ],
+      "answer": [
+        "s2"
+      ],
+      "why": "The loss shows up at the aggregator (s3), which sells the airtime, but the cause is production (s2): the production house could not deliver episodes on schedule. Development (s1) had already greenlit the show, and distribution (s4) carried whatever aired."
+    },
+    {
+      "id": "media-v02",
+      "industry": "media",
+      "difficulty": "Beginner",
+      "type": "order",
+      "prompt": "Put the stages of the film and video value chain in order, from first idea to the viewer.",
+      "options": [
+        "s3",
+        "s5",
+        "s1",
+        "s4",
+        "s2"
+      ],
+      "answer": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5"
+      ],
+      "why": "A project is developed and financed, then produced, then aggregated into schedules and catalogues by broadcasters and platforms, then carried to screens and homes by distributors, DTH and CDNs, and finally watched in a cinema or on a device. For a cinema release the aggregation step is thin and the distributor takes the film straight to exhibitors."
+    },
+    {
+      "id": "media-v03",
+      "industry": "media",
+      "difficulty": "Intermediate",
+      "type": "locate",
+      "prompt": "A Hindi general entertainment channel's ad revenue fell 8% although its share of viewing held steady. Pay-TV homes in its core markets are moving to free DTH, where the channel is not carried. Which stage is the cause?",
+      "options": [
+        "s2",
+        "s3",
+        "s4",
+        "s5"
+      ],
+      "answer": [
+        "s4"
+      ],
+      "why": "The symptom sits in aggregation (s3), where ad revenue is booked, but share of viewing held, so programming is not the problem. The channel is losing reach because homes are switching distribution platforms (s4), from pay DTH and cable to free DTH that does not carry it."
+    },
+    {
+      "id": "media-v04",
+      "industry": "media",
+      "difficulty": "Intermediate",
+      "type": "assign",
+      "prompt": "Assign each activity or cost to the stage where it sits.",
+      "items": [
+        {
+          "item": "Screenwriter's fee for developing a script",
+          "stage": "s1"
+        },
+        {
+          "item": "Dubbing a finished series into Tamil",
+          "stage": "s2"
+        },
+        {
+          "item": "A broadcaster's ad sales team selling prime-time spots",
+          "stage": "s3"
+        },
+        {
+          "item": "Virtual print fee to deliver a film's digital copy to cinemas",
+          "stage": "s4"
+        },
+        {
+          "item": "Set-top box subsidy given by a DTH operator",
+          "stage": "s4"
+        },
+        {
+          "item": "Convenience fee on an online cinema ticket",
+          "stage": "s5"
+        }
+      ],
+      "why": "Dubbing is post-production work on the content, even when an OTT platform orders it. Ad sales sit with the aggregator that owns the audience and the inventory. The virtual print fee pays for delivery to screens, so it is distribution, even though the equipment sits inside the cinema. The convenience fee is earned when the ticket is sold to the viewer."
+    },
+    {
+      "id": "media-v05",
+      "industry": "media",
+      "difficulty": "Advanced",
+      "type": "locate",
+      "prompt": "A Hindi film studio's films now recover only 35% of budget from rights sold before release, against 60-70% three years ago. Which stage is the cause?",
+      "options": [
+        "s1",
+        "s2",
+        "s3",
+        "s5"
+      ],
+      "answer": [
+        "s3"
+      ],
+      "why": "The symptom shows up in development and financing (s1), where pre-sales are negotiated, but the cause is aggregators (s3): OTT platforms and broadcasters have cut what they pay for film rights. Fixing the studio's own financing process would not restore the recovery rate."
+    },
+    {
+      "id": "media-v06",
+      "industry": "media",
+      "difficulty": "Advanced",
+      "type": "locate",
+      "prompt": "During a live cricket tournament, an OTT platform sees buffering complaints spike on every type of device and viewers drop off mid-match, even though sign-ups are at a record. Which stage is the problem in?",
+      "options": [
+        "s2",
+        "s3",
+        "s4",
+        "s5"
+      ],
+      "answer": [
+        "s4"
+      ],
+      "why": "Record sign-ups mean the content and packaging (s3) are working, and complaints across all devices rule out device or app front-ends (s5). Buffering at peak load is a delivery problem: CDN and network capacity in distribution."
+    }
+  ]
+}

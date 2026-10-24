@@ -1,0 +1,3974 @@
+{
+  "industry": "auto",
+  "valueChain": {
+    "summary": "Vehicle makers and their suppliers turn steel, electronics and battery cells into cars, two-wheelers and trucks that are sold through dealers on thin margins. Much of the profit over a vehicle's life is earned after the sale, through loans, insurance, spare parts and service, and scale, capacity utilisation and product mix (SUVs versus entry cars, electric versus petrol) decide who earns what.",
+    "stages": [
+      {
+        "id": "s1",
+        "name": "Raw materials and battery cells",
+        "activities": [
+          "Making flat steel, aluminium, copper, rubber and plastics",
+          "Refining lithium, nickel and graphite into cathode and anode materials",
+          "Making battery cells"
+        ],
+        "players": [
+          "Integrated steelmakers",
+          "Aluminium and copper producers",
+          "Battery cell makers (mostly imported into India today)",
+          "Chemical and rubber companies"
+        ],
+        "revenueDrivers": [
+          "Tonnes sold x commodity price",
+          "Cell GWh sold x price per kWh"
+        ],
+        "costDrivers": [
+          "Iron ore, coking coal and power",
+          "Lithium, nickel and cobalt prices",
+          "Plant scale and yield (for cells)"
+        ],
+        "kpis": [
+          {
+            "name": "Capacity utilisation",
+            "formula": "output / installed capacity",
+            "benchmark": "80%+ for steel plants to earn healthy margins (approx.)"
+          },
+          {
+            "name": "Cell cost per kWh",
+            "formula": "total cell production cost / kWh produced",
+            "benchmark": "LFP cells for EVs in China averaged about CNY 0.34 per Wh (roughly US$45-50 per kWh) in late 2025; average LFP pack prices were about US$81 per kWh (approx.)"
+          }
+        ],
+        "marginNote": "Cyclical: steel EBITDA swings between about 10% and 25% through the cycle; cell making is scale-driven and loss-making until yields are high"
+      },
+      {
+        "id": "s2",
+        "name": "Component suppliers",
+        "activities": [
+          "Forging, casting and machining parts",
+          "Making electronics, wiring harnesses and seats",
+          "Assembling systems such as axles, brakes and battery packs",
+          "Co-developing parts with OEM engineering teams"
+        ],
+        "players": [
+          "Global tier-1 suppliers",
+          "Indian component groups",
+          "Tier-2 and tier-3 machine shops"
+        ],
+        "revenueDrivers": [
+          "Content per vehicle x OEM production volume",
+          "Aftermarket and export sales"
+        ],
+        "costDrivers": [
+          "Materials (about 55-65% of sales)",
+          "Labour and power",
+          "Annual price-downs demanded by OEMs (about 1-3% a year)"
+        ],
+        "kpis": [
+          {
+            "name": "Content per vehicle",
+            "formula": "supplier revenue from a model / units of that model produced",
+            "benchmark": "Varies widely: a few hundred rupees for fasteners to over ₹50,000 for a battery pack or e-axle"
+          },
+          {
+            "name": "Defect rate",
+            "formula": "defective parts / parts supplied x 1,000,000 (PPM)",
+            "benchmark": "Below 50 PPM for leading Indian tier-1s (approx.)"
+          }
+        ],
+        "marginNote": "Moderate: 10-15% EBITDA for leading Indian tier-1s, lower for commodity tier-2s"
+      },
+      {
+        "id": "s3",
+        "name": "Vehicle makers (OEMs)",
+        "activities": [
+          "R&D, platforms and styling",
+          "Pressing, welding, painting and final assembly",
+          "Procurement and supplier management",
+          "Brand marketing and dispatch (wholesale) to dealers"
+        ],
+        "players": [
+          "Car makers",
+          "Two- and three-wheeler makers",
+          "Truck and bus makers",
+          "EV start-ups"
+        ],
+        "revenueDrivers": [
+          "Wholesale volume x net realisation per vehicle",
+          "Model and variant mix",
+          "Exports and genuine spare parts"
+        ],
+        "costDrivers": [
+          "Materials (about 70-75% of net revenue)",
+          "Royalty to a foreign parent, for some subsidiaries",
+          "Labour, marketing, R&D and warranty"
+        ],
+        "kpis": [
+          {
+            "name": "Capacity utilisation",
+            "formula": "units produced / installed capacity",
+            "benchmark": "80%+ needed for healthy margins; below 60% usually loss-making (approx.)"
+          },
+          {
+            "name": "EBITDA per vehicle",
+            "formula": "EBITDA / units sold",
+            "benchmark": "Roughly ₹60,000-95,000 per car for leading Indian mass-market car makers; the market leader was near ₹90,000 in FY2025-26 (approx., reported EBITDA / units)"
+          }
+        ],
+        "marginNote": "8-13% EBITDA for leading Indian car makers; 12-20% for the strongest two-wheeler makers; most EV start-ups loss-making"
+      },
+      {
+        "id": "s4",
+        "name": "Dealers and distribution",
+        "activities": [
+          "Moving vehicles from plant to dealer by truck and rail",
+          "Showroom sales, test drives and registration",
+          "Holding vehicle stock",
+          "Selling accessories"
+        ],
+        "players": [
+          "Dealer groups",
+          "Car-carrier trucking and rail logistics firms",
+          "Online and direct-to-consumer sales (mainly EV start-ups)"
+        ],
+        "revenueDrivers": [
+          "Dealer margin of about 3-5% of ex-showroom price",
+          "OEM volume incentives",
+          "Accessories and registration charges"
+        ],
+        "costDrivers": [
+          "Interest on stock funding",
+          "Showroom rent and sales staff",
+          "Discounts beyond OEM schemes"
+        ],
+        "kpis": [
+          {
+            "name": "Days of stock",
+            "formula": "dealer inventory / average daily retail sales",
+            "benchmark": "About 21-30 days is healthy for Indian car dealers; 50+ days signals over-stocking (approx.)"
+          },
+          {
+            "name": "Enquiry-to-booking conversion",
+            "formula": "bookings / showroom and online enquiries",
+            "benchmark": "About 15-25% for mass-market car showrooms (approx.)"
+          }
+        ],
+        "marginNote": "Thin: about 1-3% profit before tax on revenue; new car sales alone barely break even"
+      },
+      {
+        "id": "s5",
+        "name": "Financing and insurance",
+        "activities": [
+          "Vehicle loans and leases",
+          "Motor insurance",
+          "Extended warranties"
+        ],
+        "players": [
+          "Banks",
+          "NBFCs, including car makers' captive finance arms",
+          "General insurers"
+        ],
+        "revenueDrivers": [
+          "Loan book x net interest margin",
+          "Processing fees",
+          "Insurance premium"
+        ],
+        "costDrivers": [
+          "Cost of funds",
+          "Credit losses",
+          "Insurance claims and commissions paid to dealers"
+        ],
+        "kpis": [
+          {
+            "name": "Finance penetration",
+            "formula": "vehicles bought on loan / vehicles sold",
+            "benchmark": "About 80% of new cars registered in India in 2025 were bought on loans (hypothecation data, approx.)"
+          },
+          {
+            "name": "Gross NPA ratio",
+            "formula": "non-performing loans / total loans",
+            "benchmark": "About 1-3% for car loans; higher for two-wheeler and commercial vehicle loans (approx.)"
+          }
+        ],
+        "marginNote": "Steady: return on assets of about 2-3% for auto lenders; motor insurance often loses money on underwriting"
+      },
+      {
+        "id": "s6",
+        "name": "Aftersales and used vehicles",
+        "activities": [
+          "Periodic service and repairs",
+          "Spare parts and accessories",
+          "Used vehicle trade-ins and resale",
+          "End-of-life scrapping"
+        ],
+        "players": [
+          "Authorised workshops",
+          "Independent garages and parts retailers",
+          "Used car platforms",
+          "Registered vehicle scrapping facilities"
+        ],
+        "revenueDrivers": [
+          "Vehicles in use x service visits x spend per visit",
+          "Parts margin",
+          "Margin per used vehicle"
+        ],
+        "costDrivers": [
+          "Technician wages",
+          "Parts purchase cost",
+          "Workshop space"
+        ],
+        "kpis": [
+          {
+            "name": "Service retention",
+            "formula": "vehicles serviced at authorised workshops / vehicles sold in the relevant years",
+            "benchmark": "High in the warranty period, dropping sharply after 3-5 years (approx.)"
+          },
+          {
+            "name": "Parts revenue per vehicle in use",
+            "formula": "spare parts revenue / vehicles in use",
+            "benchmark": "Varies by brand and age; rises as vehicles age"
+          }
+        ],
+        "marginNote": "Highest in the chain: roughly 25-40% gross margin on parts and labour (approx.)"
+      }
+    ],
+    "profitPools": "At the point of sale, the OEM and its leading tier-1 suppliers earn most of the profit (OEM EBITDA of about 8-13%, tier-1s 10-15%), while dealers make 1-3% on new cars. Over a vehicle's 10-15 year life, loans, insurance and especially spare parts and service create profit pools as large as the original sale, which is why OEMs push genuine parts, captive finance and extended warranties. Electric vehicles move value towards battery cells and away from engine parts and routine service, because EVs need less maintenance.",
+    "unitEconomics": {
+      "unit": "per small petrol car sold in India (approx.)",
+      "lines": [
+        {
+          "item": "Ex-showroom price paid by customer",
+          "value": "₹8,00,000"
+        },
+        {
+          "item": "Less GST at 18% (small-car rate since September 2025)",
+          "value": "-₹1,22,000"
+        },
+        {
+          "item": "Less dealer margin (about 4% of ex-showroom)",
+          "value": "-₹32,000"
+        },
+        {
+          "item": "OEM net realisation",
+          "value": "₹6,46,000"
+        },
+        {
+          "item": "Less materials and bought-out parts",
+          "value": "-₹4,65,000"
+        },
+        {
+          "item": "Less conversion (labour, power, plant overheads)",
+          "value": "-₹40,000"
+        },
+        {
+          "item": "Less freight and warranty",
+          "value": "-₹15,000"
+        },
+        {
+          "item": "Less marketing, R&D and admin",
+          "value": "-₹55,000"
+        }
+      ],
+      "result": "OEM EBITDA per car ≈ ₹71,000 (about 11% of net realisation)"
+    },
+    "india": "India is one of the two largest two-wheeler markets in the world (about 2.2 crore units in FY2025-26) and sells about 46 lakh passenger vehicles a year, with one car maker holding around 40% share and SUVs over half of car sales. The GST overhaul of 22 September 2025 cut tax on small cars (from 28% plus cess) and two-wheelers up to 350cc (from 28%) to 18%, moved larger cars to a flat 40% with no cess and left EVs at 5%, while electrification is led by two- and three-wheelers, backed by PM E-DRIVE (which replaced FAME II and now runs to March 2028) and PLI schemes for auto parts and advanced chemistry cells. OEMs report wholesales (dispatches to dealers), so retail registrations on the government's Vahan portal are the better guide to real demand.",
+    "workedExample": {
+      "problem": "A mass-market car maker's EBITDA margin fell 2 points in a year when its reported sales rose 5%",
+      "trace": [
+        "Start at the OEM (s3): material cost per car is up only slightly, so look at net realisation, which fell because discounts and dealer support rose.",
+        "Move downstream to dealers (s4): dealer stock is at 60 days against a healthy 25-30, because wholesales grew faster than retail registrations last year.",
+        "Dealers paying interest on old stock pushed for bigger discounts and stock support, which the OEM funded to protect its network.",
+        "Root cause: the OEM dispatched more cars than customers were buying; the reported 5% growth was stock building, not demand."
+      ],
+      "lesson": "In autos, always compare wholesales with retail registrations: an OEM margin problem often starts as excess stock at dealers."
+    }
+  },
+  "cases": [
+    {
+      "id": "auto-c01",
+      "title": "Wiring harness maker's margin squeeze",
+      "industry": "auto",
+      "framework": "profitability",
+      "secondary": [],
+      "difficulty": "Beginner",
+      "region": "India",
+      "prompt": "Our client is an Indian supplier of wiring harnesses to car and two-wheeler makers, with revenue of about ₹740 crore. Volumes grew 6% last year, yet EBITDA margin fell from 13% to 10%. Why has the margin fallen, and what should the client do about it?",
+      "clarifyingFacts": [
+        "Q: What does the cost base look like? A: Last year, materials were about 70% of revenue (copper alone about 28%), conversion cost (labour, power, plant overheads) about 10%, and corporate overheads about 7%.",
+        "Q: How are prices set with customers? A: Annual contracts with a 2% price-down every year. Copper is passed through, but the index resets every six months, so only about half of a copper rise is recovered in the year it happens.",
+        "Q: What happened to copper? A: Copper prices rose about 10% during the year.",
+        "Q: Has the customer or product mix changed? A: Not materially; the same five OEMs buy 80% of output."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Why did EBITDA margin fall from 13% to 10% despite 6% volume growth?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Revenue per harness fell",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Annual 2% price-down to OEMs"
+              },
+              {
+                "id": "a2",
+                "label": "Copper increase recovered only partly and late"
+              },
+              {
+                "id": "a3",
+                "label": "Mix shift towards lower-value harnesses"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Variable cost per harness rose",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Copper and other material prices"
+              },
+              {
+                "id": "b2",
+                "label": "Material usage: scrap, rework, design changes"
+              },
+              {
+                "id": "b3",
+                "label": "Direct labour and power per harness"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Fixed costs grew faster than revenue",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Plant overheads: new capacity, indirect staff"
+              },
+              {
+                "id": "c2",
+                "label": "Corporate overheads: engineering, sales, admin"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "The 2% annual price-down, with no matching productivity gain, explains about 2 of the 3 points of margin lost.",
+        "A 10% copper rise with only half recovered in-year through the index costs about 1.4 points of margin.",
+        "Overheads are only about 7% of revenue, so 6% volume growth gave back less than half a point of operating leverage."
+      ],
+      "hints": [
+        "Margin is a ratio: split by what changed per unit, and by what does not scale with volume.",
+        "First-level branches: revenue per harness fell; variable cost per harness rose; fixed costs grew faster than revenue.",
+        "Fixed costs grew faster than revenue -> plant overheads (new capacity, indirect staff); corporate overheads (engineering, sales, admin)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "EBITDA margin",
+          "formula": "(revenue - materials - conversion cost - overheads) / revenue"
+        },
+        {
+          "name": "Copper recovery ratio",
+          "formula": "copper cost increase passed to customers in the year / copper cost increase"
+        }
+      ],
+      "commonMistakes": [
+        "Expecting 6% volume growth to lift margin without checking how small the fixed cost base is; most costs here move with volume.",
+        "Looking only at costs and missing the contractual price-down, which works through revenue per harness."
+      ],
+      "frameworkPick": {
+        "options": [
+          "profitability",
+          "pricing",
+          "operations",
+          "turnaround"
+        ],
+        "correct": [
+          "profitability"
+        ],
+        "why": "The question asks why margin fell, which needs a full split of revenue and costs; the answer turns out to be a mix of price-downs and commodity lag.",
+        "distractorWhyNot": {
+          "pricing": "Pricing is one lever, but the question is a diagnosis of a margin fall that also involves costs.",
+          "operations": "Plant efficiency is one possible cause, but an operations lens would miss the price and copper effects that drive most of the fall.",
+          "turnaround": "Margin is still 10% and cash is not at risk, so this is a diagnosis of a squeeze, not a rescue."
+        }
+      }
+    },
+    {
+      "id": "auto-c02",
+      "title": "Sizing car replacement tyre demand",
+      "industry": "auto",
+      "framework": "market-sizing",
+      "secondary": [],
+      "difficulty": "Beginner",
+      "region": "India",
+      "prompt": "A global tyre maker is planning a new plant in India and wants to know the size of the replacement tyre market for passenger vehicles. Estimate the number of replacement tyres bought each year and their value.",
+      "clarifyingFacts": [
+        "Q: Which vehicles count? A: Private cars, SUVs, taxis and ride-hailing cabs on the road. Tyres fitted to new vehicles at the factory are excluded.",
+        "Q: How many vehicles are on the road? A: Assume about 3.5 crore passenger vehicles in use, of which about 30 lakh are taxis and cabs.",
+        "Q: How far do they drive? A: Private cars about 9,000 km a year; taxis and cabs about 45,000 km.",
+        "Q: Tyre life and price? A: A tyre lasts about 40,000 km and sells for about ₹4,500 at retail on average."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Annual replacement tyres for Indian passenger vehicles: units and value",
+        "children": [
+          {
+            "id": "a",
+            "label": "Replacement tyres bought per year (units)",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Private cars and SUVs (~3.2 crore)",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Km driven per year (~9,000)"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Tyre life (~40,000 km)"
+                  },
+                  {
+                    "id": "a1z",
+                    "label": "Tyres per vehicle (4)"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Taxis and cabs (~30 lakh)",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Km driven per year (~45,000)"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Tyre life (~40,000 km)"
+                  },
+                  {
+                    "id": "a2z",
+                    "label": "Tyres per vehicle (4)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Average retail price per tyre (~₹4,500)",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Mix of rim sizes: hatchback vs SUV"
+              },
+              {
+                "id": "b2",
+                "label": "Mix of brand tiers: premium vs budget"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Taxis are under 10% of vehicles but buy about a third of replacement tyres (about 1.35 of 4.2 crore), because they drive five times as far.",
+        "The market is about 4.2 crore tyres a year, worth roughly ₹19,000 crore at retail."
+      ],
+      "hints": [
+        "Build the market up from the cars already on the road, and cut that base wherever usage differs sharply.",
+        "First-level branches: replacement tyres per year (units); average retail price per tyre.",
+        "Average retail price per tyre -> mix of rim sizes (hatchback vs SUV); mix of brand tiers (premium vs budget)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Replacement tyres per year",
+          "formula": "vehicles in use x km per year / tyre life in km x tyres per vehicle"
+        },
+        {
+          "name": "Market value",
+          "formula": "replacement tyres per year x average retail price per tyre"
+        }
+      ],
+      "commonMistakes": [
+        "Starting from new car sales (about 46 lakh a year) instead of vehicles in use; replacement demand comes from the cars already on the road.",
+        "Treating all vehicles alike and missing taxis, which replace tyres about five times as often as private cars."
+      ],
+      "frameworkPick": {
+        "options": [
+          "market-sizing",
+          "market-entry",
+          "segmentation",
+          "growth"
+        ],
+        "correct": [
+          "market-sizing"
+        ],
+        "why": "The question asks for a number: how many tyres and how many rupees, which is a market-sizing estimate.",
+        "distractorWhyNot": {
+          "market-entry": "The client has already chosen to build a plant; the question is only how big the market is.",
+          "segmentation": "Splitting by vehicle type is a step inside the estimate, not the question being asked.",
+          "growth": "No growth plan is requested; the answer is a size estimate for today."
+        }
+      }
+    },
+    {
+      "id": "auto-c03",
+      "title": "Pricing an electric auto-rickshaw",
+      "industry": "auto",
+      "framework": "pricing",
+      "secondary": [],
+      "difficulty": "Beginner",
+      "region": "India",
+      "prompt": "Our client, an Indian EV maker, is launching an electric passenger auto-rickshaw to compete with CNG autos, which cost about ₹2.8 lakh. Drivers typically run 120 km a day, 26 days a month. How should the client price it?",
+      "clarifyingFacts": [
+        "Q: What are running costs? A: A CNG auto spends about ₹3 per km on fuel; the electric one about ₹0.8 per km on charging. EV maintenance is about ₹1,000 a month lower.",
+        "Q: How do drivers buy? A: Almost all on loans, at about 80% of the price over 36 months. Lenders charge about 16% a year for CNG autos and about 20% for EVs, because resale values are uncertain.",
+        "Q: What does it cost the client? A: About ₹2.6 lakh per vehicle including the battery, and the client wants at least 12% gross margin.",
+        "Q: Subsidies? A: Treat all prices as after any central subsidy; there is no further state incentive."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "What price maximises client profit while CNG drivers still switch?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Cost floor: what the client must recover",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Unit cost of ~₹2.6 lakh including battery"
+              },
+              {
+                "id": "a2",
+                "label": "12% gross margin target (floor ~₹2.95 lakh)"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Value to the driver of switching",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Fuel and maintenance saving (~₹7,900 a month)"
+              },
+              {
+                "id": "b2",
+                "label": "Higher EMI from a higher price and 20% loan rate"
+              },
+              {
+                "id": "b3",
+                "label": "Risks drivers price in: battery life, resale, charging time"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Alternatives the driver compares",
+            "children": [
+              {
+                "id": "c1",
+                "label": "CNG autos at ~₹2.8 lakh"
+              },
+              {
+                "id": "c2",
+                "label": "Rival electric autos and battery-leasing offers"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "At ₹3.3 lakh a driver still saves about ₹5,900 a month after the higher EMI, so the client can price well above its ₹2.95 lakh floor.",
+        "Fear of an expensive battery replacement, not the upfront price, is the main barrier; a long battery warranty would support a higher price than a discount would."
+      ],
+      "hints": [
+        "Bound the price from below and from above, then test it against what the driver could buy instead.",
+        "First-level branches: cost floor; value to the driver of switching; alternatives the driver compares.",
+        "Alternatives the driver compares -> CNG autos at about ₹2.8 lakh; rival electric autos and battery-leasing offers."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Driver's monthly running saving",
+          "formula": "(₹3.0 - ₹0.8) per km x 120 km x 26 days + ₹1,000 maintenance ≈ ₹7,900"
+        },
+        {
+          "name": "Net monthly benefit to driver",
+          "formula": "monthly running saving - (EV EMI - CNG EMI)"
+        }
+      ],
+      "commonMistakes": [
+        "Comparing sticker prices only; drivers buy on EMI, so the higher EV loan rate matters as much as the price.",
+        "Pricing at the full economic value (around ₹5 lakh, where the EMI gap would wipe out the saving), leaving drivers no reason to switch."
+      ],
+      "frameworkPick": {
+        "options": [
+          "pricing",
+          "product-launch",
+          "market-entry",
+          "profitability"
+        ],
+        "correct": [
+          "pricing"
+        ],
+        "why": "The question is what price to charge, which turns on the cost floor, the driver's saving and the CNG alternative.",
+        "distractorWhyNot": {
+          "product-launch": "Launch covers channels and targeting too, but the question narrows to price.",
+          "market-entry": "The client is already launching; whether to enter is not in question.",
+          "profitability": "There is no profit problem to diagnose; the client is setting a price for a new product."
+        }
+      }
+    },
+    {
+      "id": "auto-c04",
+      "title": "Motorcycle plant missing its output plan",
+      "industry": "auto",
+      "framework": "operations",
+      "secondary": [],
+      "difficulty": "Beginner",
+      "region": "India",
+      "prompt": "A two-wheeler maker's newest motorcycle plant was planned to make about 2.2 lakh bikes last year but made only 1.8 lakh, while dealers ran short of stock. Why is output 18% below plan?",
+      "clarifyingFacts": [
+        "Q: How was the plan built? A: One assembly line at 60 bikes an hour, two 8-hour shifts, 230 working days.",
+        "Q: Were days lost? A: The plant ran 225 days; 5 days were lost when one supplier could not deliver fuel tanks.",
+        "Q: What about stoppages? A: On days it ran, the line stopped for about 1.5 hours a day on average.",
+        "Q: Speed and quality? A: When running it averaged 57 bikes an hour, and about 3% of bikes failed end-of-line inspection and were not completed."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Why did the plant make 1.8 lakh bikes against a 2.2 lakh plan?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Fewer working days (225 vs 230)",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Whole days lost to supplier shortages"
+              },
+              {
+                "id": "a2",
+                "label": "Other shutdowns: power, labour issues, maintenance"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Fewer running hours per day",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Equipment breakdowns (paint shop, conveyors)"
+              },
+              {
+                "id": "b2",
+                "label": "Line stopped waiting for parts"
+              },
+              {
+                "id": "b3",
+                "label": "Model and colour changeovers"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Fewer bikes per running hour (57 vs 60)",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Bottleneck station slower than line speed"
+              },
+              {
+                "id": "c2",
+                "label": "Absenteeism and new operators"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Bikes failing final inspection (3%)",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Defects in suppliers' parts"
+              },
+              {
+                "id": "d2",
+                "label": "Assembly errors on the line"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Daily stoppages of 1.5 hours cost about 20,000 bikes, half the 40,000 gap, far more than the 5-day supplier shortage (about 4,800 bikes).",
+        "Most stoppages are the line waiting for parts from the same weak supplier, not machine breakdowns."
+      ],
+      "hints": [
+        "Write output as a chain of multiplied factors, then find which factor fell furthest short of plan.",
+        "First-level branches: fewer working days; fewer running hours per day; fewer bikes per running hour; bikes failing final inspection.",
+        "Bikes failing final inspection -> defects in suppliers' parts; assembly errors on the line."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Plant output",
+          "formula": "working days x running hours per day x bikes per running hour x first-pass yield"
+        },
+        {
+          "name": "OEE",
+          "formula": "availability x performance x quality"
+        }
+      ],
+      "commonMistakes": [
+        "Proposing a third shift before finding where the 40,000 bikes were lost.",
+        "Blaming the supplier shortage, which explains only about 12% of the gap."
+      ],
+      "frameworkPick": {
+        "options": [
+          "operations",
+          "profitability",
+          "growth",
+          "turnaround"
+        ],
+        "correct": [
+          "operations"
+        ],
+        "why": "The question is why a plant produces less than its capacity, which is a throughput and losses problem.",
+        "distractorWhyNot": {
+          "profitability": "Profit is not the question; demand exists and the issue is physical output.",
+          "growth": "The plant needs to reach its existing plan, not grow beyond it; a third shift would hide the losses.",
+          "turnaround": "Nothing suggests a crisis: demand is strong and the plant is new, so the job is to find lost output, not rescue the business."
+        }
+      }
+    },
+    {
+      "id": "auto-c05",
+      "title": "Premium EV maker weighing Indian production",
+      "industry": "auto",
+      "framework": "market-entry",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "India",
+      "prompt": "A European premium car maker sells only about 400 electric SUVs a year in India, priced above ₹1.2 crore, because fully built imports above US$40,000 pay about 110% duty. Rivals that assemble EVs locally from kits sell comparable models at ₹70-90 lakh. Should the client commit to manufacturing EVs in India?",
+      "clarifyingFacts": [
+        "Q: How big is the segment? A: About 50,000 luxury cars a year, of which about 10% are electric and growing fast. EVs pay 5% GST against 40% for petrol and diesel cars of this size.",
+        "Q: What is the client's position? A: About 8% of luxury car sales, almost all petrol and diesel models assembled from kits by a contract partner whose line has spare capacity. Assume kits pay about 16.5% duty and the CIF value of an EV is about ₹50 lakh.",
+        "Q: Is there policy help? A: The 2024 scheme offering 15% duty on up to 8,000 imported EVs a year for ₹4,150 crore of local investment closed in October 2025 with no applicants. The India-EU trade deal cuts duty on petrol and diesel cars within quotas, but its EV cuts start only in year five; the board still hopes it will make EV imports cheap soon.",
+        "Q: What is the objective? A: Payback within eight years and at least 10% of the luxury EV segment. A full plant would cost at least ₹3,000 crore and needs about 20,000 cars a year for efficient scale."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Should the client make EVs in India, and in what form?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Is the luxury EV segment worth serving at scale?",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Size and growth of demand",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "~50,000 luxury cars x ~10% EV share"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Growth drivers: 5% vs 40% GST, charging, models"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Price points that sell",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Kit-assembled rivals at ₹70-90 lakh"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Imported flagships above ₹1.2 crore"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Can the client win 10% of the segment?",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Product fit for Indian buyers",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Range, rear-seat space, ground clearance"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Dealer and service reach in top cities"
+              },
+              {
+                "id": "b3",
+                "label": "Landed cost vs kit-assembling rivals"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Which production route pays back?",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Keep importing fully built cars",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "~110% duty caps volume at a few hundred"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Assemble kits at the contract partner",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "Duty saved per car vs fully built import"
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "Partner line capacity and tooling cost"
+                  }
+                ]
+              },
+              {
+                "id": "c3",
+                "label": "Build a full plant",
+                "children": [
+                  {
+                    "id": "c3x",
+                    "label": "₹3,000 crore+ capex vs cars sold a year"
+                  },
+                  {
+                    "id": "c3y",
+                    "label": "Volume vs ~20,000-car efficient scale"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "What could change the answer?",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Policy: EU deal EV cuts from year five, new schemes"
+              },
+              {
+                "id": "d2",
+                "label": "Demand: EV adoption pace, currency, rival price cuts"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Kit assembly at the partner saves about ₹47 lakh of duty per car (110% vs about 16.5% on a ₹50 lakh CIF value), enough to bring a ₹1.2 crore car down to about ₹71 lakh, inside the rivals' ₹70-90 lakh band.",
+        "Even at a 10% share the client sells only about 500 EVs a year, far below the ~20,000 a full plant needs, so a ₹3,000 crore plant cannot pay back in eight years.",
+        "Waiting for the EU trade deal is a mistake: its EV cuts start only in year five, which would cost the client five years of share in the fastest-growing part of the segment."
+      ],
+      "hints": [
+        "Judge it the way an entry decision is judged, but compare the possible production routes rather than answering a single yes or no.",
+        "First-level branches: is the segment worth serving at scale; can the client win 10% of it; which production route pays back; what could change the answer.",
+        "Can the client win 10% -> product fit for Indian buyers (range, rear-seat space, ground clearance); dealer and service reach; landed cost vs kit-assembling rivals."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Duty saved per car",
+          "formula": "CIF value x (duty on fully built cars - duty on kits) ≈ ₹50 lakh x (110% - 16.5%)"
+        },
+        {
+          "name": "Payback period",
+          "formula": "investment / (contribution per car x cars sold per year)"
+        }
+      ],
+      "commonMistakes": [
+        "Framing it as yes or no to a plant and missing kit assembly, which captures most of the duty saving for little capital.",
+        "Taking the EU trade deal headlines at face value: the large early duty cuts are for petrol and diesel cars, while EV cuts start only in year five."
+      ],
+      "frameworkPick": {
+        "options": [
+          "market-entry",
+          "product-launch",
+          "ma",
+          "market-sizing"
+        ],
+        "correct": [
+          "market-entry"
+        ],
+        "why": "The decision is whether and how to commit capital to serving the market locally, which needs attractiveness, ability to win and the economics of each entry mode.",
+        "distractorWhyNot": {
+          "product-launch": "The client already sells these EVs in India; the question is the production route, not how to launch a product.",
+          "ma": "Using the contract partner is a supply arrangement, not an acquisition; no deal is being valued.",
+          "market-sizing": "Sizing luxury EV demand is one input, not the whole decision."
+        }
+      }
+    },
+    {
+      "id": "auto-c06",
+      "title": "Doubling a car dealer group's profit",
+      "industry": "auto",
+      "framework": "growth",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "India",
+      "prompt": "Our client runs 40 car dealerships in north India for two mass-market brands, with revenue of ₹1,800 crore and profit before tax of ₹27 crore. The promoter wants to double profit in four years, but new car sales in its territories are expected to grow only about 4% a year. How can the group get there?",
+      "clarifyingFacts": [
+        "Q: Where does profit come from? A: New cars are 80% of revenue but about 30% of gross profit, because much of the 3-5% dealer margin is given back as extra discounts in slow months; service and parts are 12% of revenue and about 45% of gross profit; commissions, accessories and used cars make up the rest.",
+        "Q: How many customers come back for service? A: About 55% of cars the group sold in the last five years return for paid service after the free-service period.",
+        "Q: Didn't the GST cut lift sales? A: Small-car retail in the territory rose about 20% in the six months after the September 2025 cut, and the promoter wants to plan on that pace; the brands expect growth to settle at about 4% a year.",
+        "Q: Any constraints? A: The brands limit how many new showrooms can open in a territory, and buying other dealerships needs the brand's approval."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "How can PBT grow from ₹27 crore to ₹54 crore in four years?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Earn more per new car sold",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Cut discounts beyond brand schemes",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Discount limits per sales executive"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Ageing stock that forces discounting"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Sell more add-ons per car",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Loan and insurance penetration"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Accessories and extended warranty per car"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Grow service and parts",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Bring more cars in for paid service",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Lift retention of own customers above 55%"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Win older cars from independent garages"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Earn more per service visit",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Labour and parts per job card"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Body shop and insurance accident repairs"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Sell more cars",
+            "children": [
+              {
+                "id": "c1",
+                "label": "New cars in existing showrooms (market ~4% + share)"
+              },
+              {
+                "id": "c2",
+                "label": "New outlets and acquired dealerships"
+              },
+              {
+                "id": "c3",
+                "label": "Used cars",
+                "children": [
+                  {
+                    "id": "c3x",
+                    "label": "Trade-ins bought at exchange"
+                  },
+                  {
+                    "id": "c3y",
+                    "label": "Margin per used car resold"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Cut costs and working capital",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Interest on stock (days of stock x rate)"
+              },
+              {
+                "id": "d2",
+                "label": "Showroom rent and staff productivity"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Lifting paid-service retention from 55% to 70% adds more profit than opening ten new showrooms, because service earns about 45% of gross profit on 12% of revenue.",
+        "Discounts beyond brand schemes eat about a third of new-car gross margin and are driven by stock older than 60 days."
+      ],
+      "hints": [
+        "Treat the dealer as a set of profit streams and ask which can grow faster than new car volume.",
+        "First-level branches: earn more per new car sold; grow service and parts; sell more cars; cut costs and working capital.",
+        "Sell more cars -> new cars in existing showrooms; new outlets and acquired dealerships; used cars (trade-ins bought at exchange; margin per used car resold)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Paid service visits",
+          "formula": "cars in the group's territory sold in last N years x retention rate x visits per car per year"
+        },
+        {
+          "name": "Gross profit per new car",
+          "formula": "dealer margin - discounts beyond brand schemes + loan, insurance and accessory income"
+        }
+      ],
+      "commonMistakes": [
+        "Planning on the post-GST-cut jump in small-car sales, a one-time step from the price cut, rather than the 4% trend, and building the plan around thin-margin new car volume instead of service and add-ons.",
+        "Ignoring the brands' limits on new outlets and acquisitions, which cap the inorganic route."
+      ],
+      "frameworkPick": {
+        "options": [
+          "growth",
+          "profitability",
+          "market-entry",
+          "ma"
+        ],
+        "correct": [
+          "growth"
+        ],
+        "why": "The client wants to double profit from a healthy base, so the task is to find and size the levers for growth rather than diagnose a decline.",
+        "distractorWhyNot": {
+          "profitability": "Nothing has gone wrong to diagnose; profit is stable and the goal is a step up.",
+          "market-entry": "The group is not considering a new market; it is growing within its brands and territories.",
+          "ma": "Acquiring dealerships is one lever, limited by brand approval, not the whole answer."
+        }
+      }
+    },
+    {
+      "id": "auto-c07",
+      "title": "Launching an electric delivery van",
+      "industry": "auto",
+      "framework": "product-launch",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "Global",
+      "prompt": "A European van maker will launch an electric 3.5-tonne delivery van in Germany at about €52,000, against €38,000 for its diesel version. Delivery fleets drive these vans about 150 km a day. How should the client launch the van to sell 2,500 units in the first year?",
+      "clarifyingFacts": [
+        "Q: Market and buyers? A: About 100,000 vans of this size are sold in Germany a year, about 9% electric. Large parcel and grocery fleets buy about 60%; small businesses and tradespeople the other 40%.",
+        "Q: Running costs? A: The diesel van spends about €0.15 per km on fuel, the electric van about €0.075 per km charged at a depot, and maintenance is about €0.02 per km lower. Vans run about 260 days a year. There is no purchase subsidy.",
+        "Q: How does the e-van compare as a product? A: Range is about 300 km, but the battery cuts payload from about 1,100 kg to 800 kg within the 3.5-tonne limit. Parcel vans usually fill their space before their weight limit; tradespeople's vans often do not.",
+        "Q: What does the client have today? A: Its diesel van has about 20% share, and it has 300 service points in Germany, few of them trained for high-voltage work."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "How should the client launch the e-van to sell 2,500 in year one?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Which customers to target first",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Large parcel and grocery fleets",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Fixed urban routes under 200 km"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Depot space for chargers"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Small businesses and tradespeople",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Access to home or public charging"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Payload needs: tools and materials vs 800 kg"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "What offer wins them",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Total cost vs diesel",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "€14,000 price premium"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Running cost saving ~€3,700 a year"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Product fit: range, payload, charging time"
+              },
+              {
+                "id": "b3",
+                "label": "Financing: leases and residual value guarantees"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "How to reach and serve them",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Sales channels",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Key-account team for large fleets"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Dealers for small businesses"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Service points trained for high-voltage repairs"
+              },
+              {
+                "id": "c3",
+                "label": "Charging partners for depot installation"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Is the launch worth it for the client?",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Margin per e-van",
+                "children": [
+                  {
+                    "id": "d1x",
+                    "label": "Battery cost per van"
+                  },
+                  {
+                    "id": "d1y",
+                    "label": "Price realised after fleet discounts"
+                  }
+                ]
+              },
+              {
+                "id": "d2",
+                "label": "Diesel van sales lost to the e-van"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "A €14,000 premium repaid at about €3,700 a year takes about 3.8 years, so fleets on five-year cycles will buy mainly if a lease spreads the premium; a lease offer matters more than a price cut.",
+        "Parcel and grocery fleets with depot charging can supply most of the 2,500 units, because their vans fill on space, not weight; tradespeople lose 300 kg of payload and lack depot charging, so they will be slow to switch."
+      ],
+      "hints": [
+        "Follow the buyer's decision from first target to service, then close with the client's own economics.",
+        "First-level branches: which customers to target first; what offer wins them; how to reach and serve them; is the launch worth it for the client.",
+        "How to reach and serve them -> sales channels (key-account team for large fleets; dealers for small businesses); service points trained for high-voltage repairs; charging partners for depot installation."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Payback on price premium",
+          "formula": "price premium / ((fuel saving per km + maintenance saving per km) x km per year)"
+        },
+        {
+          "name": "Total cost of ownership per km",
+          "formula": "(purchase price - resale value + financing + energy + maintenance + insurance) / lifetime km"
+        }
+      ],
+      "commonMistakes": [
+        "Selling the van on its environmental benefit to fleets that buy on cost per km.",
+        "Treating all buyers alike, when small businesses without depot charging face a different case from large fleets."
+      ],
+      "frameworkPick": {
+        "options": [
+          "product-launch",
+          "pricing",
+          "market-entry",
+          "segmentation"
+        ],
+        "correct": [
+          "product-launch"
+        ],
+        "why": "The product exists and the decision is made; the question is how to launch it to hit a sales target, which covers targeting, offer, channels and economics.",
+        "distractorWhyNot": {
+          "pricing": "Price is one part of the offer, but the question also needs targeting, channels and service.",
+          "market-entry": "The client already sells vans in Germany, so this is not a new market.",
+          "segmentation": "Choosing target customers is the first step of the launch, not the whole question."
+        }
+      }
+    },
+    {
+      "id": "auto-c08",
+      "title": "Scooter leader losing share to EVs",
+      "industry": "auto",
+      "framework": "competitive-response",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "India",
+      "prompt": "Our client is a large Indian two-wheeler maker whose petrol scooters hold about 25% of the domestic scooter market. In two years electric scooters, mostly from start-ups, have grown to about 15% of scooter sales, and the client's share has fallen 4 points. How should the client respond?",
+      "clarifyingFacts": [
+        "Q: Does the client sell an electric scooter? A: Yes, one model launched 18 months ago, with about 8% of electric scooter sales.",
+        "Q: Where is share being lost? A: Mostly in the top 30 cities and among buyers aged 22-35; small-town and rural sales are steady.",
+        "Q: How do prices compare? A: Rival e-scooters sell at ₹1.0-1.4 lakh after subsidy. The September 2025 GST cut (28% to 18%; EVs stay at 5%) lowered the client's petrol scooters to about ₹75,000-90,000. E-scooters cost about ₹0.25 per km to run against about ₹2 per km.",
+        "Q: What is the goal? A: Win back share within three years without destroying margins."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "How should the client win back scooter share lost to electric rivals?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Understand the threat",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Which buyers are switching and why",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Young urban buyers: running cost, features"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Delivery riders: cost per km"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "How lasting the rivals' position is",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Rivals' losses per scooter and funding"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Rivals' service and reliability complaints"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Respond with petrol scooters",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Defend value in segments not switching"
+              },
+              {
+                "id": "b2",
+                "label": "Add features: connectivity, styling"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Compete in electric scooters",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Range and price points",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Entry model near ₹1 lakh"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Battery rental to cut upfront price"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Use the dealer and service network",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "Train dealers to sell and service EVs"
+                  }
+                ]
+              },
+              {
+                "id": "c3",
+                "label": "Cost position",
+                "children": [
+                  {
+                    "id": "c3x",
+                    "label": "Cell sourcing: local vs imported"
+                  },
+                  {
+                    "id": "c3y",
+                    "label": "PLI and PM E-DRIVE eligibility"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Choose the response that pays",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Margin lost as EVs replace own petrol sales"
+              },
+              {
+                "id": "d2",
+                "label": "Investment needed and payback"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "The 4-point loss sits with metro buyers aged 22-35, for whom a running saving of about ₹1.75 per km repays an EV premium of ₹25,000-40,000 in 16-25 months at 30 km a day, even after the GST cut widened the gap.",
+        "The client's edge is its service network: rivals' reliability complaints mean a strong service promise can win share without matching their prices."
+      ],
+      "hints": [
+        "Diagnose the threat before prescribing, then compare moves across both product lines on what they cost the client.",
+        "First-level branches: understand the threat; respond with petrol scooters; compete in electric scooters; choose the response that pays.",
+        "Choose the response that pays -> margin lost as EVs replace own petrol sales; investment needed and payback."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Scooter market share",
+          "formula": "client scooter sales (petrol + electric) / total scooter sales"
+        },
+        {
+          "name": "Payback on EV premium for a buyer",
+          "formula": "price premium / ((petrol cost per km - charging cost per km) x km per year)"
+        }
+      ],
+      "commonMistakes": [
+        "Cutting petrol scooter prices further, when the GST cut has already lowered them about 8% and share is still falling; price is not why metro buyers switch.",
+        "Assuming the start-ups' share is permanent without checking their losses and funding."
+      ],
+      "frameworkPick": {
+        "options": [
+          "competitive-response",
+          "pricing",
+          "product-launch",
+          "market-entry"
+        ],
+        "correct": [
+          "competitive-response"
+        ],
+        "why": "A rival technology is taking share from an incumbent, and the question is how to respond, which needs the threat understood before choosing moves.",
+        "distractorWhyNot": {
+          "pricing": "Price is one possible move, and here probably a costly one; the response is wider.",
+          "product-launch": "The client already has an EV; launching another is one option among several.",
+          "market-entry": "The client is already in both petrol and electric scooters."
+        }
+      }
+    },
+    {
+      "id": "auto-c09",
+      "title": "Which fleets to target with e-trucks",
+      "industry": "auto",
+      "framework": "segmentation",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "India",
+      "prompt": "An Indian truck maker has launched a 14-tonne electric truck that costs about ₹20 lakh more than its diesel version, saves about ₹10 per km in fuel, and has a range of about 250 km per charge. Which customer segments should it target first?",
+      "clarifyingFacts": [
+        "Q: Who buys trucks of this size? A: Broadly four groups: e-commerce and parcel hub runs, city distribution for FMCG and retail, shuttles at ports and steel or cement plants, and long-haul operators who take loads trip by trip.",
+        "Q: How far do they run, and where can they charge? A: Plant and port shuttles about 250 km a day on fixed loops; hub runs about 200 km; city distribution 80-120 km; long-haul 400 km or more on changing routes; all about 26 days a month. A fast charge takes about 2 hours; plants, ports and hubs can host chargers, city distributors often cannot.",
+        "Q: How do they buy? A: Large companies and their logistics contractors buy on five-year total cost; small owner-operators, most of the market, buy on down payment and EMI. Treat the ₹20 lakh as the premium after any central incentive.",
+        "Q: Any customer interest so far? A: An FMCG company's city distributor wants 50 trucks for a pilot next month, the largest enquiry so far."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Which customer segments should the client target first for its e-truck?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Which segments gain most, and can fund the premium?",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Daily km on predictable routes",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Plant/port shuttles ~250 km: ~31-month payback"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "City distribution ~100 km: ~6-year payback"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Ability to pay the ₹20 lakh premium",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Companies buying on five-year cost"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Owner-operators buying on down payment"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Which segments can run within the truck's limits?",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Daily routes within 250 km range"
+              },
+              {
+                "id": "b2",
+                "label": "Access to charging",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Plants, ports and hubs with own land"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "City distributors relying on public chargers"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Payload and duty fit: loads, gradients"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Which segments can the client reach and win?",
+            "children": [
+              {
+                "id": "c1",
+                "label": "How concentrated buyers are",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "A few large steel, cement and port groups"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Many small city distributors"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Buyers' emission targets and appetite for pilots"
+              },
+              {
+                "id": "c3",
+                "label": "Rival e-truck offers in each segment"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Plant and port shuttles, at about 250 km a day on fixed loops with on-site charging, repay the premium in about 31 months, the fastest of any segment.",
+        "Long-haul operators are out of reach regardless of price, because 400 km+ on changing routes exceeds the range.",
+        "A handful of large steel, cement and port groups can take the first few hundred trucks, so a key-account approach beats a dealer push."
+      ],
+      "hints": [
+        "Segment by what makes an e-truck work: economics, operating limits and ease of winning, not by region or truck size.",
+        "First-level branches: which segments gain most from switching; which can run within the truck's limits; which the client can reach and win.",
+        "Which segments the client can reach and win -> how concentrated buyers are; buyers' emission targets and appetite for pilots; rival e-truck offers in each segment."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Payback in months",
+          "formula": "₹20 lakh premium / (₹10 saving per km x km per day x 26 days)"
+        },
+        {
+          "name": "Addressable trucks per segment",
+          "formula": "segment fleet size x share of routes within range x share with charging access"
+        }
+      ],
+      "commonMistakes": [
+        "Segmenting by region or truck size instead of by daily duty, which decides the economics.",
+        "Taking the 50-truck city distribution pilot because it is the biggest enquiry: at about 100 km a day its payback is over six years, and city distributors often cannot charge at a depot."
+      ],
+      "frameworkPick": {
+        "options": [
+          "segmentation",
+          "market-sizing",
+          "product-launch",
+          "pricing"
+        ],
+        "correct": [
+          "segmentation"
+        ],
+        "why": "The question is which customers to go after first, which means splitting buyers by what drives value and feasibility and ranking the groups.",
+        "distractorWhyNot": {
+          "market-sizing": "Segment size is one input, but the question is which segment to prioritise, not how big the market is.",
+          "product-launch": "The truck is already launched; only the choice of first customers is asked.",
+          "pricing": "The premium is given; the question is who will pay it."
+        }
+      }
+    },
+    {
+      "id": "auto-c10",
+      "title": "PE bid for an engine-parts maker",
+      "industry": "auto",
+      "framework": "pe-dd",
+      "secondary": [
+        "market-sizing"
+      ],
+      "difficulty": "Advanced",
+      "region": "India",
+      "prompt": "A private equity fund is considering buying an Indian maker of pistons, rings and other engine parts with EBITDA of ₹270 crore. The seller asks ₹3,240 crore (12x EBITDA) and its plan shows EBITDA growing 10% a year for five years, backed by two years of record orders. Should the fund buy?",
+      "clarifyingFacts": [
+        "Q: Where does revenue come from? A: Passenger vehicle makers 40%, two-wheeler makers 25%, truck makers 10%, the domestic aftermarket 15%, and exports 10%.",
+        "Q: What does the seller's plan assume? A: New contracts and price increases, with battery-electric vehicles staying under 5% of sales in every segment.",
+        "Q: What is the fund's own outlook? A: Vehicle sales grow about 5% a year. Battery-electric share rises from about 3% to 15% of cars and from 6% to 25% of two-wheelers in five years; hybrids still use the client's parts. Trucks stay mostly diesel or CNG. Aftermarket grows about 6% and exports about 8% a year. Assume parts value per engine and EBITDA margin stay flat.",
+        "Q: What does the fund need? A: Treat its target return as an exit value of at least 1.25x the entry price after five years (a simplification: ignore debt and interim cash). At ₹3,240 crore that is about ₹4,050 crore, or about ₹405 crore of year-5 EBITDA at a 10x exit."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Should the fund buy the engine-parts maker at ₹3,240 crore (12x)?",
+        "children": [
+          {
+            "id": "a",
+            "label": "How fast will the client's markets grow?",
+            "children": [
+              {
+                "id": "a1",
+                "label": "OEM demand for engine parts",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Vehicle sales by segment (~5% a year)"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Share of vehicles still with engines, incl. hybrids"
+                  },
+                  {
+                    "id": "a1z",
+                    "label": "Client's parts value per engine"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Aftermarket demand",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Engine vehicles in use and their age"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Replacement rate per vehicle"
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Export demand",
+                "children": [
+                  {
+                    "id": "a3x",
+                    "label": "Life of the global engine programmes supplied"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Can the client hold share and margin?",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Position with each OEM",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Contracts up for renewal in five years"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Cost position vs rivals under price-downs"
+              },
+              {
+                "id": "b3",
+                "label": "Ability to win non-engine products",
+                "children": [
+                  {
+                    "id": "b3x",
+                    "label": "Order wins and capabilities to date"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Is the price right?",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Realistic year-5 EBITDA vs ~₹405 crore needed",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Plan ~₹435 crore vs fund view ~₹320 crore"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Exit multiple for an engine-exposed business",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "Likely buyers at exit"
+                  }
+                ]
+              },
+              {
+                "id": "c3",
+                "label": "Deal protections: lower price, earn-out"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "How could the fund add value?",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Operational gains: plant consolidation, buying"
+              },
+              {
+                "id": "d2",
+                "label": "Bolt-on acquisitions of non-engine parts makers"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Weighting each segment's outlook by its revenue share gives a revenue index of about 1.18 (about 3.3% a year), so year-5 EBITDA is about ₹320 crore, well short of both the plan's ₹435 crore and the ₹405 crore the fund needs.",
+        "The record orders reflect today's engine volumes, not the next five years: EV share is still small now, so recent history cannot test the plan.",
+        "At ₹320 crore and a 10x exit, the 1.25x test supports a price of about ₹2,550 crore (about 9.4x today's EBITDA), or about ₹2,300 crore if engine-exposed businesses exit at 9x, so the ask is ₹700-950 crore too high."
+      ],
+      "hints": [
+        "Run a due-diligence test, but build its market leg bottom-up, because the threat to this business differs by end market.",
+        "First-level branches: how fast will the client's markets grow; can the client hold share and margin; is the price right; how could the fund add value.",
+        "Can the client hold share and margin -> position with each OEM (contracts up for renewal); cost position vs rivals under price-downs; ability to win non-engine products."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Five-year revenue index",
+          "formula": "Σ segment revenue share x (1 + volume growth)^5 x (engine share in year 5 / engine share today)"
+        },
+        {
+          "name": "Year-5 EBITDA",
+          "formula": "₹270 crore x revenue index x (year-5 margin / today's margin)"
+        },
+        {
+          "name": "Maximum price",
+          "formula": "year-5 EBITDA x exit multiple / 1.25"
+        }
+      ],
+      "commonMistakes": [
+        "Accepting the 10% growth plan because the last two years were strong, when the decline comes from an EV share that is still small today.",
+        "Treating all revenue as hit by EVs: aftermarket and exports, a quarter of revenue, grow on different trends, and hybrids still need engines."
+      ],
+      "frameworkPick": {
+        "options": [
+          "pe-dd",
+          "market-sizing",
+          "ma",
+          "profitability"
+        ],
+        "correct": [
+          "pe-dd",
+          "market-sizing"
+        ],
+        "why": "A financial buyer must decide whether the price is justified, and the key test is a bottom-up forecast of a shrinking engine-parts market, segment by segment.",
+        "distractorWhyNot": {
+          "ma": "Strategic M&A centres on synergies and integration with the buyer's business; a PE fund has no business to integrate with.",
+          "profitability": "Profit is not falling today; the question is about future growth and the price paid."
+        }
+      }
+    },
+    {
+      "id": "auto-c11",
+      "title": "Cash-strapped electric scooter start-up",
+      "industry": "auto",
+      "framework": "turnaround",
+      "secondary": [
+        "profitability"
+      ],
+      "difficulty": "Advanced",
+      "region": "India",
+      "prompt": "Our client is an Indian electric scooter start-up selling about 12,000 scooters a month at about ₹6,000 contribution each. It has fixed costs of ₹40 crore a month, is spending ₹10 crore a month building its own battery cell line, and has ₹200 crore of cash left. Investors want growth to continue, while its lenders want the cash burn stopped. What should the client do?",
+      "clarifyingFacts": [
+        "Q: What are the unit economics? A: Average realised price is about ₹1,00,000 per scooter, net of dealer margin on dealer sales and including a central subsidy of about ₹5,000; variable cost is about ₹94,000, of which the battery pack is about ₹38,000.",
+        "Q: Will the subsidy continue? A: PM E-DRIVE now runs to March 2028, but it is fund-limited and can close early; the lenders want a plan that works without the ₹5,000.",
+        "Q: What makes up fixed costs? A: ₹14 crore company-owned stores and service centres, ₹12 crore R&D and software, ₹8 crore plant overheads, ₹6 crore marketing and head office, every month.",
+        "Q: Any operating issues? A: About 20% of scooters sold need a repeat repair visit in the first six months, and complaints on social media are rising."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "How can the client avoid running out of cash and stay competitive?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Buy time: protect cash now",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Pause or phase capex",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Defer the cell line (₹10 crore a month)"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Lease rather than buy store fit-outs"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Release working capital",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Stock of finished scooters and cells"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Dealer and supplier payment terms"
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Raise bridge funding",
+                "children": [
+                  {
+                    "id": "a3x",
+                    "label": "Existing investors vs venture debt"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Raise contribution per scooter",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Price realised",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Replace the ₹5,000 subsidy via price or mix"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Cut discounts and free accessories"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Variable cost",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Battery pack cost (~₹38,000)"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Warranty and repeat-repair cost"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Cut fixed costs",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Shift stores to dealer franchises (₹14 crore)"
+              },
+              {
+                "id": "c2",
+                "label": "Focus R&D on core models (₹12 crore)"
+              },
+              {
+                "id": "c3",
+                "label": "Plant, marketing and head office (₹14 crore)"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Grow volume profitably",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Fix service quality to protect demand"
+              },
+              {
+                "id": "d2",
+                "label": "Focus on cities with best contribution and service"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Break-even needs about 67,000 scooters a month at ₹6,000 contribution, so volume growth cannot rescue the business in time; contribution per scooter has to rise several-fold.",
+        "Deferring the cell line and franchising most stores cuts burn by ₹15-20 crore a month, stretching the runway from under 5 months to about 7-9.",
+        "Repeat repairs on 20% of scooters hurt demand more than price does, so fixing quality protects volume without discounting."
+      ],
+      "hints": [
+        "Sequence the answer by urgency: what keeps the company alive this quarter, then what makes it viable.",
+        "First-level branches: buy time by protecting cash; raise contribution per scooter; cut fixed costs; grow volume profitably.",
+        "Grow volume profitably -> fix service quality to protect demand; focus on cities with the best contribution and service."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Monthly cash burn",
+          "formula": "fixed costs + capex - contribution per scooter x scooters sold ± change in working capital"
+        },
+        {
+          "name": "Runway",
+          "formula": "cash / monthly burn = ₹200 crore / ~₹43 crore ≈ 4.7 months"
+        },
+        {
+          "name": "Break-even volume",
+          "formula": "fixed costs / contribution per scooter"
+        }
+      ],
+      "commonMistakes": [
+        "Ignoring the risk to the ₹5,000 subsidy, which would cut contribution from ₹6,000 to about ₹1,000 per scooter unless price or cost moves.",
+        "Siding with investors and pushing volume, when each extra scooter adds only ₹6,000 against ₹40 crore of monthly fixed costs."
+      ],
+      "frameworkPick": {
+        "options": [
+          "turnaround",
+          "profitability",
+          "growth",
+          "operations"
+        ],
+        "correct": [
+          "turnaround",
+          "profitability"
+        ],
+        "why": "With under five months of cash, the first job is a turnaround (cash, capex, funding), and the lasting fix is a profitability rebuild of contribution and fixed costs.",
+        "distractorWhyNot": {
+          "growth": "Volume at ₹6,000 contribution cannot cover ₹40 crore of monthly fixed costs before cash runs out; growth comes after the fix.",
+          "operations": "Repeat repairs and battery cost are levers inside the rebuild, but an operations lens ignores the cash runway that sets the order of moves."
+        }
+      }
+    },
+    {
+      "id": "auto-c12",
+      "title": "Buying a loss-making German e-drive maker",
+      "industry": "auto",
+      "framework": "ma",
+      "secondary": [
+        "market-entry"
+      ],
+      "difficulty": "Advanced",
+      "region": "Global",
+      "prompt": "Our client is an Indian auto component group with revenue of ₹12,000 crore and 13% EBITDA margin, mostly from engine and transmission parts. It is considering buying a German maker of electric drive units for €400 million (about ₹4,000 crore), though the target lost €20 million at EBITDA last year. Two European car makers account for 70% of the target's order book, and both have just delayed their EV programmes. Should the client buy it?",
+      "clarifyingFacts": [
+        "Q: Why does the client want it? A: About 75% of its revenue comes from engine and transmission parts, and the promoter wants a credible EV product line within three years.",
+        "Q: Target details? A: Revenue of €300 million, an order book of €1.8 billion over six years, and two German plants with about 1,800 staff under works council agreements.",
+        "Q: What do the delays mean? A: Expected revenue for the next three years falls by about 30%.",
+        "Q: How would it be funded? A: ₹1,500 crore of new equity from the promoter group and ₹2,500 crore of debt. Existing net debt is ₹1,500 crore, and loan covenants cap net debt at 3x EBITDA."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Should the client buy the German e-drive maker for ~€400 million?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Is this the right way into EV drives?",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Attractiveness of the e-drive market",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "EV adoption pace in Europe and India"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Car makers making drives in-house vs buying"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Buy vs build vs partner",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Cost and time to build in India"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Licensing or joint venture options"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "What is the target worth on its own?",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Quality of the order book",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "70% with two car makers now delaying"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Contract terms on volume shortfalls"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Path from -€20 million EBITDA to profit",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Plant utilisation as volumes slip"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Restructuring limits under works council agreements"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Technology and engineering talent"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "What synergies can the client capture?",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Cost synergies",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Moving parts production to India"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Joint buying of magnets, copper, electronics"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Revenue synergies",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "Selling e-drives to Indian car and two-wheeler makers"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Can the client afford and run it?",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Funding and leverage",
+                "children": [
+                  {
+                    "id": "d1x",
+                    "label": "Net debt/EBITDA ~2.9x vs 3x covenant"
+                  }
+                ]
+              },
+              {
+                "id": "d2",
+                "label": "Integration: cross-border management, keeping engineers"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "A 30% cut in near-term revenue pushes the target's break-even out by two to three years, so €400 million pays for an order book now worth much less.",
+        "Moving machining and electronics sourcing to India could lift the target's margin by 5-7 points, but works council agreements limit how fast German costs can fall.",
+        "Post-deal leverage of about 2.9x (₹4,000 crore net debt over ₹1,360 crore EBITDA) leaves no room for further target losses before the 3x covenant is breached."
+      ],
+      "hints": [
+        "Answer two questions in turn: is acquiring the right route into EV drives, and is this deal at this price worth doing.",
+        "First-level branches: is this the right way into EV drives; what is the target worth on its own; what synergies can the client capture; can the client afford and run it.",
+        "What synergies can the client capture -> cost (moving parts production to India; joint buying of magnets, copper, electronics); revenue (selling e-drives to Indian car and two-wheeler makers)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Post-deal leverage",
+          "formula": "(existing net debt + new debt) / (client EBITDA + target EBITDA) = (₹1,500 + ₹2,500 crore) / (₹1,560 - ₹200 crore) ≈ 2.9x"
+        },
+        {
+          "name": "Order book coverage",
+          "formula": "contracted revenue for the next three years / revenue needed to break even"
+        }
+      ],
+      "commonMistakes": [
+        "Valuing the target on its €1.8 billion order book without discounting for the customers' delays and the contract terms on shortfalls.",
+        "Treating the deal as the only route into EV drives, without comparing the cost and time of building or partnering."
+      ],
+      "frameworkPick": {
+        "options": [
+          "ma",
+          "market-entry",
+          "pe-dd",
+          "growth"
+        ],
+        "correct": [
+          "ma",
+          "market-entry"
+        ],
+        "why": "The client is a strategic buyer deciding on an acquisition (standalone value, synergies, affordability), and the deal is its route into a new product market, so buy versus build matters too.",
+        "distractorWhyNot": {
+          "pe-dd": "PE due diligence suits a financial buyer valuing a standalone exit; here a strategic buyer must weigh fit and synergies.",
+          "growth": "The promoter's goal is growth into EV drives, but the decision on the table is one specific acquisition, which needs valuation, synergies and affordability."
+        }
+      }
+    }
+  ],
+  "flaws": [
+    {
+      "id": "auto-f01",
+      "title": "Electric bus cost per km",
+      "industry": "auto",
+      "framework": "operations",
+      "difficulty": "Beginner",
+      "tree": {
+        "id": "r",
+        "label": "What drives an electric city bus operator's cost per km?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Energy cost per km",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Electricity used per km (kWh/km)"
+              },
+              {
+                "id": "a2",
+                "label": "Tariff per kWh at the depot"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Maintenance cost per km",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Routine servicing and tyres"
+              },
+              {
+                "id": "b2",
+                "label": "Battery and drivetrain repairs"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Staff cost per km",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Drivers' wages and shifts per bus"
+              },
+              {
+                "id": "c2",
+                "label": "Depot and supervisory staff"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "r",
+          "type": "gap",
+          "explanation": "The tree covers running costs but leaves out the cost of owning the bus and chargers. For an electric bus costing over ₹1 crore, depreciation and interest are usually the largest part of cost per km, so a tree without them cannot explain it.",
+          "fix": "Add a fourth branch, 'Bus and charger ownership cost per km', covering the bus and battery price spread over lifetime km, charging infrastructure, and interest and insurance."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "What drives an electric city bus operator's cost per km?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Energy cost per km",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Electricity used per km (kWh/km)"
+              },
+              {
+                "id": "a2",
+                "label": "Tariff per kWh at the depot"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Maintenance cost per km",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Routine servicing and tyres"
+              },
+              {
+                "id": "b2",
+                "label": "Battery and drivetrain repairs"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Staff cost per km",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Drivers' wages and shifts per bus"
+              },
+              {
+                "id": "c2",
+                "label": "Depot and supervisory staff"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Bus and charger ownership cost per km",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Bus and battery price spread over lifetime km"
+              },
+              {
+                "id": "d2",
+                "label": "Chargers and depot power infrastructure"
+              },
+              {
+                "id": "d3",
+                "label": "Interest and insurance"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "auto-f02",
+      "title": "Two-wheeler revenue decline",
+      "industry": "auto",
+      "framework": "profitability",
+      "difficulty": "Beginner",
+      "tree": {
+        "id": "r",
+        "label": "Why has a two-wheeler maker's domestic vehicle revenue fallen 8%?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Fewer units sold",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Motorcycles"
+              },
+              {
+                "id": "a2",
+                "label": "Scooters"
+              },
+              {
+                "id": "a3",
+                "label": "Mopeds"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Lower revenue per unit",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Mix shift towards cheaper models"
+              },
+              {
+                "id": "b2",
+                "label": "Higher discounts and dealer support"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Lower volume in the scooter segment",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Petrol scooters"
+              },
+              {
+                "id": "c2",
+                "label": "Electric scooters"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "c",
+          "type": "overlap",
+          "explanation": "Scooter volume is already counted under 'Fewer units sold', which splits units into motorcycles, scooters and mopeds. A separate scooter branch counts the same lost units twice.",
+          "fix": "Remove the branch and, if needed, split 'Scooters' under 'Fewer units sold' into petrol and electric."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Why has a two-wheeler maker's domestic vehicle revenue fallen 8%?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Fewer units sold",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Motorcycles"
+              },
+              {
+                "id": "a2",
+                "label": "Scooters",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Petrol scooters"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Electric scooters"
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Mopeds"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Lower revenue per unit",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Mix shift towards cheaper models"
+              },
+              {
+                "id": "b2",
+                "label": "Higher discounts and dealer support"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "auto-f03",
+      "title": "Car plant cost per vehicle",
+      "industry": "auto",
+      "framework": "operations",
+      "difficulty": "Intermediate",
+      "tree": {
+        "id": "r",
+        "label": "Why has a car plant's manufacturing cost per vehicle risen 6%?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Material cost per vehicle",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Prices paid for steel, parts and electronics",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Steel and aluminium prices"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Supplier price increases on parts and electronics"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Material usage and scrap"
+              },
+              {
+                "id": "a3",
+                "label": "Purchase price variance on bought-out parts"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Conversion cost per vehicle",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Labour cost per vehicle",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Wage rates"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Labour hours per vehicle"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Energy and utilities per vehicle"
+              },
+              {
+                "id": "b3",
+                "label": "Plant overheads and depreciation per vehicle",
+                "children": [
+                  {
+                    "id": "b3x",
+                    "label": "Overhead spend"
+                  },
+                  {
+                    "id": "b3y",
+                    "label": "Vehicles produced to absorb it"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Inbound logistics per vehicle",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Freight rates"
+              },
+              {
+                "id": "c2",
+                "label": "Express shipments to cover shortages"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Freight to dealers per vehicle"
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "a3",
+          "type": "overlap",
+          "explanation": "Purchase price variance is the cost-accounting name for paying more than the standard price for bought-in materials and parts, which is exactly what 'Prices paid for steel, parts and electronics' measures. The same rupees are counted twice under different wording.",
+          "fix": "Remove the node; use the purchase price variance report as the data source for a1."
+        },
+        {
+          "nodeId": "d",
+          "type": "not-a-driver",
+          "explanation": "Manufacturing cost ends at the factory gate. Freight to dealers is paid after the car leaves the plant, so it raises the cost of selling the car, not of making it, unlike inbound freight on parts.",
+          "fix": "Remove the branch; outbound freight belongs in a tree on cost to serve or EBITDA per car."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Why has a car plant's manufacturing cost per vehicle risen 6%?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Material cost per vehicle",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Prices paid for steel, parts and electronics",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Steel and aluminium prices"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Supplier price increases on parts and electronics"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Material usage and scrap"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Conversion cost per vehicle",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Labour cost per vehicle",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Wage rates"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Labour hours per vehicle"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Energy and utilities per vehicle"
+              },
+              {
+                "id": "b3",
+                "label": "Plant overheads and depreciation per vehicle",
+                "children": [
+                  {
+                    "id": "b3x",
+                    "label": "Overhead spend"
+                  },
+                  {
+                    "id": "b3y",
+                    "label": "Vehicles produced to absorb it"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Inbound logistics per vehicle",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Freight rates"
+              },
+              {
+                "id": "c2",
+                "label": "Express shipments to cover shortages"
+              }
+            ]
+          }
+        ]
+      },
+      "decoys": [
+        {
+          "nodeId": "b3y",
+          "whyFine": "Overhead per vehicle is overhead spend divided by vehicles produced, so lower output genuinely raises cost per vehicle even though volume is not a cost."
+        },
+        {
+          "nodeId": "c2",
+          "whyFine": "Express shipments to cover part shortages are inbound logistics cost, which is part of the landed cost of materials at the plant."
+        }
+      ]
+    },
+    {
+      "id": "auto-f04",
+      "title": "Electric two-wheeler sales in 2030",
+      "industry": "auto",
+      "framework": "market-sizing",
+      "difficulty": "Intermediate",
+      "tree": {
+        "id": "r",
+        "label": "How many electric two-wheelers will India sell in 2030?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Total two-wheeler sales in 2030",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Current annual sales (~2 crore)"
+              },
+              {
+                "id": "a2",
+                "label": "Annual growth rate to 2030"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Electric share of sales in 2030",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Buyer economics: price gap and running savings"
+              },
+              {
+                "id": "b2",
+                "label": "Practicality: range and charging access"
+              },
+              {
+                "id": "b3",
+                "label": "Supply: models and dealer reach at each price point"
+              },
+              {
+                "id": "b4",
+                "label": "Cell prices from Chinese suppliers (US$ per kWh)"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "b4",
+          "type": "mixed-levels",
+          "explanation": "Cell prices are one input into the upfront price gap, which 'Buyer economics' already covers. The node sits a level below its siblings, which are broad groups of adoption drivers; the fix is to move it down a level, not to delete it, which is why this is a level problem rather than a plain overlap.",
+          "fix": "Move it under 'Buyer economics', alongside other inputs to the price gap such as subsidies, GST and fuel versus electricity costs."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "How many electric two-wheelers will India sell in 2030?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Total two-wheeler sales in 2030",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Current annual sales (~2 crore)"
+              },
+              {
+                "id": "a2",
+                "label": "Annual growth rate to 2030"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Electric share of sales in 2030",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Buyer economics: price gap and running savings",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Cell and pack price per kWh"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Subsidies and GST"
+                  },
+                  {
+                    "id": "b1z",
+                    "label": "Petrol price vs electricity tariff"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Practicality: range and charging access"
+              },
+              {
+                "id": "b3",
+                "label": "Supply: models and dealer reach at each price point"
+              }
+            ]
+          }
+        ]
+      },
+      "decoys": [
+        {
+          "nodeId": "b3",
+          "whyFine": "Adoption is capped by what buyers can find: without electric models at each price point and dealers nearby, the share stays low however good the economics are."
+        }
+      ]
+    },
+    {
+      "id": "auto-f05",
+      "title": "SUV stock piling up at dealers",
+      "industry": "auto",
+      "framework": "operations",
+      "difficulty": "Intermediate",
+      "tree": {
+        "id": "r",
+        "label": "Why has SUV dealer stock risen from 30 to 70 days?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Retail sales have fallen",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Fewer showroom enquiries",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Lower advertising spend"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "New rival models in the segment"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Lower enquiry-to-booking conversion",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Price after discounts vs rivals"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Long wait for preferred variants"
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "More bookings cancelled before delivery"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Fewer vehicles registered by customers on Vahan",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Registrations in metro cities"
+              },
+              {
+                "id": "b2",
+                "label": "Registrations in smaller towns"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "b",
+          "type": "overlap",
+          "explanation": "A car is registered on Vahan when it is sold to a customer, so registrations are retail sales under another name. This branch repeats 'Retail sales have fallen'.",
+          "fix": "Remove the branch; use Vahan data as the source for measuring retail sales, not as a separate cause."
+        },
+        {
+          "nodeId": "r",
+          "type": "gap",
+          "explanation": "Days of stock rise when dispatches into dealers outpace sales out of dealers. The tree only looks at sales out and misses the inflow: the maker may be pushing more cars, or the wrong variants, to dealers.",
+          "fix": "Add a branch, 'Dispatches from the factory have risen', covering volume targets pushed to dealers and the mix of variants and colours sent."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Why has SUV dealer stock risen from 30 to 70 days?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Retail sales have fallen",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Fewer showroom enquiries",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Lower advertising spend"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "New rival models in the segment"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Lower enquiry-to-booking conversion",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Price after discounts vs rivals"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Long wait for preferred variants"
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "More bookings cancelled before delivery"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Dispatches from the factory have risen",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Factory volume targets pushed to dealers",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Monthly wholesale targets"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Incentives tied to dispatches"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Variants and colours dispatched vs demand"
+              }
+            ]
+          }
+        ]
+      },
+      "decoys": [
+        {
+          "nodeId": "a2y",
+          "whyFine": "When buyers face long waits for the variants they want, many walk away rather than take a variant in stock, so stock of the wrong variants piles up while bookings fall."
+        },
+        {
+          "nodeId": "a3",
+          "whyFine": "A booking is not a sale: cancellations before delivery cut retail sales even when enquiries and bookings look healthy."
+        }
+      ]
+    },
+    {
+      "id": "auto-f06",
+      "title": "Car maker's margin fall",
+      "industry": "auto",
+      "framework": "profitability",
+      "difficulty": "Advanced",
+      "tree": {
+        "id": "r",
+        "label": "Why has a mass-market car maker's EBITDA margin fallen from 12% to 9%?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Net realisation per car",
+            "children": [
+              {
+                "id": "a1",
+                "label": "List price changes"
+              },
+              {
+                "id": "a2",
+                "label": "Discounts and dealer support",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Consumer offers"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Support for dealers' old stock"
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Model and variant mix",
+                "children": [
+                  {
+                    "id": "a3x",
+                    "label": "Share of SUVs vs hatchbacks"
+                  },
+                  {
+                    "id": "a3y",
+                    "label": "Share of top variants"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Variable cost per car",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Material cost",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Steel and precious metal prices"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Added content per car: airbags, ESC, sensors"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Freight to dealers"
+              },
+              {
+                "id": "b3",
+                "label": "Warranty cost per car"
+              },
+              {
+                "id": "b4",
+                "label": "Cost per car of new safety norms"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Fixed cost spend (₹ crore)",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Employee costs",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Headcount"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Wage settlement"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Advertising and launches"
+              },
+              {
+                "id": "c3",
+                "label": "R&D expensed"
+              },
+              {
+                "id": "c4",
+                "label": "Depreciation on the new plant"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "r",
+          "type": "gap",
+          "explanation": "Margin is a ratio, and in car making fixed costs are large, so a drop in volume alone can cut margin by several points through under-absorption. The tree has fixed cost spend in rupees but nothing for the volume it is spread over.",
+          "fix": "Add 'Volume to absorb fixed costs', split into domestic sales (market growth, share) and exports."
+        },
+        {
+          "nodeId": "c4",
+          "type": "not-a-driver",
+          "explanation": "EBITDA is measured before depreciation, so depreciation on the new plant cannot explain an EBITDA margin fall, however large it is.",
+          "fix": "Remove it; it belongs in an EBIT or net profit analysis."
+        },
+        {
+          "nodeId": "b4",
+          "type": "overlap",
+          "explanation": "New safety norms raise cost per car through the extra parts fitted, such as airbags, ESC and sensors, which are already counted under 'Added content per car' in material cost. The same rupees appear twice under different wording.",
+          "fix": "Remove the node; keep safety content under material cost."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Why has a mass-market car maker's EBITDA margin fallen from 12% to 9%?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Net realisation per car",
+            "children": [
+              {
+                "id": "a1",
+                "label": "List price changes"
+              },
+              {
+                "id": "a2",
+                "label": "Discounts and dealer support",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Consumer offers"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Support for dealers' old stock"
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Model and variant mix",
+                "children": [
+                  {
+                    "id": "a3x",
+                    "label": "Share of SUVs vs hatchbacks"
+                  },
+                  {
+                    "id": "a3y",
+                    "label": "Share of top variants"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Variable cost per car",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Material cost",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Steel and precious metal prices"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Added content per car: airbags, ESC, sensors"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Freight to dealers"
+              },
+              {
+                "id": "b3",
+                "label": "Warranty cost per car"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Fixed cost spend (₹ crore)",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Employee costs",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Headcount"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Wage settlement"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Advertising and launches"
+              },
+              {
+                "id": "c3",
+                "label": "R&D expensed"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Volume to absorb fixed costs",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Domestic sales",
+                "children": [
+                  {
+                    "id": "d1x",
+                    "label": "Market growth"
+                  },
+                  {
+                    "id": "d1y",
+                    "label": "Market share"
+                  }
+                ]
+              },
+              {
+                "id": "d2",
+                "label": "Exports"
+              }
+            ]
+          }
+        ]
+      },
+      "decoys": [
+        {
+          "nodeId": "a2y",
+          "whyFine": "Support paid to dealers to clear old stock is a deduction from what the maker realises per car, so it belongs under net realisation, not under costs."
+        },
+        {
+          "nodeId": "c3",
+          "whyFine": "R&D that is expensed rather than capitalised is charged above EBITDA, so unlike depreciation it can cut EBITDA margin."
+        }
+      ]
+    },
+    {
+      "id": "auto-f07",
+      "title": "Battery cell plant in India",
+      "industry": "auto",
+      "framework": "market-entry",
+      "difficulty": "Advanced",
+      "tree": {
+        "id": "r",
+        "label": "Should a global battery cell maker build a 5 GWh plant in India?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Indian demand for cells",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Electric vehicle demand",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Two- and three-wheelers"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Cars"
+                  },
+                  {
+                    "id": "a1z",
+                    "label": "Buses and trucks"
+                  },
+                  {
+                    "id": "a1w",
+                    "label": "Fleet and ride-hailing vehicles"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Energy storage demand",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Grid storage paired with solar"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Telecom towers and data-centre backup"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Ability to compete",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Landed cost vs imported cells",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Import duty on cells"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Scale and yield vs Chinese plants"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Chemistry fit: LFP vs NMC for Indian buyers"
+              },
+              {
+                "id": "b3",
+                "label": "Rival Indian cell plants being built"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Economics of the plant",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Investment",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Capex per GWh"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Land, power and water"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Revenue per kWh",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "Cell price trend"
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "Incentives per kWh: PLI or state subsidies"
+                  }
+                ]
+              },
+              {
+                "id": "c3",
+                "label": "Operating cost per kWh",
+                "children": [
+                  {
+                    "id": "c3x",
+                    "label": "Labour"
+                  },
+                  {
+                    "id": "c3y",
+                    "label": "Energy"
+                  },
+                  {
+                    "id": "c3z",
+                    "label": "Yield losses and scrap"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Signed supply deal with one e-scooter maker"
+          },
+          {
+            "id": "e",
+            "label": "Alternatives",
+            "children": [
+              {
+                "id": "e1",
+                "label": "Keep exporting cells to India"
+              },
+              {
+                "id": "e2",
+                "label": "Joint venture with an Indian group"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "a1w",
+          "type": "overlap",
+          "explanation": "Fleet and ride-hailing vehicles are three-wheelers, cars or buses, so their demand is already counted in the vehicle-type branches above. Splitting by vehicle type and by owner at the same level double counts.",
+          "fix": "Remove the node; if fleets matter, analyse them inside each vehicle type."
+        },
+        {
+          "nodeId": "c3",
+          "type": "gap",
+          "explanation": "Materials (cathode, anode, electrolyte and separator) are usually well over half of cell cost, and India imports almost all of them or their precursors. Leaving them out drops the largest cost line and the main risk to local cell economics.",
+          "fix": "Add 'Cathode, anode, electrolyte and lithium' under operating cost per kWh."
+        },
+        {
+          "nodeId": "d",
+          "type": "mixed-levels",
+          "explanation": "One supply deal with one customer is a specific piece of evidence about how much the plant can sell, yet it sits beside broad questions such as demand, ability to compete and plant economics.",
+          "fix": "Move it under ability to compete, as 'Anchor customers: signed and draft offtake deals'; signed deals show the share the plant can win, not the size of the market."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Should a global battery cell maker build a 5 GWh plant in India?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Indian demand for cells",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Electric vehicle demand",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Two- and three-wheelers"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Cars"
+                  },
+                  {
+                    "id": "a1z",
+                    "label": "Buses and trucks"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Energy storage demand",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Grid storage paired with solar"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Telecom towers and data-centre backup"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Ability to compete",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Landed cost vs imported cells",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Import duty on cells"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Scale and yield vs Chinese plants"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Chemistry fit: LFP vs NMC for Indian buyers"
+              },
+              {
+                "id": "b3",
+                "label": "Rival Indian cell plants being built"
+              },
+              {
+                "id": "b4",
+                "label": "Anchor customers: signed and draft offtake deals"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Economics of the plant",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Investment",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Capex per GWh"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Land, power and water"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Revenue per kWh",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "Cell price trend"
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "Incentives per kWh: PLI or state subsidies"
+                  }
+                ]
+              },
+              {
+                "id": "c3",
+                "label": "Operating cost per kWh",
+                "children": [
+                  {
+                    "id": "c3w",
+                    "label": "Cathode, anode, electrolyte and lithium"
+                  },
+                  {
+                    "id": "c3x",
+                    "label": "Labour"
+                  },
+                  {
+                    "id": "c3y",
+                    "label": "Energy"
+                  },
+                  {
+                    "id": "c3z",
+                    "label": "Yield losses and scrap"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "e",
+            "label": "Alternatives",
+            "children": [
+              {
+                "id": "e1",
+                "label": "Keep exporting cells to India"
+              },
+              {
+                "id": "e2",
+                "label": "Joint venture with an Indian group"
+              }
+            ]
+          }
+        ]
+      },
+      "decoys": [
+        {
+          "nodeId": "a2y",
+          "whyFine": "Telecom towers and data-centre backup are large buyers of LFP cells, so storage demand beyond vehicles is a genuine part of the market for a cell plant."
+        },
+        {
+          "nodeId": "b1x",
+          "whyFine": "The duty on imported cells sets the landed cost of the imports a local plant must beat, so it is a real driver of the cost comparison."
+        }
+      ]
+    }
+  ],
+  "quick": [
+    {
+      "id": "auto-q01",
+      "industry": "auto",
+      "difficulty": "Beginner",
+      "question": "Which split of 'Revenue of a car dealership' is MECE?",
+      "parent": "Revenue of a car dealership",
+      "options": [
+        {
+          "split": [
+            "New car sales",
+            "Used car sales",
+            "Exchange car resales",
+            "Service and parts",
+            "Commissions and accessories"
+          ],
+          "correct": false,
+          "why": "Overlap: cars taken in on exchange are the dealer's used car stock, so their resale is already inside used car sales."
+        },
+        {
+          "split": [
+            "New cars",
+            "Used cars",
+            "Service and parts",
+            "Commissions and accessories"
+          ],
+          "correct": true,
+          "why": "Covers every stream once: vehicle sales new and used, all workshop income whoever pays for it, and loan, insurance and warranty commissions plus accessories."
+        },
+        {
+          "split": [
+            "New cars",
+            "Used cars",
+            "Customer-paid service and parts",
+            "Commissions and accessories"
+          ],
+          "correct": false,
+          "why": "Gap: free services and warranty repairs are paid to the dealer by the car maker, a real part of workshop revenue that 'customer-paid' leaves out."
+        },
+        {
+          "split": [
+            "Vehicle sales",
+            "Service and parts",
+            "Commissions and accessories",
+            "Sales to corporate fleets"
+          ],
+          "correct": false,
+          "why": "Mixed basis: fleet sales are vehicle sales cut by customer type, so they sit inside the first branch."
+        }
+      ]
+    },
+    {
+      "id": "auto-q02",
+      "industry": "auto",
+      "difficulty": "Beginner",
+      "question": "Which split of 'Fuel cost per km of a diesel truck' is MECE?",
+      "parent": "Fuel cost per km of a diesel truck",
+      "options": [
+        {
+          "split": [
+            "Litres per km",
+            "Price per litre",
+            "Fuel lost to idling and pilferage"
+          ],
+          "correct": false,
+          "why": "Overlap: idling and pilferage raise the litres bought per km driven, so they are already inside litres per km."
+        },
+        {
+          "split": [
+            "Litres per km when loaded",
+            "Litres per km when empty",
+            "Price per litre"
+          ],
+          "correct": false,
+          "why": "Gap: without the share of km run empty, the two consumption rates cannot be combined, so the split does not add up to cost per km."
+        },
+        {
+          "split": [
+            "Litres per km",
+            "Price per litre",
+            "Fuel cost per tonne-km"
+          ],
+          "correct": false,
+          "why": "Mixed basis: cost per tonne-km is the same cost divided by load, an output measure rather than a component of cost per km."
+        },
+        {
+          "split": [
+            "Litres per km",
+            "Price per litre"
+          ],
+          "correct": true,
+          "why": "Fuel cost per km is exactly litres per km x price per litre; idling, loading and pilferage all act through litres per km."
+        }
+      ]
+    },
+    {
+      "id": "auto-q03",
+      "industry": "auto",
+      "difficulty": "Beginner",
+      "question": "Which split of 'Two-wheelers sold in India in a year' is MECE?",
+      "parent": "Two-wheelers sold in India in a year",
+      "options": [
+        {
+          "split": [
+            "Motorcycles",
+            "Scooters",
+            "Mopeds"
+          ],
+          "correct": true,
+          "why": "Every two-wheeler sold is one of these three body types, whatever its powertrain."
+        },
+        {
+          "split": [
+            "Motorcycles",
+            "Scooters",
+            "Mopeds",
+            "Electric two-wheelers"
+          ],
+          "correct": false,
+          "why": "Overlap: electric two-wheelers are scooters or motorcycles, so they are counted twice."
+        },
+        {
+          "split": [
+            "Motorcycles",
+            "Scooters"
+          ],
+          "correct": false,
+          "why": "Gap: mopeds, a distinct body type still sold in the lakhs each year, are left out."
+        },
+        {
+          "split": [
+            "Taxed at 18% (up to 350cc)",
+            "Taxed at 40% (above 350cc)"
+          ],
+          "correct": false,
+          "why": "Gap: since September 2025 the cc bands split petrol models, but electric two-wheelers have no engine and are taxed at 5%, so they are missing."
+        }
+      ]
+    },
+    {
+      "id": "auto-q04",
+      "industry": "auto",
+      "difficulty": "Intermediate",
+      "question": "Which split of 'A car maker's warranty claim cost in a year' is MECE?",
+      "parent": "A car maker's warranty claim cost in a year",
+      "options": [
+        {
+          "split": [
+            "Cars under warranty",
+            "Claims per car",
+            "Parts cost per claim",
+            "Labour cost per claim",
+            "Cost of repeat repairs"
+          ],
+          "correct": false,
+          "why": "Overlap: a repeat repair is another claim, already counted in claims per car and costed in parts and labour."
+        },
+        {
+          "split": [
+            "Cars sold this year",
+            "Claims per car",
+            "Average cost per claim"
+          ],
+          "correct": false,
+          "why": "Gap: warranties run three to five years, so cars sold in earlier years and still covered are missing from the base."
+        },
+        {
+          "split": [
+            "Cars under warranty",
+            "Claims per car under warranty",
+            "Average cost per claim"
+          ],
+          "correct": true,
+          "why": "Warranty cost = cars under warranty x claims per car x cost per claim, a complete multiplication with no overlap."
+        },
+        {
+          "split": [
+            "Cars under warranty",
+            "Claims per car under warranty",
+            "Average cost per claim",
+            "EV battery replacements"
+          ],
+          "correct": false,
+          "why": "Mixed levels: battery replacements are one type of claim, already inside the claims and cost factors, promoted beside them."
+        }
+      ]
+    },
+    {
+      "id": "auto-q05",
+      "industry": "auto",
+      "difficulty": "Intermediate",
+      "question": "Which split of 'Annual revenue of a city's public EV fast chargers' is MECE?",
+      "parent": "Annual revenue of a city's public EV fast chargers",
+      "options": [
+        {
+          "split": [
+            "Number of chargers",
+            "Sessions per charger per year",
+            "Minutes per session",
+            "Price per kWh"
+          ],
+          "correct": false,
+          "why": "Mixed basis: minutes cannot be multiplied by a price per kWh without the power drawn, so time and energy are mixed."
+        },
+        {
+          "split": [
+            "Number of chargers",
+            "Sessions per charger per year",
+            "kWh per session",
+            "Price per kWh"
+          ],
+          "correct": true,
+          "why": "Revenue = chargers x sessions x kWh per session x price per kWh: complete and without overlap."
+        },
+        {
+          "split": [
+            "Number of chargers",
+            "Hours in use per day",
+            "Sessions per charger",
+            "kWh per session",
+            "Price per kWh"
+          ],
+          "correct": false,
+          "why": "Overlap: hours in use and sessions both measure how busy a charger is, so utilisation is counted twice."
+        },
+        {
+          "split": [
+            "Number of chargers",
+            "Sessions per charger per year",
+            "kWh per session",
+            "Discom tariff per kWh"
+          ],
+          "correct": false,
+          "why": "Not a driver: the discom tariff is what the operator pays for power, a cost; revenue depends on the price charged to drivers."
+        }
+      ]
+    },
+    {
+      "id": "auto-q06",
+      "industry": "auto",
+      "difficulty": "Intermediate",
+      "question": "Which split of 'Time from booking to delivery of a new car' is MECE?",
+      "parent": "Time from booking to delivery of a new car",
+      "options": [
+        {
+          "split": [
+            "Wait for a car to be allocated",
+            "Transit to the dealer",
+            "Registration and fitment"
+          ],
+          "correct": false,
+          "why": "Gap: with about four in five cars bought on loans, delivery often waits for payment, usually the lender's disbursal, which this split leaves out."
+        },
+        {
+          "split": [
+            "Wait for a car to be allocated",
+            "Transit to the dealer",
+            "Pre-delivery: payment, registration, fitment",
+            "Waiting for loan disbursal"
+          ],
+          "correct": false,
+          "why": "Overlap: loan disbursal is how most buyers pay, so it is already inside pre-delivery payment."
+        },
+        {
+          "split": [
+            "Wait for a car to be allocated",
+            "Transit to the dealer",
+            "Pre-delivery: payment, registration, fitment",
+            "Waiting period for top variants"
+          ],
+          "correct": false,
+          "why": "Mixed levels: the wait for top variants is one part of the allocation wait, promoted beside the stages."
+        },
+        {
+          "split": [
+            "Wait for a car to be allocated",
+            "Transit to the dealer",
+            "Pre-delivery: payment, registration, fitment"
+          ],
+          "correct": true,
+          "why": "The stages run in sequence from booking to handover, and every day of waiting falls in exactly one of them, whether the car comes from stock or a production slot."
+        }
+      ]
+    },
+    {
+      "id": "auto-q07",
+      "industry": "auto",
+      "difficulty": "Advanced",
+      "question": "Which split of 'Battery cost per electric car' is MECE?",
+      "parent": "Battery cost per electric car",
+      "options": [
+        {
+          "split": [
+            "Gross battery capacity (kWh)",
+            "Cell cost per kWh",
+            "Pack integration cost per kWh"
+          ],
+          "correct": true,
+          "why": "Battery cost = gross kWh x (cell cost per kWh + pack integration cost per kWh), complete with no double counting."
+        },
+        {
+          "split": [
+            "Gross battery capacity (kWh)",
+            "Cell cost per kWh",
+            "Pack integration cost per kWh",
+            "Battery management electronics"
+          ],
+          "correct": false,
+          "why": "Overlap: the battery management system is part of pack integration, so it is counted twice."
+        },
+        {
+          "split": [
+            "Usable capacity (kWh)",
+            "Cell cost per kWh",
+            "Pack integration cost per kWh"
+          ],
+          "correct": false,
+          "why": "Gap: packs carry a buffer of cells above the usable capacity, so costing on usable kWh leaves those cells out."
+        },
+        {
+          "split": [
+            "Gross battery capacity (kWh)",
+            "Cathode material cost per kWh",
+            "Cell cost per kWh",
+            "Pack integration cost per kWh"
+          ],
+          "correct": false,
+          "why": "Mixed levels: cathode material is an input into cell cost, one level below it, and is counted again beside it."
+        }
+      ]
+    },
+    {
+      "id": "auto-q08",
+      "industry": "auto",
+      "difficulty": "Advanced",
+      "question": "Which split of 'Cars a maker dispatches to its domestic dealers (wholesales) in a year' is MECE?",
+      "parent": "Cars a maker dispatches to its domestic dealers (wholesales) in a year",
+      "options": [
+        {
+          "split": [
+            "Retail sales to customers",
+            "Change in stock at dealers"
+          ],
+          "correct": false,
+          "why": "Gap: cars dispatched but still on trucks or trains are neither retailed nor in dealer stock, so the change in stock in transit is missing."
+        },
+        {
+          "split": [
+            "Retail sales to customers",
+            "Change in channel stock",
+            "Registrations by first owners"
+          ],
+          "correct": false,
+          "why": "Overlap: first-owner registrations on Vahan record retail sales, so the same cars are counted twice."
+        },
+        {
+          "split": [
+            "Retail sales to customers",
+            "Change in channel stock (in transit and at dealers)"
+          ],
+          "correct": true,
+          "why": "Wholesales = retail sales + change in channel stock; every car dispatched is either sold or still in the channel."
+        },
+        {
+          "split": [
+            "Retail sales to customers",
+            "Channel stock at year end"
+          ],
+          "correct": false,
+          "why": "Mixed basis: year-end stock is a level, not a flow, so it includes cars dispatched in earlier years; only the change in stock adds to dispatches."
+        }
+      ]
+    }
+  ],
+  "chainDrills": [
+    {
+      "id": "auto-v01",
+      "industry": "auto",
+      "difficulty": "Beginner",
+      "type": "locate",
+      "prompt": "A car maker's warranty claims for failed infotainment screens doubled. Teardowns show a faulty solder batch at the plant of the company that makes the screens. In which stage did the problem start?",
+      "options": [
+        "s1",
+        "s2",
+        "s3",
+        "s6"
+      ],
+      "answer": [
+        "s2"
+      ],
+      "why": "The screens are made by a component supplier, and the fault arose in its process. The cost shows up in the OEM's warranty and the repairs in aftersales, but the cause sits with the supplier."
+    },
+    {
+      "id": "auto-v02",
+      "industry": "auto",
+      "difficulty": "Beginner",
+      "type": "order",
+      "prompt": "Put the stages of the automotive value chain in order, from inputs to the vehicle's life after sale.",
+      "options": [
+        "s4",
+        "s1",
+        "s6",
+        "s3",
+        "s5",
+        "s2"
+      ],
+      "answer": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6"
+      ],
+      "why": "Materials and cells feed component suppliers, who supply the vehicle makers; dealers sell the vehicles, lenders and insurers finance and cover them at the point of sale, and aftersales serves them for the rest of their life."
+    },
+    {
+      "id": "auto-v03",
+      "industry": "auto",
+      "difficulty": "Intermediate",
+      "type": "locate",
+      "prompt": "Bookings of an entry hatchback held steady this year, but the share of bookings converted into deliveries fell from 85% to 72%, almost entirely among first-time buyers in small towns. Dealers have ample stock and there is no waiting period. Where in the chain is the constraint?",
+      "options": [
+        "s3",
+        "s4",
+        "s5",
+        "s6"
+      ],
+      "answer": [
+        "s5"
+      ],
+      "why": "The cancellations show up at the dealer, but stock and waiting periods rule out supply and the dealer. First-time buyers in small towns often have no credit history, and with about four in five cars bought on loans, loan rejections in the financing stage are what stop booked cars from being delivered."
+    },
+    {
+      "id": "auto-v04",
+      "industry": "auto",
+      "difficulty": "Intermediate",
+      "type": "assign",
+      "prompt": "Assign each cost or revenue item to the stage where it is incurred or earned.",
+      "items": [
+        {
+          "item": "Cathode material bought by a battery cell maker",
+          "stage": "s1"
+        },
+        {
+          "item": "Revenue a piston maker earns selling replacement pistons to parts retailers",
+          "stage": "s2"
+        },
+        {
+          "item": "Electricity for the paint shop at a car plant",
+          "stage": "s3"
+        },
+        {
+          "item": "Commission a dealer earns for arranging a customer's car loan",
+          "stage": "s4"
+        },
+        {
+          "item": "Interest earned on a five-year car loan",
+          "stage": "s5"
+        },
+        {
+          "item": "Labour charges for a 40,000 km service",
+          "stage": "s6"
+        }
+      ],
+      "why": "Three items are tricky. Cathode material is an input to cell making, which sits with raw materials and cells. Replacement pistons are aftermarket parts, but the revenue is the component maker's, earned in the supplier stage; only the retailer's or garage's margin sits in aftersales. The loan pair splits in two: the dealer's commission is dealer revenue, while the interest is earned by the lender."
+    },
+    {
+      "id": "auto-v05",
+      "industry": "auto",
+      "difficulty": "Advanced",
+      "type": "locate",
+      "prompt": "An electric scooter maker's claims for swollen batteries spiked. It assembles packs in-house, and pack assembly passed every audit. Teardowns trace the problem to contamination in cells from one production lot. Where is the root cause?",
+      "options": [
+        "s1",
+        "s2",
+        "s3",
+        "s6"
+      ],
+      "answer": [
+        "s1"
+      ],
+      "why": "The pack assembly (at the maker) and the repairs (in aftersales) are only where the problem was seen. The defect came from cell making, which sits in the raw materials and cells stage."
+    },
+    {
+      "id": "auto-v06",
+      "industry": "auto",
+      "difficulty": "Advanced",
+      "type": "locate",
+      "prompt": "A car maker's retail registrations rose 8% this year, but its reported domestic sales (wholesales) rose only 2% and profit fell on lower plant utilisation. Demand looks healthy. Where does the gap between the two growth numbers arise?",
+      "options": [
+        "s3",
+        "s4",
+        "s5",
+        "s6"
+      ],
+      "answer": [
+        "s4"
+      ],
+      "why": "Wholesales equal retail sales plus the change in dealer stock. Dealers sold more than they took in, cutting stock (for example, from about 60 to 35 days), so the gap sits in dealer inventory, not in demand or the plant."
+    }
+  ]
+}

@@ -1,0 +1,3935 @@
+{
+  "industry": "fmcg",
+  "valueChain": {
+    "summary": "FMCG brand owners make money by selling high volumes of low-priced, frequently bought products at gross margins of 40-55%, funded by heavy advertising that builds pricing power. Distributors and retailers earn thin percentage margins but turn their stock and capital many times a year, so the brand's skill lies in reaching millions of outlets cheaply while protecting price.",
+    "stages": [
+      {
+        "id": "s1",
+        "name": "Brand and product development",
+        "activities": [
+          "Consumer research and insight",
+          "Formulation and pack design (R&D)",
+          "Brand positioning and pack-price architecture (₹5, ₹10, ₹20 price points)",
+          "Advertising and promotion planning"
+        ],
+        "players": [
+          "FMCG brand owners (multinational, Indian, regional)",
+          "D2C brands",
+          "Advertising and media agencies",
+          "Market research and retail audit firms"
+        ],
+        "revenueDrivers": [
+          "Price premium the brand can command",
+          "Share of sales from new launches",
+          "Pack-price architecture that fits each channel"
+        ],
+        "costDrivers": [
+          "Advertising and promotion (about 8-14% of net sales)",
+          "R&D and consumer research (about 0.5-1.5% of net sales)",
+          "Launch and listing costs for new SKUs"
+        ],
+        "kpis": [
+          {
+            "name": "A&P to sales",
+            "formula": "advertising and promotion spend / net sales",
+            "benchmark": "about 8-12% for large Indian home and personal care companies (approx.)"
+          },
+          {
+            "name": "Innovation share of sales",
+            "formula": "sales from SKUs launched in last 3 years / total sales",
+            "benchmark": "about 10-20% for leading players (approx.)"
+          }
+        ],
+        "marginNote": "Not a P&L stage on its own: it is where pricing power, and therefore the brand owner's 40-55% gross margin, is created."
+      },
+      {
+        "id": "s2",
+        "name": "Raw and packing material sourcing",
+        "activities": [
+          "Buying agri commodities (wheat, sugar, milk, tea, palm oil)",
+          "Buying chemicals (LAB, soda ash, surfactants, fragrances)",
+          "Buying packaging (laminates, PET, cartons, corrugated boxes)",
+          "Hedging and supplier contracts"
+        ],
+        "players": [
+          "Commodity traders and importers",
+          "Farmers, cooperatives and aggregators",
+          "Chemical companies",
+          "Packaging converters"
+        ],
+        "revenueDrivers": [
+          "(For suppliers) volume and commodity price levels"
+        ],
+        "costDrivers": [
+          "Commodity prices and monsoon outcomes",
+          "Crude oil prices (for LAB, polymers, laminates)",
+          "Exchange rate and import duties on palm oil",
+          "Supplier concentration"
+        ],
+        "kpis": [
+          {
+            "name": "Material cost ratio",
+            "formula": "raw and packing material cost / net sales",
+            "benchmark": "about 40-55% for most FMCG categories (approx.)"
+          },
+          {
+            "name": "Hedge cover",
+            "formula": "months of commodity requirement priced in advance",
+            "benchmark": "about 3-6 months for key inputs (approx.)"
+          }
+        ],
+        "marginNote": "Thin for suppliers: commodity traders about 1-3% EBITDA, packaging converters about 8-12%. For the brand owner this is the largest cost line."
+      },
+      {
+        "id": "s3",
+        "name": "Manufacturing",
+        "activities": [
+          "Processing and blending",
+          "Filling and packing",
+          "Quality control",
+          "Production planning"
+        ],
+        "players": [
+          "Brand-owned plants",
+          "Contract manufacturers and co-packers",
+          "Plants in tax-incentive zones"
+        ],
+        "revenueDrivers": [
+          "(For contract manufacturers) conversion fee per unit and capacity used"
+        ],
+        "costDrivers": [
+          "Plant labour and power",
+          "Capacity utilisation and changeovers",
+          "Wastage and rework",
+          "Depreciation on lines"
+        ],
+        "kpis": [
+          {
+            "name": "OEE",
+            "formula": "availability x performance x quality",
+            "benchmark": "about 65-85% on well-run packing lines (approx.)"
+          },
+          {
+            "name": "Conversion cost per unit",
+            "formula": "(plant labour + power + plant overheads) / units produced",
+            "benchmark": "equivalent to about 4-8% of net sales (approx.)"
+          }
+        ],
+        "marginNote": "Contract manufacturers earn about 8-12% EBITDA; for brand owners it is a cost centre whose job is low conversion cost and reliable supply."
+      },
+      {
+        "id": "s4",
+        "name": "Primary distribution",
+        "activities": [
+          "Moving stock from plants to mother warehouses and C&F depots",
+          "Stock allocation across depots",
+          "Billing and dispatch to distributors"
+        ],
+        "players": [
+          "C&F (carrying and forwarding) agents",
+          "Third-party logistics providers",
+          "Truck operators"
+        ],
+        "revenueDrivers": [
+          "(For C&F agents) a commission of a few per cent of the value handled (approx.)"
+        ],
+        "costDrivers": [
+          "Diesel and truck rates",
+          "Warehouse rent and handling",
+          "Inventory carrying cost",
+          "Number of stocking points"
+        ],
+        "kpis": [
+          {
+            "name": "Case fill rate",
+            "formula": "cases shipped / cases ordered by distributors",
+            "benchmark": "95%+ for leading FMCG companies"
+          },
+          {
+            "name": "Network inventory days",
+            "formula": "finished goods inventory at cost / (annual cost of goods sold / 365)",
+            "benchmark": "about 25-40 days (approx.)"
+          }
+        ],
+        "marginNote": "Thin: logistics firms and C&F agents earn low single-digit margins; for the brand, freight and warehousing cost about 4-6% of net sales."
+      },
+      {
+        "id": "s5",
+        "name": "Secondary distribution",
+        "activities": [
+          "Distributor buys stock and sells to retailers",
+          "Salesmen visit outlets on fixed beats",
+          "Van delivery and credit to retailers",
+          "Running trade schemes"
+        ],
+        "players": [
+          "Distributors and stockists",
+          "Super-stockists and sub-stockists for rural areas",
+          "Wholesalers",
+          "B2B retail ordering apps"
+        ],
+        "revenueDrivers": [
+          "Distributor margin of about 4-7% plus scheme income (approx.)",
+          "Throughput (turnover per month)"
+        ],
+        "costDrivers": [
+          "Salesmen and delivery vans",
+          "Credit extended to retailers",
+          "Godown rent",
+          "Damages and expiries"
+        ],
+        "kpis": [
+          {
+            "name": "Numeric distribution",
+            "formula": "outlets stocking the SKU / total outlets in the universe",
+            "benchmark": "60-80%+ for leading mass brands in urban India (approx.)"
+          },
+          {
+            "name": "Distributor ROI",
+            "formula": "distributor's annual net profit / capital employed in the business",
+            "benchmark": "about 18-25% expected by distributors (approx.)"
+          }
+        ],
+        "marginNote": "Thin on turnover, about 2-3% net, but acceptable returns because stock turns 15-25 times a year."
+      },
+      {
+        "id": "s6",
+        "name": "Retail and consumer",
+        "activities": [
+          "Stocking and displaying products",
+          "Selling to shoppers",
+          "In-store visibility and promotions",
+          "Consumer purchase and use"
+        ],
+        "players": [
+          "Kirana and general stores",
+          "Chemists and paan shops",
+          "Supermarkets and hypermarkets",
+          "E-commerce marketplaces and quick-commerce apps"
+        ],
+        "revenueDrivers": [
+          "Retailer margin (about 8-15% in kirana, higher in modern trade incl. listing fees)",
+          "Footfall and basket size",
+          "Shopper penetration and purchase frequency (brand's view)"
+        ],
+        "costDrivers": [
+          "Store rent and staff",
+          "Shelf space and visibility payments",
+          "Dark-store and delivery costs (quick commerce)"
+        ],
+        "kpis": [
+          {
+            "name": "Weighted distribution",
+            "formula": "category sales of outlets stocking the SKU / total category sales",
+            "benchmark": "above numeric distribution when the brand is in the bigger outlets"
+          },
+          {
+            "name": "Offtake vs secondary sales",
+            "formula": "retail sales to consumers / distributor sales to retailers",
+            "benchmark": "close to 1.0 over a quarter; a lower ratio means stock is building in the trade"
+          }
+        ],
+        "marginNote": "Kirana gross margins about 8-15%; modern trade EBITDA about 2-5%; quick commerce still near break-even at the contribution level (approx.)."
+      }
+    ],
+    "profitPools": "Brand owners capture most of the profit: leading Indian home and personal care companies earn about 20-30% EBITDA margins and very high returns on capital because brand strength lets them price well above material cost. Distributors and retailers keep thin percentage margins but earn acceptable returns from fast stock turns, while commodity and packaging suppliers are price-takers with low margins.",
+    "unitEconomics": {
+      "unit": "per ₹100 of consumer spend on a personal care product sold through kirana",
+      "lines": [
+        {
+          "item": "Consumer price (MRP, incl. GST)",
+          "value": "₹100.0"
+        },
+        {
+          "item": "GST at 5%",
+          "value": "-₹4.8"
+        },
+        {
+          "item": "Retailer margin and trade schemes",
+          "value": "-₹13.0"
+        },
+        {
+          "item": "Distributor margin",
+          "value": "-₹4.0"
+        },
+        {
+          "item": "Raw and packing materials",
+          "value": "-₹35.0"
+        },
+        {
+          "item": "Conversion (plant labour, power, overheads)",
+          "value": "-₹4.5"
+        },
+        {
+          "item": "Freight and warehousing",
+          "value": "-₹4.5"
+        },
+        {
+          "item": "Advertising and promotion",
+          "value": "-₹9.5"
+        },
+        {
+          "item": "Staff, selling and head office costs",
+          "value": "-₹8.5"
+        }
+      ],
+      "result": "Brand EBITDA ≈ ₹16.2 per ₹100 of MRP, about 21% of the brand's net sales of ₹78.2"
+    },
+    "india": "India has roughly 1.2-1.4 crore kirana and small retail outlets, and general trade still carries most FMCG sales (about 75-85% by most estimates, approx.), so a brand's reach depends on its distributor network and the ₹5 and ₹10 packs that suit daily-wage budgets. Rural India is about 35-40% of FMCG sales and quick commerce is growing fast in metros. The September 2025 GST rationalisation moved soap, shampoo, toothpaste, hair oil and most packaged foods such as biscuits into the 5% slab, while detergents and dishwash products stayed at 18%.",
+    "workedExample": {
+      "problem": "A biscuit brand's market share in rural Uttar Pradesh fell 2 points in a year, though its consumer price and advertising were unchanged.",
+      "trace": [
+        "Brand (s1): awareness and consideration scores in the region are stable, so the brand itself has not weakened.",
+        "Retail (s6): in outlets that stock the brand, sales per outlet are flat; the fall comes from fewer outlets selling it, as numeric distribution dropped from 62% to 51%.",
+        "Secondary distribution (s5): last year the company replaced 14 small rural distributors with 3 super-stockists to cut cost, and their vans cover far fewer villages each week.",
+        "Primary distribution (s4) and manufacturing (s3): depot fill rates stayed above 95%, so supply was not the cause.",
+        "Root cause: the distributor consolidation cut rural reach; the fix is sub-stockists or direct van routes for the dropped villages, paid for out of the saving."
+      ],
+      "lesson": "When share falls while brand health and in-outlet sales hold up, the problem is usually reach, so trace back from the shelf before blaming price or advertising."
+    }
+  },
+  "cases": [
+    {
+      "id": "fmcg-c01",
+      "title": "Tea brand margin squeeze",
+      "framework": "profitability",
+      "secondary": [],
+      "difficulty": "Beginner",
+      "region": "India",
+      "prompt": "Our client is a mid-sized Indian packaged tea company selling mainly in North India. Its volumes grew 4% last year, but EBITDA margin fell from 11% to about 8%. Why has the margin fallen, and what should it do?",
+      "clarifyingFacts": [
+        "Q: What is the objective? A: Understand the cause and get margin back above 10% within 18 months.",
+        "Q: What does the cost structure look like? A: Last year, per ₹100 of sales: tea leaf ₹36, packaging ₹9 and freight ₹6, which vary with volume, plus A&P ₹10 and other fixed costs ₹28, which did not change this year.",
+        "Q: What happened to prices and tea costs? A: List prices rose 2.5%. A weaker Assam crop pushed auction prices for the client's blend up about 14%.",
+        "Q: Where did the volume growth come from? A: ₹10 pouches rose from 20% to 30% of volume. They realise about 10% less per kg than larger packs and use twice the packaging per kg."
+      ],
+      "hypotheses": [
+        "Tea up 14% adds about ₹5 of cost per ₹100 of last year's sales and the 2.5% price rise recovers ₹2.5; with fixed costs spread over 4% more volume, margin would still be about 9.7%, so tea explains only about 1.3 of the 3 points.",
+        "The shift of ₹10 pouches from 20% to 30% of volume, at 10% lower realisation and twice the packaging per kg, takes margin from about 9.7% to 8.0%, so pack mix explains more than half of the fall."
+      ],
+      "hints": [
+        "Margin is a ratio: split it the way a per-unit P&L works, separating what moves with every kg sold from what does not.",
+        "Net realisation per kg, variable cost per kg, and fixed costs as a share of sales.",
+        "Fixed costs as a share of sales: advertising and promotion, salaries and head office, and plant depreciation and maintenance."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Gross margin per kg",
+          "formula": "net realisation per kg - (tea leaf + packaging + freight) per kg"
+        },
+        {
+          "name": "Price recovery ratio",
+          "formula": "price increase (₹ per kg) / cost increase (₹ per kg)"
+        }
+      ],
+      "commonMistakes": [
+        "Stopping at the tea price shock: once 4% more volume spreads the fixed costs, tea and price together explain only about 1.3 of the 3 points.",
+        "Treating 4% volume growth as good news without asking which packs grew, when the ₹10 pouches behind it earn less and cost more per kg."
+      ],
+      "frameworkPick": {
+        "options": [
+          "profitability",
+          "pricing",
+          "growth",
+          "operations"
+        ],
+        "correct": [
+          "profitability"
+        ],
+        "why": "The question asks why margin fell, which needs a full split of revenue and costs per unit before choosing a fix.",
+        "distractorWhyNot": {
+          "pricing": "Price recovery may be part of the answer, but you must first show how much of the fall comes from input cost, pack mix and price.",
+          "growth": "Volume is already growing; the problem is how much profit each kg makes.",
+          "operations": "Plant efficiency is one cost line among several, and here the cost rise is in bought-in tea, not in operations."
+        }
+      },
+      "industry": "fmcg",
+      "modelTree": {
+        "id": "r",
+        "label": "Why did EBITDA margin fall from 11% to ~8% despite 4% volume growth?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Net realisation per kg",
+            "children": [
+              {
+                "id": "a1",
+                "label": "List price increases taken (2.5%)"
+              },
+              {
+                "id": "a2",
+                "label": "Trade discounts and schemes per kg"
+              },
+              {
+                "id": "a3",
+                "label": "Mix of brands, packs and regions",
+                "children": [
+                  {
+                    "id": "a3x",
+                    "label": "Premium vs economy blends"
+                  },
+                  {
+                    "id": "a3y",
+                    "label": "₹10 pouches (20% to 30% of volume) vs larger packs"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Variable cost per kg",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Tea leaf cost per kg",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Auction price for the blend (+14%)"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Blend recipe (share of costlier Assam leaf)"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Packaging cost per kg"
+              },
+              {
+                "id": "b3",
+                "label": "Freight and distribution cost per kg"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Fixed costs as a share of sales",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Advertising and promotion"
+              },
+              {
+                "id": "c2",
+                "label": "Salaries and head office costs"
+              },
+              {
+                "id": "c3",
+                "label": "Plant costs (depreciation, maintenance)"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "fmcg-c02",
+      "title": "Size India's toothpaste market",
+      "framework": "market-sizing",
+      "secondary": [],
+      "difficulty": "Beginner",
+      "region": "India",
+      "prompt": "A global oral care company is reviewing its India plans and wants a quick estimate of the market. How big is the Indian toothpaste market in a year, by retail value?",
+      "clarifyingFacts": [
+        "Q: Retail value or manufacturer sales? A: Retail value, meaning what consumers pay at MRP.",
+        "Q: Does it include tooth powder? A: No, toothpaste only.",
+        "Q: What population should I use? A: About 145 crore people, of whom about 36% live in urban areas.",
+        "Q: Any data on pack prices? A: A 100 g tube of a mass brand costs about ₹55-65; small packs and economy brands are cheaper per gram."
+      ],
+      "hypotheses": [
+        "The market is roughly ₹10,800 crore a year at retail: about ₹6,000 crore urban and ₹4,900 crore rural.",
+        "Urban India is over half the value with about a third of the people, because both usage per person and price per gram are higher."
+      ],
+      "hints": [
+        "Segment the population where penetration, usage and price per gram differ most, then build each segment bottom-up.",
+        "Urban India and rural India.",
+        "Urban: users (population x share using toothpaste), grams used per user per year, and average price per gram."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Market value",
+          "formula": "users x grams per user per year x price per gram"
+        }
+      ],
+      "commonMistakes": [
+        "Assuming every rural person uses toothpaste, when tooth powder and neem twigs are still common.",
+        "Mixing household and individual units (a tube is shared within a household), which double counts or undercounts usage."
+      ],
+      "frameworkPick": {
+        "options": [
+          "market-sizing",
+          "market-entry",
+          "segmentation",
+          "growth"
+        ],
+        "correct": [
+          "market-sizing"
+        ],
+        "why": "The interviewer asks 'how big', so you need a top-down estimate built from users, usage and price.",
+        "distractorWhyNot": {
+          "market-entry": "The client is reviewing plans, but the question is only the size of the market, not whether or how to enter.",
+          "segmentation": "Urban and rural are used to improve the estimate, not to choose a target segment.",
+          "growth": "No growth target or plan is being asked about."
+        }
+      },
+      "industry": "fmcg",
+      "modelTree": {
+        "id": "r",
+        "label": "Annual retail value of toothpaste sold in India (₹ crore)",
+        "children": [
+          {
+            "id": "a",
+            "label": "Urban India",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Toothpaste users (52 crore people x ~95% use)"
+              },
+              {
+                "id": "a2",
+                "label": "Grams used per user per year (~200 g)"
+              },
+              {
+                "id": "a3",
+                "label": "Average price per gram (~₹0.60)",
+                "children": [
+                  {
+                    "id": "a3x",
+                    "label": "Share of premium variants (sensitivity, whitening, herbal)"
+                  },
+                  {
+                    "id": "a3y",
+                    "label": "Family packs vs 100 g tubes"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Rural India",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Toothpaste users (93 crore people x ~75% use)",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Share still using tooth powder or neem twigs"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Children under brushing age"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Grams used per user per year (~140 g)",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Brushing once vs twice a day"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Grams per brushing"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Average price per gram (~₹0.50, more small packs)"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "fmcg-c03",
+      "title": "Price a millet muesli launch",
+      "framework": "pricing",
+      "secondary": [],
+      "difficulty": "Beginner",
+      "region": "India",
+      "prompt": "Our client, a mid-sized Indian foods company, is launching a millet-based breakfast muesli in a 400 g pack, sold mainly through supermarkets and quick-commerce apps. It costs about ₹95 a pack to make and deliver. What price should the client set?",
+      "clarifyingFacts": [
+        "Q: What margin does the client need? A: At least 40% gross margin on its net sales.",
+        "Q: What sits between MRP and the client's net price? A: GST of 5% and retailer and app margins of about 25% of the pre-GST price.",
+        "Q: What do competitors charge? A: Mainstream cornflakes are about ₹50 per 100 g; oats-based muesli brands are ₹80-100 per 100 g, so ₹320-400 for 400 g.",
+        "Q: What is the objective? A: Build a premium health brand with 15 lakh packs sold in year 1."
+      ],
+      "hypotheses": [
+        "A ₹299 MRP clears the ₹222 cost floor with about 56% gross margin and sits 7-25% below oats-based muesli, which suits a new brand that needs trial.",
+        "Shoppers who already buy oats-based muesli will see millet as a like-for-like swap, so the price ceiling is set by those brands rather than by cornflakes."
+      ],
+      "hints": [
+        "Bound the price from below and above using three different reference points, then choose within the band.",
+        "Cost floor, competitor reference, and customer value.",
+        "Competitor reference: mainstream cornflakes (about ₹200 for 400 g), oats-based muesli (₹320-400 for 400 g) and other millet-based entrants."
+      ],
+      "keyMetrics": [
+        {
+          "name": "MRP floor",
+          "formula": "cost per pack / (1 - target gross margin) / (1 - trade margin) x (1 + GST)"
+        },
+        {
+          "name": "Gross margin at a given MRP",
+          "formula": "(MRP / 1.05 x 0.75 - ₹95) / (MRP / 1.05 x 0.75)"
+        }
+      ],
+      "commonMistakes": [
+        "Applying the 40% margin to MRP instead of to the client's net price after GST and trade margins, which sets the floor far too low.",
+        "Benchmarking against cornflakes, a different product, rather than the oats-based muesli the shopper will compare it with."
+      ],
+      "frameworkPick": {
+        "options": [
+          "pricing",
+          "product-launch",
+          "profitability",
+          "market-entry"
+        ],
+        "correct": [
+          "pricing"
+        ],
+        "why": "The launch is decided; the only question is the price point, so cost, competitor and value lenses are the right tool.",
+        "distractorWhyNot": {
+          "product-launch": "Whether to launch is already settled, so a full launch assessment answers a question nobody asked.",
+          "profitability": "There is no existing profit problem to diagnose; margin enters only as the cost floor.",
+          "market-entry": "The client already sells foods in India, and the question is about one product's price."
+        }
+      },
+      "industry": "fmcg",
+      "modelTree": {
+        "id": "r",
+        "label": "What MRP should the client set for its 400 g millet muesli?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Cost floor: lowest MRP that meets the 40% margin",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Cost to make and deliver (₹95 a pack)"
+              },
+              {
+                "id": "a2",
+                "label": "GST (5%) and trade margins (~25%)"
+              },
+              {
+                "id": "a3",
+                "label": "Required net price (≈₹158, so MRP ≥ ₹222)"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Competitor reference: what rivals charge",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Mainstream cornflakes (~₹200 for 400 g)"
+              },
+              {
+                "id": "b2",
+                "label": "Oats-based muesli (₹320-400 for 400 g)"
+              },
+              {
+                "id": "b3",
+                "label": "Other millet-based entrants"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Customer value: what target shoppers will pay",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Benefits they value (fibre, protein, low sugar, millet)"
+              },
+              {
+                "id": "c2",
+                "label": "Willingness to pay by segment",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "Health-focused urban families"
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "Fitness-focused young adults"
+                  }
+                ]
+              },
+              {
+                "id": "c3",
+                "label": "Price points that trigger trial (e.g. ₹299)"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "fmcg-c04",
+      "title": "Double a regional biscuit maker",
+      "framework": "growth",
+      "secondary": [],
+      "difficulty": "Beginner",
+      "region": "India",
+      "prompt": "Our client is a South Indian biscuit maker with ₹600 crore of revenue, strong in Tamil Nadu and Karnataka. The promoter wants to double revenue in five years. How should the client get there?",
+      "clarifyingFacts": [
+        "Q: How fast is the business growing today? A: About 7% a year, in line with the market, which would take it to about ₹840 crore in five years.",
+        "Q: Where does it sell? A: About 90% of sales are in Tamil Nadu and Karnataka, through roughly 2.5 lakh outlets.",
+        "Q: What does it make? A: Glucose, marie and cream biscuits, mostly in ₹5 and ₹10 packs.",
+        "Q: Any limits? A: The promoter will take on up to ₹300 crore of debt and wants EBITDA to stay at about 9%."
+      ],
+      "hypotheses": [
+        "Momentum takes revenue to only about ₹842 crore, so the client must find about ₹358 crore of extra revenue, more than the core states can add.",
+        "Acquiring a ₹150-200 crore regional biscuit brand in another state is faster and less risky than building distributor networks there from scratch."
+      ],
+      "hints": [
+        "Use a product-by-market grid for organic growth, and remember that growth can be built or bought.",
+        "Existing biscuits in current states, existing biscuits in new markets, new products, and acquisitions.",
+        "New products: adjacent bakery (rusks, cakes) and savoury snacks (namkeen, crackers)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Required CAGR",
+          "formula": "(target revenue / current revenue)^(1/5) - 1 = 14.9%"
+        },
+        {
+          "name": "Revenue",
+          "formula": "outlets served x sales per outlet per year"
+        }
+      ],
+      "commonMistakes": [
+        "Listing ideas without sizing them against the ~₹360 crore gap left after momentum growth.",
+        "Ignoring that new states need distributors and brand building from scratch, which takes years to pay back."
+      ],
+      "frameworkPick": {
+        "options": [
+          "growth",
+          "market-entry",
+          "ma",
+          "profitability"
+        ],
+        "correct": [
+          "growth"
+        ],
+        "why": "The client has a revenue target and needs the full set of growth levers, organic and inorganic, sized against it.",
+        "distractorWhyNot": {
+          "market-entry": "Entering new states is one lever, but the question asks for the whole route to ₹1,200 crore.",
+          "ma": "Acquisition is one branch of the answer, not the question itself.",
+          "profitability": "Margins are stable at 9%; the issue is the scale of revenue."
+        }
+      },
+      "industry": "fmcg",
+      "modelTree": {
+        "id": "r",
+        "label": "How can the client grow revenue from ₹600 crore to ₹1,200 crore in five years?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Grow existing biscuits in Tamil Nadu and Karnataka",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Reach more outlets (beyond 2.5 lakh)"
+              },
+              {
+                "id": "a2",
+                "label": "Sell more per outlet (range, visibility, schemes)"
+              },
+              {
+                "id": "a3",
+                "label": "Shift mix to higher-priced cream variants"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Take existing biscuits to new markets",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Rest of South India (Kerala, Andhra Pradesh, Telangana)"
+              },
+              {
+                "id": "b2",
+                "label": "West and North India"
+              },
+              {
+                "id": "b3",
+                "label": "Exports (Gulf, Africa)"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Launch new products organically",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Adjacent bakery (rusks, cakes)"
+              },
+              {
+                "id": "c2",
+                "label": "Savoury snacks (namkeen, crackers)"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Acquire other businesses",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Regional biscuit brands in other states"
+              },
+              {
+                "id": "d2",
+                "label": "Brands in adjacent categories"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "fmcg-c05",
+      "title": "European pet food enters India",
+      "framework": "market-entry",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "India",
+      "prompt": "A large European pet food company with no presence in India is deciding whether to enter. Indian packaged pet food is about ₹5,000 crore and growing about 15% a year. The board wants ₹500 crore of revenue within seven years. Should the client enter, and if so, how?",
+      "clarifyingFacts": [
+        "Q: Who leads, and how is it sold? A: Two multinationals hold about 60%. Pet shops and vets sell about 45%, e-commerce about 35% and supermarkets about 20%.",
+        "Q: How is the market split? A: Dog food is about 80% of value. Cat food is about 20% but growing about 25% a year.",
+        "Q: What are the client's strengths? A: Premium wet food and cat food, although dog food is 70% of its global sales. It has no plant in India.",
+        "Q: Can it import? A: Yes, but duties and freight add about 25-30% to landed cost, so local production would be needed at scale."
+      ],
+      "hypotheses": [
+        "₹500 crore in year 7 needs only about 3.8% of a market that will be about ₹13,300 crore, but only with local production, because imported cost pushes prices above the premium tier.",
+        "Cat food (about 20% of value but growing about 25% a year, against about 12.5% for dog food) matches the client's strength, so a cat-led entry through e-commerce and vets builds share faster than leading with dog food, its biggest line globally."
+      ],
+      "hints": [
+        "Order the board's questions so that each must be answered yes before the next one matters.",
+        "Market attractiveness, ability to win, how to enter, and whether the economics work.",
+        "Market attractiveness: size and growth (pets fed packaged food, spend per pet) and profit potential (price levels against cost, channel margins)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Required share",
+          "formula": "target revenue / market size in year 7"
+        },
+        {
+          "name": "Market size",
+          "formula": "pet dogs and cats x share fed packaged food x spend per pet per year"
+        }
+      ],
+      "commonMistakes": [
+        "Treating ₹500 crore as 10% of today's ₹5,000 crore market instead of about 3.8% of the year-7 market.",
+        "Leading with dog food because it is the client's biggest line globally, when cat food is where its strength meets the fastest-growing segment."
+      ],
+      "frameworkPick": {
+        "options": [
+          "market-entry",
+          "market-sizing",
+          "ma",
+          "growth"
+        ],
+        "correct": [
+          "market-entry"
+        ],
+        "why": "A company new to a country asks whether and how to enter, which needs market, competition, capability and economics together.",
+        "distractorWhyNot": {
+          "market-sizing": "The market size is given; sizing is a step inside the answer, not the question.",
+          "ma": "Buying a brand is one entry mode to compare, not the decision being asked.",
+          "growth": "Growth frameworks assume an existing business in the market; the client has none."
+        }
+      },
+      "industry": "fmcg",
+      "modelTree": {
+        "id": "r",
+        "label": "Should the client enter Indian pet food, and how, to reach ₹500 crore in 7 years?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Is the market attractive?",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Size and growth (₹5,000 crore, ~15% a year)",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Pet dogs and cats, and share fed packaged food"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Spend per pet per year"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Profit potential of the category",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Price levels vs cost to make and deliver"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Channel margins (pet shops, vets, e-commerce)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Can the client win against competitors?",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Competitor positions",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Two multinationals with ~60% share"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Indian and D2C challengers"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Client's strengths against what wins in India",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Premium wet food and cat food expertise"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Low brand awareness in India"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "How should it enter?",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Entry mode",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Import and sell online first"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Contract manufacture in India"
+                  },
+                  {
+                    "id": "c1z",
+                    "label": "Acquire an Indian brand"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Go-to-market",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "Channels: pet shops, vets, e-commerce"
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "Lead segment and price tier"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Do the economics work?",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Revenue path to ₹500 crore (≈3.8% of a ₹13,300 crore market)"
+              },
+              {
+                "id": "d2",
+                "label": "Investment and break-even year",
+                "children": [
+                  {
+                    "id": "d2x",
+                    "label": "Plant or co-packer set-up cost"
+                  },
+                  {
+                    "id": "d2y",
+                    "label": "Marketing and vet outreach spend"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "fmcg-c06",
+      "title": "Too much stock, too few deliveries",
+      "framework": "operations",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "Global",
+      "prompt": "A European household cleaning products company with €4.5 billion of revenue holds 46 days of finished goods inventory, against a target of 35. Yet its fill rate to retailers has slipped to 92%, below the 97% they expect. How can it cut inventory without hurting service?",
+      "clarifyingFacts": [
+        "Q: How has the range changed? A: SKUs rose from 2,800 to 4,100 in three years, mostly new scents and pack sizes.",
+        "Q: Where is the stock held? A: In 14 national warehouses across Europe, plus stock in transit from 6 plants. Two warehouses are full and the logistics team wants to add a fifteenth.",
+        "Q: How good is forecasting? A: SKU-level forecast error is about 40%; promotions are often not shared with planners in time.",
+        "Q: What is the prize? A: Cost of goods sold is about €2.5 billion, so reaching 35 days frees about €75 million of cash. The target is to get there in 12 months."
+      ],
+      "hypotheses": [
+        "Most excess stock sits in long-tail SKUs while best-sellers run short, so the problem is the mix and placement of stock, not its total level.",
+        "Holding safety stock in 14 warehouses multiplies buffers; pooling into about 6 hubs could cut safety stock by roughly 35% (square-root rule).",
+        "The full warehouses are a symptom of excess tail stock, not a capacity shortage, so a fifteenth warehouse would add another buffer and raise stock."
+      ],
+      "hints": [
+        "Split inventory by the reason each unit of stock exists, because each reason has different levers.",
+        "Cycle stock, safety stock, pipeline stock, and excess or slow-moving stock.",
+        "Cycle stock: production batch sizes (changeover time, minimum run lengths) and replenishment frequency to warehouses."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Inventory days",
+          "formula": "finished goods inventory at cost / (annual cost of goods sold / 365)"
+        },
+        {
+          "name": "Fill rate",
+          "formula": "cases delivered on time and in full / cases ordered"
+        },
+        {
+          "name": "Safety stock",
+          "formula": "service factor x demand variability x √(lead time)"
+        }
+      ],
+      "commonMistakes": [
+        "Treating stock and service as a straight trade-off and proposing a blanket cut, when the wrong stock is in the wrong places.",
+        "Ignoring the SKU tail, which both ties up stock and takes production slots away from best-sellers."
+      ],
+      "frameworkPick": {
+        "options": [
+          "operations",
+          "profitability",
+          "turnaround",
+          "segmentation"
+        ],
+        "correct": [
+          "operations"
+        ],
+        "why": "The question is about how the supply chain holds and moves stock, so an operations split of inventory by type is the right tool.",
+        "distractorWhyNot": {
+          "profitability": "Profit is not the problem stated; the issue is cash tied up in stock and poor service.",
+          "turnaround": "The company is not in crisis; this is a targeted supply chain fix.",
+          "segmentation": "SKU segmentation may be used inside the answer, but customer segments are not the question."
+        }
+      },
+      "industry": "fmcg",
+      "modelTree": {
+        "id": "r",
+        "label": "How to cut stock from 46 to 35 days and lift fill rate to 97%?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Cycle stock (made by batch sizes)",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Production batch sizes",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Changeover time on packing lines"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Minimum run lengths per SKU"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Replenishment frequency to warehouses"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Safety stock (buffer against uncertainty)",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Demand uncertainty",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "SKU-level forecast error (~40%)"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Promotions not shared with planners"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Supply uncertainty",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Plants missing production schedules"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Variability of plant-to-warehouse lead times"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Number of stocking points (14 warehouses)"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Pipeline stock (in transit)",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Transit times from plants",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Distance from plants to warehouses"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Transport mode (road, rail, short-sea)"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Transfers between warehouses"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Excess and slow-moving stock",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Live SKUs held above target cover",
+                "children": [
+                  {
+                    "id": "d1x",
+                    "label": "Over-forecast new scents and pack sizes"
+                  },
+                  {
+                    "id": "d1y",
+                    "label": "Promotional stock left after the event"
+                  }
+                ]
+              },
+              {
+                "id": "d2",
+                "label": "Discontinued SKUs and stock near expiry"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "fmcg-c07",
+      "title": "Respond to a cut-price dishwash rival",
+      "framework": "competitive-response",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "India",
+      "prompt": "Our client sells India's leading dishwash liquid at ₹110 for 500 ml. Six months ago a challenger launched a similar liquid at ₹85, and the client's value share in dishwash liquids fell from 48% to 44%. Should the client cut its price to match?",
+      "clarifyingFacts": [
+        "Q: What does the client earn per pack? A: After 18% GST and about 16% trade margins, net realisation is about ₹78; variable cost is ₹48, so contribution is about ₹30.",
+        "Q: Who is the challenger? A: The FMCG arm of a large Indian conglomerate, with deep pockets and a stated aim of gaining share fast.",
+        "Q: Where is it selling? A: Mostly supermarkets and quick-commerce apps in the top 8 metros; about 75% of the client's liquid volume is sold through kirana, where share is stable.",
+        "Q: What else does the client sell? A: It also leads dishwash bars, which are about 70% of the dishwash category by value."
+      ],
+      "hypotheses": [
+        "Share loss is concentrated in metro supermarkets and quick commerce, so a national cut to ₹85 would give away about ₹18 of the ₹30 contribution on every pack, including the 75% of volume that is not at risk.",
+        "A refill pouch or smaller pack at a sharper price, pushed only in the channels under attack, defends price-sensitive shoppers without repricing the core pack."
+      ],
+      "hints": [
+        "Use a sequential split that ends in the decision, with each earlier branch narrowing the options.",
+        "The challenger's move and staying power, the damage to the client, and the response options.",
+        "The challenger: its aim and staying power (funding, cost and margin at ₹85) and its likely reaction to each of the client's moves."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Break-even volume rise for a price cut",
+          "formula": "old contribution per pack / new contribution per pack - 1 = ₹30 / ₹12.5 - 1 ≈ 140%"
+        },
+        {
+          "name": "Net realisation",
+          "formula": "MRP / (1 + GST) x (1 - trade margin)"
+        }
+      ],
+      "commonMistakes": [
+        "Cutting price nationally when the share loss is limited to two channels in eight cities.",
+        "Comparing the ₹25 MRP gap instead of the contribution effect after 18% GST and trade margins (about ₹18 of a ₹30 contribution)."
+      ],
+      "frameworkPick": {
+        "options": [
+          "competitive-response",
+          "pricing",
+          "profitability",
+          "market-entry"
+        ],
+        "correct": [
+          "competitive-response"
+        ],
+        "why": "The client is reacting to a rival's move, so it must read the rival's intent and staying power before choosing among price and non-price responses.",
+        "distractorWhyNot": {
+          "pricing": "Price is one lever, but the question is how to answer a competitor, which needs its intent and non-price options too.",
+          "profitability": "Profit has not yet collapsed; the risk is future share and margin from one rival's move.",
+          "market-entry": "It is the challenger, not the client, that has entered."
+        }
+      },
+      "industry": "fmcg",
+      "modelTree": {
+        "id": "r",
+        "label": "Should the client cut its ₹110 dishwash liquid to ₹85 to match the challenger?",
+        "children": [
+          {
+            "id": "a",
+            "label": "What is the challenger doing, and can it last?",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Its aim and staying power",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Funding and willingness to make losses"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Its cost and margin at ₹85"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Its likely reaction to each of our moves"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "How much is the client hurt, and where?",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Share loss by channel and city",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Supermarkets and quick commerce in top 8 metros"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Kirana (75% of volume, stable share)"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Profit at risk",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Lost contribution at ~₹30 a pack"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Risk of spread to dishwash bars"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Which response works best?",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Match at ₹85 nationally",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Contribution falls from ₹30 to about ₹12.5 a pack"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Volume must rise about 2.4 times to stand still"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Hold price, fight on non-price levers",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "Visibility and promotions in metro modern trade"
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "Performance claims and advertising"
+                  }
+                ]
+              },
+              {
+                "id": "c3",
+                "label": "Launch a lower-priced pack or flanker",
+                "children": [
+                  {
+                    "id": "c3x",
+                    "label": "Smaller or refill pack at a sharper price point"
+                  },
+                  {
+                    "id": "c3y",
+                    "label": "Cannibalisation of the ₹110 pack"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "fmcg-c08",
+      "title": "Launch high-protein crisps in the UK",
+      "framework": "product-launch",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "Global",
+      "prompt": "Our client is a UK snacks company with £400 million of revenue, mostly from standard potato crisps. It is considering a high-protein crisps range that it expects to reach £30 million of sales by year 3, but it needs a new £12 million production line. Should it launch?",
+      "clarifyingFacts": [
+        "Q: What margins apply? A: The protein range would earn about 32% contribution margin; core crisps earn about 38%.",
+        "Q: Will it take sales from the core range? A: Research suggests about 30% of protein crisps sales would come from the client's own crisps.",
+        "Q: What support and hurdle apply? A: About £4 million a year of advertising and promotion, and the board wants payback within 4 years.",
+        "Q: Any rules that matter? A: In larger stores in England, standard crisps classed as HFSS cannot sit at checkouts, entrances or aisle ends or go on multibuy deals, and Wales and Scotland added placement rules in 2026. The protein recipe passes the current nutrient profiling model, but the government intends to adopt a stricter one."
+      ],
+      "hypotheses": [
+        "At 30% cannibalisation the range adds only about £2.2m a year of profit by year 3, so the £12m line pays back in over 5 years and misses the 4-year hurdle.",
+        "A co-packer for the first two years removes most of the capital risk while demand is tested, and limits the loss if a stricter nutrient model later classes the range as HFSS and it loses its prime space."
+      ],
+      "hints": [
+        "Use the questions a board asks before approving a new line, ending with the money.",
+        "Demand, ability to win against rivals, and payback including cannibalisation.",
+        "Demand: size and growth of UK protein snacks (shoppers, spend per shopper) and fit with what shoppers want (taste against protein, price premium)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Incremental annual profit",
+          "formula": "new sales x 32% - cannibalised sales x 38% - A&P"
+        },
+        {
+          "name": "Payback",
+          "formula": "capex / incremental annual profit"
+        }
+      ],
+      "commonMistakes": [
+        "Counting the full £30m of sales as new, forgetting that £9m comes out of the client's own higher-margin crisps.",
+        "Treating non-HFSS status as permanent: placement rules now cover England, Wales and Scotland, and a stricter nutrient model could reclassify the range and remove its shelf advantage."
+      ],
+      "frameworkPick": {
+        "options": [
+          "product-launch",
+          "market-entry",
+          "profitability",
+          "pricing"
+        ],
+        "correct": [
+          "product-launch"
+        ],
+        "why": "The client is deciding whether to add a new product in a market it already serves, so demand, ability to win and payback with cannibalisation are the core tests.",
+        "distractorWhyNot": {
+          "market-entry": "The client already sells snacks in the UK; it is adding a product, not entering a market.",
+          "profitability": "There is no existing profit problem to diagnose.",
+          "pricing": "Price matters for the business case but is not the decision asked."
+        }
+      },
+      "industry": "fmcg",
+      "modelTree": {
+        "id": "r",
+        "label": "Should the client launch high-protein crisps, needing a £12m line?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Is there enough demand?",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Size and growth of UK protein snacks",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Shoppers who buy protein snacks"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Spend per shopper per year"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Fit with what shoppers want",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Taste vs protein trade-off"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Price premium shoppers will pay"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Can the client win against rivals?",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Competitors in protein snacks",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Specialist protein brands"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Retailer own-label"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Client's capabilities",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Recipe and production know-how"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Retailer relationships and buyer support"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Regulatory position against core crisps",
+                "children": [
+                  {
+                    "id": "b3x",
+                    "label": "Non-HFSS under current model: prime space allowed"
+                  },
+                  {
+                    "id": "b3y",
+                    "label": "Risk of reclassification under a stricter model"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Does it pay back within 4 years?",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Incremental contribution",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "New range contribution (£30m x 32%)"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Contribution lost on cannibalised crisps (£9m x 38%)"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Launch costs",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "£12m production line"
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "£4m a year A&P"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "fmcg-c09",
+      "title": "Where to place 35,000 coolers",
+      "framework": "segmentation",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "India",
+      "prompt": "Our client, an Indian soft drinks company, has budget for 35,000 new visi-coolers this year across its roughly 8 lakh outlets. Each cooler costs about ₹35,000. Which outlets should get them?",
+      "clarifyingFacts": [
+        "Q: What are the economics? A: A cooler lasts about 3 years and costs about ₹250 a month for power support and servicing. The client earns about ₹100 contribution per case of 24 bottles.",
+        "Q: How much does a cooler lift sales? A: About 40% on average, up to 60% in outlets near schools, bus stands and highways, where shoppers drink on the spot.",
+        "Q: Any other facts? A: About 2 lakh outlets already have a client cooler; in many others a rival's cooler is present.",
+        "Q: Any internal views? A: Regional heads have asked for an equal split, about 8,750 coolers each across four regions."
+      ],
+      "hypotheses": [
+        "An outlet must sell about 31 cases a month at a 40% uplift, or 20 at 60%, to cover the ₹1,222 monthly cost, so the coolers should go to high-traffic 'drink now' outlets without a client cooler.",
+        "Outlets with a rival cooler gain less, because shoppers already find chilled drinks there; the lift is highest where no chilled option exists."
+      ],
+      "hints": [
+        "Treat each cooler as a capital investment with a return per outlet, and add a screen for what the numbers miss.",
+        "Benefit per outlet, cost per outlet, and readiness and strategic fit.",
+        "Cost per outlet: the cooler spread over 3 years (about ₹972 a month), power support and servicing (₹250 a month), and losses from damage or theft."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Break-even base volume",
+          "formula": "(cooler cost / 36 months + ₹250) / (₹100 contribution per case x uplift %)"
+        }
+      ],
+      "commonMistakes": [
+        "Ranking outlets by current sales alone, which ignores that a big outlet with a rival cooler may gain little.",
+        "Spreading coolers evenly across regions for fairness instead of by return on each cooler."
+      ],
+      "frameworkPick": {
+        "options": [
+          "segmentation",
+          "operations",
+          "growth",
+          "profitability"
+        ],
+        "correct": [
+          "segmentation"
+        ],
+        "why": "The client must group its 8 lakh outlets by expected return and choose which segment to target with a limited budget.",
+        "distractorWhyNot": {
+          "operations": "Cooler servicing is an operational detail, but the question is which outlets to target.",
+          "growth": "The coolers aim at growth, but the decision asked is how to allocate a fixed budget across outlets.",
+          "profitability": "There is no profit decline to diagnose."
+        }
+      },
+      "industry": "fmcg",
+      "modelTree": {
+        "id": "r",
+        "label": "Which 35,000 outlets should get a new visi-cooler?",
+        "children": [
+          {
+            "id": "a",
+            "label": "How much extra sales would each outlet make?",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Outlet's current volume",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Cases sold per month today"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Share of volume in summer months"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Expected uplift from chilled stock",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Share of 'drink now' shoppers (schools, bus stands, highways)"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Rival cooler already present"
+                  },
+                  {
+                    "id": "a2z",
+                    "label": "Purity risk: owner stocking rival brands in it"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "What does a cooler cost per outlet?",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Cooler cost spread over 3 years (~₹972 a month)"
+              },
+              {
+                "id": "b2",
+                "label": "Power support and servicing (₹250 a month)"
+              },
+              {
+                "id": "b3",
+                "label": "Losses from damage or theft",
+                "children": [
+                  {
+                    "id": "b3x",
+                    "label": "Cooler moved, damaged or lost"
+                  },
+                  {
+                    "id": "b3y",
+                    "label": "Repairs outside the servicing contract"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Which outlets are ready and fit strategy?",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Outlet readiness",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Space and reliable power"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Owner willing to sign placement terms"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Strategic priority",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "Towns where the client's share is weakest"
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "Outlets where rivals are adding coolers"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "fmcg-c10",
+      "title": "Buy a fast-growing D2C skincare brand",
+      "framework": "ma",
+      "secondary": [
+        "profitability"
+      ],
+      "difficulty": "Advanced",
+      "region": "India",
+      "prompt": "Our client, a large Indian FMCG company, is in talks to buy a D2C skincare brand for ₹1,500 crore, about 5 times its ₹300 crore revenue. The brand has grown about 30% a year for three years but is still loss-making. Should the client buy it?",
+      "clarifyingFacts": [
+        "Q: Where does the brand sell? A: About 65% through marketplaces and quick-commerce apps, 35% through its own website; average discounts on marketplaces are about 30%.",
+        "Q: What do its economics look like? A: EBITDA is about -8%; marketing spend is 38% of revenue; 12-month repeat rate is 22%, against 35-40% for category leaders.",
+        "Q: What does the client want, and the founders? A: A foothold in premium skincare, where it has about 2% share, using its strong modern trade and chemist distribution. The founders want to exit fully within two years.",
+        "Q: What should the valuation rest on? A: The brand's plan is ₹1,000 crore revenue at 18% EBITDA in year 5; the client's downside case is ₹600 crore at 10%. Use a 25x EBITDA exit multiple and a 13% discount rate."
+      ],
+      "hypotheses": [
+        "Most of the 30% growth is bought: with 22% repeat and marketing at 38% of revenue, sales would stall if discounts were cut to category norms.",
+        "The plan (a 27% revenue CAGR to ₹1,000 crore at 18% EBITDA, valued at 25x in year 5) is worth about ₹2,400 crore today at 13%, but the downside (₹600 crore at 10%) only about ₹800 crore before funding losses on the way, so ₹1,500 crore is justified only with an earn-out.",
+        "The client can create real value only through modern trade and chemist distribution, which raises repeat buying by putting the brand in front of shoppers offline."
+      ],
+      "hints": [
+        "Build a value bridge from what the target is worth alone to what this particular buyer should pay.",
+        "Standalone worth, synergies, value at risk after the deal, and price and structure.",
+        "Synergies: revenue (selling through the client's modern trade and chemists, export markets) and cost (cheaper media buying, making products in client plants)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Customer lifetime value to CAC",
+          "formula": "(gross margin per order x orders per customer over life) / cost to acquire a customer"
+        },
+        {
+          "name": "Value today",
+          "formula": "year-5 EBITDA x exit multiple / (1 + discount rate)^5"
+        }
+      ],
+      "commonMistakes": [
+        "Taking 30% growth at face value without checking how much is driven by discounts and paid ads.",
+        "Counting synergies the brand could get anyway (any buyer could put it on marketplaces) instead of those only this client can deliver."
+      ],
+      "frameworkPick": {
+        "options": [
+          "ma",
+          "profitability",
+          "market-entry",
+          "pe-dd"
+        ],
+        "correct": [
+          "ma",
+          "profitability"
+        ],
+        "why": "This is an acquisition decision at a price, and the answer turns on whether the target's unit economics can ever be profitable.",
+        "distractorWhyNot": {
+          "market-entry": "The client is entering premium skincare, but the decision on the table is one deal at one price, not how to enter in general.",
+          "pe-dd": "PE due diligence suits a financial buyer seeking exit returns; a strategic buyer also values synergies and fit."
+        }
+      },
+      "industry": "fmcg",
+      "modelTree": {
+        "id": "r",
+        "label": "Should the client buy the D2C skincare brand for ₹1,500 crore?",
+        "children": [
+          {
+            "id": "a",
+            "label": "What is the brand worth on its own?",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Quality of revenue growth",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Share of growth bought with discounts and paid ads"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Repeat rate (22% vs 35-40% for leaders)"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Path to profit",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Gross margin after discounts"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Marketing spend (38% of revenue) as it scales"
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Premium skincare market and rivals",
+                "children": [
+                  {
+                    "id": "a3x",
+                    "label": "Growth of premium skincare"
+                  },
+                  {
+                    "id": "a3y",
+                    "label": "Number of similar D2C brands"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "What extra value can the client add?",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Revenue synergies",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Selling through client's modern trade and chemists"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Launching in the client's export markets"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Cost synergies",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Cheaper media buying at client's scale"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Making products in client plants"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "What could destroy value after the deal?",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Loss of founders and key team",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Founders leaving within two years"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Growth-marketing staff leaving"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Brand damage from a mass-market push"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Is ₹1,500 crore the right price and structure?",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Value range (~₹800 crore downside to ~₹2,400 crore plan)"
+              },
+              {
+                "id": "d2",
+                "label": "Deal structure (earn-out tied to repeat rate and profit)"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "fmcg-c11",
+      "title": "Edible oil firm cash crunch",
+      "framework": "turnaround",
+      "secondary": [
+        "operations"
+      ],
+      "difficulty": "Advanced",
+      "region": "India",
+      "prompt": "Our client is a regional Indian edible oil and atta company with ₹2,200 crore of revenue. After two loss-making years, its banks are cutting its working capital limits by ₹180 crore over the next six months. How can it free up ₹180 crore of cash in six months without losing its distributors?",
+      "clarifyingFacts": [
+        "Q: Why is it losing money? A: A palm oil price spike it could not pass on; EBITDA is about -1%, roughly -₹22 crore.",
+        "Q: What does working capital look like? A: Receivables are 40 days of sales (~₹240 crore) after distributors were given extra credit to push volume; inventory is 60 days of cost of goods (~₹307 crore), including crude oil bought before prices fell; payables are only 20 days of cost of goods.",
+        "Q: What assets does it have? A: Three plants, one running at about 40% use, and surplus land near one city worth about ₹60 crore.",
+        "Q: Will the promoter help? A: The promoter can add up to ₹40 crore of equity."
+      ],
+      "hypotheses": [
+        "Moving to 25 days of receivables, 45 days of inventory and 30 days of payables frees about ₹218 crore on paper, but only about ₹120-150 crore is safe without distributors switching, so land or promoter equity must close the gap.",
+        "Channel financing lets distributors keep their 40 days of credit from a bank while the client is paid in about a week, freeing most of the ₹90 crore in receivables without harming the channel.",
+        "Margin and cost levers matter for survival, but at about -₹22 crore EBITDA the business still burns about ₹11 crore in the six months, so they shrink the need rather than fund the ₹180 crore."
+      ],
+      "hints": [
+        "Organise by where cash can come from, then rank each lever by how much it releases within six months.",
+        "Release working capital, generate cash from operations, and raise cash from assets and owners.",
+        "Generate cash from operations: restore margin (pass through prices, shift to branded oil) and cut cash costs (mothball the 40%-used plant, cut A&P and overheads that do not protect sales)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Cash freed from receivables",
+          "formula": "annual sales / 365 x reduction in receivable days = ₹2,200 crore / 365 x 15 ≈ ₹90 crore"
+        },
+        {
+          "name": "Cash conversion cycle",
+          "formula": "receivable days + inventory days - payable days"
+        }
+      ],
+      "commonMistakes": [
+        "Leading with long-term margin fixes when the bank deadline is six months and only balance-sheet and asset levers move cash that fast.",
+        "Cutting distributor credit abruptly, which in a commodity category with lookalike brands sends distributors to rivals."
+      ],
+      "frameworkPick": {
+        "options": [
+          "turnaround",
+          "operations",
+          "profitability",
+          "pe-dd"
+        ],
+        "correct": [
+          "turnaround",
+          "operations"
+        ],
+        "why": "A loss-making company facing a cash deadline is a turnaround, and most of the cash must come from operational working capital levers.",
+        "distractorWhyNot": {
+          "profitability": "Fixing margins is needed but releases too little cash within six months; the binding problem is liquidity.",
+          "pe-dd": "No investor is evaluating a deal; the company itself must survive the cut in limits."
+        }
+      },
+      "industry": "fmcg",
+      "modelTree": {
+        "id": "r",
+        "label": "How to free ₹180 crore of cash in six months while keeping distributors?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Release working capital",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Collect receivables faster (40 days now)",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Cut distributor credit in steps"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Cash discounts for early payment"
+                  },
+                  {
+                    "id": "a1z",
+                    "label": "Bank-funded channel financing for distributors"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Cut inventory (60 days now)",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Run down high-cost crude oil stock"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Prune slow SKUs and pack sizes"
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Extend payables (20 days now)",
+                "children": [
+                  {
+                    "id": "a3x",
+                    "label": "Longer terms with oil importers"
+                  },
+                  {
+                    "id": "a3y",
+                    "label": "Usance letters of credit on imports"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Generate cash from operations",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Restore margin",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Pass through prices where rivals already have"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Shift mix from loose to branded oil"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Cut cash costs",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Close or mothball the 40%-used plant"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Cut A&P and overheads that do not protect sales"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Raise cash from assets and owners",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Sell surplus land (~₹60 crore)"
+              },
+              {
+                "id": "c2",
+                "label": "Promoter equity (up to ₹40 crore)"
+              },
+              {
+                "id": "c3",
+                "label": "Sale and leaseback of depots or plant"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "fmcg-c12",
+      "title": "PE bid for mosquito repellent maker",
+      "framework": "pe-dd",
+      "secondary": [
+        "growth"
+      ],
+      "difficulty": "Advanced",
+      "region": "India",
+      "prompt": "A private equity fund is looking at buying an Indian household insecticides company with ₹900 crore of revenue and ₹126 crore of EBITDA. The asking price is 16 times EBITDA. Management's plan shows 10% annual revenue growth and margins rising to 18%. Should the fund invest?",
+      "clarifyingFacts": [
+        "Q: What does it sell, and how are the formats moving? A: About 65% of revenue is mosquito coils, falling about 4% a year as urban homes switch to vaporisers; liquid vaporisers and sprays are 35% and growing about 12% a year.",
+        "Q: What return does the fund need? A: 2.5 times its money in five years.",
+        "Q: How is the deal funded? A: ₹750 crore of debt and ₹1,266 crore of equity; net debt is expected to fall to about ₹500 crore by exit in any realistic case. Comparable exits trade at 12-16x EBITDA.",
+        "Q: Any regulatory points? A: New active ingredients need registration with the Central Insecticides Board and Registration Committee (CIB&RC), which typically takes 2-3 years."
+      ],
+      "hypotheses": [
+        "Management's 10% growth needs vaporisers and sprays to grow about 25% a year while coils fall 4%, roughly double the category's 12%.",
+        "On a base case (coils -4%, others +12%, margin flat at 14%, exit at 12x) the fund makes about 1.0x; even with 18% margins and a 16x exit it reaches only about 2.0x, so the fund should walk away or bid far lower."
+      ],
+      "hints": [
+        "Use the standard diligence sequence from the outside in, ending with whether returns clear the fund's hurdle at this price.",
+        "Market attractiveness by format, company position, plan credibility, and returns at 16x.",
+        "Company position: share and brand strength by format, the new product pipeline (CIB&RC registrations, vaporiser capability) and cost position against rivals."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Money multiple (MoM)",
+          "formula": "(exit EBITDA x exit multiple - net debt at exit) / equity invested"
+        },
+        {
+          "name": "Implied growth of growing formats",
+          "formula": "((plan revenue - declining format revenue) / growing format revenue today)^(1/5) - 1"
+        }
+      ],
+      "commonMistakes": [
+        "Accepting the blended 10% growth without splitting it by format, which hides that the core is shrinking.",
+        "Assuming the 16x entry multiple can be repeated at exit for a business whose largest format is in decline."
+      ],
+      "frameworkPick": {
+        "options": [
+          "pe-dd",
+          "growth",
+          "ma",
+          "turnaround"
+        ],
+        "correct": [
+          "pe-dd",
+          "growth"
+        ],
+        "why": "A financial buyer is testing a deal at a price, and the answer depends on whether management's growth plan survives a declining core.",
+        "distractorWhyNot": {
+          "ma": "An M&A frame suits a strategic buyer weighing synergies; a PE fund buys for standalone returns at exit.",
+          "turnaround": "The company is profitable at 14% EBITDA; the issue is a shrinking core, not a crisis."
+        }
+      },
+      "industry": "fmcg",
+      "modelTree": {
+        "id": "r",
+        "label": "Should the fund buy at 16x EBITDA (₹2,016 crore) given its 2.5x target?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Is the market attractive?",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Coils (65% of revenue)",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Speed of urban switch to vaporisers"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Rural demand at ₹10-₹30 price points"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Vaporisers and sprays (35% of revenue)",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Category growth (~12% a year)"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Competition from large FMCG players"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Is the company well placed?",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Share and brand strength by format",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Share in coils vs vaporisers"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Reach in rural vs urban outlets"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "New product pipeline",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Molecules awaiting CIB&RC registration"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Ability to make and market vaporisers"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Cost position vs rivals"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Is management's plan achievable?",
+            "children": [
+              {
+                "id": "c1",
+                "label": "10% annual revenue growth",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Vaporiser growth implied by coil decline"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Price increases assumed"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Margin rise from 14% to 18%",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "Mix shift to higher-margin vaporisers"
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "Cost savings identified"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Do the returns clear 2.5x?",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Entry valuation (16x vs 12-16x for peers)"
+              },
+              {
+                "id": "d2",
+                "label": "Value at exit",
+                "children": [
+                  {
+                    "id": "d2x",
+                    "label": "Exit multiple for a shrinking-core business"
+                  },
+                  {
+                    "id": "d2y",
+                    "label": "Net debt left at exit (~₹500 crore)"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "flaws": [
+    {
+      "id": "fmcg-f01",
+      "title": "Shampoo brand revenue fall",
+      "industry": "fmcg",
+      "framework": "profitability",
+      "difficulty": "Beginner",
+      "tree": {
+        "id": "r",
+        "label": "Why did a shampoo brand's revenue fall 8% last year?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Volume sold (litres)",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Litres sold in bottles"
+              },
+              {
+                "id": "a2",
+                "label": "Litres sold in sachets"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Average net price per litre",
+            "children": [
+              {
+                "id": "b1",
+                "label": "List price changes"
+              },
+              {
+                "id": "b2",
+                "label": "Discounts and trade schemes"
+              },
+              {
+                "id": "b3",
+                "label": "Pack mix (sachets vs bottles)"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Distribution and throughput",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Outlets stocking the brand"
+              },
+              {
+                "id": "c2",
+                "label": "Litres sold per stocking outlet"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "c",
+          "type": "overlap",
+          "explanation": "Outlets stocking the brand times litres sold per stocking outlet is simply total litres sold, so 'Distribution and throughput' measures the same volume as 'Volume sold', cut a different way.",
+          "fix": "Remove the branch from level 1. Revenue is volume x average net price; outlets and throughput can be a second way to cut volume, under 'Volume sold', but not both at once."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Why did a shampoo brand's revenue fall 8% last year?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Volume sold (litres)",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Litres sold in bottles"
+              },
+              {
+                "id": "a2",
+                "label": "Litres sold in sachets"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Average net price per litre",
+            "children": [
+              {
+                "id": "b1",
+                "label": "List price changes"
+              },
+              {
+                "id": "b2",
+                "label": "Discounts and trade schemes"
+              },
+              {
+                "id": "b3",
+                "label": "Pack mix (sachets vs bottles)"
+              }
+            ]
+          }
+        ]
+      },
+      "decoys": [
+        {
+          "nodeId": "b3",
+          "whyFine": "Sachets and bottles sell at different prices per litre, so a shift in pack mix moves the average price even if no list price changes."
+        }
+      ]
+    },
+    {
+      "id": "fmcg-f02",
+      "title": "Cost of a pack of biscuits",
+      "industry": "fmcg",
+      "framework": "profitability",
+      "difficulty": "Beginner",
+      "tree": {
+        "id": "r",
+        "label": "What makes up the client's full cost per ₹10 biscuit pack, excluding trade margins?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Making the pack",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Ingredients (flour, sugar, fat and others)"
+              },
+              {
+                "id": "a2",
+                "label": "Packaging"
+              },
+              {
+                "id": "a3",
+                "label": "Plant conversion (labour, power, upkeep)"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Getting it to the distributor",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Freight to depots and distributors"
+              },
+              {
+                "id": "b2",
+                "label": "Depot warehousing and handling"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "r",
+          "type": "gap",
+          "explanation": "The split covers making and moving the pack but leaves out what it costs to sell it and run the company: advertising, the sales force and head office, which in biscuits are roughly 10-15% of sales.",
+          "fix": "Add a third branch, 'Selling and running the business', with advertising and promotion, and sales force and head office."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "What makes up the client's full cost per ₹10 biscuit pack, excluding trade margins?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Making the pack",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Ingredients (flour, sugar, fat and others)"
+              },
+              {
+                "id": "a2",
+                "label": "Packaging"
+              },
+              {
+                "id": "a3",
+                "label": "Plant conversion (labour, power, upkeep)"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Getting it to the distributor",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Freight to depots and distributors"
+              },
+              {
+                "id": "b2",
+                "label": "Depot warehousing and handling"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Selling and running the business",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Advertising and promotion"
+              },
+              {
+                "id": "c2",
+                "label": "Sales force and head office"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "fmcg-f03",
+      "title": "Falling sales of a noodle brand",
+      "industry": "fmcg",
+      "framework": "profitability",
+      "difficulty": "Intermediate",
+      "tree": {
+        "id": "r",
+        "label": "Why have a noodle brand's sales fallen 6% in North India?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Fewer outlets stocking the brand",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Outlets lost (dropped by distributors or delisted)"
+              },
+              {
+                "id": "a2",
+                "label": "New outlets added"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Lower sales per stocking outlet",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Fewer shoppers buying the brand there"
+              },
+              {
+                "id": "b2",
+                "label": "Lower spend per buying shopper",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Packs bought per shopper"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Average price per pack bought"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Rival's March launch of a ₹10 cup noodle"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "b3",
+          "type": "mixed-levels",
+          "explanation": "Its siblings are the two components of sales per outlet (shoppers and spend per shopper); a rival's launch is one specific reason shoppers might switch, so it sits a level too high and its effect is already measured inside 'Fewer shoppers buying the brand there'.",
+          "fix": "Remove it from level 2 and place it under 'Fewer shoppers buying the brand there' as 'Shoppers switching to rivals (e.g. the new ₹10 cup noodle)'."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Why have a noodle brand's sales fallen 6% in North India?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Fewer outlets stocking the brand",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Outlets lost (dropped by distributors or delisted)"
+              },
+              {
+                "id": "a2",
+                "label": "New outlets added"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Lower sales per stocking outlet",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Fewer shoppers buying the brand there",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Shoppers switching to rivals (e.g. the new ₹10 cup noodle)"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Shoppers leaving the category"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Lower spend per buying shopper",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Packs bought per shopper"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Average price per pack bought"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "decoys": [
+        {
+          "nodeId": "a2",
+          "whyFine": "Net outlets equal last year's outlets minus those lost plus those added, so a slowdown in additions shrinks distribution just as losses do."
+        }
+      ]
+    },
+    {
+      "id": "fmcg-f04",
+      "title": "Launching a canned cold coffee",
+      "industry": "fmcg",
+      "framework": "product-launch",
+      "difficulty": "Intermediate",
+      "tree": {
+        "id": "r",
+        "label": "Should the client, an Indian beverages company, launch a canned cold coffee?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Is there enough demand?",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Size and growth of ready-to-drink coffee"
+              },
+              {
+                "id": "a2",
+                "label": "Price shoppers will pay per can"
+              },
+              {
+                "id": "a3",
+                "label": "Share of India's coffee grown in Karnataka"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Can the client win?",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Competitors' brands, prices and reach"
+              },
+              {
+                "id": "b2",
+                "label": "Client's brand strength in coffee"
+              },
+              {
+                "id": "b3",
+                "label": "Client's cooler coverage in impulse outlets"
+              },
+              {
+                "id": "b4",
+                "label": "Access to canning capacity (own or co-packer)"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Does it make money?",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Contribution per can"
+              },
+              {
+                "id": "c2",
+                "label": "Launch costs and payback"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "a3",
+          "type": "not-a-driver",
+          "explanation": "Where India's coffee is grown says nothing about how many shoppers will buy a canned cold coffee or what they will pay, and the client buys coffee extract at market prices, so it does not drive demand, ability to win or economics.",
+          "fix": "Remove the node. If bean costs matter, they belong in 'Contribution per can' as the price of coffee extract."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Should the client, an Indian beverages company, launch a canned cold coffee?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Is there enough demand?",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Size and growth of ready-to-drink coffee"
+              },
+              {
+                "id": "a2",
+                "label": "Price shoppers will pay per can"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Can the client win?",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Competitors' brands, prices and reach"
+              },
+              {
+                "id": "b2",
+                "label": "Client's brand strength in coffee"
+              },
+              {
+                "id": "b3",
+                "label": "Client's cooler coverage in impulse outlets"
+              },
+              {
+                "id": "b4",
+                "label": "Access to canning capacity (own or co-packer)"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Does it make money?",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Contribution per can"
+              },
+              {
+                "id": "c2",
+                "label": "Launch costs and payback"
+              }
+            ]
+          }
+        ]
+      },
+      "decoys": [
+        {
+          "nodeId": "b3",
+          "whyFine": "Canned cold coffee is mostly an impulse purchase drunk chilled, so cooler access in impulse outlets is a real reason one brand wins over another."
+        }
+      ]
+    },
+    {
+      "id": "fmcg-f05",
+      "title": "Rising cost to serve distributors",
+      "industry": "fmcg",
+      "framework": "operations",
+      "difficulty": "Intermediate",
+      "tree": {
+        "id": "r",
+        "label": "Why has the client's distribution cost per case risen 12%?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Primary freight (plant to depot) per case",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Cost per truck trip",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Diesel price"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Transporter contract rates"
+                  },
+                  {
+                    "id": "a1z",
+                    "label": "Trip distance"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Cases per truck (truck fill)"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Depot cost per case",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Fixed depot cost (depots x rent and staff each)",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Number of depots"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Rent and staff per depot"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Cases passing through depots"
+              },
+              {
+                "id": "b3",
+                "label": "Variable handling cost per case"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "r",
+          "type": "gap",
+          "explanation": "The tree covers moving stock to depots and running depots but misses the last leg the client pays for, freight from depots to distributors. That leg is driven by drop size and distance per delivery, and it often rises when distributors order more often in smaller lots.",
+          "fix": "Add 'Freight from depot to distributors' with drop size and distance per delivery."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Why has the client's distribution cost per case risen 12%?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Primary freight (plant to depot) per case",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Cost per truck trip",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Diesel price"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Transporter contract rates"
+                  },
+                  {
+                    "id": "a1z",
+                    "label": "Trip distance"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Cases per truck (truck fill)"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Depot cost per case",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Fixed depot cost (depots x rent and staff each)",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Number of depots"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Rent and staff per depot"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Cases passing through depots"
+              },
+              {
+                "id": "b3",
+                "label": "Variable handling cost per case"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Freight from depot to distributors per case",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Drop size per delivery"
+              },
+              {
+                "id": "c2",
+                "label": "Distance per delivery"
+              }
+            ]
+          }
+        ]
+      },
+      "decoys": [
+        {
+          "nodeId": "b2",
+          "whyFine": "Depot cost per case is fixed depot cost divided by cases handled, so a fall in throughput raises cost per case even if no rent changes."
+        }
+      ]
+    },
+    {
+      "id": "fmcg-f06",
+      "title": "Detergent brand margin decline",
+      "industry": "fmcg",
+      "framework": "profitability",
+      "difficulty": "Advanced",
+      "tree": {
+        "id": "r",
+        "label": "Why did a detergent brand's EBITDA margin fall 3 points?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Net realisation per kg",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Gross price per kg (at MRP, excluding GST)",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "List price changes"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Mix of packs and variants"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Deductions to reach net price",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Distributor and retailer margins"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Trade spend: schemes, listing and display payments"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Cost of goods per kg",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Chemical inputs",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Surfactants (LAB-based)"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Soda ash, builders and other chemicals"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Plant conversion cost",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Labour and power per kg"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Capacity use"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Freight and warehousing per kg",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Freight to depots and distributors"
+              },
+              {
+                "id": "c2",
+                "label": "Depot rent and handling"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Selling and overhead costs as a share of sales",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Advertising and consumer promotions"
+              },
+              {
+                "id": "d2",
+                "label": "Salaries and head office"
+              },
+              {
+                "id": "d3",
+                "label": "Gondola-end and shelf-strip rentals"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "d3",
+          "type": "overlap",
+          "explanation": "Gondola ends and shelf strips are display space rented from retailers, and display payments are already deducted from price in 'Trade spend: schemes, listing and display payments'. The different wording hides that the same money is counted twice.",
+          "fix": "Remove the node from selling and overheads; display rentals stay inside trade spend under net realisation."
+        },
+        {
+          "nodeId": "b",
+          "type": "gap",
+          "explanation": "Packaging is missing from cost of goods. In detergents, laminates, pouches and cartons are a large material cost that moves with polymer prices, so a margin fall can sit there and this tree would never find it.",
+          "fix": "Add 'Packaging materials' under cost of goods, split into laminates and pouches, and cartons and outer cases."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Why did a detergent brand's EBITDA margin fall 3 points?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Net realisation per kg",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Gross price per kg (at MRP, excluding GST)",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "List price changes"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Mix of packs and variants"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Deductions to reach net price",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Distributor and retailer margins"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Trade spend: schemes, listing and display payments"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Cost of goods per kg",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Chemical inputs",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Surfactants (LAB-based)"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Soda ash, builders and other chemicals"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Packaging materials",
+                "children": [
+                  {
+                    "id": "b3x",
+                    "label": "Laminates and pouches"
+                  },
+                  {
+                    "id": "b3y",
+                    "label": "Cartons and outer cases"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Plant conversion cost",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Labour and power per kg"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Capacity use"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Freight and warehousing per kg",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Freight to depots and distributors"
+              },
+              {
+                "id": "c2",
+                "label": "Depot rent and handling"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Selling and overhead costs as a share of sales",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Advertising and consumer promotions"
+              },
+              {
+                "id": "d2",
+                "label": "Salaries and head office"
+              }
+            ]
+          }
+        ]
+      },
+      "decoys": [
+        {
+          "nodeId": "b2y",
+          "whyFine": "Under-used lines spread fixed plant costs over fewer kg, so capacity use is a real driver of conversion cost per kg."
+        },
+        {
+          "nodeId": "a1y",
+          "whyFine": "Packs and variants sell at different prices per kg, so a mix shift changes gross price per kg without any list price change."
+        }
+      ]
+    },
+    {
+      "id": "fmcg-f07",
+      "title": "Should a dairy brand enter ice cream?",
+      "industry": "fmcg",
+      "framework": "market-entry",
+      "difficulty": "Advanced",
+      "tree": {
+        "id": "r",
+        "label": "Should a regional dairy brand enter ice cream in its home states?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Is ice cream attractive?",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Market size and growth",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Take-home tubs"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Impulse sticks and cones"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Category profitability",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Price levels in the category"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Margins earned by established players"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Can the client win?",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Competitor strength",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "National brands' share in the client's states"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Local brands and vegetable-oil frozen desserts"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Client's advantages and gaps",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Own milk supply from its farmers"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "No retail freezer or deep-freeze network"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "How should it enter?",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Build its own ice cream plant"
+              },
+              {
+                "id": "c2",
+                "label": "Use a contract manufacturer"
+              },
+              {
+                "id": "c3",
+                "label": "Buy a local ice cream brand"
+              },
+              {
+                "id": "c4",
+                "label": "Form a joint venture with an ice cream maker"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Does it pay?",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Profit per litre",
+                "children": [
+                  {
+                    "id": "d1x",
+                    "label": "Net price per litre after trade margins"
+                  },
+                  {
+                    "id": "d1y",
+                    "label": "Ingredient, packaging and plant cost per litre"
+                  }
+                ]
+              },
+              {
+                "id": "d2",
+                "label": "Litres the client can sell",
+                "children": [
+                  {
+                    "id": "d2x",
+                    "label": "Outlets with freezer space for its range"
+                  },
+                  {
+                    "id": "d2y",
+                    "label": "Litres sold per outlet per year"
+                  },
+                  {
+                    "id": "d2z",
+                    "label": "Share it can win in its states"
+                  }
+                ]
+              },
+              {
+                "id": "d3",
+                "label": "Upfront and fixed spend",
+                "children": [
+                  {
+                    "id": "d3x",
+                    "label": "Plant and hardening rooms"
+                  },
+                  {
+                    "id": "d3y",
+                    "label": "Retail freezers"
+                  },
+                  {
+                    "id": "d3z",
+                    "label": "Advertising and sales team"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "d2z",
+          "type": "overlap",
+          "explanation": "Outlets with freezer space times litres sold per outlet already gives the litres the client can sell. Share of the market is the same volume estimated top-down, so listing it as a third driver counts the volume twice.",
+          "fix": "Remove the node; use share of market only as a cross-check on the bottom-up estimate, not as a branch."
+        },
+        {
+          "nodeId": "d1",
+          "type": "gap",
+          "explanation": "Profit per litre stops at price minus ingredients, packaging and plant. Ice cream must be kept at about -18°C from plant to shopper, so freezer power, frozen transport and melt losses are a large cost that a dairy used to chilled milk can easily underestimate.",
+          "fix": "Add 'Cold chain cost per litre' covering freezer power, frozen transport and melt losses."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Should a regional dairy brand enter ice cream in its home states?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Is ice cream attractive?",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Market size and growth",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Take-home tubs"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Impulse sticks and cones"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Category profitability",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Price levels in the category"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Margins earned by established players"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Can the client win?",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Competitor strength",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "National brands' share in the client's states"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Local brands and vegetable-oil frozen desserts"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Client's advantages and gaps",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Own milk supply from its farmers"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "No retail freezer or deep-freeze network"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "How should it enter?",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Build its own ice cream plant"
+              },
+              {
+                "id": "c2",
+                "label": "Use a contract manufacturer"
+              },
+              {
+                "id": "c3",
+                "label": "Buy a local ice cream brand"
+              },
+              {
+                "id": "c4",
+                "label": "Form a joint venture with an ice cream maker"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Does it pay?",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Profit per litre",
+                "children": [
+                  {
+                    "id": "d1x",
+                    "label": "Net price per litre after trade margins"
+                  },
+                  {
+                    "id": "d1y",
+                    "label": "Ingredient, packaging and plant cost per litre"
+                  },
+                  {
+                    "id": "d1z",
+                    "label": "Cold chain cost per litre (freezer power, -18°C transport, melt losses)"
+                  }
+                ]
+              },
+              {
+                "id": "d2",
+                "label": "Litres the client can sell",
+                "children": [
+                  {
+                    "id": "d2x",
+                    "label": "Outlets with freezer space for its range"
+                  },
+                  {
+                    "id": "d2y",
+                    "label": "Litres sold per outlet per year"
+                  }
+                ]
+              },
+              {
+                "id": "d3",
+                "label": "Upfront and fixed spend",
+                "children": [
+                  {
+                    "id": "d3x",
+                    "label": "Plant and hardening rooms"
+                  },
+                  {
+                    "id": "d3y",
+                    "label": "Retail freezers"
+                  },
+                  {
+                    "id": "d3z",
+                    "label": "Advertising and sales team"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "decoys": [
+        {
+          "nodeId": "b1y",
+          "whyFine": "FSSAI rules make vegetable-oil products carry the name 'frozen dessert', but they sit in the same freezers at lower prices, so they are real competitors for the client."
+        }
+      ]
+    }
+  ],
+  "quick": [
+    {
+      "id": "fmcg-q01",
+      "industry": "fmcg",
+      "difficulty": "Beginner",
+      "question": "Which split of 'Revenue of a packaged snacks brand' is MECE?",
+      "parent": "Revenue of a packaged snacks brand",
+      "options": [
+        {
+          "split": [
+            "Buying households",
+            "Penetration (share of households buying)",
+            "Packs per buying household",
+            "Average net price per pack"
+          ],
+          "correct": false,
+          "why": "Overlap: buying households already equal total households x penetration, so penetration is counted twice."
+        },
+        {
+          "split": [
+            "Packs sold",
+            "Average MRP per pack"
+          ],
+          "correct": false,
+          "why": "Gap: the brand books its net price, not MRP; GST, trade margins and schemes between the two are missing, so this overstates revenue."
+        },
+        {
+          "split": [
+            "Packs sold",
+            "Average net price per pack"
+          ],
+          "correct": true,
+          "why": "Correct: revenue is packs sold times the average price the brand actually receives, with nothing left out."
+        },
+        {
+          "split": [
+            "Kirana sales",
+            "Modern trade sales",
+            "Online sales",
+            "Sales of ₹10 packs"
+          ],
+          "correct": false,
+          "why": "Overlap: ₹10 packs sell through all three channels, so mixing a pack split with a channel split counts them twice."
+        }
+      ]
+    },
+    {
+      "id": "fmcg-q02",
+      "industry": "fmcg",
+      "difficulty": "Beginner",
+      "question": "Which split of 'Costs of a soap manufacturer' is MECE?",
+      "parent": "Costs of a soap manufacturer",
+      "options": [
+        {
+          "split": [
+            "Raw and packing materials",
+            "Conversion (plant labour, power, upkeep)",
+            "Freight and warehousing",
+            "Selling, A&P and head office"
+          ],
+          "correct": true,
+          "why": "Correct: follows the cost from buying inputs to making, moving and selling the soap, with each cost in one place."
+        },
+        {
+          "split": [
+            "Raw and packing materials",
+            "Conversion (plant labour, power, upkeep)",
+            "Selling, A&P and head office"
+          ],
+          "correct": false,
+          "why": "Gap: freight and warehousing, the cost of moving soap from plant to depots and distributors, is missing."
+        },
+        {
+          "split": [
+            "Raw and packing materials",
+            "Variable costs",
+            "Fixed costs"
+          ],
+          "correct": false,
+          "why": "Overlap: raw and packing materials are themselves variable costs, so they sit in two branches."
+        },
+        {
+          "split": [
+            "Costs at the plant (materials, conversion)",
+            "Costs after the plant gate (freight, selling, head office)",
+            "Packaging costs"
+          ],
+          "correct": false,
+          "why": "Overlap: packaging is a material bought and used at the plant, so it is already inside the first branch."
+        }
+      ]
+    },
+    {
+      "id": "fmcg-q03",
+      "industry": "fmcg",
+      "difficulty": "Beginner",
+      "question": "Which split of 'This year's buyers of a coconut hair oil brand in India' is MECE?",
+      "parent": "This year's buyers of a coconut hair oil brand in India",
+      "options": [
+        {
+          "split": [
+            "Sachet buyers",
+            "Bottle buyers"
+          ],
+          "correct": false,
+          "why": "Overlap: many households buy both sachets and bottles in a year, so they fall in both groups."
+        },
+        {
+          "split": [
+            "Heavy buyers (monthly or more often)",
+            "Light buyers (once every 3 months or less)"
+          ],
+          "correct": false,
+          "why": "Gap: buyers who buy every one to three months fit neither group."
+        },
+        {
+          "split": [
+            "New buyers this year",
+            "Repeat buyers",
+            "Lapsed buyers"
+          ],
+          "correct": false,
+          "why": "Not a driver: lapsed buyers bought nothing this year, so they are not part of this year's buyers."
+        },
+        {
+          "split": [
+            "Buyers who bought only this brand",
+            "Buyers who also bought other brands"
+          ],
+          "correct": true,
+          "why": "Correct: every buyer either bought only this brand in the category or bought others too, and the split shows how loyal the base is."
+        }
+      ]
+    },
+    {
+      "id": "fmcg-q04",
+      "industry": "fmcg",
+      "difficulty": "Intermediate",
+      "question": "Which split of 'Number of outlets selling a brand' is MECE?",
+      "parent": "Number of outlets selling a brand",
+      "options": [
+        {
+          "split": [
+            "Outlets in the universe",
+            "Numeric distribution %",
+            "Weighted distribution %"
+          ],
+          "correct": false,
+          "why": "Overlap: weighted distribution measures the same reach again, weighted by sales, so it double counts."
+        },
+        {
+          "split": [
+            "Outlets in the universe",
+            "Numeric distribution %"
+          ],
+          "correct": true,
+          "why": "Correct: outlets selling the brand = outlets in the universe x the share that stock it."
+        },
+        {
+          "split": [
+            "Outlets in the universe",
+            "Weighted distribution %"
+          ],
+          "correct": false,
+          "why": "Mixed levels: weighted distribution is a share of category sales, not of outlets, so multiplying it by the outlet count does not give the number of outlets selling the brand."
+        },
+        {
+          "split": [
+            "Outlets in the universe",
+            "Share of outlets visited by salesmen",
+            "Share of visited outlets stocking it"
+          ],
+          "correct": false,
+          "why": "Gap: outlets that stock the brand through wholesalers without a salesman visit are missing, and in rural India they are many."
+        }
+      ]
+    },
+    {
+      "id": "fmcg-q05",
+      "industry": "fmcg",
+      "difficulty": "Intermediate",
+      "question": "Which split of 'Trade spend of an FMCG company' is MECE?",
+      "parent": "Trade spend of an FMCG company",
+      "options": [
+        {
+          "split": [
+            "Distributor margin",
+            "Retailer margin",
+            "Schemes and discounts",
+            "Price-off packs"
+          ],
+          "correct": false,
+          "why": "Not a driver: a price-off pack cuts the price the shopper pays and is a consumer promotion, not money paid to the trade."
+        },
+        {
+          "split": [
+            "Kirana trade spend",
+            "Modern trade and e-commerce trade spend",
+            "Listing fees"
+          ],
+          "correct": false,
+          "why": "Overlap: listing fees are paid to modern trade and e-commerce retailers, so they are already inside the second group."
+        },
+        {
+          "split": [
+            "Margins built into the price",
+            "Schemes and discounts on top",
+            "Visibility and listing payments"
+          ],
+          "correct": true,
+          "why": "Correct: covers the standard channel margins, extra schemes for distributors and retailers, and payments for shelf space, with no overlap."
+        },
+        {
+          "split": [
+            "Distributor margin",
+            "Retailer margin",
+            "Schemes, visibility and listing paid to retailers"
+          ],
+          "correct": false,
+          "why": "Gap: schemes paid to distributors, such as target incentives and quantity discounts, are missing."
+        }
+      ]
+    },
+    {
+      "id": "fmcg-q06",
+      "industry": "fmcg",
+      "difficulty": "Intermediate",
+      "question": "Which split of 'Ways to grow a juice brand's sales' is MECE?",
+      "parent": "Ways to grow a juice brand's sales",
+      "options": [
+        {
+          "split": [
+            "More households buying",
+            "More purchases per buying household",
+            "Higher spend per purchase"
+          ],
+          "correct": true,
+          "why": "Correct: sales = buying households x purchases per household x spend per purchase, so every lever lands in one branch."
+        },
+        {
+          "split": [
+            "Higher penetration (share of households buying)",
+            "More purchases per buying household",
+            "Higher spend per purchase"
+          ],
+          "correct": false,
+          "why": "Gap: penetration x purchases x spend gives sales per household in the market, so growth in the number of households reached (new towns, population growth) is missing."
+        },
+        {
+          "split": [
+            "Winning new buyers",
+            "Existing buyers buying more often",
+            "Existing buyers spending more per purchase"
+          ],
+          "correct": false,
+          "why": "Gap: keeping buyers who would otherwise lapse is missing, and for juice, churn is a big part of the base."
+        },
+        {
+          "split": [
+            "More households buying",
+            "More purchases per buying household",
+            "Higher spend per purchase",
+            "Winning share from rival juice brands"
+          ],
+          "correct": false,
+          "why": "Overlap: share won from rivals shows up as more households, more purchases or higher spend, so it is counted twice."
+        }
+      ]
+    },
+    {
+      "id": "fmcg-q07",
+      "industry": "fmcg",
+      "difficulty": "Advanced",
+      "question": "Which split of 'Gap between MRP and the brand's net sales' is MECE?",
+      "parent": "Gap between MRP and the brand's net sales",
+      "options": [
+        {
+          "split": [
+            "GST",
+            "Retailer margin",
+            "Total trade spend"
+          ],
+          "correct": false,
+          "why": "Overlap: total trade spend includes the retailer margin, so it is counted twice."
+        },
+        {
+          "split": [
+            "GST",
+            "Distributor and retailer margins",
+            "Schemes and discounts",
+            "Freight to distributors"
+          ],
+          "correct": false,
+          "why": "Not a driver: freight is a cost the brand pays out of its net sales, not part of the gap between MRP and net sales."
+        },
+        {
+          "split": [
+            "GST on the brand's invoice to the distributor",
+            "Distributor and retailer margins",
+            "Schemes and discounts"
+          ],
+          "correct": false,
+          "why": "Gap: MRP includes GST on the full retail price; the GST on the distributor's and retailer's margins is missing."
+        },
+        {
+          "split": [
+            "GST",
+            "Distributor and retailer margins",
+            "Schemes and discounts"
+          ],
+          "correct": true,
+          "why": "Correct: everything between what the shopper pays and what the brand books is tax, channel margins or extra trade discounts."
+        }
+      ]
+    },
+    {
+      "id": "fmcg-q08",
+      "industry": "fmcg",
+      "difficulty": "Advanced",
+      "question": "Which split of 'Total stock of a brand across the supply chain' is MECE?",
+      "parent": "Total stock of a brand across the supply chain",
+      "options": [
+        {
+          "split": [
+            "Stock at plants",
+            "Stock at depots",
+            "Stock at distributors",
+            "Stock at retailers"
+          ],
+          "correct": false,
+          "why": "Gap: stock in transit between these points is missing, which can be days of sales."
+        },
+        {
+          "split": [
+            "Stock the company still owns",
+            "Stock billed to the trade"
+          ],
+          "correct": true,
+          "why": "Correct: every unit, wherever it sits or travels, is either still owned by the company or already billed to a distributor or retailer."
+        },
+        {
+          "split": [
+            "Stock the company still owns",
+            "Stock in transit",
+            "Stock billed to the trade"
+          ],
+          "correct": false,
+          "why": "Overlap: stock in transit is either still owned by the company (to depots) or already billed (to distributors), so it is counted twice."
+        },
+        {
+          "split": [
+            "Stock at plants and depots (tonnes)",
+            "Stock in the trade (days of sales)"
+          ],
+          "correct": false,
+          "why": "Mixed levels: one branch is in tonnes and the other in days of sales, so they cannot be added to a total."
+        }
+      ]
+    }
+  ],
+  "chainDrills": [
+    {
+      "id": "fmcg-v01",
+      "industry": "fmcg",
+      "difficulty": "Beginner",
+      "type": "locate",
+      "prompt": "A soap plant reports cost per tonne up 9% though labour, power, wastage and output are all flat. The plant books materials at the price procurement paid, and palm oil prices rose about 30% in six months. In which stage did the cost rise originate?",
+      "options": [
+        "s3",
+        "s1",
+        "s2",
+        "s4"
+      ],
+      "answer": [
+        "s2"
+      ],
+      "why": "The rise shows up in the plant's cost per tonne (s3), but every cost the plant controls is flat. Palm oil is the main raw material for soap and its price is set when it is bought, so the cause sits in sourcing (s2). Brand development and distribution do not touch material prices."
+    },
+    {
+      "id": "fmcg-v02",
+      "industry": "fmcg",
+      "difficulty": "Beginner",
+      "type": "order",
+      "prompt": "Put the stages in the order a new shampoo SKU passes through them, from the idea to the shopper's hand.",
+      "options": [
+        "s4",
+        "s1",
+        "s6",
+        "s3",
+        "s5",
+        "s2"
+      ],
+      "answer": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6"
+      ],
+      "why": "The product is designed and positioned first, then materials are bought, the shampoo is made and packed, moved to C&F depots and billed to distributors, sold by distributors to retailers, and finally bought by the shopper."
+    },
+    {
+      "id": "fmcg-v03",
+      "industry": "fmcg",
+      "difficulty": "Intermediate",
+      "type": "locate",
+      "prompt": "Kirana owners in a district complain that the company's salesman visits only once a fortnight, so they keep running out of a fast-moving soap. Distributor godowns in the district have plenty of stock. Which stage is the problem in?",
+      "options": [
+        "s3",
+        "s4",
+        "s5",
+        "s6"
+      ],
+      "answer": [
+        "s5"
+      ],
+      "why": "Stock has reached the distributor, so plant and depot supply are fine. Beat frequency and outlet coverage are run by the distributor's salesmen, which is secondary distribution. The retailer is the victim, not the cause."
+    },
+    {
+      "id": "fmcg-v04",
+      "industry": "fmcg",
+      "difficulty": "Intermediate",
+      "type": "locate",
+      "prompt": "Distributors say 12% of their orders to the company arrive short. The plants produced to plan and total national inventory is above target. Where is the problem most likely to sit?",
+      "options": [
+        "s2",
+        "s3",
+        "s4",
+        "s5"
+      ],
+      "answer": [
+        "s4"
+      ],
+      "why": "Distributor orders are filled from C&F depots. With production on plan and enough stock nationally, the shortfall points to stock sitting in the wrong depots or stuck in transit, which is primary distribution. Sourcing and manufacturing are ruled out by the data, and secondary distribution starts only after the distributor receives stock."
+    },
+    {
+      "id": "fmcg-v05",
+      "industry": "fmcg",
+      "difficulty": "Advanced",
+      "type": "locate",
+      "prompt": "A detergent brand's EBITDA margin fell 1.5 points. Factory cost per kg and freight per kg are flat, MRPs are unchanged, A&P is flat as a share of sales and volume rose 5%. All the growth came from supermarkets and quick-commerce apps, which the company serves directly. Where is the margin leaking?",
+      "options": [
+        "s3",
+        "s4",
+        "s5",
+        "s6"
+      ],
+      "answer": [
+        "s6"
+      ],
+      "why": "Costs in the plant and on the road are flat, and the growth channels bypass distributors, so secondary distribution margins cannot explain it. Modern trade and quick commerce take higher retailer margins, listing fees and promotional support than kirana, and the distributor margin saved on direct supply is smaller than that extra cost, so a mix shift towards them cuts net realisation per kg at the retail stage."
+    },
+    {
+      "id": "fmcg-v06",
+      "industry": "fmcg",
+      "difficulty": "Advanced",
+      "type": "assign",
+      "prompt": "Assign each cost item to the stage where it is incurred.",
+      "items": [
+        {
+          "item": "Listing fee paid by the brand to a hypermarket chain",
+          "stage": "s6"
+        },
+        {
+          "item": "Salary of the distributor's salesmen",
+          "stage": "s5"
+        },
+        {
+          "item": "Freight from a C&F depot to a distributor's godown",
+          "stage": "s4"
+        },
+        {
+          "item": "Laminate bought for shampoo sachets",
+          "stage": "s2"
+        },
+        {
+          "item": "Consumer research on a new fragrance variant",
+          "stage": "s1"
+        },
+        {
+          "item": "Conversion fee paid to a co-packer making shampoo sachets",
+          "stage": "s3"
+        }
+      ],
+      "why": "The listing fee is paid by the brand but buys shelf space at the retailer, so it belongs to retail. Distributor salesmen sit in secondary distribution even when the brand subsidises them. Freight to the distributor's godown is still primary distribution: secondary starts when the distributor sells on to retailers. The co-packer's fee is a bought-in service, but it pays for making the product, so it is manufacturing, not sourcing."
+    }
+  ]
+}

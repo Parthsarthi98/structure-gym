@@ -1,0 +1,1 @@
+ALTER TABLE public.generated_cases ADD COLUMN IF NOT EXISTS answer jsonb;

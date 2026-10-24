@@ -1,0 +1,3950 @@
+{
+  "industry": "retail",
+  "valueChain": {
+    "summary": "Retailers make money on the spread between what they pay suppliers and what shoppers pay, plus supplier income such as rebates and display fees. That gross margin has to cover rent, staff and logistics, which are largely fixed per store, so profit depends on how much each square foot sells.",
+    "stages": [
+      {
+        "id": "s1",
+        "name": "Merchandise planning and buying",
+        "activities": [
+          "Range and assortment planning by store cluster",
+          "Negotiating purchase prices, rebates and payment terms with brands",
+          "Developing private-label products with contract manufacturers",
+          "Season and open-to-buy planning"
+        ],
+        "players": [
+          "FMCG, apparel and electronics brands",
+          "Contract manufacturers for private label",
+          "Importers and wholesalers",
+          "Retailer buying and merchandising teams"
+        ],
+        "revenueDrivers": [
+          "Supplier back margin (volume rebates, listing and display fees)",
+          "Higher margin on private-label products"
+        ],
+        "costDrivers": [
+          "Purchase cost of goods",
+          "Markdowns from over-buying",
+          "Cost of holding inventory"
+        ],
+        "kpis": [
+          {
+            "name": "GMROI",
+            "formula": "gross margin / average inventory at cost",
+            "benchmark": "approx. 2.5-4x for grocery-led formats, 1.5-3x for apparel"
+          },
+          {
+            "name": "Full-price sell-through",
+            "formula": "units sold at full price / units bought for the season",
+            "benchmark": "approx. 60-75% for apparel"
+          },
+          {
+            "name": "Private-label share",
+            "formula": "private-label sales / total sales",
+            "benchmark": "approx. 10-30% in Indian grocery, much higher in value fashion"
+          }
+        ],
+        "marginNote": "Sets most of the retailer's gross margin: approx. 15-25% of sales in grocery and 40-55% in apparel."
+      },
+      {
+        "id": "s2",
+        "name": "Supply chain and distribution",
+        "activities": [
+          "Inbound transport from suppliers and ports",
+          "Receiving, storing and picking at distribution centres (DCs)",
+          "Store replenishment and cross-docking",
+          "Reverse logistics for damaged and unsold goods"
+        ],
+        "players": [
+          "Retailer-owned DCs",
+          "Third-party logistics (3PL) providers",
+          "Transporters and fleet owners",
+          "Cold-chain operators"
+        ],
+        "revenueDrivers": [
+          "Sales protected by good availability (fewer lost sales from stock-outs)",
+          "Logistics allowances from suppliers who deliver to the DC instead of each store"
+        ],
+        "costDrivers": [
+          "DC rent, labour and automation",
+          "Freight (diesel, tolls, trips per store)",
+          "Inventory held across the network"
+        ],
+        "kpis": [
+          {
+            "name": "On-shelf availability",
+            "formula": "SKU-store combinations in stock on shelf / SKU-store combinations ranged",
+            "benchmark": "approx. 95-98% for well-run grocers"
+          },
+          {
+            "name": "Supply chain cost to sales",
+            "formula": "DC, freight and handling cost / net sales",
+            "benchmark": "approx. 1.5-3% for grocery"
+          },
+          {
+            "name": "Inventory days",
+            "formula": "average inventory at cost / cost of goods sold x 365",
+            "benchmark": "approx. 25-40 days for grocery, 90-180 for apparel"
+          }
+        ],
+        "marginNote": "A cost centre of approx. 1.5-3% of sales; good execution protects sales more than it saves cost."
+      },
+      {
+        "id": "s3",
+        "name": "Store network and real estate",
+        "activities": [
+          "Choosing formats, cities and catchments",
+          "Leasing or buying sites and negotiating rent",
+          "Store fit-out and opening",
+          "Closing, downsizing or relocating weak stores"
+        ],
+        "players": [
+          "Mall developers and landlords",
+          "High-street property owners",
+          "Fit-out contractors",
+          "Retailer expansion teams"
+        ],
+        "revenueDrivers": [
+          "Catchment size and spending power",
+          "Store size, visibility and access"
+        ],
+        "costDrivers": [
+          "Rent and common area maintenance (CAM) charges",
+          "Capex per store (fit-out, equipment)",
+          "Pre-opening costs and ramp-up losses"
+        ],
+        "kpis": [
+          {
+            "name": "Sales density",
+            "formula": "monthly sales / retail area in sq ft",
+            "benchmark": "approx. ₹800-3,000 per sq ft per month for Indian grocery-led formats"
+          },
+          {
+            "name": "Rent-to-sales",
+            "formula": "rent and CAM / store sales",
+            "benchmark": "approx. 3-6% for grocery, 8-15% for mall-based apparel"
+          },
+          {
+            "name": "Store payback",
+            "formula": "capex per store / annual store EBITDA",
+            "benchmark": "approx. 2-4 years targeted by most chains"
+          }
+        ],
+        "marginNote": "Locks in the fixed cost base; site quality explains most of the gap between stores that earn 10%+ store EBITDA and stores that lose money."
+      },
+      {
+        "id": "s4",
+        "name": "Marketing, pricing and loyalty",
+        "activities": [
+          "Setting prices and promotions",
+          "Running loyalty programmes and CRM",
+          "Advertising and festive campaigns",
+          "Selling retail media (ad space) to brands"
+        ],
+        "players": [
+          "Retailer marketing and pricing teams",
+          "Media and digital agencies",
+          "Loyalty and CRM platforms",
+          "Brands funding promotions"
+        ],
+        "revenueDrivers": [
+          "Footfall and repeat visits",
+          "Retail media and brand-funded promotion income"
+        ],
+        "costDrivers": [
+          "Price investment in promotions",
+          "Advertising",
+          "Loyalty points and rewards"
+        ],
+        "kpis": [
+          {
+            "name": "Member sales share",
+            "formula": "sales to identified loyalty members / total sales",
+            "benchmark": "approx. 50-80% for mature programmes"
+          },
+          {
+            "name": "Marketing cost to sales",
+            "formula": "marketing and loyalty cost / net sales",
+            "benchmark": "approx. 0.5-2% for grocery, 2-4% for fashion"
+          },
+          {
+            "name": "Promotional uplift",
+            "formula": "(promoted-period sales - baseline sales) / baseline sales",
+            "benchmark": "varies widely; many promotions do not pay back after cannibalisation"
+          }
+        ],
+        "marginNote": "Costs approx. 1-3% of sales but sets traffic and price perception; retail media is a small, high-margin income line."
+      },
+      {
+        "id": "s5",
+        "name": "Store operations and selling",
+        "activities": [
+          "Shelf filling and visual merchandising",
+          "Assisted selling and customer service",
+          "Checkout and payments",
+          "Loss prevention and stock counts"
+        ],
+        "players": [
+          "Store managers and staff",
+          "Security agencies",
+          "POS and payment providers",
+          "Facility management firms"
+        ],
+        "revenueDrivers": [
+          "Conversion of footfall into bills",
+          "Average bill value through cross-selling and upselling"
+        ],
+        "costDrivers": [
+          "Store staff",
+          "Power and maintenance",
+          "Shrinkage (theft, damage, admin errors)"
+        ],
+        "kpis": [
+          {
+            "name": "Conversion",
+            "formula": "number of bills / footfall",
+            "benchmark": "approx. 20-40% for mall fashion, well above 60% for grocery"
+          },
+          {
+            "name": "Shrinkage",
+            "formula": "value of stock lost / net sales",
+            "benchmark": "approx. 0.5-1.5% of sales"
+          },
+          {
+            "name": "Staff cost to sales",
+            "formula": "store staff cost / store sales",
+            "benchmark": "approx. 3-5% for grocery, 6-9% for apparel"
+          }
+        ],
+        "marginNote": "Staff, power and shrinkage take approx. 6-10% of sales and are largely fixed per store, so small sales changes swing store profit."
+      },
+      {
+        "id": "s6",
+        "name": "Omnichannel fulfilment and after-sales",
+        "activities": [
+          "Picking online orders from stores or dark stores",
+          "Last-mile delivery and click-and-collect",
+          "Returns, exchanges and refunds",
+          "Warranty, installation and repair for durables"
+        ],
+        "players": [
+          "Retailer apps and websites",
+          "Marketplaces and quick-commerce platforms",
+          "Last-mile delivery firms",
+          "Service and installation partners"
+        ],
+        "revenueDrivers": [
+          "Online sales and delivery fees",
+          "Extended warranty and service income"
+        ],
+        "costDrivers": [
+          "Picking and packing labour",
+          "Last-mile delivery",
+          "Returns handling"
+        ],
+        "kpis": [
+          {
+            "name": "Fulfilment cost per online order",
+            "formula": "(site running cost + picking + packing + delivery + returns cost) / online orders",
+            "benchmark": "approx. ₹60-120 per grocery order in Indian metros"
+          },
+          {
+            "name": "Online return rate",
+            "formula": "units returned / units sold online",
+            "benchmark": "approx. 25-35% for online fashion, under 5% for grocery"
+          },
+          {
+            "name": "Online share of sales",
+            "formula": "online sales / total sales",
+            "benchmark": "approx. 5-15% for Indian omnichannel retailers"
+          }
+        ],
+        "marginNote": "Often loss-making per order at small baskets; profit depends on basket size, delivery density and return rates."
+      }
+    ],
+    "profitPools": "Brands usually earn more than retailers: large FMCG brands make approx. 15-25% EBITDA margins against approx. 4-8% for most grocery retailers. Within the retailer, profit is won in buying (gross margin, supplier back margin and private label) and in store productivity (sales per sq ft over a largely fixed rent and staff base), while supply chain and online fulfilment are mainly about not losing money. Retail media and extended warranties are small but very high-margin lines.",
+    "unitEconomics": {
+      "unit": "per ₹100 of sales at a mid-sized Indian supermarket (approximate)",
+      "lines": [
+        {
+          "item": "Net sales",
+          "value": "₹100.0"
+        },
+        {
+          "item": "Cost of goods sold (net of supplier rebates)",
+          "value": "-₹77.0"
+        },
+        {
+          "item": "Distribution centre and freight",
+          "value": "-₹2.0"
+        },
+        {
+          "item": "Rent and CAM",
+          "value": "-₹4.5"
+        },
+        {
+          "item": "Store staff",
+          "value": "-₹4.0"
+        },
+        {
+          "item": "Power and utilities",
+          "value": "-₹1.8"
+        },
+        {
+          "item": "Shrinkage",
+          "value": "-₹1.0"
+        },
+        {
+          "item": "Marketing and loyalty",
+          "value": "-₹1.2"
+        },
+        {
+          "item": "Other store costs (security, housekeeping, maintenance)",
+          "value": "-₹2.0"
+        }
+      ],
+      "result": "Store EBITDA ≈ ₹6.5 per ₹100 of sales; after approx. ₹2 of head-office cost, company EBITDA is about 4.5% of sales."
+    },
+    "india": "Organised retail, including e-commerce, is only about a fifth of an approx. ₹80-85 lakh crore (about US$1 trillion) retail market (2024 estimates), and kiranas serve most households with credit, home delivery and tiny pack sizes. Foreign ownership shapes entry: single-brand retail allows 100% FDI but requires 30% local sourcing above 51% foreign ownership, while multi-brand retail is capped at 51% with conditions. Demand peaks around Diwali and the wedding season, mall rents are high relative to sales, and quick-commerce apps have taken a large share of top-up grocery trips in the metros.",
+    "workedExample": {
+      "problem": "A supermarket chain's store EBITDA fell from 6.5% to 5.5% of sales in a year, while gross margin held at 23%.",
+      "trace": [
+        "Gross margin is flat at 23% and DC cost is flat at 2% of sales, so buying (s1) and supply chain (s2) are not the cause.",
+        "Rent, staff, power and other store costs are up about 1 point of sales in total, yet in rupees they grew only 0-6%, in line with lease escalations and wage revisions (s3, s5).",
+        "The ratios rose because the base shrank: like-for-like sales fell 4%, with footfall down 7% and average bill up 3%.",
+        "The lost footfall is concentrated in small top-up baskets at metro stores, starting when quick-commerce apps expanded there, so the fix sits in pricing, loyalty and delivery (s4, s6), not in cost cutting."
+      ],
+      "lesson": "Because most store costs are fixed, a retail margin problem is often a sales problem in disguise, so check like-for-like sales before cutting costs."
+    }
+  },
+  "cases": [
+    {
+      "id": "retail-c01",
+      "title": "Value fashion chain profit slide",
+      "framework": "profitability",
+      "secondary": [],
+      "difficulty": "Beginner",
+      "region": "India",
+      "prompt": "Our client is a value-fashion retailer with 180 stores across Tier 2 and Tier 3 cities in North and Central India, selling mostly private-label apparel. Over two years revenue has edged up from ₹1,750 crore to ₹1,800 crore, but EBITDA has fallen from ₹105 crore to ₹70 crore. Why are profits falling, and what should the client do?",
+      "clarifyingFacts": [
+        "Q: What is the objective? A: Understand the drivers of the decline and bring EBITDA margin back to about 6% within 18 months.",
+        "Q: Has the store network changed? A: Yes, it grew from 150 to 180 stores; no stores closed, so 150 stores are comparable across both years.",
+        "Q: What did the cost structure look like two years ago? A: Gross margin was about 38% of sales, rent 9%, store staff 7%, other store costs 4% and central costs (DC, marketing, head office) 12%, leaving about 6% EBITDA.",
+        "Q: Has anything changed in the market? A: Two national value-fashion chains have opened about 60 stores in the client's cities, and online marketplaces have grown in value apparel."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Why has EBITDA fallen from ₹105 crore to ₹70 crore on flat revenue?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Revenue (₹1,750 crore to ₹1,800 crore)",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Like-for-like sales at the 150 comparable stores",
+                "children": [
+                  {
+                    "id": "a1a",
+                    "label": "Footfall per store"
+                  },
+                  {
+                    "id": "a1b",
+                    "label": "Conversion (bills / footfall)"
+                  },
+                  {
+                    "id": "a1c",
+                    "label": "Average bill value"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Sales at the 30 new stores versus plan"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Costs",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Cost of goods sold (gross margin)",
+                "children": [
+                  {
+                    "id": "b1a",
+                    "label": "Purchase cost per unit"
+                  },
+                  {
+                    "id": "b1b",
+                    "label": "Markdowns and discounting"
+                  },
+                  {
+                    "id": "b1c",
+                    "label": "Shrinkage and damaged stock"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Store operating costs",
+                "children": [
+                  {
+                    "id": "b2a",
+                    "label": "Rent"
+                  },
+                  {
+                    "id": "b2b",
+                    "label": "Store staff"
+                  },
+                  {
+                    "id": "b2c",
+                    "label": "Power and other store costs"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Central costs (DC and freight, marketing, head office)"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Like-for-like sales at the 150 comparable stores fell about 5% as new national chains took footfall, while rent and staff costs kept escalating, adding 1 to 2 points of sales to store costs.",
+        "Gross margin fell 1 to 2 points because unsold seasonal stock was cleared through heavier end-of-season markdowns.",
+        "The 30 new stores are still ramping up and lose money at store level: if like-for-like sales fell 5%, the new stores averaged only about ₹4.6 crore each, under 40% of the ₹11.7 crore a comparable store sold two years ago."
+      ],
+      "hints": [
+        "Use the profit equation, and keep in mind that the store count changed between the two years.",
+        "First level: Revenue and Costs.",
+        "Costs → Cost of goods sold (purchase cost, markdowns, shrinkage), Store operating costs (rent, staff, power and other store costs) and Central costs (DC and freight, marketing, head office)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Like-for-like sales growth",
+          "formula": "sales this year at stores open in both years / sales last year at the same stores - 1"
+        },
+        {
+          "name": "Store EBITDA margin",
+          "formula": "(store gross margin - rent - store staff - other store costs) / store sales"
+        },
+        {
+          "name": "Rent-to-sales",
+          "formula": "rent and CAM / store sales"
+        }
+      ],
+      "commonMistakes": [
+        "Treating revenue as healthy because it grew 3%: the growth comes from 30 new stores and can hide falling sales at the existing 150.",
+        "Listing costs without noting that rent and staff are largely fixed, which misses how a small fall in like-for-like sales squeezes margin."
+      ],
+      "frameworkPick": {
+        "options": [
+          "profitability",
+          "growth",
+          "competitive-response",
+          "operations"
+        ],
+        "correct": [
+          "profitability"
+        ],
+        "why": "The question is why EBITDA fell while revenue held, which is a diagnosis of revenue and cost drivers.",
+        "distractorWhyNot": {
+          "growth": "Revenue is not the stated problem; the client is asking why profit fell, not how to grow sales.",
+          "competitive-response": "The new national chains are one hypothesis to test inside the profit tree, not the question itself.",
+          "operations": "An operations lens looks at one process, which is too narrow before you know where the profit went."
+        }
+      },
+      "industry": "retail"
+    },
+    {
+      "id": "retail-c02",
+      "title": "Estimate a new supermarket's sales",
+      "framework": "market-sizing",
+      "secondary": [],
+      "difficulty": "Beginner",
+      "region": "India",
+      "prompt": "Our client, a regional supermarket chain, is about to sign a lease for a 30,000 sq ft store in a growing residential suburb of Hyderabad. Before committing to ₹3.6 crore of annual rent (about ₹100 per sq ft per month), the CFO wants to know how much the store will sell in a year once it is mature. How would you estimate it?",
+      "clarifyingFacts": [
+        "Q: What does the store sell? A: It is grocery-led: food and FMCG are about 75% of sales, with general merchandise and some apparel.",
+        "Q: What is the catchment? A: About 60,000 mostly middle and upper-middle income households within 3 km, with two other supermarkets and many kiranas nearby.",
+        "Q: Do we have data from similar stores? A: Comparable stores see about 2,500 visitors on a weekday and 5,000 on weekend days and holidays; 55-60% of visitors buy something.",
+        "Q: What does mature mean? A: The third year of trading, after the ramp-up."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Annual sales of the 30,000 sq ft Hyderabad store in its third year",
+        "children": [
+          {
+            "id": "a",
+            "label": "Weekday sales (about 250 days a year)",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Bills per weekday",
+                "children": [
+                  {
+                    "id": "a1a",
+                    "label": "Visitors per weekday"
+                  },
+                  {
+                    "id": "a1b",
+                    "label": "Share of visitors who buy"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Average weekday bill value",
+                "children": [
+                  {
+                    "id": "a2a",
+                    "label": "Items per bill"
+                  },
+                  {
+                    "id": "a2b",
+                    "label": "Average price per item"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Weekend and holiday sales (about 115 days a year)",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Bills per weekend or holiday",
+                "children": [
+                  {
+                    "id": "b1a",
+                    "label": "Visitors per weekend day or holiday"
+                  },
+                  {
+                    "id": "b1b",
+                    "label": "Share of visitors who buy"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Average weekend bill value",
+                "children": [
+                  {
+                    "id": "b2a",
+                    "label": "Items per bill"
+                  },
+                  {
+                    "id": "b2b",
+                    "label": "Average price per item"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Weekdays: 2,500 visitors x 60% buying x ₹900 average bill x 250 days ≈ ₹34 crore a year.",
+        "Weekends and holidays: 5,000 visitors x 55% buying x ₹1,100 average bill x 115 days ≈ ₹35 crore a year, giving about ₹69 crore in total (about ₹1,900 per sq ft per month).",
+        "₹69 crore is about 10% of the roughly ₹720 crore the catchment spends on these categories (60,000 households x ₹10,000 a month), a believable share, and puts rent at a healthy 5% of sales."
+      ],
+      "hints": [
+        "Build it bottom-up from the store's own traffic, split the year by what changes shopper numbers and bill sizes most, then sanity-check against what the catchment spends.",
+        "First level: Weekday sales and Weekend and holiday sales.",
+        "Weekday sales → Bills per weekday (visitors per weekday, share who buy) and Average weekday bill value (items per bill, average price per item)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Annual sales",
+          "formula": "sum over day types of days x visitors x conversion x average bill value"
+        },
+        {
+          "name": "Sales density",
+          "formula": "annual sales / retail area / 12"
+        },
+        {
+          "name": "Rent-to-sales",
+          "formula": "annual rent / annual sales"
+        }
+      ],
+      "commonMistakes": [
+        "Using one average day for the whole year: weekend footfall is about double weekday footfall and bills are bigger, so a single average hides the biggest swing.",
+        "Not sanity-checking the answer against the catchment: the estimate must be a believable share of what 60,000 households spend on grocery and household goods."
+      ],
+      "frameworkPick": {
+        "options": [
+          "market-sizing",
+          "market-entry",
+          "profitability",
+          "growth"
+        ],
+        "correct": [
+          "market-sizing"
+        ],
+        "why": "The CFO wants a number (annual sales of one store), which is an estimation built from footfall, conversion and bill value.",
+        "distractorWhyNot": {
+          "market-entry": "The client is already in the market and has chosen the site; the question is how much it will sell, not whether to enter.",
+          "profitability": "There is no profit problem to diagnose yet; the sales estimate is an input to that later.",
+          "growth": "The question is not how to grow sales but how big one store's sales will be."
+        }
+      },
+      "industry": "retail"
+    },
+    {
+      "id": "retail-c03",
+      "title": "Southern grocer eyes Maharashtra",
+      "framework": "market-entry",
+      "secondary": [],
+      "difficulty": "Beginner",
+      "region": "India",
+      "prompt": "Our client is a supermarket chain with 90 stores in Tamil Nadu and Kerala and revenue of about ₹2,700 crore. Growth in its home states has slowed to about 6% a year, and the founder is considering entering Maharashtra, starting with Pune. Should they do it?",
+      "clarifyingFacts": [
+        "Q: What is the objective? A: A second growth engine: about ₹500 crore of revenue from Maharashtra within five years, at break-even or better.",
+        "Q: How much capital is available? A: ₹400 crore over five years from internal accruals and debt; no new equity.",
+        "Q: How does the client win today? A: A strong regional assortment (South Indian staples, fresh produce bought directly from farmers) and everyday low prices, in stores of about 20,000 sq ft.",
+        "Q: Which entry routes are on the table? A: Opening its own stores, or buying a 15-store Pune chain that is for sale."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Should the client enter Maharashtra, starting with Pune, and if so how?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Is the Pune and Maharashtra grocery market attractive?",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Size and growth of organised grocery spend"
+              },
+              {
+                "id": "a2",
+                "label": "Competitive intensity (national chains, local chains, quick commerce)"
+              },
+              {
+                "id": "a3",
+                "label": "Availability of suitable 20,000 sq ft sites"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Can the client win there?",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Relevance of its range and prices to local shoppers"
+              },
+              {
+                "id": "b2",
+                "label": "Ability to build local sourcing and a DC"
+              },
+              {
+                "id": "b3",
+                "label": "Building a brand from zero awareness"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Do the economics work?",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Investment needed (store capex, DC, pre-opening losses)"
+              },
+              {
+                "id": "c2",
+                "label": "Store profitability and payback"
+              },
+              {
+                "id": "c3",
+                "label": "Fit with the ₹400 crore budget and ₹500 crore target"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Which entry route is better?",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Opening its own stores"
+              },
+              {
+                "id": "d2",
+                "label": "Buying the 15-store Pune chain"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Only part of the client's South Indian range is relevant in Pune, so it must rebuild sourcing locally, which erodes its price advantage in the early years.",
+        "Reaching ₹500 crore needs about 25 stores at ₹20 crore each (below the ₹30 crore home-state average, since the brand starts with no awareness); at roughly ₹10 crore per store plus a DC, this fits the ₹400 crore budget only if new stores break even within about two years.",
+        "Buying the 15-store chain gives sites, local suppliers and staff years faster than organic openings, which would justify paying a premium."
+      ],
+      "hints": [
+        "This is a go or no-go decision on a new geography, so the tree must end in a recommendation and a route, not a description of the market.",
+        "First level: Market attractiveness, Ability to win, Economics, Entry route.",
+        "Is the market attractive? → Size and growth of organised grocery spend, Competitive intensity (national chains, local chains, quick commerce), Availability of suitable 20,000 sq ft sites."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Store payback",
+          "formula": "capex per store / annual store EBITDA"
+        },
+        {
+          "name": "Stores needed for target",
+          "formula": "revenue target / mature sales per store"
+        }
+      ],
+      "commonMistakes": [
+        "Judging the market without testing whether the client's specific advantages (southern assortment, direct farm sourcing) carry over to Maharashtra.",
+        "Leaving out the entry route: the 15-store acquisition changes speed, cost and risk, and is a decision in its own right."
+      ],
+      "frameworkPick": {
+        "options": [
+          "market-entry",
+          "ma",
+          "growth",
+          "market-sizing"
+        ],
+        "correct": [
+          "market-entry"
+        ],
+        "why": "The founder is asking whether to enter a new geography, which needs market attractiveness, ability to win, economics and entry route.",
+        "distractorWhyNot": {
+          "ma": "Buying the 15-store chain is one entry route to compare inside the tree, not the question itself.",
+          "growth": "The client has already picked its growth lever (a new state); the question is whether that specific move is worth making.",
+          "market-sizing": "Market size is one input under attractiveness; it cannot answer a yes or no entry decision on its own."
+        }
+      },
+      "industry": "retail"
+    },
+    {
+      "id": "retail-c04",
+      "title": "Pricing premium own-label ready meals",
+      "framework": "pricing",
+      "secondary": [],
+      "difficulty": "Beginner",
+      "region": "Global",
+      "prompt": "Our client is a mid-sized UK supermarket chain launching a premium own-label range of chilled ready meals. Each meal costs about £2.10 to make, pack and deliver to store. Branded premium meals sell at £4.50 to £5.00, and the main rival's premium own-label range sells at £3.75 to £4.00. What price should the client set?",
+      "clarifyingFacts": [
+        "Q: What is the objective? A: Win share in premium ready meals while keeping a category gross margin of at least 40%.",
+        "Q: Does VAT matter? A: No. Chilled ready meals sold cold for heating at home are zero-rated for UK VAT (only hot food is standard-rated), so the shelf price is the client's revenue.",
+        "Q: Who is the target customer? A: Time-poor professionals and families who would otherwise order a takeaway at £10 to £15 a head.",
+        "Q: Are there other costs? A: In-store wastage of chilled food in this category is about 5% of sales."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "What shelf price should the client set for its premium chilled ready meals?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Cost floor: the lowest acceptable price",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Unit cost of £2.10 (ingredients, packaging, logistics)"
+              },
+              {
+                "id": "a2",
+                "label": "Wastage of about 5% of sales"
+              },
+              {
+                "id": "a3",
+                "label": "Required 40% category gross margin"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Competitor reference: where alternatives on the shelf sit",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Branded premium meals at £4.50 to £5.00"
+              },
+              {
+                "id": "b2",
+                "label": "Rival premium own label at £3.75 to £4.00"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Customer value: what target shoppers will pay",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Value against a £10 to £15 takeaway"
+              },
+              {
+                "id": "c2",
+                "label": "Perceived quality against brands and the rival range"
+              },
+              {
+                "id": "c3",
+                "label": "Price sensitivity of target shoppers"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "The cost floor is about £3.82 (£2.10 / (1 - 40% - 5%)), so a price of £3.99 meets the margin target and sits at the top of the rival's range.",
+        "If blind taste tests beat the rival's range, shoppers will pay £4.25 or more because the reference point is a £10+ takeaway, not other ready meals.",
+        "Pricing above £4.50 would put the range level with brands and lose the own-label value message."
+      ],
+      "hints": [
+        "Bound the price from below and from above using different lenses, then choose a point inside the range.",
+        "First level: Cost floor, Competitor reference, Customer value.",
+        "Competitor reference → Branded premium meals at £4.50 to £5.00 and Rival premium own label at £3.75 to £4.00."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Gross margin after wastage",
+          "formula": "(price - unit cost - wastage rate x price) / price"
+        },
+        {
+          "name": "Minimum price",
+          "formula": "unit cost / (1 - target margin - wastage rate)"
+        }
+      ],
+      "commonMistakes": [
+        "Pricing on cost-plus alone: the 40% margin floor gives about £3.82, but brands at £4.50+ and takeaways at £10+ show room to price higher.",
+        "Forgetting wastage on a chilled product, which lifts the true price floor by about 9% (from £3.50 to £3.82)."
+      ],
+      "frameworkPick": {
+        "options": [
+          "pricing",
+          "product-launch",
+          "profitability",
+          "competitive-response"
+        ],
+        "correct": [
+          "pricing"
+        ],
+        "why": "The decision to launch is made; the question is the price point, which is set by cost floor, competitor references and customer value.",
+        "distractorWhyNot": {
+          "product-launch": "The range is already being launched; only the price is open.",
+          "profitability": "There is no profit decline to diagnose; margin is a constraint on the price, not the question.",
+          "competitive-response": "No competitor has made a move the client must answer; rival prices are just one reference point."
+        }
+      },
+      "industry": "retail"
+    },
+    {
+      "id": "retail-c05",
+      "title": "Doubling a premium grocer's revenue",
+      "framework": "growth",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "India",
+      "prompt": "Our client is a premium grocery chain with 30 stores in Mumbai and Pune and revenue of ₹900 crore, growing about 8% a year. The board wants revenue to reach ₹1,800 crore in four years without letting EBITDA margin fall below its current 7%. How could the client get there?",
+      "clarifyingFacts": [
+        "Q: Where does revenue come from today? A: About 92% from in-store sales and 8% from its own app, with orders delivered from stores.",
+        "Q: What do stores look like? A: About 12,000 sq ft each, selling ₹27 to 28 crore a year in store; new stores take about two years to reach that level.",
+        "Q: What constraints apply? A: Up to ₹350 crore of capex over four years, and the brand must stay premium.",
+        "Q: Who are the customers? A: Upper-income households with an average bill of about ₹2,000; the client is strongest in imported and gourmet food, fresh produce and bakery.",
+        "Q: What has driven the 8% growth? A: Like-for-like growth and the app; no store has opened in three years, and app orders are picked from the shop floor of the nearest store."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "How to double revenue to ₹1,800 crore in four years at 7%+ EBITDA?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Grow in-store sales at the existing 30 stores",
+            "children": [
+              {
+                "id": "a1",
+                "label": "More shopping trips",
+                "children": [
+                  {
+                    "id": "a1a",
+                    "label": "Win new households in current catchments"
+                  },
+                  {
+                    "id": "a1b",
+                    "label": "Raise visit frequency of current customers"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Bigger baskets per trip",
+                "children": [
+                  {
+                    "id": "a2a",
+                    "label": "Extend ranges (prepared food, wellness, home)"
+                  },
+                  {
+                    "id": "a2b",
+                    "label": "Trade customers up to higher-priced items"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Open new stores (in-store sales)",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Infill stores in Mumbai and Pune",
+                "children": [
+                  {
+                    "id": "b1a",
+                    "label": "Number of unserved premium catchments"
+                  },
+                  {
+                    "id": "b1b",
+                    "label": "Cannibalisation of existing stores"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Stores in new cities (Bengaluru, Delhi NCR, Hyderabad)",
+                "children": [
+                  {
+                    "id": "b2a",
+                    "label": "Number of premium households per city"
+                  },
+                  {
+                    "id": "b2b",
+                    "label": "Time to reach mature sales without local brand awareness"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Grow app sales",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Acquire app customers beyond store catchments"
+              },
+              {
+                "id": "c2",
+                "label": "Raise order frequency and value of app users"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Sell to business customers",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Supply cafés, restaurants and hotels"
+              },
+              {
+                "id": "d2",
+                "label": "Corporate and festive gifting"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "At 8% a year the current business reaches only about ₹1,225 crore by year four (₹900 crore x 1.08^4), leaving a gap of about ₹575 crore to fill from new stores, the app and business customers.",
+        "About 15 new stores at roughly ₹12 crore of capex each (₹180 crore) could add ₹350 to 400 crore by year four, but only if most open in the first two years given the two-year ramp-up.",
+        "App and business sales carry lower margins than in-store sales, so the mix of the gap decides whether the 7% EBITDA floor holds."
+      ],
+      "hints": [
+        "Split the extra ₹900 crore by where each rupee would come from so that nothing is counted twice, and decide where app orders picked in stores belong.",
+        "First level: In-store sales at the existing 30 stores, In-store sales at new stores, App sales, Sales to business customers.",
+        "Existing stores → More shopping trips (new households, higher visit frequency) and Bigger baskets per trip (range extension, trading up)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Required CAGR",
+          "formula": "(1,800 / 900)^(1/4) - 1 ≈ 19% a year"
+        },
+        {
+          "name": "New store contribution",
+          "formula": "number of new stores x mature sales per store x ramp-up factor in the year"
+        },
+        {
+          "name": "Like-for-like growth",
+          "formula": "sales at stores open in both years / same stores last year - 1"
+        }
+      ],
+      "commonMistakes": [
+        "Assuming new stores reach mature sales in year one: with a two-year ramp-up, stores opened in year four add little to the year-four target.",
+        "Ignoring the margin constraint: a plan that fills the gap mainly with app delivery or business sales can hit ₹1,800 crore and still breach 7% EBITDA."
+      ],
+      "frameworkPick": {
+        "options": [
+          "growth",
+          "market-entry",
+          "profitability",
+          "segmentation"
+        ],
+        "correct": [
+          "growth"
+        ],
+        "why": "The board has set a revenue target and asks how to reach it, so the task is to map and size every source of extra revenue.",
+        "distractorWhyNot": {
+          "market-entry": "Entering new cities is only one lever inside the growth plan, not the whole question.",
+          "profitability": "Margin is a constraint here, not a problem to diagnose; the client is profitable.",
+          "segmentation": "Understanding customer segments may help later, but it does not cover new stores, channels and business customers."
+        }
+      },
+      "industry": "retail"
+    },
+    {
+      "id": "retail-c06",
+      "title": "Empty shelves, fuller warehouse",
+      "framework": "operations",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "India",
+      "prompt": "Our client runs 120 supermarkets across Gujarat and Rajasthan. Over the past year on-shelf availability has fallen from 96% to 89%, even though inventory has risen from 32 to 41 days of sales, and complaints about missing items have doubled. Why is this happening, and how should the client fix it?",
+      "clarifyingFacts": [
+        "Q: Is the problem across all categories? A: It is worst in fast-moving staples, personal care and dairy; slow movers are well stocked, often overstocked.",
+        "Q: Has anything changed recently? A: An automated replenishment system went live 14 months ago, and three DCs were consolidated into one large DC near Ahmedabad.",
+        "Q: How are suppliers performing? A: Supplier fill rates into the DC are about 92%, roughly unchanged.",
+        "Q: What is the objective? A: Get availability back to 96% within six months without increasing total inventory."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Why is availability down to 89% while inventory rose to 41 days?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Ordering: are the right quantities ordered?",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Forecast accuracy by SKU and store",
+                "children": [
+                  {
+                    "id": "a1a",
+                    "label": "Errors on fast movers and promotions"
+                  },
+                  {
+                    "id": "a1b",
+                    "label": "Master data errors (lead times, pack sizes, minimum stock)"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Order rules and manual buyer overrides"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Supplier to DC: does stock arrive at the DC?",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Supplier fill rate (about 92%, unchanged)"
+              },
+              {
+                "id": "b2",
+                "label": "Receiving speed at the consolidated DC"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "DC to store: does stock reach each store on time?",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Picking at the consolidated DC",
+                "children": [
+                  {
+                    "id": "c1a",
+                    "label": "Pick errors and short picks"
+                  },
+                  {
+                    "id": "c1b",
+                    "label": "Capacity at peak volumes"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Transport to stores",
+                "children": [
+                  {
+                    "id": "c2a",
+                    "label": "Delivery frequency per store"
+                  },
+                  {
+                    "id": "c2b",
+                    "label": "Longer lead times to Rajasthan stores"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Back room to shelf: is stock on the shelf?",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Shelf-filling labour and timing"
+              },
+              {
+                "id": "d2",
+                "label": "Accuracy of store stock records",
+                "children": [
+                  {
+                    "id": "d2a",
+                    "label": "Unrecorded shrinkage and damage"
+                  },
+                  {
+                    "id": "d2b",
+                    "label": "Receiving errors at stores"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "The new replenishment system still uses lead times from the three-DC network, so it under-orders fast movers and over-orders slow movers, which explains lower availability and higher inventory at the same time.",
+        "Consolidation lengthened delivery lead times to Rajasthan stores from about one day to three, and order rules were never updated, so those stores show the worst availability.",
+        "Store stock records are wrong for a large share of fast-moving SKUs, so the system thinks stock is on hand and does not reorder."
+      ],
+      "hints": [
+        "Follow the product's path from order to shelf and ask at each step whether stock gets through.",
+        "First level: Ordering, Supplier to DC, DC to store, Back room to shelf.",
+        "Supplier to DC → Supplier fill rate (about 92%, unchanged) and Receiving speed at the consolidated DC."
+      ],
+      "keyMetrics": [
+        {
+          "name": "On-shelf availability",
+          "formula": "SKU-store combinations in stock on shelf / SKU-store combinations ranged"
+        },
+        {
+          "name": "Inventory days",
+          "formula": "average inventory at cost / cost of goods sold x 365"
+        },
+        {
+          "name": "Forecast accuracy",
+          "formula": "1 - |actual sales - forecast| / actual sales, by SKU-store-week"
+        }
+      ],
+      "commonMistakes": [
+        "Treating it as too little stock and recommending more inventory, when inventory is already up 9 days; the problem is which stock sits where.",
+        "Blaming suppliers first, although their fill rate is unchanged at 92% and so cannot explain a change in availability."
+      ],
+      "frameworkPick": {
+        "options": [
+          "operations",
+          "profitability",
+          "turnaround",
+          "segmentation"
+        ],
+        "correct": [
+          "operations"
+        ],
+        "why": "The problem is a process failure in the replenishment chain, so the tree follows stock from order to shelf.",
+        "distractorWhyNot": {
+          "profitability": "Profit is not the stated problem; the question is about availability and inventory.",
+          "turnaround": "The business is not in crisis; one operational process needs fixing.",
+          "segmentation": "Splitting SKUs into fast and slow movers shows where availability fails, but not why stock does not reach the shelf."
+        }
+      },
+      "industry": "retail"
+    },
+    {
+      "id": "retail-c07",
+      "title": "Buying a Gujarat electronics chain",
+      "framework": "ma",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "India",
+      "prompt": "Our client is a large consumer electronics retailer with 450 stores across West and North India. It wants to enter Gujarat by buying a family-owned chain of 60 stores with revenue of ₹1,500 crore and EBITDA of ₹60 crore, and the owners are asking ₹750 crore. Should the client buy it?",
+      "clarifyingFacts": [
+        "Q: Why Gujarat, and why buy? A: The client has no stores there, and opening 60 stores itself would take about five years.",
+        "Q: How does the target compare with the client? A: Its gross margin is 13% against the client's 15%, and its sales per sq ft are about 20% lower; stores average 4,000 sq ft.",
+        "Q: How would the deal be funded? A: ₹400 crore of cash plus debt for the rest.",
+        "Q: Anything notable about the target? A: 15 stores are in buildings the founding family owns and pay about ₹6 crore a year below market rent, which the family will charge after the sale; about 40% of the other leases expire within three years; and the family would stay for only one year."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Should the client buy the 60-store Gujarat chain for ₹750 crore?",
+        "children": [
+          {
+            "id": "a",
+            "label": "What is the target worth on its own?",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Quality of current EBITDA (₹60 crore)",
+                "children": [
+                  {
+                    "id": "a1a",
+                    "label": "Below-market family rents and other one-off items"
+                  },
+                  {
+                    "id": "a1b",
+                    "label": "Spread of profit across the 60 stores"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Durability of future earnings",
+                "children": [
+                  {
+                    "id": "a2a",
+                    "label": "Renewals on about 18 third-party leases within three years"
+                  },
+                  {
+                    "id": "a2b",
+                    "label": "Pressure from online and national chains"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "What synergies can the client add?",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Revenue synergies",
+                "children": [
+                  {
+                    "id": "b1a",
+                    "label": "Higher sales density with the client's range and brand"
+                  },
+                  {
+                    "id": "b1b",
+                    "label": "Attach rates on warranties, finance and installation"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Cost synergies",
+                "children": [
+                  {
+                    "id": "b2a",
+                    "label": "Better purchase terms (part of the 2-point margin gap)"
+                  },
+                  {
+                    "id": "b2b",
+                    "label": "Shared DC, head office and marketing"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "What will integration cost and risk?",
+            "children": [
+              {
+                "id": "c1",
+                "label": "One-off costs (rebranding, IT, store refits)"
+              },
+              {
+                "id": "c2",
+                "label": "Keeping store managers once the family leaves"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Is the price right against the alternatives?",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Price against standalone value plus synergies"
+              },
+              {
+                "id": "d2",
+                "label": "Cost and speed of opening stores organically"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "On market rent for the 15 family-owned stores, normalised EBITDA is about ₹54 crore, so ₹750 crore is about 13.9x rather than the headline 12.5x.",
+        "Moving the target onto the client's purchase terms closes about half the 2-point gross margin gap, adding roughly ₹15 crore of EBITDA (1% of ₹1,500 crore); the rest reflects a cheaper product mix, so the deal works only if at least ₹15 to 20 crore of run-rate synergies arrive within two years.",
+        "Renewals on about 18 third-party leases could raise rents or force relocations, putting a further share of EBITDA at risk."
+      ],
+      "hints": [
+        "Treat it as a value test: the deal is worth doing only if what the client gets, after fixing what the reported numbers hide, is worth more than the price, compared with its next best route into Gujarat.",
+        "First level: Target's standalone value, Synergies, Integration costs and risks, Price against alternatives.",
+        "Integration costs and risks → One-off costs (rebranding, IT, store refits) and Keeping store managers once the family leaves."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Entry multiple",
+          "formula": "price / normalised EBITDA = ₹750 crore / (₹60 crore - ₹6 crore rent uplift) ≈ 13.9x"
+        },
+        {
+          "name": "Value created",
+          "formula": "standalone value + present value of synergies - one-off integration costs - price"
+        }
+      ],
+      "commonMistakes": [
+        "Taking the ₹60 crore EBITDA at face value: the family-owned stores pay below-market rent today, so a new owner earns about ₹54 crore before any synergies.",
+        "Comparing the price only with the target's value and not with the cost and five-year timeline of opening 60 stores organically."
+      ],
+      "frameworkPick": {
+        "options": [
+          "ma",
+          "market-entry",
+          "pe-dd",
+          "profitability"
+        ],
+        "correct": [
+          "ma"
+        ],
+        "why": "The decision is whether to buy a specific business at a specific price, which needs standalone value, synergies, integration risk and price.",
+        "distractorWhyNot": {
+          "market-entry": "Entering Gujarat is already the goal; the open question is whether this deal at ₹750 crore is the right way to do it.",
+          "pe-dd": "The buyer is a strategic retailer whose case rests on synergies and integration, not a financial investor planning an exit.",
+          "profitability": "Neither company has a profit problem to diagnose."
+        }
+      },
+      "industry": "retail"
+    },
+    {
+      "id": "retail-c08",
+      "title": "Answering quick commerce in Bengaluru",
+      "framework": "competitive-response",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "India",
+      "prompt": "Our client is a supermarket chain with 45 stores in Bengaluru. Since three quick-commerce apps expanded across the city, footfall at its stores has fallen 12% over six months and bills under ₹500 have fallen almost 25%, yet revenue is down only 4%. How should the client respond?",
+      "clarifyingFacts": [
+        "Q: Which categories are affected? A: Losses are concentrated in dairy, bread, fruit and vegetables, snacks and beverages; monthly stock-up categories such as staples and home care are stable.",
+        "Q: Does the client sell online? A: It has a website with next-day delivery, about 3% of sales.",
+        "Q: What do we know about the apps' economics? A: For this case, assume they lose money per order outside their densest neighbourhoods, are funded by large equity raises and charge fees on small orders.",
+        "Q: What is the objective and budget? A: Protect revenue and store profit over two years, with up to ₹100 crore to invest."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "How should the client respond to quick-commerce apps taking top-up trips in Bengaluru?",
+        "children": [
+          {
+            "id": "a",
+            "label": "How much is really at risk?",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Which shopping missions are being lost",
+                "children": [
+                  {
+                    "id": "a1a",
+                    "label": "Top-up and urgent trips (dairy, bread, snacks)"
+                  },
+                  {
+                    "id": "a1b",
+                    "label": "Monthly stock-up trips (staples, home care)"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Which customers are switching",
+                "children": [
+                  {
+                    "id": "a2a",
+                    "label": "Segments by age, income and neighbourhood"
+                  },
+                  {
+                    "id": "a2b",
+                    "label": "Lost entirely versus splitting spend"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Will the threat last?",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Apps' unit economics and funding",
+                "children": [
+                  {
+                    "id": "b1a",
+                    "label": "Contribution per order after rider and dark-store costs"
+                  },
+                  {
+                    "id": "b1b",
+                    "label": "Cash burn against funding raised"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Their likely next moves (bigger baskets, more categories, lower fees)"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "What can the client do?",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Defend the store visit",
+                "children": [
+                  {
+                    "id": "c1a",
+                    "label": "Stronger fresh and stock-up offer"
+                  },
+                  {
+                    "id": "c1b",
+                    "label": "Sharper prices on top-up items"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Offer fast delivery",
+                "children": [
+                  {
+                    "id": "c2a",
+                    "label": "Build its own fast delivery from stores"
+                  },
+                  {
+                    "id": "c2b",
+                    "label": "Sell through delivery and quick-commerce platforms"
+                  }
+                ]
+              },
+              {
+                "id": "c3",
+                "label": "Concede top-up trips and cut costs at affected stores"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Which option gives the best return on ₹100 crore?",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Sales and margin retained by each option"
+              },
+              {
+                "id": "d2",
+                "label": "Investment and risk of each option"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Most of the 4% revenue loss comes from customers splitting spend rather than leaving, so a stronger fresh offer and loyalty can win back part of it.",
+        "Stock-up trips are stable because the apps are not competitive on price and range for large baskets, so the monthly shop is the client's defensible core.",
+        "Selling through platforms keeps more top-up sales for far less investment than building its own 10-minute network, which would absorb most of the ₹100 crore and lose money per order."
+      ],
+      "hints": [
+        "Build the tree as a sequence of questions that runs from diagnosis to decision, rather than starting with a list of responses.",
+        "First level: Size of the risk, Durability of the threat, Response options, Choosing between options.",
+        "Will the threat last? → Apps' unit economics and funding (contribution per order, cash burn against funding) and Their likely next moves (bigger baskets, more categories, lower fees)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Store revenue",
+          "formula": "footfall x conversion x average bill value"
+        },
+        {
+          "name": "Contribution per delivered order",
+          "formula": "order value x gross margin - picking - delivery - packaging - payment fees"
+        },
+        {
+          "name": "Share of wallet",
+          "formula": "household spend with the client / household total grocery spend"
+        }
+      ],
+      "commonMistakes": [
+        "Jumping to launching 10-minute delivery without asking whether the apps' losses make the threat temporary, or whether fast delivery would be profitable for the client.",
+        "Reading the 12% footfall fall as a 12% revenue fall: revenue is down only 4% because the lost trips are small baskets."
+      ],
+      "frameworkPick": {
+        "options": [
+          "competitive-response",
+          "growth",
+          "operations",
+          "market-entry"
+        ],
+        "correct": [
+          "competitive-response"
+        ],
+        "why": "A new type of competitor is taking trips, and the client must decide how to respond, which needs impact, durability of the threat and response options.",
+        "distractorWhyNot": {
+          "growth": "The goal is to defend existing revenue against a specific threat, not to find new growth.",
+          "operations": "Fast delivery operations matter only after the client decides to compete on speed.",
+          "market-entry": "The client is not entering a new market; competitors have entered its own."
+        }
+      },
+      "industry": "retail"
+    },
+    {
+      "id": "retail-c09",
+      "title": "Targeting loyalty spend by segment",
+      "framework": "segmentation",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "Global",
+      "prompt": "Our client is an Australian sporting goods retailer with 160 stores and a free loyalty programme of 4 million members. The top 20% of members generate 65% of member sales, yet the discretionary part of its A$40 million marketing budget is spread evenly across all members. How should the client segment its members to decide where to focus spending?",
+      "clarifyingFacts": [
+        "Q: What data is available? A: Five years of transactions linked to member IDs, plus email engagement and app usage.",
+        "Q: What does the client sell? A: Footwear, apparel and equipment across team sports, running, gym and fitness, and outdoor; members account for about 55% of sales.",
+        "Q: What is the objective? A: Grow member sales by 10% next year with the same A$40 million budget.",
+        "Q: How do members shop? A: About 25% of member sales are online, and many members use both stores and online.",
+        "Q: Can all of the A$40 million be moved? A: No. Sales are about A$1.6 billion; about A$9 million is the cost of points members earn automatically at 1% of spend and changes only if the programme rules change. The other A$31 million (offers, emails, events) is discretionary."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "How should the client segment 4 million members to target its A$40 million budget?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Split members into segments",
+            "children": [
+              {
+                "id": "a1",
+                "label": "By value (spend, frequency, recency)",
+                "children": [
+                  {
+                    "id": "a1a",
+                    "label": "Top 20% (65% of member sales)"
+                  },
+                  {
+                    "id": "a1b",
+                    "label": "Middle 30%"
+                  },
+                  {
+                    "id": "a1c",
+                    "label": "Bottom 50%, including lapsed"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "By main activity (largest share of spend)",
+                "children": [
+                  {
+                    "id": "a2a",
+                    "label": "Team sports"
+                  },
+                  {
+                    "id": "a2b",
+                    "label": "Running"
+                  },
+                  {
+                    "id": "a2c",
+                    "label": "Gym and fitness"
+                  },
+                  {
+                    "id": "a2d",
+                    "label": "Outdoor"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Assess each segment's attractiveness",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Current value",
+                "children": [
+                  {
+                    "id": "b1a",
+                    "label": "Annual spend and gross margin"
+                  },
+                  {
+                    "id": "b1b",
+                    "label": "Purchase frequency"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Headroom",
+                "children": [
+                  {
+                    "id": "b2a",
+                    "label": "Share of sporting goods spend with the client"
+                  },
+                  {
+                    "id": "b2b",
+                    "label": "Categories not yet bought (cross-sell gap)"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Responsiveness",
+                "children": [
+                  {
+                    "id": "b3a",
+                    "label": "Response to past campaigns against control groups"
+                  },
+                  {
+                    "id": "b3b",
+                    "label": "Share of spend bought on promotion"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Allocate budget and tailor offers",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Move the A$31 million to segments with best incremental margin"
+              },
+              {
+                "id": "c2",
+                "label": "Choose offer and channel per segment (app, email, in-store events)"
+              },
+              {
+                "id": "c3",
+                "label": "Measure uplift against control groups"
+              },
+              {
+                "id": "c4",
+                "label": "Rework points earn rates by segment (the A$9 million)"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "The top 20% already spend most of their sporting goods budget with the client, so extra marketing on them adds little; the middle 30% has the largest share-of-wallet headroom.",
+        "Running and gym members who buy only footwear have a large cross-sell gap in apparel and accessories that targeted offers can unlock.",
+        "The bottom 50%, many of them lapsed, receive about A$15.5 million of the A$31 million discretionary budget (A$7.75 per member) yet respond least, so most of it is wasted."
+      ],
+      "hints": [
+        "Structure it as a sequence of decisions that ends in a budget allocation, not as a list of segment types.",
+        "First level: Split members into segments, Assess each segment's attractiveness, Allocate budget and tailor offers.",
+        "Split members into segments → By value (top 20%, middle 30%, bottom 50% including lapsed) and By main activity (team sports, running, gym and fitness, outdoor)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Share of wallet",
+          "formula": "member's spend with the client / member's total sporting goods spend"
+        },
+        {
+          "name": "Incremental margin per marketing dollar",
+          "formula": "(sales uplift against control group x gross margin) / marketing spend"
+        }
+      ],
+      "commonMistakes": [
+        "Segmenting only by spend and putting the budget into the top 20%: today's value is not the same as headroom or responsiveness.",
+        "Using demographic segments such as age or gender that do not predict what members buy or how they respond, instead of behaviour and needs."
+      ],
+      "frameworkPick": {
+        "options": [
+          "segmentation",
+          "growth",
+          "pricing",
+          "profitability"
+        ],
+        "correct": [
+          "segmentation"
+        ],
+        "why": "The client asks how to divide its members into groups and pick which to target, which is a segmentation and prioritisation question.",
+        "distractorWhyNot": {
+          "growth": "The 10% target is the goal, but the question is specifically how to split and target members with a fixed budget.",
+          "pricing": "No price decision is being made; rewards and offers are allocated by segment.",
+          "profitability": "Marketing cost is one line of the P&L, but nothing has gone wrong with profit; the question is how to split a fixed budget across members."
+        }
+      },
+      "industry": "retail"
+    },
+    {
+      "id": "retail-c10",
+      "title": "PE stake in a jewellery chain",
+      "framework": "pe-dd",
+      "secondary": [
+        "growth"
+      ],
+      "difficulty": "Advanced",
+      "region": "India",
+      "prompt": "A private equity fund is considering buying a 40% stake in a South Indian jewellery retail chain with 45 showrooms, at a valuation of ₹3,200 crore for the whole business. Revenue has grown 22% a year for three years to ₹3,800 crore, with EBITDA of about ₹265 crore, and the promoter describes the chain as growing like a tech company. The fund needs to double its money in five years. Should it invest?",
+      "clarifyingFacts": [
+        "Q: How much of the growth is gold price versus volume? A: Assume gold prices in rupees rose about 17% a year over the period; grams sold grew about 4% a year.",
+        "Q: How has the showroom network changed? A: It grew from 38 to 45 showrooms; showrooms open for more than three years sold about 1.5% fewer grams each year.",
+        "Q: How is inventory funded? A: Gross margin is about 15%, and inventory is about 170 days of cost of sales, roughly ₹1,500 crore, about 60% funded by gold metal loans from banks and the rest by working capital debt and equity.",
+        "Q: What exit does the fund assume? A: An IPO or sale to a strategic buyer in year five at the entry multiple of about 12x EBITDA; assume net debt grows in line with EBITDA, so equity value moves in proportion to EBITDA."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Should the fund buy 40% at ₹3,200 crore, targeting 2x in five years?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Is past growth real and repeatable?",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Revenue growth split: gold price versus volume",
+                "children": [
+                  {
+                    "id": "a1a",
+                    "label": "Gold price inflation (about 17% a year)"
+                  },
+                  {
+                    "id": "a1b",
+                    "label": "Grams sold: new showrooms versus existing showrooms"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Quality of the 7% EBITDA margin",
+                "children": [
+                  {
+                    "id": "a2a",
+                    "label": "Making charges and studded (diamond) share of sales"
+                  },
+                  {
+                    "id": "a2b",
+                    "label": "Gains on inventory from rising gold prices"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "What will drive growth over the next five years?",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Market growth",
+                "children": [
+                  {
+                    "id": "b1a",
+                    "label": "Shift from local jewellers to organised chains (hallmarking, trust)"
+                  },
+                  {
+                    "id": "b1b",
+                    "label": "Demand in grams (weddings, festivals, investment buying)"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Chain-specific levers",
+                "children": [
+                  {
+                    "id": "b2a",
+                    "label": "Pace of new showrooms in new states"
+                  },
+                  {
+                    "id": "b2b",
+                    "label": "Higher studded and lightweight jewellery mix"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "What could go wrong?",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Gold price swings in either direction",
+                "children": [
+                  {
+                    "id": "c1a",
+                    "label": "Effect on revenue and inventory value"
+                  },
+                  {
+                    "id": "c1b",
+                    "label": "Extent of hedging through gold metal loans"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Regulation (hallmarking, limits on cash purchases, import duty changes)"
+              },
+              {
+                "id": "c3",
+                "label": "Promoter governance and related-party dealings"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Do the deal returns work?",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Entry valuation of about 12x EBITDA"
+              },
+              {
+                "id": "d2",
+                "label": "Exit value needed to double the money",
+                "children": [
+                  {
+                    "id": "d2a",
+                    "label": "EBITDA growth needed (about 15% a year)"
+                  },
+                  {
+                    "id": "d2b",
+                    "label": "Exit route and multiple (IPO or strategic sale)"
+                  }
+                ]
+              },
+              {
+                "id": "d3",
+                "label": "Protections for a 40% minority stake (board seats, exit rights)"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Most of the 22% growth is gold price: grams sold grew only about 4% a year and existing showrooms are shrinking in volume, so real growth comes from new showrooms, not a scalable engine.",
+        "Part of the 7% EBITDA margin is gains on inventory from rising gold prices, which would reverse if gold fell unless inventory is hedged through gold metal loans.",
+        "Doubling the money at a constant multiple needs EBITDA to grow about 15% a year; with flat gold prices and existing showrooms losing 1.5% of grams a year, that means about 48 new mature-equivalent showrooms in five years (roughly 10 a year) against about 2 to 3 a year recently."
+      ],
+      "hints": [
+        "This is a due-diligence question with a growth twist: test whether the growth story is real before you value the upside.",
+        "First level: Is past growth real, What drives future growth, Key risks, Deal returns.",
+        "What could go wrong? → Gold price swings (effect on revenue and inventory value, hedging through gold metal loans), Regulation (hallmarking, cash limits, import duty) and Promoter governance."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Volume growth",
+          "formula": "(1 + revenue growth) / (1 + gold price growth) - 1 = 1.22 / 1.17 - 1 ≈ 4%"
+        },
+        {
+          "name": "Like-for-like grams per showroom",
+          "formula": "grams sold at showrooms open in both years / same showrooms last year - 1"
+        },
+        {
+          "name": "Multiple of money",
+          "formula": "exit equity value of the stake / entry equity cost of the stake"
+        }
+      ],
+      "commonMistakes": [
+        "Taking 22% revenue growth at face value instead of splitting it into gold price inflation and grams sold.",
+        "Ignoring inventory: at about 170 days of cost of sales the chain holds about ₹1,500 crore of gold, so gold price moves and funding costs swing both earnings and cash."
+      ],
+      "frameworkPick": {
+        "options": [
+          "pe-dd",
+          "growth",
+          "ma",
+          "market-sizing"
+        ],
+        "correct": [
+          "pe-dd",
+          "growth"
+        ],
+        "why": "A financial investor must test the quality of earnings and risks before paying, and the return depends on whether real volume growth can double EBITDA in five years.",
+        "distractorWhyNot": {
+          "ma": "A minority financial investor gets no operating synergies, so a strategic acquisition lens misses the exit-return logic.",
+          "market-sizing": "Market size is one input to the growth view; it cannot answer whether the deal returns 2x."
+        }
+      },
+      "industry": "retail"
+    },
+    {
+      "id": "retail-c11",
+      "title": "Department store facing a cash crunch",
+      "framework": "turnaround",
+      "secondary": [
+        "profitability"
+      ],
+      "difficulty": "Advanced",
+      "region": "Global",
+      "prompt": "Our client is a UK department store chain with 40 stores. Sales have fallen 12% in two years to £1.6 billion, EBITDA is now minus £20 million and cash is down to £60 million. Its £150 million revolving credit facility expires in nine months, and lenders will refinance only against a credible plan, while landlords and pension trustees each want different things. What should the client do?",
+      "clarifyingFacts": [
+        "Q: How fast is cash going out? A: About £6 to 7 million a month after capex, interest and £15 million a year of pension deficit contributions; £110 million of the facility is drawn.",
+        "Q: How do stores perform? A: 12 of the 40 stores lose money at store level; their leases have about 11 years left at rents set before the market fell.",
+        "Q: What about inventory? A: Gross margin is 40% and inventory is £420 million, about 160 days of cost of sales against about 110 days at healthier peers.",
+        "Q: How big is online? A: About 18% of sales and growing, with a 30% return rate in fashion."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "How can the client stay solvent for 12 months and return to sustainable profit?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Secure liquidity for the next 12 months",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Release cash from working capital",
+                "children": [
+                  {
+                    "id": "a1a",
+                    "label": "Cut stock from about 160 to 110 days (about £130 million)"
+                  },
+                  {
+                    "id": "a1b",
+                    "label": "Agree supplier payment terms backed by credit insurers"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Reduce non-trading cash outflows",
+                "children": [
+                  {
+                    "id": "a2a",
+                    "label": "Defer non-essential capex"
+                  },
+                  {
+                    "id": "a2b",
+                    "label": "Reschedule pension deficit contributions with trustees"
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Raise or extend funding",
+                "children": [
+                  {
+                    "id": "a3a",
+                    "label": "Refinance the £150 million facility"
+                  },
+                  {
+                    "id": "a3b",
+                    "label": "Sell freehold stores or sale-and-leaseback"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Restore underlying profitability",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Store portfolio",
+                "children": [
+                  {
+                    "id": "b1a",
+                    "label": "Exit or shrink the 12 loss-making stores"
+                  },
+                  {
+                    "id": "b1b",
+                    "label": "Bring rents on remaining stores towards market levels"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Gross margin",
+                "children": [
+                  {
+                    "id": "b2a",
+                    "label": "Tighter ranges and fewer markdowns"
+                  },
+                  {
+                    "id": "b2b",
+                    "label": "Fewer online fashion returns"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Operating costs",
+                "children": [
+                  {
+                    "id": "b3a",
+                    "label": "Store staffing matched to footfall"
+                  },
+                  {
+                    "id": "b3b",
+                    "label": "Head office and central costs"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Choose the route to put the plan in place",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Consensual deal with lenders, landlords and trustees"
+              },
+              {
+                "id": "c2",
+                "label": "Court-sanctioned restructuring plan or CVA to bind dissenting landlords"
+              },
+              {
+                "id": "c3",
+                "label": "Sale of the business or administration if no plan works"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Cutting inventory to 110 days releases about £130 million, more than a year of cash outflow, which buys time for the profit plan and makes refinancing credible.",
+        "Over-rented leases on the 12 loss-making stores make a consensual landlord deal unlikely, so a restructuring plan or CVA will be needed, and lenders will want it before they refinance.",
+        "Pension trustees will accept lower contributions only in return for security or a share of property sale proceeds, which conflicts with what lenders want as security."
+      ],
+      "hints": [
+        "Order the tree by time horizon, and remember that a plan the creditors will not sign cannot be carried out.",
+        "First level: Secure liquidity for 12 months, Restore underlying profitability, Choose the route to put the plan in place.",
+        "Restore underlying profitability → Store portfolio (exit or shrink loss-making stores, rents towards market), Gross margin (tighter ranges, fewer online returns), Operating costs (staffing to footfall, head office)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Cash runway",
+          "formula": "(cash + undrawn facility) / monthly net cash outflow"
+        },
+        {
+          "name": "Inventory days",
+          "formula": "inventory / cost of sales x 365 = £420m / £960m x 365 ≈ 160 days"
+        },
+        {
+          "name": "Store four-wall EBITDA",
+          "formula": "store gross margin - rent - store staff - other store costs"
+        }
+      ],
+      "commonMistakes": [
+        "Starting with long-term strategy (brand, online) before securing the next nine months of cash; without refinancing the company may not survive to carry it out.",
+        "Treating stakeholders as one group: lenders, landlords and pension trustees rank differently and want different things, so the plan must show each why it does better than in an administration."
+      ],
+      "frameworkPick": {
+        "options": [
+          "turnaround",
+          "profitability",
+          "ma",
+          "operations"
+        ],
+        "correct": [
+          "turnaround",
+          "profitability"
+        ],
+        "why": "The company must first survive a liquidity deadline with competing creditors (turnaround) and then fix the losses behind it (profitability).",
+        "distractorWhyNot": {
+          "ma": "A sale is a fallback route inside the plan, not the question the client asked.",
+          "operations": "Inventory and staffing are levers inside the plan, but an operations lens misses funding and stakeholders."
+        }
+      },
+      "industry": "retail"
+    },
+    {
+      "id": "retail-c12",
+      "title": "Rolling out paid grocery membership",
+      "framework": "product-launch",
+      "secondary": [
+        "pricing"
+      ],
+      "difficulty": "Advanced",
+      "region": "India",
+      "prompt": "Our client is an Indian omnichannel grocery chain with 300 stores and an app. It piloted a paid membership in Chennai at ₹999 a year, offering 5% back on all purchases and free home delivery. After six months the 50,000 members spend ₹40,000 a year on average against ₹18,000 for non-members, and management wants to roll the membership out nationally next quarter. Should they?",
+      "clarifyingFacts": [
+        "Q: What did members spend before joining? A: About ₹33,000 a year; the pilot had no control group.",
+        "Q: What margin does the client earn? A: About 22% gross margin on the average basket.",
+        "Q: What does free delivery cost? A: Members place about 10 more home-delivery orders a year than before, at about ₹70 each.",
+        "Q: Anything else on the economics? A: GST at 18% is included in the ₹999, so the client keeps about ₹847; a national launch would cost about ₹40 crore in marketing and systems."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Should the client roll out the ₹999 paid membership nationally next quarter?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Is each member profitable?",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Income per member",
+                "children": [
+                  {
+                    "id": "a1a",
+                    "label": "Margin on spend caused by membership (₹33,000 to ₹40,000, not ₹18,000)"
+                  },
+                  {
+                    "id": "a1b",
+                    "label": "Fee after GST (about ₹847)"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Cost per member",
+                "children": [
+                  {
+                    "id": "a2a",
+                    "label": "5% back on all ₹40,000 of spend"
+                  },
+                  {
+                    "id": "a2b",
+                    "label": "Free delivery on about 10 extra orders at ₹70"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Will the pilot results hold nationally?",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Who will join outside Chennai",
+                "children": [
+                  {
+                    "id": "b1a",
+                    "label": "Heavy shoppers joining just for cashback"
+                  },
+                  {
+                    "id": "b1b",
+                    "label": "Lighter shoppers with spending headroom"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "City differences in delivery cost and competition"
+              },
+              {
+                "id": "b3",
+                "label": "Reliability of the pilot measurement",
+                "children": [
+                  {
+                    "id": "b3a",
+                    "label": "No control group"
+                  },
+                  {
+                    "id": "b3b",
+                    "label": "Novelty effect in the first six months"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Are the offer and price designed right?",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Fee",
+                "children": [
+                  {
+                    "id": "c1a",
+                    "label": "Single fee versus tiers"
+                  },
+                  {
+                    "id": "c1b",
+                    "label": "Fee level against competing memberships"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Benefits",
+                "children": [
+                  {
+                    "id": "c2a",
+                    "label": "Cashback rate, caps or spend thresholds"
+                  },
+                  {
+                    "id": "c2b",
+                    "label": "Minimum basket for free delivery"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Can the client launch nationally next quarter?",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Delivery capacity at 300 stores"
+              },
+              {
+                "id": "d2",
+                "label": "App, payment and benefits tracking systems"
+              },
+              {
+                "id": "d3",
+                "label": "Payback on the ₹40 crore launch cost"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Most of the ₹22,000 gap is self-selection: members already spent ₹33,000, so the true uplift is about ₹7,000, worth about ₹1,540 of gross margin.",
+        "On the true uplift each member loses about ₹300 a year (₹847 fee + ₹1,540 margin - ₹2,000 cashback - ₹700 delivery), so a national rollout as designed would destroy value.",
+        "Assuming members still spend about ₹40,000 a year (to be tested, since a leaner offer may attract fewer or lighter members), paying 5% back only on spend above ₹30,000 cuts cashback to ₹500 per member and turns each member into a gain of about ₹1,190 a year, so the ₹40 crore launch cost pays back after about 3.4 lakh member-years."
+      ],
+      "hints": [
+        "Judge the launch like an investment: test whether the pilot's numbers are real and profitable before asking whether the client can execute, and be careful which comparison measures the effect of membership.",
+        "First level: Member profitability, Whether pilot results hold nationally, Offer and price design, Ability to launch next quarter.",
+        "Can the client launch nationally next quarter? → Delivery capacity at 300 stores, App, payment and benefits tracking systems, Payback on the ₹40 crore launch cost."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Net value per member",
+          "formula": "fee after GST + gross margin x true incremental spend - cashback on all spend - extra delivery cost"
+        },
+        {
+          "name": "True spend uplift",
+          "formula": "member spend after joining - same members' spend before joining (or against a matched control group)"
+        }
+      ],
+      "commonMistakes": [
+        "Comparing members with non-members (₹40,000 against ₹18,000) and calling the gap the effect of membership, when heavy shoppers chose to join.",
+        "Costing the 5% back only on the extra spend, when it is paid on all ₹40,000, including spend the client would have had anyway."
+      ],
+      "frameworkPick": {
+        "options": [
+          "product-launch",
+          "pricing",
+          "segmentation",
+          "growth"
+        ],
+        "correct": [
+          "product-launch",
+          "pricing"
+        ],
+        "why": "The decision is whether to launch a new offer nationally, and the answer turns on whether its fee and benefits are priced to make each member profitable.",
+        "distractorWhyNot": {
+          "segmentation": "Who joins matters, but it is one input to the launch decision rather than the question.",
+          "growth": "The programme is meant to drive growth, but the question is whether this specific offer should launch as designed."
+        }
+      },
+      "industry": "retail"
+    }
+  ],
+  "flaws": [
+    {
+      "id": "retail-f01",
+      "title": "Footwear chain store sales",
+      "industry": "retail",
+      "framework": "profitability",
+      "difficulty": "Beginner",
+      "tree": {
+        "id": "r",
+        "label": "Why have store sales fallen at a mall-based footwear chain?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Number of transactions",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Footfall into stores"
+              },
+              {
+                "id": "a2",
+                "label": "Conversion (buyers / visitors)"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Average transaction value",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Pairs per transaction"
+              },
+              {
+                "id": "b2",
+                "label": "Average price per pair"
+              },
+              {
+                "id": "b3",
+                "label": "Number of shoppers who buy"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "b3",
+          "type": "overlap",
+          "explanation": "The number of shoppers who buy is the number of transactions, already captured by footfall x conversion. It is counted twice and does not drive the value of each transaction.",
+          "fix": "Remove it; average transaction value is fully explained by pairs per transaction and average price per pair."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Why have store sales fallen at a mall-based footwear chain?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Number of transactions",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Footfall into stores"
+              },
+              {
+                "id": "a2",
+                "label": "Conversion (buyers / visitors)"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Average transaction value",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Pairs per transaction"
+              },
+              {
+                "id": "b2",
+                "label": "Average price per pair"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "retail-f02",
+      "title": "Growing a supermarket's sales",
+      "industry": "retail",
+      "framework": "growth",
+      "difficulty": "Beginner",
+      "tree": {
+        "id": "r",
+        "label": "How can a supermarket chain grow its sales?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Increase the number of active customers",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Win new customers"
+              },
+              {
+                "id": "a2",
+                "label": "Win back lapsed customers"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Increase visits per active customer",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Shift trips away from rival stores"
+              },
+              {
+                "id": "b2",
+                "label": "Create new trip occasions (ready-to-eat, events)"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "r",
+          "type": "gap",
+          "explanation": "Sales = active customers x visits per customer x spend per visit. The tree covers the first two drivers but leaves out spend per visit, which is often the easiest lever.",
+          "fix": "Add 'Increase spend per visit', split into more items per basket and a higher average price per item."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "How can a supermarket chain grow its sales?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Increase the number of active customers",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Win new customers"
+              },
+              {
+                "id": "a2",
+                "label": "Win back lapsed customers"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Increase visits per active customer",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Shift trips away from rival stores"
+              },
+              {
+                "id": "b2",
+                "label": "Create new trip occasions (ready-to-eat, events)"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Increase spend per visit",
+            "children": [
+              {
+                "id": "c1",
+                "label": "More items per basket"
+              },
+              {
+                "id": "c2",
+                "label": "Higher average price per item"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "retail-f03",
+      "title": "Omnichannel fashion margin squeeze",
+      "industry": "retail",
+      "framework": "profitability",
+      "difficulty": "Intermediate",
+      "tree": {
+        "id": "r",
+        "label": "Why has EBITDA margin fallen at an omnichannel fashion retailer?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Gross margin",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Full-price selling prices"
+              },
+              {
+                "id": "a2",
+                "label": "Markdowns and discounts"
+              },
+              {
+                "id": "a3",
+                "label": "Product cost (sourcing price, freight, duty)"
+              },
+              {
+                "id": "a4",
+                "label": "Shrinkage and damaged stock"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Store operating costs",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Rent and CAM"
+              },
+              {
+                "id": "b2",
+                "label": "Store staff"
+              },
+              {
+                "id": "b3",
+                "label": "Electricity bills at high-street stores"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Online fulfilment costs",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Picking and packing online orders"
+              },
+              {
+                "id": "c2",
+                "label": "Outbound delivery to customers"
+              },
+              {
+                "id": "c3",
+                "label": "Returns handling"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Central costs",
+            "children": [
+              {
+                "id": "d1",
+                "label": "DCs and replenishment to stores"
+              },
+              {
+                "id": "d2",
+                "label": "Marketing"
+              },
+              {
+                "id": "d3",
+                "label": "Head office and technology"
+              },
+              {
+                "id": "d4",
+                "label": "Sales incentives paid to store teams"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "b3",
+          "type": "mixed-levels",
+          "explanation": "Rent and store staff are broad cost categories for every store, but electricity at high-street stores is one utility for one type of store. It sits a level too low and leaves other utilities, maintenance and mall stores without a home.",
+          "fix": "Replace it with 'Utilities and maintenance (all stores)'; electricity by store type can sit below it."
+        },
+        {
+          "nodeId": "d4",
+          "type": "overlap",
+          "explanation": "Incentives paid to store sales teams are part of store staff cost. Listed again under central costs in different words, the same rupees are counted twice.",
+          "fix": "Remove it; incentives stay inside store staff cost."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Why has EBITDA margin fallen at an omnichannel fashion retailer?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Gross margin",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Full-price selling prices"
+              },
+              {
+                "id": "a2",
+                "label": "Markdowns and discounts"
+              },
+              {
+                "id": "a3",
+                "label": "Product cost (sourcing price, freight, duty)"
+              },
+              {
+                "id": "a4",
+                "label": "Shrinkage and damaged stock"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Store operating costs",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Rent and CAM"
+              },
+              {
+                "id": "b2",
+                "label": "Store staff"
+              },
+              {
+                "id": "b3",
+                "label": "Utilities and maintenance (all stores)"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Online fulfilment costs",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Picking and packing online orders"
+              },
+              {
+                "id": "c2",
+                "label": "Outbound delivery to customers"
+              },
+              {
+                "id": "c3",
+                "label": "Returns handling"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Central costs",
+            "children": [
+              {
+                "id": "d1",
+                "label": "DCs and replenishment to stores"
+              },
+              {
+                "id": "d2",
+                "label": "Marketing"
+              },
+              {
+                "id": "d3",
+                "label": "Head office and technology"
+              }
+            ]
+          }
+        ]
+      },
+      "decoys": [
+        {
+          "nodeId": "d1",
+          "whyFine": "Bulk replenishment of stores from DCs is a different activity and cost line from picking individual online orders (c1)."
+        },
+        {
+          "nodeId": "a3",
+          "whyFine": "Inbound freight and duty are part of landed product cost, while d1 covers moving stock from DCs to stores, so the two do not overlap."
+        }
+      ]
+    },
+    {
+      "id": "retail-f04",
+      "title": "Pricing TV extended warranties",
+      "industry": "retail",
+      "framework": "pricing",
+      "difficulty": "Intermediate",
+      "tree": {
+        "id": "r",
+        "label": "What price should an electronics retailer charge for a two-year extended warranty on TVs?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Cost floor",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Expected claims cost (failure rate x average repair cost)"
+              },
+              {
+                "id": "a2",
+                "label": "Service partner fees and administration"
+              },
+              {
+                "id": "a3",
+                "label": "Sales staff commission per warranty sold"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Customer value",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Perceived risk and cost of a breakdown"
+              },
+              {
+                "id": "b2",
+                "label": "TV price (warranty as a share of it)"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Competing alternatives",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Rival retailers' warranty prices"
+              },
+              {
+                "id": "c2",
+                "label": "Plans sold by TV brands and online insurers"
+              },
+              {
+                "id": "c3",
+                "label": "Number of TV brands the retailer stocks"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "c3",
+          "type": "not-a-driver",
+          "explanation": "How many TV brands the retailer stocks does not change the cost of the warranty, what customers will pay for it, or the prices of competing plans. It does not drive the price decision.",
+          "fix": "Remove it; competing alternatives are fully covered by rival retailers' prices and plans from brands and online insurers."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "What price should an electronics retailer charge for a two-year extended warranty on TVs?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Cost floor",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Expected claims cost (failure rate x average repair cost)"
+              },
+              {
+                "id": "a2",
+                "label": "Service partner fees and administration"
+              },
+              {
+                "id": "a3",
+                "label": "Sales staff commission per warranty sold"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Customer value",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Perceived risk and cost of a breakdown"
+              },
+              {
+                "id": "b2",
+                "label": "TV price (warranty as a share of it)"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Competing alternatives",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Rival retailers' warranty prices"
+              },
+              {
+                "id": "c2",
+                "label": "Plans sold by TV brands and online insurers"
+              }
+            ]
+          }
+        ]
+      },
+      "decoys": [
+        {
+          "nodeId": "b2",
+          "whyFine": "Shoppers judge a warranty against what the TV cost, so the TV price shapes willingness to pay even though it is not a cost of the warranty."
+        },
+        {
+          "nodeId": "a3",
+          "whyFine": "Commission is paid on every warranty sold, so it is a real variable cost that belongs in the price floor."
+        }
+      ]
+    },
+    {
+      "id": "retail-f05",
+      "title": "Rising online grocery fulfilment cost",
+      "industry": "retail",
+      "framework": "operations",
+      "difficulty": "Intermediate",
+      "tree": {
+        "id": "r",
+        "label": "Why has fulfilment cost per order (dark store to doorstep) risen from ₹95 to ₹130?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Picking and packing cost per order",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Picker labour cost per order",
+                "children": [
+                  {
+                    "id": "a1a",
+                    "label": "Picker hours per order (items per order / pick rate)"
+                  },
+                  {
+                    "id": "a1b",
+                    "label": "Picker wage per hour"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Packaging materials per order"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Last-mile delivery cost per order",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Rider cost per trip",
+                "children": [
+                  {
+                    "id": "b1a",
+                    "label": "Rider pay per hour"
+                  },
+                  {
+                    "id": "b1b",
+                    "label": "Trip duration"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Orders per trip (batching)"
+              },
+              {
+                "id": "b3",
+                "label": "Failed and repeat delivery attempts"
+              },
+              {
+                "id": "b4",
+                "label": "Cold packs and carry bags left with the customer"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "r",
+          "type": "gap",
+          "explanation": "The root covers every cost from dark store to doorstep, but the tree has only variable costs. Dark stores carry rent, power and supervisor costs that are fixed, so cost per order rises sharply when orders per site fall. Anyone who knows online grocery economics would check site utilisation first.",
+          "fix": "Add 'Dark-store fixed cost per order', split into dark-store rent, power and supervision and orders per dark store per day."
+        },
+        {
+          "nodeId": "b4",
+          "type": "overlap",
+          "explanation": "Cold packs and carry bags are packaging materials, already counted under picking and packing; describing them at the doorstep hides the double count.",
+          "fix": "Remove it from last-mile delivery; packaging stays under picking and packing."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Why has fulfilment cost per order (dark store to doorstep) risen from ₹95 to ₹130?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Picking and packing cost per order",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Picker labour cost per order",
+                "children": [
+                  {
+                    "id": "a1a",
+                    "label": "Picker hours per order (items per order / pick rate)"
+                  },
+                  {
+                    "id": "a1b",
+                    "label": "Picker wage per hour"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Packaging materials per order (bags, boxes, ice packs)"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Last-mile delivery cost per order",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Rider cost per trip",
+                "children": [
+                  {
+                    "id": "b1a",
+                    "label": "Rider pay per hour"
+                  },
+                  {
+                    "id": "b1b",
+                    "label": "Trip duration"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Orders per trip (batching)"
+              },
+              {
+                "id": "b3",
+                "label": "Failed and repeat delivery attempts"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Dark-store fixed cost per order",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Dark-store rent, power and supervision"
+              },
+              {
+                "id": "c2",
+                "label": "Orders per dark store per day"
+              }
+            ]
+          }
+        ]
+      },
+      "decoys": [
+        {
+          "nodeId": "b3",
+          "whyFine": "Failed and repeat attempts add rider trips that batching (b2) does not capture, so they are a separate driver of delivery cost per order."
+        }
+      ]
+    },
+    {
+      "id": "retail-f06",
+      "title": "Diligence on a grocer's EBITDA",
+      "industry": "retail",
+      "framework": "pe-dd",
+      "difficulty": "Advanced",
+      "tree": {
+        "id": "r",
+        "label": "Is the target grocery chain's ₹180 crore EBITDA sustainable for a new owner?",
+        "children": [
+          {
+            "id": "s",
+            "label": "Sales base",
+            "children": [
+              {
+                "id": "s1",
+                "label": "Like-for-like sales trend"
+              },
+              {
+                "id": "s2",
+                "label": "Maturity of recently opened stores"
+              }
+            ]
+          },
+          {
+            "id": "a",
+            "label": "Gross margin (% of sales)",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Front margin (shelf price minus invoice cost)",
+                "children": [
+                  {
+                    "id": "a1a",
+                    "label": "Price position against competitors"
+                  },
+                  {
+                    "id": "a1b",
+                    "label": "Purchase terms (invoice cost) from suppliers"
+                  },
+                  {
+                    "id": "a1c",
+                    "label": "Category mix (fresh, staples, general merchandise)"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Shrinkage and wastage",
+                "children": [
+                  {
+                    "id": "a2a",
+                    "label": "Fresh produce wastage"
+                  },
+                  {
+                    "id": "a2b",
+                    "label": "Theft and administrative errors"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Store operating costs",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Rent and CAM",
+                "children": [
+                  {
+                    "id": "b1a",
+                    "label": "Lease escalations (often about 15% every three years)"
+                  },
+                  {
+                    "id": "b1b",
+                    "label": "Leases due for renewal"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Store staff",
+                "children": [
+                  {
+                    "id": "b2a",
+                    "label": "Minimum wage revisions"
+                  },
+                  {
+                    "id": "b2b",
+                    "label": "Staff per store"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Utilities and maintenance"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Central costs",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Distribution centres and freight"
+              },
+              {
+                "id": "c2",
+                "label": "Marketing"
+              },
+              {
+                "id": "c3",
+                "label": "Head office"
+              },
+              {
+                "id": "c4",
+                "label": "Contracted step-ups in store occupancy cost"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Non-recurring items in reported EBITDA",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Gains on sale of property"
+              },
+              {
+                "id": "d2",
+                "label": "Reversal of past provisions"
+              },
+              {
+                "id": "d3",
+                "label": "Other one-offs (insurance claims, legal settlements)"
+              },
+              {
+                "id": "d4",
+                "label": "Valuation multiples paid in recent grocery deals"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "a",
+          "type": "gap",
+          "explanation": "Grocery gross margin has three parts: front margin, back margin and shrinkage. Back margin (volume rebates, listing and display fees from suppliers) is often several points of sales and can include one-off payments or rebates tied to purchase targets, so it is central to whether EBITDA is sustainable.",
+          "fix": "Add 'Supplier income (back margin)', split into rebates tied to purchase targets and one-off listing and display fees."
+        },
+        {
+          "nodeId": "c4",
+          "type": "overlap",
+          "explanation": "Contracted step-ups in store occupancy cost are the lease escalations already under store rent and CAM; listed again under central costs in different words, they would be counted twice.",
+          "fix": "Remove it from central costs; rent escalations stay under store operating costs."
+        },
+        {
+          "nodeId": "d4",
+          "type": "not-a-driver",
+          "explanation": "Multiples paid in other deals affect what the business is worth, not whether its EBITDA will recur. It answers a different question.",
+          "fix": "Remove it from the EBITDA tree and treat valuation separately."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Is the target grocery chain's ₹180 crore EBITDA sustainable for a new owner?",
+        "children": [
+          {
+            "id": "s",
+            "label": "Sales base",
+            "children": [
+              {
+                "id": "s1",
+                "label": "Like-for-like sales trend"
+              },
+              {
+                "id": "s2",
+                "label": "Maturity of recently opened stores"
+              }
+            ]
+          },
+          {
+            "id": "a",
+            "label": "Gross margin (% of sales)",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Front margin (shelf price minus invoice cost)",
+                "children": [
+                  {
+                    "id": "a1a",
+                    "label": "Price position against competitors"
+                  },
+                  {
+                    "id": "a1b",
+                    "label": "Purchase terms (invoice cost) from suppliers"
+                  },
+                  {
+                    "id": "a1c",
+                    "label": "Category mix (fresh, staples, general merchandise)"
+                  }
+                ]
+              },
+              {
+                "id": "a4",
+                "label": "Supplier income (back margin)",
+                "children": [
+                  {
+                    "id": "a4a",
+                    "label": "Rebates tied to purchase targets"
+                  },
+                  {
+                    "id": "a4b",
+                    "label": "One-off listing and display fees"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Shrinkage and wastage",
+                "children": [
+                  {
+                    "id": "a2a",
+                    "label": "Fresh produce wastage"
+                  },
+                  {
+                    "id": "a2b",
+                    "label": "Theft and administrative errors"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Store operating costs",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Rent and CAM",
+                "children": [
+                  {
+                    "id": "b1a",
+                    "label": "Lease escalations (often about 15% every three years)"
+                  },
+                  {
+                    "id": "b1b",
+                    "label": "Leases due for renewal"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Store staff",
+                "children": [
+                  {
+                    "id": "b2a",
+                    "label": "Minimum wage revisions"
+                  },
+                  {
+                    "id": "b2b",
+                    "label": "Staff per store"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Utilities and maintenance"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Central costs",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Distribution centres and freight"
+              },
+              {
+                "id": "c2",
+                "label": "Marketing"
+              },
+              {
+                "id": "c3",
+                "label": "Head office"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Non-recurring items in reported EBITDA",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Gains on sale of property"
+              },
+              {
+                "id": "d2",
+                "label": "Reversal of past provisions"
+              },
+              {
+                "id": "d3",
+                "label": "Other one-offs (insurance claims, legal settlements)"
+              }
+            ]
+          }
+        ]
+      },
+      "decoys": [
+        {
+          "nodeId": "b1b",
+          "whyFine": "A renewal resets rent to market levels, a different risk from the step-ups already written into running leases (b1a)."
+        },
+        {
+          "nodeId": "a1a",
+          "whyFine": "Front margin depends on shelf price as well as invoice cost, so a forced price cut against competitors would erode it."
+        }
+      ]
+    },
+    {
+      "id": "retail-f07",
+      "title": "Freeing cash at a furniture chain",
+      "industry": "retail",
+      "framework": "turnaround",
+      "difficulty": "Advanced",
+      "tree": {
+        "id": "r",
+        "label": "How can a struggling home-furniture retailer release ₹150 crore of working capital in 12 months?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Reduce inventory",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Buy less",
+                "children": [
+                  {
+                    "id": "a1a",
+                    "label": "Cut SKU count through range rationalisation"
+                  },
+                  {
+                    "id": "a1b",
+                    "label": "Smaller, more frequent import orders"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Sell stock faster",
+                "children": [
+                  {
+                    "id": "a2a",
+                    "label": "Clear stock aged over 180 days"
+                  },
+                  {
+                    "id": "a2b",
+                    "label": "Rebalance stock between stores"
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Shift slow categories to consignment (supplier owns stock until sold)"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Get cash from customers sooner",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Faster settlement from card and consumer-finance partners"
+              },
+              {
+                "id": "b2",
+                "label": "Tighter credit on business and project orders (hotels, offices)"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Pay suppliers later",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Longer terms with domestic suppliers"
+              },
+              {
+                "id": "c2",
+                "label": "Longer usance on import letters of credit"
+              },
+              {
+                "id": "c3",
+                "label": "Pay suppliers only when goods sell to customers"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Refinance the working capital loan at a lower rate"
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "d",
+          "type": "not-a-driver",
+          "explanation": "A lower interest rate cuts the cost of funding working capital but does not release any of it; the ₹150 crore still sits in stock and receivables.",
+          "fix": "Remove it from this tree; refinancing belongs in a separate funding workstream."
+        },
+        {
+          "nodeId": "c3",
+          "type": "overlap",
+          "explanation": "Paying suppliers only when goods sell is consignment, already listed under inventory. The rewording places one lever in two branches and counts its cash twice.",
+          "fix": "Remove it from 'Pay suppliers later' and keep consignment under inventory."
+        },
+        {
+          "nodeId": "b",
+          "type": "gap",
+          "explanation": "Much furniture is sold made-to-order or delivered weeks later, and retailers commonly take sizeable advance deposits. Customer advances are a major source of cash from customers, missing from this branch.",
+          "fix": "Add 'Raise advance deposits on made-to-order and delayed-delivery orders'."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "How can a struggling home-furniture retailer release ₹150 crore of working capital in 12 months?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Reduce inventory",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Buy less",
+                "children": [
+                  {
+                    "id": "a1a",
+                    "label": "Cut SKU count through range rationalisation"
+                  },
+                  {
+                    "id": "a1b",
+                    "label": "Smaller, more frequent import orders"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Sell stock faster",
+                "children": [
+                  {
+                    "id": "a2a",
+                    "label": "Clear stock aged over 180 days"
+                  },
+                  {
+                    "id": "a2b",
+                    "label": "Rebalance stock between stores"
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Shift slow categories to consignment (supplier owns stock until sold)"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Get cash from customers sooner",
+            "children": [
+              {
+                "id": "b3",
+                "label": "Raise advance deposits on made-to-order and delayed-delivery orders"
+              },
+              {
+                "id": "b1",
+                "label": "Faster settlement from card and consumer-finance partners"
+              },
+              {
+                "id": "b2",
+                "label": "Tighter credit on business and project orders (hotels, offices)"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Pay suppliers later",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Longer terms with domestic suppliers"
+              },
+              {
+                "id": "c2",
+                "label": "Longer usance on import letters of credit"
+              }
+            ]
+          }
+        ]
+      },
+      "decoys": [
+        {
+          "nodeId": "b1",
+          "whyFine": "Consumer-finance (EMI) partners often pay the retailer days after delivery, so faster settlement is a real receivable lever, not a rounding error."
+        },
+        {
+          "nodeId": "a1b",
+          "whyFine": "Smaller, more frequent import orders lower average cycle stock, so they release inventory even if annual purchases stay the same."
+        }
+      ]
+    }
+  ],
+  "quick": [
+    {
+      "id": "retail-q01",
+      "industry": "retail",
+      "difficulty": "Beginner",
+      "question": "Which split of 'Annual sales of a supermarket store' is MECE?",
+      "parent": "Annual sales of a supermarket store",
+      "options": [
+        {
+          "split": [
+            "Weekday sales",
+            "Weekend sales",
+            "Festive season sales"
+          ],
+          "correct": false,
+          "why": "Overlap: festive days are themselves weekdays or weekend days, so festive sales are counted twice."
+        },
+        {
+          "split": [
+            "Number of bills",
+            "Average bill value"
+          ],
+          "correct": true,
+          "why": "Sales = bills x average bill value, so the two multiply to the whole with nothing missing or repeated."
+        },
+        {
+          "split": [
+            "Food and grocery",
+            "General merchandise and apparel",
+            "Private-label products"
+          ],
+          "correct": false,
+          "why": "Overlap: private-label products are themselves food or non-food, so they already sit in the first two branches."
+        },
+        {
+          "split": [
+            "Fresh food",
+            "Packaged food and staples",
+            "Personal and home care"
+          ],
+          "correct": false,
+          "why": "Gap: general merchandise and apparel, a real share of a supermarket's sales, have no branch."
+        }
+      ]
+    },
+    {
+      "id": "retail-q02",
+      "industry": "retail",
+      "difficulty": "Beginner",
+      "question": "Which split of 'Monthly operating costs of a mall-based fashion store' is MECE?",
+      "parent": "Monthly operating costs of a mall-based fashion store",
+      "options": [
+        {
+          "split": [
+            "Rent",
+            "Store staff",
+            "Electricity, housekeeping and security"
+          ],
+          "correct": false,
+          "why": "Gap: mall CAM charges, billed on top of rent, and maintenance and smaller running costs have no branch."
+        },
+        {
+          "split": [
+            "Fixed costs (rent, salaried staff)",
+            "Variable costs (commissions, card fees)",
+            "Utilities and maintenance"
+          ],
+          "correct": false,
+          "why": "Overlap: utilities and maintenance are themselves fixed or variable, so the third branch repeats costs already in the first two."
+        },
+        {
+          "split": [
+            "Rent and CAM",
+            "Store staff",
+            "Utilities and other store costs",
+            "End-of-season markdowns"
+          ],
+          "correct": false,
+          "why": "Not a driver: markdowns reduce gross margin on merchandise; they are not a cost of running the store."
+        },
+        {
+          "split": [
+            "Rent and CAM",
+            "Store staff",
+            "Utilities, maintenance and other store costs"
+          ],
+          "correct": true,
+          "why": "Occupancy, people and a catch-all for everything else cover each running cost exactly once."
+        }
+      ]
+    },
+    {
+      "id": "retail-q03",
+      "industry": "retail",
+      "difficulty": "Beginner",
+      "question": "Which split of 'An electronics retailer's customers, by channel used' is MECE?",
+      "parent": "An electronics retailer's customers, by channel used",
+      "options": [
+        {
+          "split": [
+            "Store only",
+            "Online only",
+            "Both store and online"
+          ],
+          "correct": true,
+          "why": "Every customer falls into exactly one group, including those who use both channels."
+        },
+        {
+          "split": [
+            "In-store buyers",
+            "Online buyers"
+          ],
+          "correct": false,
+          "why": "Overlap: a customer who buys through both channels sits in both groups."
+        },
+        {
+          "split": [
+            "Store only",
+            "Online only"
+          ],
+          "correct": false,
+          "why": "Gap: customers who buy through both channels belong to neither group."
+        },
+        {
+          "split": [
+            "Store only",
+            "Online only",
+            "Research online, buy in store",
+            "Both store and online"
+          ],
+          "correct": false,
+          "why": "Overlap: shoppers who research online but buy in store are still store-only buyers, so they are counted twice."
+        }
+      ]
+    },
+    {
+      "id": "retail-q04",
+      "industry": "retail",
+      "difficulty": "Intermediate",
+      "question": "Which split of 'Gross margin of a grocery retailer (as % of sales)' is MECE?",
+      "parent": "Gross margin of a grocery retailer (as % of sales)",
+      "options": [
+        {
+          "split": [
+            "Front margin (shelf price minus invoice cost)",
+            "Supplier volume rebates",
+            "Shrinkage and wastage (deducted)"
+          ],
+          "correct": false,
+          "why": "Gap: supplier income also includes listing, display and promotion fees, which have no branch."
+        },
+        {
+          "split": [
+            "Front margin",
+            "Back margin (supplier income)",
+            "Shrinkage and wastage (deducted)",
+            "Supplier-funded promotions"
+          ],
+          "correct": false,
+          "why": "Overlap: money suppliers pay to fund promotions is supplier income, already inside back margin."
+        },
+        {
+          "split": [
+            "Front margin",
+            "Back margin (supplier income)",
+            "Shrinkage and wastage (deducted)"
+          ],
+          "correct": true,
+          "why": "Front margin plus supplier income, less stock lost, is the gross margin the grocer keeps; each rupee sits in one branch."
+        },
+        {
+          "split": [
+            "Front margin",
+            "Back margin (supplier income)",
+            "Shrinkage and wastage (deducted)",
+            "Card payment charges (MDR)"
+          ],
+          "correct": false,
+          "why": "Not a driver: card payment charges are an operating cost below gross margin, not part of it."
+        }
+      ]
+    },
+    {
+      "id": "retail-q05",
+      "industry": "retail",
+      "difficulty": "Intermediate",
+      "question": "Which split of 'Reasons a store visitor leaves without buying' is MECE?",
+      "parent": "Reasons a store visitor leaves without buying",
+      "options": [
+        {
+          "split": [
+            "Only browsing",
+            "Item not ranged",
+            "Item out of stock",
+            "Rejected price or quality"
+          ],
+          "correct": false,
+          "why": "Gap: shoppers who found an acceptable item but could not complete the purchase (long queues, no help, payment failure) have no branch."
+        },
+        {
+          "split": [
+            "Only browsing",
+            "Could not find the item",
+            "Rejected price or quality",
+            "Could not complete the purchase"
+          ],
+          "correct": true,
+          "why": "Follows the visitor's path (intent, find, accept, pay), so each lost sale has exactly one reason."
+        },
+        {
+          "split": [
+            "Only browsing",
+            "Could not find the item",
+            "Rejected price or quality",
+            "Could not complete the purchase",
+            "Saw a lower price online"
+          ],
+          "correct": false,
+          "why": "Overlap: seeing a lower price online is a reason for rejecting the price, so it is counted twice."
+        },
+        {
+          "split": [
+            "First-time visitors",
+            "Repeat visitors"
+          ],
+          "correct": false,
+          "why": "Not a driver: this splits who left, not why they left, so it cannot explain or fix the lost sales."
+        }
+      ]
+    },
+    {
+      "id": "retail-q06",
+      "industry": "retail",
+      "difficulty": "Intermediate",
+      "question": "Which split of 'Like-for-like sales growth of a retail chain' is MECE?",
+      "parent": "Like-for-like sales growth of a retail chain",
+      "options": [
+        {
+          "split": [
+            "Change in footfall per store",
+            "Change in conversion",
+            "Change in average bill value",
+            "Sales from stores opened this year"
+          ],
+          "correct": false,
+          "why": "Not a driver: stores opened this year are excluded from like-for-like sales by definition."
+        },
+        {
+          "split": [
+            "Change in footfall per store",
+            "Change in conversion",
+            "Change in items per bill",
+            "Change in average bill value"
+          ],
+          "correct": false,
+          "why": "Overlap: items per bill is a component of average bill value, so its effect is counted twice."
+        },
+        {
+          "split": [
+            "Change in footfall per store",
+            "Change in conversion",
+            "Change in average price per item"
+          ],
+          "correct": false,
+          "why": "Gap: average bill value is items per bill x price per item, so a change in items per bill has no branch."
+        },
+        {
+          "split": [
+            "Change in footfall per store",
+            "Change in conversion",
+            "Change in average bill value"
+          ],
+          "correct": true,
+          "why": "At stores open in both periods, sales = footfall x conversion x average bill value, so these three changes explain all of like-for-like growth."
+        }
+      ]
+    },
+    {
+      "id": "retail-q07",
+      "industry": "retail",
+      "difficulty": "Advanced",
+      "question": "Which split of 'Fulfilment cost per online grocery order (dark-store model)' is MECE?",
+      "parent": "Fulfilment cost per online grocery order (dark-store model)",
+      "options": [
+        {
+          "split": [
+            "Picker labour",
+            "Packaging materials",
+            "Last-mile delivery",
+            "Refunds for missing or damaged items"
+          ],
+          "correct": false,
+          "why": "Gap: dark-store rent, power and supervisors have no branch, and this fixed cost per order rises sharply when orders per store fall."
+        },
+        {
+          "split": [
+            "Inside the dark store",
+            "On the road",
+            "Refunds for missing or damaged items",
+            "Salaried staff"
+          ],
+          "correct": false,
+          "why": "Overlap: salaried pickers, supervisors and riders already sit inside the store or road branches."
+        },
+        {
+          "split": [
+            "Pick and pack (labour and materials)",
+            "Last-mile delivery",
+            "Dark-store running cost per order",
+            "Refunds for missing or damaged items"
+          ],
+          "correct": true,
+          "why": "Covers every rupee from the dark store to the doorstep and after, including the fixed site cost that rises per order when volume falls."
+        },
+        {
+          "split": [
+            "Pick and pack (labour and materials)",
+            "Last-mile delivery",
+            "Dark-store running cost per order",
+            "Refunds for missing or damaged items",
+            "Cold chain (chillers, ice packs)"
+          ],
+          "correct": false,
+          "why": "Overlap: chiller power is part of dark-store running cost and ice packs are packing materials, so cold chain is counted twice."
+        }
+      ]
+    },
+    {
+      "id": "retail-q08",
+      "industry": "retail",
+      "difficulty": "Advanced",
+      "question": "Which split of 'First-year profit impact of closing 15 loss-making stores' is MECE?",
+      "parent": "First-year profit impact of closing 15 loss-making stores",
+      "options": [
+        {
+          "split": [
+            "Four-wall losses removed",
+            "Margin on sales transferred to nearby stores",
+            "Stranded central costs and lost rebates",
+            "One-off closure costs"
+          ],
+          "correct": true,
+          "why": "Covers the direct saving, the sales that move, the costs and rebates that do not scale down, and one-off costs, each counted once."
+        },
+        {
+          "split": [
+            "Four-wall losses removed",
+            "Rent and staff no longer paid",
+            "Margin on sales transferred to nearby stores",
+            "Stranded central costs and lost rebates",
+            "One-off closure costs"
+          ],
+          "correct": false,
+          "why": "Overlap: rent and staff are inside the four-wall loss, so that saving is counted twice."
+        },
+        {
+          "split": [
+            "Four-wall losses removed",
+            "Margin on sales transferred to nearby stores",
+            "Severance and lease exit costs",
+            "Stock write-offs"
+          ],
+          "correct": false,
+          "why": "Gap: central costs once charged to the closed stores stay behind and supplier rebates fall with volume; neither has a branch."
+        },
+        {
+          "split": [
+            "Four-wall losses removed",
+            "Stranded central costs and lost rebates",
+            "One-off closure costs"
+          ],
+          "correct": false,
+          "why": "Gap: some customers of the closed stores move to nearby stores, and the margin on those transferred sales has no branch."
+        }
+      ]
+    }
+  ],
+  "chainDrills": [
+    {
+      "id": "retail-v01",
+      "industry": "retail",
+      "difficulty": "Beginner",
+      "type": "order",
+      "prompt": "Put the stages of the retail value chain in order, from deciding what to buy to serving the customer after the sale.",
+      "options": [
+        "s5",
+        "s1",
+        "s6",
+        "s3",
+        "s4",
+        "s2"
+      ],
+      "answer": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6"
+      ],
+      "why": "The retailer decides what to buy (s1), moves it through DCs (s2) to a store network chosen in advance (s3), draws shoppers in through pricing, promotions and loyalty (s4), converts them in store (s5), and finally fulfils online orders and handles returns and service (s6)."
+    },
+    {
+      "id": "retail-v02",
+      "industry": "retail",
+      "difficulty": "Beginner",
+      "type": "locate",
+      "prompt": "End-of-season markdowns at a fashion chain have doubled because buyers ordered 40% more winter jackets than the stores could sell. Which stage caused this?",
+      "options": [
+        "s1",
+        "s3",
+        "s5",
+        "s4"
+      ],
+      "answer": [
+        "s1"
+      ],
+      "why": "Quantities bought for the season are set in merchandise planning and buying; the markdowns show up later in the P&L, but the cause is over-buying."
+    },
+    {
+      "id": "retail-v03",
+      "industry": "retail",
+      "difficulty": "Intermediate",
+      "type": "locate",
+      "prompt": "At 30 stores, weekend checkout queues and staff overtime have risen sharply over three months, while monthly sales are flat and weekday tills are quiet. Three months ago all double-points loyalty offers were moved to Saturdays and Sundays. Which stage is causing the extra cost?",
+      "options": [
+        "s2",
+        "s3",
+        "s4",
+        "s5"
+      ],
+      "answer": [
+        "s4"
+      ],
+      "why": "The cost shows up in store operations (s5), but the cause is the promotion calendar set in marketing and loyalty (s4): it moved trips into two days without adding sales. Restaffing stores treats the symptom; spreading the offers across the week fixes it."
+    },
+    {
+      "id": "retail-v04",
+      "industry": "retail",
+      "difficulty": "Intermediate",
+      "type": "assign",
+      "prompt": "Assign each item to the value chain stage it belongs to.",
+      "items": [
+        {
+          "item": "Volume rebate from an FMCG brand for hitting a purchase target",
+          "stage": "s1"
+        },
+        {
+          "item": "Diesel for trucks running from the DC to stores",
+          "stage": "s2"
+        },
+        {
+          "item": "Common area maintenance (CAM) charges at a mall",
+          "stage": "s3"
+        },
+        {
+          "item": "Stock lost to shoplifting",
+          "stage": "s5"
+        },
+        {
+          "item": "Loyalty points redeemed at checkout",
+          "stage": "s4"
+        },
+        {
+          "item": "Courier cost to collect returned online orders",
+          "stage": "s6"
+        }
+      ],
+      "why": "The rebate is supplier income negotiated by buyers, so it sits in s1 even though it is paid later. CAM is part of the occupancy cost of the site (s3), not store operations. Loyalty points are redeemed at the till but are a marketing and loyalty cost (s4). Return pickups belong to online fulfilment and after-sales (s6), not the DC network."
+    },
+    {
+      "id": "retail-v05",
+      "industry": "retail",
+      "difficulty": "Advanced",
+      "type": "locate",
+      "prompt": "Two years after opening, a chain's new stores sell 30% less per sq ft than its mature stores, even though they carry the same range, staffing model, prices and local marketing spend per store, and loyalty sign-ups per visitor match mature stores. Footfall is the main gap. Which stage is the most likely cause?",
+      "options": [
+        "s1",
+        "s3",
+        "s4",
+        "s5"
+      ],
+      "answer": [
+        "s3"
+      ],
+      "why": "The gap shows up in store sales (s5), but range, staffing, prices and marketing are matched, so the difference is the sites themselves: catchment size, visibility and access are fixed when the store network is chosen (s3). Two years is beyond a normal ramp-up, so weak site selection is the likely cause."
+    },
+    {
+      "id": "retail-v06",
+      "industry": "retail",
+      "difficulty": "Advanced",
+      "type": "locate",
+      "prompt": "A grocer's store staff hours have risen 15% with no change in sales or opening hours. Staff now spend much of each morning breaking down mixed pallets in the back room because deliveries no longer arrive sorted by aisle. Which stage is causing the cost increase?",
+      "options": [
+        "s2",
+        "s3",
+        "s5",
+        "s6"
+      ],
+      "answer": [
+        "s2"
+      ],
+      "why": "The cost appears in store operations (s5), but it is caused upstream: the DC changed how it picks and loads deliveries. Fixing it in the DC (aisle-sequenced picking) removes the extra store work."
+    }
+  ]
+}

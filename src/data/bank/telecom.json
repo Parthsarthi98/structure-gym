@@ -1,0 +1,4238 @@
+{
+  "industry": "telecom",
+  "valueChain": {
+    "summary": "Telecom operators pay large fixed sums up front for spectrum and networks, then earn recurring monthly fees from subscribers, so profit depends on spreading those fixed costs over many paying users at a decent ARPU. Infrastructure owners (towers, fibre) earn steady rents by sharing the same assets across several operators.",
+    "stages": [
+      {
+        "id": "s1",
+        "name": "Spectrum and licences",
+        "activities": [
+          "Bid for spectrum in government auctions",
+          "Pay licence fees and spectrum charges",
+          "Meet roll-out, security and subscriber KYC rules"
+        ],
+        "players": [
+          "Mobile operators",
+          "Licensing ministries and telecom regulators",
+          "Spectrum advisers and lenders"
+        ],
+        "revenueDrivers": [
+          "None directly: spectrum is an input that sets coverage and capacity",
+          "Better bands (sub-GHz for coverage, mid-band for 5G capacity) support higher ARPU and lower churn"
+        ],
+        "costDrivers": [
+          "Auction price per MHz and amount of spectrum bought",
+          "Licence fee as a share of revenue (8% of AGR in India)",
+          "Interest on deferred spectrum instalments"
+        ],
+        "kpis": [
+          {
+            "name": "Licence fee and SUC as % of AGR",
+            "formula": "(licence fee + spectrum usage charges) / adjusted gross revenue",
+            "benchmark": "Licence fee 8% of AGR (3% licence plus 5% Digital Bharat Nidhi). No SUC on spectrum bought in auctions since 2022, but older spectrum still pays, so SUC is now about 1-1.5% of industry AGR (approx., 2025)"
+          },
+          {
+            "name": "Spectrum held per licence area",
+            "formula": "MHz held across all bands in a circle",
+            "benchmark": "Leading Indian operators hold well over 100 MHz in major circles once 5G mid-band is included (approx.)"
+          }
+        ],
+        "marginNote": "A cost stage, not a profit stage: the state captures value through auction prices and revenue-linked fees, with the licence fee alone taking about 8% of revenue."
+      },
+      {
+        "id": "s2",
+        "name": "Passive infrastructure",
+        "activities": [
+          "Build and lease towers, poles and in-building systems",
+          "Lay and lease fibre for backhaul",
+          "Supply site power: grid, diesel generators, batteries, solar"
+        ],
+        "players": [
+          "Tower companies",
+          "Fibre infrastructure companies",
+          "Operators' own infrastructure arms"
+        ],
+        "revenueDrivers": [
+          "Rent per tenant per tower or per fibre km",
+          "Number of tenants sharing each asset (tenancy)",
+          "Energy pass-through and loading charges for extra equipment"
+        ],
+        "costDrivers": [
+          "Tower and fibre build capex",
+          "Land lease, maintenance and security",
+          "Energy, especially diesel at sites with poor grid supply"
+        ],
+        "kpis": [
+          {
+            "name": "Tenancy ratio",
+            "formula": "tenants / towers",
+            "benchmark": "About 1.6x for India's largest tower company (approx., 2025-26); above 2x is strong by global standards"
+          },
+          {
+            "name": "Fibre-connected towers",
+            "formula": "towers with fibre backhaul / total towers",
+            "benchmark": "Roughly 35-40% of towers in India vs 70-80% in advanced markets (approx.)"
+          }
+        ],
+        "marginNote": "Attractive: large tower companies earn roughly 50-55% EBITDA on long contracts, and each extra tenant on an existing tower adds revenue at little cost (approx.)."
+      },
+      {
+        "id": "s3",
+        "name": "Active network and operations",
+        "activities": [
+          "Deploy radios, core network and transmission equipment",
+          "Plan coverage and capacity; run the network operations centre",
+          "Run IT systems (OSS/BSS) that provision and meter services"
+        ],
+        "players": [
+          "Mobile and fixed operators",
+          "Network equipment vendors",
+          "Managed service and IT providers"
+        ],
+        "revenueDrivers": [
+          "Coverage and speed that let the operator charge more and lose fewer users",
+          "Spare capacity sold as fixed wireless broadband or wholesale to MVNOs"
+        ],
+        "costDrivers": [
+          "Radio and core capex per site",
+          "Equipment maintenance and software licences",
+          "Network operations staff and outsourced O&M"
+        ],
+        "kpis": [
+          {
+            "name": "Network availability",
+            "formula": "time network is up / total time",
+            "benchmark": "99.5%+ for leading operators"
+          },
+          {
+            "name": "Data usage per subscriber",
+            "formula": "GB carried / data subscribers / month",
+            "benchmark": "About 30-45 GB a month for leading Indian operators (approx., 2026)"
+          }
+        ],
+        "marginNote": "Operators earn high EBITDA (roughly 40-60% for Indian operators) but heavy network capex keeps return on capital low; equipment vendors run on thinner operating margins of roughly 5-15% (approx.)."
+      },
+      {
+        "id": "s4",
+        "name": "Products, pricing and content",
+        "activities": [
+          "Design prepaid packs and postpaid plans",
+          "Bundle OTT content, devices and home broadband",
+          "Set wholesale terms for MVNOs and enterprise products"
+        ],
+        "players": [
+          "Operators' product and pricing teams",
+          "OTT and content partners",
+          "MVNOs",
+          "Handset makers (bundled devices)"
+        ],
+        "revenueDrivers": [
+          "Tariff per pack and the mix of packs users choose",
+          "Share of postpaid and converged (mobile plus broadband) customers",
+          "Add-ons: data top-ups, roaming, OTT bundles"
+        ],
+        "costDrivers": [
+          "Content fees for OTT services bundled into plans",
+          "Discounts and introductory benefits",
+          "Handset subsidies where offered"
+        ],
+        "kpis": [
+          {
+            "name": "ARPU",
+            "formula": "service revenue / average subscribers / month",
+            "benchmark": "About ₹175-265 for Indian private operators (approx., mid-2026)"
+          },
+          {
+            "name": "Postpaid share of base",
+            "formula": "postpaid subscribers / total subscribers",
+            "benchmark": "Under 10% in India vs well over half in many developed markets (approx.)"
+          }
+        ],
+        "marginNote": "Where the operator captures value: a ₹10 tariff rise on 30 crore subscribers adds about ₹3,600 crore of revenue a year with almost no extra cost beyond revenue-linked levies and commissions."
+      },
+      {
+        "id": "s5",
+        "name": "Distribution and acquisition",
+        "activities": [
+          "Sell SIMs, complete KYC and activate",
+          "Run the recharge network: retailers, apps, wallets",
+          "Win port-ins from rivals through number portability"
+        ],
+        "players": [
+          "Distributors",
+          "Neighbourhood retailers",
+          "Operator-owned stores",
+          "Recharge apps and wallets"
+        ],
+        "revenueDrivers": [
+          "Gross additions",
+          "Recharge value flowing through each channel"
+        ],
+        "costDrivers": [
+          "Commissions on recharges and new SIMs",
+          "SIM and KYC cost per activation",
+          "Marketing and promotions"
+        ],
+        "kpis": [
+          {
+            "name": "Distribution commission",
+            "formula": "commissions paid / recharge value",
+            "benchmark": "About 3-5% of recharge value (approx.)"
+          },
+          {
+            "name": "Cost per gross add",
+            "formula": "acquisition spend / gross additions",
+            "benchmark": "A few hundred rupees per prepaid gross add in India (approx.)"
+          }
+        ],
+        "marginNote": "Thin for intermediaries: distributors and retailers keep a few per cent of recharge value, and digital recharge is cheaper for the operator than retail."
+      },
+      {
+        "id": "s6",
+        "name": "Customer care, billing and retention",
+        "activities": [
+          "Bill and collect postpaid; manage prepaid balances",
+          "Handle complaints and service requests",
+          "Predict churn and make retention offers"
+        ],
+        "players": [
+          "Operator care teams",
+          "Contact-centre and BPO firms",
+          "Billing and CRM software vendors"
+        ],
+        "revenueDrivers": [
+          "Subscribers retained (lower churn)",
+          "Upsell and plan migration during customer contacts"
+        ],
+        "costDrivers": [
+          "Contact-centre staff and BPO fees",
+          "Bad debt on postpaid bills",
+          "Retention discounts"
+        ],
+        "kpis": [
+          {
+            "name": "Monthly churn",
+            "formula": "subscribers lost in month / opening subscribers",
+            "benchmark": "About 2-3% for Indian prepaid, around 1% or less for postpaid (approx.)"
+          },
+          {
+            "name": "First-contact resolution",
+            "formula": "issues solved on first contact / total issues",
+            "benchmark": "70-80% for well-run operators (approx.)"
+          }
+        ],
+        "marginNote": "A cost centre (a few per cent of revenue) that protects revenue: one point of monthly churn on a 30 crore base is 30 lakh subscribers lost every month."
+      }
+    ],
+    "profitPools": "In absolute terms most EBITDA sits with operators, which earn roughly 40-60% EBITDA margins in India, but spectrum (s1) and network capex (s3) absorb much of it, so their returns on capital are modest. Passive infrastructure (s2) earns the best risk-adjusted returns, because long contracts and extra tenants on existing towers or fibre add revenue at little cost. The state captures a large share up front through auctions and revenue-linked fees, while distribution (s5) and care (s6) are thin-margin service businesses for the firms that run them.",
+    "unitEconomics": {
+      "unit": "per mobile subscriber per month (large Indian operator, simplified, approx.)",
+      "lines": [
+        {
+          "item": "ARPU (mobile service revenue)",
+          "value": "₹220"
+        },
+        {
+          "item": "Licence fee and spectrum usage charges (~9% of revenue)",
+          "value": "-₹20"
+        },
+        {
+          "item": "Network opex: tower rent, energy, maintenance",
+          "value": "-₹48"
+        },
+        {
+          "item": "Interconnect and roaming costs",
+          "value": "-₹6"
+        },
+        {
+          "item": "Sales, distribution and marketing",
+          "value": "-₹20"
+        },
+        {
+          "item": "Customer care, billing and IT",
+          "value": "-₹8"
+        },
+        {
+          "item": "Staff and other overheads",
+          "value": "-₹6"
+        },
+        {
+          "item": "Depreciation and spectrum amortisation",
+          "value": "-₹50"
+        },
+        {
+          "item": "Interest (spectrum and network debt)",
+          "value": "-₹17"
+        }
+      ],
+      "result": "Pre-tax profit ≈ ₹45 per subscriber per month (EBITDA ≈ ₹112, about 51% of ARPU)"
+    },
+    "india": "India has about 115 crore mobile subscribers (excluding machine-to-machine connections), served almost entirely by three private operators and state-owned BSNL/MTNL after a decade of consolidation; over 90% are prepaid and ARPU is among the lowest in the world. The Department of Telecommunications auctions spectrum and charges an 8% licence fee on adjusted gross revenue (AGR), TRAI oversees tariffs and interconnection, and the 2019 Supreme Court ruling on AGR dues showed how far regulation can reshape the industry. Towers and fibre are widely shared through independent tower companies, and 5G has been rolling out since October 2022.",
+    "workedExample": {
+      "problem": "An Indian operator's EBITDA margin fell 3 points (50% to 47%) in a year even though ARPU rose 5%.",
+      "trace": [
+        "Revenue is up 5% (index 100 to 105), so the cause is on the cost side: costs rose from 50 to about 55.7, or 11%.",
+        "Revenue-linked costs move with revenue: licence fee and SUC (s1) went from 9 to 9.45 and commissions (s5) from 4 to 4.2, so they leave the margin unchanged.",
+        "Care, IT and overheads (s6 and corporate) grew only about 3%, from 15 to 15.4.",
+        "That leaves network opex (s2 and s3): it rose from 22 to about 26.6, up 21%, taking it from 22% to 25% of revenue.",
+        "Inside network opex, new 5G radios lifted power load at sites in low-traffic areas, many reliant on diesel, so energy and rent grew well ahead of the traffic and revenue they carry."
+      ],
+      "lesson": "Revenue-linked costs rarely explain a margin change; look for fixed costs, usually network, that grew ahead of revenue."
+    }
+  },
+  "cases": [
+    {
+      "id": "telecom-c01",
+      "title": "Circle EBITDA decline at mobile operator",
+      "industry": "telecom",
+      "framework": "profitability",
+      "secondary": [],
+      "difficulty": "Beginner",
+      "region": "India",
+      "prompt": "Our client is a mid-sized Indian mobile operator. In one Category B telecom circle its EBITDA fell from ₹1,600 crore to ₹1,350 crore over two years, even though its subscriber base stayed flat at about 2.5 crore. Why have profits fallen, and what should it do?",
+      "clarifyingFacts": [
+        "Q: Is the fall driven by revenue or costs? A: Both. Revenue fell from ₹4,500 crore to ₹4,350 crore and operating costs rose from ₹2,900 crore to ₹3,000 crore.",
+        "Q: What happened to subscribers and ARPU? A: Subscribers were flat at about 2.5 crore, but mobile ARPU fell from ₹140 to ₹135 a month. Other revenue (enterprise, roaming) was flat at about ₹300 crore.",
+        "Q: What is happening in the market? A: The two larger rivals rolled out 5G across the circle's towns last year; the client's 5G covers only the circle capital. Many users carry two SIMs, and a growing share keep the client's SIM on its cheapest validity pack.",
+        "Q: Which costs rose? A: Mainly network costs, after the client added 4G capacity sites and started 5G; licence fees fell slightly in line with revenue."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Why did circle EBITDA fall from ₹1,600 crore to ₹1,350 crore?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Revenue fell ₹150 crore (₹4,500 crore to ₹4,350 crore)",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Subscribers: flat at about 2.5 crore"
+              },
+              {
+                "id": "a2",
+                "label": "Mobile ARPU: ₹140 to ₹135 a month",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Mix: more users on minimum validity packs"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Price: tariffs and discounts per pack"
+                  },
+                  {
+                    "id": "a2z",
+                    "label": "Add-on and data top-up spend"
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Other revenue (enterprise, roaming): flat at ₹300 crore"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Operating costs rose ₹100 crore (₹2,900 crore to ₹3,000 crore)",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Network opex: tower rent, energy, maintenance"
+              },
+              {
+                "id": "b2",
+                "label": "Licence fee and spectrum usage charges"
+              },
+              {
+                "id": "b3",
+                "label": "Sales and distribution commissions"
+              },
+              {
+                "id": "b4",
+                "label": "Interconnect, customer care, IT and staff"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Users are making a rival with wider 5G their primary SIM and keeping the client's SIM on the cheapest validity pack, which cut ARPU from ₹140 to ₹135.",
+        "Network opex rose by most of the ₹100 crore cost increase because new capacity and 5G sites were added before traffic grew."
+      ],
+      "hints": [
+        "Use the profit equation, then check which side explains more of the ₹250 crore fall.",
+        "First-level branches: revenue and operating costs.",
+        "Operating costs: network opex, licence fee and spectrum charges, distribution commissions, then interconnect, care, IT and staff."
+      ],
+      "keyMetrics": [
+        {
+          "name": "ARPU",
+          "formula": "mobile service revenue / average subscribers / 12"
+        },
+        {
+          "name": "EBITDA margin",
+          "formula": "EBITDA / revenue (35.6% two years ago, 31.0% now)"
+        }
+      ],
+      "commonMistakes": [
+        "Concluding that subscribers are fine because the count is flat, without asking whether the client has become the secondary SIM on minimum recharges.",
+        "Going straight to cost cutting, when revenue fell ₹150 crore and costs rose only ₹100 crore, so revenue explains the larger part."
+      ],
+      "frameworkPick": {
+        "options": [
+          "profitability",
+          "growth",
+          "competitive-response",
+          "operations"
+        ],
+        "correct": [
+          "profitability"
+        ],
+        "why": "The question is why EBITDA fell, which is answered by splitting profit into revenue and cost drivers and finding which moved.",
+        "distractorWhyNot": {
+          "growth": "The client is not asking how to grow; it needs to diagnose a profit fall first.",
+          "competitive-response": "Rivals' 5G may be a cause, but the question asks for the cause of the profit fall, not how to react to a specific competitor move.",
+          "operations": "Operations covers only the cost side and would miss the larger fall in revenue."
+        }
+      }
+    },
+    {
+      "id": "telecom-c02",
+      "title": "Size India's home broadband market",
+      "industry": "telecom",
+      "framework": "market-sizing",
+      "secondary": [],
+      "difficulty": "Beginner",
+      "region": "India",
+      "prompt": "Our client, a large Indian cable TV operator, is thinking of upgrading its network to sell home broadband. As a first step it wants a sense of scale. How big is India's home fixed broadband market today, in annual revenue?",
+      "clarifyingFacts": [
+        "Q: What counts as fixed broadband? A: Home connections over fibre, cable or DSL, plus 5G fixed wireless. Exclude mobile hotspots and business connections.",
+        "Q: How many households are there? A: Assume about 31 crore: 4 crore in metros and Tier 1 cities, 7 crore in smaller towns and 20 crore in villages.",
+        "Q: What share have broadband? A: Assume about 50% of metro and Tier 1 homes, 25% of smaller-town homes and 4% of rural homes.",
+        "Q: What do they pay? A: Assume about ₹650 a month in metros and Tier 1, ₹500 in smaller towns and ₹400 in villages."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Annual revenue from home fixed broadband in India (₹ crore)",
+        "children": [
+          {
+            "id": "a",
+            "label": "Metros and Tier 1 cities",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Households (~4 crore)"
+              },
+              {
+                "id": "a2",
+                "label": "Share with fixed broadband (~50%)"
+              },
+              {
+                "id": "a3",
+                "label": "Monthly spend (~₹650) x 12"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Smaller towns (Tier 2 to 4)",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Households (~7 crore)"
+              },
+              {
+                "id": "b2",
+                "label": "Share with fixed broadband (~25%)"
+              },
+              {
+                "id": "b3",
+                "label": "Monthly spend (~₹500) x 12"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Villages",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Households (~20 crore)"
+              },
+              {
+                "id": "c2",
+                "label": "Share with fixed broadband (~4%)"
+              },
+              {
+                "id": "c3",
+                "label": "Monthly spend (~₹400) x 12"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "The market is about ₹30,000 crore a year: roughly 4.5 crore homes at a blended spend of about ₹550 a month.",
+        "Metros and Tier 1 cities are only about 13% of households but about 52% of revenue (₹15,600 crore), so the client's entry city mix matters more than its national reach."
+      ],
+      "hints": [
+        "Size by segment, because penetration and spend differ hugely across the country.",
+        "Three segments: metros and Tier 1 cities, smaller towns, villages.",
+        "Villages: ~20 crore households x ~4% with broadband x ~₹400 a month x 12 ≈ ₹3,840 crore."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Segment revenue",
+          "formula": "households x broadband penetration x monthly spend x 12"
+        },
+        {
+          "name": "Blended ARPU",
+          "formula": "total annual revenue / broadband homes / 12 (≈ ₹550)"
+        }
+      ],
+      "commonMistakes": [
+        "Starting from population (about 145 crore people) instead of households, when broadband is bought per home.",
+        "Using one national penetration rate and price, which hides that metros are a small share of homes but about half of revenue."
+      ],
+      "frameworkPick": {
+        "options": [
+          "market-sizing",
+          "market-entry",
+          "growth",
+          "segmentation"
+        ],
+        "correct": [
+          "market-sizing"
+        ],
+        "why": "The question is 'how big', a single number built from households, penetration and spend; no entry decision is being asked yet.",
+        "distractorWhyNot": {
+          "market-entry": "Entry is the later decision; this question only asks for the size of the prize.",
+          "growth": "The client has no broadband business to grow yet.",
+          "segmentation": "Segments are used to size more accurately, but the output is a market size, not a choice of target customers."
+        }
+      }
+    },
+    {
+      "id": "telecom-c03",
+      "title": "Pricing a family add-on line",
+      "industry": "telecom",
+      "framework": "pricing",
+      "secondary": [],
+      "difficulty": "Beginner",
+      "region": "Global",
+      "prompt": "Our client is a mid-sized Spanish mobile operator whose main postpaid plan costs €25 a month. It wants to let account holders add a line for a family member on the same bill. What monthly price should it charge for each extra line?",
+      "clarifyingFacts": [
+        "Q: What is the objective? A: Raise lines per account and cut churn; the target is for 20% of its 2 million postpaid accounts to add at least one line within 18 months.",
+        "Q: What does an extra line cost us? A: About €3 a month in network and care costs, plus about €15 one-off for the SIM and activation.",
+        "Q: What do competitors charge? A: The two larger operators charge €8-12 a month for add-on lines; low-cost brands sell standalone SIM-only plans from about €7.",
+        "Q: Anything on churn? A: Accounts with two or more lines churn about 0.8% a month, against 1.5% for single-line accounts."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "What monthly price should the add-on family line carry?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Our economics per added line",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Incremental cost: ~€3 a month plus €15 one-off"
+              },
+              {
+                "id": "a2",
+                "label": "Cannibalisation: members who would have bought a €25 plan"
+              },
+              {
+                "id": "a3",
+                "label": "Churn saving on the whole account (1.5% to 0.8%)"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Families' willingness to pay",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Value of one bill and family controls to the payer"
+              },
+              {
+                "id": "b2",
+                "label": "Need by member type: child, partner, elderly parent"
+              },
+              {
+                "id": "b3",
+                "label": "Shared data pool vs own allowance per line"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Competitor reference prices",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Larger rivals' add-on lines at €8-12"
+              },
+              {
+                "id": "c2",
+                "label": "Low-cost brands' standalone SIMs from €7"
+              },
+              {
+                "id": "c3",
+                "label": "Likely rival reaction to our price"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "A price of about €8-10 clears the €3 cost, matches the low end of rivals and sits close to €7 low-cost SIMs, so families have no reason to keep a member on another brand.",
+        "Cutting account churn from 1.5% to 0.8% a month nearly doubles expected account life (about 67 to 125 months), so the line should be priced for take-up rather than for margin on the line itself."
+      ],
+      "hints": [
+        "Split by the perspectives that set or bound a price.",
+        "Branches: our economics per added line, families' willingness to pay, competitor reference prices.",
+        "Competitor references: larger rivals' add-on lines at €8-12, low-cost standalone SIMs from €7, and how rivals would react to our price."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Monthly contribution per add-on line",
+          "formula": "add-on price - €3 incremental cost"
+        },
+        {
+          "name": "Expected account life (months)",
+          "formula": "1 / monthly churn"
+        }
+      ],
+      "commonMistakes": [
+        "Pricing off cost alone (€3) or off competitors alone, without valuing the churn saving on the whole €25 account.",
+        "Ignoring cannibalisation: a cheap add-on lets families move a member off a full €25 plan."
+      ],
+      "frameworkPick": {
+        "options": [
+          "pricing",
+          "product-launch",
+          "growth",
+          "competitive-response"
+        ],
+        "correct": [
+          "pricing"
+        ],
+        "why": "The product is decided and the question is the price point, which comes from cost, customer value and competitor references.",
+        "distractorWhyNot": {
+          "product-launch": "The client has already decided to offer the line; only the price is open.",
+          "growth": "More lines per account is the aim, but the question asked is a single pricing decision.",
+          "competitive-response": "No rival has made a move the client must answer; competitor prices are just one input."
+        }
+      }
+    },
+    {
+      "id": "telecom-c04",
+      "title": "Doubling postpaid subscribers in three years",
+      "industry": "telecom",
+      "framework": "growth",
+      "secondary": [],
+      "difficulty": "Beginner",
+      "region": "India",
+      "prompt": "Our client is a large Indian mobile operator with 30 crore subscribers, of which only 2.4 crore (8%) are postpaid. Postpaid ARPU is about 2.5 times prepaid. The CEO wants to double postpaid subscribers to 4.8 crore in three years. How should the client get there?",
+      "clarifyingFacts": [
+        "Q: Where do postpaid customers come from today? A: About 60% of gross adds are the client's own prepaid users migrating, 30% port in from rivals and 10% are brand-new numbers.",
+        "Q: How many are we losing? A: Monthly postpaid churn is about 1%, roughly half port-outs and half downgrades to prepaid or non-payment disconnections.",
+        "Q: Who could migrate? A: About 4 crore of the client's prepaid users spend over ₹400 a month; surveys say fear of bill shock and credit checks hold them back.",
+        "Q: Any constraints? A: Postpaid ARPU is about ₹480 against about ₹190 for prepaid, and the CEO does not want to cut postpaid prices."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "How to grow postpaid from 2.4 crore to 4.8 crore in three years?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Migrate more of our own prepaid users",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Target the ~4 crore prepaid users spending ₹400+"
+              },
+              {
+                "id": "a2",
+                "label": "Remove barriers: bill caps, lighter credit checks"
+              },
+              {
+                "id": "a3",
+                "label": "Incentives: family add-on lines, bundled OTT"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Win more port-ins from rival operators",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Rivals' postpaid users: compete on network and service"
+              },
+              {
+                "id": "b2",
+                "label": "Rivals' high-spend prepaid users: offer a postpaid switch"
+              },
+              {
+                "id": "b3",
+                "label": "Ease switching: doorstep SIM delivery, bill credits"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Add more brand-new numbers",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Connected devices: smartwatches, tablets, cars"
+              },
+              {
+                "id": "c2",
+                "label": "First-time users: students, new workers"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Lose fewer postpaid subscribers",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Fewer port-outs: fix network and service pain points"
+              },
+              {
+                "id": "d2",
+                "label": "Fewer downgrades to prepaid: right-size plans"
+              },
+              {
+                "id": "d3",
+                "label": "Fewer non-payment disconnections: autopay, reminders"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Own-prepaid migration is the biggest pool: converting 15% of the 4 crore users spending ₹400+ adds about 60 lakh postpaid subscribers.",
+        "At 1% monthly churn on a base growing evenly from 2.4 to 4.8 crore (about 3.6 crore on average), the client loses about 1.3 crore postpaid users over three years, so halving churn is worth about 65 lakh subscribers, over a quarter of the 2.4 crore target."
+      ],
+      "hints": [
+        "Use a stock-and-flow bridge for the postpaid base.",
+        "Branches: migrate own prepaid users, win port-ins from rivals, add brand-new numbers, lose fewer postpaid subscribers.",
+        "Port-ins: rivals' postpaid users (network and service), rivals' high-spend prepaid users (a postpaid switch offer), and easier switching (doorstep SIMs, bill credits)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Postpaid net adds",
+          "formula": "own-prepaid migrations + port-ins + brand-new numbers - disconnections"
+        },
+        {
+          "name": "Gross adds needed over three years",
+          "formula": "2.4 crore target + ~1.3 crore expected churn ≈ 3.7 crore"
+        }
+      ],
+      "commonMistakes": [
+        "Looking only at acquisition: with 1% monthly churn the gross-add target is about 3.7 crore, not 2.4 crore.",
+        "Listing 'family add-on lines' as a separate source, when each new family line is a migration, a port-in or a new number, which double-counts."
+      ],
+      "frameworkPick": {
+        "options": [
+          "growth",
+          "product-launch",
+          "segmentation",
+          "pricing"
+        ],
+        "correct": [
+          "growth"
+        ],
+        "why": "The client wants to grow one customer base to a target, so the tree splits net growth into sources of additions and losses.",
+        "distractorWhyNot": {
+          "segmentation": "Targeting high-spend prepaid users helps, but the question is how to reach a growth target, not how to divide the market.",
+          "pricing": "The CEO has ruled out price cuts, and price is only one lever among several.",
+          "product-launch": "New postpaid offers may be one lever, but the question is how to reach a subscriber target across all sources of additions and losses, not whether to launch a product."
+        }
+      }
+    },
+    {
+      "id": "telecom-c05",
+      "title": "Cutting energy cost at rural sites",
+      "industry": "telecom",
+      "framework": "operations",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "India",
+      "prompt": "Our client is a mid-sized Indian mobile operator that owns and runs 40,000 rural sites. Energy for these sites costs ₹1,300 crore a year, up 25% in two years, and the CFO wants it cut by 20% within 18 months without hurting network availability. How would you do it?",
+      "clarifyingFacts": [
+        "Q: What makes up the spend? A: Grid power supplies about 70% of the energy but only about 45% of the spend; diesel supplies about 30% of the energy but about 55% of the spend. Grid supply averages about 16 hours a day.",
+        "Q: Why has it gone up? A: New 5G and extra 4G radios raised average site load from about 2.1 kW to 2.6 kW, and grid tariffs rose slightly.",
+        "Q: What are the constraints? A: Network availability must stay above 99.5%, and capex for energy projects is capped at ₹600 crore.",
+        "Q: Are any sites shared? A: About 30% host a second operator, which pays its share of energy at a fixed rate per kW agreed five years ago."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "How to cut net rural site energy cost 20% (₹260 crore)?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Use less energy per site",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Radio load (now ~2.6 kW per site)",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Switch off idle 5G and 4G carriers at night"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Replace old radios with energy-efficient units"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Cooling and shelter load",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Swap air-conditioned shelters for outdoor cabinets"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Free cooling and higher temperature set points"
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Power conversion and battery charging losses"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Pay less per unit of energy",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Shift the mix away from diesel (~55% of spend)",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Lithium-ion batteries to ride through grid outages"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Solar at sites with space and strong sun"
+                  },
+                  {
+                    "id": "b1z",
+                    "label": "Work with DISCOMs to raise grid hours"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Lower grid cost per unit",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Correct tariff category and sanctioned load"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Audit bills for estimated readings and surcharges"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Lower diesel cost per kWh generated",
+                "children": [
+                  {
+                    "id": "b3x",
+                    "label": "Fuel sensors to stop pilferage"
+                  },
+                  {
+                    "id": "b3y",
+                    "label": "Right-size and service generators"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Recover more from tenants on shared sites",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Reprice tenant energy charges set five years ago",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Meter each tenant's actual load"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Move from fixed per-kW rate to actual-cost pass-through"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Add tenants to share fixed site energy"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Diesel costs about ₹26 per kWh against about ₹9 for grid; halving diesel energy with batteries and solar at the worst-grid sites would save roughly ₹230 crore a year, nearly all of the ₹260 crore target.",
+        "The five-year-old fixed per-kW rate under-recovers energy on the 12,000 shared sites, because both load and tariffs have risen since it was set.",
+        "Switching off idle carriers at night can cut radio load by 10-15% with no effect on availability, since rural traffic falls sharply after midnight."
+      ],
+      "hints": [
+        "Write net energy cost as an equation and split along its terms.",
+        "Branches: use less energy per site, pay less per unit of energy, recover more from tenants.",
+        "Use less energy: radio load (night carrier switch-off, efficient radios), cooling and shelter load, power conversion and battery losses."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Energy cost per site per month",
+          "formula": "₹1,300 crore / 40,000 sites / 12 ≈ ₹27,000"
+        },
+        {
+          "name": "Cost per kWh by source",
+          "formula": "spend on source / kWh from source (diesel ≈ ₹26, grid ≈ ₹9)"
+        },
+        {
+          "name": "Generator run hours per site per day",
+          "formula": "total diesel generator hours / sites / days"
+        }
+      ],
+      "commonMistakes": [
+        "Treating energy as one number instead of splitting it into consumption and cost per unit by source, which hides that diesel is 30% of energy but 55% of spend.",
+        "Suggesting cuts to backup or switching off sites, which would breach the 99.5% availability constraint."
+      ],
+      "frameworkPick": {
+        "options": [
+          "operations",
+          "profitability",
+          "pricing",
+          "turnaround"
+        ],
+        "correct": [
+          "operations"
+        ],
+        "why": "The task is to cut one defined cost line under an operating constraint, which calls for splitting the cost into its physical and price drivers.",
+        "distractorWhyNot": {
+          "profitability": "Revenue is not in question; the problem is already narrowed to one cost line.",
+          "pricing": "Pricing applies only to the tenant-recovery branch, not to the main levers of load and source mix.",
+          "turnaround": "The business is not in crisis; this is a targeted cost programme."
+        }
+      }
+    },
+    {
+      "id": "telecom-c06",
+      "title": "Launching 5G fixed wireless in small towns",
+      "industry": "telecom",
+      "framework": "product-launch",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "India",
+      "prompt": "Our client is an Indian mobile operator with 5G in about 900 towns. It is considering launching 5G fixed wireless home broadband in Tier 2 and Tier 3 towns where fibre is thin, at ₹600 a month, with an indoor unit that costs it about ₹6,000. Should it launch, and if so, how?",
+      "clarifyingFacts": [
+        "Q: What is the objective? A: Add 30 lakh home broadband customers in three years, with each customer paying back its upfront cost within 24 months.",
+        "Q: What does each customer cost and earn? A: The indoor unit costs about ₹6,000 and installation about ₹1,000. After licence fee, care and backhaul, monthly contribution is about ₹400 on the ₹600 plan.",
+        "Q: Is there network capacity? A: A fixed wireless home uses about 350 GB a month against about 35 GB for a mobile user. About 60% of 5G sectors in the target towns have spare capacity.",
+        "Q: What is the competition? A: Local cable operators sell 40-100 Mbps fibre at ₹400-500 a month, and a rival operator has launched fixed wireless in some of the same towns."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Should we launch ₹600 5G fixed wireless in Tier 2-3 towns, and how?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Is there enough demand in target towns?",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Addressable homes",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Homes in 5G coverage without good fibre"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Homes able to pay ₹600 a month"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Alternatives customers already have",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Local cable fibre at ₹400-500"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Rival operator's fixed wireless"
+                  },
+                  {
+                    "id": "a2z",
+                    "label": "Mobile data on phones only"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Can the network carry it?",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Spare capacity by 5G sector",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Share of sectors with headroom (~60%)"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Homes per sector before mobile users slow down"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Indoor signal quality at target homes"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Does each customer make money?",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Upfront cost: ₹6,000 unit plus ₹1,000 install"
+              },
+              {
+                "id": "c2",
+                "label": "Monthly contribution (~₹400 on ₹600)",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "₹600 less 8% licence fee"
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "Less care, billing and backhaul"
+                  }
+                ]
+              },
+              {
+                "id": "c3",
+                "label": "Payback vs expected customer life",
+                "children": [
+                  {
+                    "id": "c3x",
+                    "label": "Payback ≈ 17.5 months vs 24-month target"
+                  },
+                  {
+                    "id": "c3y",
+                    "label": "Monthly churn and device recovery on exit"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "How should we launch?",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Sequence: towns and sectors with spare capacity first"
+              },
+              {
+                "id": "d2",
+                "label": "Channels: mobile retailers, local installers, digital"
+              },
+              {
+                "id": "d3",
+                "label": "Offer design",
+                "children": [
+                  {
+                    "id": "d3x",
+                    "label": "Device: free with lock-in or refundable deposit"
+                  },
+                  {
+                    "id": "d3y",
+                    "label": "Bundle with family mobile plans"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Capacity, not demand, limits the launch: each home loads a cell like about 10 mobile users, so only the ~60% of sectors with headroom can take customers, sector by sector.",
+        "Simple payback is about 17.5 months, but a cohort recovers its ₹7,000 within 24 months only if monthly churn stays below about 3%, which is hard against ₹400-500 local cable fibre."
+      ],
+      "hints": [
+        "Break the decision into the questions a board would ask before and after saying yes.",
+        "Branches: enough demand in target towns, network capacity, customer economics, how to launch.",
+        "Demand: addressable homes (in 5G coverage, without good fibre, able to pay ₹600) and the alternatives they already have."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Payback (months)",
+          "formula": "(indoor unit + installation) / monthly contribution = ₹7,000 / ₹400 ≈ 17.5"
+        },
+        {
+          "name": "Mobile-equivalent load per home",
+          "formula": "fixed wireless GB per month / mobile GB per user ≈ 350 / 35 = 10"
+        }
+      ],
+      "commonMistakes": [
+        "Treating fixed wireless like a mobile plan and ignoring that each home uses about 10 times a mobile user's data, which caps sales per sector.",
+        "Comparing ₹600 only with the rival's fixed wireless and missing local cable fibre at ₹400-500, the real alternative in these towns."
+      ],
+      "frameworkPick": {
+        "options": [
+          "product-launch",
+          "market-entry",
+          "pricing",
+          "operations"
+        ],
+        "correct": [
+          "product-launch"
+        ],
+        "why": "The client already operates in these towns and is deciding whether and how to launch a new product on its existing network.",
+        "distractorWhyNot": {
+          "market-entry": "The client already has 5G, customers and distribution in these towns; this is a new product on existing assets, not entry into an unfamiliar market.",
+          "pricing": "The ₹600 price is given; price is one input to the launch decision, not the question.",
+          "operations": "Network capacity is one branch, but the question also covers demand, economics and go-to-market."
+        }
+      }
+    },
+    {
+      "id": "telecom-c07",
+      "title": "Buying a regional fibre ISP",
+      "industry": "telecom",
+      "framework": "ma",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "Global",
+      "prompt": "Our client is a Brazilian mobile operator with no fixed network. It is considering buying a regional fibre internet provider in the South-East with 600,000 connected homes, for R$2.4 billion or about 8 times EBITDA. The seller stresses three years of 25% subscriber growth. Should the client do the deal? (All figures in this case are illustrative case facts.)",
+      "clarifyingFacts": [
+        "Q: What is the strategic aim? A: To sell fibre-plus-mobile bundles in the region. Assume converged customers churn about half as often as mobile-only ones.",
+        "Q: What are the target's numbers? A: Assume 600,000 connected homes out of 1.8 million homes passed (33%), ARPU about R$100 a month, revenue about R$720 million and EBITDA about R$300 million. Subscriber growth has slowed from 25% to 8% a year.",
+        "Q: How strong is the client in the area? A: Assume about 4 million mobile subscribers in the target's footprint, around 30% of them postpaid.",
+        "Q: What does the market look like? A: Fibre is fragmented among many regional providers and the large incumbents. Assume prices fall about 5% a year in competitive cities and recent regional deals were done at 6-9x EBITDA."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Should the client buy the fibre ISP for R$2.4 billion (8x EBITDA)?",
+        "children": [
+          {
+            "id": "a",
+            "label": "What is the ISP worth on its own?",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Revenue outlook",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Penetration of 1.8 million homes passed (now 33%)"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "ARPU under ~5% yearly price erosion"
+                  },
+                  {
+                    "id": "a1z",
+                    "label": "Churn of existing fibre customers"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Margins and capex",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Durability of ~42% EBITDA margin"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Capex to maintain and extend the network"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "What extra value can we create together?",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Revenue synergies",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Sell mobile to the ISP's 600,000 homes"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Sell fibre to our 4 million mobile users in footprint"
+                  },
+                  {
+                    "id": "b1z",
+                    "label": "Lower churn from converged bundles"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Cost synergies",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Use ISP fibre for our mobile site backhaul"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Shared marketing, care and IT"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Is the price right and can we deliver?",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Price vs benchmarks",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "8x EBITDA vs 6-9x for regional deals"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "R$4,000 per connected home vs cost to build"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Integration risks",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "Keeping local managers and installer teams"
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "Billing and IT migration"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Are there better alternatives?",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Build our own fibre in the footprint"
+              },
+              {
+                "id": "d2",
+                "label": "Wholesale access from a neutral fibre network"
+              },
+              {
+                "id": "d3",
+                "label": "Buy a different regional ISP"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "With growth down to 8% and prices falling 5% a year, the ISP is worth nearer 6-7x EBITDA on its own, so the deal works only if synergies are worth at least R$300-600 million.",
+        "Selling fibre to the client's own mobile users is the largest synergy: converting 5% of 4 million users adds about 200,000 homes, a third of the current base."
+      ],
+      "hints": [
+        "Use deal-value logic: what the asset is worth to us against what we would pay and what else we could do.",
+        "Branches: the ISP's standalone value, synergies together, price and integration risk, alternatives to buying.",
+        "Standalone value: revenue outlook (penetration of homes passed, ARPU under price erosion, churn) and margins and capex."
+      ],
+      "keyMetrics": [
+        {
+          "name": "EV / EBITDA",
+          "formula": "R$2.4 billion / R$300 million = 8x"
+        },
+        {
+          "name": "Price per connected home",
+          "formula": "R$2.4 billion / 600,000 = R$4,000"
+        },
+        {
+          "name": "Penetration of homes passed",
+          "formula": "connected homes / homes passed = 33%"
+        }
+      ],
+      "commonMistakes": [
+        "Paying for bundle synergies that a cheaper wholesale fibre deal could deliver, without testing build or partner options.",
+        "Valuing the ISP on its past 25% growth when growth has slowed to 8% and prices are falling."
+      ],
+      "frameworkPick": {
+        "options": [
+          "ma",
+          "market-entry",
+          "growth",
+          "pe-dd"
+        ],
+        "correct": [
+          "ma"
+        ],
+        "why": "A strategic buyer is deciding whether a specific acquisition at a specific price creates value: standalone value plus synergies, against price and alternatives.",
+        "distractorWhyNot": {
+          "market-entry": "Entering fixed broadband is the motive, but the question is about this particular deal and its price.",
+          "growth": "Growth is the aim, but the decision is a transaction with a price tag.",
+          "pe-dd": "The buyer is a strategic operator valuing synergies, not a financial investor underwriting a standalone return and exit."
+        }
+      }
+    },
+    {
+      "id": "telecom-c08",
+      "title": "Segmenting MSMEs for a business bundle",
+      "industry": "telecom",
+      "framework": "segmentation",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "India",
+      "prompt": "Our client, the enterprise arm of a large Indian telecom operator, wants to sell small businesses a bundle of business broadband, mobile lines and simple cloud tools such as GST billing. India has about 6.3 crore MSMEs, over 99% of them micro, but the client has only 2,000 field salespeople. How should it segment the market and decide whom to target first?",
+      "clarifyingFacts": [
+        "Q: What does the bundle cost? A: Starter bundles are about ₹2,500 a month; larger ones with more lines and cloud seats go up to ₹15,000. Assume an average of about ₹4,000.",
+        "Q: Where are the client's assets? A: It has fibre in about 400 towns and about 8 lakh small-business owners already on individual mobile plans.",
+        "Q: What is the goal? A: ₹1,000 crore of annual MSME revenue within three years. A field rep closes about three bundles a month.",
+        "Q: What is the competition? A: Rival operators sell similar bundles, and local ISPs undercut on broadband alone at ₹500-800 a month."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Which MSME segments should we target first for a ₹2,500-15,000 bundle?",
+        "children": [
+          {
+            "id": "a",
+            "label": "How to cut the market into segments",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Business size",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Micro enterprises"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Small and medium enterprises"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Sector",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Trade (retail and wholesale)"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Services (clinics, professionals, hospitality)"
+                  },
+                  {
+                    "id": "a2z",
+                    "label": "Manufacturing"
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Location vs our network",
+                "children": [
+                  {
+                    "id": "a3x",
+                    "label": "Inside our 400 fibre towns"
+                  },
+                  {
+                    "id": "a3y",
+                    "label": "Outside fibre towns (mobile and fixed wireless only)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Which segments are most attractive?",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Spend pool",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Number of firms in the segment"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Telecom and IT spend per firm per year"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Pace of digital adoption (UPI, e-invoicing, cloud)"
+              },
+              {
+                "id": "b3",
+                "label": "Margin potential",
+                "children": [
+                  {
+                    "id": "b3x",
+                    "label": "Price sensitivity vs ₹500-800 local ISPs"
+                  },
+                  {
+                    "id": "b3y",
+                    "label": "Payment and bad-debt risk"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Where can we win?",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Fit with our bundle: need for lines plus cloud tools"
+              },
+              {
+                "id": "c2",
+                "label": "Reach and cost to serve",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "Our 8 lakh existing small-business mobile users"
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "Field sales vs digital or partner channels"
+                  }
+                ]
+              },
+              {
+                "id": "c3",
+                "label": "Position vs rival operators and local ISPs"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Small enterprises in trade and services inside the 400 fibre towns are the best first target: they need several lines plus broadband and justify a field visit.",
+        "Micro sole proprietors are too price-sensitive to justify field reps; they should be served digitally, starting with the 8 lakh already on the client's mobile plans.",
+        "The sales force is the binding constraint: ₹1,000 crore needs about 2.1 lakh businesses at ₹4,000 a month, and 2,000 reps at three deals a month close about 2.2 lakh in three years, leaving no room for low-conversion segments."
+      ],
+      "hints": [
+        "Structure it as the steps from a market of 6.3 crore firms to a first target list.",
+        "Branches: segmentation variables, segment attractiveness, our ability to win.",
+        "Segmentation variables: size (micro vs small and medium), sector (trade, services, manufacturing), location vs our fibre towns."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Customers needed",
+          "formula": "₹1,000 crore / (₹4,000 x 12) ≈ 2.1 lakh businesses"
+        },
+        {
+          "name": "Sales capacity over three years",
+          "formula": "2,000 reps x 3 deals a month x 36 months ≈ 2.2 lakh"
+        },
+        {
+          "name": "Segment revenue potential",
+          "formula": "firms x annual telecom and IT spend per firm x achievable share"
+        }
+      ],
+      "commonMistakes": [
+        "Segmenting by size alone, when sector and location relative to the fibre network decide whether the bundle fits and can be installed.",
+        "Ranking segments by number of firms: 99% of MSMEs are micro, but most cannot or will not pay ₹2,500+ a month."
+      ],
+      "frameworkPick": {
+        "options": [
+          "segmentation",
+          "market-sizing",
+          "growth",
+          "product-launch"
+        ],
+        "correct": [
+          "segmentation"
+        ],
+        "why": "The client must split a huge, varied customer base and choose where to aim a limited sales force, which is a segment-and-target question.",
+        "distractorWhyNot": {
+          "market-sizing": "Segment size is an input, but the output is a choice of targets, not a market estimate.",
+          "growth": "Revenue growth is the goal, but the question asked is specifically whom to target.",
+          "product-launch": "The bundle is already designed; the open question is which customers to aim it at."
+        }
+      }
+    },
+    {
+      "id": "telecom-c09",
+      "title": "Saving a cash-strapped MVNO",
+      "industry": "telecom",
+      "framework": "turnaround",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "Global",
+      "prompt": "Our client is a German MVNO with 1.2 million subscribers that buys network capacity wholesale from a host operator. It lost €40 million last year and has €30 million of cash left, so at the current burn it runs out in about nine months. How would you turn it around?",
+      "clarifyingFacts": [
+        "Q: What does the P&L look like? A: ARPU is €12 a month, so revenue is about €173 million. Costs are about €213 million: wholesale fees ~€101 million, customer acquisition ~€42 million, care, billing and IT ~€35 million, other overheads ~€35 million.",
+        "Q: How does acquisition work? A: About 600,000 gross adds a year at about €70 each, mostly through price-comparison sites. Monthly churn is 3%, and many customers sit on promotional tariffs from earlier years.",
+        "Q: What about the wholesale contract? A: The client pays the host about €7 per subscriber per month with a minimum commitment of 1 million subscribers. The renegotiation window opens in six months.",
+        "Q: Who owns it? A: The founder and a minority venture investor, who will fund a bridge only against a credible plan to cash breakeven within 18 months."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "How to close a €40m yearly cash burn within ~9 months' runway?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Raise operating cash inflows",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Revenue per subscriber (€12 ARPU)",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Move back-book customers off old promotional tariffs"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Sell data add-ons and roaming passes"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Subscribers kept longer (3% monthly churn)",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "12-month SIM-only contracts with loyalty pricing"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Targeted retention offers to high-ARPU users"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Cut operating cash outflows",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Wholesale fees (~€101m)",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Renegotiate the €7 fee when the window opens"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Per-GB pricing for light users"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Acquisition spend (~€42m)",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Cut comparison-site spend on high-churn segments"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Shift to referrals and own digital channels"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Care, billing, IT and overheads (~€70m)",
+                "children": [
+                  {
+                    "id": "b3x",
+                    "label": "Move care to digital self-service"
+                  },
+                  {
+                    "id": "b3y",
+                    "label": "Cut agency, office and headcount costs"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Close the remaining funding gap",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Free up working capital",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Annual plans paid upfront"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Longer payment terms with suppliers"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Raise or replace funding",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "Venture bridge against a breakeven plan"
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "Sell the base or merge with another MVNO"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Each subscriber loses about €2 a month even at steady state: €12 ARPU less €7 wholesale leaves €5, short of about €2.40 care and IT, €2.40 overheads and €2.10 of acquisition cost spread over a 33-month life.",
+        "The wholesale renegotiation is the biggest single lever: each €1 off the €7 fee is worth about €14 million a year.",
+        "Cutting gross adds to replacement level (about 430,000 a year) saves about €12 million of acquisition cash at once, buying time until the wholesale window opens."
+      ],
+      "hints": [
+        "Think in cash, not profit, because the runway decides survival; split along the cash-flow statement.",
+        "Branches: raise operating cash inflows, cut operating cash outflows, close the remaining funding gap.",
+        "Funding gap: free up working capital (annual plans paid upfront, supplier terms) and raise or replace funding (bridge, sale or merger)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Cash runway (months)",
+          "formula": "cash / monthly burn = €30m / (€40m / 12) ≈ 9"
+        },
+        {
+          "name": "Contribution per subscriber per month",
+          "formula": "ARPU - wholesale fee - care and IT per subscriber"
+        },
+        {
+          "name": "Customer life (months)",
+          "formula": "1 / monthly churn = 1 / 3% ≈ 33"
+        }
+      ],
+      "commonMistakes": [
+        "Proposing more marketing to grow out of trouble, when each new customer loses money and growth deepens the burn.",
+        "Ignoring timing: the wholesale lever lands only after six months, so quick cash moves (acquisition cuts, upfront annual plans, a bridge) must cover the gap until then."
+      ],
+      "frameworkPick": {
+        "options": [
+          "turnaround",
+          "profitability",
+          "operations",
+          "ma"
+        ],
+        "correct": [
+          "turnaround"
+        ],
+        "why": "With nine months of cash and losses on every customer, the question is survival plus a path to breakeven, which needs both short-term cash moves and fixes to unit economics.",
+        "distractorWhyNot": {
+          "profitability": "A profit diagnosis alone ignores the cash runway and funding moves that decide whether the business survives.",
+          "operations": "Cost efficiency is one lever, but pricing, churn and funding matter as much.",
+          "ma": "Selling or merging is one option inside the turnaround, not the whole question."
+        }
+      }
+    },
+    {
+      "id": "telecom-c10",
+      "title": "Satellite broadband entry and pricing in India",
+      "industry": "telecom",
+      "framework": "market-entry",
+      "secondary": [
+        "pricing"
+      ],
+      "difficulty": "Advanced",
+      "region": "India",
+      "prompt": "Our client is a global low-earth-orbit satellite broadband operator that has just received its Indian authorisation. Assume its consumer kit costs about ₹33,000 to make and its plans elsewhere average the equivalent of ₹4,000 a month. The board sees India's roughly 20 crore rural homes without fixed broadband as a huge opportunity. Should it launch consumer broadband in India, and at what price?",
+      "clarifyingFacts": [
+        "Q: What does the board want? A: Profitable growth in India within five years; its business case assumes rural homes without broadband are the core market.",
+        "Q: What will customers pay? A: Assume a survey of rural homes without broadband shows most would pay ₹300-500 a month. About 1% (roughly 20 lakh homes) would pay ₹2,000 or more, and very few would pay ₹33,000 upfront for a kit.",
+        "Q: How many users can we serve? A: Assume engineering estimates the current constellation can serve about 20 lakh Indian users at good speeds; capacity is per beam, so dense clusters fill first.",
+        "Q: What are the rules? A: Satellite spectrum is assigned administratively, not auctioned, for a fixed term. Assume an annual spectrum charge of 5% of revenue (the government has been finalising 4-5%) on top of the 8% licence fee, so about 13% in all. Security conditions require Indian gateways and data kept in India; assume about ₹1,500 crore upfront, and clearance can take a year or more."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Should we launch consumer satellite broadband in India, and at what price?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Who will buy, and at what price?",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Homes with no fibre or 5G option: mass income",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Would pay ₹300-500 a month"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Cannot pay a ₹33,000 kit upfront"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Homes with no fibre or 5G option: high income (~20 lakh)",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Would pay ₹2,000+ a month (farmhouses, homestays, estates)"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Willingness to buy the kit upfront or on EMI"
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Homes already offered fibre or 5G fixed wireless",
+                "children": [
+                  {
+                    "id": "a3x",
+                    "label": "Pay ₹500-800 for faster connections"
+                  },
+                  {
+                    "id": "a3y",
+                    "label": "Might buy only as a backup for reliability"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Can we serve them profitably?",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Capacity ceiling (~20 lakh users)",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Beams over dense clusters fill first"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Price needed to ration scarce capacity"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Cost per user",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "₹33,000 kit: paid by user or subsidised by us"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Installation and support in remote areas"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Kit payback at ₹500 vs ₹2,500 a month"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "What do rules and rivals allow?",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Regulatory conditions",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "~5% spectrum charge plus 8% licence fee"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Indian gateways and data storage (~₹1,500 crore)"
+                  },
+                  {
+                    "id": "c1z",
+                    "label": "Security clearance (a year or more)"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Competing options",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "Fibre and 5G fixed wireless spreading into towns"
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "Other satellite entrants, some partnered with telcos"
+                  },
+                  {
+                    "id": "c2z",
+                    "label": "BharatNet fibre reaching villages"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "How should we enter and price?",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Target segment and price point",
+                "children": [
+                  {
+                    "id": "d1x",
+                    "label": "Premium: ₹2,000-3,000 a month for high-income homes"
+                  },
+                  {
+                    "id": "d1y",
+                    "label": "Mass: about ₹500 a month"
+                  }
+                ]
+              },
+              {
+                "id": "d2",
+                "label": "Route to market",
+                "children": [
+                  {
+                    "id": "d2x",
+                    "label": "Direct online and dealer sales"
+                  },
+                  {
+                    "id": "d2y",
+                    "label": "Partner with an Indian telco for reach and service"
+                  }
+                ]
+              },
+              {
+                "id": "d3",
+                "label": "Kit pricing model",
+                "children": [
+                  {
+                    "id": "d3x",
+                    "label": "Sold upfront or on EMI"
+                  },
+                  {
+                    "id": "d3y",
+                    "label": "Leased within the monthly fee"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "The 20 crore headline is not the market: at ₹500 a month, after about 13% of revenue-linked levies, a ₹33,000 kit takes about 76 months to pay back, so the mass rural segment is out of reach without a deep subsidy.",
+        "Capacity, not demand, binds at the premium end: about 20 lakh homes would pay ₹2,000+, roughly the constellation's 20 lakh-user ceiling, so the client should price high (₹2,000-3,000) and ration capacity; at ₹2,500 the kit pays back in about 15 months.",
+        "A telco partner gives faster reach and installation in remote areas than building a direct dealer network from scratch during a year-long clearance."
+      ],
+      "hints": [
+        "Combine an entry lens with a pricing lens, letting willingness to pay and capacity drive both.",
+        "Branches: who will buy and at what price, can we serve them profitably, what rules and rivals allow, how to enter and price.",
+        "Rules and rivals: revenue-linked spectrum and licence charges, Indian gateways and security clearance, then fibre, fixed wireless, BharatNet and other satellite entrants."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Kit payback (months)",
+          "formula": "kit cost borne by us / (monthly price x (1 - 13% levies))"
+        },
+        {
+          "name": "Capacity-limited revenue",
+          "formula": "users served (max ~20 lakh) x monthly price x 12 (≈ ₹6,000 crore a year at ₹2,500)"
+        }
+      ],
+      "commonMistakes": [
+        "Taking the 20 crore unconnected homes as the market without testing willingness and ability to pay against a ₹33,000 kit.",
+        "Pricing for volume when capacity caps users at about 20 lakh, which fills the network with low-value users and leaves premium demand unserved."
+      ],
+      "frameworkPick": {
+        "options": [
+          "market-entry",
+          "pricing",
+          "market-sizing",
+          "product-launch"
+        ],
+        "correct": [
+          "market-entry",
+          "pricing"
+        ],
+        "why": "The client must decide whether to enter a new country under new rules and rivals, and the entry case turns on the price point, so both lenses are needed.",
+        "distractorWhyNot": {
+          "market-sizing": "Sizing is an input, but the question is a go/no-go decision and a price, not 'how big'.",
+          "product-launch": "The client is new to India and faces licensing, local rivals and set-up costs, so this is entry into a new market rather than a new product in an existing one."
+        }
+      }
+    },
+    {
+      "id": "telecom-c11",
+      "title": "PE stake in a fibre company",
+      "industry": "telecom",
+      "framework": "pe-dd",
+      "secondary": [
+        "growth"
+      ],
+      "difficulty": "Advanced",
+      "region": "India",
+      "prompt": "A private equity fund is considering buying 49% of an Indian fibre infrastructure company that leases about 1.2 lakh route km of fibre, mostly for mobile tower backhaul. EBITDA is about ₹1,100 crore and the seller is asking for an enterprise value of ₹14,000 crore. The fund's thesis is that 5G will push far more towers onto fibre. Should it invest?",
+      "clarifyingFacts": [
+        "Q: What are the financials? A: Revenue is about ₹1,450 crore and EBITDA about ₹1,100 crore (76% margin). Tenancy is 1.15 operators per route km.",
+        "Q: Who are the customers? A: The former parent, a mobile operator, provides 85% of revenue under a 20-year master agreement with 2% annual escalators. In year 5, two years from now, the fee per km resets to a benchmark rate about 25% below today's fee.",
+        "Q: What is the growth plan? A: The seller's plan assumes tenancy rises to 1.6x in five years. Over the last three years it moved from 1.08x to 1.15x, and the two largest operators mostly build their own fibre on dense routes.",
+        "Q: What are the deal terms? A: The fund would hold 49% alongside the former parent, and expects to exit in 5-7 years through an InvIT listing or a sale."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Should the fund buy 49% of the fibre company at ₹14,000 crore EV?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Will demand for leased fibre grow?",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Mobile operators' backhaul needs",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Share of towers on fibre today vs 5G needs"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Largest operators' self-build vs lease choices"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Other buyers",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Home broadband ISPs extending fibre to homes"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Data centres and enterprise long-haul links"
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Competing supply and prices",
+                "children": [
+                  {
+                    "id": "a3x",
+                    "label": "Rival fibre networks on the same routes"
+                  },
+                  {
+                    "id": "a3y",
+                    "label": "Lease price trend per route km"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "How secure is today's business?",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Revenue quality",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "85% of revenue from one anchor operator"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Year-5 fee reset about 25% below today"
+                  },
+                  {
+                    "id": "b1z",
+                    "label": "Anchor's ability to keep paying"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Network quality and cost",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Fibre cuts, repair times and SLA penalties"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Right-of-way and maintenance cost per km"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Can we create value beyond the base case?",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Raise tenancy from 1.15x",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Second operators on rural and highway routes"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "ISP and data-centre tenants on existing routes"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Improve operations",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "Faster repairs to cut SLA penalties"
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "Renegotiate maintenance contracts"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Do price, structure and exit work?",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Entry price",
+                "children": [
+                  {
+                    "id": "d1x",
+                    "label": "12.7x EBITDA vs listed tower and fibre peers"
+                  },
+                  {
+                    "id": "d1y",
+                    "label": "Returns under base and downside tenancy cases"
+                  }
+                ]
+              },
+              {
+                "id": "d2",
+                "label": "Structure and protections",
+                "children": [
+                  {
+                    "id": "d2x",
+                    "label": "Minority rights at 49% beside the anchor"
+                  },
+                  {
+                    "id": "d2y",
+                    "label": "Anchor guarantees on volumes and reset terms"
+                  }
+                ]
+              },
+              {
+                "id": "d3",
+                "label": "Exit in 5-7 years",
+                "children": [
+                  {
+                    "id": "d3x",
+                    "label": "InvIT listing"
+                  },
+                  {
+                    "id": "d3y",
+                    "label": "Sale to an infrastructure fund or strategic buyer"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "The year-5 reset cuts revenue by about 21% (roughly ₹300 crore) and, with mostly fixed costs, EBITDA to about ₹790 crore, so the true entry multiple is nearer 18x than 12.7x.",
+        "Tenancy will not reach 1.6x: it rose only 0.07x in three years and the largest operators self-build on dense routes, so 1.25-1.3x is a more realistic case.",
+        "Any upside lies in non-telco tenants (ISPs, data centres) and rural or highway routes where operators lack their own fibre."
+      ],
+      "hints": [
+        "Use the due diligence lens a fund's investment committee would apply.",
+        "Branches: will demand grow, how secure is today's business, can we create value, do price, structure and exit work.",
+        "Demand: operators' backhaul needs (towers on fibre, self-build vs lease), other buyers (ISPs, data centres), competing supply and lease prices."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Tenancy ratio",
+          "formula": "tenant-km leased / route km"
+        },
+        {
+          "name": "EV / EBITDA",
+          "formula": "₹14,000 crore / ₹1,100 crore ≈ 12.7x (≈ 18x on post-reset EBITDA of ~₹790 crore)"
+        },
+        {
+          "name": "Revenue at risk from reset",
+          "formula": "anchor share x fee cut = 85% x 25% ≈ 21% of revenue"
+        }
+      ],
+      "commonMistakes": [
+        "Treating the 76% margin and 20-year contract as safe without reading the reset clause, which removes about ₹300 crore of EBITDA in two years.",
+        "Accepting the seller's 1.6x tenancy instead of testing it against the 1.08x to 1.15x trend and the largest operators' self-build behaviour."
+      ],
+      "frameworkPick": {
+        "options": [
+          "pe-dd",
+          "growth",
+          "ma",
+          "market-sizing"
+        ],
+        "correct": [
+          "pe-dd",
+          "growth"
+        ],
+        "why": "A financial investor must underwrite a standalone return and exit, and the return depends on whether tenancy growth can offset the anchor fee reset.",
+        "distractorWhyNot": {
+          "ma": "A financial buyer has no operating synergies to value; the test is standalone returns and exit, not combination value.",
+          "market-sizing": "Sizing backhaul demand is one input, but the question is whether to invest at this price and structure."
+        }
+      }
+    },
+    {
+      "id": "telecom-c12",
+      "title": "Responding to a low-cost entrant we host",
+      "industry": "telecom",
+      "framework": "competitive-response",
+      "secondary": [
+        "pricing"
+      ],
+      "difficulty": "Advanced",
+      "region": "Global",
+      "prompt": "Our client is the second-largest mobile operator in a Southern European country, with 30% share and an average postpaid price of €18 a month. A new low-cost entrant launched unlimited plans at €10 and has taken 4 points of share in a year, half of it from our client. Awkwardly, the entrant runs partly on our client's network under a wholesale deal worth about €90 million a year. How should the client respond? (All figures are illustrative case facts.)",
+      "clarifyingFacts": [
+        "Q: How big is the damage? A: Assume the market has about 40 million postpaid lines. The entrant has 1.6 million; about 0.8 million came from the client, worth roughly €170 million of annual revenue.",
+        "Q: Who is switching? A: Mostly under-35s on SIM-only plans. Assume customers with fibre-plus-mobile or family plans churn at about half the rate of SIM-only customers and rarely move to the entrant.",
+        "Q: What is the wholesale deal? A: The entrant pays per GB, so the client's income grows as the entrant grows. The contract runs four more years, but the entrant is building its own network in the five largest cities and will move most of that traffic off within 2-3 years.",
+        "Q: What are others doing, and what does the board want? A: The market leader has launched a fighter brand at €12. The board wants to protect three-year EBITDA; the retail head wants to fight on price, while the wholesale head wants to keep the entrant growing on the client's network."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "How to respond to a €10 entrant we host, protecting three-year EBITDA?",
+        "children": [
+          {
+            "id": "a",
+            "label": "How big is the threat to us?",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Who is leaving and why",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "SIM-only under-35s chasing price"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Bundled and family customers: half the churn"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "How far the entrant can go",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Entrant's likely share path over three years"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Own network in five cities lowers its costs"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "How do we defend retail EBITDA?",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Price moves",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Base-wide cut: reprices all 12 million lines"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Own second brand at about €10-12"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Non-price moves",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Move SIM-only users into fibre and family bundles"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Targeted retention offers to at-risk users"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "How do we manage wholesale EBITDA from the entrant?",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Value of hosting: €90m a year, falling as it self-builds"
+              },
+              {
+                "id": "c2",
+                "label": "Contract options",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "Longer, cheaper deal to delay its self-build"
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "Hold terms and plan for lost city traffic"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "How will the rest of the market react?",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Market leader's €12 fighter brand"
+              },
+              {
+                "id": "d2",
+                "label": "Third operator's likely price moves"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "A base-wide €2 cut would cost about €290 million a year across 12 million lines, more than the roughly €170 million at risk, so any price response must be targeted.",
+        "Wholesale income is temporary: once the entrant moves city traffic to its own network in 2-3 years, much of the €90 million goes, so protecting it should not stop the client defending retail.",
+        "Bundled and family customers churn at half the rate, so moving at-risk SIM-only users into bundles protects more EBITDA than matching €10."
+      ],
+      "hints": [
+        "Split by the channels through which the entrant affects the client's EBITDA, not just by response options.",
+        "Branches: size of the threat, defend retail EBITDA, manage wholesale EBITDA, other players' reactions.",
+        "Defend retail: price moves (base-wide cut vs own second brand) and non-price moves (bundles, targeted retention)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Annual revenue lost to entrant",
+          "formula": "lines lost x ARPU x 12 = 0.8m x €18 x 12 ≈ €173m"
+        },
+        {
+          "name": "Cost of a base-wide price cut",
+          "formula": "price cut x lines x 12 (€2 x 12m x 12 ≈ €288m)"
+        },
+        {
+          "name": "Net EBITDA effect of a response",
+          "formula": "retail EBITDA protected + change in wholesale EBITDA - cost of the response"
+        }
+      ],
+      "commonMistakes": [
+        "Matching €10 across the base, which reprices 12 million loyal lines to defend 0.8 million price-sensitive ones.",
+        "Treating wholesale and retail as separate decisions, when a second brand that wins back SIM-only users also cuts the entrant's traffic and the client's wholesale income."
+      ],
+      "frameworkPick": {
+        "options": [
+          "competitive-response",
+          "pricing",
+          "profitability",
+          "segmentation"
+        ],
+        "correct": [
+          "competitive-response",
+          "pricing"
+        ],
+        "why": "A rival's move triggers the question, and the main choices are about price (base-wide cut, second brand), weighed against wholesale income from the same rival.",
+        "distractorWhyNot": {
+          "profitability": "The cause of the EBITDA pressure is known; the question is how to respond, not why profit fell.",
+          "segmentation": "Knowing that SIM-only under-35s are leaving shapes the response, but the question is how to respond to a rival, not which customers to target."
+        }
+      }
+    }
+  ],
+  "flaws": [
+    {
+      "id": "telecom-f01",
+      "title": "Mobile revenue fall",
+      "industry": "telecom",
+      "framework": "profitability",
+      "difficulty": "Beginner",
+      "tree": {
+        "id": "r",
+        "label": "Why did the operator's mobile service revenue fall 6%?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Change in subscriber base",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Gross additions"
+              },
+              {
+                "id": "a2",
+                "label": "Disconnections and port-outs"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Change in ARPU",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Price per plan"
+              },
+              {
+                "id": "b2",
+                "label": "Mix of plans chosen"
+              },
+              {
+                "id": "b3",
+                "label": "Add-on and top-up spend"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Prepaid recharge revenue",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Number of recharges"
+              },
+              {
+                "id": "c2",
+                "label": "Value per recharge"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "c",
+          "type": "overlap",
+          "explanation": "Mobile service revenue is already fully split into subscribers x ARPU. Prepaid users sit inside the subscriber count and their recharges make up their ARPU, so 'prepaid recharge revenue' counts the same money again.",
+          "fix": "Remove it. If the prepaid and postpaid split matters, cut subscribers and ARPU each into prepaid and postpaid instead."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Why did the operator's mobile service revenue fall 6%?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Change in subscriber base",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Gross additions"
+              },
+              {
+                "id": "a2",
+                "label": "Disconnections and port-outs"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Change in ARPU",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Price per plan"
+              },
+              {
+                "id": "b2",
+                "label": "Mix of plans chosen"
+              },
+              {
+                "id": "b3",
+                "label": "Add-on and top-up spend"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "telecom-f02",
+      "title": "Network operating cost",
+      "industry": "telecom",
+      "framework": "operations",
+      "difficulty": "Beginner",
+      "tree": {
+        "id": "r",
+        "label": "How can a mobile operator cut total network operating cost?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Site rent",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Rent per site (space and land only)"
+              },
+              {
+                "id": "a2",
+                "label": "Number of sites (remove duplicates)"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Repairs and maintenance",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Preventive maintenance visits"
+              },
+              {
+                "id": "b2",
+                "label": "Breakdown repairs"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Backhaul and transmission",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Leased fibre links"
+              },
+              {
+                "id": "c2",
+                "label": "Microwave links"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "r",
+          "type": "gap",
+          "explanation": "Energy (grid power and diesel for generators) is missing, although it is one of the two largest network operating costs and at rural sites with poor grid supply can exceed site rent.",
+          "fix": "Add an 'Energy' branch split into units used per site (kWh) and cost per unit by source (grid, diesel, solar)."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "How can a mobile operator cut total network operating cost?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Site rent",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Rent per site (space and land only)"
+              },
+              {
+                "id": "a2",
+                "label": "Number of sites (remove duplicates)"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Repairs and maintenance",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Preventive maintenance visits"
+              },
+              {
+                "id": "b2",
+                "label": "Breakdown repairs"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Backhaul and transmission",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Leased fibre links"
+              },
+              {
+                "id": "c2",
+                "label": "Microwave links"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Energy",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Units used per site (kWh)"
+              },
+              {
+                "id": "d2",
+                "label": "Cost per unit by source (grid, diesel, solar)"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "telecom-f03",
+      "title": "Home broadband subscriber growth",
+      "industry": "telecom",
+      "framework": "growth",
+      "difficulty": "Intermediate",
+      "tree": {
+        "id": "r",
+        "label": "How can a fibre ISP double home broadband subscribers in three years?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Pass more homes",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Extend fibre to new towns"
+              },
+              {
+                "id": "a2",
+                "label": "Extend fibre to more buildings in current towns"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Raise take-up among homes passed",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Sharper offers against local cable operators"
+              },
+              {
+                "id": "b2",
+                "label": "Faster installation after sign-up"
+              },
+              {
+                "id": "b3",
+                "label": "Referral rewards for existing subscribers"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Lose fewer subscribers",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Fix repeat outages and slow repairs"
+              },
+              {
+                "id": "c2",
+                "label": "Annual prepaid plans that lock customers in"
+              },
+              {
+                "id": "c3",
+                "label": "Raise prices on legacy low-speed plans"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Festive-season installation-fee waivers"
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "d",
+          "type": "mixed-levels",
+          "explanation": "A time-bound promotion sits beside the three broad drivers of subscriber growth (homes passed, take-up, churn). It is one tactic for raising take-up, two levels more specific than its siblings.",
+          "fix": "Drop it as a first-level branch; if kept, it is an example under 'Sharper offers against local cable operators'."
+        },
+        {
+          "nodeId": "c3",
+          "type": "not-a-driver",
+          "explanation": "Raising prices on legacy plans increases revenue per subscriber, not the number of subscribers the root asks about; if anything it pushes churn up.",
+          "fix": "Remove it from this tree; it belongs in a separate revenue or ARPU discussion."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "How can a fibre ISP double home broadband subscribers in three years?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Pass more homes",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Extend fibre to new towns"
+              },
+              {
+                "id": "a2",
+                "label": "Extend fibre to more buildings in current towns"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Raise take-up among homes passed",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Sharper offers against local cable operators"
+              },
+              {
+                "id": "b2",
+                "label": "Faster installation after sign-up"
+              },
+              {
+                "id": "b3",
+                "label": "Referral rewards for existing subscribers"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Lose fewer subscribers",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Fix repeat outages and slow repairs"
+              },
+              {
+                "id": "c2",
+                "label": "Annual prepaid plans that lock customers in"
+              }
+            ]
+          }
+        ]
+      },
+      "decoys": [
+        {
+          "nodeId": "c2",
+          "whyFine": "Annual prepaid plans look like a pricing or revenue lever, but they lock in customers and directly cut churn."
+        },
+        {
+          "nodeId": "b2",
+          "whyFine": "Installation speed looks operational, but sign-ups that wait weeks cancel, so it drives take-up of homes passed."
+        }
+      ]
+    },
+    {
+      "id": "telecom-f04",
+      "title": "Enterprise margin squeeze",
+      "industry": "telecom",
+      "framework": "profitability",
+      "difficulty": "Intermediate",
+      "tree": {
+        "id": "r",
+        "label": "Why did the enterprise division's EBITDA margin fall from 32% to 26%?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Revenue",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Connectivity: leased lines, MPLS, internet"
+              },
+              {
+                "id": "a2",
+                "label": "Mobile and IoT connections"
+              },
+              {
+                "id": "a3",
+                "label": "Cloud, security, managed and other services"
+              },
+              {
+                "id": "a4",
+                "label": "Voice: SIP trunks, toll-free, conferencing"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Direct costs",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Access and termination paid to other operators"
+              },
+              {
+                "id": "b2",
+                "label": "Resold cloud licences and hardware"
+              },
+              {
+                "id": "b3",
+                "label": "Field installation and maintenance"
+              },
+              {
+                "id": "b4",
+                "label": "Licence fee on enterprise revenue"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Overheads",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Sales team salaries and commissions"
+              },
+              {
+                "id": "c2",
+                "label": "Account management and support desk"
+              },
+              {
+                "id": "c3",
+                "label": "Partner carriers' last-mile and off-net circuit fees"
+              },
+              {
+                "id": "c4",
+                "label": "Allocated core network and IT costs"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "c3",
+          "type": "overlap",
+          "explanation": "'Partner carriers' last-mile and off-net circuit fees' is the same cost as 'Access and termination paid to other operators' under direct costs: off-net circuits are access bought from other operators. Listing it under overheads counts the same payment twice.",
+          "fix": "Remove it from overheads and keep the cost once under direct costs."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Why did the enterprise division's EBITDA margin fall from 32% to 26%?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Revenue",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Connectivity: leased lines, MPLS, internet"
+              },
+              {
+                "id": "a2",
+                "label": "Mobile and IoT connections"
+              },
+              {
+                "id": "a3",
+                "label": "Cloud, security, managed and other services"
+              },
+              {
+                "id": "a4",
+                "label": "Voice: SIP trunks, toll-free, conferencing"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Direct costs",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Access and termination paid to other operators"
+              },
+              {
+                "id": "b2",
+                "label": "Resold cloud licences and hardware"
+              },
+              {
+                "id": "b3",
+                "label": "Field installation and maintenance"
+              },
+              {
+                "id": "b4",
+                "label": "Licence fee on enterprise revenue"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Overheads",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Sales team salaries and commissions"
+              },
+              {
+                "id": "c2",
+                "label": "Account management and support desk"
+              },
+              {
+                "id": "c4",
+                "label": "Allocated core network and IT costs"
+              }
+            ]
+          }
+        ]
+      },
+      "decoys": [
+        {
+          "nodeId": "c4",
+          "whyFine": "Allocated core network and IT costs look outside the division's control, but allocations are charged to divisional EBITDA and can move its margin."
+        },
+        {
+          "nodeId": "b4",
+          "whyFine": "The licence fee looks like a corporate levy, but it is a fixed share of the division's revenue, so it is a direct cost of that revenue."
+        }
+      ]
+    },
+    {
+      "id": "telecom-f05",
+      "title": "Tower company market entry",
+      "industry": "telecom",
+      "framework": "market-entry",
+      "difficulty": "Intermediate",
+      "tree": {
+        "id": "r",
+        "label": "Should a tower company enter a new African market?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Demand for towers",
+            "children": [
+              {
+                "id": "a1",
+                "label": "New sites operators need over five years"
+              },
+              {
+                "id": "a2",
+                "label": "Existing towers operators may sell and lease back"
+              },
+              {
+                "id": "a3",
+                "label": "Operators' ability to pay rent"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Competition",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Tower companies already in the market"
+              },
+              {
+                "id": "b2",
+                "label": "Operators that keep building their own towers"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Economics of each tower",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Build cost per tower"
+              },
+              {
+                "id": "c2",
+                "label": "Rent per tenant"
+              },
+              {
+                "id": "c3",
+                "label": "Tenants per tower we can reach"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Country risks",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Permits, regulation and tax"
+              },
+              {
+                "id": "d2",
+                "label": "Currency moves and cash repatriation"
+              }
+            ]
+          },
+          {
+            "id": "e",
+            "label": "How we would enter",
+            "children": [
+              {
+                "id": "e1",
+                "label": "Buy an operator's tower portfolio"
+              },
+              {
+                "id": "e2",
+                "label": "Build new towers for operators"
+              },
+              {
+                "id": "e3",
+                "label": "Buy or partner with a local tower company"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "c",
+          "type": "gap",
+          "explanation": "Tower economics are revenue (rent x tenants) minus operating cost minus build cost, but operating cost is missing: land lease, maintenance, security and power. In markets with weak grids, power from diesel generators is one of the largest costs of running a tower.",
+          "fix": "Add 'Operating cost per tower: land lease, maintenance, security, power'."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Should a tower company enter a new African market?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Demand for towers",
+            "children": [
+              {
+                "id": "a1",
+                "label": "New sites operators need over five years"
+              },
+              {
+                "id": "a2",
+                "label": "Existing towers operators may sell and lease back"
+              },
+              {
+                "id": "a3",
+                "label": "Operators' ability to pay rent"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Competition",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Tower companies already in the market"
+              },
+              {
+                "id": "b2",
+                "label": "Operators that keep building their own towers"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Economics of each tower",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Build cost per tower"
+              },
+              {
+                "id": "c2",
+                "label": "Rent per tenant"
+              },
+              {
+                "id": "c3",
+                "label": "Tenants per tower we can reach"
+              },
+              {
+                "id": "c4",
+                "label": "Operating cost per tower: land lease, maintenance, security, power"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Country risks",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Permits, regulation and tax"
+              },
+              {
+                "id": "d2",
+                "label": "Currency moves and cash repatriation"
+              }
+            ]
+          },
+          {
+            "id": "e",
+            "label": "How we would enter",
+            "children": [
+              {
+                "id": "e1",
+                "label": "Buy an operator's tower portfolio"
+              },
+              {
+                "id": "e2",
+                "label": "Build new towers for operators"
+              },
+              {
+                "id": "e3",
+                "label": "Buy or partner with a local tower company"
+              }
+            ]
+          }
+        ]
+      },
+      "decoys": [
+        {
+          "nodeId": "b2",
+          "whyFine": "Operators building their own towers look like demand, but they are competing supply that limits what a tower company can win."
+        },
+        {
+          "nodeId": "a2",
+          "whyFine": "Sale-and-leaseback looks like an entry route, but under demand it measures how many existing towers could come to market."
+        }
+      ]
+    },
+    {
+      "id": "telecom-f06",
+      "title": "Margin fall after a tariff hike",
+      "industry": "telecom",
+      "framework": "profitability",
+      "difficulty": "Advanced",
+      "tree": {
+        "id": "r",
+        "label": "Why did EBITDA margin fall 4 points despite a 10% tariff hike?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Revenue",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Subscribers",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Gross additions"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Churn: port-outs and inactive SIMs"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "ARPU",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Price per pack after the hike"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Shift to cheaper or longer-validity packs"
+                  },
+                  {
+                    "id": "a2z",
+                    "label": "Data top-ups and add-ons"
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Other revenue",
+                "children": [
+                  {
+                    "id": "a3x",
+                    "label": "Enterprise services"
+                  },
+                  {
+                    "id": "a3y",
+                    "label": "Roaming and interconnect income"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Operating costs",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Network",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Tower rentals"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Energy and fuel"
+                  },
+                  {
+                    "id": "b1z",
+                    "label": "Repairs and maintenance"
+                  },
+                  {
+                    "id": "b1v",
+                    "label": "Backhaul and fibre leases"
+                  },
+                  {
+                    "id": "b1w",
+                    "label": "IP-1 provider charges per site"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Sales, marketing and content",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Retailer recharge commissions"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "SIM, KYC and activation costs"
+                  },
+                  {
+                    "id": "b2z",
+                    "label": "Advertising and bundled OTT content fees"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Interconnect and roaming payouts",
+                "children": [
+                  {
+                    "id": "b3x",
+                    "label": "International call termination"
+                  },
+                  {
+                    "id": "b3y",
+                    "label": "Roaming partner charges"
+                  }
+                ]
+              },
+              {
+                "id": "b4",
+                "label": "Staff, care, IT and other overheads",
+                "children": [
+                  {
+                    "id": "b4x",
+                    "label": "Employee costs"
+                  },
+                  {
+                    "id": "b4y",
+                    "label": "Customer care and bad debt"
+                  },
+                  {
+                    "id": "b4z",
+                    "label": "IT and billing systems"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "b1w",
+          "type": "overlap",
+          "explanation": "IP-1 providers are India's registered passive infrastructure providers, that is, tower companies. Their per-site charges are the tower rentals already listed, so the largest network cost is counted twice under a regulatory name.",
+          "fix": "Remove it and keep 'Tower rentals' (energy charges billed by the tower company already sit under 'Energy and fuel')."
+        },
+        {
+          "nodeId": "b",
+          "type": "gap",
+          "explanation": "The cost list misses the licence fee (8% of AGR in India) and spectrum usage charges, together roughly 9% of revenue and one of an Indian operator's largest cost lines. They rise automatically with revenue after a tariff hike, so a cost bridge without them is incomplete.",
+          "fix": "Add 'Licence fee and spectrum charges' with children 'Licence fee at 8% of AGR' and 'Spectrum usage charges on older spectrum'."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Why did EBITDA margin fall 4 points despite a 10% tariff hike?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Revenue",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Subscribers",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Gross additions"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Churn: port-outs and inactive SIMs"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "ARPU",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Price per pack after the hike"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Shift to cheaper or longer-validity packs"
+                  },
+                  {
+                    "id": "a2z",
+                    "label": "Data top-ups and add-ons"
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Other revenue",
+                "children": [
+                  {
+                    "id": "a3x",
+                    "label": "Enterprise services"
+                  },
+                  {
+                    "id": "a3y",
+                    "label": "Roaming and interconnect income"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Operating costs",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Network",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Tower rentals"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Energy and fuel"
+                  },
+                  {
+                    "id": "b1z",
+                    "label": "Repairs and maintenance"
+                  },
+                  {
+                    "id": "b1v",
+                    "label": "Backhaul and fibre leases"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Sales, marketing and content",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Retailer recharge commissions"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "SIM, KYC and activation costs"
+                  },
+                  {
+                    "id": "b2z",
+                    "label": "Advertising and bundled OTT content fees"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Interconnect and roaming payouts",
+                "children": [
+                  {
+                    "id": "b3x",
+                    "label": "International call termination"
+                  },
+                  {
+                    "id": "b3y",
+                    "label": "Roaming partner charges"
+                  }
+                ]
+              },
+              {
+                "id": "b4",
+                "label": "Staff, care, IT and other overheads",
+                "children": [
+                  {
+                    "id": "b4x",
+                    "label": "Employee costs"
+                  },
+                  {
+                    "id": "b4y",
+                    "label": "Customer care and bad debt"
+                  },
+                  {
+                    "id": "b4z",
+                    "label": "IT and billing systems"
+                  }
+                ]
+              },
+              {
+                "id": "b5",
+                "label": "Licence fee and spectrum charges",
+                "children": [
+                  {
+                    "id": "b5x",
+                    "label": "Licence fee at 8% of AGR"
+                  },
+                  {
+                    "id": "b5y",
+                    "label": "Spectrum usage charges on older spectrum"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "decoys": [
+        {
+          "nodeId": "a3y",
+          "whyFine": "Roaming and interconnect income looks like a duplicate of interconnect and roaming payouts, but one is money received and the other money paid."
+        },
+        {
+          "nodeId": "b2z",
+          "whyFine": "Bundled OTT content fees look like a product cost misfiled under sales, but they are a real operating cost and appear only once."
+        }
+      ]
+    },
+    {
+      "id": "telecom-f07",
+      "title": "Four-to-three merger synergies",
+      "industry": "telecom",
+      "framework": "ma",
+      "difficulty": "Advanced",
+      "tree": {
+        "id": "r",
+        "label": "What net synergy value would merging the #3 and #4 mobile operators create?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Cost synergies",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Network",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Decommission overlapping sites"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Fewer new sites needed thanks to pooled spectrum"
+                  },
+                  {
+                    "id": "a1z",
+                    "label": "Combine backhaul contracts"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "IT and systems",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Merge billing and CRM platforms"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Consolidate data centres"
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Sales, marketing and overheads",
+                "children": [
+                  {
+                    "id": "a3x",
+                    "label": "Close overlapping retail stores"
+                  },
+                  {
+                    "id": "a3y",
+                    "label": "Merge head offices and brand spend"
+                  },
+                  {
+                    "id": "a3z",
+                    "label": "Single customer-management system for both brands"
+                  }
+                ]
+              },
+              {
+                "id": "a4",
+                "label": "Merge the two network operations centres"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Revenue synergies",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Cross-sell",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Sell #3's home fibre to #4's mobile customers"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Sell #4's business services to #3's SME customers"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Lower churn from better combined coverage"
+              },
+              {
+                "id": "b3",
+                "label": "Less discounting with three players instead of four"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Value given up to clear and integrate the deal",
+            "children": [
+              {
+                "id": "c1",
+                "label": "One-off integration costs",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Site decommissioning and network migration"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "IT migration and redundancy costs"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Customer losses during integration",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "Churn when brands or networks are merged"
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "Customers with both brands' SIMs keeping only one"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "a3z",
+          "type": "overlap",
+          "explanation": "A single customer-management system is the CRM platform already counted under 'Merge billing and CRM platforms' in IT. Listing it again under sales and overheads counts the same saving twice.",
+          "fix": "Remove it from sales and overheads; the saving sits once under IT and systems."
+        },
+        {
+          "nodeId": "a4",
+          "type": "mixed-levels",
+          "explanation": "Merging the network operations centres is one specific network saving, yet it sits beside the broad cost categories (network, IT, sales and overheads) rather than under 'Network'.",
+          "fix": "Move it under 'Network' as a fourth network saving."
+        },
+        {
+          "nodeId": "c",
+          "type": "gap",
+          "explanation": "The root asks for net value and the first level is complete (cost gains, revenue gains, value given up), so anything that reduces synergies belongs under 'Value given up'. That branch lists integration costs and customer losses but misses regulatory remedies, the price of clearance. In four-to-three mobile mergers competition authorities commonly require spectrum or site divestments (which cut network savings) and wholesale access for MVNOs or a new entrant (which cuts the pricing gain), and these can remove a large share of the synergies.",
+          "fix": "Add 'Regulatory remedies' with children 'Spectrum or site divestments' and 'Wholesale access commitments for MVNOs or a new entrant'."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "What net synergy value would merging the #3 and #4 mobile operators create?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Cost synergies",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Network",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Decommission overlapping sites"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Fewer new sites needed thanks to pooled spectrum"
+                  },
+                  {
+                    "id": "a1z",
+                    "label": "Combine backhaul contracts"
+                  },
+                  {
+                    "id": "a1w",
+                    "label": "Merge the two network operations centres"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "IT and systems",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Merge billing and CRM platforms"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Consolidate data centres"
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Sales, marketing and overheads",
+                "children": [
+                  {
+                    "id": "a3x",
+                    "label": "Close overlapping retail stores"
+                  },
+                  {
+                    "id": "a3y",
+                    "label": "Merge head offices and brand spend"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Revenue synergies",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Cross-sell",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Sell #3's home fibre to #4's mobile customers"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Sell #4's business services to #3's SME customers"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Lower churn from better combined coverage"
+              },
+              {
+                "id": "b3",
+                "label": "Less discounting with three players instead of four"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Value given up to clear and integrate the deal",
+            "children": [
+              {
+                "id": "c1",
+                "label": "One-off integration costs",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Site decommissioning and network migration"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "IT migration and redundancy costs"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Customer losses during integration",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "Churn when brands or networks are merged"
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "Customers with both brands' SIMs keeping only one"
+                  }
+                ]
+              },
+              {
+                "id": "c3",
+                "label": "Regulatory remedies",
+                "children": [
+                  {
+                    "id": "c3x",
+                    "label": "Spectrum or site divestments"
+                  },
+                  {
+                    "id": "c3y",
+                    "label": "Wholesale access commitments for MVNOs or a new entrant"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "decoys": [
+        {
+          "nodeId": "a1y",
+          "whyFine": "Fewer new sites looks like a repeat of decommissioning overlapping sites, but it is avoided future build, not removal of existing sites."
+        },
+        {
+          "nodeId": "c2y",
+          "whyFine": "Dual-SIM customers keeping one SIM looks like general integration churn, but it is a separate mechanism that happens even if every customer is happy."
+        }
+      ]
+    }
+  ],
+  "quick": [
+    {
+      "id": "telecom-q01",
+      "industry": "telecom",
+      "difficulty": "Beginner",
+      "question": "Which split of 'Revenue of an integrated Indian telecom operator' is MECE?",
+      "parent": "Revenue of an integrated Indian telecom operator",
+      "options": [
+        {
+          "split": [
+            "Consumer mobile",
+            "Home broadband",
+            "Enterprise services",
+            "Interconnect income"
+          ],
+          "correct": false,
+          "why": "Gap: wholesale income beyond interconnect is missing, such as MVNO capacity, inbound roaming and tower or fibre leasing."
+        },
+        {
+          "split": [
+            "Mobile",
+            "Broadband",
+            "Enterprise customers",
+            "Wholesale customers"
+          ],
+          "correct": false,
+          "why": "Mixed basis: products sit beside customer types, so an enterprise's mobile and broadband lines fall into two buckets."
+        },
+        {
+          "split": [
+            "Consumer mobile",
+            "Home broadband",
+            "Enterprise services",
+            "Wholesale and other"
+          ],
+          "correct": true,
+          "why": "One consistent basis (customer and product), every rupee in exactly one bucket, and 'wholesale and other' closes the list."
+        },
+        {
+          "split": [
+            "Consumer mobile",
+            "Home broadband",
+            "Enterprise services",
+            "Wholesale and other",
+            "IoT connections"
+          ],
+          "correct": false,
+          "why": "Overlap: IoT connections are sold to enterprises or consumers, so their revenue already sits in one of the first three buckets."
+        }
+      ]
+    },
+    {
+      "id": "telecom-q02",
+      "industry": "telecom",
+      "difficulty": "Beginner",
+      "question": "Which split of 'A telecom circle's mobile subscribers at year end' is MECE?",
+      "parent": "A telecom circle's mobile subscribers at year end",
+      "options": [
+        {
+          "split": [
+            "Opening subscribers",
+            "Plus new SIM sales",
+            "Plus port-ins",
+            "Minus port-outs"
+          ],
+          "correct": false,
+          "why": "Gap: misses deactivation of inactive and non-paying SIMs, which in Indian prepaid usually outnumbers port-outs."
+        },
+        {
+          "split": [
+            "Opening subscribers",
+            "Plus gross additions",
+            "Plus port-ins",
+            "Minus disconnections"
+          ],
+          "correct": false,
+          "why": "Overlap: port-ins are new connections on our network, so they are already counted in gross additions."
+        },
+        {
+          "split": [
+            "Prepaid subscribers",
+            "Postpaid subscribers",
+            "Subscribers who joined this year"
+          ],
+          "correct": false,
+          "why": "Mixed basis: a stock split by plan type sits beside a flow, and this year's joiners are also prepaid or postpaid."
+        },
+        {
+          "split": [
+            "Opening subscribers",
+            "Plus gross additions",
+            "Minus disconnections"
+          ],
+          "correct": true,
+          "why": "A complete stock-and-flow bridge: opening plus additions (including port-ins) minus all losses equals closing."
+        }
+      ]
+    },
+    {
+      "id": "telecom-q03",
+      "industry": "telecom",
+      "difficulty": "Beginner",
+      "question": "Which split of 'Annual operating cost of one mobile tower site' is MECE?",
+      "parent": "Annual operating cost of one mobile tower site",
+      "options": [
+        {
+          "split": [
+            "Site rent (tower and land)",
+            "Energy",
+            "Maintenance and security",
+            "Backhaul links"
+          ],
+          "correct": true,
+          "why": "Covers every operating cost pool of a site, and each cost belongs to exactly one bucket."
+        },
+        {
+          "split": [
+            "Site rent",
+            "Energy",
+            "Maintenance and security",
+            "Backhaul links",
+            "Generator running costs"
+          ],
+          "correct": false,
+          "why": "Overlap: generator running costs are fuel (already energy) and servicing (already maintenance)."
+        },
+        {
+          "split": [
+            "Site rent",
+            "Grid electricity",
+            "Maintenance and security",
+            "Backhaul links"
+          ],
+          "correct": false,
+          "why": "Gap: misses diesel and battery backup energy, which at poor-grid sites can cost more than grid power."
+        },
+        {
+          "split": [
+            "Site rent",
+            "Energy",
+            "Maintenance and security",
+            "Backhaul links",
+            "Radio equipment purchase"
+          ],
+          "correct": false,
+          "why": "Not a driver: buying radios is capex, not an annual operating cost of running the site."
+        }
+      ]
+    },
+    {
+      "id": "telecom-q04",
+      "industry": "telecom",
+      "difficulty": "Intermediate",
+      "question": "Which split of 'Mobile data traffic carried by an operator's network (GB per month)' is MECE?",
+      "parent": "Mobile data traffic carried by an operator's network (GB per month)",
+      "options": [
+        {
+          "split": [
+            "Video streaming",
+            "Social media",
+            "Short-video apps",
+            "Other apps"
+          ],
+          "correct": false,
+          "why": "Overlap: short-video apps are both video and social media, so their traffic fits two buckets."
+        },
+        {
+          "split": [
+            "4G smartphones",
+            "5G smartphones",
+            "Fixed wireless home units",
+            "Other devices"
+          ],
+          "correct": true,
+          "why": "Every connection is exactly one device type, and the split isolates fixed wireless homes, each using roughly ten times a phone's data."
+        },
+        {
+          "split": [
+            "4G smartphones",
+            "5G smartphones",
+            "Feature phones and dongles",
+            "IoT and M2M devices"
+          ],
+          "correct": false,
+          "why": "Gap: misses fixed wireless home units, a fast-growing share of traffic once 5G home broadband launches."
+        },
+        {
+          "split": [
+            "Data users",
+            "GB per user per month",
+            "Revenue earned per GB"
+          ],
+          "correct": false,
+          "why": "Not a driver: revenue per GB is calculated from traffic and changes money earned, not the GB carried."
+        }
+      ]
+    },
+    {
+      "id": "telecom-q05",
+      "industry": "telecom",
+      "difficulty": "Intermediate",
+      "question": "Which split of 'EBITDA of an Indian tower company' is MECE?",
+      "parent": "EBITDA of an Indian tower company",
+      "options": [
+        {
+          "split": [
+            "Rental and loading revenue",
+            "Energy pass-through revenue",
+            "Site operating costs",
+            "Corporate overheads"
+          ],
+          "correct": false,
+          "why": "Gap: counts energy revenue but not the energy cost behind it, so EBITDA is overstated."
+        },
+        {
+          "split": [
+            "Revenue from anchor tenants (rent, loading, energy)",
+            "Revenue from additional tenants (rent, loading, energy)",
+            "Loading charges for extra equipment",
+            "Total operating costs (site, energy, overheads)"
+          ],
+          "correct": false,
+          "why": "Overlap: loading charges are already included in the revenue from anchor and additional tenants, so they are counted twice."
+        },
+        {
+          "split": [
+            "Rental and loading revenue",
+            "Energy margin (energy revenue minus energy cost)",
+            "Site operating costs",
+            "Corporate overheads"
+          ],
+          "correct": true,
+          "why": "EBITDA = rent and loading + energy margin - site costs - overheads, with each item counted once."
+        },
+        {
+          "split": [
+            "Rental and loading revenue",
+            "Energy margin",
+            "Site operating costs",
+            "Corporate overheads",
+            "Depreciation of tower assets"
+          ],
+          "correct": false,
+          "why": "Not a driver: depreciation sits below EBITDA, so it does not change EBITDA."
+        }
+      ]
+    },
+    {
+      "id": "telecom-q06",
+      "industry": "telecom",
+      "difficulty": "Intermediate",
+      "question": "Which split of 'Prepaid ARPU (revenue per user per month)' is MECE?",
+      "parent": "Prepaid ARPU (revenue per user per month)",
+      "options": [
+        {
+          "split": [
+            "Share of users on each pack",
+            "Monthly-equivalent price of each pack",
+            "Add-on and top-up spend per user"
+          ],
+          "correct": true,
+          "why": "ARPU = sum of (pack share x monthly-equivalent price) + add-on spend, which covers every rupee a user pays each month."
+        },
+        {
+          "split": [
+            "Share of users on each pack",
+            "Monthly-equivalent price of each pack",
+            "Add-on and top-up spend per user",
+            "Data booster packs per user"
+          ],
+          "correct": false,
+          "why": "Overlap: data boosters are add-on packs, already inside add-on and top-up spend."
+        },
+        {
+          "split": [
+            "Share of users on each pack",
+            "Headline price of each pack",
+            "Add-on and top-up spend per user"
+          ],
+          "correct": false,
+          "why": "Mixed basis: an 84-day pack's headline price covers three months, so mix x headline price does not give a monthly figure."
+        },
+        {
+          "split": [
+            "Share of users on each pack",
+            "Monthly-equivalent price of each pack",
+            "Add-on and top-up spend per user",
+            "Revenue-linked levies per user"
+          ],
+          "correct": false,
+          "why": "Not a driver: licence fee and spectrum charges are costs paid out of revenue, not part of what the user pays."
+        }
+      ]
+    },
+    {
+      "id": "telecom-q07",
+      "industry": "telecom",
+      "difficulty": "Advanced",
+      "question": "Which split of 'Change in an operator's annual EBITDA after a 15% tariff hike' is MECE?",
+      "parent": "Change in an operator's annual EBITDA after a 15% tariff hike",
+      "options": [
+        {
+          "split": [
+            "Price gain on retained users",
+            "Revenue lost to churn and downtrading",
+            "Change in other costs (retention offers, care)"
+          ],
+          "correct": false,
+          "why": "Gap: misses revenue-linked costs; the licence fee, spectrum charges and commissions rise automatically with revenue."
+        },
+        {
+          "split": [
+            "Price gain on retained users",
+            "Revenue lost to churn and downtrading",
+            "Change in revenue-linked costs",
+            "Change in other costs",
+            "Change in Digital Bharat Nidhi contribution"
+          ],
+          "correct": false,
+          "why": "Overlap: the Digital Bharat Nidhi contribution is 5 of the 8 points of the licence fee, already a revenue-linked cost."
+        },
+        {
+          "split": [
+            "Price gain on retained users",
+            "Revenue lost to churn and downtrading",
+            "Change in revenue-linked costs",
+            "Change in other costs",
+            "Rivals matching or not matching the hike"
+          ],
+          "correct": false,
+          "why": "Mixed levels: rivals' choices are a cause of churn and downtrading, not a separate component of the EBITDA change."
+        },
+        {
+          "split": [
+            "Price gain on retained users",
+            "Revenue lost to churn and downtrading",
+            "Change in revenue-linked costs",
+            "Change in other costs (retention offers, care)"
+          ],
+          "correct": true,
+          "why": "Splits the EBITDA change into revenue and cost effects, with revenue-linked costs (licence fee, spectrum charges, commissions) shown separately because they move with the hike."
+        }
+      ]
+    },
+    {
+      "id": "telecom-q08",
+      "industry": "telecom",
+      "difficulty": "Advanced",
+      "question": "Which split of 'Lifetime value of a 5G fixed wireless customer' is MECE?",
+      "parent": "Lifetime value of a 5G fixed wireless customer",
+      "options": [
+        {
+          "split": [
+            "Monthly ARPU",
+            "Expected customer life (months)",
+            "Upfront device and installation cost"
+          ],
+          "correct": false,
+          "why": "Gap: the only cost is the upfront device; monthly levies, care and network cost are missing, so lifetime value is overstated."
+        },
+        {
+          "split": [
+            "Monthly contribution",
+            "Expected customer life (1 / monthly churn)",
+            "Upfront device and installation cost"
+          ],
+          "correct": true,
+          "why": "LTV = monthly contribution x expected life - upfront cost (ignoring discounting), with each element counted once."
+        },
+        {
+          "split": [
+            "Monthly contribution",
+            "Expected customer life",
+            "Upfront device and installation cost",
+            "Monthly backhaul cost per home"
+          ],
+          "correct": false,
+          "why": "Overlap: backhaul is a network cost already deducted in monthly contribution."
+        },
+        {
+          "split": [
+            "Monthly contribution",
+            "Expected customer life",
+            "Upfront device and installation cost",
+            "Payback period"
+          ],
+          "correct": false,
+          "why": "Not a driver: payback is a result calculated from contribution and upfront cost, not a separate input to value."
+        }
+      ]
+    }
+  ],
+  "chainDrills": [
+    {
+      "id": "telecom-v01",
+      "industry": "telecom",
+      "difficulty": "Beginner",
+      "type": "locate",
+      "prompt": "Care call volumes jumped after a new pack launched with confusing validity terms. Which stage caused the problem?",
+      "options": [
+        "s3",
+        "s5",
+        "s4",
+        "s6"
+      ],
+      "answer": [
+        "s4"
+      ],
+      "why": "The calls land in customer care (s6), but the cause is how the pack was designed and described, a product and pricing (s4) issue; extra care staff would treat the symptom."
+    },
+    {
+      "id": "telecom-v02",
+      "industry": "telecom",
+      "difficulty": "Beginner",
+      "type": "locate",
+      "prompt": "Rural churn rose and exit surveys cite calls dropping during evening power cuts. Which stage holds the root cause?",
+      "options": [
+        "s2",
+        "s3",
+        "s6",
+        "s4"
+      ],
+      "answer": [
+        "s2"
+      ],
+      "why": "The churn shows up in retention (s6) and looks like a network fault (s3), but sites going down when the grid fails is a site power backup problem, which sits in passive infrastructure (s2)."
+    },
+    {
+      "id": "telecom-v03",
+      "industry": "telecom",
+      "difficulty": "Intermediate",
+      "type": "locate",
+      "prompt": "ARPU fell, and finance blames the care team's retention discounts. The data shows most of the fall came from customers moving on their own from 28-day to 84-day packs that cost less per month. Where did the problem start?",
+      "options": [
+        "s5",
+        "s4",
+        "s6",
+        "s3"
+      ],
+      "answer": [
+        "s4"
+      ],
+      "why": "The retention discounts are a red herring: the fall comes from how the packs are priced against each other, as the long-validity pack gives a lower monthly-equivalent price. That is a product and pricing (s4) issue, not care (s6)."
+    },
+    {
+      "id": "telecom-v04",
+      "industry": "telecom",
+      "difficulty": "Intermediate",
+      "type": "order",
+      "prompt": "Put the stages of the mobile telecom value chain in flow order, from inputs to the end customer.",
+      "options": [
+        "s4",
+        "s1",
+        "s6",
+        "s2",
+        "s5",
+        "s3"
+      ],
+      "answer": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6"
+      ],
+      "why": "An operator first needs spectrum and licences, then passive infrastructure (towers, fibre, power) to host its active network. With a working network it designs products and prices, sells them through distribution, and finally bills, serves and retains the customer."
+    },
+    {
+      "id": "telecom-v05",
+      "industry": "telecom",
+      "difficulty": "Advanced",
+      "type": "locate",
+      "prompt": "After a 20% tariff hike, revenue rose ₹1,000 crore, but costs rose ₹80 crore with no change in traffic, retailer payouts or headcount. Which stage does that cost increase sit in?",
+      "options": [
+        "s4",
+        "s5",
+        "s1",
+        "s6"
+      ],
+      "answer": [
+        "s1"
+      ],
+      "why": "₹80 crore is 8% of the extra revenue, which is the licence fee on adjusted gross revenue, a spectrum and licences (s1) cost. The hike happened in s4, and retailer payouts (s5) are ruled out by the prompt."
+    },
+    {
+      "id": "telecom-v06",
+      "industry": "telecom",
+      "difficulty": "Advanced",
+      "type": "assign",
+      "prompt": "Assign each cost to the value chain stage it belongs to: diesel for the generator at a shared tower site; software licence fees for the 5G core network; fees paid to a streaming service bundled into postpaid plans; KYC verification cost for each new SIM; bad debt on unpaid postpaid bills; interest on deferred spectrum instalments.",
+      "items": [
+        {
+          "item": "Diesel for the generator at a shared tower site",
+          "stage": "s2"
+        },
+        {
+          "item": "Software licence fees for the 5G core network",
+          "stage": "s3"
+        },
+        {
+          "item": "Fees paid to a streaming service bundled into postpaid plans",
+          "stage": "s4"
+        },
+        {
+          "item": "KYC verification cost for each new SIM",
+          "stage": "s5"
+        },
+        {
+          "item": "Bad debt on unpaid postpaid bills",
+          "stage": "s6"
+        },
+        {
+          "item": "Interest on deferred spectrum instalments",
+          "stage": "s1"
+        }
+      ],
+      "why": "Diesel looks like a network running cost (s3), but at a shared site the tower company supplies power as part of passive infrastructure (s2) and passes it on to tenants. Streaming fees buy content to make plans more attractive, so they are a product cost (s4), not a distribution cost. Bad debt sits with billing and collections (s6). Interest on spectrum instalments is the financing cost of spectrum (s1), not network capex."
+    }
+  ]
+}

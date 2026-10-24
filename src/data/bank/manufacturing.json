@@ -1,0 +1,3850 @@
+{
+  "industry": "manufacturing",
+  "valueChain": {
+    "summary": "Manufacturers make money on the spread between the price they realise and the cost of the materials, components and conversion that go into each unit, so material buying, plant efficiency and price discipline decide most of the margin. Firms that own the product design and a large installed base earn extra from price premiums and from high-margin spares and service.",
+    "stages": [
+      {
+        "id": "s1",
+        "name": "Design and engineering",
+        "activities": [
+          "Product design and specification to customer or standard (BIS, IEC, API)",
+          "Prototype testing, type-testing and certification",
+          "Value engineering to take cost out of existing products",
+          "Tooling and process design for the plant"
+        ],
+        "players": [
+          "In-house R&D and engineering teams of product companies",
+          "Engineering services (ER&D) outsourcing firms",
+          "Technology licensors"
+        ],
+        "revenueDrivers": [
+          "Product performance (efficiency, life, reliability) that supports a price premium",
+          "Licence and engineering-service fees, for design-led firms"
+        ],
+        "costDrivers": [
+          "Engineer headcount and test facilities",
+          "Certification and type-test fees",
+          "Royalties for licensed designs"
+        ],
+        "kpis": [
+          {
+            "name": "R&D intensity",
+            "formula": "R&D spend / revenue",
+            "benchmark": "approx. 1-3% for Indian engineering firms; 3-6% for many global industrial leaders"
+          },
+          {
+            "name": "Cost locked in at design",
+            "formula": "share of lifetime product cost fixed by design decisions",
+            "benchmark": "commonly cited at 70-80%"
+          }
+        ],
+        "marginNote": "A cost centre for most manufacturers, earning its return through price premiums and lower product cost; licence-led design houses can earn 20%+ margins."
+      },
+      {
+        "id": "s2",
+        "name": "Procurement and inputs",
+        "activities": [
+          "Buying raw materials (steel, aluminium, copper, resins)",
+          "Sourcing bought-out components (motors, bearings, electronics)",
+          "Supplier development and quality audits",
+          "Price-index contracts and commodity hedging",
+          "Inbound freight and import clearance"
+        ],
+        "players": [
+          "Steel and metal producers",
+          "Tier 1 and Tier 2 component suppliers, many of them MSMEs",
+          "Traders, stockists and importers"
+        ],
+        "revenueDrivers": [
+          "No direct revenue; pass-through clauses in customer contracts decide how much input inflation is recovered in price"
+        ],
+        "costDrivers": [
+          "Commodity prices (steel, copper, aluminium)",
+          "Supplier pricing power and volume discounts",
+          "Import duties and exchange rates",
+          "Inbound freight"
+        ],
+        "kpis": [
+          {
+            "name": "Material cost ratio",
+            "formula": "raw material and component cost / revenue",
+            "benchmark": "approx. 55-65% for Indian engineering manufacturers"
+          },
+          {
+            "name": "Supplier on-time delivery",
+            "formula": "purchase orders received on time / purchase orders due",
+            "benchmark": "90-95%+ in well-run plants"
+          },
+          {
+            "name": "Raw material inventory days",
+            "formula": "raw material inventory / daily material consumption",
+            "benchmark": "approx. 20-45 days"
+          }
+        ],
+        "marginNote": "Not a profit centre, but the largest cost line: a 2% saving on materials that are 60% of revenue adds about 1.2 points of EBITDA."
+      },
+      {
+        "id": "s3",
+        "name": "Production",
+        "activities": [
+          "Fabrication: casting, forging, machining, sheet metal, moulding",
+          "Assembly and final testing",
+          "Machine maintenance",
+          "In-process quality control and inspection",
+          "Production planning and scheduling"
+        ],
+        "players": [
+          "Product companies with their own plants",
+          "Contract manufacturers and job shops, often MSMEs in clusters",
+          "Electronics manufacturing services (EMS) firms"
+        ],
+        "revenueDrivers": [
+          "Output capacity and uptime, which cap how much can be sold",
+          "Quality and delivery record that keeps approved-vendor status"
+        ],
+        "costDrivers": [
+          "Direct labour",
+          "Power and fuel",
+          "Consumables and tooling",
+          "Scrap and rework",
+          "Maintenance and depreciation of plant and machinery"
+        ],
+        "kpis": [
+          {
+            "name": "Overall equipment effectiveness (OEE)",
+            "formula": "availability x performance x quality rate",
+            "benchmark": "85% often cited as world-class; many Indian plants run at approx. 50-65%"
+          },
+          {
+            "name": "Capacity utilisation",
+            "formula": "actual output / installed capacity",
+            "benchmark": "approx. 74-77% for Indian manufacturing in recent quarterly RBI OBICUS surveys"
+          },
+          {
+            "name": "Scrap rate",
+            "formula": "scrapped units / units started",
+            "benchmark": "approx. 1-3% for mature processes"
+          }
+        ],
+        "marginNote": "Conversion alone is thin: job shops and EMS firms earn approx. 3-8% EBITDA, while product owners with their own plants earn approx. 10-15%."
+      },
+      {
+        "id": "s4",
+        "name": "Outbound logistics and warehousing",
+        "activities": [
+          "Packing and dispatch",
+          "Freight from plant to warehouses, depots and customer sites",
+          "Regional warehousing and stock positioning",
+          "Export documentation and port handling"
+        ],
+        "players": [
+          "Transporters and fleet owners",
+          "Third-party logistics (3PL) firms",
+          "Indian Railways and container train operators",
+          "Freight forwarders"
+        ],
+        "revenueDrivers": [
+          "Freight recovered from customers, or built into delivered prices",
+          "Short lead times and stock availability that win orders"
+        ],
+        "costDrivers": [
+          "Freight per tonne-km (diesel, distance, road versus rail)",
+          "Warehouse rent and handling",
+          "Carrying cost of finished-goods stock",
+          "Damage in transit"
+        ],
+        "kpis": [
+          {
+            "name": "Outbound freight to sales",
+            "formula": "outbound freight cost / revenue",
+            "benchmark": "approx. 2-5% for engineered goods; can exceed 20% for bulky goods such as cement"
+          },
+          {
+            "name": "On-time in-full (OTIF)",
+            "formula": "orders delivered complete and on time / total orders",
+            "benchmark": "90-95%+ for leading suppliers"
+          },
+          {
+            "name": "Finished-goods inventory days",
+            "formula": "finished-goods inventory / daily cost of goods sold",
+            "benchmark": "approx. 15-30 days"
+          }
+        ],
+        "marginNote": "A cost stage for the manufacturer; 3PL firms that do the work earn approx. 5-10% EBITDA."
+      },
+      {
+        "id": "s5",
+        "name": "Sales and channel",
+        "activities": [
+          "Key account selling to OEMs, EPC contractors and government tenders",
+          "Managing dealers and distributors",
+          "Pricing, quotations and contract terms",
+          "Getting specified by consultants and engineers"
+        ],
+        "players": [
+          "Manufacturers' sales teams",
+          "Distributors, dealers and stockists",
+          "EPC contractors and system integrators"
+        ],
+        "revenueDrivers": [
+          "Volume won (tender share, dealer reach)",
+          "Price realisation and discount discipline",
+          "Product and customer mix"
+        ],
+        "costDrivers": [
+          "Dealer and distributor margins",
+          "Sales force cost",
+          "Discounts, rebates and credit terms",
+          "Tender and bid preparation"
+        ],
+        "kpis": [
+          {
+            "name": "Tender win rate",
+            "formula": "tenders won / tenders bid",
+            "benchmark": "approx. 15-30% in competitive B2B tenders"
+          },
+          {
+            "name": "Channel margin",
+            "formula": "dealer or distributor margin / end-customer price",
+            "benchmark": "approx. 8-20% depending on product"
+          },
+          {
+            "name": "Receivable days",
+            "formula": "trade receivables / daily revenue",
+            "benchmark": "60-90+ days common in Indian B2B; MSME suppliers are owed payment within 45 days under the MSMED Act"
+          }
+        ],
+        "marginNote": "Distributors earn roughly 2-5% net; for the manufacturer, price and discount discipline here falls straight to profit."
+      },
+      {
+        "id": "s6",
+        "name": "Aftermarket and service",
+        "activities": [
+          "Spare parts supply",
+          "Annual maintenance contracts (AMCs) and repairs",
+          "Retrofits, upgrades and refurbishment",
+          "Remote monitoring and field service"
+        ],
+        "players": [
+          "Manufacturers' service divisions",
+          "Authorised service partners",
+          "Independent repairers and spare-parts makers, including counterfeiters"
+        ],
+        "revenueDrivers": [
+          "Size and age of the installed base",
+          "Share of the base under service contract",
+          "Share of spares demand captured versus independents and counterfeits",
+          "Price per part and per contract"
+        ],
+        "costDrivers": [
+          "Field technician cost and travel",
+          "Spares inventory across many low-volume SKUs",
+          "Warranty claims"
+        ],
+        "kpis": [
+          {
+            "name": "Aftermarket share of revenue",
+            "formula": "aftermarket revenue / total revenue",
+            "benchmark": "approx. 20-40% for capital-goods makers, with a higher share of profit"
+          },
+          {
+            "name": "Spares capture rate",
+            "formula": "own spares sold / estimated spares demand of own installed base",
+            "benchmark": "approx. 30-60%; the rest leaks to independents"
+          },
+          {
+            "name": "First-time fix rate",
+            "formula": "service calls resolved on first visit / total calls",
+            "benchmark": "80%+ for good field service"
+          }
+        ],
+        "marginNote": "Usually the richest stage: spares and service gross margins of approx. 35-50% against approx. 20-30% on new equipment."
+      }
+    ],
+    "profitPools": "Profit concentrates at the two ends of the chain. Design-led product owners capture the premium that comes from specification and brand, and aftermarket spares and service earn the highest margins because the customer already owns the equipment and downtime is expensive, which is why many capital-goods makers earn a third to a half of profit from an aftermarket that is only a fifth to a third of revenue. Contract fabrication, logistics and distribution in the middle are fragmented and competitive, so they earn thin margins.",
+    "unitEconomics": {
+      "unit": "per mid-size industrial pump sold through dealers (approx., India)",
+      "lines": [
+        {
+          "item": "Net realisation to manufacturer (after dealer margin)",
+          "value": "₹1,00,000"
+        },
+        {
+          "item": "Raw materials and bought-out components (motor, castings, bearings)",
+          "value": "-₹58,000"
+        },
+        {
+          "item": "Direct labour",
+          "value": "-₹6,000"
+        },
+        {
+          "item": "Power, fuel and consumables",
+          "value": "-₹4,000"
+        },
+        {
+          "item": "Outbound freight",
+          "value": "-₹3,000"
+        },
+        {
+          "item": "Warranty provision",
+          "value": "-₹2,000"
+        },
+        {
+          "item": "Plant overheads (maintenance, supervision, depreciation)",
+          "value": "-₹9,000"
+        },
+        {
+          "item": "Selling, general and administrative costs (allocated)",
+          "value": "-₹8,000"
+        }
+      ],
+      "result": "Operating profit (EBIT) per pump ≈ ₹10,000, a 10% margin; contribution after variable costs ≈ ₹27,000 (27%)"
+    },
+    "india": "Manufacturing is roughly 13-17% of India's GDP depending on the series used, and it is highly fragmented: MSMEs account for about 35% of manufacturing output, often in specialised clusters such as Rajkot for castings, Coimbatore for pumps, Pune for engineering and Morbi for ceramics. Policy shapes the economics directly through the PLI scheme, import duties and BIS Quality Control Orders, while industrial power tariffs that cross-subsidise farm and household users, and long payment cycles from large buyers, squeeze smaller firms' margins and working capital.",
+    "workedExample": {
+      "problem": "Gross margin at an Indian engineering products maker fell 3 points in a year, although steel prices were flat and volumes grew 8%.",
+      "trace": [
+        "Sales and channel (s5): realisation per unit, dealer discounts and product mix are unchanged, so price is not the cause.",
+        "Procurement (s2): purchase prices per kg of steel and components are flat, but material consumed per good unit has risen, so the issue is how much material is used, not what it costs.",
+        "Production (s3): scrap has risen from 2% to 5% of material, concentrated on lines running new custom variants, and changeovers per day have doubled. Extra scrap costs about 1.7 points (3% of a 58% material share) and overtime and lost changeover time about 1.3 points.",
+        "Design and engineering (s1): the variant count rose 40% in two years as sales accepted custom specifications, and many variants were released without tooling or process design for the existing lines."
+      ],
+      "lesson": "The cost showed up in the plant, but the root cause sat upstream in how product variety was designed and sold, so a plant-only fix would not last."
+    }
+  },
+  "cases": [
+    {
+      "id": "manufacturing-c01",
+      "title": "Packaging maker's profits squeezed",
+      "industry": "manufacturing",
+      "framework": "profitability",
+      "secondary": [],
+      "difficulty": "Beginner",
+      "region": "India",
+      "prompt": "Our client is a mid-sized Indian maker of corrugated boxes with four plants in western India, supplying FMCG and e-commerce companies. Over two years revenue has grown from ₹550 crore to ₹600 crore, but EBITDA has fallen from ₹60 crore to ₹36 crore. Why have profits fallen, and where should the client look first?",
+      "clarifyingFacts": [
+        "Q: What is the objective? A: Get EBITDA margin back to about 10% within 18 months.",
+        "Q: What drives cost? A: Kraft paper is about 65% of production cost, and its price has risen about 16% over the two years.",
+        "Q: How are customer prices set? A: Large FMCG contracts are indexed to paper prices with a two-quarter lag; e-commerce customers are on fixed annual rates.",
+        "Q: Have volume or mix changed? A: Tonnage is up 4%, and e-commerce has grown from 20% to 35% of tonnage. Plants and headcount are unchanged."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Why has EBITDA fallen from ₹60 to ₹36 crore despite revenue growth?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Revenue: volume, price per tonne and mix",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Total tonnes sold (+4%)"
+              },
+              {
+                "id": "a2",
+                "label": "Mix shift towards lower-priced e-commerce boxes"
+              },
+              {
+                "id": "a3",
+                "label": "Price per tonne within each segment (indexation lag, fixed rates)"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Variable cost per tonne",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Kraft paper: price per tonne x paper used per tonne of boxes"
+              },
+              {
+                "id": "b2",
+                "label": "Starch, inks and other consumables"
+              },
+              {
+                "id": "b3",
+                "label": "Power and boiler fuel"
+              },
+              {
+                "id": "b4",
+                "label": "Freight to customer plants and warehouses"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Fixed costs",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Plant labour and supervision"
+              },
+              {
+                "id": "c2",
+                "label": "Maintenance and plant overheads"
+              },
+              {
+                "id": "c3",
+                "label": "Selling, general and administrative costs"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Kraft paper cost per tonne is up about 16% while realisation per tonne is up only about 5%, which on its own explains most of the ₹24 crore fall.",
+        "E-commerce boxes, now 35% of tonnage on fixed annual rates, earn lower contribution per tonne than FMCG boxes because of shorter runs and no paper indexation."
+      ],
+      "hints": [
+        "Start from the profit equation, and choose a unit of volume that matches how this business buys its main input and prices its product.",
+        "Use three first-level branches: revenue, variable cost per tonne, and fixed costs.",
+        "Fixed costs break into plant labour and supervision, maintenance and plant overheads, and selling, general and administrative costs; check the clarifying facts before spending time here."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Contribution per tonne",
+          "formula": "Realisation per tonne - (paper + consumables + power + freight) per tonne"
+        },
+        {
+          "name": "Paper cost pass-through",
+          "formula": "Increase in realisation per tonne / increase in paper cost per tonne of boxes sold"
+        }
+      ],
+      "commonMistakes": [
+        "Spending time on fixed costs when plants and headcount are unchanged; the movement is in the spread between price per tonne and paper cost per tonne.",
+        "Reading 9% revenue growth as healthy without splitting it into 4% volume and about 5% price and mix, which is far below 16% paper inflation."
+      ],
+      "frameworkPick": {
+        "options": [
+          "profitability",
+          "turnaround",
+          "operations",
+          "segmentation"
+        ],
+        "correct": [
+          "profitability"
+        ],
+        "why": "The question is why profit fell, so the first job is to break EBITDA into revenue and cost drivers and find which moved. Weak paper pass-through will surface inside that tree; deciding how to reprice is a later step.",
+        "distractorWhyNot": {
+          "turnaround": "A 40% EBITDA fall looks like distress, but the business still earns about a 6% margin with no cash or lender crisis, so the job is diagnosis, not a rescue plan.",
+          "operations": "Rising cost per tonne tempts an efficiency review, but plants and headcount are unchanged and the question asks why profit fell across revenue and cost.",
+          "segmentation": "The shift towards e-commerce is one finding inside the revenue branch; grouping customers does not explain why total profit fell."
+        }
+      }
+    },
+    {
+      "id": "manufacturing-c02",
+      "title": "Sizing India's agricultural pump market",
+      "industry": "manufacturing",
+      "framework": "market-sizing",
+      "secondary": [],
+      "difficulty": "Beginner",
+      "region": "India",
+      "prompt": "Our client, a mid-sized Indian pump maker, is deciding whether to add capacity for agricultural pumps. Before that, the CEO wants a number: how many electric irrigation pumps are sold in India each year, and what is that market worth at manufacturer prices?",
+      "clarifyingFacts": [
+        "Q: What counts as an agricultural pump? A: Electric irrigation pumps, both submersible and surface monoblock, plus solar pumps. Diesel pumps are excluded.",
+        "Q: Geography and time frame? A: India, annual units and value for the current year.",
+        "Q: Is there data on the installed base? A: Assume about 2.2 crore grid-connected irrigation pumps in use, each replaced about every 10 years on average (after one or two motor rewinds). New grid connections add about 3 lakh pumps a year and government schemes add about 2 lakh solar pumps a year.",
+        "Q: What are typical prices? A: Assume about ₹20,000 per grid-powered pump set and about ₹60,000 for the pump, motor and controller of a solar system (panels excluded), at manufacturer prices."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Annual unit sales and value of electric irrigation pumps in India",
+        "children": [
+          {
+            "id": "a",
+            "label": "Units sold per year",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Replacement of pumps in the installed base",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Installed base of grid-connected irrigation pumps (~2.2 crore)"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Average replacement cycle (~10 years)"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Pumps for new installations",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "New grid connections (~3 lakh a year)"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Solar pumps under PM-KUSUM and state schemes (~2 lakh a year)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Average value per unit",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Price by type: submersible, monoblock, solar pump set"
+              },
+              {
+                "id": "b2",
+                "label": "Mix of units by type"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Replacement accounts for about 22 lakh of roughly 27 lakh units a year (about 80%), so the market tracks the installed base more than new farm connections.",
+        "Solar pumps are only about 7% of units but nearly a fifth of the roughly ₹6,200 crore market value, because each set is priced at about three times a grid pump."
+      ],
+      "hints": [
+        "Size an annual flow rather than the stock of pumps, and think about what triggers each purchase.",
+        "Use two first-level branches: units sold per year and average value per unit.",
+        "Average value per unit breaks into price by type (submersible, monoblock, solar pump set) and the mix of units by type."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Annual units",
+          "formula": "Installed base / average life + new grid connections + new solar pumps"
+        },
+        {
+          "name": "Market value",
+          "formula": "Sum over pump types of (units x average manufacturer price)"
+        }
+      ],
+      "commonMistakes": [
+        "Starting from India's roughly 14-15 crore farm holdings and a penetration rate, which estimates the stock of pumps rather than annual sales and overstates demand from small holdings that share a well or rely on rain.",
+        "Leaving out replacement demand, which is the largest part of annual sales in a mature installed base."
+      ],
+      "frameworkPick": {
+        "options": [
+          "market-sizing",
+          "market-entry",
+          "operations",
+          "segmentation"
+        ],
+        "correct": [
+          "market-sizing"
+        ],
+        "why": "The CEO wants a number for annual units and value, which is a sizing exercise built from the installed base, the replacement cycle and new installations.",
+        "distractorWhyNot": {
+          "market-entry": "The capacity decision makes it feel like an entry case, but the client already sells pumps and the CEO has asked only how big the market is.",
+          "operations": "Adding capacity is the decision that follows; the question asked is how big annual demand is, not how to run or expand the plant.",
+          "segmentation": "Splitting by pump type is a step inside the sizing, not the question being asked."
+        }
+      }
+    },
+    {
+      "id": "manufacturing-c03",
+      "title": "Raising foundry output without new furnaces",
+      "industry": "manufacturing",
+      "framework": "operations",
+      "secondary": [],
+      "difficulty": "Beginner",
+      "region": "India",
+      "prompt": "Our client is an Indian maker of grey and SG iron castings for tractor and construction-equipment makers, with one foundry near Rajkot shipping about 1,500 tonnes a month. Customers want 20% more than the plant ships today, but the promoter does not want to buy new furnaces or moulding lines. How can the foundry raise good output by 20% without major capex?",
+      "clarifyingFacts": [
+        "Q: Where is the bottleneck? A: The automatic moulding line. Melting has spare capacity, and fettling can add a shift.",
+        "Q: How does the moulding line perform? A: OEE is about 55%: availability 75%, performance 85% and good-casting rate 86%.",
+        "Q: What is the shift pattern? A: Two and a half shifts a day, 26 days a month.",
+        "Q: Any constraints? A: Skilled moulders are scarce, and peak-hour power tariffs make some evening hours expensive."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "How can good castings shipped rise 20% to 1,800 tonnes a month?",
+        "children": [
+          {
+            "id": "a",
+            "label": "More running time on the moulding line",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Cut breakdowns and pattern failures"
+              },
+              {
+                "id": "a2",
+                "label": "Cut changeover and pattern-change time"
+              },
+              {
+                "id": "a3",
+                "label": "Extend scheduled hours (full third shift, staggered breaks)"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Faster moulding while the line runs",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Remove minor stops (sand supply, mould handling)"
+              },
+              {
+                "id": "b2",
+                "label": "Match pouring speed to moulding speed"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "More good castings per mould made",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Cut in-house rejections (sand, porosity, shrinkage)"
+              },
+              {
+                "id": "c2",
+                "label": "Cut rejections and returns at customer plants"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Pattern changes take about 40 minutes and happen about five times a day, so halving them would recover around 8% of scheduled moulding time.",
+        "The 14% casting rejection rate is two to three times what well-run iron foundries achieve, mostly from sand-related defects that tighter sand control can fix."
+      ],
+      "hints": [
+        "Find the constraint first, then break its good output into factors that multiply together.",
+        "Use three first-level branches: more running time on the moulding line, faster moulding while it runs, and more good castings per mould.",
+        "More good castings per mould breaks into cutting in-house rejections (sand, porosity, shrinkage) and cutting rejections and returns at customer plants."
+      ],
+      "keyMetrics": [
+        {
+          "name": "OEE",
+          "formula": "Availability x performance x good-casting rate"
+        },
+        {
+          "name": "Good tonnes per month",
+          "formula": "Scheduled hours x availability x rated moulds per hour x performance x good-casting rate x tonnes per mould"
+        }
+      ],
+      "commonMistakes": [
+        "Working on melting or fettling, which have spare capacity; only gains on the moulding line raise output.",
+        "Proposing a new moulding line or furnace, which breaks the no-capex constraint, instead of lifting moulding-line OEE (55% to about 66% would deliver the full 20%) and adding scheduled hours."
+      ],
+      "frameworkPick": {
+        "options": [
+          "operations",
+          "profitability",
+          "growth",
+          "pricing"
+        ],
+        "correct": [
+          "operations"
+        ],
+        "why": "The question is how to get more output from an existing plant, which is a throughput problem at the bottleneck: running time, speed and yield.",
+        "distractorWhyNot": {
+          "profitability": "More output would raise profit, but profit is not the stated problem; demand exists and the constraint is output.",
+          "growth": "Customers asking for 20% more sounds like growth, but the demand is already there; the question is how to make it.",
+          "pricing": "With demand above capacity, raising prices to ration orders is tempting, but the question is how to ship 20% more, not what to charge."
+        }
+      }
+    },
+    {
+      "id": "manufacturing-c04",
+      "title": "Pricing an energy-saving compressor",
+      "industry": "manufacturing",
+      "framework": "pricing",
+      "secondary": [],
+      "difficulty": "Beginner",
+      "region": "Global",
+      "prompt": "Our client is a German maker of industrial air compressors. It has developed a 75 kW variable-speed model that uses about 30% less electricity than its standard fixed-speed model, which sells for €40,000. How should it price the new model?",
+      "clarifyingFacts": [
+        "Q: What is the objective? A: Maximise profit over the model's life while winning share in Western Europe.",
+        "Q: What does the new model cost to make? A: About €34,000 per unit, against €28,000 for the standard model.",
+        "Q: How much electricity do customers use? A: A standard 75 kW unit uses about 360,000 kWh a year at around €0.15 per kWh, so the new model saves roughly €16,000 a year.",
+        "Q: What do competitors offer? A: Two rivals sell variable-speed models at €52,000-55,000 that save about 25% of electricity."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "What price for the new 75 kW variable-speed compressor maximises lifetime profit?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Value to the customer (price ceiling)",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Annual energy saving (~€16,000 versus standard model)"
+              },
+              {
+                "id": "a2",
+                "label": "Payback period buyers accept on extra spend"
+              },
+              {
+                "id": "a3",
+                "label": "Non-energy differences (maintenance, noise, footprint)"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Competing alternatives (reference prices)",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Rival variable-speed models at €52,000-55,000"
+              },
+              {
+                "id": "b2",
+                "label": "Fixed-speed models, including our own at €40,000"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Our economics (price floor)",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Unit cost of about €34,000"
+              },
+              {
+                "id": "c2",
+                "label": "Margin lost when buyers switch from our standard model"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Buyers accept about a two-year payback on extra spend, which puts the value ceiling near €72,000 (€40,000 plus two years of €16,000 savings).",
+        "Our extra 5 points of saving over rivals is worth about €2,700 a year, which supports a premium of roughly €5,000 over rivals, so a price of about €58,000-60,000 is defensible."
+      ],
+      "hints": [
+        "Bracket the price from above and below, then decide where to sit inside the range.",
+        "Use three first-level branches: value to the customer, competing alternatives, and our own economics.",
+        "Our economics breaks into the unit cost of about €34,000 and the margin lost when buyers switch from our €40,000 standard model."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Customer payback",
+          "formula": "(Price - €40,000 standard price) / annual energy saving"
+        },
+        {
+          "name": "Unit margin",
+          "formula": "Price - €34,000 unit cost, less margin lost on cannibalised standard units"
+        }
+      ],
+      "commonMistakes": [
+        "Pricing at cost plus a mark-up (for example €34,000 + 30% ≈ €44,000), which hands most of the €16,000-a-year value to the customer.",
+        "Comparing only with our own standard model and ignoring rivals' variable-speed models, which set the real reference price."
+      ],
+      "frameworkPick": {
+        "options": [
+          "pricing",
+          "product-launch",
+          "profitability",
+          "competitive-response"
+        ],
+        "correct": [
+          "pricing"
+        ],
+        "why": "The product is built and the question is the price point, so the answer comes from customer value, competitors' reference prices and our cost floor.",
+        "distractorWhyNot": {
+          "product-launch": "The launch decision has been made; only the price is open.",
+          "profitability": "Nothing has gone wrong with profit; this is a forward-looking price decision.",
+          "competitive-response": "No rival has made a move that needs answering; rivals are an input to the price, not the question."
+        }
+      }
+    },
+    {
+      "id": "manufacturing-c05",
+      "title": "Machine-tool maker weighing an Indian plant",
+      "industry": "manufacturing",
+      "framework": "market-entry",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "India",
+      "prompt": "Our client is a Japanese maker of CNC machine tools that sells about 400 machines a year in India, worth roughly ₹600 crore, through an Indian distributor. Indian demand for CNC machines is growing about 12% a year on the back of auto components, defence and electronics manufacturing. Should the client set up its own assembly plant and sales network in India?",
+      "clarifyingFacts": [
+        "Q: What is the objective? A: Double India revenue within five years, with at least a 15% IRR on the investment.",
+        "Q: What would the plant cost? A: About ₹350 crore for capacity of 1,000 machines a year, taking two years to build.",
+        "Q: How big is the market? A: Indian machine-tool consumption is roughly ₹35,000 crore a year, about 60% of it imported. Indian makers lead in lower-priced machines; Japanese, German and Taiwanese firms lead at the high end.",
+        "Q: What would localising change? A: Assume local assembly cuts landed cost by about 10-12% (freight, any duty on finished machines and cheaper local parts). The distributor's margin of around 15% would be replaced by the client's own sales and service costs. The distributor contract expires next year, and a direct sales and service company without a plant would cost about ₹40 crore."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Should the client build an Indian plant and its own sales network?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Is the Indian CNC market attractive?",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Size and growth of demand",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Demand by end industry (auto parts, defence, electronics, general)"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Demand by machine type and price band"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Competitive intensity",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Share and pricing of Japanese, German, Taiwanese importers"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Indian makers moving up from lower-priced machines"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Can the client win more share once local?",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Price after localisation",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Landed cost saving from local assembly (~10-12%)"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Local suppliers for castings, sheet metal, electricals"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Sales and service without the distributor",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Service response in key clusters (Pune, Chennai, Bengaluru, NCR)"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Applications engineers and spares stocked locally"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Does an own plant beat the alternatives financially?",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Economics of own plant and sales network",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "₹350 crore capex, two-year build and ramp-up"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Volume and margin needed for a 15% IRR"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Other ways to serve India",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "Stay with the distributor and keep exporting"
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "Contract assembly or a joint venture with an Indian maker"
+                  },
+                  {
+                    "id": "c2z",
+                    "label": "Own sales and service company, machines still imported"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "A 10-12% lower landed price would let the client compete for mid-range auto-component buyers who now choose Taiwanese machines.",
+        "At 12% market growth, today's 400 machines become about 630 by year four without share gain; if the plant needs roughly 700 a year to clear a 15% IRR, the case rests on winning share.",
+        "Slow service response, not price, is the main reason buyers choose rivals, so a ₹40 crore direct sales and service company could capture much of the share gain before any plant is built; the ₹350 crore plant must then pay back on the 10-12% cost saving alone."
+      ],
+      "hints": [
+        "Treat it as an entry-mode decision, and notice that the plant and the sales network can be decided separately.",
+        "Use three first-level branches: is the Indian CNC market attractive, can the client win more share once local, and does an own plant beat the alternatives financially?",
+        "Market attractiveness breaks into size and growth of demand (by end industry, by machine type and price band) and competitive intensity (importers' share and pricing, Indian makers moving up)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Landed cost per machine",
+          "formula": "Ex-works price + freight and insurance + import duty + distributor margin"
+        },
+        {
+          "name": "Breakeven volume",
+          "formula": "Annual fixed costs of plant and sales network / contribution per machine"
+        }
+      ],
+      "commonMistakes": [
+        "Treating the plant and the sales network as one decision: a direct sales and service company (about ₹40 crore) may capture most of the gain, so the plant has to be justified on its own cost saving.",
+        "Ignoring after-sales service, which is a top buying criterion for CNC machines and the hardest capability to build without the distributor."
+      ],
+      "frameworkPick": {
+        "options": [
+          "market-entry",
+          "growth",
+          "ma",
+          "operations"
+        ],
+        "correct": [
+          "market-entry"
+        ],
+        "why": "The client is deciding whether and how to set up a direct presence in a country, which needs market attractiveness, ability to win and entry economics, including other entry modes.",
+        "distractorWhyNot": {
+          "growth": "Growth is the goal, but the decision on the table is a specific entry-mode choice that a growth tree would not structure.",
+          "ma": "No acquisition target is on the table; a joint venture is only one option inside the entry decision.",
+          "operations": "Plant design matters later; the first question is whether to build at all."
+        }
+      }
+    },
+    {
+      "id": "manufacturing-c06",
+      "title": "Doubling a switchgear maker's revenue",
+      "industry": "manufacturing",
+      "framework": "growth",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "India",
+      "prompt": "Our client is an Indian maker of low-voltage switchgear and wiring devices, such as circuit breakers, distribution boards and switches, with revenue of ₹1,500 crore. The board wants to double revenue to ₹3,000 crore in five years without letting EBITDA margin fall below 13%. How should the client get there? One director argues that EV charging, which he calls a ₹10,000 crore opportunity, should be the centrepiece.",
+      "clarifyingFacts": [
+        "Q: Where does revenue come from today? A: 60% from distributors and retailers serving residential and commercial buildings, 25% from industrial customers and panel builders, and 15% from exports.",
+        "Q: How fast is the market growing? A: The Indian low-voltage switchgear market is growing about 9-10% a year.",
+        "Q: Are acquisitions allowed? A: Yes, up to ₹800 crore in total.",
+        "Q: Is capacity a constraint? A: Plants run at about 75% utilisation, and new capacity takes 18 months to add."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "How to reach ₹3,000 crore revenue in five years at 13%+ margin?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Grow the core business organically",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Volume in the building channel",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Market growth (~9-10% a year)"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Share gain via tier-2/3 distribution and electrician loyalty"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Volume with industrial customers and panel builders",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Market growth from factories, data centres, infrastructure"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Share gain via EPC and utility approvals"
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Volume in existing export markets"
+              },
+              {
+                "id": "a4",
+                "label": "Realisation per unit",
+                "children": [
+                  {
+                    "id": "a4x",
+                    "label": "Mix towards premium and smart devices"
+                  },
+                  {
+                    "id": "a4y",
+                    "label": "Like-for-like price increases"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Organically enter adjacent products and markets",
+            "children": [
+              {
+                "id": "b1",
+                "label": "New product categories in India",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Categories sold through existing electrical distributors (wires, lighting)"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Categories needing new customers (EV charging, rooftop solar)"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "New export markets (Gulf, Africa, South-East Asia)"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Acquire growth (up to ₹800 crore)",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Bolt-on acquisitions that add share in core products"
+              },
+              {
+                "id": "c2",
+                "label": "Acquisitions that bring a new category or geography"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Market growth of 9-10% a year alone takes the core to about ₹2,350 crore, leaving a gap of roughly ₹650 crore to fill from share gain, adjacencies or acquisitions.",
+        "Wires and lighting sold through the same distributors could add ₹300-400 crore by year five at low channel cost, but at margins of about 9-11% they would pull the blended margin down.",
+        "Plants at 75% utilisation can absorb only about a third more volume, so new capacity is needed by year three."
+      ],
+      "hints": [
+        "Split growth by source, ordered from closest to the core business to furthest from it, and test each source against the margin floor.",
+        "Use three first-level branches: grow the core organically, enter adjacent products and markets organically, and acquire growth.",
+        "Acquisitions break into bolt-ons that add share in core products and deals that bring a new category or geography, each tested against the ₹800 crore cap and the 13% margin floor."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Required growth rate",
+          "formula": "(₹3,000 crore / ₹1,500 crore)^(1/5) - 1 ≈ 14.9% a year"
+        },
+        {
+          "name": "Growth gap",
+          "formula": "₹3,000 crore - core revenue in year five at market growth rate"
+        }
+      ],
+      "commonMistakes": [
+        "Taking the director's ₹10,000 crore EV-charging figure as the prize: it is a total market that needs new customers and skills, so each lever must be sized as revenue the client can win against the roughly ₹650 crore gap.",
+        "Ignoring the 13% margin floor: lower-margin adjacencies such as wires, or acquisitions of low-margin firms, can hit the revenue target but break the margin constraint."
+      ],
+      "frameworkPick": {
+        "options": [
+          "growth",
+          "market-entry",
+          "ma",
+          "product-launch"
+        ],
+        "correct": [
+          "growth"
+        ],
+        "why": "The board has set a revenue target and wants the set of routes to reach it, which calls for a growth tree split into core, adjacencies and acquisitions, each sized against the gap.",
+        "distractorWhyNot": {
+          "market-entry": "Entering a new market is only one of several levers; the question is the whole route to ₹3,000 crore.",
+          "ma": "Acquisitions are capped at ₹800 crore and form one branch of the answer, not the question.",
+          "product-launch": "The director's EV-charging push makes it look like a launch decision, but new categories are one lever among several for reaching ₹3,000 crore."
+        }
+      }
+    },
+    {
+      "id": "manufacturing-c07",
+      "title": "Fastener maker facing cheap imports",
+      "industry": "manufacturing",
+      "framework": "competitive-response",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "India",
+      "prompt": "Our client is a large Indian maker of industrial fasteners, such as high-tensile bolts and nuts, with revenue of ₹900 crore and a 14% EBITDA margin. Over the past year, imports from China and South-East Asia have taken share in the general engineering segment at prices 15-18% below the client's, and the client's volume there is down 12%. How should the client respond? This year the client also raised distributor prices by 6% to pass on higher wire-rod costs.",
+      "clarifyingFacts": [
+        "Q: How is revenue split? A: 40% to automotive and tractor OEMs on approved-vendor contracts, 45% to general engineering customers through distributors, and 15% exports.",
+        "Q: How good are the imports? A: Comparable on standard grades; weaker on traceability, higher grades and lead times of 8-10 weeks.",
+        "Q: Are the imports priced below their cost? A: Unclear. Industry peers believe some are dumped, but nobody has done the analysis.",
+        "Q: What is the objective? A: Protect profit over the next three years; the board will invest if needed."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "How should the client respond to 15-18% cheaper imports in general engineering?",
+        "children": [
+          {
+            "id": "a",
+            "label": "How big and lasting is the threat?",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Size and cause of the price gap",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Importers' landed cost versus our cost per tonne"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Dumping versus a genuine cost advantage"
+                  },
+                  {
+                    "id": "a1z",
+                    "label": "Our own 6% distributor price rise this year"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Which general engineering products are exposed",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Standard grades sold through distributors (most exposed)"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "High-grade and certified fasteners (less exposed)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Defend share in general engineering",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Close the price gap where we must",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Lower-cost standard range for price-led buyers"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Cut cost: wire-rod sourcing, yield, energy"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Compete on what imports lack",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Certification and lot traceability"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Distributor stocking and short lead times"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Seek a trade remedy (anti-dumping petition to DGTR)"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Redeploy capacity away from the contested segment",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Win more automotive and tractor OEM business"
+              },
+              {
+                "id": "c2",
+                "label": "Grow exports where we are cost-competitive"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Matching a 15% price cut across general engineering (about ₹405 crore of revenue) would cost about ₹60 crore a year, close to that segment's entire EBITDA, so a blanket price match is the wrong response.",
+        "Distributors value next-day availability over price for urgent orders, so a stocking programme could win back about half the lost volume at a 5% premium over imports.",
+        "About 6 points of the 15-18% gap were opened by the client's own price rise, so reversing it selectively on standard grades could win back volume at well under half the cost of a full price match."
+      ],
+      "hints": [
+        "Diagnose before you prescribe, and split responses by where the client chooses to compete.",
+        "Use three first-level branches: how big and lasting is the threat, defend share in general engineering, and redeploy capacity away from the contested segment.",
+        "Redeploying capacity breaks into winning more automotive and tractor OEM business and growing exports where the client is cost-competitive."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Import landed price",
+          "formula": "FOB price + freight and insurance + customs duty + local handling"
+        },
+        {
+          "name": "Volume needed to justify a price cut",
+          "formula": "Margin given up on retained volume / contribution per extra tonne won"
+        }
+      ],
+      "commonMistakes": [
+        "Cutting prices across all segments, including sticky OEM contracts where imports are not competing.",
+        "Relying on an anti-dumping petition alone; a DGTR investigation normally takes about a year and the outcome is uncertain."
+      ],
+      "frameworkPick": {
+        "options": [
+          "competitive-response",
+          "pricing",
+          "profitability",
+          "operations"
+        ],
+        "correct": [
+          "competitive-response"
+        ],
+        "why": "A rival move (low-priced imports) is taking share, so the structure is to understand the threat and then weigh ways to defend or redeploy, with the economics of each.",
+        "distractorWhyNot": {
+          "pricing": "Price is one possible response, but framing it as a pricing case presumes the answer and misses differentiation, cost and trade remedies.",
+          "profitability": "We already know why profit is under pressure; the question is how to respond to the imports.",
+          "operations": "Cutting cost to close the gap is one lever, but an operations tree would not test whether to fight, differentiate, seek a trade remedy or redeploy."
+        }
+      }
+    },
+    {
+      "id": "manufacturing-c08",
+      "title": "Gearbox maker launching predictive maintenance",
+      "industry": "manufacturing",
+      "framework": "product-launch",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "Global",
+      "prompt": "Our client is a German maker of industrial gearboxes and geared motors with €1.2 billion of revenue. It is considering launching a bolt-on vibration and temperature sensor, sold with a monthly software subscription, that predicts gearbox failures before they happen. About 70% of its gearboxes reach plants through machine builders, so it often does not know who operates them. Should it launch, and if so, how?",
+      "clarifyingFacts": [
+        "Q: What does success look like? A: €100 million of annual revenue from the offer within five years, with a positive operating margin by year three.",
+        "Q: How big is the installed base? A: About 1.5 million of the client's gearboxes are in service worldwide, around 40% of them in Europe.",
+        "Q: Who else sells this? A: Specialist condition-monitoring firms and large automation companies sell brand-agnostic sensors at €300-500 per monitoring point plus €10-20 a month.",
+        "Q: What are the costs? A: About €25 million to develop; sensor hardware costs about €80 a unit."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Should the client launch a predictive-maintenance sensor and subscription, and how?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Is customer demand large enough?",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Addressable installed base",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Installed gearboxes by application (mining, cement, water, food)"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Share in critical duty where failure halts production"
+                  },
+                  {
+                    "id": "a1z",
+                    "label": "Share reachable: known end users versus sold via machine builders"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Willingness to pay",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Cost of unplanned downtime avoided per gearbox"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Maintenance budgets and how plants buy software"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Can the client beat existing alternatives?",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Advantages from owning the gearbox design",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Failure models trained on own test and warranty data"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Credibility with customers as the equipment maker"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Gaps against specialist monitoring firms",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Software, analytics and data-science skills"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Coverage of other brands' equipment on the same site"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Does it make money?",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Revenue",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Points under subscription x monthly fee"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Hardware and installation sales"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Costs",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "€25 million development plus ongoing software cost"
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "Hardware at ~€80, installation and customer support"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "How should it launch?",
+            "children": [
+              {
+                "id": "d1",
+                "label": "First segments and lead customers"
+              },
+              {
+                "id": "d2",
+                "label": "Route to market: service engineers, distributors, partners"
+              },
+              {
+                "id": "d3",
+                "label": "Offer design: factory-fitted on new gearboxes or retrofit kits"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "At about €180 a year per point plus about €400 of hardware, €100 million a year needs roughly 400,000 subscribed points and 80,000 new installations a year, about a quarter of the installed base; with 70% of gearboxes sold through machine builders to unknown end users, the client's own base cannot get there without factory fitting or monitoring other brands.",
+        "Mining and cement customers, where an hour of downtime can cost several thousand euros, will pay; general industry with spare equipment on standby will not."
+      ],
+      "hints": [
+        "This is a go or no-go decision with a 'how' attached: test whether it is worth doing before designing the launch.",
+        "Use four first-level branches: is customer demand large enough, can the client beat existing alternatives, does it make money, and how should it launch?",
+        "Making money breaks into revenue (points under subscription x monthly fee, hardware and installation sales) and costs (€25 million development plus ongoing software, hardware at about €80, installation and support)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Annual recurring revenue",
+          "formula": "Points under subscription x monthly fee x 12"
+        },
+        {
+          "name": "Customer payback",
+          "formula": "(Hardware + installation + annual fee) / annual downtime cost avoided"
+        }
+      ],
+      "commonMistakes": [
+        "Sizing demand from the full 1.5 million installed base, when only gearboxes in critical duty justify monitoring and most sit with end users the client cannot identify.",
+        "Treating this as a hardware launch and missing that it needs software, analytics and service capabilities a gearbox maker may not have."
+      ],
+      "frameworkPick": {
+        "options": [
+          "product-launch",
+          "market-entry",
+          "growth",
+          "pricing"
+        ],
+        "correct": [
+          "product-launch"
+        ],
+        "why": "The client is deciding whether to launch a specific new offer and how, so the tree tests demand, ability to win, economics and the launch plan.",
+        "distractorWhyNot": {
+          "market-entry": "The client already sells to these customers; it is adding a product, not entering a new market.",
+          "growth": "Growth is the motive, but the decision concerns one defined product.",
+          "pricing": "Price is one input to the economics branch; the question is broader."
+        }
+      }
+    },
+    {
+      "id": "manufacturing-c09",
+      "title": "Valve maker focusing its sales force",
+      "industry": "manufacturing",
+      "framework": "segmentation",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "India",
+      "prompt": "Our client is an Indian maker of industrial valves with ₹800 crore of revenue and about 2,500 active customers in oil and gas, power, water, chemicals and general industry. Its 60 salespeople are assigned by region and spend their time on whoever calls, and revenue has been flat for three years. The sales head proposes segmenting by end industry, since oil and gas brings the most revenue. How should the client segment its customers to decide where to focus sales effort?",
+      "clarifyingFacts": [
+        "Q: What is the objective? A: Lift EBITDA margin from 11% to 14% in three years by redirecting sales and service effort, without adding headcount.",
+        "Q: What data exists? A: Three years of order data by customer: revenue, products, discounts, gross margin, number of quotes and service visits.",
+        "Q: How do customers buy? A: EPC contractors buy through project tenders; large plants buy replacement valves through rate contracts and maintenance budgets; small buyers order irregularly, often through distributors.",
+        "Q: What does a tender cost? A: Each tender takes 3-6 weeks of engineering effort, and the win rate is about 20%."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "How should the client segment 2,500 customers to focus its 60 salespeople?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Define segments by how customers buy",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Project buyers: EPC contractors bidding through tenders"
+              },
+              {
+                "id": "a2",
+                "label": "Plant buyers: replacement valves via rate contracts"
+              },
+              {
+                "id": "a3",
+                "label": "Small buyers: low, irregular spend, often via distributors"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Rank segments by value to the client",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Size and growth of valve spend",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Annual spend per customer and our share of wallet"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Growth from capex cycles in end industries"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Profit after cost to serve",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Gross margin after discounts"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Sales and engineering cost per order (quotes, visits)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Match coverage to each segment",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Type of sales coverage",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Key account teams for large plant buyers"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Field sales for mid-sized plant buyers"
+                  },
+                  {
+                    "id": "c1z",
+                    "label": "Inside sales and distributors for small buyers"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Bid discipline for project tenders",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "Bid only where approvals and win rate justify the effort"
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "Minimum margin for accepting tender terms"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Project tenders take about 40% of sales and engineering time but, at a 20% win rate and heavy discounts, earn below-average margin after cost to serve.",
+        "Around 300 large plant buyers of replacement valves earn the best margin after cost to serve and are under-covered because salespeople chase tenders."
+      ],
+      "hints": [
+        "Segment on a basis that changes what a salesperson does, then use the segments to decide where effort goes.",
+        "Use three first-level branches: define segments by how customers buy, rank segments by value to the client, and match coverage to each segment.",
+        "Defining segments by buying behaviour gives project buyers (EPC contractors bidding through tenders), plant buyers (replacement valves via rate contracts) and small buyers (low, irregular spend, often via distributors)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Profit per customer after cost to serve",
+          "formula": "Gross margin - (quotes x cost per quote + visits x cost per visit)"
+        },
+        {
+          "name": "Share of wallet",
+          "formula": "Client's sales to the customer / customer's total valve spend"
+        }
+      ],
+      "commonMistakes": [
+        "Following the sales head's end-industry split: oil and gas contains both tender-driven EPC projects and plant replacement buyers, which need opposite sales approaches, so the split does not change how a salesperson spends time.",
+        "Ranking customers by revenue instead of profit after cost to serve, which keeps effort on large tenders that lose money."
+      ],
+      "frameworkPick": {
+        "options": [
+          "segmentation",
+          "profitability",
+          "growth",
+          "operations"
+        ],
+        "correct": [
+          "segmentation"
+        ],
+        "why": "The client must group customers by how they buy and what they are worth so it can give each group the right coverage, which is a segmentation problem.",
+        "distractorWhyNot": {
+          "profitability": "A profit tree would show that margins are weak, but not how to group 2,500 customers and redeploy 60 salespeople.",
+          "growth": "The target is margin through focus, not new revenue streams.",
+          "operations": "The issue is how commercial effort is allocated, not plant or process efficiency."
+        }
+      }
+    },
+    {
+      "id": "manufacturing-c10",
+      "title": "PE stake in an electronics manufacturer",
+      "industry": "manufacturing",
+      "framework": "pe-dd",
+      "secondary": [
+        "profitability"
+      ],
+      "difficulty": "Advanced",
+      "region": "India",
+      "prompt": "A private equity fund is considering buying a 60% stake in an Indian electronics manufacturing services (EMS) company that assembles mobile phones and wearables for global and Indian brands. Revenue has tripled from ₹2,000 crore to ₹6,000 crore in three years, and reported EBITDA is ₹420 crore. The promoter wants an enterprise value of ₹8,400 crore, or 20 times EBITDA. Should the fund invest?",
+      "clarifyingFacts": [
+        "Q: What is in reported EBITDA? A: About ₹150 crore is PLI incentive, paid as a percentage of incremental sales over a base year; the company's eligible period ends in about two years.",
+        "Q: Who are the customers? A: The top two brands are 75% of revenue, on annual purchase orders rather than multi-year contracts.",
+        "Q: How do margins compare? A: EBITDA excluding PLI is about 4.5% of revenue, in line with global EMS peers at roughly 3-6%.",
+        "Q: What does the fund need, and what should we assume about debt and exit? A: A five-year hold, 2.5 times its money and an IPO exit. Assume no net debt at entry or exit, so equity value equals EV, and use the investment committee's base-case exit multiple of 20x EBITDA, below today's listed-peer multiples."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Should the fund buy 60% of the EMS firm at ₹8,400 crore EV?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Is demand for India-based electronics assembly durable?",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Demand for India-assembled devices",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Brands moving supply chains to India"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Domestic and export volume growth by category"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Policy support beyond the PLI scheme",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Import duties that favour local assembly"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Incentives for local component manufacturing"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Is the company's position defensible?",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Customer concentration",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Top two brands at 75% of revenue on annual orders"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Risk of brands moving volume to rivals or own plants"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Cost and capability against other EMS players",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Conversion cost per device, yields, labour productivity"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Ability to move into laptops, components, higher-value work"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "What are the sustainable earnings and cash?",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Operating EBITDA excluding PLI (~₹270 crore)",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Margin by customer and product"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Component cost pass-through terms in contracts"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "PLI income (~₹150 crore)",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "Years of eligibility remaining"
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "Likelihood of meeting incremental-sales thresholds"
+                  }
+                ]
+              },
+              {
+                "id": "c3",
+                "label": "Cash conversion",
+                "children": [
+                  {
+                    "id": "c3x",
+                    "label": "Working capital days (component stock, receivables)"
+                  },
+                  {
+                    "id": "c3y",
+                    "label": "Maintenance and growth capex"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Does the deal return 2.5x in five years?",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Entry price: 20x reported versus ~31x EBITDA excluding PLI"
+              },
+              {
+                "id": "d2",
+                "label": "Exit value",
+                "children": [
+                  {
+                    "id": "d2x",
+                    "label": "Year-five EBITDA without PLI"
+                  },
+                  {
+                    "id": "d2y",
+                    "label": "Exit multiple (base case 20x, versus higher listed-peer multiples)"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Excluding PLI, EBITDA is about ₹270 crore, so the real entry multiple is about 31x; with no debt and a 20x exit, a 2.5x return needs an exit EV of ₹21,000 crore, or about ₹1,050 crore of EBITDA without PLI by year five, nearly four times today's level.",
+        "Losing either of the top two brands would cut revenue by 30-40%, because volumes sit on annual orders rather than multi-year contracts."
+      ],
+      "hints": [
+        "Use a diligence structure, and test the quality of the earnings that the asking price is based on.",
+        "Use four first-level branches: is demand durable, is the company's position defensible, what are sustainable earnings and cash, and does the deal return 2.5x?",
+        "Defensibility breaks into customer concentration (top two brands at 75% on annual orders, risk of volume moving to rivals or own plants) and cost and capability against other EMS players (conversion cost, yields, moving into higher-value work)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "EV / EBITDA excluding PLI",
+          "formula": "₹8,400 crore / (₹420 crore - ₹150 crore PLI) ≈ 31x"
+        },
+        {
+          "name": "Money multiple (MOIC)",
+          "formula": "Fund's share of exit equity value / equity invested"
+        },
+        {
+          "name": "Required year-five EBITDA",
+          "formula": "Target exit EV / exit EV-to-EBITDA multiple (₹21,000 crore / 20x ≈ ₹1,050 crore)"
+        }
+      ],
+      "commonMistakes": [
+        "Valuing the business on the reported ₹420 crore, when more than a third of it is a time-bound incentive.",
+        "Assuming today's high multiples for listed Indian EMS firms will still apply at exit; at the 20x base case the deal needs operating EBITDA to almost quadruple."
+      ],
+      "frameworkPick": {
+        "options": [
+          "pe-dd",
+          "profitability",
+          "ma",
+          "growth"
+        ],
+        "correct": [
+          "pe-dd",
+          "profitability"
+        ],
+        "why": "A financial buyer is deciding whether to invest at a given price, which is a due diligence question, and the twist is a quality-of-earnings problem that needs a profit breakdown separating operating EBITDA from the expiring PLI incentive.",
+        "distractorWhyNot": {
+          "ma": "Buying a stake is easy to frame as M&A, but a financial buyer has no synergies; the answer rests on standalone earnings, exit value and the 2.5x hurdle.",
+          "growth": "Revenue tripling invites a growth lens, but the fund is deciding whether to invest at this price, not how to grow the company."
+        }
+      }
+    },
+    {
+      "id": "manufacturing-c11",
+      "title": "Glass maker hit by energy costs",
+      "industry": "manufacturing",
+      "framework": "turnaround",
+      "secondary": [
+        "pricing"
+      ],
+      "difficulty": "Advanced",
+      "region": "Global",
+      "prompt": "Our client is a family-owned European maker of glass bottles and jars with €900 million of revenue and five furnaces in Germany and Poland. After the rise in natural gas prices, EBITDA has fallen from €150 million to €40 million, and with €450 million of net debt the company will breach its bank covenant within two quarters, while cash will last about nine months. The family wants to keep control. What should the company do?",
+      "clarifyingFacts": [
+        "Q: What does the covenant require? A: Net debt below 4 times EBITDA. It is now above 11 times.",
+        "Q: How exposed is the company to energy? A: Energy has risen from about 15% to 30% of costs, and contracts with energy pass-through clauses cover only about a third of volume.",
+        "Q: Can furnaces be switched off to save gas? A: A glass furnace runs continuously; once cooled it usually needs a major rebuild, assume about €25-45 million, before it can restart.",
+        "Q: What about demand and the owners? A: European container-glass demand is down about 5% as customers destock and some drinks move to cans, and the five furnaces run at about 75% of capacity. The family can inject up to €30 million, and banks will discuss a covenant holiday if owners contribute."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "How can the firm avoid breaching covenants and recover under family control?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Raise cash internally over the next 12 months",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Release working capital",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Run down finished-goods stock built up during destocking"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Collect receivables faster and extend supplier terms"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Cut or defer capex",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Defer growth and non-critical capex"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Keep only critical furnace maintenance"
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Sell non-core assets such as property"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Restore EBITDA above ~€115 million (net debt / 4)",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Recover energy costs through prices",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Extend pass-through clauses beyond a third of volume"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Energy surcharges and increases at contract renewal"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Shift mix towards higher-margin spirits bottles and food jars"
+              },
+              {
+                "id": "b3",
+                "label": "Lower energy cost per tonne",
+                "children": [
+                  {
+                    "id": "b3x",
+                    "label": "Gas and power purchasing and hedging"
+                  },
+                  {
+                    "id": "b3y",
+                    "label": "Furnace efficiency: more recycled cullet, heat recovery"
+                  }
+                ]
+              },
+              {
+                "id": "b4",
+                "label": "Lower raw material cost per tonne (soda ash, sand)"
+              },
+              {
+                "id": "b5",
+                "label": "Lower fixed costs",
+                "children": [
+                  {
+                    "id": "b5x",
+                    "label": "Close the least efficient furnace at its next rebuild"
+                  },
+                  {
+                    "id": "b5y",
+                    "label": "Cut plant and central overheads (staffing, hiring freeze, discretionary spend)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Agree funding and terms with owners and lenders",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Covenant reset with banks",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Covenant holiday for four to six quarters"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Fees, higher margin or security banks will demand"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Family equity injection of up to €30 million"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Extending energy pass-through from a third to two-thirds of volume would recover a further €45-50 million of the roughly €140 million rise in energy cost, the largest single lever.",
+        "At about 75% average utilisation, current volume fits into four furnaces running at about 94%, so closing the least efficient one when its rebuild falls due avoids a €25-45 million rebuild and removes its fixed costs."
+      ],
+      "hints": [
+        "Order the structure by time horizon, from what must happen within weeks to what can take a year.",
+        "Use three first-level branches: raise cash internally over the next 12 months, restore EBITDA above about €115 million, and agree funding and terms with owners and lenders.",
+        "Funding and terms break into a covenant reset with banks (a holiday of four to six quarters, and the fees, margin or security they will demand) and the family's equity injection of up to €30 million."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Leverage covenant",
+          "formula": "Net debt / EBITDA (must be below 4x)"
+        },
+        {
+          "name": "Cash runway",
+          "formula": "(Cash + undrawn facilities) / monthly net cash outflow"
+        },
+        {
+          "name": "Energy pass-through ratio",
+          "formula": "Energy cost increase recovered in prices / total energy cost increase"
+        }
+      ],
+      "commonMistakes": [
+        "Jumping to a long-term cost programme and ignoring the nine-month cash runway and the covenant test in two quarters, which set the order of actions.",
+        "Proposing to idle furnaces temporarily to save gas, without knowing that a cooled furnace usually needs a €25-45 million rebuild."
+      ],
+      "frameworkPick": {
+        "options": [
+          "turnaround",
+          "pricing",
+          "profitability",
+          "operations"
+        ],
+        "correct": [
+          "turnaround",
+          "pricing"
+        ],
+        "why": "The company faces a cash and covenant crisis that needs a turnaround structure (liquidity first, then earnings, then funding), and its largest earnings lever is recovering energy costs through prices and contract terms.",
+        "distractorWhyNot": {
+          "profitability": "A profit tree would show where EBITDA went, which is already clear (energy), and would miss the nine-month cash runway and covenant test that set the order of actions.",
+          "operations": "Furnace efficiency and gas purchasing are levers inside the plan, but they cannot close an EBITDA gap of about €75 million before the covenant test in two quarters."
+        }
+      }
+    },
+    {
+      "id": "manufacturing-c12",
+      "title": "Cement maker buying a Central India rival",
+      "industry": "manufacturing",
+      "framework": "ma",
+      "secondary": [
+        "market-entry"
+      ],
+      "difficulty": "Advanced",
+      "region": "India",
+      "prompt": "Our client is a large Indian cement company with 40 million tonnes per annum (MTPA) of capacity, mostly in South and West India. It is considering buying a 10 MTPA regional player in Central India, where it has no plants, for an enterprise value of ₹9,500 crore, or ₹9,500 per tonne of capacity. The target reports EBITDA of ₹1,100 per tonne against the client's ₹900. Should the client buy it?",
+      "clarifyingFacts": [
+        "Q: How much does the target sell, and what is the market like? A: About 8 million tonnes a year (80% utilisation). Central India demand grows about 7% a year, and the top five players hold around 60% of capacity.",
+        "Q: Why is the target's EBITDA per tonne higher? A: About ₹200 per tonne comes from a state SGST-refund incentive on its newest plant, which ends in two years.",
+        "Q: What about limestone? A: Its main plant uses a captive limestone lease that runs to March 2030; after that the block must be auctioned. The client's mining team estimates auction premiums would add about ₹150-250 per tonne of cement.",
+        "Q: What is the alternative? A: A greenfield plant in Central India would cost about ₹7,500 per tonne and take three to four years to build and ramp up."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Should the client buy the Central India player for ₹9,500 crore?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Is Central India an attractive region to enter?",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Demand and supply balance",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Housing, infrastructure and industrial demand (~7% growth)"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Rivals' planned capacity additions"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Pricing power",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Concentration: top five hold ~60% of capacity"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "History of price discipline and realisation per tonne"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Are the target's earnings sustainable?",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Benefits that expire",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "State SGST incentive (~₹200 per tonne, ends in two years)"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Captive limestone lease ends 2030, then auction pricing"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Underlying cost position versus regional peers",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Power and fuel cost per tonne (kiln efficiency, captive power)"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Freight cost per tonne to key markets"
+                  },
+                  {
+                    "id": "b2z",
+                    "label": "Raw material, labour and other plant costs per tonne"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Plant age and maintenance capex needs"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "What is the target worth to the client?",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Synergies",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Procurement scale on coal, petcoke and packing bags"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Brand and dealer reach into adjacent regions"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Price against the alternatives",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "₹9,500 per tonne versus ~₹7,500 per tonne greenfield"
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "Value of entering three to four years sooner"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Can the deal be completed and integrated?",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Approvals: CCI and mining lease conditions"
+              },
+              {
+                "id": "d2",
+                "label": "Integration of people, dealers and plant practices"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Stripping out the expiring ₹200 per tonne incentive brings the target down to the client's ~₹900 per tonne, which raises the price from about 10.8x to about 13.2x EBITDA.",
+        "If auctioned limestone adds the estimated ₹150-250 per tonne after 2030, the long-run multiple rises to about 16-18x unless synergies offset it.",
+        "The premium of about ₹2,000 per tonne over greenfield (about ₹2,000 crore in total) is justified only if entering three to four years earlier lets the client capture Central India growth at today's prices."
+      ],
+      "hints": [
+        "Combine a view of the region with a view of the target, and normalise earnings before judging the price.",
+        "Use four first-level branches: is Central India attractive, are the target's earnings sustainable, what is it worth to the client, and can the deal be completed and integrated?",
+        "Regional attractiveness breaks into the demand and supply balance (about 7% demand growth against rivals' planned capacity) and pricing power (top five at about 60% of capacity, history of price discipline)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "EV / normalised EBITDA",
+          "formula": "₹9,500 crore / (8 million tonnes x normalised EBITDA per tonne)"
+        },
+        {
+          "name": "EV per tonne of capacity",
+          "formula": "Enterprise value / installed capacity (₹9,500 per tonne here)"
+        },
+        {
+          "name": "Premium over greenfield",
+          "formula": "(Price per tonne - greenfield cost per tonne) x capacity"
+        }
+      ],
+      "commonMistakes": [
+        "Taking the ₹1,100 per tonne at face value and concluding the target is better run than the client.",
+        "Comparing the price only with past cement deals and not with building a greenfield plant in the same region."
+      ],
+      "frameworkPick": {
+        "options": [
+          "ma",
+          "market-entry",
+          "pe-dd",
+          "growth"
+        ],
+        "correct": [
+          "ma",
+          "market-entry"
+        ],
+        "why": "This is an acquisition decision (true earnings, synergies, price, integration) that is also the client's entry into a new region, so it needs both lenses.",
+        "distractorWhyNot": {
+          "pe-dd": "Diligence language fits, but a strategic buyer entering a new region weighs synergies and the greenfield alternative, which a financial-returns structure leaves out.",
+          "growth": "Entering Central India is a growth move, but the decision is whether to buy one company at one price."
+        }
+      }
+    }
+  ],
+  "flaws": [
+    {
+      "id": "manufacturing-f01",
+      "title": "Steel-pipe maker's volume growth plan",
+      "industry": "manufacturing",
+      "framework": "growth",
+      "difficulty": "Beginner",
+      "tree": {
+        "id": "r",
+        "label": "How can an Indian steel-pipe maker grow sales volume 30% in three years?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Domestic sales",
+            "children": [
+              {
+                "id": "a1",
+                "label": "More volume in existing domestic segments"
+              },
+              {
+                "id": "a2",
+                "label": "Entry into new domestic segments"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Export sales",
+            "children": [
+              {
+                "id": "b1",
+                "label": "More volume in existing export markets"
+              },
+              {
+                "id": "b2",
+                "label": "Entry into new export markets"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Sales to oil and gas pipeline projects"
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "c",
+          "type": "overlap",
+          "explanation": "Oil and gas pipeline projects are customers in India or abroad, so their volume is already counted under 'Domestic sales' or 'Export sales'. The tree mixes a geographic split with a customer split, so the same tonnes appear twice.",
+          "fix": "Remove the branch. If oil and gas matters, analyse it as a segment inside both domestic and export sales."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "How can an Indian steel-pipe maker grow sales volume 30% in three years?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Domestic sales",
+            "children": [
+              {
+                "id": "a1",
+                "label": "More volume in existing domestic segments"
+              },
+              {
+                "id": "a2",
+                "label": "Entry into new domestic segments"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Export sales",
+            "children": [
+              {
+                "id": "b1",
+                "label": "More volume in existing export markets"
+              },
+              {
+                "id": "b2",
+                "label": "Entry into new export markets"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "manufacturing-f02",
+      "title": "Sizing forklift sales in India",
+      "industry": "manufacturing",
+      "framework": "market-sizing",
+      "difficulty": "Beginner",
+      "tree": {
+        "id": "r",
+        "label": "How many forklifts are sold in India each year?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Forklifts for new sites",
+            "children": [
+              {
+                "id": "a1",
+                "label": "New warehouses and distribution centres"
+              },
+              {
+                "id": "a2",
+                "label": "New factories, ports and other industrial sites"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Forklifts added at existing sites",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Throughput growth at existing warehouses"
+              },
+              {
+                "id": "b2",
+                "label": "Throughput growth at existing factories and other sites"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "r",
+          "type": "gap",
+          "explanation": "Both branches count only forklifts that enlarge the fleet. The tree misses replacement of forklifts that reach the end of their working life (typically 8-10 years), which in a large installed fleet is a major share of annual sales.",
+          "fix": "Add a third branch, 'Replacement of the existing fleet', estimated as installed fleet / average working life."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "How many forklifts are sold in India each year?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Forklifts for new sites",
+            "children": [
+              {
+                "id": "a1",
+                "label": "New warehouses and distribution centres"
+              },
+              {
+                "id": "a2",
+                "label": "New factories, ports and other industrial sites"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Forklifts added at existing sites",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Throughput growth at existing warehouses"
+              },
+              {
+                "id": "b2",
+                "label": "Throughput growth at existing factories and other sites"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Replacement of the existing fleet",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Installed fleet of forklifts"
+              },
+              {
+                "id": "c2",
+                "label": "Average working life (~8-10 years)"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "manufacturing-f03",
+      "title": "Falling on-time delivery at a machining plant",
+      "industry": "manufacturing",
+      "framework": "operations",
+      "difficulty": "Intermediate",
+      "tree": {
+        "id": "r",
+        "label": "Why has on-time-in-full delivery fallen from 92% to 78% at a precision-machining plant?",
+        "children": [
+          {
+            "id": "a",
+            "label": "The plan is unrealistic or unstable",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Delivery dates promised without checking capacity"
+              },
+              {
+                "id": "a2",
+                "label": "Production plan changed often at short notice"
+              },
+              {
+                "id": "a3",
+                "label": "Orders accepted beyond available machine hours"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Production does not deliver the plan",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Machine downtime on CNC lines"
+              },
+              {
+                "id": "b2",
+                "label": "Late or short material from suppliers"
+              },
+              {
+                "id": "b3",
+                "label": "Quality rejections forcing re-machining"
+              },
+              {
+                "id": "b4",
+                "label": "Operator shortages and absenteeism"
+              },
+              {
+                "id": "b5",
+                "label": "Cutting-tool breakages"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Finished parts are not shipped on time",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Packing and dispatch documentation delays"
+              },
+              {
+                "id": "c2",
+                "label": "Transporter not available when needed"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "b5",
+          "type": "mixed-levels",
+          "explanation": "Cutting-tool breakage is one cause of CNC machine downtime, so it belongs one level below 'Machine downtime on CNC lines', not beside it. As a sibling it puts a specific cause next to broad categories.",
+          "fix": "Move it under 'Machine downtime on CNC lines' as a sub-cause, alongside breakdowns and changeovers."
+        },
+        {
+          "nodeId": "a3",
+          "type": "overlap",
+          "explanation": "Accepting orders beyond available machine hours is the same failure as promising dates without checking capacity: in both, the plan is loaded beyond what the plant can make. It is counted twice under different wording.",
+          "fix": "Remove it; capacity-blind order acceptance is covered by 'Delivery dates promised without checking capacity'."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Why has on-time-in-full delivery fallen from 92% to 78% at a precision-machining plant?",
+        "children": [
+          {
+            "id": "a",
+            "label": "The plan is unrealistic or unstable",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Delivery dates promised without checking capacity"
+              },
+              {
+                "id": "a2",
+                "label": "Production plan changed often at short notice"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Production does not deliver the plan",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Machine downtime on CNC lines",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Machine breakdowns"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Tool breakages"
+                  },
+                  {
+                    "id": "b1z",
+                    "label": "Changeovers and set-ups"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Late or short material from suppliers"
+              },
+              {
+                "id": "b3",
+                "label": "Quality rejections forcing re-machining"
+              },
+              {
+                "id": "b4",
+                "label": "Operator shortages and absenteeism"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Finished parts are not shipped on time",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Packing and dispatch documentation delays"
+              },
+              {
+                "id": "c2",
+                "label": "Transporter not available when needed"
+              }
+            ]
+          }
+        ]
+      },
+      "decoys": [
+        {
+          "nodeId": "a2",
+          "whyFine": "A plan can be feasible yet changed too often; instability is a different failure from overloading, so it does not overlap a1."
+        },
+        {
+          "nodeId": "c2",
+          "whyFine": "OTIF is measured at the customer, so a late truck fails the delivery even when production was on time."
+        }
+      ]
+    },
+    {
+      "id": "manufacturing-f04",
+      "title": "Transformer maker entering the Gulf",
+      "industry": "manufacturing",
+      "framework": "market-entry",
+      "difficulty": "Intermediate",
+      "tree": {
+        "id": "r",
+        "label": "Should an Indian transformer maker enter the GCC market for distribution transformers?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Is the market attractive?",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Market size and growth",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Utility grid expansion and replacement"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Private projects: real estate, industrial, renewables"
+                  },
+                  {
+                    "id": "a1z",
+                    "label": "Units bought through utility distribution tenders"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Competition",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Local manufacturers with utility approvals"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "European and Chinese importers' prices"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Can the client win?",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Landed cost against competitors",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Ex-works cost"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Freight and import duty to the GCC"
+                  },
+                  {
+                    "id": "b1z",
+                    "label": "Indian GST on the transformers"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Access to customers",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Utility vendor registration and type-test certificates"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Relationships with EPC contractors"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Are the economics attractive?",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Investment: office, stock, certification"
+              },
+              {
+                "id": "c2",
+                "label": "Margins and payback"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "a1z",
+          "type": "overlap",
+          "explanation": "Utilities buy their grid expansion and replacement transformers through distribution tenders, so this node counts the same utility demand again, by purchase route instead of by purpose.",
+          "fix": "Remove it; analyse tenders as the route by which 'Utility grid expansion and replacement' demand is bought."
+        },
+        {
+          "nodeId": "b1z",
+          "type": "not-a-driver",
+          "explanation": "Exports from India are zero-rated under GST, so Indian GST does not enter the landed price a GCC buyer pays and cannot affect whether the client wins on cost.",
+          "fix": "Remove it; landed cost is ex-works cost plus freight and GCC import duty."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Should an Indian transformer maker enter the GCC market for distribution transformers?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Is the market attractive?",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Market size and growth",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Utility grid expansion and replacement"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Private projects: real estate, industrial, renewables"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Competition",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Local manufacturers with utility approvals"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "European and Chinese importers' prices"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Can the client win?",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Landed cost against competitors",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Ex-works cost"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Freight and import duty to the GCC"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Access to customers",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Utility vendor registration and type-test certificates"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Relationships with EPC contractors"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Are the economics attractive?",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Investment: office, stock, certification"
+              },
+              {
+                "id": "c2",
+                "label": "Margins and payback"
+              }
+            ]
+          }
+        ]
+      },
+      "decoys": [
+        {
+          "nodeId": "a2y",
+          "whyFine": "Rivals' prices describe how hard the market is, which is attractiveness; the client's own landed cost is compared with them under ability to win."
+        },
+        {
+          "nodeId": "b2y",
+          "whyFine": "EPC contractors buy for private and turnkey projects, a different route to customers from utility vendor registration, so b2x and b2y do not overlap."
+        }
+      ]
+    },
+    {
+      "id": "manufacturing-f05",
+      "title": "Pricing an aftermarket bearing range",
+      "industry": "manufacturing",
+      "framework": "pricing",
+      "difficulty": "Intermediate",
+      "tree": {
+        "id": "r",
+        "label": "What price should an Indian bearing maker set for its new aftermarket range?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Value to the end customer",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Bearing life: replacements needed per year"
+              },
+              {
+                "id": "a2",
+                "label": "Cost of each failure: downtime and repair"
+              },
+              {
+                "id": "a3",
+                "label": "Confidence the part is genuine, not counterfeit"
+              },
+              {
+                "id": "a4",
+                "label": "Value of output forgone while the machine is stopped"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Competitor prices",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Premium international brands"
+              },
+              {
+                "id": "b2",
+                "label": "Local brands, low-cost imports and counterfeits"
+              },
+              {
+                "id": "b3",
+                "label": "Discounts offered by premium brands' distributors"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Our costs",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Manufacturing cost per bearing"
+              },
+              {
+                "id": "c2",
+                "label": "Distributor and retailer margins"
+              },
+              {
+                "id": "c3",
+                "label": "Packaging, freight and marketing per bearing"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "a4",
+          "type": "overlap",
+          "explanation": "Output forgone while a machine is stopped is the downtime cost already inside 'Cost of each failure'. The same value is counted twice under different wording, which would overstate what the customer will pay.",
+          "fix": "Remove it; the cost of each failure already covers downtime and repair."
+        },
+        {
+          "nodeId": "b3",
+          "type": "mixed-levels",
+          "explanation": "Distributor discounts are part of what premium brands actually charge, so they sit inside 'Premium international brands' as the step from list to net price, a level below the competitor groups.",
+          "fix": "Remove it as a branch and compare net prices after discounts within each competitor group."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "What price should an Indian bearing maker set for its new aftermarket range?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Value to the end customer",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Bearing life: replacements needed per year"
+              },
+              {
+                "id": "a2",
+                "label": "Cost of each failure: downtime and repair"
+              },
+              {
+                "id": "a3",
+                "label": "Confidence the part is genuine, not counterfeit"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Competitor prices",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Premium international brands (net of dealer discounts)"
+              },
+              {
+                "id": "b2",
+                "label": "Local brands, low-cost imports and counterfeits"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Our costs",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Manufacturing cost per bearing"
+              },
+              {
+                "id": "c2",
+                "label": "Distributor and retailer margins"
+              },
+              {
+                "id": "c3",
+                "label": "Packaging, freight and marketing per bearing"
+              }
+            ]
+          }
+        ]
+      },
+      "decoys": [
+        {
+          "nodeId": "c2",
+          "whyFine": "Channel margins are not a factory cost, but the client must cover them to turn its target net realisation into a shelf price, so they belong in the price floor."
+        },
+        {
+          "nodeId": "a3",
+          "whyFine": "Counterfeits are common in the Indian bearing aftermarket, so assurance that a part is genuine is real value that buyers pay for."
+        }
+      ]
+    },
+    {
+      "id": "manufacturing-f06",
+      "title": "Solar module maker's EBITDA slump",
+      "industry": "manufacturing",
+      "framework": "profitability",
+      "difficulty": "Advanced",
+      "tree": {
+        "id": "r",
+        "label": "Why has EBITDA fallen at an Indian solar module manufacturer?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Revenue",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Volume shipped (MW)",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Domestic utility-scale and rooftop orders"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Export orders"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Realised price per watt",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Like-for-like module price trend"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Mix between older and newer cell technologies"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Variable cost per watt",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Bill of materials",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Solar cells"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Other materials: glass, frames, encapsulants, junction boxes"
+                  },
+                  {
+                    "id": "b1z",
+                    "label": "Inputs priced in US dollars"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Conversion cost",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Line power and consumables"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Yield losses: broken cells and rejected modules"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Freight and warranty cost per watt"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Fixed costs",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Depreciation on the new production line"
+              },
+              {
+                "id": "c2",
+                "label": "Salaries and plant overheads"
+              },
+              {
+                "id": "c3",
+                "label": "Sales and administration"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "b1z",
+          "type": "overlap",
+          "explanation": "Imported cells and some glass and aluminium are priced in dollars, so this node re-counts parts of 'Solar cells' and 'Other materials' on a different axis (currency rather than component). The exchange rate drives each component's price; it is not a separate cost.",
+          "fix": "Remove it and analyse the rupee-dollar effect as a driver inside cell and other material prices."
+        },
+        {
+          "nodeId": "c1",
+          "type": "not-a-driver",
+          "explanation": "EBITDA is earnings before depreciation, so depreciation on the new line cannot explain an EBITDA fall, however large it is. It matters for EBIT and net profit, not for this question.",
+          "fix": "Remove it; the new line's cash running costs (staff, maintenance) are already under 'Salaries and plant overheads'."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Why has EBITDA fallen at an Indian solar module manufacturer?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Revenue",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Volume shipped (MW)",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Domestic utility-scale and rooftop orders"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Export orders"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Realised price per watt",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Like-for-like module price trend"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Mix between older and newer cell technologies"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Variable cost per watt",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Bill of materials",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Solar cells"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Other materials: glass, frames, encapsulants, junction boxes"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Conversion cost",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Line power and consumables"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Yield losses: broken cells and rejected modules"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Freight and warranty cost per watt"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Fixed costs",
+            "children": [
+              {
+                "id": "c2",
+                "label": "Salaries and plant overheads"
+              },
+              {
+                "id": "c3",
+                "label": "Sales and administration"
+              }
+            ]
+          }
+        ]
+      },
+      "decoys": [
+        {
+          "nodeId": "a2y",
+          "whyFine": "Newer cell technologies sell at a different price per watt, so technology mix is a driver of realised price, not of volume."
+        },
+        {
+          "nodeId": "b3",
+          "whyFine": "Warranty provisions are booked per watt sold, so they behave as a variable cost even though claims arrive years later."
+        }
+      ]
+    },
+    {
+      "id": "manufacturing-f07",
+      "title": "Elevator maker's margin gap",
+      "industry": "manufacturing",
+      "framework": "profitability",
+      "difficulty": "Advanced",
+      "tree": {
+        "id": "r",
+        "label": "Why are an Indian elevator maker's margins about half those of global peers?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Revenue mix and pricing",
+            "children": [
+              {
+                "id": "a1",
+                "label": "New equipment sales",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Units installed by segment (housing, commercial, metro)"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Price per unit by segment"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Modernisation of old lifts",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Number of modernisation projects"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Price per project"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Costs",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Equipment and parts cost",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Bought-out components: motors, controllers, ropes"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "In-house fabrication: cabins, doors, guide rails"
+                  },
+                  {
+                    "id": "b1z",
+                    "label": "Steel price for door panels"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Field labour cost",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Installer and technician hours, including site delays"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Cost per hour (own staff or subcontracted)"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Overheads",
+                "children": [
+                  {
+                    "id": "b3x",
+                    "label": "Sales and tendering"
+                  },
+                  {
+                    "id": "b3y",
+                    "label": "Corporate functions and R&D"
+                  },
+                  {
+                    "id": "b3z",
+                    "label": "Cost of idle crews waiting for site readiness"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "a",
+          "type": "gap",
+          "explanation": "The revenue branch has no maintenance and service contracts. In elevators, new units are often sold at thin margins and most profit comes from servicing the installed base, so a weak or missing service book is a prime suspect for a margin gap against global peers.",
+          "fix": "Add 'Service: maintenance contracts and repairs', split into units under contract (installed base x retention rate) and price per contract plus billable repairs."
+        },
+        {
+          "nodeId": "b1z",
+          "type": "mixed-levels",
+          "explanation": "Steel for door panels is one input to in-house fabrication, so it sits a level below 'In-house fabrication: cabins, doors, guide rails', not beside it; as a sibling it also counts part of fabrication cost twice.",
+          "fix": "Move it under in-house fabrication as a driver of fabrication cost."
+        },
+        {
+          "nodeId": "b3z",
+          "type": "overlap",
+          "explanation": "Crews waiting for a site to be ready are the 'site delays' already counted in installer and technician hours, so the same hours appear again as an overhead.",
+          "fix": "Remove it; idle crew time is analysed inside installer and technician hours under field labour."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Why are an Indian elevator maker's margins about half those of global peers?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Revenue mix and pricing",
+            "children": [
+              {
+                "id": "a1",
+                "label": "New equipment sales",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Units installed by segment (housing, commercial, metro)"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Price per unit by segment"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Modernisation of old lifts",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Number of modernisation projects"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Price per project"
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Service: maintenance contracts and repairs",
+                "children": [
+                  {
+                    "id": "a3x",
+                    "label": "Units under contract (installed base x retention)"
+                  },
+                  {
+                    "id": "a3y",
+                    "label": "Price per contract and billable repairs"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Costs",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Equipment and parts cost",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Bought-out components: motors, controllers, ropes"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "In-house fabrication of cabins, doors, rails (steel, labour)"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Field labour cost",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Installer and technician hours, including site delays"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Cost per hour (own staff or subcontracted)"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Overheads",
+                "children": [
+                  {
+                    "id": "b3x",
+                    "label": "Sales and tendering"
+                  },
+                  {
+                    "id": "b3y",
+                    "label": "Corporate functions and R&D"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "decoys": [
+        {
+          "nodeId": "a2",
+          "whyFine": "Modernisation is one-off project revenue for replacing machines and controllers on old lifts, distinct from recurring maintenance income."
+        },
+        {
+          "nodeId": "b2y",
+          "whyFine": "Subcontracting changes the rate paid per hour, not the hours worked, so b2y is the price side of field labour and does not overlap b2x."
+        }
+      ]
+    }
+  ],
+  "quick": [
+    {
+      "id": "manufacturing-q01",
+      "industry": "manufacturing",
+      "difficulty": "Beginner",
+      "question": "Which split of 'Cost of producing one tonne of cement at the plant (ex-works)' is MECE?",
+      "parent": "Cost of producing one tonne of cement at the plant (ex-works)",
+      "options": [
+        {
+          "split": [
+            "Raw materials and packing bags",
+            "Power and fuel",
+            "Plant employees",
+            "Stores, repairs and other overheads"
+          ],
+          "correct": true,
+          "why": "Covers every ex-works cost once: inputs and bags, energy for the kiln and mills, people, and plant upkeep and overheads."
+        },
+        {
+          "split": [
+            "Raw materials and packing bags",
+            "Power and fuel",
+            "Plant employees and overheads",
+            "Captive power plant operating cost"
+          ],
+          "correct": false,
+          "why": "Overlap: a captive power plant is the cement plant's own source of electricity, so its running cost is already inside 'Power and fuel'."
+        },
+        {
+          "split": [
+            "Raw materials and packing bags",
+            "Kiln fuel (coal, petcoke)",
+            "Plant employees",
+            "Stores, repairs and other overheads"
+          ],
+          "correct": false,
+          "why": "Gap: kiln fuel is covered but electricity is not, and grinding mills, crushers and kiln fans make power a large share of cement cost."
+        },
+        {
+          "split": [
+            "Raw materials and packing bags",
+            "Power and fuel",
+            "Plant employees and overheads",
+            "Freight from plant to dealers"
+          ],
+          "correct": false,
+          "why": "Not a driver: outbound freight is incurred after the cement leaves the plant, so it is not part of ex-works cost, however large it is for cement."
+        }
+      ]
+    },
+    {
+      "id": "manufacturing-q02",
+      "industry": "manufacturing",
+      "difficulty": "Beginner",
+      "question": "Which split of 'Revenue of an industrial pump manufacturer' is MECE?",
+      "parent": "Revenue of an industrial pump manufacturer",
+      "options": [
+        {
+          "split": [
+            "New pump sales",
+            "Aftermarket: parts and service",
+            "Annual maintenance contracts",
+            "Other (scrap sales, training)"
+          ],
+          "correct": false,
+          "why": "Mixed levels: annual maintenance contracts are part of aftermarket service, so they sit a level below 'Aftermarket' and are counted twice."
+        },
+        {
+          "split": [
+            "Domestic sales",
+            "Export sales",
+            "Aftermarket revenue"
+          ],
+          "correct": false,
+          "why": "Overlap: the split mixes geography with revenue type, so spares and service sold in India fall into both 'Domestic sales' and 'Aftermarket revenue'."
+        },
+        {
+          "split": [
+            "New pumps",
+            "Spare parts",
+            "Service: contracts and repairs",
+            "Other (scrap sales, training)"
+          ],
+          "correct": true,
+          "why": "Each rupee falls in exactly one bucket: new equipment, parts, service whether under contract or billed per job, or a small residual."
+        },
+        {
+          "split": [
+            "New pump sales",
+            "Spare parts",
+            "Service: contracts and repairs",
+            "Order book carried into next year"
+          ],
+          "correct": false,
+          "why": "Not a driver: the order book is revenue not yet earned, so it is not part of this year's revenue."
+        }
+      ]
+    },
+    {
+      "id": "manufacturing-q03",
+      "industry": "manufacturing",
+      "difficulty": "Beginner",
+      "question": "Which split of 'Losses that stop a machine making good parts during a scheduled shift' is MECE?",
+      "parent": "Losses that stop a machine making good parts during a scheduled shift",
+      "options": [
+        {
+          "split": [
+            "Breakdowns and changeovers",
+            "Minor stops and slow running",
+            "Scrapped parts"
+          ],
+          "correct": false,
+          "why": "Gap: parts that are reworked are not good first time and count as a quality loss, but they are neither scrapped nor a stoppage."
+        },
+        {
+          "split": [
+            "Stoppages (breakdowns, changeovers)",
+            "Speed losses (minor stops, slow running)",
+            "Quality losses (scrap, rework)"
+          ],
+          "correct": true,
+          "why": "These are the three OEE loss types: the machine is stopped, running below rated speed, or making parts that are not good first time. Every loss in a scheduled shift is one of them."
+        },
+        {
+          "split": [
+            "Availability losses",
+            "Performance losses",
+            "Quality losses",
+            "Start-up rejects after changeovers"
+          ],
+          "correct": false,
+          "why": "Mixed levels: start-up rejects are one kind of quality loss, so they sit a level below 'Quality losses', not beside it."
+        },
+        {
+          "split": [
+            "Availability losses",
+            "Performance losses",
+            "Quality losses",
+            "Shifts not scheduled for lack of orders"
+          ],
+          "correct": false,
+          "why": "Not a driver: an unscheduled shift is outside the scheduled time the parent asks about, so it is a capacity-planning question, not an OEE loss."
+        }
+      ]
+    },
+    {
+      "id": "manufacturing-q04",
+      "industry": "manufacturing",
+      "difficulty": "Intermediate",
+      "question": "Which split of 'Inventory held by a discrete manufacturer' is MECE?",
+      "parent": "Inventory held by a discrete manufacturer",
+      "options": [
+        {
+          "split": [
+            "Raw materials and components",
+            "Work in progress",
+            "Finished goods",
+            "Stores and spares",
+            "Goods in transit"
+          ],
+          "correct": false,
+          "why": "Overlap: goods in transit are raw materials on their way in or finished goods on their way out, so they are already in those buckets."
+        },
+        {
+          "split": [
+            "Raw materials and components",
+            "Work in progress",
+            "Finished goods"
+          ],
+          "correct": false,
+          "why": "Gap: misses stores and maintenance spares, which in heavy engineering plants can be a sizeable share of inventory and are not production materials."
+        },
+        {
+          "split": [
+            "Raw materials and components",
+            "Work in progress",
+            "Finished goods",
+            "Stores and spares",
+            "Slow-moving and obsolete stock"
+          ],
+          "correct": false,
+          "why": "Overlap: 'slow-moving' is a status, not a stage, so it cuts across the other four and counts the same stock twice."
+        },
+        {
+          "split": [
+            "Raw materials and components",
+            "Work in progress",
+            "Finished goods",
+            "Stores and spares"
+          ],
+          "correct": true,
+          "why": "Splits stock by stage in the flow (before, during and after production) plus the stores that keep the plant running, with no item in two places."
+        }
+      ]
+    },
+    {
+      "id": "manufacturing-q05",
+      "industry": "manufacturing",
+      "difficulty": "Intermediate",
+      "question": "Which split of 'Outbound freight cost of a cement maker' is MECE?",
+      "parent": "Outbound freight cost of a cement maker",
+      "options": [
+        {
+          "split": [
+            "Rail freight",
+            "Road freight",
+            "Freight to bulk customers"
+          ],
+          "correct": false,
+          "why": "Overlap: bulk customers are served by rail or road, so their freight is already counted under those modes."
+        },
+        {
+          "split": [
+            "Freight from plant to depots",
+            "Freight from depots to dealers"
+          ],
+          "correct": false,
+          "why": "Gap: misses cement dispatched direct from the plant to dealers and large customers, a large share of volume."
+        },
+        {
+          "split": [
+            "Rail freight",
+            "Road freight",
+            "Sea and inland waterway freight"
+          ],
+          "correct": true,
+          "why": "Splits freight by transport mode; every tonne leaves by road, rail or water, so the three are exhaustive and do not overlap."
+        },
+        {
+          "split": [
+            "Rail freight",
+            "Road freight",
+            "Sea and inland waterway freight",
+            "Freight on coal and limestone into the plant"
+          ],
+          "correct": false,
+          "why": "Not a driver: freight on inputs coming into the plant is inbound cost, not outbound freight on cement sold."
+        }
+      ]
+    },
+    {
+      "id": "manufacturing-q06",
+      "industry": "manufacturing",
+      "difficulty": "Intermediate",
+      "question": "Which split of 'Annual unit sales of an Indian bearing manufacturer' is MECE?",
+      "parent": "Annual unit sales of an Indian bearing manufacturer",
+      "options": [
+        {
+          "split": [
+            "Fitment in new equipment (OEM)",
+            "Replacement in equipment already in use"
+          ],
+          "correct": true,
+          "why": "Every bearing sold goes either into a new machine or vehicle, or replaces one already in use, whoever buys it and wherever it is sold."
+        },
+        {
+          "split": [
+            "OEM sales",
+            "Replacement sales",
+            "Export sales"
+          ],
+          "correct": false,
+          "why": "Overlap: the split mixes end use with geography, so exported bearings are also OEM or replacement sales and are counted twice."
+        },
+        {
+          "split": [
+            "Sales to vehicle and machine makers (OEM)",
+            "Sales through the replacement dealer network"
+          ],
+          "correct": false,
+          "why": "Gap: replacement bearings sold directly to large users such as steel plants and Indian Railways under rate contracts bypass dealers, so they fall in neither branch."
+        },
+        {
+          "split": [
+            "OEM sales",
+            "Replacement sales",
+            "Sales to OEMs' spare-parts divisions"
+          ],
+          "correct": false,
+          "why": "Overlap: bearings sold to an OEM's spares division are resold as replacement parts, so they are already counted as replacement (or OEM) sales."
+        }
+      ]
+    },
+    {
+      "id": "manufacturing-q07",
+      "industry": "manufacturing",
+      "difficulty": "Advanced",
+      "question": "Which split of 'Year-on-year change in a manufacturer's gross margin (%)' is MECE?",
+      "parent": "Year-on-year change in a manufacturer's gross margin (%)",
+      "options": [
+        {
+          "split": [
+            "Price per unit",
+            "Variable cost per unit",
+            "Product and customer mix"
+          ],
+          "correct": false,
+          "why": "Gap: misses fixed manufacturing cost absorption; when volume falls, plant fixed costs inside cost of goods sold are spread over fewer units and gross margin drops."
+        },
+        {
+          "split": [
+            "Price per unit",
+            "Variable cost per unit",
+            "Fixed cost absorbed per unit",
+            "Product and customer mix",
+            "Discounts and rebates"
+          ],
+          "correct": false,
+          "why": "Overlap: discounts and rebates are part of the realised price per unit, so they are counted twice."
+        },
+        {
+          "split": [
+            "Price per unit",
+            "Variable cost per unit",
+            "Fixed cost absorbed per unit",
+            "Product and customer mix",
+            "Selling and admin costs"
+          ],
+          "correct": false,
+          "why": "Not a driver: selling and admin costs sit below gross margin, so they cannot change it."
+        },
+        {
+          "split": [
+            "Like-for-like price",
+            "Variable cost per unit",
+            "Fixed cost absorbed per unit",
+            "Product and customer mix"
+          ],
+          "correct": true,
+          "why": "Covers everything that moves gross margin percentage: price, variable cost, how fixed plant cost is spread across volume, and mix, with no double counting."
+        }
+      ]
+    },
+    {
+      "id": "manufacturing-q08",
+      "industry": "manufacturing",
+      "difficulty": "Advanced",
+      "question": "Which split of 'Net working capital of an engineer-to-order capital goods maker' is MECE?",
+      "parent": "Net working capital of an engineer-to-order capital goods maker",
+      "options": [
+        {
+          "split": [
+            "Inventory",
+            "Receivables: billed, unbilled and retention money",
+            "Less: supplier payables"
+          ],
+          "correct": false,
+          "why": "Gap: misses customer advances, which in capital goods often fund a large part of work in progress."
+        },
+        {
+          "split": [
+            "Inventory",
+            "Receivables: billed, unbilled and retention money",
+            "Less: supplier payables",
+            "Less: customer advances"
+          ],
+          "correct": true,
+          "why": "Captures the main working-capital items of a project business once: stock and receivables (including revenue earned but not yet billed, and retentions held back by customers), net of what suppliers and customers fund."
+        },
+        {
+          "split": [
+            "Inventory",
+            "Receivables: billed and unbilled",
+            "Retention money held by customers",
+            "Less: supplier payables",
+            "Less: customer advances"
+          ],
+          "correct": false,
+          "why": "Overlap: retention money is billed but withheld, so it is already inside billed receivables and is counted twice."
+        },
+        {
+          "split": [
+            "Inventory",
+            "Receivables: billed, unbilled and retention money",
+            "Less: supplier payables",
+            "Less: customer advances",
+            "Bank guarantees given to customers"
+          ],
+          "correct": false,
+          "why": "Not a driver: guarantees are contingent liabilities, not working-capital balances; any cash margin behind them sits in cash."
+        }
+      ]
+    }
+  ],
+  "chainDrills": [
+    {
+      "id": "manufacturing-v01",
+      "industry": "manufacturing",
+      "difficulty": "Beginner",
+      "type": "order",
+      "prompt": "Put the stages of an industrial equipment maker's value chain in order, from the first activity to the last.",
+      "options": [
+        "s4",
+        "s1",
+        "s6",
+        "s3",
+        "s5",
+        "s2"
+      ],
+      "answer": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6"
+      ],
+      "why": "Design fixes the specification, which tells procurement what to buy; plants convert those inputs into products; logistics moves finished goods to warehouses and dealers; sales and channel partners sell them to end customers; and aftermarket service earns from the installed base for years afterwards. This is the standard primary-activity sequence (inbound, operations, outbound logistics, sales, service)."
+    },
+    {
+      "id": "manufacturing-v02",
+      "industry": "manufacturing",
+      "difficulty": "Beginner",
+      "type": "locate",
+      "prompt": "Dealers say they are losing orders because customers wait three weeks for popular models, yet the plant holds ample finished stock of those models. Regional sales forecasts were accurate, but stock is shipped to regional warehouses only once a month. Where does the problem originate?",
+      "options": [
+        "s3",
+        "s4",
+        "s5",
+        "s6"
+      ],
+      "answer": [
+        "s4"
+      ],
+      "why": "The lost orders show up in sales, but production made the units and the forecasts were right; the stock is in the wrong place. Replenishing and positioning finished stock across regional warehouses is outbound logistics and warehousing."
+    },
+    {
+      "id": "manufacturing-v03",
+      "industry": "manufacturing",
+      "difficulty": "Intermediate",
+      "type": "locate",
+      "prompt": "Steel prices fell 15%, and customer prices, which are indexed to steel, fell as agreed. Gross margin still dropped 2 points, because the company had signed a six-month fixed-price steel contract at the peak. Where in the chain does the problem originate?",
+      "options": [
+        "s1",
+        "s2",
+        "s3",
+        "s5"
+      ],
+      "answer": [
+        "s2"
+      ],
+      "why": "Selling prices behaved exactly as the contracts intended and the plant used steel normally. The loss comes from how steel was bought: a fixed-price contract locked in peak prices while selling prices floated with the market, a mismatch created in procurement."
+    },
+    {
+      "id": "manufacturing-v04",
+      "industry": "manufacturing",
+      "difficulty": "Intermediate",
+      "type": "assign",
+      "prompt": "Assign each item to the stage where it is incurred or earned.",
+      "items": [
+        {
+          "item": "Royalty paid per unit for a licensed gearbox design",
+          "stage": "s1"
+        },
+        {
+          "item": "Import duty on bought-out electronic controllers",
+          "stage": "s2"
+        },
+        {
+          "item": "Scrap from the machining line",
+          "stage": "s3"
+        },
+        {
+          "item": "Freight from the plant to a regional warehouse",
+          "stage": "s4"
+        },
+        {
+          "item": "Dealer margin on each unit sold",
+          "stage": "s5"
+        },
+        {
+          "item": "Revenue from spare parts sold to existing customers",
+          "stage": "s6"
+        }
+      ],
+      "why": "The royalty pays for design rights, so it sits in design and engineering even though it is paid per unit made. Import duty is part of what inputs cost to buy, so it belongs to procurement, not logistics. Freight to a warehouse is outbound logistics, while the dealer's margin is the cost of selling through the channel."
+    },
+    {
+      "id": "manufacturing-v05",
+      "industry": "manufacturing",
+      "difficulty": "Advanced",
+      "type": "locate",
+      "prompt": "Assembly-line scrap rose from 2% to 6% after the plant installed a high-speed automated fixture. The parts meet their drawings, and suppliers have not changed. The drawings allow a tolerance that suited manual assembly but is too loose for the new fixture. Where is the root cause?",
+      "options": [
+        "s1",
+        "s2",
+        "s3",
+        "s6"
+      ],
+      "answer": [
+        "s1"
+      ],
+      "why": "The scrap appears in production, but parts and suppliers are within specification; the specification itself is the problem. Tolerances are set in design and engineering, so the fix is to re-specify the part for automated assembly."
+    },
+    {
+      "id": "manufacturing-v06",
+      "industry": "manufacturing",
+      "difficulty": "Advanced",
+      "type": "locate",
+      "prompt": "In a downturn, a construction-equipment maker's new-machine sales fell 15%, yet EBITDA was almost unchanged. Purchase prices were flat, plant costs fell only slightly and dealer terms did not change. The company has added about 8,000 machines a year to the field for a decade. Which stage most likely explains the resilience?",
+      "options": [
+        "s2",
+        "s3",
+        "s5",
+        "s6"
+      ],
+      "answer": [
+        "s6"
+      ],
+      "why": "A decade of sales has built a large installed base that keeps needing spares and service whatever happens to new orders. That revenue carries much higher margins than new machines, so it cushions EBITDA when equipment sales fall."
+    }
+  ]
+}

@@ -1,0 +1,4176 @@
+{
+ "industry": "ecommerce",
+ "valueChain": {
+  "summary": "E-commerce makes money either by selling products at a gross margin (brands and inventory-led retailers) or by charging a take rate on other people's sales (marketplaces), and then spending much of that margin to acquire customers, deliver orders and handle returns. Profit depends on contribution per order after marketing, shipping and returns, and on how many orders a customer places before they stop buying.",
+  "stages": [
+   {
+    "id": "s1",
+    "name": "Product & sourcing",
+    "activities": [
+     "Product development and formulation",
+     "Contract manufacturing or sourcing from suppliers",
+     "Quality testing and labelling compliance (BIS, FSSAI, Legal Metrology)",
+     "Inbound freight to the warehouse"
+    ],
+    "players": [
+     "D2C brands",
+     "Contract manufacturers",
+     "Marketplace sellers and distributors",
+     "Importers"
+    ],
+    "revenueDrivers": [
+     "Gross margin set by product cost against selling price",
+     "Range breadth and new launches"
+    ],
+    "costDrivers": [
+     "Raw material, component and packaging prices",
+     "Minimum order quantities and batch sizes",
+     "Import duties and inbound freight"
+    ],
+    "kpis": [
+     {
+      "name": "Gross margin",
+      "formula": "(net revenue - cost of goods) / net revenue",
+      "benchmark": "Approx. 55-70% for D2C beauty and personal care, 40-55% for D2C apparel, 10-20% for electronics resellers"
+     }
+    ],
+    "marginNote": "Brands earn high gross margins (often 50%+) but hand most of it to later stages; contract manufacturers earn approx. 8-15% EBITDA."
+   },
+   {
+    "id": "s2",
+    "name": "Demand generation",
+    "activities": [
+     "Performance marketing on social and search",
+     "Influencer and affiliate marketing",
+     "Brand campaigns",
+     "Retargeting of site visitors"
+    ],
+    "players": [
+     "Ad platforms (social, search)",
+     "Influencers and creator agencies",
+     "Affiliate networks",
+     "Performance marketing agencies"
+    ],
+    "revenueDrivers": [
+     "Volume and quality (purchase intent) of traffic sent to the storefront"
+    ],
+    "costDrivers": [
+     "Cost per click or impression, which rises in festive season",
+     "Creative production",
+     "Influencer fees"
+    ],
+    "kpis": [
+     {
+      "name": "Customer acquisition cost (CAC)",
+      "formula": "marketing spend / new customers acquired",
+      "benchmark": "Approx. ₹300-1,000 for Indian D2C brands, depending on category and price point"
+     },
+     {
+      "name": "Return on ad spend (ROAS)",
+      "formula": "revenue attributed to ads / ad spend",
+      "benchmark": "Approx. 2.5-4x is a common D2C target on first purchase"
+     }
+    ],
+    "marginNote": "Ad platforms earn very high margins; for a young D2C brand marketing is usually the largest cost after product (approx. 20-35% of revenue)."
+   },
+   {
+    "id": "s3",
+    "name": "Storefront & conversion",
+    "activities": [
+     "Marketplace listings or own website and app",
+     "Pricing, discounts and sale events",
+     "Catalogue content and reviews",
+     "Checkout and prepaid payments (UPI, cards, wallets, pay later)"
+    ],
+    "players": [
+     "Horizontal and vertical marketplaces",
+     "Quick commerce apps",
+     "Website and app platforms",
+     "Payment gateways"
+    ],
+    "revenueDrivers": [
+     "Conversion rate",
+     "Average order value",
+     "Marketplace take rate (commission, fees, advertising)"
+    ],
+    "costDrivers": [
+     "Marketplace commission and fees (approx. 15-35% of selling price including fees)",
+     "Payment gateway fees (approx. 1.5-2% on cards; UPI has no merchant discount rate on payments up to ₹2,000 and about 0.4% above that from 15 October 2026, and some gateways add platform fees)",
+     "Discounts funded by the brand"
+    ],
+    "kpis": [
+     {
+      "name": "Conversion rate",
+      "formula": "orders / sessions",
+      "benchmark": "Approx. 1.5-3% for Indian D2C websites"
+     },
+     {
+      "name": "Take rate",
+      "formula": "platform revenue / GMV",
+      "benchmark": "Approx. 15-30% for large Indian marketplaces including fees and ads"
+     }
+    ],
+    "marginNote": "Scaled marketplaces with strong advertising income capture the largest profit pool; brand websites avoid commission but must pay for all their traffic."
+   },
+   {
+    "id": "s4",
+    "name": "Warehousing & fulfilment",
+    "activities": [
+     "Inbound receiving and storage",
+     "Inventory planning and replenishment",
+     "Picking and packing",
+     "Packaging"
+    ],
+    "players": [
+     "Brand-run warehouses",
+     "Marketplace fulfilment centres",
+     "Third-party (3PL) warehousing firms",
+     "Quick commerce dark stores"
+    ],
+    "revenueDrivers": [
+     "Fulfilment and storage fees (for marketplaces and 3PLs)"
+    ],
+    "costDrivers": [
+     "Labour per order",
+     "Rent and space utilisation",
+     "Packaging material",
+     "Inventory holding cost and write-offs of ageing stock"
+    ],
+    "kpis": [
+     {
+      "name": "Inventory days",
+      "formula": "inventory / cost of goods x 365",
+      "benchmark": "Approx. 60-120 days for D2C brands"
+     },
+     {
+      "name": "Order accuracy",
+      "formula": "orders shipped without error / orders shipped",
+      "benchmark": "99.5%+ at well-run fulfilment centres"
+     }
+    ],
+    "marginNote": "Thin for 3PLs (approx. 5-10% EBITDA); for a brand it is a cost of approx. ₹30-80 per order plus the cash tied up in stock."
+   },
+   {
+    "id": "s5",
+    "name": "Shipping & last-mile delivery",
+    "activities": [
+     "First-mile pickup and hub sorting",
+     "Line-haul between cities (air or surface)",
+     "Last-mile delivery and re-attempts",
+     "Cash collection and remittance for COD orders"
+    ],
+    "players": [
+     "Express parcel companies",
+     "Marketplace captive logistics arms",
+     "Hyperlocal rider fleets",
+     "Shipping aggregators"
+    ],
+    "revenueDrivers": [
+     "Shipping fees charged to brands and buyers",
+     "COD handling fees"
+    ],
+    "costDrivers": [
+     "Rider pay per drop and drop density",
+     "Line-haul mode and distance",
+     "Failed delivery attempts",
+     "Cash handling for COD"
+    ],
+    "kpis": [
+     {
+      "name": "Cost per shipment",
+      "formula": "total shipping cost / shipments",
+      "benchmark": "Approx. ₹50-90 for a standard parcel within India"
+     },
+     {
+      "name": "First-attempt delivery rate",
+      "formula": "orders delivered on first attempt / orders attempted",
+      "benchmark": "Approx. 85-90% for prepaid orders, lower for COD"
+     }
+    ],
+    "marginNote": "Low-margin, scale-driven business (approx. 2-8% EBITDA for parcel companies); delivery density decides profitability."
+   },
+   {
+    "id": "s6",
+    "name": "Returns, service & retention",
+    "activities": [
+     "Customer returns, exchanges and refunds",
+     "Processing orders returned undelivered (RTO)",
+     "Inspection, grading and resale of returned stock",
+     "Customer support, CRM messages, loyalty and subscriptions"
+    ],
+    "players": [
+     "Brand customer experience teams",
+     "Reverse logistics providers",
+     "Liquidators and refurbishers",
+     "CRM and messaging tools"
+    ],
+    "revenueDrivers": [
+     "Repeat purchases",
+     "Value recovered on returned stock"
+    ],
+    "costDrivers": [
+     "Reverse shipping",
+     "Write-downs on unsaleable returns",
+     "Support cost per ticket"
+    ],
+    "kpis": [
+     {
+      "name": "Return rate",
+      "formula": "orders returned by customers / orders delivered",
+      "benchmark": "Approx. 25-35% in online fashion; under 10% in beauty and most electronics"
+     },
+     {
+      "name": "RTO rate",
+      "formula": "orders returned undelivered / orders shipped",
+      "benchmark": "Approx. 20-30% for COD orders against 2-5% for prepaid"
+     },
+     {
+      "name": "12-month repeat rate",
+      "formula": "customers buying again within 12 months / customers acquired",
+      "benchmark": "Approx. 25-40% for healthy D2C brands"
+     }
+    ],
+    "marginNote": "Mostly a cost centre, but retention is where D2C profit is made: repeat orders carry little or no acquisition cost."
+   }
+  ],
+  "profitPools": "Most profit goes to the players that own customer traffic: scaled marketplaces (take rates of approx. 15-30% plus high-margin advertising) and the ad platforms. Brands earn good margins only when repeat purchase and own-website share are high, because the gross margin they make at sourcing is otherwise spent on acquisition and channel fees. Warehousing and logistics are scale businesses with thin margins.",
+  "unitEconomics": {
+   "unit": "per order, Indian D2C personal care brand selling on its own website (approx.)",
+   "lines": [
+    {
+     "item": "Average order value (net of discounts and GST)",
+     "value": "₹1,200"
+    },
+    {
+     "item": "Product cost (35%)",
+     "value": "-₹420"
+    },
+    {
+     "item": "Marketing per order (acquisition spend spread over orders)",
+     "value": "-₹300"
+    },
+    {
+     "item": "Payment gateway and COD fees",
+     "value": "-₹30"
+    },
+    {
+     "item": "Warehousing, pick-pack and packaging",
+     "value": "-₹60"
+    },
+    {
+     "item": "Forward shipping",
+     "value": "-₹80"
+    },
+    {
+     "item": "Returns and RTO cost (allocated per order)",
+     "value": "-₹70"
+    }
+   ],
+   "result": "Contribution after marketing ≈ ₹240 per order (20% of order value), before salaries, rent and technology"
+  },
+  "india": "Foreign direct investment rules shape the industry: foreign-owned firms may sell to Indian consumers only as marketplaces, cannot own the inventory sold on them, and cannot let sellers in which they or their group hold equity sell on their platform (Press Note 2 of 2018); since Press Note 3 of 2026 (July 2026) they may also hold inventory, but only to export goods made in India. Domestic retailers and D2C brands can hold stock. Cash on delivery is still common outside the metros and drives high RTO rates, even as UPI has made prepaid payment easier, and quick commerce has become a major channel for everyday goods in the metros.",
+  "workedExample": {
+   "problem": "A D2C brand's contribution margin fell about 6 points in a year even though order value, product cost and cost per click were flat.",
+   "trace": [
+    "Storefront (s3) and sourcing (s1) look clean: conversion, order value, discounts and gross margin are unchanged, so the cause is elsewhere in the chain.",
+    "Demand generation (s2): the brand shifted ad spend to tier 2 and 3 audiences, and the share of orders paid by COD rose from 30% to 70%.",
+    "Shipping (s5): COD orders are refused or undeliverable 28% of the time against 4% for prepaid, so the blended RTO rate rose from 11% to 21% of shipped orders.",
+    "Returns (s6) and marketing per delivered order: each RTO costs about ₹210 in two-way shipping and repacking, so RTO cost per delivered order rose from ₹26 to ₹55, and marketing per delivered order rose from ₹338 to ₹379 because the same spend now produces fewer delivered orders.",
+    "Together that is about ₹70 per delivered order, roughly 6 points on a ₹1,200 order: the root cause is audience targeting in s2, which shows up as cost in s5 and s6."
+   ],
+   "lesson": "In Indian D2C the quality of a growth channel shows up two stages later, so judge acquisition on cost per delivered (and kept) order, not per order placed."
+  }
+ },
+ "cases": [
+  {
+   "id": "ecommerce-c01",
+   "title": "Skincare brand growing but losing money",
+   "industry": "ecommerce",
+   "framework": "profitability",
+   "secondary": [],
+   "difficulty": "Beginner",
+   "region": "India",
+   "prompt": "Our client is a Mumbai-based D2C skincare brand that sells through its own website, online marketplaces and, since last year, quick commerce apps. Revenue grew 40% to ₹180 crore last year, but EBITDA margin swung from +4% to -6%. The founders want to understand why they are losing money while growing so fast.",
+   "clarifyingFacts": [
+    "Q: What is the objective? A: Find the causes of the margin fall and get back to breakeven within 12 months.",
+    "Q: How is revenue split by channel? A: Own website 45% (down from 60%), marketplaces 40%, quick commerce 15% (new this year).",
+    "Q: Have prices changed? A: List prices are unchanged, but the average discount rose from 18% to 24% because of more marketplace sale events.",
+    "Q: What happened to marketing? A: Marketing rose from 28% to 34% of revenue as the brand pushed into tier 2 cities through paid social ads."
+   ],
+   "modelTree": {
+    "id": "r",
+    "label": "Why did EBITDA margin fall from +4% to -6% despite 40% growth?",
+    "children": [
+     {
+      "id": "a",
+      "label": "Net revenue per order fell",
+      "children": [
+       {
+        "id": "a1",
+        "label": "Deeper discounts during marketplace sale events"
+       },
+       {
+        "id": "a2",
+        "label": "Mix shift to lower-priced minis and trial kits"
+       },
+       {
+        "id": "a3",
+        "label": "Fewer units per order"
+       }
+      ]
+     },
+     {
+      "id": "b",
+      "label": "Variable cost per order rose",
+      "children": [
+       {
+        "id": "b1",
+        "label": "Product cost per order",
+        "children": [
+         {
+          "id": "b1x",
+          "label": "Ingredient and packaging price inflation"
+         },
+         {
+          "id": "b1y",
+          "label": "Expiry write-offs from stock spread across new channels"
+         }
+        ]
+       },
+       {
+        "id": "b2",
+        "label": "Marketing spend per order",
+        "children": [
+         {
+          "id": "b2x",
+          "label": "Higher cost per click on tier 2 paid social"
+         },
+         {
+          "id": "b2y",
+          "label": "Lower conversion of new visitors"
+         },
+         {
+          "id": "b2z",
+          "label": "Fewer repeat orders to spread acquisition spend over"
+         }
+        ]
+       },
+       {
+        "id": "b3",
+        "label": "Channel fees: marketplace commission and quick commerce margins"
+       },
+       {
+        "id": "b4",
+        "label": "Fulfilment, shipping, payment and returns cost"
+       }
+      ]
+     },
+     {
+      "id": "c",
+      "label": "Overheads grew faster than revenue",
+      "children": [
+       {
+        "id": "c1",
+        "label": "Salaries: team hired ahead of scale"
+       },
+       {
+        "id": "c2",
+        "label": "Rent, warehouses and technology"
+       }
+      ]
+     }
+    ]
+   },
+   "hypotheses": [
+    "Deeper discounts (18% to 24% of list price) cut net revenue per unit by about 7%; with product, shipping and fulfilment (costs that do not fall with price) at roughly half of revenue, this alone explains about 4 of the 10 points lost.",
+    "Marketing rising from 28% to 34% of revenue reflects higher acquisition cost in tier 2 paid social that repeat purchases have not yet paid back.",
+    "Channel fees are rising mechanically as the own-website share fell from 60% to 45%, since marketplace and quick commerce fees take roughly 25-35% of selling price."
+   ],
+   "hints": [
+    "Use the profit equation, but express it per order and separate costs that move with each order from those that do not.",
+    "First-level branches: net revenue per order fell; variable cost per order rose; overheads grew faster than revenue.",
+    "Net revenue per order: deeper discounts in marketplace sale events; mix shift to lower-priced minis and trial kits; fewer units per order."
+   ],
+   "keyMetrics": [
+    {
+     "name": "Contribution per order",
+     "formula": "net revenue per order - product cost - channel fees - fulfilment, shipping and payment cost - returns cost - marketing per order"
+    },
+    {
+     "name": "EBITDA margin",
+     "formula": "(total contribution - overheads) / net revenue"
+    }
+   ],
+   "commonMistakes": [
+    "Treating 40% revenue growth as a sign of health instead of checking contribution per order by channel.",
+    "Lumping channel fees into a generic 'costs' bucket, which hides that they rise automatically as sales move from the own website to marketplaces and quick commerce."
+   ],
+   "frameworkPick": {
+    "options": [
+     "profitability",
+     "growth",
+     "pricing",
+     "turnaround"
+    ],
+    "correct": [
+     "profitability"
+    ],
+    "why": "The question is why margin fell while revenue rose, which is a diagnosis of revenue and cost drivers: exactly what a profitability tree is built for.",
+    "distractorWhyNot": {
+     "growth": "The client is already growing fast; the problem is the quality of that growth, not how to get more of it.",
+     "pricing": "Discounting is one likely cause, but a pricing tree would leave out marketing, channel fees and overheads.",
+     "turnaround": "There is no cash crisis or lender deadline; the first job is to diagnose which revenue and cost drivers moved, which a profitability tree does."
+    }
+   }
+  },
+  {
+   "id": "ecommerce-c02",
+   "title": "Online pet food market in India",
+   "industry": "ecommerce",
+   "framework": "market-sizing",
+   "secondary": [],
+   "difficulty": "Beginner",
+   "region": "India",
+   "prompt": "A venture-backed D2C pet care start-up is preparing its fundraising deck and wants a credible number for the size of India's online pet food market today. A rival's deck quotes about ₹6,000 crore, which the founders suspect is too high. How big is the online market in rupees per year?",
+   "clarifyingFacts": [
+    "Q: Which pets should I include? A: Dogs and cats; other pets are under 5% of pet food spend and can be ignored.",
+    "Q: Does home-cooked food count? A: No, only packaged food: dry food, wet food and treats.",
+    "Q: What can I assume about pet numbers? A: About 3 crore pet dogs and 50 lakh pet cats; about 30% of dogs and 35% of cats eat packaged food regularly.",
+    "Q: What about spend and channel? A: Packaged food spend averages about ₹500 a month per dog and ₹400 per cat; online channels (marketplaces, quick commerce, brand websites) take about 30% of packaged pet food sales."
+   ],
+   "modelTree": {
+    "id": "r",
+    "label": "Annual online sales of packaged dog and cat food in India (₹)",
+    "children": [
+     {
+      "id": "a",
+      "label": "Online dog food sales",
+      "children": [
+       {
+        "id": "a1",
+        "label": "Pet dogs in India (about 3 crore)"
+       },
+       {
+        "id": "a2",
+        "label": "Share of dogs fed packaged food (about 30%)",
+        "children": [
+         {
+          "id": "a2x",
+          "label": "Urban, higher-income homes: high use"
+         },
+         {
+          "id": "a2y",
+          "label": "Other homes: mostly home-cooked food"
+         }
+        ]
+       },
+       {
+        "id": "a3",
+        "label": "Annual packaged food spend per dog"
+       },
+       {
+        "id": "a4",
+        "label": "Share of that spend made online"
+       }
+      ]
+     },
+     {
+      "id": "b",
+      "label": "Online cat food sales",
+      "children": [
+       {
+        "id": "b1",
+        "label": "Pet cats in India (about 50 lakh)"
+       },
+       {
+        "id": "b2",
+        "label": "Share of cats fed packaged food (about 35%)"
+       },
+       {
+        "id": "b3",
+        "label": "Annual packaged food spend per cat"
+       },
+       {
+        "id": "b4",
+        "label": "Share of that spend made online"
+       }
+      ]
+     }
+    ]
+   },
+   "hypotheses": [
+    "Dogs are about 87% of the market because there are six times as many pet dogs as cats and each spends more.",
+    "The total packaged market is about ₹6,240 crore, so the rival's ₹6,000 crore is the whole packaged market; the online market is about 30% of it, roughly ₹1,900 crore a year.",
+    "The share of dogs fed packaged food is the most sensitive assumption: moving it 10 points (30% to 40%) changes the answer by nearly 30%."
+   ],
+   "hints": [
+    "Segment first by the factor that changes both the number of buyers and the spend per buyer, then build each segment as a chain of multiplied drivers.",
+    "First-level branches: online dog food sales; online cat food sales (other pets are under 5% and excluded by the interviewer).",
+    "Cat branch: number of pet cats x share fed packaged food x annual spend per cat x share bought online."
+   ],
+   "keyMetrics": [
+    {
+     "name": "Online dog food market",
+     "formula": "pet dogs x % fed packaged food x annual spend per dog x online share"
+    },
+    {
+     "name": "Online pet food market",
+     "formula": "online dog food market + online cat food market"
+    }
+   ],
+   "commonMistakes": [
+    "Forgetting to apply the online share, so the answer given is the whole packaged pet food market rather than the online part.",
+    "Applying one ownership rate to all ~30 crore Indian households, which ignores that packaged food use is concentrated in urban, higher-income homes."
+   ],
+   "frameworkPick": {
+    "options": [
+     "market-sizing",
+     "pe-dd",
+     "segmentation",
+     "growth"
+    ],
+    "correct": [
+     "market-sizing"
+    ],
+    "why": "The client asks how big the market is, an estimation question answered by multiplying population, penetration, spend and channel share.",
+    "distractorWhyNot": {
+     "pe-dd": "Investors will diligence the company later, but the question asks only for the market number, not whether to invest.",
+     "segmentation": "Splitting by pet type is a step in the estimate, but the question is not which segment to target.",
+     "growth": "The question is today's market size, not how to grow the start-up's revenue."
+    }
+   }
+  },
+  {
+   "id": "ecommerce-c03",
+   "title": "Should a D2C brand charge for COD?",
+   "industry": "ecommerce",
+   "framework": "pricing",
+   "secondary": [],
+   "difficulty": "Beginner",
+   "region": "India",
+   "prompt": "A D2C footwear brand gets about 1 lakh orders a month on its website, 60% of them cash on delivery (COD). About 25% of COD orders are refused or undeliverable and come back (RTO), against 4% of prepaid orders. The founder is considering a ₹49 fee on COD orders. Should she introduce it?",
+   "clarifyingFacts": [
+    "Q: What does an RTO cost? A: About ₹180 per order in two-way shipping and repacking; the shoes go back into stock.",
+    "Q: What does a delivered order earn? A: Average order value ₹1,500 at 55% gross margin; forward shipping ₹80; COD handling ₹40 per delivered COD order, against a 2% gateway fee on prepaid orders.",
+    "Q: How will customers react? A: A small test suggests 30% of COD buyers would switch to prepaid (with an RTO rate of about 6%), 8% would abandon, and RTO on the remaining COD orders would fall from 25% to 18%.",
+    "Q: What do competitors do? A: Most peers still offer free COD; two have started charging ₹29 to ₹49."
+   ],
+   "modelTree": {
+    "id": "r",
+    "label": "Should the brand charge ₹49 on COD orders?",
+    "children": [
+     {
+      "id": "a",
+      "label": "Short-term contribution from today's COD orders",
+      "children": [
+       {
+        "id": "a1",
+        "label": "Buyers who stay on COD",
+        "children": [
+         {
+          "id": "a1x",
+          "label": "Fee income on delivered orders"
+         },
+         {
+          "id": "a1y",
+          "label": "Lower RTO as the fee deters casual orders"
+         }
+        ]
+       },
+       {
+        "id": "a2",
+        "label": "Buyers who switch to prepaid",
+        "children": [
+         {
+          "id": "a2x",
+          "label": "RTO cost avoided"
+         },
+         {
+          "id": "a2y",
+          "label": "Gateway fee in place of COD handling"
+         }
+        ]
+       },
+       {
+        "id": "a3",
+        "label": "Buyers who abandon",
+        "children": [
+         {
+          "id": "a3x",
+          "label": "Contribution lost on orders that would have delivered"
+         },
+         {
+          "id": "a3y",
+          "label": "RTO cost avoided on orders that would have failed"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "id": "b",
+      "label": "Longer-term customer impact",
+      "children": [
+       {
+        "id": "b1",
+        "label": "Checkout conversion of first-time visitors"
+       },
+       {
+        "id": "b2",
+        "label": "Repeat purchase by tier 2 and 3 COD customers"
+       }
+      ]
+     },
+     {
+      "id": "c",
+      "label": "Fee design and execution",
+      "children": [
+       {
+        "id": "c1",
+        "label": "Fee level and exemptions, e.g. waived for repeat buyers"
+       },
+       {
+        "id": "c2",
+        "label": "Clear disclosure of the fee before checkout"
+       }
+      ]
+     }
+    ]
+   },
+   "hypotheses": [
+    "On the test figures the fee adds about ₹0.47 crore of contribution a month, mostly from RTO savings rather than fee income.",
+    "The fee stays worthwhile unless more than about 21% of COD buyers abandon (with 30% switching to prepaid), well above the 8% seen in the test.",
+    "Abandonment will be highest among first-time tier 3 buyers, whose COD orders have the highest RTO, so the orders lost are worth less than average."
+   ],
+   "hints": [
+    "Group today's COD buyers by how they will respond to the fee, and keep this month's economics separate from effects that build over time.",
+    "First-level branches: short-term contribution from today's COD orders; longer-term customer impact; fee design and execution.",
+    "Longer-term customer impact: checkout conversion of first-time visitors; repeat purchase by tier 2 and 3 COD customers."
+   ],
+   "keyMetrics": [
+    {
+     "name": "Contribution per COD order placed",
+     "formula": "(1 - RTO rate) x (gross margin - shipping - COD handling + fee) - RTO rate x RTO cost"
+    },
+    {
+     "name": "Blended RTO rate",
+     "formula": "orders returned undelivered / orders shipped"
+    }
+   ],
+   "commonMistakes": [
+    "Counting only the ₹49 fee income and missing that the larger gain is fewer RTOs from buyers who switch or drop out.",
+    "Treating every abandoned order as a full lost sale, when about a quarter of them would have come back undelivered anyway."
+   ],
+   "frameworkPick": {
+    "options": [
+     "pricing",
+     "profitability",
+     "operations",
+     "segmentation"
+    ],
+    "correct": [
+     "pricing"
+    ],
+    "why": "It is a decision on whether to charge a new fee, so the tree weighs how customers respond (stay, switch, abandon) against fee income and cost savings.",
+    "distractorWhyNot": {
+     "profitability": "No profit fall is being diagnosed; the question is the effect of one specific price change.",
+     "operations": "Lower RTO is an outcome, but the lever being judged is a price, not a process change.",
+     "segmentation": "Customer groups appear in the analysis, but the question is not which segment to target."
+    }
+   }
+  },
+  {
+   "id": "ecommerce-c04",
+   "title": "Doubling a men's grooming brand",
+   "industry": "ecommerce",
+   "framework": "growth",
+   "secondary": [],
+   "difficulty": "Beginner",
+   "region": "India",
+   "prompt": "Our client is a D2C men's grooming brand with ₹60 crore revenue, 70% of it from beard and hair products sold on its own website and marketplaces. The new CEO wants to double revenue to ₹120 crore in three years without losing money. How could the brand get there?",
+   "clarifyingFacts": [
+    "Q: Is profit a constraint? A: Yes, the brand must stay EBITDA positive (currently 5%), so it cannot buy growth with heavy discounts.",
+    "Q: What does the customer base look like? A: About 6 lakh customers bought last year; 30% bought more than once; average order value is ₹550.",
+    "Q: Which channels does it use today? A: Own website 45%, marketplaces 55%; no quick commerce or offline presence.",
+    "Q: Where are customers? A: India only, with about 65% of sales from the top 8 metros."
+   ],
+   "modelTree": {
+    "id": "r",
+    "label": "How can the brand grow revenue from ₹60 crore to ₹120 crore in three years?",
+    "children": [
+     {
+      "id": "a",
+      "label": "Sell more of the current range to current customers",
+      "children": [
+       {
+        "id": "a1",
+        "label": "Raise repeat rate: subscriptions and refill reminders"
+       },
+       {
+        "id": "a2",
+        "label": "Raise order value: bundles and larger packs"
+       }
+      ]
+     },
+     {
+      "id": "b",
+      "label": "Sell the current range to new customers",
+      "children": [
+       {
+        "id": "b1",
+        "label": "More new customers through current channels",
+        "children": [
+         {
+          "id": "b1x",
+          "label": "Metros: win share from rival brands"
+         },
+         {
+          "id": "b1y",
+          "label": "Tier 2 and 3 cities"
+         }
+        ]
+       },
+       {
+        "id": "b2",
+        "label": "New channels",
+        "children": [
+         {
+          "id": "b2x",
+          "label": "Quick commerce in metros"
+         },
+         {
+          "id": "b2y",
+          "label": "Offline modern trade and pharmacies"
+         }
+        ]
+       },
+       {
+        "id": "b3",
+        "label": "Exports to Gulf markets with large Indian communities"
+       }
+      ]
+     },
+     {
+      "id": "c",
+      "label": "Sell new products to current customers",
+      "children": [
+       {
+        "id": "c1",
+        "label": "Adjacent men's categories: skincare, fragrance"
+       },
+       {
+        "id": "c2",
+        "label": "Premium and gifting ranges"
+       }
+      ]
+     },
+     {
+      "id": "d",
+      "label": "Sell new products to new customers",
+      "children": [
+       {
+        "id": "d1",
+        "label": "Women's or unisex grooming range"
+       },
+       {
+        "id": "d2",
+        "label": "Lower-priced sub-brand for mass-market buyers"
+       }
+      ]
+     }
+    ]
+   },
+   "hypotheses": [
+    "Repeat purchase is the cheapest lever: today's 1.8 lakh repeat buyers place about 3.7 orders a year, so moving 60,000 one-time buyers to repeat (30% to 40%) adds about ₹9 crore at today's customer numbers.",
+    "Quick commerce could add ₹15-20 crore within three years because grooming refills are frequent, low-ticket metro purchases.",
+    "Adjacent categories sold to existing customers will grow faster and more profitably than a women's range, which needs new customers and a new brand position."
+   ],
+   "hints": [
+    "Use a products x customers grid, then place channels and geographies inside the right cell.",
+    "First-level branches: more of the current range to current customers; current range to new customers; new products to current customers; new products to new customers.",
+    "New products to current customers: adjacent men's categories (skincare, fragrance); premium and gifting ranges."
+   ],
+   "keyMetrics": [
+    {
+     "name": "Revenue",
+     "formula": "customers x orders per customer x average order value"
+    },
+    {
+     "name": "Required growth rate",
+     "formula": "(120 / 60)^(1/3) - 1 ≈ 26% a year"
+    }
+   ],
+   "commonMistakes": [
+    "Listing growth ideas without sizing them against the ₹60 crore gap, so there is no view of which two or three levers matter most.",
+    "Ignoring the EBITDA-positive constraint and proposing discount-led acquisition, or listing 'acquire a brand' as a cell of the grid when it is a way of entering a cell."
+   ],
+   "frameworkPick": {
+    "options": [
+     "growth",
+     "market-entry",
+     "product-launch",
+     "profitability"
+    ],
+    "correct": [
+     "growth"
+    ],
+    "why": "The CEO asks how to double revenue, which needs a full map of growth levers across products, customers and channels.",
+    "distractorWhyNot": {
+     "market-entry": "Entering a new channel or country is one lever, not the whole question.",
+     "product-launch": "New products are one lever; the question is overall revenue growth.",
+     "profitability": "The brand is profitable; profit is a constraint, not the problem to diagnose."
+    }
+   }
+  },
+  {
+   "id": "ecommerce-c05",
+   "title": "Cutting returns cost at a fashion marketplace",
+   "industry": "ecommerce",
+   "framework": "operations",
+   "secondary": [],
+   "difficulty": "Intermediate",
+   "region": "India",
+   "prompt": "A large Indian online fashion marketplace delivers about 1 crore orders a month. Customers return 25% of delivered orders, and another 12% of shipped orders come back undelivered (RTO). Each return or RTO costs about ₹150 on average in reverse logistics, quality checks and markdowns. Management wants to cut the total cost of returns by a third within a year. How would you approach this?",
+   "clarifyingFacts": [
+    "Q: Why do customers return items? A: Size and fit 45%, looked different from the photos 20%, quality defects 10%, wrong or damaged item 10%, changed their mind 15%.",
+    "Q: Why do orders come back undelivered? A: Mostly COD: customer refused or unreachable 70%, address problems 20%, suspected fake orders 10%.",
+    "Q: Is the cost the same for every return? A: No. An RTO costs about ₹80 because the parcel comes back unopened and is restocked; a customer return costs about ₹190 including quality checks and markdowns. Sellers bear the markdowns, but they count here.",
+    "Q: Any constraints? A: Free 15-day returns are a key reason customers buy, so the policy cannot simply be scrapped."
+   ],
+   "modelTree": {
+    "id": "r",
+    "label": "How can returns cost (about ₹700 crore a year) fall by a third?",
+    "children": [
+     {
+      "id": "a",
+      "label": "Fewer customer returns after delivery",
+      "children": [
+       {
+        "id": "a1",
+        "label": "Size and fit problems",
+        "children": [
+         {
+          "id": "a1x",
+          "label": "Brand-specific size charts and fit recommendations"
+         },
+         {
+          "id": "a1y",
+          "label": "Flag customers ordering several sizes to try"
+         }
+        ]
+       },
+       {
+        "id": "a2",
+        "label": "Product looked different from the listing",
+        "children": [
+         {
+          "id": "a2x",
+          "label": "Photo and description standards for sellers"
+         },
+         {
+          "id": "a2y",
+          "label": "Seller penalties linked to return rates"
+         }
+        ]
+       },
+       {
+        "id": "a3",
+        "label": "Quality defects, wrong or damaged items",
+        "children": [
+         {
+          "id": "a3x",
+          "label": "Seller quality checks before dispatch"
+         },
+         {
+          "id": "a3y",
+          "label": "Picking accuracy and protective packaging"
+         }
+        ]
+       },
+       {
+        "id": "a4",
+        "label": "Change of mind",
+        "children": [
+         {
+          "id": "a4x",
+          "label": "Exchange or store credit instead of refund"
+         },
+         {
+          "id": "a4y",
+          "label": "Shorter window for low-value, high-return categories"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "id": "b",
+      "label": "Fewer orders returned undelivered (RTO)",
+      "children": [
+       {
+        "id": "b1",
+        "label": "COD refusals and unreachable customers",
+        "children": [
+         {
+          "id": "b1x",
+          "label": "Order confirmation by call or WhatsApp"
+         },
+         {
+          "id": "b1y",
+          "label": "Prepaid incentives in high-RTO pin codes"
+         }
+        ]
+       },
+       {
+        "id": "b2",
+        "label": "Address errors and failed delivery attempts"
+       },
+       {
+        "id": "b3",
+        "label": "Fake or fraudulent orders"
+       }
+      ]
+     },
+     {
+      "id": "c",
+      "label": "Lower cost per return",
+      "children": [
+       {
+        "id": "c1",
+        "label": "Reverse pickup cost",
+        "children": [
+         {
+          "id": "c1x",
+          "label": "Batched pickups in dense pin codes"
+         },
+         {
+          "id": "c1y",
+          "label": "Customer drop-off points"
+         }
+        ]
+       },
+       {
+        "id": "c2",
+        "label": "Processing and quality-check cost at the warehouse"
+       },
+       {
+        "id": "c3",
+        "label": "Value recovered on returned stock",
+        "children": [
+         {
+          "id": "c3x",
+          "label": "Faster restocking to resell at full price"
+         },
+         {
+          "id": "c3y",
+          "label": "Liquidation channels for unsaleable items"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   "hypotheses": [
+    "Customer returns are about 81% of the cost (25 lakh a month at ₹190 against 13.6 lakh RTOs at ₹80), so the target cannot come from RTO alone: removing every RTO would save only about ₹131 crore of the ₹234 crore needed.",
+    "Size and fit drive 45% of customer returns; fit tools that cut those by a third would remove 15% of customer returns and save about ₹85 crore a year.",
+    "Markdowns from slow restocking are a bigger share of the ₹190 cost of a customer return than reverse shipping, so faster restocking saves more than cheaper pickups."
+   ],
+   "hints": [
+    "Write total cost as volume x cost per unit, and notice that the volume comes in two kinds with different causes and different unit costs.",
+    "First-level branches: fewer customer returns after delivery; fewer orders returned undelivered (RTO); lower cost per return.",
+    "Lower cost per return: reverse pickup cost (batched pickups, drop-off points); processing and quality-check cost; value recovered on returned stock (faster restocking, liquidation)."
+   ],
+   "keyMetrics": [
+    {
+     "name": "Total returns cost",
+     "formula": "customer returns x ~₹190 + RTOs x ~₹80"
+    },
+    {
+     "name": "Customer return rate",
+     "formula": "orders returned by customers / orders delivered"
+    },
+    {
+     "name": "RTO rate",
+     "formula": "orders returned undelivered / orders shipped"
+    }
+   ],
+   "commonMistakes": [
+    "Treating RTO and customer returns as one problem at one average cost (₹150), though they have different causes, fixes and unit costs (₹80 against ₹190).",
+    "Proposing to scrap free returns, which the client has ruled out and which would cost more in lost conversion than it saves."
+   ],
+   "frameworkPick": {
+    "options": [
+     "operations",
+     "profitability",
+     "pricing",
+     "segmentation"
+    ],
+    "correct": [
+     "operations"
+    ],
+    "why": "The goal is to cut one specific cost by a third, which means working through the volume and unit-cost drivers of the returns process.",
+    "distractorWhyNot": {
+     "profitability": "No overall profit fall needs diagnosing; the cost line and target are already defined.",
+     "pricing": "Return fees are one possible lever, but price is not the core question.",
+     "segmentation": "Customer groups matter for targeting fixes, but the question is about reducing a process cost."
+    }
+   }
+  },
+  {
+   "id": "ecommerce-c06",
+   "title": "Ethnic-wear brand eyeing the US",
+   "industry": "ecommerce",
+   "framework": "market-entry",
+   "secondary": [],
+   "difficulty": "Intermediate",
+   "region": "Global",
+   "prompt": "An Indian D2C ethnic-wear brand with ₹250 crore revenue sells almost entirely in India. About 8% of its website traffic already comes from the US, mostly from people of Indian origin, but those visitors convert at a third of the Indian rate. The founders want to know whether to build a dedicated US business and, if so, how.",
+   "clarifyingFacts": [
+    "Q: What is the goal? A: US$10 million of US revenue within three years at a positive contribution margin.",
+    "Q: How big is the market? A: Assume about 1.6 million Indian-origin households in the US, each spending about US$300 a year on Indian ethnic wear, mostly for weddings and festivals.",
+    "Q: How are US orders handled today? A: Shipped from India through the website; delivery takes 10-14 days and returns are difficult. About 70% of US orders are for a dated event such as a wedding.",
+    "Q: What are the order economics? A: Average US order about US$110 at a 55% gross margin. As a case assumption, take total US duty as about 25% of order value: a base apparel duty that varies by fabric, plus the 10% Section 301 duty the US has applied to most Indian goods since July 2026. Low-value parcels no longer enter duty-free: the US$800 de minimis exemption has been suspended since August 2025. Cross-border shipping is about US$15 per order, and a first US order costs about US$35 to acquire."
+   ],
+   "modelTree": {
+    "id": "r",
+    "label": "Should the brand build a US business aiming for US$10m revenue in three years?",
+    "children": [
+     {
+      "id": "a",
+      "label": "Is the US diaspora market attractive?",
+      "children": [
+       {
+        "id": "a1",
+        "label": "Market size",
+        "children": [
+         {
+          "id": "a1x",
+          "label": "Indian-origin households by metro area"
+         },
+         {
+          "id": "a1y",
+          "label": "Ethnic-wear spend per household by occasion"
+         }
+        ]
+       },
+       {
+        "id": "a2",
+        "label": "Growth: new arrivals, second generation, wedding spend"
+       },
+       {
+        "id": "a3",
+        "label": "Competition",
+        "children": [
+         {
+          "id": "a3x",
+          "label": "US-based Indian boutiques"
+         },
+         {
+          "id": "a3y",
+          "label": "Other Indian brands shipping from India"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "id": "b",
+      "label": "Can the brand win customers there?",
+      "children": [
+       {
+        "id": "b1",
+        "label": "Brand awareness among US customers",
+        "children": [
+         {
+          "id": "b1x",
+          "label": "Current US traffic and repeat buyers"
+         },
+         {
+          "id": "b1y",
+          "label": "Social media following in the US"
+         }
+        ]
+       },
+       {
+        "id": "b2",
+        "label": "Product fit",
+        "children": [
+         {
+          "id": "b2x",
+          "label": "Sizing for US body types"
+         },
+         {
+          "id": "b2y",
+          "label": "Styles and price points for US occasions"
+         }
+        ]
+       },
+       {
+        "id": "b3",
+        "label": "Service needs: tailoring, event-date delivery, easy exchanges"
+       }
+      ]
+     },
+     {
+      "id": "c",
+      "label": "Do the economics work?",
+      "children": [
+       {
+        "id": "c1",
+        "label": "Contribution per order",
+        "children": [
+         {
+          "id": "c1x",
+          "label": "Price and gross margin (US$110, 55%)"
+         },
+         {
+          "id": "c1y",
+          "label": "Duties (about 25%) and shipping (US$15)"
+         },
+         {
+          "id": "c1z",
+          "label": "Returns and exchanges"
+         }
+        ]
+       },
+       {
+        "id": "c2",
+        "label": "Customer acquisition cost and repeat rate",
+        "children": [
+         {
+          "id": "c2x",
+          "label": "Paid social and search in the US"
+         },
+         {
+          "id": "c2y",
+          "label": "Community events and creators"
+         }
+        ]
+       },
+       {
+        "id": "c3",
+        "label": "Upfront investment and time to break even"
+       }
+      ]
+     },
+     {
+      "id": "d",
+      "label": "Which entry model fits best?",
+      "children": [
+       {
+        "id": "d1",
+        "label": "Fulfilment",
+        "children": [
+         {
+          "id": "d1x",
+          "label": "Ship from India: no inventory risk, slow"
+         },
+         {
+          "id": "d1y",
+          "label": "US stock point: event-date delivery, inventory risk"
+         }
+        ]
+       },
+       {
+        "id": "d2",
+        "label": "Sales channel",
+        "children": [
+         {
+          "id": "d2x",
+          "label": "Own website"
+         },
+         {
+          "id": "d2y",
+          "label": "US marketplaces and boutique partners"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   "hypotheses": [
+    "US$10 million is only about 2% of a US$480 million diaspora ethnic-wear market, so demand is not the constraint; conversion, delivery speed and returns are.",
+    "Shipped from India, a US$110 order leaves about US$18 after product cost (US$49.50), duty (about US$27.50) and shipping (US$15), before returns, so the US$35 acquisition cost is recovered only on the second order: the plan works only with repeat buyers, higher US prices or a US stock point that cuts returns cost.",
+    "Most US demand is tied to dated events, so customers who cannot get delivery before a wedding go to local boutiques, which explains the low conversion today."
+   ],
+   "hints": [
+    "Use the standard four-question logic of an entry decision, ordered from the outside in.",
+    "First-level branches: market attractiveness; ability to win customers; economics; entry model.",
+    "Ability to win: brand awareness among US customers; product fit (sizing, styles and price points); service needs (tailoring, event-date delivery, exchanges)."
+   ],
+   "keyMetrics": [
+    {
+     "name": "Contribution per US order",
+     "formula": "order value - product cost - duty (~25% of declared value) - shipping - returns cost"
+    },
+    {
+     "name": "Required market share",
+     "formula": "US$10m / (households x spend per household)"
+    }
+   ],
+   "commonMistakes": [
+    "Sizing the whole US apparel market instead of the diaspora ethnic-wear segment the brand actually sells into.",
+    "Jumping to 'open a US warehouse' before checking why current US visitors convert at a third of the Indian rate."
+   ],
+   "frameworkPick": {
+    "options": [
+     "market-entry",
+     "growth",
+     "market-sizing",
+     "operations"
+    ],
+    "correct": [
+     "market-entry"
+    ],
+    "why": "The founders ask whether and how to enter a new country, which calls for testing attractiveness, ability to win, economics and entry mode.",
+    "distractorWhyNot": {
+     "growth": "The US is one specific growth option; the question is whether and how to enter it, not all ways to grow.",
+     "market-sizing": "Market size is one input, but the question asks for an entry decision.",
+     "operations": "Slow delivery and difficult returns are part of the answer, but the question is whether to build a US business at all, which also needs market, economics and entry mode."
+    }
+   }
+  },
+  {
+   "id": "ecommerce-c07",
+   "title": "Online grocer under quick commerce attack",
+   "industry": "ecommerce",
+   "framework": "competitive-response",
+   "secondary": [],
+   "difficulty": "Intermediate",
+   "region": "India",
+   "prompt": "Our client is an Indian online grocery company offering scheduled next-day delivery in 8 large cities, with an average order value of about ₹1,300. Since quick commerce apps expanded aggressively, its monthly orders have fallen 18% in a year, though revenue has fallen only 9%. How should it respond?",
+   "clarifyingFacts": [
+    "Q: Which orders were lost? A: A year ago 40% of orders were baskets under ₹600 (average ₹450), 27% were ₹600-2,000 (average ₹1,000) and 33% were stock-up baskets over ₹2,000 (average ₹2,600). Small baskets fell 40%, mid-size 2% and stock-up 5%.",
+    "Q: How profitable are the different baskets? A: Contribution is about 6% of revenue on stock-up baskets and negative on small baskets, because delivery costs about ₹90 per order whatever the size.",
+    "Q: What are competitors doing? A: Quick commerce apps deliver in 10-20 minutes, now carry around 10,000 items, and are using discounts to push larger baskets.",
+    "Q: What are the client's strengths? A: Large city warehouses with 25,000+ items, strong fresh produce sourcing, and a loyal base of families placing weekly orders."
+   ],
+   "modelTree": {
+    "id": "r",
+    "label": "How should the client respond to quick commerce taking 18% of its orders?",
+    "children": [
+     {
+      "id": "a",
+      "label": "Where and why is it losing?",
+      "children": [
+       {
+        "id": "a1",
+        "label": "Which baskets",
+        "children": [
+         {
+          "id": "a1x",
+          "label": "Orders and revenue lost by basket size"
+         },
+         {
+          "id": "a1y",
+          "label": "Contribution lost by basket size"
+         }
+        ]
+       },
+       {
+        "id": "a2",
+        "label": "Which customers: fully lapsed vs ordering less often"
+       },
+       {
+        "id": "a3",
+        "label": "Why customers switch",
+        "children": [
+         {
+          "id": "a3x",
+          "label": "Speed for urgent needs"
+         },
+         {
+          "id": "a3y",
+          "label": "Price and discount gaps"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "id": "b",
+      "label": "How lasting is the threat?",
+      "children": [
+       {
+        "id": "b1",
+        "label": "Competitors' staying power",
+        "children": [
+         {
+          "id": "b1x",
+          "label": "Their contribution per order"
+         },
+         {
+          "id": "b1y",
+          "label": "Their funding runway"
+         }
+        ]
+       },
+       {
+        "id": "b2",
+        "label": "Their push into large baskets and fresh produce"
+       }
+      ]
+     },
+     {
+      "id": "c",
+      "label": "What are the response options?",
+      "children": [
+       {
+        "id": "c1",
+        "label": "Defend the stock-up basket",
+        "children": [
+         {
+          "id": "c1x",
+          "label": "Price and range advantage on monthly baskets"
+         },
+         {
+          "id": "c1y",
+          "label": "Membership for weekly family orders"
+         }
+        ]
+       },
+       {
+        "id": "c2",
+        "label": "Match on speed in selected areas",
+        "children": [
+         {
+          "id": "c2x",
+          "label": "Own dark stores in dense pin codes"
+         },
+         {
+          "id": "c2y",
+          "label": "Same-day slots from existing warehouses"
+         }
+        ]
+       },
+       {
+        "id": "c3",
+        "label": "Concede small baskets profitably",
+        "children": [
+         {
+          "id": "c3x",
+          "label": "Minimum order value or small-basket fee"
+         },
+         {
+          "id": "c3y",
+          "label": "Partner with a quick commerce app for top-ups"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "id": "d",
+      "label": "How to choose between options",
+      "children": [
+       {
+        "id": "d1",
+        "label": "Financial impact",
+        "children": [
+         {
+          "id": "d1x",
+          "label": "Change in contribution"
+         },
+         {
+          "id": "d1y",
+          "label": "Capital needed"
+         }
+        ]
+       },
+       {
+        "id": "d2",
+        "label": "Fit with the client's strengths"
+       },
+       {
+        "id": "d3",
+        "label": "Likely competitor reaction"
+       }
+      ]
+     }
+    ]
+   },
+   "hypotheses": [
+    "The client has mostly lost loss-making small top-up baskets, while its profitable stock-up business is largely intact, so copying 10-minute delivery could destroy value.",
+    "The real threat is quick commerce moving into large baskets: stock-up baskets are about two-thirds of revenue and most of the contribution, so their 5% fall costs more profit than the 40% fall in small baskets, which probably raised total contribution.",
+    "A membership built around weekly family orders and fresh produce defends the profitable core at lower cost than a dark store network."
+   ],
+   "hints": [
+    "Order the tree as a sequence from diagnosis to decision, not as a list of tactics.",
+    "First-level branches: where and why it is losing; how lasting the threat is; response options; how to choose.",
+    "How lasting the threat is: competitors' staying power (their contribution per order, funding runway); their push into large baskets and fresh produce."
+   ],
+   "keyMetrics": [
+    {
+     "name": "Contribution per order by basket size",
+     "formula": "basket value x gross margin - delivery cost (~₹90) - picking and packing cost"
+    },
+    {
+     "name": "Average order value",
+     "formula": "revenue / orders: 0.91 / 0.82 ≈ +11%, because small baskets were lost"
+    }
+   ],
+   "commonMistakes": [
+    "Assuming the client must copy 10-minute delivery without first checking that the lost orders were small, loss-making baskets.",
+    "Ignoring rivals' economics: a competitor burning cash may not sustain its discounts, which changes whether to fight now or wait."
+   ],
+   "frameworkPick": {
+    "options": [
+     "competitive-response",
+     "pricing",
+     "profitability",
+     "growth"
+    ],
+    "correct": [
+     "competitive-response"
+    ],
+    "why": "A rival's move has caused the order loss and the client must decide how to react, so the tree starts from the threat and weighs responses.",
+    "distractorWhyNot": {
+     "pricing": "Discount gaps are one reason customers switch, but the rival's advantage is mainly speed and range, so the question is how to respond to its whole proposition, not what to charge.",
+     "profitability": "Profit matters for judging options, but the trigger and question are about a competitor's move.",
+     "growth": "The immediate task is defending the profitable core, not finding new sources of growth."
+    }
+   }
+  },
+  {
+   "id": "ecommerce-c08",
+   "title": "Launching a diaper subscription",
+   "industry": "ecommerce",
+   "framework": "product-launch",
+   "secondary": [],
+   "difficulty": "Intermediate",
+   "region": "India",
+   "prompt": "A D2C baby care brand in India sells diapers and wipes through its website and app to about 4 lakh active customers. Parents use up a diaper pack roughly every three weeks, but only 35% of diaper customers buy from the brand again within 60 days. The brand is considering a subscription with 10% off automatic monthly deliveries. Should it launch, and how should the offer be designed?",
+   "clarifyingFacts": [
+    "Q: What is the objective? A: Raise repeat purchase and lifetime value; the target is for subscriptions to reach 25% of diaper revenue within 18 months.",
+    "Q: What are the economics today? A: Average diaper order ₹1,100 at 40% gross margin (₹440); win-back ads cost about ₹60 per repeat order.",
+    "Q: Where do lapsed customers go? A: Surveys say most buy from quick commerce apps or marketplaces when they run out before the brand's 2-4 day delivery arrives.",
+    "Q: Can payments be automated? A: Yes, through UPI AutoPay and card mandates; about 60% of customers pay by UPI."
+   ],
+   "modelTree": {
+    "id": "r",
+    "label": "Should the brand launch a 10%-off diaper subscription, and in what form?",
+    "children": [
+     {
+      "id": "a",
+      "label": "Will parents sign up and stay?",
+      "children": [
+       {
+        "id": "a1",
+        "label": "Need for the offer",
+        "children": [
+         {
+          "id": "a1x",
+          "label": "Running out and buying elsewhere"
+         },
+         {
+          "id": "a1y",
+          "label": "Changing sizes as the baby grows"
+         }
+        ]
+       },
+       {
+        "id": "a2",
+        "label": "Alternatives: quick commerce, marketplace deals, local chemists"
+       },
+       {
+        "id": "a3",
+        "label": "Expected sign-up and cancellation",
+        "children": [
+         {
+          "id": "a3x",
+          "label": "Sign-up among current repeat buyers"
+         },
+         {
+          "id": "a3y",
+          "label": "Cancellation at the move to pull-ups or toilet training"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "id": "b",
+      "label": "Does it make money?",
+      "children": [
+       {
+        "id": "b1",
+        "label": "Margin given away on orders that would have happened anyway"
+       },
+       {
+        "id": "b2",
+        "label": "Margin gained from customers who would have lapsed",
+        "children": [
+         {
+          "id": "b2x",
+          "label": "Lift in 60-day repeat rate"
+         },
+         {
+          "id": "b2y",
+          "label": "Lower win-back ad spend"
+         }
+        ]
+       },
+       {
+        "id": "b3",
+        "label": "Cost to serve",
+        "children": [
+         {
+          "id": "b3x",
+          "label": "Savings from scheduled, batched deliveries"
+         },
+         {
+          "id": "b3y",
+          "label": "Cost of reschedules and failed payments"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "id": "c",
+      "label": "How should the offer be designed?",
+      "children": [
+       {
+        "id": "c1",
+        "label": "Discount and commitment terms",
+        "children": [
+         {
+          "id": "c1x",
+          "label": "Flat 10% or rising with tenure"
+         },
+         {
+          "id": "c1y",
+          "label": "Pause, skip and size-change rules"
+         }
+        ]
+       },
+       {
+        "id": "c2",
+        "label": "Delivery cadence: fixed monthly or matched to use"
+       }
+      ]
+     },
+     {
+      "id": "d",
+      "label": "Can the brand deliver it?",
+      "children": [
+       {
+        "id": "d1",
+        "label": "Stock forecasting by diaper size"
+       },
+       {
+        "id": "d2",
+        "label": "Recurring payments",
+        "children": [
+         {
+          "id": "d2x",
+          "label": "UPI AutoPay and card mandate success rates"
+         },
+         {
+          "id": "d2y",
+          "label": "Recovery of failed payments"
+         }
+        ]
+       },
+       {
+        "id": "d3",
+        "label": "Delivery before the customer runs out"
+       }
+      ]
+     }
+    ]
+   },
+   "hypotheses": [
+    "The subscription pays only if 60-day repeat among subscribers rises from 35% to above about 40%, because the 10% discount (₹110) costs more than the ₹60 win-back ads it replaces.",
+    "Most early sign-ups will be parents who already reorder, so the discount may mostly subsidise existing loyal demand unless the offer targets lapsing customers.",
+    "Parents use a pack every three weeks, so a monthly plan leaves them about one pack short every three months and sends them to quick commerce; matching the cadence to use, and upgrading sizes automatically, will cut churn more than a deeper discount."
+   ],
+   "hints": [
+    "Use the standard launch questions, but make the economics incremental: compare with what customers would have done without the offer.",
+    "First-level branches: will parents sign up and stay; does it make money; how should the offer be designed; can the brand deliver it.",
+    "Can the brand deliver it: stock forecasting by diaper size; recurring payments (mandate success rates, recovery of failed payments); delivery before the customer runs out."
+   ],
+   "keyMetrics": [
+    {
+     "name": "Break-even repeat rate",
+     "formula": "35% x (₹440 - ₹60) / (₹440 - ₹110)"
+    },
+    {
+     "name": "Incremental margin per subscriber",
+     "formula": "subscribed orders x (gross margin - discount) - orders that would have happened anyway x (gross margin - win-back cost)"
+    }
+   ],
+   "commonMistakes": [
+    "Counting every subscription order as extra revenue, when many subscribers would have reordered anyway.",
+    "Taking 'monthly' from the brief at face value: with a pack used every three weeks and sizes changing every few months, a rigid monthly plan sends too little, then the wrong size."
+   ],
+   "frameworkPick": {
+    "options": [
+     "product-launch",
+     "pricing",
+     "growth",
+     "operations"
+    ],
+    "correct": [
+     "product-launch"
+    ],
+    "why": "The brand is deciding whether to launch a new offer and how to design it, so the tree tests demand, economics, design and delivery.",
+    "distractorWhyNot": {
+     "pricing": "The discount is one design choice, but the question is whether to launch the offer at all.",
+     "growth": "Higher lifetime value is the goal, but the question is about one specific new offer.",
+     "operations": "Forecasting and delivery are part of the answer, not the whole decision."
+    }
+   }
+  },
+  {
+   "id": "ecommerce-c09",
+   "title": "Who should a paid loyalty programme target?",
+   "industry": "ecommerce",
+   "framework": "segmentation",
+   "secondary": [],
+   "difficulty": "Intermediate",
+   "region": "India",
+   "prompt": "An Indian online fashion and lifestyle marketplace has about 2 crore customers who bought in the last year. It plans to launch a paid loyalty programme at ₹299 a year, offering free delivery, early access to sales and faster refunds. Which customer segments should it target first?",
+   "clarifyingFacts": [
+    "Q: What is the objective? A: Grow profitable spend per customer; the programme should at least cover the cost of its benefits in year one.",
+    "Q: What do we know about customers? A: The top 10% by spend generate about 45% of sales; about 40% of customers bought only once last year.",
+    "Q: What do the benefits cost? A: Free delivery waives a ₹40 fee on orders below the ₹499 free-delivery threshold; contribution after returns averages about ₹60 per order, not counting any delivery fee; early sale access costs little; faster refunds raise fraud and return risk.",
+    "Q: How do return rates vary? A: From about 10% for some customers to over 50% for heavy 'buy and try' customers."
+   ],
+   "modelTree": {
+    "id": "r",
+    "label": "Which customer segments should the ₹299 paid loyalty programme target first?",
+    "children": [
+     {
+      "id": "a",
+      "label": "Segment customers by order frequency and order value",
+      "children": [
+       {
+        "id": "a1",
+        "label": "Frequent, high-value buyers",
+        "children": [
+         {
+          "id": "a1x",
+          "label": "Low returners"
+         },
+         {
+          "id": "a1y",
+          "label": "High returners (over 40%)"
+         }
+        ]
+       },
+       {
+        "id": "a2",
+        "label": "Frequent, low-value deal seekers",
+        "children": [
+         {
+          "id": "a2x",
+          "label": "Low returners"
+         },
+         {
+          "id": "a2y",
+          "label": "High returners (over 40%)"
+         }
+        ]
+       },
+       {
+        "id": "a3",
+        "label": "Occasional, high-value buyers"
+       },
+       {
+        "id": "a4",
+        "label": "Occasional, low-value buyers"
+       }
+      ]
+     },
+     {
+      "id": "b",
+      "label": "Value to the marketplace of each segment",
+      "children": [
+       {
+        "id": "b1",
+        "label": "Current contribution",
+        "children": [
+         {
+          "id": "b1x",
+          "label": "Orders per year x order value"
+         },
+         {
+          "id": "b1y",
+          "label": "Margin after returns"
+         }
+        ]
+       },
+       {
+        "id": "b2",
+        "label": "Extra spend the programme could unlock",
+        "children": [
+         {
+          "id": "b2x",
+          "label": "More orders once delivery is free"
+         },
+         {
+          "id": "b2y",
+          "label": "Spend won from rival apps"
+         }
+        ]
+       },
+       {
+        "id": "b3",
+        "label": "Cost of benefits",
+        "children": [
+         {
+          "id": "b3x",
+          "label": "Delivery fees waived"
+         },
+         {
+          "id": "b3y",
+          "label": "Fraud and return risk from faster refunds"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "id": "c",
+      "label": "Appeal of the programme to each segment",
+      "children": [
+       {
+        "id": "c1",
+        "label": "Value of benefits against the ₹299 fee",
+        "children": [
+         {
+          "id": "c1x",
+          "label": "Delivery fees saved per year"
+         },
+         {
+          "id": "c1y",
+          "label": "Value placed on early sale access"
+         }
+        ]
+       },
+       {
+        "id": "c2",
+        "label": "Willingness to prepay: past use of paid memberships"
+       }
+      ]
+     }
+    ]
+   },
+   "hypotheses": [
+    "Test first: frequent, low-value buyers with low return rates. They pay the ₹40 fee most often, so the offer is worth most to them (it pays for itself after about 7.5 sub-threshold orders a year), but it pays for the marketplace only if it changes behaviour: a member who already places 10 fee-paying orders a year costs ₹400 in waived fees against the ₹299 fee, so must add about 2 orders a year at ₹60 contribution to break even.",
+    "Frequent, high-value buyers mostly order above the free-delivery threshold already, so the programme gives them little new and adds little spend.",
+    "High-return 'buy and try' customers should be excluded from faster refunds, or the programme turns them loss-making."
+   ],
+   "hints": [
+    "Define segments on the behaviours that decide whether the benefits change what a customer does, then score each segment from both sides of the deal.",
+    "First-level branches: segment customers by frequency and order value; value of each segment to the marketplace; appeal of the programme to each segment.",
+    "Appeal to each segment: value of the benefits against the ₹299 fee (delivery fees saved, early sale access); likely sign-up rate."
+   ],
+   "keyMetrics": [
+    {
+     "name": "Customer payback on fee",
+     "formula": "₹299 / delivery fee saved per order (~₹40) ≈ 7.5 orders a year"
+    },
+    {
+     "name": "Incremental contribution per member",
+     "formula": "₹299 fee + extra orders x ~₹60 - ₹40 fees waived on orders that would have paid the fee anyway - extra refund and fraud cost"
+    }
+   ],
+   "commonMistakes": [
+    "Targeting the top 10% of spenders by default, when the question is where the programme changes behaviour, not who spends most.",
+    "Ignoring return rates: a high-spend but high-return segment can become loss-making once refunds are faster."
+   ],
+   "frameworkPick": {
+    "options": [
+     "segmentation",
+     "pricing",
+     "growth",
+     "product-launch"
+    ],
+    "correct": [
+     "segmentation"
+    ],
+    "why": "The programme and fee are set; the question is which customer groups to target first, so the tree defines segments and ranks them.",
+    "distractorWhyNot": {
+     "pricing": "The fee is fixed at ₹299; the question is who to target, not what to charge.",
+     "growth": "Higher spend is the aim, but the question asks specifically to choose between customer groups.",
+     "product-launch": "The launch decision is made; only the target audience is open."
+    }
+   }
+  },
+  {
+   "id": "ecommerce-c10",
+   "title": "PE bet on a supplements brand",
+   "industry": "ecommerce",
+   "framework": "pe-dd",
+   "secondary": [
+    "growth"
+   ],
+   "difficulty": "Advanced",
+   "region": "India",
+   "prompt": "A PE fund is considering buying a 60% stake in an Indian D2C sports nutrition brand. Revenue grew 55% last year to ₹450 crore, EBITDA is -3%, and the founders want a valuation of 4.5 times revenue. The fund targets a 25% IRR over five years. Should it invest at this price?",
+   "clarifyingFacts": [
+    "Q: Where is growth coming from? A: Marketplaces and quick commerce rose from 40% to 62% of revenue in two years; own-website revenue is flat.",
+    "Q: What does customer data show? A: New customers doubled, but the share of a yearly cohort still buying after 12 months fell from 32% (FY24 cohort) to 21% (FY25 cohort).",
+    "Q: How is the product made? A: Two contract manufacturers make 85% of volume; one received an FSSAI notice last year over label claims, since resolved.",
+    "Q: What do comparable deals look like? A: Recent Indian consumer brand deals have been priced at 2-4 times revenue, higher only for profitable brands."
+   ],
+   "modelTree": {
+    "id": "r",
+    "label": "Should the fund buy 60% at 4.5x revenue (₹2,025 crore value) for a 25% IRR?",
+    "children": [
+     {
+      "id": "a",
+      "label": "Is the market attractive?",
+      "children": [
+       {
+        "id": "a1",
+        "label": "Category size and growth",
+        "children": [
+         {
+          "id": "a1x",
+          "label": "Number of supplement users"
+         },
+         {
+          "id": "a1y",
+          "label": "Spend per user and premiumisation"
+         }
+        ]
+       },
+       {
+        "id": "a2",
+        "label": "Shift to marketplaces and quick commerce",
+        "children": [
+         {
+          "id": "a2x",
+          "label": "Who owns the customer and the price"
+         },
+         {
+          "id": "a2y",
+          "label": "Channel fees and discount pressure"
+         }
+        ]
+       },
+       {
+        "id": "a3",
+        "label": "Regulation and trust",
+        "children": [
+         {
+          "id": "a3x",
+          "label": "FSSAI rules on nutraceutical labels and claims"
+         },
+         {
+          "id": "a3y",
+          "label": "Counterfeits and quality concerns online"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "id": "b",
+      "label": "Is the business sound and its growth repeatable?",
+      "children": [
+       {
+        "id": "b1",
+        "label": "New vs repeat revenue",
+        "children": [
+         {
+          "id": "b1x",
+          "label": "12-month cohort retention: 32% to 21%"
+         },
+         {
+          "id": "b1y",
+          "label": "Spend per retained customer"
+         }
+        ]
+       },
+       {
+        "id": "b2",
+        "label": "Contribution by channel",
+        "children": [
+         {
+          "id": "b2x",
+          "label": "Website vs marketplace vs quick commerce"
+         },
+         {
+          "id": "b2y",
+          "label": "Acquisition cost per new customer"
+         }
+        ]
+       },
+       {
+        "id": "b3",
+        "label": "Brand strength",
+        "children": [
+         {
+          "id": "b3x",
+          "label": "Share of direct and organic traffic"
+         },
+         {
+          "id": "b3y",
+          "label": "Price premium held without discounts"
+         }
+        ]
+       },
+       {
+        "id": "b4",
+        "label": "Supply and quality risk",
+        "children": [
+         {
+          "id": "b4x",
+          "label": "Dependence on two contract manufacturers"
+         },
+         {
+          "id": "b4y",
+          "label": "Testing and compliance record"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "id": "c",
+      "label": "Can the fund create value?",
+      "children": [
+       {
+        "id": "c1",
+        "label": "Fix retention: subscriptions, community, range"
+       },
+       {
+        "id": "c2",
+        "label": "Improve channel mix and contribution"
+       },
+       {
+        "id": "c3",
+        "label": "Expand offline: gyms, chemists, modern trade"
+       }
+      ]
+     },
+     {
+      "id": "d",
+      "label": "Do returns work at this price?",
+      "children": [
+       {
+        "id": "d1",
+        "label": "Entry price against comparable deals (2-4x revenue)"
+       },
+       {
+        "id": "d2",
+        "label": "Exit value needed for 25% IRR",
+        "children": [
+         {
+          "id": "d2x",
+          "label": "About ₹6,180 crore for a 3.05x money multiple"
+         },
+         {
+          "id": "d2y",
+          "label": "Revenue and margin needed at a realistic exit multiple"
+         }
+        ]
+       },
+       {
+        "id": "d3",
+        "label": "Downside protection",
+        "children": [
+         {
+          "id": "d3x",
+          "label": "Lower price or milestone-linked payments"
+         },
+         {
+          "id": "d3y",
+          "label": "Investor rights and founder lock-in"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   "hypotheses": [
+    "Growth is being bought: cohort retention falling from 32% to 21% and the shift to marketplaces mean new revenue is less repeatable and lower-margin than the 55% headline suggests.",
+    "At 4.5x revenue the fund needs an exit value of about ₹6,180 crore; if exit multiples settle at 3x, revenue must reach about ₹2,060 crore (36% a year for five years), which weakening retention makes unlikely.",
+    "The deal works only at a lower price (nearer 3x revenue) or with part of the price tied to retention and EBITDA milestones."
+   ],
+   "hints": [
+    "Use the standard due diligence sequence, but let the cohort and channel data decide where you go deepest.",
+    "First-level branches: market attractiveness; soundness and repeatability of growth; value the fund can create; returns at this price.",
+    "Market attractiveness: category size and growth (users, spend per user); the shift to marketplaces and quick commerce (who owns the customer, channel fees); regulation and trust (FSSAI label rules, counterfeits)."
+   ],
+   "keyMetrics": [
+    {
+     "name": "Money multiple for 25% IRR over 5 years",
+     "formula": "1.25^5 ≈ 3.05x"
+    },
+    {
+     "name": "Required exit revenue",
+     "formula": "entry value x 3.05 / exit revenue multiple (ignoring debt and dilution)"
+    },
+    {
+     "name": "12-month cohort retention",
+     "formula": "customers from a cohort still buying after 12 months / customers in the cohort"
+    }
+   ],
+   "commonMistakes": [
+    "Taking 55% growth at face value without splitting new from repeat revenue and checking cohort retention.",
+    "Assuming the exit multiple stays at 4.5x revenue, which hides how much future growth the entry price already assumes."
+   ],
+   "frameworkPick": {
+    "options": [
+     "pe-dd",
+     "growth",
+     "ma",
+     "profitability"
+    ],
+    "correct": [
+     "pe-dd",
+     "growth"
+    ],
+    "why": "It is an investment decision at a set price, so the tree follows due diligence (market, company, value creation, returns); the deciding issue is whether growth is repeatable, which needs a growth lens on cohorts and channels.",
+    "distractorWhyNot": {
+     "ma": "A financial buyer has no synergies or integration to test; the question is the return on a five-year hold at a set price, which due diligence logic answers.",
+     "profitability": "Negative EBITDA matters, but the question is price and return, not why margins fell."
+    }
+   }
+  },
+  {
+   "id": "ecommerce-c11",
+   "title": "Marketplace buying a D2C brand",
+   "industry": "ecommerce",
+   "framework": "ma",
+   "secondary": [
+    "profitability"
+   ],
+   "difficulty": "Advanced",
+   "region": "India",
+   "prompt": "Our client is a foreign-owned Indian online marketplace. It wants to buy a fast-growing D2C electronics accessories brand (₹600 crore revenue, 8% EBITDA) for about ₹2,400 crore, mainly to earn product margins instead of the commissions it now earns in that category. About 55% of the brand's sales happen on the client's own platform. Should it go ahead?",
+   "clarifyingFacts": [
+    "Q: How is the client structured? A: It is majority foreign-owned and operates as a pure marketplace under India's FDI rules for e-commerce.",
+    "Q: Where does the brand sell? A: 55% on the client's marketplace, 25% on rival marketplaces, 12% on its own website, 8% in offline electronics stores.",
+    "Q: What are the margins? A: The brand's gross margin is 45%; the client earns about 18% commission plus 4% in advertising on the brand's sales.",
+    "Q: Is anyone else interested? A: A domestic consumer electronics company has also approached the founders."
+   ],
+   "modelTree": {
+    "id": "r",
+    "label": "Should the client buy the accessories brand for about ₹2,400 crore?",
+    "children": [
+     {
+      "id": "a",
+      "label": "Does the deal serve the strategic aim?",
+      "children": [
+       {
+        "id": "a1",
+        "label": "Product margin gained vs marketplace income lost",
+        "children": [
+         {
+          "id": "a1x",
+          "label": "Brand margin on its on-platform sales"
+         },
+         {
+          "id": "a1y",
+          "label": "Commission and ads given up (about ₹73 crore a year)"
+         }
+        ]
+       },
+       {
+        "id": "a2",
+        "label": "Reaction of other sellers in the category",
+        "children": [
+         {
+          "id": "a2x",
+          "label": "Trust in a platform that owns a competitor"
+         },
+         {
+          "id": "a2y",
+          "label": "Rival brands moving volume elsewhere"
+         }
+        ]
+       },
+       {
+        "id": "a3",
+        "label": "Alternatives without ownership: exclusive launches, co-marketing"
+       }
+      ]
+     },
+     {
+      "id": "b",
+      "label": "Is the brand worth ₹2,400 crore on its own?",
+      "children": [
+       {
+        "id": "b1",
+        "label": "Revenue quality by channel",
+        "children": [
+         {
+          "id": "b1x",
+          "label": "Dependence on the client's platform (55%)"
+         },
+         {
+          "id": "b1y",
+          "label": "Growth on rival platforms, website and offline"
+         }
+        ]
+       },
+       {
+        "id": "b2",
+        "label": "Margins and cost structure",
+        "children": [
+         {
+          "id": "b2x",
+          "label": "Sourcing costs and import duties"
+         },
+         {
+          "id": "b2y",
+          "label": "Marketing and returns cost per order"
+         }
+        ]
+       },
+       {
+        "id": "b3",
+        "label": "Price: 4x revenue, 50x EBITDA vs comparable deals"
+       }
+      ]
+     },
+     {
+      "id": "c",
+      "label": "Is the deal allowed, and on what terms?",
+      "children": [
+       {
+        "id": "c1",
+        "label": "FDI rules: sellers with marketplace-group equity cannot sell on it",
+        "children": [
+         {
+          "id": "c1x",
+          "label": "Revenue at risk if on-platform sales stop (₹330 crore)"
+         },
+         {
+          "id": "c1y",
+          "label": "Whether any compliant structure keeps the rationale"
+         }
+        ]
+       },
+       {
+        "id": "c2",
+        "label": "CCI: caught by ₹2,000 crore deal-value test despite small target"
+       },
+       {
+        "id": "c3",
+        "label": "Scrutiny of platform neutrality and self-preferencing"
+       }
+      ]
+     },
+     {
+      "id": "d",
+      "label": "Can value be kept after the deal?",
+      "children": [
+       {
+        "id": "d1",
+        "label": "Founder and team retention",
+        "children": [
+         {
+          "id": "d1x",
+          "label": "Earn-outs and lock-ins"
+         },
+         {
+          "id": "d1y",
+          "label": "Brand autonomy after the deal"
+         }
+        ]
+       },
+       {
+        "id": "d2",
+        "label": "Integration cost and timeline"
+       }
+      ]
+     }
+    ]
+   },
+   "hypotheses": [
+    "Under India's FDI marketplace rules (Press Note 2 of 2018) a seller in which the marketplace group holds equity cannot sell on that marketplace, so after the deal about ₹330 crore of the brand's revenue is at risk and the client loses about ₹73 crore a year of commission and ads: the opposite of the intended margin gain.",
+    "Even without the FDI issue, ₹2,400 crore is 50x EBITDA and assumes the brand keeps a 55% dependence on one platform, which a rival bidder would not pay for.",
+    "An exclusive launch or co-marketing partnership captures some category economics without ownership and without alienating other sellers."
+   ],
+   "hints": [
+    "Use the standard acquisition logic, but test the stated rationale with margin arithmetic before valuing anything.",
+    "First-level branches: does it serve the strategic aim; is the brand worth the price on its own; is the deal allowed; can value be kept after the deal.",
+    "Can value be kept after the deal: founder and team retention (earn-outs, lock-ins, brand autonomy); integration cost and timeline."
+   ],
+   "keyMetrics": [
+    {
+     "name": "Net annual gain from the deal",
+     "formula": "brand EBITDA kept after channel changes + synergies - commission and ad income given up - integration costs"
+    },
+    {
+     "name": "Implied multiples",
+     "formula": "₹2,400 crore / ₹600 crore revenue = 4x; / ₹48 crore EBITDA = 50x"
+    }
+   ],
+   "commonMistakes": [
+    "Assuming the brand can keep selling on the client's platform after the deal, missing the FDI marketplace rules that defeat the main rationale.",
+    "Counting the brand's full margin as a gain without subtracting the commission and advertising income the client already earns from it."
+   ],
+   "frameworkPick": {
+    "options": [
+     "ma",
+     "profitability",
+     "market-entry",
+     "pe-dd"
+    ],
+    "correct": [
+     "ma",
+     "profitability"
+    ],
+    "why": "A strategic acquisition needs an M&A tree (rationale, standalone value, regulation, integration), and the rationale is a margin argument that must be tested with profitability logic: product margin gained against commission lost.",
+    "distractorWhyNot": {
+     "market-entry": "The client already operates in the category through its marketplace.",
+     "pe-dd": "The buyer is a strategic acquirer seeking synergies, not a financial investor planning an exit."
+    }
+   }
+  },
+  {
+   "id": "ecommerce-c12",
+   "title": "Online furniture retailer running out of cash",
+   "industry": "ecommerce",
+   "framework": "turnaround",
+   "secondary": [
+    "operations"
+   ],
+   "difficulty": "Advanced",
+   "region": "Global",
+   "prompt": "A European online furniture retailer with €380 million revenue sells mostly sofas and beds from its own stock. After a post-pandemic slump it has €55 million of cash and burns about €11 million a month, and its €80 million loan requires it to keep at least €25 million of cash at all times. The lenders want cash preserved; the founders want to keep spending on marketing to return to growth. What should the company do?",
+   "clarifyingFacts": [
+    "Q: Where is the cash going? A: An operating loss of about €4 million a month, plus about €7 million a month of stock bought for the autumn peak that has not yet sold. Capital spending is small.",
+    "Q: What does inventory look like? A: €140 million of stock, about 40% of it older than nine months; suppliers are paid on 30-day terms on average.",
+    "Q: What are the unit economics? A: Gross margin 42%; two-person delivery and returns cost about 18% of revenue; marketing is 14% of revenue, with new customers taking over 18 months to pay back their acquisition cost.",
+    "Q: What support is available? A: The lenders will consider a covenant waiver in return for a 13-week cash plan; shareholders might provide a bridge loan if the plan is credible."
+   ],
+   "modelTree": {
+    "id": "r",
+    "label": "How can the retailer stay above its €25m cash floor and return to viability?",
+    "children": [
+     {
+      "id": "a",
+      "label": "Reduce the operating loss (about €4m a month)",
+      "children": [
+       {
+        "id": "a1",
+        "label": "Raise gross margin (42%)",
+        "children": [
+         {
+          "id": "a1x",
+          "label": "Fewer blanket discounts"
+         },
+         {
+          "id": "a1y",
+          "label": "Drop low-margin ranges"
+         }
+        ]
+       },
+       {
+        "id": "a2",
+        "label": "Cut delivery and returns cost (18% of revenue)",
+        "children": [
+         {
+          "id": "a2x",
+          "label": "Damage and failed-delivery rates"
+         },
+         {
+          "id": "a2y",
+          "label": "Route density for two-person deliveries"
+         }
+        ]
+       },
+       {
+        "id": "a3",
+        "label": "Keep only marketing that pays back",
+        "children": [
+         {
+          "id": "a3x",
+          "label": "Pause channels whose payback is longer than the cash runway"
+         },
+         {
+          "id": "a3y",
+          "label": "Shift spend to repeat and referral customers"
+         }
+        ]
+       },
+       {
+        "id": "a4",
+        "label": "Resize fixed costs to the smaller business",
+        "children": [
+         {
+          "id": "a4x",
+          "label": "Warehouses and showrooms"
+         },
+         {
+          "id": "a4y",
+          "label": "Head office and technology contracts"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "id": "b",
+      "label": "Release cash from working capital",
+      "children": [
+       {
+        "id": "b1",
+        "label": "Sell aged stock (about €56m over nine months old)",
+        "children": [
+         {
+          "id": "b1x",
+          "label": "Outlet and clearance channels"
+         },
+         {
+          "id": "b1y",
+          "label": "Bulk sale to liquidators"
+         }
+        ]
+       },
+       {
+        "id": "b2",
+        "label": "Cancel or delay unsold peak-season orders"
+       },
+       {
+        "id": "b3",
+        "label": "Extend supplier payment terms beyond 30 days"
+       }
+      ]
+     },
+     {
+      "id": "c",
+      "label": "Cut capital spending (small today)",
+      "children": [
+       {
+        "id": "c1",
+        "label": "Defer showroom fit-outs"
+       },
+       {
+        "id": "c2",
+        "label": "Defer non-essential technology projects"
+       }
+      ]
+     },
+     {
+      "id": "d",
+      "label": "Secure funding and covenant headroom",
+      "children": [
+       {
+        "id": "d1",
+        "label": "Lenders: waiver or reset of the covenant",
+        "children": [
+         {
+          "id": "d1x",
+          "label": "13-week cash plan and weekly reporting"
+         },
+         {
+          "id": "d1y",
+          "label": "Fees or higher interest as the price"
+         }
+        ]
+       },
+       {
+        "id": "d2",
+        "label": "Shareholders: bridge funding",
+        "children": [
+         {
+          "id": "d2x",
+          "label": "Amount needed to fund the plan"
+         },
+         {
+          "id": "d2y",
+          "label": "Milestones that release each tranche"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   "hypotheses": [
+    "Working capital is the fastest lever: stopping the €7m monthly stock build alone cuts burn to about €4m and stretches headroom from 2.7 to about 7.5 months, and clearing part of the €56m of aged stock buys more.",
+    "Marketing (about €4.4m a month) is what lenders and founders disagree on; with average payback over 18 months and under three months of headroom, almost none of it returns cash in time, so a rule of funding only channels that pay back within the plan period (mostly repeat and referral) settles which spend continues.",
+    "Delivery and returns at 18% of revenue point to high damage and failed-delivery rates that can be cut within a quarter."
+   ],
+   "hints": [
+    "Build the tree from the cash equation rather than the profit equation.",
+    "First-level branches: reduce the operating loss; release cash from working capital; cut capital spending; secure funding and covenant headroom.",
+    "Secure funding and covenant headroom: lenders' waiver or reset (13-week cash plan, weekly reporting, fees); shareholder bridge (amount needed, milestones for each tranche)."
+   ],
+   "keyMetrics": [
+    {
+     "name": "Months until covenant breach",
+     "formula": "(cash - €25m floor) / monthly net burn = (€55m - €25m) / €11m ≈ 2.7 months"
+    },
+    {
+     "name": "Monthly net burn",
+     "formula": "operating loss + increase in working capital + capital spending - new funding"
+    }
+   ],
+   "commonMistakes": [
+    "Proposing a long-term growth or cost programme without first fixing the 13-week cash position, when the covenant breaks in under three months.",
+    "Taking one side in the lender-founder conflict instead of using marketing payback to decide which spend continues."
+   ],
+   "frameworkPick": {
+    "options": [
+     "turnaround",
+     "operations",
+     "profitability",
+     "growth"
+    ],
+    "correct": [
+     "turnaround",
+     "operations"
+    ],
+    "why": "A cash crunch with a covenant about to break calls for a turnaround tree built on the cash equation, and most of the levers (stock, delivery, returns) are operational.",
+    "distractorWhyNot": {
+     "profitability": "Losses matter, but the binding constraint is cash and the covenant, which a profit tree misses (working capital, funding).",
+     "growth": "Returning to growth is the founders' wish, but the company cannot fund it until it survives the next quarter."
+    }
+   }
+  }
+ ],
+ "flaws": [
+  {
+   "id": "ecommerce-f01",
+   "title": "Sizing online fashion spend",
+   "industry": "ecommerce",
+   "framework": "market-sizing",
+   "difficulty": "Beginner",
+   "tree": {
+    "id": "r",
+    "label": "Annual online fashion spend in India",
+    "children": [
+     {
+      "id": "a",
+      "label": "Shoppers in metro cities",
+      "children": [
+       {
+        "id": "a1",
+        "label": "Number of online fashion shoppers"
+       },
+       {
+        "id": "a2",
+        "label": "Annual online fashion spend per shopper"
+       }
+      ]
+     },
+     {
+      "id": "b",
+      "label": "Shoppers outside the metros (tier 2, tier 3, rural)",
+      "children": [
+       {
+        "id": "b1",
+        "label": "Number of online fashion shoppers"
+       },
+       {
+        "id": "b2",
+        "label": "Annual online fashion spend per shopper"
+       }
+      ]
+     },
+     {
+      "id": "c",
+      "label": "Shoppers on social commerce apps",
+      "children": [
+       {
+        "id": "c1",
+        "label": "Number of online fashion shoppers"
+       },
+       {
+        "id": "c2",
+        "label": "Annual online fashion spend per shopper"
+       }
+      ]
+     }
+    ]
+   },
+   "flaws": [
+    {
+     "nodeId": "c",
+     "type": "overlap",
+     "explanation": "Social commerce shoppers live in metros or outside them, so their spend is already counted in the two geography branches. A shopping channel is a different cut, not a third geography.",
+     "fix": "Remove it. If channel matters, split each geography branch by channel one level down."
+    }
+   ],
+   "correctedTree": {
+    "id": "r",
+    "label": "Annual online fashion spend in India",
+    "children": [
+     {
+      "id": "a",
+      "label": "Shoppers in metro cities",
+      "children": [
+       {
+        "id": "a1",
+        "label": "Number of online fashion shoppers"
+       },
+       {
+        "id": "a2",
+        "label": "Annual online fashion spend per shopper"
+       }
+      ]
+     },
+     {
+      "id": "b",
+      "label": "Shoppers outside the metros (tier 2, tier 3, rural)",
+      "children": [
+       {
+        "id": "b1",
+        "label": "Number of online fashion shoppers"
+       },
+       {
+        "id": "b2",
+        "label": "Annual online fashion spend per shopper"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "ecommerce-f02",
+   "title": "Cost per order of a D2C apparel brand",
+   "industry": "ecommerce",
+   "framework": "profitability",
+   "difficulty": "Beginner",
+   "tree": {
+    "id": "r",
+    "label": "Variable cost per order on an Indian D2C apparel brand's own website",
+    "children": [
+     {
+      "id": "a",
+      "label": "Product cost"
+     },
+     {
+      "id": "b",
+      "label": "Marketing per order"
+     },
+     {
+      "id": "c",
+      "label": "Fulfilment and shipping",
+      "children": [
+       {
+        "id": "c1",
+        "label": "Warehouse picking and packing"
+       },
+       {
+        "id": "c2",
+        "label": "Packaging material"
+       },
+       {
+        "id": "c3",
+        "label": "Forward shipping to the customer"
+       }
+      ]
+     },
+     {
+      "id": "d",
+      "label": "Payment gateway and COD fees"
+     }
+    ]
+   },
+   "flaws": [
+    {
+     "nodeId": "r",
+     "type": "gap",
+     "explanation": "Returns and RTO are missing. In Indian online apparel, a quarter or more of orders can come back (customer returns plus COD orders refused at the door), each with reverse shipping and often a markdown, so this is one of the largest costs per order.",
+     "fix": "Add a branch 'Returns and RTO cost' with 'Reverse and failed-delivery shipping' and 'Markdowns on damaged or unsaleable returns'."
+    }
+   ],
+   "correctedTree": {
+    "id": "r",
+    "label": "Variable cost per order on an Indian D2C apparel brand's own website",
+    "children": [
+     {
+      "id": "a",
+      "label": "Product cost"
+     },
+     {
+      "id": "b",
+      "label": "Marketing per order"
+     },
+     {
+      "id": "c",
+      "label": "Fulfilment and shipping",
+      "children": [
+       {
+        "id": "c1",
+        "label": "Warehouse picking and packing"
+       },
+       {
+        "id": "c2",
+        "label": "Packaging material"
+       },
+       {
+        "id": "c3",
+        "label": "Forward shipping to the customer"
+       }
+      ]
+     },
+     {
+      "id": "d",
+      "label": "Payment gateway and COD fees"
+     },
+     {
+      "id": "e",
+      "label": "Returns and RTO cost",
+      "children": [
+       {
+        "id": "e1",
+        "label": "Reverse and failed-delivery shipping"
+       },
+       {
+        "id": "e2",
+        "label": "Markdowns on damaged or unsaleable returns"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "ecommerce-f03",
+   "title": "Why deliveries are slower",
+   "industry": "ecommerce",
+   "framework": "operations",
+   "difficulty": "Intermediate",
+   "tree": {
+    "id": "r",
+    "label": "Why has average delivery time risen from 3 to 5 days at an online marketplace?",
+    "children": [
+     {
+      "id": "a",
+      "label": "Processing before pickup (seller or fulfilment centre)",
+      "children": [
+       {
+        "id": "a1",
+        "label": "Seller-shipped orders: slow packing and handover"
+       },
+       {
+        "id": "a2",
+        "label": "Fulfilment-centre orders: pick-pack backlog"
+       }
+      ]
+     },
+     {
+      "id": "b",
+      "label": "First-mile pickup and hub sorting",
+      "children": [
+       {
+        "id": "b1",
+        "label": "Missed or late pickups"
+       },
+       {
+        "id": "b2",
+        "label": "Mis-sorted parcels at hubs"
+       }
+      ]
+     },
+     {
+      "id": "c",
+      "label": "Line-haul between cities",
+      "children": [
+       {
+        "id": "c1",
+        "label": "Truck shortages on key lanes"
+       },
+       {
+        "id": "c2",
+        "label": "Congestion at transit hubs"
+       }
+      ]
+     },
+     {
+      "id": "d",
+      "label": "Last-mile delivery",
+      "children": [
+       {
+        "id": "d1",
+        "label": "Failed first delivery attempts"
+       },
+       {
+        "id": "d2",
+        "label": "Fewer riders per pin code"
+       }
+      ]
+     },
+     {
+      "id": "e",
+      "label": "Rider attrition in the largest metro"
+     }
+    ]
+   },
+   "flaws": [
+    {
+     "nodeId": "e",
+     "type": "mixed-levels",
+     "explanation": "Rider attrition in one city is a specific cause inside last-mile delivery (under 'Fewer riders per pin code'), yet it sits at the same level as the four stages of the parcel's journey.",
+     "fix": "Remove it from the first level; if the data points to it, test it under 'Fewer riders per pin code'."
+    },
+    {
+     "nodeId": "c",
+     "type": "gap",
+     "explanation": "Line-haul time depends on transport mode and distance as well as on capacity and hub waiting. Indian marketplaces often move volume from air to cheaper surface transport, and a growing share of orders from smaller towns lengthens the average lane; either adds days with no shortage or congestion anywhere.",
+     "fix": "Add 'Volume moved from air to slower surface transport' and 'Longer lanes as more orders go to smaller towns' under line-haul."
+    }
+   ],
+   "correctedTree": {
+    "id": "r",
+    "label": "Why has average delivery time risen from 3 to 5 days at an online marketplace?",
+    "children": [
+     {
+      "id": "a",
+      "label": "Processing before pickup (seller or fulfilment centre)",
+      "children": [
+       {
+        "id": "a1",
+        "label": "Seller-shipped orders: slow packing and handover"
+       },
+       {
+        "id": "a2",
+        "label": "Fulfilment-centre orders: pick-pack backlog"
+       }
+      ]
+     },
+     {
+      "id": "b",
+      "label": "First-mile pickup and hub sorting",
+      "children": [
+       {
+        "id": "b1",
+        "label": "Missed or late pickups"
+       },
+       {
+        "id": "b2",
+        "label": "Mis-sorted parcels at hubs"
+       }
+      ]
+     },
+     {
+      "id": "c",
+      "label": "Line-haul between cities",
+      "children": [
+       {
+        "id": "c1",
+        "label": "Truck shortages on key lanes"
+       },
+       {
+        "id": "c2",
+        "label": "Congestion at transit hubs"
+       },
+       {
+        "id": "c3",
+        "label": "Volume moved from air to slower surface transport"
+       },
+       {
+        "id": "c4",
+        "label": "Longer lanes as more orders go to smaller towns"
+       }
+      ]
+     },
+     {
+      "id": "d",
+      "label": "Last-mile delivery",
+      "children": [
+       {
+        "id": "d1",
+        "label": "Failed first delivery attempts"
+       },
+       {
+        "id": "d2",
+        "label": "Fewer riders per pin code"
+       }
+      ]
+     }
+    ]
+   },
+   "decoys": [
+    {
+     "nodeId": "d1",
+     "whyFine": "Failed attempts look like a quality metric, but each re-attempt usually adds a day, so they drive delivery time directly."
+    },
+    {
+     "nodeId": "a1",
+     "whyFine": "Splitting processing by fulfilment model looks like a different basis from the journey stages, but within this one stage every order is either seller-shipped or fulfilment-centre shipped."
+    }
+   ]
+  },
+  {
+   "id": "ecommerce-f04",
+   "title": "Raising seller commission",
+   "industry": "ecommerce",
+   "framework": "pricing",
+   "difficulty": "Intermediate",
+   "tree": {
+    "id": "r",
+    "label": "What is the net revenue effect of raising seller commission from 8% to 11%?",
+    "children": [
+     {
+      "id": "a",
+      "label": "Take per rupee of GMV",
+      "children": [
+       {
+        "id": "a1",
+        "label": "Headline commission: up 3 points"
+       },
+       {
+        "id": "a2",
+        "label": "Rebates and waivers to keep top sellers"
+       },
+       {
+        "id": "a3",
+        "label": "Advertising revenue per rupee of GMV"
+       },
+       {
+        "id": "a4",
+        "label": "Fulfilment, shipping and closing fees per rupee of GMV"
+       },
+       {
+        "id": "a5",
+        "label": "GST collected on the higher commission"
+       }
+      ]
+     },
+     {
+      "id": "b",
+      "label": "Change in GMV",
+      "children": [
+       {
+        "id": "b1",
+        "label": "Seller volume lost: leaving, shifting to the rival, not joining"
+       },
+       {
+        "id": "b2",
+        "label": "Buyers buying less after sellers raise prices"
+       }
+      ]
+     }
+    ]
+   },
+   "flaws": [
+    {
+     "nodeId": "a5",
+     "type": "not-a-driver",
+     "explanation": "GST at 18% on the commission rises with it, but the marketplace only collects it for the government, and GST-registered sellers claim it back as input tax credit, so it is neither marketplace revenue nor a cost that pushes sellers away. It cannot change the net revenue effect.",
+     "fix": "Remove it. Net revenue is take per rupee of GMV (excluding taxes) multiplied by GMV, and the remaining branches cover both."
+    }
+   ],
+   "correctedTree": {
+    "id": "r",
+    "label": "What is the net revenue effect of raising seller commission from 8% to 11%?",
+    "children": [
+     {
+      "id": "a",
+      "label": "Take per rupee of GMV",
+      "children": [
+       {
+        "id": "a1",
+        "label": "Headline commission: up 3 points"
+       },
+       {
+        "id": "a2",
+        "label": "Rebates and waivers to keep top sellers"
+       },
+       {
+        "id": "a3",
+        "label": "Advertising revenue per rupee of GMV"
+       },
+       {
+        "id": "a4",
+        "label": "Fulfilment, shipping and closing fees per rupee of GMV"
+       }
+      ]
+     },
+     {
+      "id": "b",
+      "label": "Change in GMV",
+      "children": [
+       {
+        "id": "b1",
+        "label": "Seller volume lost: leaving, shifting to the rival, not joining"
+       },
+       {
+        "id": "b2",
+        "label": "Buyers buying less after sellers raise prices"
+       }
+      ]
+     }
+    ]
+   },
+   "decoys": [
+    {
+     "nodeId": "a2",
+     "whyFine": "Rebates look like a cost, but they cut the effective commission, so headline rate less rebates is the real take."
+    },
+    {
+     "nodeId": "a4",
+     "whyFine": "These fees sound like costs, but for the marketplace they are revenue charged to sellers, and they fall if sellers leave."
+    }
+   ]
+  },
+  {
+   "id": "ecommerce-f05",
+   "title": "Private-label staples for a grocery app",
+   "industry": "ecommerce",
+   "framework": "product-launch",
+   "difficulty": "Intermediate",
+   "tree": {
+    "id": "r",
+    "label": "Should an online grocery app launch its own brand of rice, atta and oils?",
+    "children": [
+     {
+      "id": "a",
+      "label": "Will customers buy it?",
+      "children": [
+       {
+        "id": "a1",
+        "label": "Share of shoppers willing to try own brands"
+       },
+       {
+        "id": "a2",
+        "label": "Categories with weak brand loyalty"
+       },
+       {
+        "id": "a3",
+        "label": "Price gap needed against national brands"
+       }
+      ]
+     },
+     {
+      "id": "b",
+      "label": "Will it make money?",
+      "children": [
+       {
+        "id": "b1",
+        "label": "Margin per unit against selling national brands",
+        "children": [
+         {
+          "id": "b1x",
+          "label": "Higher gross margin on own brand"
+         },
+         {
+          "id": "b1y",
+          "label": "Brand-funded discounts and ad income lost"
+         }
+        ]
+       },
+       {
+        "id": "b2",
+        "label": "Fixed costs of the range: team, design, testing"
+       },
+       {
+        "id": "b3",
+        "label": "Working capital and stock risk of owning inventory"
+       }
+      ]
+     },
+     {
+      "id": "c",
+      "label": "Can the app supply it reliably?",
+      "children": [
+       {
+        "id": "c1",
+        "label": "Contract millers and refiners who process and pack"
+       },
+       {
+        "id": "c2",
+        "label": "Quality testing and FSSAI labelling compliance"
+       },
+       {
+        "id": "c3",
+        "label": "Co-manufacturing partners for the range"
+       }
+      ]
+     }
+    ]
+   },
+   "flaws": [
+    {
+     "nodeId": "c3",
+     "type": "overlap",
+     "explanation": "A co-manufacturer is simply another name for a contract manufacturer: for rice, atta and oils these are the millers and refiners already listed in 'Contract millers and refiners who process and pack', so the same suppliers are counted twice.",
+     "fix": "Remove it; third-party production is fully covered by the first supply branch."
+    }
+   ],
+   "correctedTree": {
+    "id": "r",
+    "label": "Should an online grocery app launch its own brand of rice, atta and oils?",
+    "children": [
+     {
+      "id": "a",
+      "label": "Will customers buy it?",
+      "children": [
+       {
+        "id": "a1",
+        "label": "Share of shoppers willing to try own brands"
+       },
+       {
+        "id": "a2",
+        "label": "Categories with weak brand loyalty"
+       },
+       {
+        "id": "a3",
+        "label": "Price gap needed against national brands"
+       }
+      ]
+     },
+     {
+      "id": "b",
+      "label": "Will it make money?",
+      "children": [
+       {
+        "id": "b1",
+        "label": "Margin per unit against selling national brands",
+        "children": [
+         {
+          "id": "b1x",
+          "label": "Higher gross margin on own brand"
+         },
+         {
+          "id": "b1y",
+          "label": "Brand-funded discounts and ad income lost"
+         }
+        ]
+       },
+       {
+        "id": "b2",
+        "label": "Fixed costs of the range: team, design, testing"
+       },
+       {
+        "id": "b3",
+        "label": "Working capital and stock risk of owning inventory"
+       }
+      ]
+     },
+     {
+      "id": "c",
+      "label": "Can the app supply it reliably?",
+      "children": [
+       {
+        "id": "c1",
+        "label": "Contract millers and refiners who process and pack"
+       },
+       {
+        "id": "c2",
+        "label": "Quality testing and FSSAI labelling compliance"
+       }
+      ]
+     }
+    ]
+   },
+   "decoys": [
+    {
+     "nodeId": "a3",
+     "whyFine": "The price gap looks like a pricing decision, but it is what decides whether shoppers switch, so it belongs under demand."
+    },
+    {
+     "nodeId": "b1y",
+     "whyFine": "Lost brand-funded discounts and ad income look like a revenue item outside the launch, but every shopper who switches to the own brand takes that income away, so it is part of margin per unit."
+    }
+   ]
+  },
+  {
+   "id": "ecommerce-f06",
+   "title": "Quick commerce contribution collapse",
+   "industry": "ecommerce",
+   "framework": "profitability",
+   "difficulty": "Advanced",
+   "tree": {
+    "id": "r",
+    "label": "Why did contribution per order fall from ₹12 to -₹8 at a quick commerce company?",
+    "children": [
+     {
+      "id": "a",
+      "label": "Revenue per order",
+      "children": [
+       {
+        "id": "a1",
+        "label": "Product margin on the basket",
+        "children": [
+         {
+          "id": "a1x",
+          "label": "Average basket value"
+         },
+         {
+          "id": "a1y",
+          "label": "Buying margin % by category mix"
+         },
+         {
+          "id": "a1z",
+          "label": "Platform-funded discounts"
+         }
+        ]
+       },
+       {
+        "id": "a2",
+        "label": "Customer fees collected",
+        "children": [
+         {
+          "id": "a2x",
+          "label": "Delivery fee collected"
+         },
+         {
+          "id": "a2y",
+          "label": "Handling and small-cart fees"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "id": "b",
+      "label": "Variable cost per order",
+      "children": [
+       {
+        "id": "b1",
+        "label": "Dark store operations",
+        "children": [
+         {
+          "id": "b1x",
+          "label": "Picking and packing labour"
+         },
+         {
+          "id": "b1y",
+          "label": "Rent and utilities per order"
+         },
+         {
+          "id": "b1w",
+          "label": "Wastage and shrinkage of stock"
+         }
+        ]
+       },
+       {
+        "id": "b2",
+        "label": "Last-mile delivery",
+        "children": [
+         {
+          "id": "b2x",
+          "label": "Base rider pay per delivery"
+         },
+         {
+          "id": "b2y",
+          "label": "Peak-hour and rain incentives"
+         }
+        ]
+       },
+       {
+        "id": "b3",
+        "label": "Packaging and payment fees"
+       },
+       {
+        "id": "b4",
+        "label": "Cashback credited to customer wallets"
+       }
+      ]
+     }
+    ]
+   },
+   "flaws": [
+    {
+     "nodeId": "b4",
+     "type": "overlap",
+     "explanation": "Cashback is a platform-funded discount paid after checkout instead of at it. It reduces what the platform keeps from the basket exactly as an upfront discount does (and is netted from revenue in the accounts), so it is already inside 'Platform-funded discounts'. Listing it again as a cost counts the same rupees twice.",
+     "fix": "Remove it; treat cashback as part of platform-funded discounts under product margin."
+    },
+    {
+     "nodeId": "a",
+     "type": "gap",
+     "explanation": "Revenue per order leaves out advertising income from brands (sponsored listings, sampling), a significant revenue line for quick commerce platforms. Without it a fall in ad income is invisible, and the model looks more loss-making than it is.",
+     "fix": "Add 'Advertising income from brands' under revenue per order, with 'Sponsored listings' and 'Brand-funded sampling and placements'."
+    }
+   ],
+   "correctedTree": {
+    "id": "r",
+    "label": "Why did contribution per order fall from ₹12 to -₹8 at a quick commerce company?",
+    "children": [
+     {
+      "id": "a",
+      "label": "Revenue per order",
+      "children": [
+       {
+        "id": "a1",
+        "label": "Product margin on the basket",
+        "children": [
+         {
+          "id": "a1x",
+          "label": "Average basket value"
+         },
+         {
+          "id": "a1y",
+          "label": "Buying margin % by category mix"
+         },
+         {
+          "id": "a1z",
+          "label": "Platform-funded discounts"
+         }
+        ]
+       },
+       {
+        "id": "a2",
+        "label": "Customer fees collected",
+        "children": [
+         {
+          "id": "a2x",
+          "label": "Delivery fee collected"
+         },
+         {
+          "id": "a2y",
+          "label": "Handling and small-cart fees"
+         }
+        ]
+       },
+       {
+        "id": "a3",
+        "label": "Advertising income from brands",
+        "children": [
+         {
+          "id": "a3x",
+          "label": "Sponsored listings"
+         },
+         {
+          "id": "a3y",
+          "label": "Brand-funded sampling and placements"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "id": "b",
+      "label": "Variable cost per order",
+      "children": [
+       {
+        "id": "b1",
+        "label": "Dark store operations",
+        "children": [
+         {
+          "id": "b1x",
+          "label": "Picking and packing labour"
+         },
+         {
+          "id": "b1y",
+          "label": "Rent and utilities per order"
+         },
+         {
+          "id": "b1w",
+          "label": "Wastage and shrinkage of stock"
+         }
+        ]
+       },
+       {
+        "id": "b2",
+        "label": "Last-mile delivery",
+        "children": [
+         {
+          "id": "b2x",
+          "label": "Base rider pay per delivery"
+         },
+         {
+          "id": "b2y",
+          "label": "Peak-hour and rain incentives"
+         }
+        ]
+       },
+       {
+        "id": "b3",
+        "label": "Packaging and payment fees"
+       }
+      ]
+     }
+    ]
+   },
+   "decoys": [
+    {
+     "nodeId": "b1y",
+     "whyFine": "Rent looks like a fixed cost, but quick commerce economics are run per order and dark store rent per order moves with throughput, so it belongs in this contribution tree."
+    },
+    {
+     "nodeId": "b2y",
+     "whyFine": "Incentives look like a re-count of rider pay, but they are paid on top of the base rate per drop, so base pay and incentives are separate parts of last-mile cost."
+    }
+   ]
+  },
+  {
+   "id": "ecommerce-f07",
+   "title": "PE deal for an appliances brand",
+   "industry": "ecommerce",
+   "framework": "pe-dd",
+   "difficulty": "Advanced",
+   "tree": {
+    "id": "r",
+    "label": "Should a PE fund buy control of an India-only D2C kitchen appliances brand?",
+    "children": [
+     {
+      "id": "a",
+      "label": "Is the market attractive?",
+      "children": [
+       {
+        "id": "a1",
+        "label": "Indian category size and growth",
+        "children": [
+         {
+          "id": "a1x",
+          "label": "First-time buyers as household ownership rises"
+         },
+         {
+          "id": "a1y",
+          "label": "Replacement purchases by current owners"
+         },
+         {
+          "id": "a1z",
+          "label": "Small-appliance demand in export markets"
+         }
+        ]
+       },
+       {
+        "id": "a2",
+        "label": "Channel structure",
+        "children": [
+         {
+          "id": "a2x",
+          "label": "Online share of category sales"
+         },
+         {
+          "id": "a2y",
+          "label": "Offline dealers' share"
+         }
+        ]
+       },
+       {
+        "id": "a3",
+        "label": "Competitive intensity",
+        "children": [
+         {
+          "id": "a3x",
+          "label": "Established appliance makers"
+         },
+         {
+          "id": "a3y",
+          "label": "New online-first brands"
+         }
+        ]
+       },
+       {
+        "id": "a4",
+        "label": "Air fryer demand in metros"
+       }
+      ]
+     },
+     {
+      "id": "b",
+      "label": "How strong is the company?",
+      "children": [
+       {
+        "id": "b1",
+        "label": "Revenue growth by channel",
+        "children": [
+         {
+          "id": "b1x",
+          "label": "Marketplaces (70% of sales)"
+         },
+         {
+          "id": "b1y",
+          "label": "Own website and offline"
+         }
+        ]
+       },
+       {
+        "id": "b2",
+        "label": "Contribution per unit",
+        "children": [
+         {
+          "id": "b2x",
+          "label": "Net selling price after discounts"
+         },
+         {
+          "id": "b2y",
+          "label": "Product cost"
+         },
+         {
+          "id": "b2z",
+          "label": "Marketing per unit"
+         },
+         {
+          "id": "b2w",
+          "label": "Fulfilment, shipping, warranty and returns"
+         }
+        ]
+       },
+       {
+        "id": "b3",
+        "label": "Management team",
+        "children": [
+         {
+          "id": "b3x",
+          "label": "Founder capability"
+         },
+         {
+          "id": "b3y",
+          "label": "Depth of the second line"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "id": "c",
+      "label": "Can the fund create value?",
+      "children": [
+       {
+        "id": "c1",
+        "label": "Grow revenue",
+        "children": [
+         {
+          "id": "c1x",
+          "label": "Expand offline distribution"
+         },
+         {
+          "id": "c1y",
+          "label": "Add adjacent kitchen categories"
+         }
+        ]
+       },
+       {
+        "id": "c2",
+        "label": "Lower costs",
+        "children": [
+         {
+          "id": "c2x",
+          "label": "Shift from imports to local manufacturing"
+         },
+         {
+          "id": "c2y",
+          "label": "Spend less marketing per unit sold"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "id": "d",
+      "label": "Do the returns work?",
+      "children": [
+       {
+        "id": "d1",
+        "label": "Entry price against comparable deals"
+       },
+       {
+        "id": "d2",
+        "label": "Exit value from projected EBITDA and multiple"
+       },
+       {
+        "id": "d3",
+        "label": "Exit routes: IPO or strategic sale"
+       }
+      ]
+     }
+    ]
+   },
+   "flaws": [
+    {
+     "nodeId": "b2",
+     "type": "gap",
+     "explanation": "Contribution per unit leaves out marketplace commission and fees, although 70% of sales go through marketplaces, where commission and fees typically take around 15-30% of the selling price. Without it the unit economics look far better than they are.",
+     "fix": "Add 'Marketplace commission and fees' as a child of 'Contribution per unit'."
+    },
+    {
+     "nodeId": "a4",
+     "type": "mixed-levels",
+     "explanation": "Air fryer demand in metros is one product in one city tier, a detail of category size and growth, but it sits at the same level as category size, channel structure and competition.",
+     "fix": "Remove it from this level; if air fryers matter, analyse them inside 'Category size and growth'."
+    },
+    {
+     "nodeId": "a1z",
+     "type": "not-a-driver",
+     "explanation": "The parent is the size and growth of the Indian category, which is the sum of first-time and replacement purchases in India. Demand in export markets is not part of that sum, and the brand sells only in India, so it cannot change the answer. It is not a misplaced detail of a sibling either: it is a different market altogether.",
+     "fix": "Remove it; first-time and replacement purchases in India fully size the relevant market. Exports, if ever relevant, are a value-creation idea."
+    }
+   ],
+   "correctedTree": {
+    "id": "r",
+    "label": "Should a PE fund buy control of an India-only D2C kitchen appliances brand?",
+    "children": [
+     {
+      "id": "a",
+      "label": "Is the market attractive?",
+      "children": [
+       {
+        "id": "a1",
+        "label": "Indian category size and growth",
+        "children": [
+         {
+          "id": "a1x",
+          "label": "First-time buyers as household ownership rises"
+         },
+         {
+          "id": "a1y",
+          "label": "Replacement purchases by current owners"
+         }
+        ]
+       },
+       {
+        "id": "a2",
+        "label": "Channel structure",
+        "children": [
+         {
+          "id": "a2x",
+          "label": "Online share of category sales"
+         },
+         {
+          "id": "a2y",
+          "label": "Offline dealers' share"
+         }
+        ]
+       },
+       {
+        "id": "a3",
+        "label": "Competitive intensity",
+        "children": [
+         {
+          "id": "a3x",
+          "label": "Established appliance makers"
+         },
+         {
+          "id": "a3y",
+          "label": "New online-first brands"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "id": "b",
+      "label": "How strong is the company?",
+      "children": [
+       {
+        "id": "b1",
+        "label": "Revenue growth by channel",
+        "children": [
+         {
+          "id": "b1x",
+          "label": "Marketplaces (70% of sales)"
+         },
+         {
+          "id": "b1y",
+          "label": "Own website and offline"
+         }
+        ]
+       },
+       {
+        "id": "b2",
+        "label": "Contribution per unit",
+        "children": [
+         {
+          "id": "b2x",
+          "label": "Net selling price after discounts"
+         },
+         {
+          "id": "b2y",
+          "label": "Product cost"
+         },
+         {
+          "id": "b2v",
+          "label": "Marketplace commission and fees"
+         },
+         {
+          "id": "b2z",
+          "label": "Marketing per unit"
+         },
+         {
+          "id": "b2w",
+          "label": "Fulfilment, shipping, warranty and returns"
+         }
+        ]
+       },
+       {
+        "id": "b3",
+        "label": "Management team",
+        "children": [
+         {
+          "id": "b3x",
+          "label": "Founder capability"
+         },
+         {
+          "id": "b3y",
+          "label": "Depth of the second line"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "id": "c",
+      "label": "Can the fund create value?",
+      "children": [
+       {
+        "id": "c1",
+        "label": "Grow revenue",
+        "children": [
+         {
+          "id": "c1x",
+          "label": "Expand offline distribution"
+         },
+         {
+          "id": "c1y",
+          "label": "Add adjacent kitchen categories"
+         }
+        ]
+       },
+       {
+        "id": "c2",
+        "label": "Lower costs",
+        "children": [
+         {
+          "id": "c2x",
+          "label": "Shift from imports to local manufacturing"
+         },
+         {
+          "id": "c2y",
+          "label": "Spend less marketing per unit sold"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "id": "d",
+      "label": "Do the returns work?",
+      "children": [
+       {
+        "id": "d1",
+        "label": "Entry price against comparable deals"
+       },
+       {
+        "id": "d2",
+        "label": "Exit value from projected EBITDA and multiple"
+       },
+       {
+        "id": "d3",
+        "label": "Exit routes: IPO or strategic sale"
+       }
+      ]
+     }
+    ]
+   },
+   "decoys": [
+    {
+     "nodeId": "b2w",
+     "whyFine": "Warranty looks like an after-sales detail, but for appliances warranty claims are a real cost per unit sold and belong in contribution."
+    },
+    {
+     "nodeId": "c2x",
+     "whyFine": "Moving from imports to local manufacturing looks like an operations detail, but it changes product cost and duty per unit, a main value-creation lever in this category."
+    }
+   ]
+  }
+ ],
+ "quick": [
+  {
+   "id": "ecommerce-q01",
+   "industry": "ecommerce",
+   "difficulty": "Beginner",
+   "question": "Which split of 'Revenue of an online marketplace' is MECE?",
+   "parent": "Revenue of an online marketplace",
+   "options": [
+    {
+     "split": [
+      "Commissions",
+      "Seller services (ads, fulfilment)",
+      "Buyer fees (delivery, membership)",
+      "Sponsored listings"
+     ],
+     "correct": false,
+     "why": "Overlap: sponsored listings are advertising, already inside seller services, so the same rupees are counted twice."
+    },
+    {
+     "split": [
+      "Commissions and closing fees",
+      "Advertising sold to sellers and brands",
+      "Buyer fees (delivery, convenience, membership)"
+     ],
+     "correct": false,
+     "why": "Gap: fulfilment, storage and logistics fees charged to sellers are missing, often a large revenue line for Indian marketplaces."
+    },
+    {
+     "split": [
+      "Commissions",
+      "Seller services (ads, fulfilment)",
+      "Buyer fees",
+      "Other income"
+     ],
+     "correct": true,
+     "why": "Splits revenue by who pays and for what, with an 'other' bucket, so every rupee falls in exactly one place."
+    },
+    {
+     "split": [
+      "Commissions",
+      "Seller services (ads, fulfilment)",
+      "Buyer fees",
+      "Revenue from festive sale events"
+     ],
+     "correct": false,
+     "why": "Mixed basis: festive-sale revenue is made of commissions, ads and fees earned in those weeks, so a time cut is mixed with revenue types and overlaps them."
+    }
+   ]
+  },
+  {
+   "id": "ecommerce-q02",
+   "industry": "ecommerce",
+   "difficulty": "Beginner",
+   "question": "Which split of 'Orders on a D2C brand's website in a month' is MECE?",
+   "parent": "Orders on a D2C brand's website in a month",
+   "options": [
+    {
+     "split": [
+      "Orders from new customers",
+      "Orders from returning customers"
+     ],
+     "correct": true,
+     "why": "Every order comes from someone buying for the first time or someone who has bought before, never both."
+    },
+    {
+     "split": [
+      "Orders from first-time buyers",
+      "Orders from subscribers",
+      "Orders from repeat buyers"
+     ],
+     "correct": false,
+     "why": "Overlap: subscribers are repeat buyers (or first-time buyers on their first box), so their orders sit in two branches."
+    },
+    {
+     "split": [
+      "Prepaid orders",
+      "COD orders",
+      "Orders placed through the app"
+     ],
+     "correct": false,
+     "why": "Overlap: app orders are themselves prepaid or COD; device is a different cut from payment type."
+    },
+    {
+     "split": [
+      "Website visits",
+      "Visit-to-order conversion rate",
+      "Average order value"
+     ],
+     "correct": false,
+     "why": "Not a driver: order count is visits x conversion; average order value drives revenue, not the number of orders."
+    }
+   ]
+  },
+  {
+   "id": "ecommerce-q03",
+   "industry": "ecommerce",
+   "difficulty": "Beginner",
+   "question": "Which split of 'Time from order to delivery for a marketplace parcel' is MECE?",
+   "parent": "Time from order to delivery for a marketplace parcel",
+   "options": [
+    {
+     "split": [
+      "Seller processing",
+      "Line-haul between cities",
+      "Last-mile delivery"
+     ],
+     "correct": false,
+     "why": "Gap: misses first-mile pickup and hub sorting between the seller and the line-haul."
+    },
+    {
+     "split": [
+      "Seller processing",
+      "First-mile pickup and sorting",
+      "Line-haul",
+      "Last-mile delivery",
+      "Festive sale delays"
+     ],
+     "correct": false,
+     "why": "Overlap: festive delays happen inside the stages already listed; they are a cause of delay, not a stage."
+    },
+    {
+     "split": [
+      "Time for metro deliveries",
+      "Time for non-metro deliveries",
+      "Time lost to failed attempts"
+     ],
+     "correct": false,
+     "why": "Overlap: failed attempts happen on both metro and non-metro deliveries, so that time is already inside the first two branches."
+    },
+    {
+     "split": [
+      "Seller processing",
+      "First-mile pickup and hub sorting",
+      "Line-haul between cities",
+      "Last-mile delivery"
+     ],
+     "correct": true,
+     "why": "Follows the parcel's journey in sequence; each hour of delay falls in exactly one stage."
+    }
+   ]
+  },
+  {
+   "id": "ecommerce-q04",
+   "industry": "ecommerce",
+   "difficulty": "Intermediate",
+   "question": "Which split of 'Customer returns at an online fashion marketplace' is MECE?",
+   "parent": "Customer returns at an online fashion marketplace",
+   "options": [
+    {
+     "split": [
+      "Wrong size or fit",
+      "Looks different from the photos or description",
+      "Faulty, damaged or wrong item sent"
+     ],
+     "correct": false,
+     "why": "Gap: every reason here blames the product or the order, so returns where nothing was wrong (the customer changed their mind or found it cheaper), often 10-20% of fashion returns, have no branch."
+    },
+    {
+     "split": [
+      "Size or fit issues",
+      "Product differs from listing",
+      "Defective, damaged or wrong item",
+      "Change of mind"
+     ],
+     "correct": true,
+     "why": "Splits by return reason, the cause that decides the fix; each return has one primary reason code."
+    },
+    {
+     "split": [
+      "Returns picked up",
+      "Returns refunded",
+      "Returns restocked"
+     ],
+     "correct": false,
+     "why": "Overlap: these are processing steps; the same return is picked up, refunded and restocked, so it sits in all three."
+    },
+    {
+     "split": [
+      "Size or fit issues",
+      "Product differs from listing",
+      "Defective, damaged or wrong item",
+      "Returns by serial returners"
+     ],
+     "correct": false,
+     "why": "Mixed basis: serial returners are a customer type, and each of their returns also has one of the listed reasons, so the branches overlap."
+    }
+   ]
+  },
+  {
+   "id": "ecommerce-q05",
+   "industry": "ecommerce",
+   "difficulty": "Intermediate",
+   "question": "Which split of 'Customer acquisition cost (CAC) of a D2C brand' is MECE?",
+   "parent": "Customer acquisition cost (CAC) of a D2C brand",
+   "options": [
+    {
+     "split": [
+      "Cost per site visit (media spend / visits)",
+      "First-purchase conversion rate",
+      "Average order value of first orders"
+     ],
+     "correct": false,
+     "why": "Not a driver: average first-order value affects revenue per new customer, not what it costs to acquire one."
+    },
+    {
+     "split": [
+      "Cost per site visit",
+      "Visit-to-order conversion rate (all orders)"
+     ],
+     "correct": false,
+     "why": "Mixed basis: conversion counts repeat customers' orders too, so cost per visit divided by it gives cost per order, not cost per new customer, and understates CAC."
+    },
+    {
+     "split": [
+      "Cost per site visit (media spend / visits)",
+      "Visit-to-cart rate",
+      "Cart-to-checkout rate"
+     ],
+     "correct": false,
+     "why": "Gap: the funnel stops at checkout start and misses payment completion, so it never reaches a purchase and understates CAC."
+    },
+    {
+     "split": [
+      "Cost per site visit",
+      "Visits needed per first purchase"
+     ],
+     "correct": true,
+     "why": "CAC = media spend / new customers = cost per visit x visits per first purchase; the two factors multiply exactly to CAC with no overlap."
+    }
+   ]
+  },
+  {
+   "id": "ecommerce-q06",
+   "industry": "ecommerce",
+   "difficulty": "Intermediate",
+   "question": "Which split of 'Working capital of an inventory-led online retailer' is MECE?",
+   "parent": "Working capital of an inventory-led online retailer",
+   "options": [
+    {
+     "split": [
+      "Inventory",
+      "Receivables (COD cash, marketplace payouts)",
+      "Less: payables (suppliers, undelivered prepaid orders)"
+     ],
+     "correct": true,
+     "why": "Net working capital = inventory + receivables - payables; COD remittance delays sit in receivables and prepaid orders not yet delivered are a liability."
+    },
+    {
+     "split": [
+      "Inventory (including stock at marketplace fulfilment centres)",
+      "Less: payables to suppliers",
+      "Less: refunds owed to customers"
+     ],
+     "correct": false,
+     "why": "Gap: misses receivables, which matter in India because COD cash and marketplace payouts can take one to two weeks to arrive."
+    },
+    {
+     "split": [
+      "Inventory",
+      "Receivables",
+      "Payables",
+      "Stock in transit to customers"
+     ],
+     "correct": false,
+     "why": "Overlap: goods shipped but not yet delivered are still the retailer's inventory, so they are already in the first branch."
+    },
+    {
+     "split": [
+      "Inventory",
+      "Receivables",
+      "Payables",
+      "Security deposits on warehouse leases"
+     ],
+     "correct": false,
+     "why": "Not a driver: lease deposits are long-term assets that do not move with trading, so they are not part of working capital."
+    }
+   ]
+  },
+  {
+   "id": "ecommerce-q07",
+   "industry": "ecommerce",
+   "difficulty": "Advanced",
+   "question": "Which split of 'Contribution per order of a quick commerce company' is MECE?",
+   "parent": "Contribution per order of a quick commerce company",
+   "options": [
+    {
+     "split": [
+      "Product margin after discounts",
+      "Customer fees",
+      "Ad income from brands",
+      "Dark store, rider, packaging and payment costs"
+     ],
+     "correct": false,
+     "why": "Gap: wastage and shrinkage of stock at dark stores (expired dairy, damaged produce) appear neither in product margin nor in the listed costs, though for fresh-heavy baskets they are a material cost per order."
+    },
+    {
+     "split": [
+      "Product margin after discounts and wastage",
+      "Customer fees",
+      "Ad income from brands",
+      "Dark store, rider, packaging and payment costs",
+      "Stock write-offs at dark stores"
+     ],
+     "correct": false,
+     "why": "Overlap: wastage is already netted in product margin, so write-offs of expired and damaged stock are counted twice."
+    },
+    {
+     "split": [
+      "Product margin after discounts and wastage",
+      "Customer fees",
+      "Ad income from brands",
+      "Variable costs per order"
+     ],
+     "correct": true,
+     "why": "Covers every revenue line and every per-order cost once: product margin, fees and ads, less variable costs."
+    },
+    {
+     "split": [
+      "Product margin after discounts and wastage",
+      "Customer fees",
+      "Ad income from brands",
+      "Variable costs per order",
+      "Central tech and category team costs"
+     ],
+     "correct": false,
+     "why": "Not a driver: central teams are fixed overheads that sit below contribution and do not change with each order."
+    }
+   ]
+  },
+  {
+   "id": "ecommerce-q08",
+   "industry": "ecommerce",
+   "difficulty": "Advanced",
+   "question": "Which split of 'Lifetime value (LTV) of a D2C customer' is MECE?",
+   "parent": "Lifetime value (LTV) of a D2C customer",
+   "options": [
+    {
+     "split": [
+      "Average order value",
+      "Orders per year while active",
+      "Years active"
+     ],
+     "correct": false,
+     "why": "Wrong quantity: these multiply to lifetime revenue, not value; product, shipping and returns costs are missing."
+    },
+    {
+     "split": [
+      "Contribution per order",
+      "Orders per year while active",
+      "Years active"
+     ],
+     "correct": true,
+     "why": "LTV = contribution per order x orders per year x years active; the three factors multiply to lifetime contribution and none is counted twice."
+    },
+    {
+     "split": [
+      "Contribution per order",
+      "Orders per year while active",
+      "Years active",
+      "Repeat purchase rate"
+     ],
+     "correct": false,
+     "why": "Overlap: repeat rate is already captured by orders per year and years active, so adding it double counts retention."
+    },
+    {
+     "split": [
+      "Contribution per order",
+      "Orders per year while active",
+      "Years active",
+      "Customer acquisition cost"
+     ],
+     "correct": false,
+     "why": "Not a driver: CAC is what LTV is compared with (the LTV/CAC ratio); it is spent before the customer's lifetime and does not change what the customer is worth afterwards."
+    }
+   ]
+  }
+ ],
+ "chainDrills": [
+  {
+   "id": "ecommerce-v01",
+   "industry": "ecommerce",
+   "difficulty": "Beginner",
+   "type": "locate",
+   "prompt": "A D2C brand's customer complaints about damaged products tripled and its returns cost rose. Courier transit times and handling scores are unchanged; the rise began the week the warehouse switched to a thinner, cheaper mailer box. In which stage is the cause?",
+   "options": [
+    "s1",
+    "s4",
+    "s5",
+    "s6"
+   ],
+   "answer": [
+    "s4"
+   ],
+   "why": "The cost shows up in returns (s6) and looks like transit damage (s5), but courier handling is unchanged; packaging is chosen and applied at pick-pack in the warehouse (s4), so that is where the fix lies."
+  },
+  {
+   "id": "ecommerce-v02",
+   "industry": "ecommerce",
+   "difficulty": "Beginner",
+   "type": "order",
+   "prompt": "Put the stages of the e-commerce value chain in order, from making the product to keeping the customer.",
+   "options": [
+    "s4",
+    "s1",
+    "s6",
+    "s3",
+    "s5",
+    "s2"
+   ],
+   "answer": [
+    "s1",
+    "s2",
+    "s3",
+    "s4",
+    "s5",
+    "s6"
+   ],
+   "why": "The product is made, demand is created, the customer orders on a storefront, the order is picked and packed, shipped and delivered, and finally returns, service and retention decide whether the customer buys again."
+  },
+  {
+   "id": "ecommerce-v03",
+   "industry": "ecommerce",
+   "difficulty": "Intermediate",
+   "type": "locate",
+   "prompt": "A brand's prepaid sales are settled within two days, but cash from COD orders takes 10-15 days to reach its bank account, straining working capital. Where does this delay sit?",
+   "options": [
+    "s3",
+    "s4",
+    "s5",
+    "s6"
+   ],
+   "answer": [
+    "s5"
+   ],
+   "why": "COD cash is collected by the delivery partner at the door and remitted later, which is part of shipping and last-mile delivery. Prepaid settlement through the gateway happens at the storefront and is not the problem."
+  },
+  {
+   "id": "ecommerce-v04",
+   "industry": "ecommerce",
+   "difficulty": "Intermediate",
+   "type": "assign",
+   "prompt": "Assign each cost to the stage where it is incurred: inbound freight from the contract manufacturer; fee paid to an affiliate site for each order it refers; commission paid to a marketplace; packaging material for each parcel; COD collection fee charged by the courier; reverse pickup for a size exchange.",
+   "items": [
+    {
+     "item": "Inbound freight from the contract manufacturer to the warehouse",
+     "stage": "s1"
+    },
+    {
+     "item": "Fee paid to an affiliate site for each order it refers",
+     "stage": "s2"
+    },
+    {
+     "item": "Commission paid to a marketplace",
+     "stage": "s3"
+    },
+    {
+     "item": "Packaging material for each parcel",
+     "stage": "s4"
+    },
+    {
+     "item": "COD collection fee charged by the courier",
+     "stage": "s5"
+    },
+    {
+     "item": "Reverse pickup for a size exchange",
+     "stage": "s6"
+    }
+   ],
+   "why": "Inbound freight is part of getting the product to the brand (s1), not customer delivery. An affiliate fee is paid per order like a commission, but it buys traffic, so it is demand generation (s2); marketplace commission is the price of someone else's storefront (s3). Packaging is applied at pick-pack (s4). The COD fee looks like a payment cost, but cash collection is done by the courier at the door (s5). A reverse pickup belongs to returns (s6) even when the same courier does it, because the return causes the cost."
+  },
+  {
+   "id": "ecommerce-v05",
+   "industry": "ecommerce",
+   "difficulty": "Advanced",
+   "type": "locate",
+   "prompt": "During a sale, website checkout conversion fell from 3.1% to 2.4%. Traffic quality and prices were unchanged, but the site showed delivery dates six days out instead of two because the fulfilment centre had a three-day picking backlog. Which stage caused the fall?",
+   "options": [
+    "s2",
+    "s3",
+    "s4",
+    "s5"
+   ],
+   "answer": [
+    "s4"
+   ],
+   "why": "The symptom appears at the storefront (s3), but the cause is the fulfilment centre's backlog (s4), which pushed out the delivery promise. Fixing site design or ads would not help."
+  },
+  {
+   "id": "ecommerce-v06",
+   "industry": "ecommerce",
+   "difficulty": "Advanced",
+   "type": "locate",
+   "prompt": "A D2C brand's RTO rate rose from 12% to 22% in a quarter, while website conversion rose 15%. Ad audiences, spend and prices are unchanged, and courier first-attempt delivery rates and address quality are normal. The change began when the brand dropped OTP verification for COD orders at checkout to make buying faster. Where is the root cause?",
+   "options": [
+    "s2",
+    "s3",
+    "s5",
+    "s6"
+   ],
+   "answer": [
+    "s3"
+   ],
+   "why": "The cost shows up in shipping and returns (s5, s6), and a falling-quality audience (s2) is the usual suspect, but traffic is unchanged. Removing OTP checks at checkout (s3) let impulsive and fake COD orders through, which is also why conversion rose at the same time; restoring verification for COD fixes it."
+  }
+ ]
+}

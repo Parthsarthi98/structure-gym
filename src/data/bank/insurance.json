@@ -1,0 +1,3887 @@
+{
+ "industry": "insurance",
+ "valueChain": {
+  "summary": "Insurers collect premiums upfront, pay claims later, and earn money in two ways: the underwriting result (premium minus claims and expenses) and investment income on the float held between premium and claim. Distributors earn commission upfront without carrying risk, while reinsurers take a share of premium in exchange for absorbing large or concentrated losses.",
+  "stages": [
+   {
+    "id": "s1",
+    "name": "Product design and pricing",
+    "activities": [
+     "Design cover, benefits and exclusions",
+     "Set premium rates from claims and expense assumptions",
+     "File products with IRDAI (use-and-file for most lines)",
+     "Write underwriting guidelines"
+    ],
+    "players": [
+     "Insurers' actuarial and product teams",
+     "Reinsurers (pricing support for new risks)",
+     "Actuarial consultancies"
+    ],
+    "revenueDrivers": [
+     "Rate adequacy against expected claims",
+     "Features customers pay extra for (riders, add-ons)"
+    ],
+    "costDrivers": [
+     "Actuarial and product staff",
+     "Data, modelling and filing costs"
+    ],
+    "kpis": [
+     {
+      "name": "Expected loss ratio",
+      "formula": "expected claims / premium",
+      "benchmark": "about 60-70% assumed in pricing for Indian retail health products (approx., varies by product and age band)"
+     },
+     {
+      "name": "VNB margin (life)",
+      "formula": "value of new business / annualised premium equivalent (APE)",
+      "benchmark": "about 22-28% for large Indian private life insurers in FY25-26, after a 1.5-3.5 point hit from losing GST input tax credit; materially higher on pure term (approx.)"
+     }
+    ],
+    "marginNote": "A small cost centre that sets the profitability of everything downstream: a 5-point pricing error flows straight into the combined ratio for years."
+   },
+   {
+    "id": "s2",
+    "name": "Distribution and sales",
+    "activities": [
+     "Generate leads and advise customers",
+     "Sell through agents, banks, brokers, dealers and online",
+     "Collect proposal forms and the first premium"
+    ],
+    "players": [
+     "Individual agents and POSPs",
+     "Banks and other corporate agents",
+     "Insurance brokers",
+     "Web aggregators",
+     "Motor dealers (as motor insurance service providers)"
+    ],
+    "revenueDrivers": [
+     "Commission and rewards paid by insurers",
+     "Number and size of policies sold"
+    ],
+    "costDrivers": [
+     "Commission paid to intermediaries",
+     "Sales staff, agent recruitment and training",
+     "Marketing and lead acquisition"
+    ],
+    "kpis": [
+     {
+      "name": "Commission ratio",
+      "formula": "commission paid / gross written premium",
+      "benchmark": "about 15% of gross premium for Indian general insurers overall in FY25; first-year life commission can reach 30-40% of first-year premium on some regular-premium products (approx.)"
+     },
+     {
+      "name": "Active agent ratio",
+      "formula": "agents selling at least one policy in the month / total agents",
+      "benchmark": "no official industry figure; in Indian agency forces a minority of agents sell in any given month and sales are concentrated in a small top tier, so use the client's own trend and peer disclosures (illustrative)"
+     }
+    ],
+    "marginNote": "Captures a large, low-risk share of premium: intermediaries are paid upfront and carry no claims risk, which is why insurers compete hard for bank and dealer access."
+   },
+   {
+    "id": "s3",
+    "name": "Underwriting and issuance",
+    "activities": [
+     "Assess risk (medicals, income proof, vehicle inspection)",
+     "Accept, load, decline or postpone proposals",
+     "KYC checks and policy issuance"
+    ],
+    "players": [
+     "Insurers' underwriting teams",
+     "Diagnostic and tele-medical vendors",
+     "Reinsurers (underwriting manuals for term cover)"
+    ],
+    "revenueDrivers": [
+     "Placement ratio (proposals turned into policies)",
+     "Correct loadings for higher-risk customers"
+    ],
+    "costDrivers": [
+     "Medical tests and inspections",
+     "Underwriting staff",
+     "Issuance technology"
+    ],
+    "kpis": [
+     {
+      "name": "Placement ratio",
+      "formula": "policies issued / proposals logged",
+      "benchmark": "roughly 65-80% for Indian retail term insurance, varying widely by channel (illustrative approximation)"
+     },
+     {
+      "name": "Straight-through processing rate",
+      "formula": "proposals issued without manual review / total proposals",
+      "benchmark": "insurer-specific with no published industry benchmark; track the client's own trend by product and channel (illustrative)"
+     }
+    ],
+    "marginNote": "A cost centre whose quality decides future claims: lax risk selection shows up one to three years later as a higher claims ratio."
+   },
+   {
+    "id": "s4",
+    "name": "Policy servicing and renewals",
+    "activities": [
+     "Collect renewal premiums (auto-debit, reminders)",
+     "Process endorsements, nominee and address changes",
+     "Handle complaints and grievances",
+     "Manage retention and portability requests"
+    ],
+    "players": [
+     "Insurers' operations teams and call centres",
+     "Banks and payment platforms (auto-debit mandates)",
+     "Distributors servicing their own customers"
+    ],
+    "revenueDrivers": [
+     "Renewal premium (persistency)",
+     "Upgrades of cover at renewal"
+    ],
+    "costDrivers": [
+     "Service staff and call centres",
+     "Premium collection costs",
+     "Renewal commission"
+    ],
+    "kpis": [
+     {
+      "name": "13th-month persistency",
+      "formula": "premium from policies still paying in month 13 / first-year premium of the same policies",
+      "benchmark": "about 83-88% (premium basis) for leading Indian private life insurers in FY25; LIC about 75% (approx.)"
+     },
+     {
+      "name": "Retail health renewal rate",
+      "formula": "policies renewed / policies due for renewal",
+      "benchmark": "commonly in the 80s per cent for established Indian retail health books (illustrative approximation; varies by insurer and age band)"
+     }
+    ],
+    "marginNote": "Renewal premium is the most profitable premium because acquisition cost is low or nil, so persistency is a major value driver, especially in life."
+   },
+   {
+    "id": "s5",
+    "name": "Claims management",
+    "activities": [
+     "Register claim intimations",
+     "Survey, assess and authorise (cashless or reimbursement, in-house or via TPAs)",
+     "Check for fraud and settle",
+     "Recover salvage and third-party amounts"
+    ],
+    "players": [
+     "Insurers' claims teams",
+     "Third-party administrators (TPAs)",
+     "Surveyors and loss assessors",
+     "Network hospitals and garages"
+    ],
+    "revenueDrivers": [
+     "Salvage and subrogation recoveries"
+    ],
+    "costDrivers": [
+     "Claims paid and reserved",
+     "Claims handling costs (TPA fees, surveyor fees)",
+     "Leakage and fraud"
+    ],
+    "kpis": [
+     {
+      "name": "Incurred claims ratio",
+      "formula": "net claims incurred / net earned premium",
+      "benchmark": "India FY25, approx.: about 78% individual health, 92% group health, 95% government health; motor about 85% overall (about 75% at private insurers, above 100% at public sector insurers)"
+     },
+     {
+      "name": "Claim settlement ratio (life)",
+      "formula": "death claims paid / death claims decided, by count",
+      "benchmark": "about 98-99% by count for large Indian life insurers (approx.)"
+     }
+    ],
+    "marginNote": "The largest cost line: claims take roughly 80% of premium across Indian general insurance (industry incurred claims ratio about 83% in FY25), so a 2-point cut in leakage is often worth more than any expense programme."
+   },
+   {
+    "id": "s6",
+    "name": "Investments, reinsurance and capital",
+    "activities": [
+     "Invest the premium float and reserves",
+     "Buy reinsurance for large or concentrated risks",
+     "Hold solvency capital and match assets to liabilities"
+    ],
+    "players": [
+     "Insurers' investment teams",
+     "Reinsurers (the state-owned domestic reinsurer and foreign reinsurer branches)",
+     "Asset managers and custodians"
+    ],
+    "revenueDrivers": [
+     "Investment yield on the float",
+     "Reinsurance commission received on ceded business"
+    ],
+    "costDrivers": [
+     "Reinsurance premium ceded",
+     "Cost of holding solvency capital"
+    ],
+    "kpis": [
+     {
+      "name": "Solvency ratio",
+      "formula": "available solvency margin / required solvency margin",
+      "benchmark": "IRDAI control level 1.5; large private insurers typically report about 1.8-3.0 (approx.)"
+     },
+     {
+      "name": "Investment yield",
+      "formula": "investment income / average invested assets",
+      "benchmark": "about 7-8% on Indian insurers' largely government-bond portfolios (approx.)"
+     }
+    ],
+    "marginNote": "Often where Indian general insurers actually make their money: investment income turns combined ratios of 100-110% into an overall profit."
+   }
+  ],
+  "profitPools": "In Indian general insurance most profit is earned on the float rather than on underwriting: industry combined ratios have tended to run above 100%, and investment income, especially on long-tail motor third-party reserves, covers the gap. Within underwriting, retail health and well-priced commercial property are the profitable pools, while group health and crop run near or above break-even. In life, protection (term) and non-participating products carry the highest new business margins, and distributors capture a large, low-risk slice through upfront commission, which is why exclusive bank partnerships are so valuable.",
+  "unitEconomics": {
+   "unit": "per retail health policy (annual, illustrative)",
+   "lines": [
+    {
+     "item": "Gross written premium",
+     "value": "₹25,000"
+    },
+    {
+     "item": "Commission and distribution costs (about 18%)",
+     "value": "-₹4,500"
+    },
+    {
+     "item": "Operating expenses (about 12%)",
+     "value": "-₹3,000"
+    },
+    {
+     "item": "Claims incurred (65% claims ratio)",
+     "value": "-₹16,250"
+    },
+    {
+     "item": "Net reinsurance cost",
+     "value": "-₹500"
+    },
+    {
+     "item": "Underwriting result (combined ratio 97%)",
+     "value": "₹750"
+    },
+    {
+     "item": "Investment income on float (about ₹10,000 average float at 7.5%)",
+     "value": "₹750"
+    }
+   ],
+   "result": "Pre-tax profit per policy ≈ ₹1,500 (about 6% of premium)"
+  },
+  "india": "India is under-insured (total premiums were about 3.7% of GDP in 2024-25 against a global figure of about 7.3%) and tightly regulated by IRDAI, which sets product filing rules (now largely use-and-file), caps total expenses of management including commission and requires a solvency ratio of at least 1.5. Distribution is channel-led: banks dominate private life sales, dealers dominate new-vehicle motor cover, and aggregators and POSPs are growing fast. Motor third-party premiums are notified by the government rather than set by insurers; individual life and health policies have been exempt from GST since 22 September 2025 (group policies still attract 18%); and since February 2026 foreign investors may own up to 100% of an Indian insurer.",
+  "workedExample": {
+   "problem": "A retail health insurer's claims ratio rose from 62% to 70% in a year while premium grew 25%.",
+   "trace": [
+    "Distribution (s2): most of the growth came from an aggregator partnership launched 18 months ago, but the commission ratio is flat, so acquisition cost is not the problem.",
+    "Claims (s5): cut claims by sales cohort. Policies sold in the last 18 months run at about 85%, while older cohorts are steady near 60%, so the deterioration is in new business, not in hospital costs across the book.",
+    "Underwriting (s3): to speed up online issuance, pre-policy medical checks were waived for applicants up to age 55 (previously 45), relying on self-declared health.",
+    "Product and pricing (s1): rates for the 45-55 band were set assuming medical screening, so the risk now accepted is underpriced."
+   ],
+   "lesson": "A claims spike is often caused upstream: cut claims by sales cohort and trace them back to how the risk was selected and priced."
+  }
+ },
+ "cases": [
+  {
+   "id": "insurance-c01",
+   "title": "Motor insurer's underwriting loss widens",
+   "industry": "insurance",
+   "framework": "profitability",
+   "secondary": [],
+   "difficulty": "Beginner",
+   "region": "India",
+   "prompt": "Our client is a mid-sized Indian private general insurer whose motor portfolio earns about ₹3,000 crore of premium a year. Over two years its motor combined ratio has risen from 102% to 109%, turning an underwriting loss of about ₹60 crore into one of about ₹270 crore. Why has this happened, and what should the client do?",
+   "clarifyingFacts": [
+    "Q: What does the combined ratio include? A: Claims incurred plus commission and operating expenses, divided by net earned premium. Investment income is reported separately.",
+    "Q: Has premium volume changed? A: Earned premium is flat at about ₹3,000 crore: policy count rose about 8% while the average premium fell.",
+    "Q: What is the mix of the book? A: About 55% own damage (OD), priced by the insurer, and 45% third party (TP), whose rates are notified by the government.",
+    "Q: What is the objective? A: Bring the combined ratio back to about 102% within 18 months without letting earned premium fall below ₹2,800 crore."
+   ],
+   "modelTree": {
+    "id": "r",
+    "label": "Why has the motor combined ratio risen from 102% to 109%?",
+    "children": [
+     {
+      "id": "a",
+      "label": "Earned premium (the denominator)",
+      "children": [
+       {
+        "id": "a1",
+        "label": "Number of policies by vehicle type (cars, two-wheelers, commercial)"
+       },
+       {
+        "id": "a2",
+        "label": "Average premium per policy (OD discounts, TP tariff)"
+       }
+      ]
+     },
+     {
+      "id": "b",
+      "label": "Claims incurred",
+      "children": [
+       {
+        "id": "b1",
+        "label": "Current-year own damage claims",
+        "children": [
+         {
+          "id": "b1x",
+          "label": "Claim frequency (claims per 100 vehicles)"
+         },
+         {
+          "id": "b1y",
+          "label": "Average repair cost per claim (parts, labour)"
+         }
+        ]
+       },
+       {
+        "id": "b2",
+        "label": "Current-year third-party claims (number x award size)"
+       },
+       {
+        "id": "b3",
+        "label": "Prior-year reserve changes (mainly third-party)"
+       }
+      ]
+     },
+     {
+      "id": "c",
+      "label": "Commission and acquisition costs",
+      "children": [
+       {
+        "id": "c1",
+        "label": "Channel mix (dealers, brokers, aggregators, agents)"
+       },
+       {
+        "id": "c2",
+        "label": "Commission rate within each channel"
+       }
+      ]
+     },
+     {
+      "id": "d",
+      "label": "Operating expenses",
+      "children": [
+       {
+        "id": "d1",
+        "label": "Fixed costs (staff, branches, technology)"
+       },
+       {
+        "id": "d2",
+        "label": "Variable servicing cost per policy"
+       }
+      ]
+     }
+    ]
+   },
+   "hypotheses": [
+    "Discounting on own damage to win dealer business cut the average OD premium about 10% while parts and labour costs rose, adding about 4 points to the claims ratio.",
+    "Third-party reserves for earlier years were strengthened after higher court awards, adding about 2 points that will not recur at the same level."
+   ],
+   "hints": [
+    "The symptom is a ratio, so decompose the ratio itself before looking for causes.",
+    "Use four branches: earned premium, claims incurred, commission and acquisition costs, operating expenses.",
+    "Commission and acquisition costs split into channel mix (dealers, brokers, aggregators, agents) and the commission rate within each channel."
+   ],
+   "keyMetrics": [
+    {
+     "name": "Combined ratio",
+     "formula": "(claims incurred + commission + operating expenses) / net earned premium"
+    },
+    {
+     "name": "OD claims ratio",
+     "formula": "OD claim frequency x average OD claim cost / average OD premium"
+    }
+   ],
+   "commonMistakes": [
+    "Treating motor as one product: OD prices are set by the insurer while TP rates are notified, so the levers on each are completely different.",
+    "Ignoring prior-year reserve changes, which can move the ratio by several points without any change in this year's business."
+   ],
+   "frameworkPick": {
+    "options": [
+     "profitability",
+     "pricing",
+     "operations",
+     "turnaround"
+    ],
+    "correct": [
+     "profitability"
+    ],
+    "why": "The client is asking why the margin of an existing business has worsened, so the answer is a profitability diagnosis across premium and every cost line.",
+    "distractorWhyNot": {
+     "pricing": "OD discounting is one suspect, but the deterioration could equally come from claims severity, reserves or commission, so starting with price narrows too early.",
+     "operations": "Claims handling may be part of the answer, but the symptom is a financial ratio that also moves with price, mix and reserves.",
+     "turnaround": "A 109% combined ratio on one portfolio is not a capital or liquidity crisis; the insurer needs a margin diagnosis, not stabilise-and-restructure."
+    }
+   }
+  },
+  {
+   "id": "insurance-c02",
+   "title": "Size India's pet insurance market",
+   "industry": "insurance",
+   "framework": "market-sizing",
+   "secondary": [],
+   "difficulty": "Beginner",
+   "region": "India",
+   "prompt": "A mid-sized Indian general insurer is considering adding pet insurance to its range. Before committing a team to it, the strategy head wants a quick estimate of how much pet insurance premium is written in India each year today. How would you estimate it?",
+   "clarifyingFacts": [
+    "Q: Which pets? A: Dogs and cats only; there is no meaningful insurance offer for other pets.",
+    "Q: Which geography? A: All of India, but you can assume rural pet insurance is negligible.",
+    "Q: Today or in the future? A: Current annual gross written premium; a five-year view can come later.",
+    "Q: Any data to start from? A: Assume about 105 million urban households, of which roughly 10% own a dog or cat."
+   ],
+   "modelTree": {
+    "id": "r",
+    "label": "Annual pet insurance premium in India today (urban dogs and cats)",
+    "children": [
+     {
+      "id": "a",
+      "label": "Number of insurable pets",
+      "children": [
+       {
+        "id": "a1",
+        "label": "Urban pet-owning households (105 million x 10%)"
+       },
+       {
+        "id": "a2",
+        "label": "Pets per owning household (about 1.3)"
+       },
+       {
+        "id": "a3",
+        "label": "Share meeting insurers' age and health rules (about 70%)"
+       }
+      ]
+     },
+     {
+      "id": "b",
+      "label": "Share of insurable pets that are insured",
+      "children": [
+       {
+        "id": "b1",
+        "label": "Owners aware that pet insurance exists"
+       },
+       {
+        "id": "b2",
+        "label": "Aware owners who buy a policy"
+       }
+      ]
+     },
+     {
+      "id": "c",
+      "label": "Average annual premium per insured pet",
+      "children": [
+       {
+        "id": "c1",
+        "label": "Basic accident and illness plans",
+        "children": [
+         {
+          "id": "c1x",
+          "label": "Share of buyers (about 70%)"
+         },
+         {
+          "id": "c1y",
+          "label": "Premium (about ₹3,000)"
+         }
+        ]
+       },
+       {
+        "id": "c2",
+        "label": "Comprehensive plans (incl. OPD and third-party liability)",
+        "children": [
+         {
+          "id": "c2x",
+          "label": "Share of buyers (about 30%)"
+         },
+         {
+          "id": "c2y",
+          "label": "Premium (about ₹8,000)"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   "hypotheses": [
+    "About 9.6 million urban dogs and cats are insurable, but only about 1% are insured, putting the premium pool at roughly ₹40-45 crore today.",
+    "Comprehensive plans are a minority of sales, so the average premium sits near ₹4,500 rather than the ₹8,000 headline price."
+   ],
+   "hints": [
+    "Build a multiplication from a population down to premium, filtering at each step for who can and who does buy.",
+    "Three branches: number of insurable pets, share insured, average annual premium per insured pet.",
+    "Average premium per insured pet is a weighted mix of basic plans and comprehensive plans (share of buyers x premium for each)."
+   ],
+   "keyMetrics": [
+    {
+     "name": "Premium pool",
+     "formula": "urban households x pet ownership x pets per household x eligible share x penetration x average premium"
+    },
+    {
+     "name": "Average premium",
+     "formula": "share basic x basic premium + share comprehensive x comprehensive premium"
+    }
+   ],
+   "commonMistakes": [
+    "Starting from India's total dog population, which includes tens of millions of community and street dogs that no one insures, and inflates the base many times over.",
+    "Borrowing penetration rates from mature markets such as the UK or Sweden, where a large share of pets are insured, when Indian penetration is around or below 1%."
+   ],
+   "frameworkPick": {
+    "options": [
+     "market-sizing",
+     "market-entry",
+     "product-launch",
+     "segmentation"
+    ],
+    "correct": [
+     "market-sizing"
+    ],
+    "why": "The question asks only how big the premium pool is today, which is an estimation built from population, penetration and price.",
+    "distractorWhyNot": {
+     "market-entry": "Whether to enter comes later; the strategy head first wants the size of the pool.",
+     "product-launch": "No product is being designed or launched yet; this is a sizing step before that decision.",
+     "segmentation": "Splitting pet owners into segments may help later, but the question asks for one total number."
+    }
+   }
+  },
+  {
+   "id": "insurance-c03",
+   "title": "Double retail term insurance sales",
+   "industry": "insurance",
+   "framework": "growth",
+   "secondary": [],
+   "difficulty": "Beginner",
+   "region": "India",
+   "prompt": "A private Indian life insurer writes about ₹600 crore of new retail term (pure protection) premium a year, 70% of it through its parent bank. The CEO wants to double this to ₹1,200 crore within three years. How should the client get there?",
+   "clarifyingFacts": [
+    "Q: Why focus on term? A: Term plans earn roughly three times the margin of the insurer's savings products.",
+    "Q: What is the channel split today? A: Parent bank 70%, agency 15%, online aggregators and direct 10%, brokers 5%.",
+    "Q: Any constraints? A: No acquisitions, and medical underwriting cannot be relaxed because reinsurers carry most of the risk on term cover.",
+    "Q: How fast is the market growing? A: Retail protection premium in India is growing about 12-15% a year."
+   ],
+   "modelTree": {
+    "id": "r",
+    "label": "How can retail term premium grow from ₹600 crore to ₹1,200 crore in three years?",
+    "children": [
+     {
+      "id": "a",
+      "label": "More proposals logged",
+      "children": [
+       {
+        "id": "a1",
+        "label": "Parent bank: customers approached x share who apply"
+       },
+       {
+        "id": "a2",
+        "label": "Agency: active agents x term proposals per agent"
+       },
+       {
+        "id": "a3",
+        "label": "Online and direct: visitors x share who apply"
+       },
+       {
+        "id": "a4",
+        "label": "Brokers and new partners (NBFCs, fintechs)"
+       }
+      ]
+     },
+     {
+      "id": "b",
+      "label": "More proposals turned into policies",
+      "children": [
+       {
+        "id": "b1",
+        "label": "Medical tests and income checks completed"
+       },
+       {
+        "id": "b2",
+        "label": "Underwriting decisions: accepted vs declined or postponed"
+       },
+       {
+        "id": "b3",
+        "label": "Offers taken up by customers (incl. loaded premiums)"
+       }
+      ]
+     },
+     {
+      "id": "c",
+      "label": "Higher premium per policy",
+      "children": [
+       {
+        "id": "c1",
+        "label": "Sum assured per life (cover adequacy)"
+       },
+       {
+        "id": "c2",
+        "label": "Premium rate per ₹1 lakh of cover (age, term, riders)"
+       }
+      ]
+     }
+    ]
+   },
+   "hypotheses": [
+    "Only about 60% of bank-sourced term proposals become policies, mainly because customers drop out of medical tests; lifting this to 75% alone would add about ₹105 crore.",
+    "Agency term sales are small because agents earn more on savings products; aligning incentives could double agency term premium from about ₹90 crore to ₹180 crore."
+   ],
+   "hints": [
+    "Treat new premium as the output of a sales funnel and break it into its multiplicative stages.",
+    "Three branches: more proposals logged, more proposals turned into policies, higher premium per policy.",
+    "Proposals logged split by channel: parent bank, agency, online and direct, brokers and new partners."
+   ],
+   "keyMetrics": [
+    {
+     "name": "Retail term new business premium",
+     "formula": "proposals logged x placement ratio x average premium per policy"
+    },
+    {
+     "name": "Placement ratio",
+     "formula": "policies issued / proposals logged"
+    }
+   ],
+   "commonMistakes": [
+    "Focusing only on lead generation and ignoring the 25-40% of term proposals lost in medicals and underwriting.",
+    "Proposing to loosen underwriting to issue more policies, which reinsurers will not accept and which would raise death claims later."
+   ],
+   "frameworkPick": {
+    "options": [
+     "growth",
+     "market-entry",
+     "product-launch",
+     "profitability"
+    ],
+    "correct": [
+     "growth"
+    ],
+    "why": "The client wants to expand sales of an existing product through existing and new channels, which is a growth question about volume, conversion and ticket size.",
+    "distractorWhyNot": {
+     "market-entry": "The insurer already sells term in India; there is no new market to enter.",
+     "product-launch": "Term is an existing product; the question is how to sell much more of it.",
+     "profitability": "Margins are not the problem; term is already the most profitable line."
+    }
+   }
+  },
+  {
+   "id": "insurance-c04",
+   "title": "Pricing an annual multi-trip travel policy",
+   "industry": "insurance",
+   "framework": "pricing",
+   "secondary": [],
+   "difficulty": "Beginner",
+   "region": "Global",
+   "prompt": "A mid-sized German travel insurer sells single-trip policies for about €45 each. It has decided to add an annual multi-trip policy for frequent travellers within Europe. What price should it charge?",
+   "clarifyingFacts": [
+    "Q: Who is the target customer? A: People taking three or more trips a year; they average four trips.",
+    "Q: What does cover cost? A: Expected claims are about €18 per trip for these travellers, and commission plus expenses take about 30% of premium.",
+    "Q: What do competitors charge? A: Two large rivals sell annual multi-trip cover at €119 and €139 with similar benefits.",
+    "Q: What is the objective? A: Win frequent travellers while keeping the product's combined ratio below 90%."
+   ],
+   "modelTree": {
+    "id": "r",
+    "label": "What price should the annual multi-trip policy carry?",
+    "children": [
+     {
+      "id": "a",
+      "label": "Cost floor: price needed for a combined ratio below 90%",
+      "children": [
+       {
+        "id": "a1",
+        "label": "Expected claims per policy (trips x €18)"
+       },
+       {
+        "id": "a2",
+        "label": "Commission and expenses (about 30% of premium)"
+       }
+      ]
+     },
+     {
+      "id": "b",
+      "label": "Customer value: what frequent travellers will pay",
+      "children": [
+       {
+        "id": "b1",
+        "label": "Cost of buying single-trip cover for every trip (4 x €45)"
+       },
+       {
+        "id": "b2",
+        "label": "Value of convenience and always-on cover"
+       }
+      ]
+     },
+     {
+      "id": "c",
+      "label": "Competitor prices",
+      "children": [
+       {
+        "id": "c1",
+        "label": "Rival annual prices (€119 and €139) and cover levels"
+       },
+       {
+        "id": "c2",
+        "label": "Likely rival reaction to our price"
+       }
+      ]
+     },
+     {
+      "id": "d",
+      "label": "Net effect on our revenue",
+      "children": [
+       {
+        "id": "d1",
+        "label": "Revenue lost from single-trip customers who switch"
+       },
+       {
+        "id": "d2",
+        "label": "Revenue from new frequent travellers won"
+       }
+      ]
+     }
+    ]
+   },
+   "hypotheses": [
+    "A price near €129 clears the €120 cost floor, sits inside the rivals' band and still saves a four-trip customer about €50 a year.",
+    "The main pricing risk is adverse selection: the most frequent travellers (eight or more trips) will buy first, pushing claims above €72 per policy."
+   ],
+   "hints": [
+    "Bound the price from below and above, then test it against the market and against our own book.",
+    "Four branches: cost floor, customer value, competitor prices, net effect on our revenue.",
+    "Competitor prices split into rivals' current prices and cover levels, and how rivals are likely to react to our price."
+   ],
+   "keyMetrics": [
+    {
+     "name": "Minimum premium",
+     "formula": "expected claims per policy / (target combined ratio - expense ratio)"
+    },
+    {
+     "name": "Customer saving",
+     "formula": "trips per year x single-trip price - annual price"
+    }
+   ],
+   "commonMistakes": [
+    "Pricing off cost alone and landing at €120, leaving money on the table when customers would otherwise pay €180 for four single trips.",
+    "Forgetting that current customers who switch from four single-trip policies cut revenue per customer from about €180 to the annual price."
+   ],
+   "frameworkPick": {
+    "options": [
+     "pricing",
+     "product-launch",
+     "competitive-response",
+     "profitability"
+    ],
+    "correct": [
+     "pricing"
+    ],
+    "why": "The product decision is made; the only open question is the price point, set between a cost floor and the value to customers, checked against rivals.",
+    "distractorWhyNot": {
+     "product-launch": "The insurer has already decided to launch; the interviewer is asking for a price, not a launch plan.",
+     "competitive-response": "Rival prices are an input, but no competitor move triggered this decision.",
+     "profitability": "There is no existing profit problem to diagnose."
+    }
+   }
+  },
+  {
+   "id": "insurance-c05",
+   "title": "Speeding up cashless hospital discharge",
+   "industry": "insurance",
+   "framework": "operations",
+   "secondary": [],
+   "difficulty": "Intermediate",
+   "region": "India",
+   "prompt": "A large Indian health insurer handles about 1.2 million cashless hospitalisation claims a year. IRDAI rules require final discharge authorisation within three hours of the hospital's request, but the client meets this on only 62% of claims and hospitals are complaining. The operations head blames a 10% vacancy rate among claims assessors. How would you get compliance above 95%?",
+   "clarifyingFacts": [
+    "Q: Who processes the claims? A: In-house teams handle about 70%; the rest go through third-party administrators (TPAs).",
+    "Q: Where is the time going? A: The median is 2.5 hours, but 38% of requests take longer than three hours, and most of the slow ones involve a query back to the hospital.",
+    "Q: What does a delay cost? A: Under IRDAI rules the insurer bears any extra amount the hospital charges for delay beyond three hours, and complaints are reported to the regulator.",
+    "Q: Timeline and budget? A: Six months; the client is open to technology spend."
+   ],
+   "modelTree": {
+    "id": "r",
+    "label": "How can three-hour discharge authorisation rise from 62% to 95%+ of 1.2 million claims?",
+    "children": [
+     {
+      "id": "a",
+      "label": "Intake: request received to assessor assigned",
+      "children": [
+       {
+        "id": "a1",
+        "label": "Channel the request arrives through",
+        "children": [
+         {
+          "id": "a1x",
+          "label": "Share arriving by email or scan needing manual entry"
+         },
+         {
+          "id": "a1y",
+          "label": "Hand-off time for TPA-handled claims"
+         }
+        ]
+       },
+       {
+        "id": "a2",
+        "label": "Wait for a free assessor",
+        "children": [
+         {
+          "id": "a2x",
+          "label": "Assessor capacity by hour (evening discharge peak)"
+         },
+         {
+          "id": "a2y",
+          "label": "Routing rules (by hospital, by claim size)"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "id": "b",
+      "label": "Assessment: assessor picks up to decision",
+      "children": [
+       {
+        "id": "b1",
+        "label": "Time waiting on hospital responses to queries",
+        "children": [
+         {
+          "id": "b1x",
+          "label": "Missing or illegible documents"
+         },
+         {
+          "id": "b1y",
+          "label": "Non-payable items and package mismatches"
+         }
+        ]
+       },
+       {
+        "id": "b2",
+        "label": "Assessor working time",
+        "children": [
+         {
+          "id": "b2x",
+          "label": "Manual line-by-line bill checks"
+         },
+         {
+          "id": "b2y",
+          "label": "Escalations for high-value or flagged claims"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "id": "c",
+      "label": "Communication: decision to hospital receipt",
+      "children": [
+       {
+        "id": "c1",
+        "label": "Integrated electronic channels (hospital portal, National Health Claims Exchange)"
+       },
+       {
+        "id": "c2",
+        "label": "Manual channels (email, phone)"
+       }
+      ]
+     }
+    ]
+   },
+   "hypotheses": [
+    "About 70% of breaches involve at least one query; a standard discharge document checklist agreed with the top 500 network hospitals would remove about half of them.",
+    "Breaches cluster between 5 pm and 10 pm, when discharges peak but assessor rosters are thin.",
+    "TPA-handled claims breach at about twice the in-house rate because of hand-off delays."
+   ],
+   "hints": [
+    "Follow the clock: break the three hours into the sequential steps a request passes through.",
+    "Three stages: intake, assessment, communication of the decision.",
+    "Communication splits into integrated electronic channels (hospital portal, National Health Claims Exchange) and manual channels (email, phone)."
+   ],
+   "keyMetrics": [
+    {
+     "name": "Three-hour compliance",
+     "formula": "discharge authorisations issued within 3 hours / total discharge requests"
+    },
+    {
+     "name": "Query rate",
+     "formula": "discharge requests with at least one query / total discharge requests"
+    },
+    {
+     "name": "Hourly capacity gap",
+     "formula": "requests arriving per hour x handling time - assessor hours available that hour"
+    }
+   ],
+   "commonMistakes": [
+    "Hiring assessors across the board when delays are concentrated in hospital queries and the evening peak.",
+    "Chasing speed alone: auto-approving bills without checks raises claims leakage, so controls must be redesigned rather than dropped."
+   ],
+   "frameworkPick": {
+    "options": [
+     "operations",
+     "profitability",
+     "turnaround",
+     "segmentation"
+    ],
+    "correct": [
+     "operations"
+    ],
+    "why": "The client must cut the time taken by a defined process to meet a service standard, which calls for a process-step breakdown of where time is lost.",
+    "distractorWhyNot": {
+     "profitability": "Delay penalties cost money, but the question is about process speed, not margin.",
+     "turnaround": "The insurer is not in financial distress; one process is underperforming.",
+     "segmentation": "Splitting claims by hospital or channel helps the analysis, but the question is how to fix a process."
+    }
+   }
+  },
+  {
+   "id": "insurance-c06",
+   "title": "European insurer weighs Indian health entry",
+   "industry": "insurance",
+   "framework": "market-entry",
+   "secondary": [],
+   "difficulty": "Intermediate",
+   "region": "India",
+   "prompt": "A mid-sized European health insurer is looking at India now that foreign investors may own up to 100% of an Indian insurer, a change in force since February 2026. Indian health insurance premiums are about ₹1.2 lakh crore a year and growing roughly 9-10% a year. Its CEO believes the client's highly rated digital claims app will be the main way to win customers. Should the client enter, and if so, how?",
+   "clarifyingFacts": [
+    "Q: What is the client's ambition? A: About ₹5,000 crore of annual premium within ten years, with an underwriting break-even within seven.",
+    "Q: What are its strengths? A: Private medical insurance and hospital network management in three European markets; no presence in Asia.",
+    "Q: How much capital can it commit? A: Up to €300 million (roughly ₹3,000 crore).",
+    "Q: What routes are open? A: A new standalone health insurance licence, buying a controlling or full stake in an existing Indian insurer, or a joint venture with an Indian group. Foreign ownership up to 100% is under the automatic route, but the insurer still needs IRDAI registration and at least one of its chair, managing director or CEO must be a resident Indian citizen."
+   ],
+   "modelTree": {
+    "id": "r",
+    "label": "Should the client enter Indian health insurance, and how, to reach ₹5,000 crore?",
+    "children": [
+     {
+      "id": "a",
+      "label": "Is the market attractive?",
+      "children": [
+       {
+        "id": "a1",
+        "label": "Size and growth by segment",
+        "children": [
+         {
+          "id": "a1x",
+          "label": "Retail (individual and family) cover"
+         },
+         {
+          "id": "a1y",
+          "label": "Group (employer) cover"
+         },
+         {
+          "id": "a1z",
+          "label": "Government-sponsored schemes"
+         }
+        ]
+       },
+       {
+        "id": "a2",
+        "label": "Profitability by segment",
+        "children": [
+         {
+          "id": "a2x",
+          "label": "Claims ratios (individual about 70-80%, group and government about 90-95%)"
+         },
+         {
+          "id": "a2y",
+          "label": "Distribution costs and channel bargaining power"
+         }
+        ]
+       },
+       {
+        "id": "a3",
+        "label": "Regulation",
+        "children": [
+         {
+          "id": "a3x",
+          "label": "Licensing, capital and solvency rules"
+         },
+         {
+          "id": "a3y",
+          "label": "Product and claims rules (cashless timelines, portability)"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "id": "b",
+      "label": "Can the client win?",
+      "children": [
+       {
+        "id": "b1",
+        "label": "Competitors",
+        "children": [
+         {
+          "id": "b1x",
+          "label": "Standalone health insurers' share and scale"
+         },
+         {
+          "id": "b1y",
+          "label": "General insurers' health books"
+         }
+        ]
+       },
+       {
+        "id": "b2",
+        "label": "Transferable strengths (hospital network management, medical underwriting)"
+       },
+       {
+        "id": "b3",
+        "label": "Gaps to close (Indian distribution, low-cost operations)"
+       }
+      ]
+     },
+     {
+      "id": "c",
+      "label": "Which entry route?",
+      "children": [
+       {
+        "id": "c1",
+        "label": "Build: new standalone health licence",
+        "children": [
+         {
+          "id": "c1x",
+          "label": "Time to licence and to build distribution"
+         },
+         {
+          "id": "c1y",
+          "label": "Capital burned before break-even"
+         }
+        ]
+       },
+       {
+        "id": "c2",
+        "label": "Buy: controlling stake in an existing insurer",
+        "children": [
+         {
+          "id": "c2x",
+          "label": "Availability and price of targets"
+         },
+         {
+          "id": "c2y",
+          "label": "Quality of the acquired book and network"
+         }
+        ]
+       },
+       {
+        "id": "c3",
+        "label": "Partner: joint venture with an Indian group",
+        "children": [
+         {
+          "id": "c3x",
+          "label": "Access to the partner's customers and channels"
+         },
+         {
+          "id": "c3y",
+          "label": "Control, governance and exit terms"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "id": "d",
+      "label": "Do the economics meet the target?",
+      "children": [
+       {
+        "id": "d1",
+        "label": "Premium path to ₹5,000 crore (about 1.6% share in year ten)"
+       },
+       {
+        "id": "d2",
+        "label": "Capital needed vs the €300 million budget"
+       },
+       {
+        "id": "d3",
+        "label": "Years to underwriting break-even"
+       }
+      ]
+     }
+    ]
+   },
+   "hypotheses": [
+    "Retail health is the attractive pool (claims ratios of roughly 70-80% against 90-95% in group and government business), but it is distribution-led, so a greenfield entrant is unlikely to reach ₹5,000 crore in ten years without a bank or large agency partner.",
+    "Buying a controlling stake in a sub-scale standalone health insurer gives the client a licence, hospital network and agents immediately, and fits within €300 million."
+   ],
+   "hints": [
+    "Separate 'should we' from 'how': judge the opportunity and the client's fit first, then the route and the numbers.",
+    "Four branches: is the market attractive, can the client win, which entry route, do the economics meet the target.",
+    "Can the client win splits into competitors (standalone health insurers, general insurers' health books), transferable strengths and gaps to close."
+   ],
+   "keyMetrics": [
+    {
+     "name": "Required market share",
+     "formula": "₹5,000 crore / market in year ten (₹1.2 lakh crore x 1.1^10 ≈ ₹3.1 lakh crore, assuming 10% growth) ≈ 1.6%"
+    },
+    {
+     "name": "Combined ratio",
+     "formula": "claims ratio + commission ratio + operating expense ratio"
+    }
+   ],
+   "commonMistakes": [
+    "Treating the whole ₹1.2 lakh crore as addressable when group and government business is price-driven and runs near break-even.",
+    "Accepting the CEO's view that a claims app will win customers, when distribution (banks, agents, brokers) is the scarce asset in Indian insurance."
+   ],
+   "frameworkPick": {
+    "options": [
+     "market-entry",
+     "ma",
+     "growth",
+     "market-sizing"
+    ],
+    "correct": [
+     "market-entry"
+    ],
+    "why": "A company with no presence in India must decide whether to enter and by which route, which is exactly what the entry framework covers: market, ability to win, mode and economics.",
+    "distractorWhyNot": {
+     "ma": "An acquisition is one of three routes to compare, not the question itself.",
+     "growth": "Growth frameworks assume an existing business to expand; the client has none in India.",
+     "market-sizing": "Market size is one input to attractiveness; the question is whether and how to enter."
+    }
+   }
+  },
+  {
+   "id": "insurance-c07",
+   "title": "Launching pay-as-you-drive car insurance",
+   "industry": "insurance",
+   "framework": "product-launch",
+   "secondary": [],
+   "difficulty": "Intermediate",
+   "region": "India",
+   "prompt": "A large Indian private general insurer wants to launch a telematics-based pay-as-you-drive add-on for private car own-damage cover, which IRDAI has permitted since 2022. Its data suggests about 20% of urban car owners drive under 5,000 km a year. About 60% of its private car book is sold and renewed through dealers. How should the client launch this product, and is it worth doing?",
+   "clarifyingFacts": [
+    "Q: What is the client's current position? A: It insures about 2.5 million private cars at an average own-damage premium of about ₹9,000.",
+    "Q: What design is proposed? A: Own-damage discounts of 15-25% for low-mileage drivers, with kilometres recorded by a smartphone app or a plug-in device.",
+    "Q: What is the objective? A: Win low-risk drivers from rivals and improve the own-damage claims ratio, now about 72%.",
+    "Q: Timeline and scope? A: Launch within nine months in the top eight cities."
+   ],
+   "modelTree": {
+    "id": "r",
+    "label": "How should the client launch pay-as-you-drive OD cover, and is it worth it?",
+    "children": [
+     {
+      "id": "a",
+      "label": "Customer demand",
+      "children": [
+       {
+        "id": "a1",
+        "label": "Size of the low-mileage segment in the top eight cities",
+        "children": [
+         {
+          "id": "a1x",
+          "label": "Car owners driving under 5,000 km a year (about 20%)"
+         },
+         {
+          "id": "a1y",
+          "label": "Share willing to share driving data"
+         }
+        ]
+       },
+       {
+        "id": "a2",
+        "label": "Reasons to buy and barriers",
+        "children": [
+         {
+          "id": "a2x",
+          "label": "Value of the saving (about ₹1,350-2,250 a year)"
+         },
+         {
+          "id": "a2y",
+          "label": "Barriers: tracking effort and data privacy"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "id": "b",
+      "label": "Product and pricing design",
+      "children": [
+       {
+        "id": "b1",
+        "label": "Discount structure by kilometre band"
+       },
+       {
+        "id": "b2",
+        "label": "Tracking method (app vs plug-in device)",
+        "children": [
+         {
+          "id": "b2x",
+          "label": "Data accuracy and tampering risk"
+         },
+         {
+          "id": "b2y",
+          "label": "Cost per policy"
+         }
+        ]
+       },
+       {
+        "id": "b3",
+        "label": "Rules when drivers exceed their kilometre band"
+       }
+      ]
+     },
+     {
+      "id": "c",
+      "label": "Go-to-market",
+      "children": [
+       {
+        "id": "c1",
+        "label": "Channels",
+        "children": [
+         {
+          "id": "c1x",
+          "label": "Dealers' and brokers' incentive to sell a lower premium"
+         },
+         {
+          "id": "c1y",
+          "label": "Direct digital and aggregator journeys"
+         }
+        ]
+       },
+       {
+        "id": "c2",
+        "label": "Positioning against standard OD cover"
+       }
+      ]
+     },
+     {
+      "id": "d",
+      "label": "Economics and risks",
+      "children": [
+       {
+        "id": "d1",
+        "label": "Premium given up on existing low-mileage customers who switch"
+       },
+       {
+        "id": "d2",
+        "label": "Gains from the product",
+        "children": [
+         {
+          "id": "d2x",
+          "label": "Lower claims on low-mileage drivers"
+         },
+         {
+          "id": "d2y",
+          "label": "New low-risk customers won from rivals"
+         }
+        ]
+       },
+       {
+        "id": "d3",
+        "label": "Set-up and running costs (telematics, IT)"
+       }
+      ]
+     }
+    ]
+   },
+   "hypotheses": [
+    "Low-mileage drivers already run an OD claims ratio near 55% against the 72% book average, so a 15-20% discount is affordable on new customers.",
+    "The main risk is cannibalisation: if most take-up comes from the client's own low-mileage customers, premium falls 15-25% on its most profitable cars with no fall in claims.",
+    "Dealers, who sell much of new-car OD cover, will resist because their commission falls with premium, so renewals and digital channels should lead."
+   ],
+   "hints": [
+    "Ask the questions a launch committee would ask, in order, before signing off a budget.",
+    "Four branches: customer demand, product and pricing design, go-to-market, economics and risks.",
+    "Product and pricing design splits into the discount structure by kilometre band, the tracking method (accuracy, tampering, cost) and rules when drivers exceed their band."
+   ],
+   "keyMetrics": [
+    {
+     "name": "Net premium effect",
+     "formula": "new customers x discounted premium - switching existing customers x discount given"
+    },
+    {
+     "name": "Low-mileage claims ratio",
+     "formula": "OD claims of low-mileage cohort / OD earned premium of that cohort"
+    }
+   ],
+   "commonMistakes": [
+    "Assuming all take-up is new business, when switchers from the existing book can make the launch premium-negative.",
+    "Ignoring tampering and disputes over kilometres driven, which decide whether the discount can be defended at claim time."
+   ],
+   "frameworkPick": {
+    "options": [
+     "product-launch",
+     "pricing",
+     "market-entry",
+     "segmentation"
+    ],
+    "correct": [
+     "product-launch"
+    ],
+    "why": "The client is introducing a new product to existing markets and must judge demand, design, channels and economics, which is the product launch structure.",
+    "distractorWhyNot": {
+     "pricing": "Discount design is one part, but the question also covers demand, channels and whether the launch pays off.",
+     "market-entry": "The client already writes motor insurance in these cities.",
+     "segmentation": "Identifying low-mileage drivers matters, but the decision is about launching and selling the product."
+    }
+   }
+  },
+  {
+   "id": "insurance-c08",
+   "title": "Prioritising e-wallet users for embedded cover",
+   "industry": "insurance",
+   "framework": "segmentation",
+   "secondary": [],
+   "difficulty": "Intermediate",
+   "region": "Global",
+   "prompt": "A Southeast Asian digital insurer sells travel, phone-screen and hospital cash cover inside a large e-wallet app with 30 million monthly active users. Only 0.4% of users bought a policy last year, and its US$6 million marketing budget is spread evenly across the base. The e-wallet partner suggests targeting its highest spenders. How should the client segment users to decide where to focus?",
+   "clarifyingFacts": [
+    "Q: Which markets? A: Indonesia, the Philippines and Vietnam, all through the same e-wallet partner.",
+    "Q: What data is available? A: With user consent: transaction categories (travel bookings, electronics, healthcare, bill payments), app usage, wallet spend and age band.",
+    "Q: What are the economics? A: Average annual premium is about US$35 per buyer; the e-wallet takes a 20% fee; marketing cost per buyer is about US$50.",
+    "Q: What is the objective? A: Double the number of buyers within a year without increasing the marketing budget."
+   ],
+   "modelTree": {
+    "id": "r",
+    "label": "Which user segments should the US$6 million budget target to double buyers?",
+    "children": [
+     {
+      "id": "a",
+      "label": "Dimensions to cut the base on",
+      "children": [
+       {
+        "id": "a1",
+        "label": "Most recent insurance trigger (last 90 days)",
+        "children": [
+         {
+          "id": "a1x",
+          "label": "Travel booking"
+         },
+         {
+          "id": "a1y",
+          "label": "Electronics purchase"
+         },
+         {
+          "id": "a1z",
+          "label": "Healthcare or pharmacy spend"
+         },
+         {
+          "id": "a1w",
+          "label": "No trigger"
+         }
+        ]
+       },
+       {
+        "id": "a2",
+        "label": "Wallet spend per month",
+        "children": [
+         {
+          "id": "a2x",
+          "label": "Under US$50"
+         },
+         {
+          "id": "a2y",
+          "label": "US$50-200"
+         },
+         {
+          "id": "a2z",
+          "label": "Over US$200"
+         }
+        ]
+       },
+       {
+        "id": "a3",
+        "label": "Past use of in-app financial products",
+        "children": [
+         {
+          "id": "a3x",
+          "label": "Has used pay-later, savings or investments"
+         },
+         {
+          "id": "a3y",
+          "label": "Has not"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "id": "b",
+      "label": "Attractiveness of each segment",
+      "children": [
+       {
+        "id": "b1",
+        "label": "Number of reachable users"
+       },
+       {
+        "id": "b2",
+        "label": "Conversion when targeted",
+        "children": [
+         {
+          "id": "b2x",
+          "label": "Baseline conversion (about 0.4%)"
+         },
+         {
+          "id": "b2y",
+          "label": "Lift from offers timed to the trigger"
+         }
+        ]
+       },
+       {
+        "id": "b3",
+        "label": "Margin per buyer",
+        "children": [
+         {
+          "id": "b3x",
+          "label": "Premium per buyer (about US$35)"
+         },
+         {
+          "id": "b3y",
+          "label": "Claims cost"
+         },
+         {
+          "id": "b3z",
+          "label": "Wallet fee (20%) and servicing"
+         }
+        ]
+       },
+       {
+        "id": "b4",
+        "label": "Marketing cost per targeted user"
+       }
+      ]
+     },
+     {
+      "id": "c",
+      "label": "Targeting the chosen segments",
+      "children": [
+       {
+        "id": "c1",
+        "label": "Rank segments by margin per marketing dollar"
+       },
+       {
+        "id": "c2",
+        "label": "Offer design and timing (e.g. at checkout)"
+       }
+      ]
+     }
+    ]
+   },
+   "hypotheses": [
+    "Users who have just booked travel convert at 3-5% when offered cover at checkout against 0.4% on average, so trigger-timed offers alone could double buyers on the same budget.",
+    "Electronics buyers are the largest trigger group, but phone-screen cover has a high claims ratio (about 60%), so they rank lower on margin per marketing dollar than their size suggests."
+   ],
+   "hints": [
+    "A segmentation answer is a sequence of decisions, not a list of segments: structure the steps.",
+    "Three branches: dimensions to cut the base on, attractiveness of each segment, targeting the chosen segments.",
+    "Targeting the chosen segments splits into how you rank them and how you design and time the offer."
+   ],
+   "keyMetrics": [
+    {
+     "name": "Margin per marketing dollar",
+     "formula": "conversion x (premium - claims - wallet fee - servicing) / marketing cost per targeted user"
+    },
+    {
+     "name": "Conversion rate",
+     "formula": "buyers / users targeted"
+    }
+   ],
+   "commonMistakes": [
+    "Following the partner's advice to target high spenders, or segmenting on age and income; in embedded insurance the purchase trigger (a trip, a phone purchase) predicts buying far better.",
+    "Ranking segments by number of buyers rather than by margin after claims and the wallet's 20% fee."
+   ],
+   "frameworkPick": {
+    "options": [
+     "segmentation",
+     "growth",
+     "pricing",
+     "product-launch"
+    ],
+    "correct": [
+     "segmentation"
+    ],
+    "why": "The client has a fixed budget and a large undifferentiated user base, and must split users into groups and rank them, which is a segmentation and targeting problem.",
+    "distractorWhyNot": {
+     "growth": "The goal is more buyers, but the question asks specifically how to split users and allocate a fixed budget.",
+     "pricing": "Price is not raised as an issue; conversion and targeting are.",
+     "product-launch": "All three products already exist in the app."
+    }
+   }
+  },
+  {
+   "id": "insurance-c09",
+   "title": "Responding to a cheaper health rival",
+   "industry": "insurance",
+   "framework": "competitive-response",
+   "secondary": [],
+   "difficulty": "Intermediate",
+   "region": "India",
+   "prompt": "Our client is a leading Indian standalone health insurer with ₹8,000 crore of retail premium. A newly licensed insurer backed by a large consumer-internet group has launched an online-only family floater priced about 15% below the client's, with a 30-day waiting period for pre-existing diseases. It is backing the launch with a television campaign fronted by a well-known cricketer. Online sales are 12% of the client's retail new business. How should the client respond?",
+   "clarifyingFacts": [
+    "Q: What has the impact been so far? A: In three months the client's online new business is down 18%; renewals have not yet been affected.",
+    "Q: How does the client's product compare? A: It has a three-year waiting period for pre-existing diseases, and the retail book runs at a claims ratio of about 62%.",
+    "Q: What do we know about the entrant? A: Its parent can fund losses for several years; the plan is sold only on its own app and two aggregators. The 30-day pre-existing disease wait is the entrant's own design choice: Indian retail plans typically use one to three years, and IRDAI caps the wait at three years.",
+    "Q: What is the objective? A: Keep retail premium growing about 15% a year without letting the retail claims ratio exceed 65%."
+   ],
+   "modelTree": {
+    "id": "r",
+    "label": "How should the client respond to the entrant's cheaper, short-waiting-period floater?",
+    "children": [
+     {
+      "id": "a",
+      "label": "Understand the entrant's move",
+      "children": [
+       {
+        "id": "a1",
+        "label": "Is the offer sustainable?",
+        "children": [
+         {
+          "id": "a1x",
+          "label": "Likely claims ratio with a 30-day pre-existing disease wait"
+         },
+         {
+          "id": "a1y",
+          "label": "Parent's willingness to fund losses"
+         }
+        ]
+       },
+       {
+        "id": "a2",
+        "label": "Whom is it targeting?",
+        "children": [
+         {
+          "id": "a2x",
+          "label": "Customer segments (young, urban, healthy families)"
+         },
+         {
+          "id": "a2y",
+          "label": "Channels (own app, two aggregators)"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "id": "b",
+      "label": "Assess the impact on the client",
+      "children": [
+       {
+        "id": "b1",
+        "label": "New business at risk",
+        "children": [
+         {
+          "id": "b1x",
+          "label": "Online and aggregators (12% of new business)"
+         },
+         {
+          "id": "b1y",
+          "label": "Agency, bancassurance and brokers"
+         }
+        ]
+       },
+       {
+        "id": "b2",
+        "label": "Renewal book at risk",
+        "children": [
+         {
+          "id": "b2x",
+          "label": "Younger, healthier policyholders porting out"
+         },
+         {
+          "id": "b2y",
+          "label": "Effect on the claims ratio of those who stay"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "id": "c",
+      "label": "Response options",
+      "children": [
+       {
+        "id": "c1",
+        "label": "Monitor without changing anything yet"
+       },
+       {
+        "id": "c2",
+        "label": "Match on price or waiting period",
+        "children": [
+         {
+          "id": "c2x",
+          "label": "Online-only variant with shorter wait and loading"
+         },
+         {
+          "id": "c2y",
+          "label": "Targeted renewal discounts"
+         }
+        ]
+       },
+       {
+        "id": "c3",
+        "label": "Differentiate on proposition (hospital network, claims service)"
+       },
+       {
+        "id": "c4",
+        "label": "Strengthen channels the entrant cannot reach (agency, bancassurance)"
+       }
+      ]
+     },
+     {
+      "id": "d",
+      "label": "Choose the response",
+      "children": [
+       {
+        "id": "d1",
+        "label": "Effect on retail growth against the 15% target"
+       },
+       {
+        "id": "d2",
+        "label": "Effect on the claims ratio against the 65% ceiling"
+       }
+      ]
+     }
+    ]
+   },
+   "hypotheses": [
+    "The threat is concentrated online, about 12% of new business, so a book-wide price cut would give away margin on the 88% the entrant cannot reach.",
+    "A 30-day pre-existing disease wait will attract sicker customers, so the entrant's claims ratio is likely to exceed 85% within two years, making the price hard to sustain.",
+    "The bigger long-term risk is renewals: healthy younger policyholders porting out would push the client's claims ratio up."
+   ],
+   "hints": [
+    "Work in sequence from the rival's move through to your decision.",
+    "Four branches: understand the entrant's move, assess the impact on the client, response options, choose the response.",
+    "Understanding the entrant's move splits into whether the offer is sustainable (its likely claims ratio, the parent's funding) and whom it targets (segments, channels)."
+   ],
+   "keyMetrics": [
+    {
+     "name": "Retail claims ratio",
+     "formula": "retail claims incurred / retail earned premium"
+    },
+    {
+     "name": "Premium at risk",
+     "formula": "online new business x share lost + renewal premium of likely porters"
+    }
+   ],
+   "commonMistakes": [
+    "Matching the price across the whole book instead of ring-fencing the response to the online segment.",
+    "Ignoring adverse selection: copying a 30-day waiting period can raise claims far more than the premium it protects."
+   ],
+   "frameworkPick": {
+    "options": [
+     "competitive-response",
+     "pricing",
+     "profitability",
+     "market-entry"
+    ],
+    "correct": [
+     "competitive-response"
+    ],
+    "why": "A specific rival move has hit sales, and the client needs to judge the threat, size the damage and choose among responses, which is the competitive response structure.",
+    "distractorWhyNot": {
+     "pricing": "Price is one response option, but the question is broader: whether to respond at all, where and how.",
+     "profitability": "Profits have not yet fallen; the issue is a competitive threat to growth.",
+     "market-entry": "It is the rival that is entering; the client is already established."
+    }
+   }
+  },
+  {
+   "id": "insurance-c10",
+   "title": "Turning around a state-owned general insurer",
+   "industry": "insurance",
+   "framework": "turnaround",
+   "secondary": [
+    "profitability"
+   ],
+   "difficulty": "Advanced",
+   "region": "India",
+   "prompt": "A state-owned Indian general insurer writes about ₹18,000 crore of gross premium but runs a combined ratio of about 122%, and its solvency ratio has fallen to 1.1 against IRDAI's minimum of 1.5. The government has said there will be no more capital and wants the insurer to keep participating in crop and government health schemes. What should management do over the next 24 months?",
+   "clarifyingFacts": [
+    "Q: How does each line perform? A: Group health is 30% of premium at a combined ratio of about 140%; motor 30% at 125%; fire and engineering 20% at 98%; crop and government schemes 15% at 112%; other lines 5% at 115%.",
+    "Q: How do expenses compare? A: Operating expenses are about 18% of premium against 12-13% at large private peers, mainly staff costs across about 1,800 offices.",
+    "Q: What about investments? A: An investment book of about ₹35,000 crore yields about 7.5% and carries large unrealised gains on equities.",
+    "Q: Any constraints? A: No compulsory layoffs, though voluntary retirement is possible; scheme participation must continue, but its terms can be renegotiated."
+   ],
+   "modelTree": {
+    "id": "r",
+    "label": "How can solvency rise from 1.1 to 1.5+ in 24 months without government capital?",
+    "children": [
+     {
+      "id": "a",
+      "label": "Raise available solvency margin",
+      "children": [
+       {
+        "id": "a1",
+        "label": "Cut underwriting losses (combined ratio 122%)",
+        "children": [
+         {
+          "id": "a1x",
+          "label": "Premium adequacy: reprice group health and motor OD, renegotiate scheme rates"
+         },
+         {
+          "id": "a1y",
+          "label": "Claims cost: hospital tariffs, fraud and leakage controls"
+         },
+         {
+          "id": "a1z",
+          "label": "Expenses: voluntary retirement, merge offices (18% vs peers' 12-13%)"
+         }
+        ]
+       },
+       {
+        "id": "a2",
+        "label": "Improve the investment result on ₹35,000 crore",
+        "children": [
+         {
+          "id": "a2x",
+          "label": "Realise equity gains (check solvency treatment of unrealised gains)"
+         },
+         {
+          "id": "a2y",
+          "label": "Rebalance for yield within liquidity needs"
+         }
+        ]
+       },
+       {
+        "id": "a3",
+        "label": "Raise capital from sources other than the government",
+        "children": [
+         {
+          "id": "a3x",
+          "label": "Subordinated debt and other permitted forms of capital"
+         },
+         {
+          "id": "a3y",
+          "label": "Minority stake sale or stock market listing"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "id": "b",
+      "label": "Lower required solvency margin",
+      "children": [
+       {
+        "id": "b1",
+        "label": "Retain less risk through reinsurance",
+        "children": [
+         {
+          "id": "b1x",
+          "label": "Quota-share treaties on motor and health"
+         },
+         {
+          "id": "b1y",
+          "label": "Cost of ceding vs capital relief gained"
+         }
+        ]
+       },
+       {
+        "id": "b2",
+        "label": "Change the volume and mix of business written",
+        "children": [
+         {
+          "id": "b2x",
+          "label": "Cap volume in capital-heavy, loss-making lines"
+         },
+         {
+          "id": "b2y",
+          "label": "Grow lower-charge, profitable lines (fire, engineering)"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   "hypotheses": [
+    "Group health (30% of premium at about 140%) drives over half of the underwriting loss, so repricing or exiting the worst corporate accounts is the single biggest lever.",
+    "Crop and government schemes cause only about 8% of the underwriting loss, so the government's demand to keep them is compatible with the turnaround if rates are renegotiated.",
+    "Reinsurance and subordinated debt can close most of the solvency gap within 12 months, buying time for slower fixes such as voluntary retirement."
+   ],
+   "hints": [
+    "The target is a ratio with a deadline: attack both sides of it.",
+    "Two branches: raise available solvency margin (underwriting result, investment result, outside capital) and lower required solvency margin (reinsurance, volume and mix).",
+    "Lower required solvency margin splits into ceding more risk through reinsurance (capital relief vs cost) and changing the volume and mix of business written."
+   ],
+   "keyMetrics": [
+    {
+     "name": "Solvency ratio",
+     "formula": "available solvency margin / required solvency margin (IRDAI minimum 1.5)"
+    },
+    {
+     "name": "Loss contribution by line",
+     "formula": "line share of premium x (line combined ratio - 100%)"
+    },
+    {
+     "name": "Combined ratio",
+     "formula": "(net claims incurred + commission + operating expenses) / net earned premium"
+    }
+   ],
+   "commonMistakes": [
+    "Blaming government schemes for the losses without checking the numbers: at about 8% of the underwriting loss they matter far less than group health and motor.",
+    "Treating it as a pure profit problem; repricing takes two to three years to flow through, so capital-side levers (reinsurance, subordinated debt) are needed to hit the 24-month solvency target."
+   ],
+   "frameworkPick": {
+    "options": [
+     "turnaround",
+     "profitability",
+     "operations",
+     "ma"
+    ],
+    "correct": [
+     "turnaround",
+     "profitability"
+    ],
+    "why": "The insurer faces a capital crisis with a hard deadline and no outside equity, which calls for a turnaround (stabilise capital first, then fix the core); the core fix is a profitability diagnosis by line and cost item.",
+    "distractorWhyNot": {
+     "operations": "Claims and expense processes matter, but they sit inside the profitability fix and do nothing for capital on their own.",
+     "ma": "A merger with another state insurer might be a long-term option, but the 24-month solvency gap has to be closed by the insurer itself."
+    }
+   }
+  },
+  {
+   "id": "insurance-c11",
+   "title": "Buying a UK motor insurer post-reform",
+   "industry": "insurance",
+   "framework": "ma",
+   "secondary": [
+    "profitability"
+   ],
+   "difficulty": "Advanced",
+   "region": "Global",
+   "prompt": "A large continental European insurer is considering buying a UK motor insurer with £1.4 billion of gross written premium for about £900 million. The target's management points to a five-year average combined ratio of 94% and customer retention of about 80% as proof of a strong franchise. Should the client buy it, and at what price?",
+   "clarifyingFacts": [
+    "Q: What is the year-by-year record? A: Combined ratio was 86% in 2021, 91% in 2022, 98% in 2023, 99% in 2024 and 96% in 2025.",
+    "Q: What changed in the market? A: Since 1 January 2022 the FCA's general insurance pricing rules have banned quoting renewing home and motor customers more than an equivalent new customer through the same channel; before that, the target's renewing customers paid on average about 15% more (a case assumption).",
+    "Q: What is the client's rationale? A: It writes only about £300 million of UK motor premium and wants scale in claims purchasing, pricing data and IT.",
+    "Q: Other financials? A: Investment income is about £40 million a year; UK corporation tax is 25%."
+   ],
+   "modelTree": {
+    "id": "r",
+    "label": "Should the client buy the UK motor insurer for about £900 million, and at what price?",
+    "children": [
+     {
+      "id": "a",
+      "label": "Strategic fit",
+      "children": [
+       {
+        "id": "a1",
+        "label": "Value of scale (from £300 million to £1.7 billion of premium)",
+        "children": [
+         {
+          "id": "a1x",
+          "label": "Claims purchasing power (repairers, parts, hire cars)"
+         },
+         {
+          "id": "a1y",
+          "label": "Pricing data and model quality"
+         }
+        ]
+       },
+       {
+        "id": "a2",
+        "label": "Alternatives to this deal",
+        "children": [
+         {
+          "id": "a2x",
+          "label": "Organic growth in UK motor"
+         },
+         {
+          "id": "a2y",
+          "label": "Other available targets"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "id": "b",
+      "label": "Sustainable standalone earnings",
+      "children": [
+       {
+        "id": "b1",
+        "label": "Underwriting result after the 2022 pricing rules",
+        "children": [
+         {
+          "id": "b1x",
+          "label": "Renewal margin lost on loyal customers"
+         },
+         {
+          "id": "b1y",
+          "label": "Claims inflation (repair costs, used car values)"
+         },
+         {
+          "id": "b1z",
+          "label": "Expense ratio vs UK peers"
+         }
+        ]
+       },
+       {
+        "id": "b2",
+        "label": "Investment income on the float (about £40 million)"
+       },
+       {
+        "id": "b3",
+        "label": "Reserve adequacy",
+        "children": [
+         {
+          "id": "b3x",
+          "label": "Prior-year reserve releases in reported results"
+         },
+         {
+          "id": "b3y",
+          "label": "Bodily injury reserves (Ogden discount rate, +0.5% since January 2025)"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "id": "c",
+      "label": "Net synergies",
+      "children": [
+       {
+        "id": "c1",
+        "label": "Cost synergies",
+        "children": [
+         {
+          "id": "c1x",
+          "label": "IT platform consolidation"
+         },
+         {
+          "id": "c1y",
+          "label": "Claims operations and supply chain"
+         }
+        ]
+       },
+       {
+        "id": "c2",
+        "label": "Revenue synergies (cross-selling home cover)"
+       },
+       {
+        "id": "c3",
+        "label": "Integration costs and dis-synergies"
+       }
+      ]
+     },
+     {
+      "id": "d",
+      "label": "Price and deal risks",
+      "children": [
+       {
+        "id": "d1",
+        "label": "Price vs sustainable earnings",
+        "children": [
+         {
+          "id": "d1x",
+          "label": "At 94% combined: about £93 million net, about 10x"
+         },
+         {
+          "id": "d1y",
+          "label": "At an underlying 98%: about £51 million net, about 18x"
+         }
+        ]
+       },
+       {
+        "id": "d2",
+        "label": "Regulatory and conduct risks",
+        "children": [
+         {
+          "id": "d2x",
+          "label": "FCA fair value reviews of add-ons"
+         },
+         {
+          "id": "d2y",
+          "label": "Remediation for past pricing practices"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   "hypotheses": [
+    "The 94% average flatters the target: 2021-22 results included renewal margins now banned, so the sustainable combined ratio is nearer 98%, cutting pre-tax earnings by almost half.",
+    "High retention no longer signals pricing power; since 2022 it reflects fair renewal pricing, so it should not earn a premium in the valuation.",
+    "Claims supply-chain synergies of 2-3 points on the combined £1.7 billion book (about £34-51 million a year pre-tax) are the only route to justifying a price near £900 million."
+   ],
+   "hints": [
+    "Use the standard acquisition structure, but weight it towards the one question that decides the price.",
+    "Four branches: strategic fit, sustainable standalone earnings, net synergies, price and deal risks.",
+    "Net synergies split into cost synergies (IT platform, claims operations and supply chain), revenue synergies and integration costs."
+   ],
+   "keyMetrics": [
+    {
+     "name": "Sustainable net earnings",
+     "formula": "(GWP x (1 - combined ratio) + investment income) x (1 - 25% tax)"
+    },
+    {
+     "name": "Implied P/E",
+     "formula": "purchase price / sustainable net earnings"
+    },
+    {
+     "name": "Synergy value",
+     "formula": "run-rate synergies x (1 - tax) x multiple - one-off integration costs"
+    }
+   ],
+   "commonMistakes": [
+    "Taking the five-year average combined ratio at face value when a regulatory change in 2022 broke the series.",
+    "Paying for revenue synergies such as cross-selling home cover, which are hard to deliver in a market where most customers buy through price comparison sites."
+   ],
+   "frameworkPick": {
+    "options": [
+     "ma",
+     "profitability",
+     "market-entry",
+     "pe-dd"
+    ],
+    "correct": [
+     "ma",
+     "profitability"
+    ],
+    "why": "It is an acquisition decision (fit, standalone value, synergies, price), but the crux is a profitability question: what the target earns once the banned renewal margin is stripped out.",
+    "distractorWhyNot": {
+     "market-entry": "The client already writes UK motor insurance, so this is about scale, not entry.",
+     "pe-dd": "The buyer is a strategic insurer seeking synergies, not a financial investor planning an exit."
+    }
+   }
+  },
+  {
+   "id": "insurance-c12",
+   "title": "PE stake in an SME insurance broker",
+   "industry": "insurance",
+   "framework": "pe-dd",
+   "secondary": [
+    "growth"
+   ],
+   "difficulty": "Advanced",
+   "region": "India",
+   "prompt": "A private equity fund is considering buying 60% of an Indian insurance broker that places group health and property cover for about 9,000 small and mid-sized businesses, at a valuation of ₹2,000 crore for the whole company. Revenue has grown 35% a year to ₹320 crore at a 25% EBITDA margin, and management projects 30% annual growth for five more years. Should the fund invest?",
+   "clarifyingFacts": [
+    "Q: What makes up revenue? A: About 60% is base brokerage and 40% is rewards and marketing fees paid by insurers; three insurers account for 55% of revenue. The rewards need almost no extra staff or servicing, so nearly all of that revenue drops to EBITDA.",
+    "Q: What drove the 35% growth? A: Client numbers grew about 15% a year, premium per client about 12% (mostly medical inflation and group health repricing), and the take rate rose from 11% to 13% of premium placed over three years.",
+    "Q: How sticky are clients? A: About 88% renew each year, down from 93% three years ago.",
+    "Q: What does the fund need? A: A five-year hold, exit by IPO or sale, and a 3x money multiple; there is no debt in the structure."
+   ],
+   "modelTree": {
+    "id": "r",
+    "label": "Should the fund buy 60% at ₹2,000 crore (25x EBITDA) and make 3x?",
+    "children": [
+     {
+      "id": "a",
+      "label": "Market: SME group health and property cover",
+      "children": [
+       {
+        "id": "a1",
+        "label": "Growth of the premium pool",
+        "children": [
+         {
+          "id": "a1x",
+          "label": "More SMEs buying cover"
+         },
+         {
+          "id": "a1y",
+          "label": "Average premium per SME (medical inflation, repricing)"
+         }
+        ]
+       },
+       {
+        "id": "a2",
+        "label": "Share placed by brokers vs agents and insurers' direct sales"
+       }
+      ]
+     },
+     {
+      "id": "b",
+      "label": "Quality of today's ₹80 crore EBITDA",
+      "children": [
+       {
+        "id": "b1",
+        "label": "Revenue by source",
+        "children": [
+         {
+          "id": "b1x",
+          "label": "Base brokerage (about 60%)"
+         },
+         {
+          "id": "b1y",
+          "label": "Insurer rewards and marketing fees (about 40%, under scrutiny)"
+         }
+        ]
+       },
+       {
+        "id": "b2",
+        "label": "Insurer concentration (top three give 55% of revenue)"
+       },
+       {
+        "id": "b3",
+        "label": "Cost base behind the 25% margin",
+        "children": [
+         {
+          "id": "b3x",
+          "label": "Sales and service staff costs"
+         },
+         {
+          "id": "b3y",
+          "label": "One-off or non-recurring items"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "id": "c",
+      "label": "Can revenue grow 30% a year?",
+      "children": [
+       {
+        "id": "c1",
+        "label": "Net client growth (about 15% a year)",
+        "children": [
+         {
+          "id": "c1x",
+          "label": "New client wins (sales headcount, new cities)"
+         },
+         {
+          "id": "c1y",
+          "label": "Clients lost (retention 88%, down from 93%)"
+         }
+        ]
+       },
+       {
+        "id": "c2",
+        "label": "Premium per client compared with the market"
+       },
+       {
+        "id": "c3",
+        "label": "Take rate (11% to 13% of premium placed)"
+       }
+      ]
+     },
+     {
+      "id": "d",
+      "label": "Returns and exit",
+      "children": [
+       {
+        "id": "d1",
+        "label": "Entry price (25x EBITDA)"
+       },
+       {
+        "id": "d2",
+        "label": "Exit EBITDA by growth scenario",
+        "children": [
+         {
+          "id": "d2x",
+          "label": "Downside: 20% a year to about ₹200 crore"
+         },
+         {
+          "id": "d2y",
+          "label": "Base: 30% a year to about ₹300 crore"
+         },
+         {
+          "id": "d2z",
+          "label": "Upside: 35% a year to about ₹360 crore"
+         }
+        ]
+       },
+       {
+        "id": "d3",
+        "label": "Exit multiple and route",
+        "children": [
+         {
+          "id": "d3x",
+          "label": "IPO (needs scale and clean revenue)"
+         },
+         {
+          "id": "d3y",
+          "label": "Sale to a larger broker or financial group"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   "hypotheses": [
+    "Only about 15 points of the 35% growth is volume the broker controls; the rest is medical inflation and higher reward rates, neither of which is likely to repeat at the same pace.",
+    "Insurer rewards (about ₹128 crore of revenue) are exposed as group health insurers run claims ratios above 90% and regulators scrutinise payouts to intermediaries. Halving them removes about ₹64 crore; if, as is likely for pure insurer fees, almost no cost falls away with that revenue, EBITDA drops from about ₹80 crore to about ₹16 crore (down 80%), and even if a third of the lost revenue were offset by lower sales incentives, EBITDA would still fall by about half.",
+    "At 20% growth and a 20x exit multiple the fund makes about 2x, not 3x, so the price only works if 30% growth holds."
+   ],
+   "hints": [
+    "Work backwards from the return: what must be true about the business today and tomorrow for the fund to make 3x?",
+    "Four branches: market, quality of today's EBITDA, can revenue grow 30% a year, returns and exit.",
+    "Market splits into growth of the SME premium pool (more SMEs buying cover, premium per SME) and the share placed by brokers."
+   ],
+   "keyMetrics": [
+    {
+     "name": "Revenue growth decomposition",
+     "formula": "(1 + client growth) x (1 + premium per client growth) x (1 + take rate change) - 1 ≈ 1.15 x 1.12 x 1.06 - 1 ≈ 36%"
+    },
+    {
+     "name": "Money multiple",
+     "formula": "(exit EBITDA x exit multiple x 60%) / ₹1,200 crore invested"
+    },
+    {
+     "name": "Take rate",
+     "formula": "broker revenue / premium placed"
+    }
+   ],
+   "commonMistakes": [
+    "Extrapolating 35% growth without separating volume (clients) from price (medical inflation) and take rate.",
+    "Valuing all revenue at the same multiple when 40% depends on discretionary insurer rewards exposed to regulation and to insurers' own losses."
+   ],
+   "frameworkPick": {
+    "options": [
+     "pe-dd",
+     "growth",
+     "profitability",
+     "ma"
+    ],
+    "correct": [
+     "pe-dd",
+     "growth"
+    ],
+    "why": "A financial investor deciding whether to buy needs diligence on market, earnings quality, returns and exit; the deal stands or falls on whether 30% growth is real, so a growth decomposition is the second lens.",
+    "distractorWhyNot": {
+     "profitability": "Margins are a healthy 25%; the question is whether the price is backed by durable earnings and growth, which a margin diagnosis alone cannot answer.",
+     "ma": "A strategic M&A lens centres on fit and synergies with the buyer's business, which a financial investor does not have here."
+    }
+   }
+  }
+ ],
+ "flaws": [
+  {
+   "id": "insurance-f01",
+   "title": "General insurer's falling profit",
+   "industry": "insurance",
+   "framework": "profitability",
+   "difficulty": "Beginner",
+   "tree": {
+    "id": "r",
+    "label": "Why has a general insurer's profit before tax fallen?",
+    "children": [
+     {
+      "id": "a",
+      "label": "Net earned premium",
+      "children": [
+       {
+        "id": "a1",
+        "label": "Number of policies"
+       },
+       {
+        "id": "a2",
+        "label": "Average premium per policy"
+       }
+      ]
+     },
+     {
+      "id": "b",
+      "label": "Claims incurred",
+      "children": [
+       {
+        "id": "b1",
+        "label": "Number of claims"
+       },
+       {
+        "id": "b2",
+        "label": "Average cost per claim"
+       }
+      ]
+     },
+     {
+      "id": "c",
+      "label": "Commission and operating expenses",
+      "children": [
+       {
+        "id": "c1",
+        "label": "Commission to intermediaries"
+       },
+       {
+        "id": "c2",
+        "label": "Operating expenses (staff, IT, offices)"
+       }
+      ]
+     }
+    ]
+   },
+   "flaws": [
+    {
+     "nodeId": "r",
+     "type": "gap",
+     "explanation": "The tree covers only the underwriting result. Insurers also earn investment income on the float (premiums held before claims are paid), which is often what makes Indian general insurers profitable at all; a fall in yields or a smaller float can cut profit with no change in underwriting.",
+     "fix": "Add a fourth branch, 'Investment income on the float', split into size of the investment book and investment yield."
+    }
+   ],
+   "correctedTree": {
+    "id": "r",
+    "label": "Why has a general insurer's profit before tax fallen?",
+    "children": [
+     {
+      "id": "a",
+      "label": "Net earned premium",
+      "children": [
+       {
+        "id": "a1",
+        "label": "Number of policies"
+       },
+       {
+        "id": "a2",
+        "label": "Average premium per policy"
+       }
+      ]
+     },
+     {
+      "id": "b",
+      "label": "Claims incurred",
+      "children": [
+       {
+        "id": "b1",
+        "label": "Number of claims"
+       },
+       {
+        "id": "b2",
+        "label": "Average cost per claim"
+       }
+      ]
+     },
+     {
+      "id": "c",
+      "label": "Commission and operating expenses",
+      "children": [
+       {
+        "id": "c1",
+        "label": "Commission to intermediaries"
+       },
+       {
+        "id": "c2",
+        "label": "Operating expenses (staff, IT, offices)"
+       }
+      ]
+     },
+     {
+      "id": "d",
+      "label": "Investment income on the float",
+      "children": [
+       {
+        "id": "d1",
+        "label": "Size of the investment book"
+       },
+       {
+        "id": "d2",
+        "label": "Investment yield"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "insurance-f02",
+   "title": "Sizing India's term insurance premium",
+   "industry": "insurance",
+   "framework": "market-sizing",
+   "difficulty": "Beginner",
+   "tree": {
+    "id": "r",
+    "label": "Annual retail term insurance premium in India",
+    "children": [
+     {
+      "id": "a",
+      "label": "Number of term policyholders",
+      "children": [
+       {
+        "id": "a1",
+        "label": "Insurable adults (earning, aged 25-55)"
+       },
+       {
+        "id": "a2",
+        "label": "Share holding a term policy"
+       }
+      ]
+     },
+     {
+      "id": "b",
+      "label": "Average annual premium per policyholder",
+      "children": [
+       {
+        "id": "b1",
+        "label": "Average sum assured"
+       },
+       {
+        "id": "b2",
+        "label": "Premium rate per ₹1 lakh of cover"
+       }
+      ]
+     },
+     {
+      "id": "c",
+      "label": "Claims paid on term policies",
+      "children": [
+       {
+        "id": "c1",
+        "label": "Number of death claims"
+       },
+       {
+        "id": "c2",
+        "label": "Average sum assured paid per claim"
+       }
+      ]
+     }
+    ]
+   },
+   "flaws": [
+    {
+     "nodeId": "c",
+     "type": "not-a-driver",
+     "explanation": "Market size here is policyholders x average annual premium. Death claims are what insurers pay out, not what customers pay in; they matter for insurer profitability, but they are not a component of the premium pool.",
+     "fix": "Remove the claims branch; premium pool = number of term policyholders x average annual premium."
+    }
+   ],
+   "correctedTree": {
+    "id": "r",
+    "label": "Annual retail term insurance premium in India",
+    "children": [
+     {
+      "id": "a",
+      "label": "Number of term policyholders",
+      "children": [
+       {
+        "id": "a1",
+        "label": "Insurable adults (earning, aged 25-55)"
+       },
+       {
+        "id": "a2",
+        "label": "Share holding a term policy"
+       }
+      ]
+     },
+     {
+      "id": "b",
+      "label": "Average annual premium per policyholder",
+      "children": [
+       {
+        "id": "b1",
+        "label": "Average sum assured"
+       },
+       {
+        "id": "b2",
+        "label": "Premium rate per ₹1 lakh of cover"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "insurance-f03",
+   "title": "Falling 13th-month persistency",
+   "industry": "insurance",
+   "framework": "growth",
+   "difficulty": "Intermediate",
+   "tree": {
+    "id": "r",
+    "label": "Why has 13th-month persistency fallen from 84% to 76%?",
+    "children": [
+     {
+      "id": "a",
+      "label": "Mismatch at the point of sale",
+      "children": [
+       {
+        "id": "a1",
+        "label": "Wrong product type for the customer's need"
+       },
+       {
+        "id": "a2",
+        "label": "Premium too high for the customer's income"
+       },
+       {
+        "id": "a3",
+        "label": "Customer sold more cover than they could keep paying for"
+       }
+      ]
+     },
+     {
+      "id": "b",
+      "label": "Customer's finances changed after purchase",
+      "children": [
+       {
+        "id": "b1",
+        "label": "Loss of job or income"
+       },
+       {
+        "id": "b2",
+        "label": "Unexpected expense needing cash (medical, education)"
+       }
+      ]
+     },
+     {
+      "id": "c",
+      "label": "Customer's view of value changed after purchase",
+      "children": [
+       {
+        "id": "c1",
+        "label": "Poor service experience"
+       },
+       {
+        "id": "c2",
+        "label": "Better product or offer found elsewhere"
+       }
+      ]
+     },
+     {
+      "id": "d",
+      "label": "Customer meant to pay but premium was not collected",
+      "children": [
+       {
+        "id": "d1",
+        "label": "No auto-debit mandate, so payment relies on reminders"
+       },
+       {
+        "id": "d2",
+        "label": "Auto-debit failed (expired mandate, technical error)"
+       }
+      ]
+     }
+    ]
+   },
+   "flaws": [
+    {
+     "nodeId": "a3",
+     "type": "overlap",
+     "explanation": "Selling more cover than the customer can keep paying for is the same thing as a premium too high for their income: for a given product, more cover simply means a higher premium. The two nodes would double-count the same lapses.",
+     "fix": "Merge it into 'Premium too high for the customer's income'."
+    }
+   ],
+   "correctedTree": {
+    "id": "r",
+    "label": "Why has 13th-month persistency fallen from 84% to 76%?",
+    "children": [
+     {
+      "id": "a",
+      "label": "Mismatch at the point of sale",
+      "children": [
+       {
+        "id": "a1",
+        "label": "Wrong product type for the customer's need"
+       },
+       {
+        "id": "a2",
+        "label": "Premium too high for the customer's income"
+       }
+      ]
+     },
+     {
+      "id": "b",
+      "label": "Customer's finances changed after purchase",
+      "children": [
+       {
+        "id": "b1",
+        "label": "Loss of job or income"
+       },
+       {
+        "id": "b2",
+        "label": "Unexpected expense needing cash (medical, education)"
+       }
+      ]
+     },
+     {
+      "id": "c",
+      "label": "Customer's view of value changed after purchase",
+      "children": [
+       {
+        "id": "c1",
+        "label": "Poor service experience"
+       },
+       {
+        "id": "c2",
+        "label": "Better product or offer found elsewhere"
+       }
+      ]
+     },
+     {
+      "id": "d",
+      "label": "Customer meant to pay but premium was not collected",
+      "children": [
+       {
+        "id": "d1",
+        "label": "No auto-debit mandate, so payment relies on reminders"
+       },
+       {
+        "id": "d2",
+        "label": "Auto-debit failed (expired mandate, technical error)"
+       }
+      ]
+     }
+    ]
+   },
+   "decoys": [
+    {
+     "nodeId": "c2",
+     "whyFine": "Looks like an overlap with 'wrong product type', but it is a change after purchase (a better offer appears), not a mismatch at the point of sale."
+    },
+    {
+     "nodeId": "d",
+     "whyFine": "Looks out of place in a list of customer reasons, but involuntary lapses (no mandate, failed debit) are a real and separate cause, often the cheapest to fix."
+    }
+   ]
+  },
+  {
+   "id": "insurance-f04",
+   "title": "Growing retail health premium",
+   "industry": "insurance",
+   "framework": "growth",
+   "difficulty": "Intermediate",
+   "tree": {
+    "id": "r",
+    "label": "How can a standalone health insurer grow retail premium 20% a year?",
+    "children": [
+     {
+      "id": "a",
+      "label": "Win new customers",
+      "children": [
+       {
+        "id": "a1",
+        "label": "Individual agents"
+       },
+       {
+        "id": "a2",
+        "label": "Banks and other corporate agents"
+       },
+       {
+        "id": "a3",
+        "label": "Brokers (incl. their POSPs)"
+       },
+       {
+        "id": "a4",
+        "label": "Online direct and web aggregators"
+       },
+       {
+        "id": "a5",
+        "label": "Other channels (marketing firms, common service centres)"
+       }
+      ]
+     },
+     {
+      "id": "b",
+      "label": "Keep more customers at renewal",
+      "children": [
+       {
+        "id": "b1",
+        "label": "Stop customers porting to rival insurers"
+       },
+       {
+        "id": "b2",
+        "label": "Stop customers moving to employer group cover"
+       }
+      ]
+     },
+     {
+      "id": "c",
+      "label": "Raise premium per customer",
+      "children": [
+       {
+        "id": "c1",
+        "label": "Customers buy more cover (higher sum insured, add-ons, more members)"
+       },
+       {
+        "id": "c2",
+        "label": "Higher premium for the same cover (rate revisions, age-band step-ups)"
+       }
+      ]
+     }
+    ]
+   },
+   "flaws": [
+    {
+     "nodeId": "b",
+     "type": "gap",
+     "explanation": "Customers who leave at renewal either port to a rival, move to group cover, or simply stop having health cover at all. The last group, often driven by price or forgetfulness, is missing, and it is usually a large share of non-renewals.",
+     "fix": "Add 'Stop customers dropping cover altogether (price, affordability, forgetting)'."
+    }
+   ],
+   "correctedTree": {
+    "id": "r",
+    "label": "How can a standalone health insurer grow retail premium 20% a year?",
+    "children": [
+     {
+      "id": "a",
+      "label": "Win new customers",
+      "children": [
+       {
+        "id": "a1",
+        "label": "Individual agents"
+       },
+       {
+        "id": "a2",
+        "label": "Banks and other corporate agents"
+       },
+       {
+        "id": "a3",
+        "label": "Brokers (incl. their POSPs)"
+       },
+       {
+        "id": "a4",
+        "label": "Online direct and web aggregators"
+       },
+       {
+        "id": "a5",
+        "label": "Other channels (marketing firms, common service centres)"
+       }
+      ]
+     },
+     {
+      "id": "b",
+      "label": "Keep more customers at renewal",
+      "children": [
+       {
+        "id": "b1",
+        "label": "Stop customers porting to rival insurers"
+       },
+       {
+        "id": "b2",
+        "label": "Stop customers moving to employer group cover"
+       },
+       {
+        "id": "b3",
+        "label": "Stop customers dropping cover altogether (price, affordability, forgetting)"
+       }
+      ]
+     },
+     {
+      "id": "c",
+      "label": "Raise premium per customer",
+      "children": [
+       {
+        "id": "c1",
+        "label": "Customers buy more cover (higher sum insured, add-ons, more members)"
+       },
+       {
+        "id": "c2",
+        "label": "Higher premium for the same cover (rate revisions, age-band step-ups)"
+       }
+      ]
+     }
+    ]
+   },
+   "decoys": [
+    {
+     "nodeId": "a5",
+     "whyFine": "Looks like filler, but insurance marketing firms and common service centres are real IRDAI-recognised channels, so the channel list stays complete."
+    },
+    {
+     "nodeId": "b2",
+     "whyFine": "Looks outside the insurer's control, but losing retail customers to employer cover is a real, measurable source of non-renewal."
+    }
+   ]
+  },
+  {
+   "id": "insurance-f05",
+   "title": "Rising health claims cost per life",
+   "industry": "insurance",
+   "framework": "profitability",
+   "difficulty": "Intermediate",
+   "tree": {
+    "id": "r",
+    "label": "Why has retail health claims cost per insured life risen 14% in a year?",
+    "children": [
+     {
+      "id": "a",
+      "label": "Claim frequency (claims per 1,000 insured lives)",
+      "children": [
+       {
+        "id": "a1",
+        "label": "Age and health mix of insured lives",
+        "children": [
+         {
+          "id": "a1x",
+          "label": "Share of lives aged 45+"
+         },
+         {
+          "id": "a1y",
+          "label": "Share with pre-existing conditions now past the waiting period"
+         }
+        ]
+       },
+       {
+        "id": "a2",
+        "label": "Admission rate for the same profile",
+        "children": [
+         {
+          "id": "a2x",
+          "label": "Emergency admissions"
+         },
+         {
+          "id": "a2y",
+          "label": "Planned admissions (cataract, joint replacement)"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "id": "b",
+      "label": "Average cost per claim",
+      "children": [
+       {
+        "id": "b1",
+        "label": "Price per service (tariffs and hospital mix)",
+        "children": [
+         {
+          "id": "b1x",
+          "label": "Network hospital tariff increases"
+         },
+         {
+          "id": "b1y",
+          "label": "Shift to costlier non-network or premium hospitals"
+         },
+         {
+          "id": "b1z",
+          "label": "Higher package rates for common surgeries"
+         }
+        ]
+       },
+       {
+        "id": "b2",
+        "label": "Volume of services per admission",
+        "children": [
+         {
+          "id": "b2x",
+          "label": "Length of stay"
+         },
+         {
+          "id": "b2y",
+          "label": "Procedures, tests and consumables per admission"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "id": "c",
+      "label": "Premium adequacy per life",
+      "children": [
+       {
+        "id": "c1",
+        "label": "Base premium rate"
+       },
+       {
+        "id": "c2",
+        "label": "Discounts given at sale"
+       }
+      ]
+     }
+    ]
+   },
+   "flaws": [
+    {
+     "nodeId": "c",
+     "type": "not-a-driver",
+     "explanation": "Claims cost per life is claim frequency x average cost per claim. Premium adequacy is about what the insurer charges, not what it pays out; it matters for the claims ratio, but it does not drive claims cost.",
+     "fix": "Remove the premium branch. If the real question is the claims ratio, change the root and add premium as the denominator."
+    },
+    {
+     "nodeId": "b1z",
+     "type": "overlap",
+     "explanation": "Package rates for surgeries are part of network hospital tariffs, so 'higher package rates' is the same increase as 'network hospital tariff increases' in different words and would double-count it.",
+     "fix": "Remove it; tariff increases already cover package rates."
+    }
+   ],
+   "correctedTree": {
+    "id": "r",
+    "label": "Why has retail health claims cost per insured life risen 14% in a year?",
+    "children": [
+     {
+      "id": "a",
+      "label": "Claim frequency (claims per 1,000 insured lives)",
+      "children": [
+       {
+        "id": "a1",
+        "label": "Age and health mix of insured lives",
+        "children": [
+         {
+          "id": "a1x",
+          "label": "Share of lives aged 45+"
+         },
+         {
+          "id": "a1y",
+          "label": "Share with pre-existing conditions now past the waiting period"
+         }
+        ]
+       },
+       {
+        "id": "a2",
+        "label": "Admission rate for the same profile",
+        "children": [
+         {
+          "id": "a2x",
+          "label": "Emergency admissions"
+         },
+         {
+          "id": "a2y",
+          "label": "Planned admissions (cataract, joint replacement)"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "id": "b",
+      "label": "Average cost per claim",
+      "children": [
+       {
+        "id": "b1",
+        "label": "Price per service (tariffs and hospital mix)",
+        "children": [
+         {
+          "id": "b1x",
+          "label": "Network hospital tariff increases"
+         },
+         {
+          "id": "b1y",
+          "label": "Shift to costlier non-network or premium hospitals"
+         }
+        ]
+       },
+       {
+        "id": "b2",
+        "label": "Volume of services per admission",
+        "children": [
+         {
+          "id": "b2x",
+          "label": "Length of stay"
+         },
+         {
+          "id": "b2y",
+          "label": "Procedures, tests and consumables per admission"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   "decoys": [
+    {
+     "nodeId": "a1y",
+     "whyFine": "Looks like a one-off detail, but as waiting periods expire, pre-existing conditions become claimable, which genuinely raises claim frequency."
+    },
+    {
+     "nodeId": "b1y",
+     "whyFine": "Looks like an overlap with tariff increases, but it is a change in hospital mix at constant tariffs, a separate price driver."
+    }
+   ]
+  },
+  {
+   "id": "insurance-f06",
+   "title": "Life insurer's falling value of new business",
+   "industry": "insurance",
+   "framework": "profitability",
+   "difficulty": "Advanced",
+   "tree": {
+    "id": "r",
+    "label": "Why has value of new business (VNB) fallen 20% while APE is flat?",
+    "children": [
+     {
+      "id": "a",
+      "label": "APE (new business volume)",
+      "children": [
+       {
+        "id": "a1",
+        "label": "Policies sold by channel",
+        "children": [
+         {
+          "id": "a1x",
+          "label": "Bank partner"
+         },
+         {
+          "id": "a1y",
+          "label": "Agency"
+         },
+         {
+          "id": "a1z",
+          "label": "Online, brokers and others"
+         }
+        ]
+       },
+       {
+        "id": "a2",
+        "label": "Average annualised premium per policy"
+       },
+       {
+        "id": "a3",
+        "label": "Fewer term plans and more ULIPs being sold"
+       }
+      ]
+     },
+     {
+      "id": "b",
+      "label": "Product mix of APE",
+      "children": [
+       {
+        "id": "b1",
+        "label": "Protection (term) share"
+       },
+       {
+        "id": "b2",
+        "label": "Non-participating guaranteed savings share"
+       },
+       {
+        "id": "b3",
+        "label": "Annuity share"
+       },
+       {
+        "id": "b4",
+        "label": "ULIP and participating share"
+       }
+      ]
+     },
+     {
+      "id": "c",
+      "label": "VNB margin within each product",
+      "children": [
+       {
+        "id": "c1",
+        "label": "Premium rates and charges relative to benefits"
+       },
+       {
+        "id": "c2",
+        "label": "Acquisition costs (commission, sales costs)"
+       },
+       {
+        "id": "c3",
+        "label": "Maintenance expenses"
+       },
+       {
+        "id": "c4",
+        "label": "Mortality and morbidity (net of reinsurance)"
+       },
+       {
+        "id": "c5",
+        "label": "Investment returns and discount rates (economic assumptions)"
+       },
+       {
+        "id": "c6",
+        "label": "Cost of holding required capital"
+       }
+      ]
+     }
+    ]
+   },
+   "flaws": [
+    {
+     "nodeId": "a3",
+     "type": "overlap",
+     "explanation": "A shift from term to ULIPs is a change in product mix, which the 'Product mix of APE' branch already covers. Placing it under volume, in different words, double-counts the most likely cause of the VNB fall (term carries far higher margins than ULIPs).",
+     "fix": "Remove it from the APE branch; the mix branch captures it through the term and ULIP shares."
+    },
+    {
+     "nodeId": "c",
+     "type": "gap",
+     "explanation": "VNB margin is the present value of future profits on new policies, so it depends heavily on how long customers are assumed to keep paying. Persistency (lapse) assumptions are missing, yet when lapse experience worsens and assumptions are revised, a few points of persistency can cut margins sharply because upfront acquisition costs are recovered only from later premiums.",
+     "fix": "Add 'Persistency (share of policies still paying in later years)' alongside the other margin assumptions."
+    }
+   ],
+   "correctedTree": {
+    "id": "r",
+    "label": "Why has value of new business (VNB) fallen 20% while APE is flat?",
+    "children": [
+     {
+      "id": "a",
+      "label": "APE (new business volume)",
+      "children": [
+       {
+        "id": "a1",
+        "label": "Policies sold by channel",
+        "children": [
+         {
+          "id": "a1x",
+          "label": "Bank partner"
+         },
+         {
+          "id": "a1y",
+          "label": "Agency"
+         },
+         {
+          "id": "a1z",
+          "label": "Online, brokers and others"
+         }
+        ]
+       },
+       {
+        "id": "a2",
+        "label": "Average annualised premium per policy"
+       }
+      ]
+     },
+     {
+      "id": "b",
+      "label": "Product mix of APE",
+      "children": [
+       {
+        "id": "b1",
+        "label": "Protection (term) share"
+       },
+       {
+        "id": "b2",
+        "label": "Non-participating guaranteed savings share"
+       },
+       {
+        "id": "b3",
+        "label": "Annuity share"
+       },
+       {
+        "id": "b4",
+        "label": "ULIP and participating share"
+       }
+      ]
+     },
+     {
+      "id": "c",
+      "label": "VNB margin within each product",
+      "children": [
+       {
+        "id": "c1",
+        "label": "Premium rates and charges relative to benefits"
+       },
+       {
+        "id": "c2",
+        "label": "Acquisition costs (commission, sales costs)"
+       },
+       {
+        "id": "c3",
+        "label": "Maintenance expenses"
+       },
+       {
+        "id": "c4",
+        "label": "Mortality and morbidity (net of reinsurance)"
+       },
+       {
+        "id": "c5",
+        "label": "Persistency (share of policies still paying in later years)"
+       },
+       {
+        "id": "c6",
+        "label": "Investment returns and discount rates (economic assumptions)"
+       },
+       {
+        "id": "c7",
+        "label": "Cost of holding required capital"
+       }
+      ]
+     }
+    ]
+   },
+   "decoys": [
+    {
+     "nodeId": "c6",
+     "whyFine": "Looks like a balance-sheet item rather than a margin driver, but the cost of holding required capital is deducted in calculating VNB."
+    },
+    {
+     "nodeId": "a",
+     "whyFine": "Looks irrelevant because APE is flat, but flat APE can hide offsetting channel moves; it belongs in the tree and the data will rule it out."
+    }
+   ]
+  },
+  {
+   "id": "insurance-f07",
+   "title": "Cutting life policy issuance time",
+   "industry": "insurance",
+   "framework": "operations",
+   "difficulty": "Advanced",
+   "tree": {
+    "id": "r",
+    "label": "How can a life insurer cut retail policy issuance time from 12 days to 3?",
+    "children": [
+     {
+      "id": "a",
+      "label": "Proposal submission and checks",
+      "children": [
+       {
+        "id": "a1",
+        "label": "Incomplete forms and documents",
+        "children": [
+         {
+          "id": "a1x",
+          "label": "Missing income proof"
+         },
+         {
+          "id": "a1y",
+          "label": "KYC details not matching records"
+         }
+        ]
+       },
+       {
+        "id": "a2",
+        "label": "Paper rather than digital submission"
+       },
+       {
+        "id": "a3",
+        "label": "Waiting for medical test reports"
+       }
+      ]
+     },
+     {
+      "id": "b",
+      "label": "Underwriting",
+      "children": [
+       {
+        "id": "b1",
+        "label": "Medical tests",
+        "children": [
+         {
+          "id": "b1x",
+          "label": "Time to schedule tests"
+         },
+         {
+          "id": "b1y",
+          "label": "Time for lab reports"
+         }
+        ]
+       },
+       {
+        "id": "b2",
+        "label": "Underwriter decision",
+        "children": [
+         {
+          "id": "b2x",
+          "label": "Queue time before review"
+         },
+         {
+          "id": "b2y",
+          "label": "Review time per case"
+         },
+         {
+          "id": "b2z",
+          "label": "Additional requirements raised by underwriter (e.g. medical questionnaires)"
+         }
+        ]
+       },
+       {
+        "id": "b3",
+        "label": "Repeat HbA1c tests for borderline results"
+       }
+      ]
+     },
+     {
+      "id": "c",
+      "label": "Payment and issuance",
+      "children": [
+       {
+        "id": "c1",
+        "label": "Premium payment confirmation"
+       },
+       {
+        "id": "c2",
+        "label": "Policy document generation and delivery"
+       },
+       {
+        "id": "c3",
+        "label": "Free-look cancellation window"
+       }
+      ]
+     }
+    ]
+   },
+   "flaws": [
+    {
+     "nodeId": "a3",
+     "type": "overlap",
+     "explanation": "Waiting for medical test reports is the same delay as 'Time for lab reports' under Underwriting > Medical tests. Hidden in a different branch and worded differently, it would double-count the same days.",
+     "fix": "Remove it from proposal submission; the medical tests branch already covers it."
+    },
+    {
+     "nodeId": "b3",
+     "type": "mixed-levels",
+     "explanation": "Repeat HbA1c tests are one specific cause of medical test delay, sitting as a sibling of the broad stages 'Medical tests' and 'Underwriter decision'.",
+     "fix": "Move it under Medical tests as a general node, 'Repeat tests after failed or abnormal samples'."
+    },
+    {
+     "nodeId": "c3",
+     "type": "not-a-driver",
+     "explanation": "The free-look window starts only after the policy is issued and delivered, so it cannot lengthen the time to issue; it affects cancellations, not issuance time.",
+     "fix": "Remove it."
+    }
+   ],
+   "correctedTree": {
+    "id": "r",
+    "label": "How can a life insurer cut retail policy issuance time from 12 days to 3?",
+    "children": [
+     {
+      "id": "a",
+      "label": "Proposal submission and checks",
+      "children": [
+       {
+        "id": "a1",
+        "label": "Incomplete forms and documents",
+        "children": [
+         {
+          "id": "a1x",
+          "label": "Missing income proof"
+         },
+         {
+          "id": "a1y",
+          "label": "KYC details not matching records"
+         }
+        ]
+       },
+       {
+        "id": "a2",
+        "label": "Paper rather than digital submission"
+       }
+      ]
+     },
+     {
+      "id": "b",
+      "label": "Underwriting",
+      "children": [
+       {
+        "id": "b1",
+        "label": "Medical tests",
+        "children": [
+         {
+          "id": "b1x",
+          "label": "Time to schedule tests"
+         },
+         {
+          "id": "b1y",
+          "label": "Time for lab reports"
+         },
+         {
+          "id": "b1z",
+          "label": "Repeat tests after failed or abnormal samples"
+         }
+        ]
+       },
+       {
+        "id": "b2",
+        "label": "Underwriter decision",
+        "children": [
+         {
+          "id": "b2x",
+          "label": "Queue time before review"
+         },
+         {
+          "id": "b2y",
+          "label": "Review time per case"
+         },
+         {
+          "id": "b2z",
+          "label": "Additional requirements raised by underwriter (e.g. medical questionnaires)"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "id": "c",
+      "label": "Payment and issuance",
+      "children": [
+       {
+        "id": "c1",
+        "label": "Premium payment confirmation"
+       },
+       {
+        "id": "c2",
+        "label": "Policy document generation and delivery"
+       }
+      ]
+     }
+    ]
+   },
+   "decoys": [
+    {
+     "nodeId": "c1",
+     "whyFine": "Looks like a formality, but issuance waits for premium to clear, and mandate or cheque delays add days."
+    },
+    {
+     "nodeId": "a2",
+     "whyFine": "Looks like a solution rather than a driver, but paper submission adds courier and data-entry time, a real cause of delay."
+    }
+   ]
+  }
+ ],
+ "quick": [
+  {
+   "id": "insurance-q01",
+   "industry": "insurance",
+   "difficulty": "Beginner",
+   "question": "Which split of 'Gross written premium of an Indian general insurer' is MECE?",
+   "parent": "Gross written premium of an Indian general insurer",
+   "options": [
+    {
+     "split": [
+      "Motor",
+      "Health",
+      "Fire and property",
+      "All other lines"
+     ],
+     "correct": true,
+     "why": "A clean split by line of business with a catch-all, so every rupee of premium sits in exactly one bucket."
+    },
+    {
+     "split": [
+      "Gross direct premium",
+      "Inward reinsurance accepted",
+      "Premium ceded to reinsurers"
+     ],
+     "correct": false,
+     "why": "Not a driver: gross written premium is direct premium plus reinsurance accepted; premium ceded is deducted later to reach net premium and is not part of the gross figure."
+    },
+    {
+     "split": [
+      "Motor own damage",
+      "Motor third party",
+      "Health",
+      "Fire, marine and liability"
+     ],
+     "correct": false,
+     "why": "Gap: crop and engineering cover are missing, and crop is a sizeable line for Indian general insurers."
+    },
+    {
+     "split": [
+      "Motor",
+      "Health",
+      "Property",
+      "Commercial lines"
+     ],
+     "correct": false,
+     "why": "Mixed basis: 'commercial lines' is a customer type, so fleet motor, group health and commercial property would sit in two buckets."
+    }
+   ]
+  },
+  {
+   "id": "insurance-q02",
+   "industry": "insurance",
+   "difficulty": "Beginner",
+   "question": "Which split of 'Total claims paid by a health insurer in a year' is MECE?",
+   "parent": "Total claims paid by a health insurer in a year",
+   "options": [
+    {
+     "split": [
+      "Cashless claims",
+      "Reimbursement claims",
+      "Claims at network hospitals"
+     ],
+     "correct": false,
+     "why": "Overlap: most network hospital claims are settled cashless, so they would be counted twice."
+    },
+    {
+     "split": [
+      "Paid on claims reported this year",
+      "Paid on claims reported earlier",
+      "Reserves for reported but unpaid claims"
+     ],
+     "correct": false,
+     "why": "Not a driver: reserves for unpaid claims belong to claims incurred, not claims paid; the first two buckets alone would be MECE."
+    },
+    {
+     "split": [
+      "Number of claims paid",
+      "Average amount paid per claim"
+     ],
+     "correct": true,
+     "why": "Claims paid = number of claims paid x average amount paid per claim, with no overlap or gap."
+    },
+    {
+     "split": [
+      "Number of claims intimated",
+      "Average amount per claim paid"
+     ],
+     "correct": false,
+     "why": "Mixed basis: intimated claims include rejected and still-pending ones, so multiplying them by the average paid overstates claims paid."
+    }
+   ]
+  },
+  {
+   "id": "insurance-q03",
+   "industry": "insurance",
+   "difficulty": "Beginner",
+   "question": "Which split of 'Channels through which an Indian insurer sells motor policies' is MECE (counting each sale by who sells it to the customer)?",
+   "parent": "Channels through which an Indian insurer sells motor policies",
+   "options": [
+    {
+     "split": [
+      "Motor dealers",
+      "Individual agents and POSPs",
+      "Brokers",
+      "Banks and corporate agents",
+      "Online"
+     ],
+     "correct": false,
+     "why": "Mixed basis: 'Online' is a medium, not a seller; online sales run through brokers' and aggregators' platforms as well as the insurer's own site, so they overlap with other buckets."
+    },
+    {
+     "split": [
+      "Dealers",
+      "Individual agents and POSPs",
+      "Brokers and aggregators",
+      "Banks and corporate agents",
+      "Direct sales"
+     ],
+     "correct": true,
+     "why": "Each sale has exactly one seller: a dealer, an individual agent, a broker or aggregator, a bank or other corporate agent, or the insurer itself with no intermediary."
+    },
+    {
+     "split": [
+      "Motor dealers",
+      "Individual agents and POSPs",
+      "Brokers and web aggregators",
+      "Insurer's own direct sales"
+     ],
+     "correct": false,
+     "why": "Gap: banks and corporate agents, including vehicle financiers that sell cover with the loan, are missing, and they are a material motor channel."
+    },
+    {
+     "split": [
+      "Retail channels (dealers, agents, online)",
+      "Institutional channels (banks, brokers, fleet owners)",
+      "Insurer's direct sales"
+     ],
+     "correct": false,
+     "why": "Overlap and mixed basis: 'online' includes the insurer's own website, which is also direct sales, and fleet owners are customers, not channels."
+    }
+   ]
+  },
+  {
+   "id": "insurance-q04",
+   "industry": "insurance",
+   "difficulty": "Intermediate",
+   "question": "Which split of 'Term insurance proposals that do not become issued policies' is MECE?",
+   "parent": "Term insurance proposals that do not become issued policies",
+   "options": [
+    {
+     "split": [
+      "Customer drops out before a decision",
+      "Declined on medical grounds",
+      "Customer rejects the terms offered"
+     ],
+     "correct": false,
+     "why": "Gap: declines and postponements on financial or occupational grounds (income that does not support the cover, hazardous jobs) are missing."
+    },
+    {
+     "split": [
+      "Customer drops out before a decision",
+      "Insurer declines or postpones",
+      "Counter-offers not accepted",
+      "Proposals pending over 30 days"
+     ],
+     "correct": false,
+     "why": "Mixed basis: 'pending' is a snapshot status, not a final outcome; pending proposals end up in one of the other buckets, so they would be counted twice."
+    },
+    {
+     "split": [
+      "Customer drops out before a decision",
+      "Non-disclosure found in underwriting",
+      "Insurer declines or postpones",
+      "Customer rejects the terms offered"
+     ],
+     "correct": false,
+     "why": "Overlap: non-disclosure found in underwriting is a reason for a decline or a loaded offer, not a separate outcome."
+    },
+    {
+     "split": [
+      "Customer drops out before a decision",
+      "Insurer declines or postpones",
+      "Customer rejects the terms offered"
+     ],
+     "correct": true,
+     "why": "Follows each proposal to its final outcome: it stalls before a decision, gets a negative decision, or gets an offer the customer turns down."
+    }
+   ]
+  },
+  {
+   "id": "insurance-q05",
+   "industry": "insurance",
+   "difficulty": "Intermediate",
+   "question": "Which split of 'Combined ratio of a general insurer' is MECE?",
+   "parent": "Combined ratio of a general insurer",
+   "options": [
+    {
+     "split": [
+      "Claims paid ratio",
+      "Commission ratio",
+      "Operating expense ratio"
+     ],
+     "correct": false,
+     "why": "Gap: the combined ratio uses claims incurred, which adds the change in outstanding and IBNR reserves to claims paid."
+    },
+    {
+     "split": [
+      "Net incurred claims ratio",
+      "Net commission ratio",
+      "Operating expense ratio"
+     ],
+     "correct": true,
+     "why": "Combined ratio = incurred claims ratio + commission ratio + operating expense ratio, each counted once."
+    },
+    {
+     "split": [
+      "Incurred claims ratio",
+      "Expenses of management ratio",
+      "Commission ratio"
+     ],
+     "correct": false,
+     "why": "Overlap: under IRDAI's expenses of management rules, expenses of management already include commission."
+    },
+    {
+     "split": [
+      "Incurred claims ratio",
+      "Commission ratio",
+      "Operating expense ratio",
+      "Investment income ratio"
+     ],
+     "correct": false,
+     "why": "Not a driver: adding investment income gives the operating ratio; the combined ratio measures underwriting only."
+    }
+   ]
+  },
+  {
+   "id": "insurance-q06",
+   "industry": "insurance",
+   "difficulty": "Intermediate",
+   "question": "Which split of 'Retail health customers who do not renew with the insurer' is MECE?",
+   "parent": "Retail health customers who do not renew with the insurer",
+   "options": [
+    {
+     "split": [
+      "Switch to another insurer",
+      "Move to employer or other group cover",
+      "Stop having any health cover",
+      "Other exits (death, emigration)"
+     ],
+     "correct": true,
+     "why": "Covers every destination of a lost customer once; switching includes both porting and buying a fresh policy elsewhere."
+    },
+    {
+     "split": [
+      "Port to another insurer",
+      "Move to employer or other group cover",
+      "Stop having any health cover",
+      "Other exits (death, emigration)"
+     ],
+     "correct": false,
+     "why": "Gap: customers who buy a fresh policy from a rival without using portability are not porting, so they fit no bucket."
+    },
+    {
+     "split": [
+      "Switch to another insurer",
+      "Move to group cover",
+      "Stop having any health cover",
+      "Miss the renewal grace period",
+      "Other exits"
+     ],
+     "correct": false,
+     "why": "Overlap: missing the grace period is how a policy lapses, and every lapser ends up in one of the destination buckets, mostly 'stop having any cover'."
+    },
+    {
+     "split": [
+      "Switch to another insurer",
+      "Switch to a different plan with us",
+      "Move to group cover",
+      "Stop having any health cover",
+      "Other exits"
+     ],
+     "correct": false,
+     "why": "Not a driver: a customer who changes plan with the same insurer has renewed with it and is not part of the parent."
+    }
+   ]
+  },
+  {
+   "id": "insurance-q07",
+   "industry": "insurance",
+   "difficulty": "Advanced",
+   "question": "Which split of 'Underwriting result of a health insurer's retail book' is MECE?",
+   "parent": "Underwriting result of a health insurer's retail book",
+   "options": [
+    {
+     "split": [
+      "Earned premium",
+      "Claims paid in cash",
+      "Commission",
+      "Operating expenses"
+     ],
+     "correct": false,
+     "why": "Gap: incurred claims add the change in reserves for reported-but-unpaid and not-yet-reported claims; cash paid alone misses them."
+    },
+    {
+     "split": [
+      "Earned premium",
+      "Incurred claims",
+      "Expenses of management",
+      "Commission"
+     ],
+     "correct": false,
+     "why": "Overlap: under IRDAI's definition, expenses of management already include commission."
+    },
+    {
+     "split": [
+      "Net earned premium",
+      "Net incurred claims",
+      "Net commission",
+      "Operating expenses",
+      "Change in unexpired risk reserve"
+     ],
+     "correct": false,
+     "why": "Overlap: the change in the unexpired risk (premium) reserve is exactly what turns written premium into earned premium, so it is already inside earned premium."
+    },
+    {
+     "split": [
+      "Net earned premium",
+      "Net incurred claims (paid plus reserve change)",
+      "Net commission",
+      "Operating expenses"
+     ],
+     "correct": true,
+     "why": "Underwriting result = earned premium - incurred claims - commission - operating expenses, each counted once."
+    }
+   ]
+  },
+  {
+   "id": "insurance-q08",
+   "industry": "insurance",
+   "difficulty": "Advanced",
+   "question": "Which split of 'Renewal premium income of a life insurer' is MECE?",
+   "parent": "Renewal premium income of a life insurer",
+   "options": [
+    {
+     "split": [
+      "Policies sold in prior years",
+      "Persistency",
+      "Average renewal premium"
+     ],
+     "correct": false,
+     "why": "Mixed basis: prior years' sales include single-premium and limited-pay policies past their paying term, which owe no renewal premium; the base must be policies due."
+    },
+    {
+     "split": [
+      "Policies due for renewal",
+      "13th-month persistency",
+      "Average renewal premium"
+     ],
+     "correct": false,
+     "why": "Gap: 13th-month persistency covers only policies in their second year; persistency in later years (25th, 37th month and beyond) is missing."
+    },
+    {
+     "split": [
+      "Policies due for renewal",
+      "Share that actually pay (persistency)",
+      "Average renewal premium per paying policy"
+     ],
+     "correct": true,
+     "why": "Renewal premium = policies due x persistency x average renewal premium, with no overlap or gap."
+    },
+    {
+     "split": [
+      "Policies due for renewal",
+      "Persistency",
+      "Average renewal premium",
+      "ULIP top-up premiums"
+     ],
+     "correct": false,
+     "why": "Not a driver: ULIP top-ups are treated as single premium, not renewal premium."
+    }
+   ]
+  }
+ ],
+ "chainDrills": [
+  {
+   "id": "insurance-v01",
+   "industry": "insurance",
+   "difficulty": "Beginner",
+   "type": "locate",
+   "prompt": "A new retail health product's claims ratio is far above plan in its first year, driven by maternity claims. The product was designed with a nine-month waiting period for maternity, much shorter than most rival products, and underwriting followed its guidelines. Where does the root cause sit?",
+   "options": [
+    "s1",
+    "s3",
+    "s4",
+    "s5"
+   ],
+   "answer": [
+    "s1"
+   ],
+   "why": "The cost appears in claims, and underwriting looks like a suspect, but underwriters applied the guidelines correctly. The short waiting period is a product design choice that invites people planning a pregnancy to buy, so the root cause is in Product design and pricing."
+  },
+  {
+   "id": "insurance-v02",
+   "industry": "insurance",
+   "difficulty": "Beginner",
+   "type": "order",
+   "prompt": "Put the stages of the standard insurance value chain in order, from designing a product to managing the money and risk it generates.",
+   "options": [
+    "s4",
+    "s1",
+    "s6",
+    "s3",
+    "s5",
+    "s2"
+   ],
+   "answer": [
+    "s1",
+    "s2",
+    "s3",
+    "s4",
+    "s5",
+    "s6"
+   ],
+   "why": "A product is designed and priced, sold by a distributor, underwritten and issued, then serviced and renewed while claims are handled; investments, reinsurance and capital management sit at the end because they manage the float and risk that all earlier stages create."
+  },
+  {
+   "id": "insurance-v03",
+   "industry": "insurance",
+   "difficulty": "Intermediate",
+   "type": "locate",
+   "prompt": "A motor insurer's own-damage claims within 30 days of policy start jump fivefold on 'break-in' policies (renewals after the old policy lapsed), most of them sourced by one broker. Last year the insurer replaced surveyor pre-inspections for these cases with customer-uploaded photos that are not checked. Where does the root cause sit?",
+   "options": [
+    "s2",
+    "s3",
+    "s5",
+    "s6"
+   ],
+   "answer": [
+    "s3"
+   ],
+   "why": "The losses appear in claims and cluster at one broker, but the broker is only where the cases come from. Accepting pre-existing damage because the inspection check was removed is a risk-selection failure, so the root cause is in Underwriting and issuance."
+  },
+  {
+   "id": "insurance-v04",
+   "industry": "insurance",
+   "difficulty": "Intermediate",
+   "type": "assign",
+   "prompt": "Assign each item to the stage where it arises.",
+   "items": [
+    {
+     "item": "Salvage recovered on a written-off car",
+     "stage": "s5"
+    },
+    {
+     "item": "Actuarial work to file a new health product with IRDAI",
+     "stage": "s1"
+    },
+    {
+     "item": "Renewal commission paid to the agent who sold the policy",
+     "stage": "s4"
+    },
+    {
+     "item": "Pre-issuance medical tests for a term proposal",
+     "stage": "s3"
+    },
+    {
+     "item": "Premium ceded under a quota-share reinsurance treaty",
+     "stage": "s6"
+    },
+    {
+     "item": "Lead fee paid to a web aggregator",
+     "stage": "s2"
+    }
+   ],
+   "why": "Renewal commission feels like distribution, but it is paid to keep an existing policy in force and sits with renewals and servicing. Medical tests feel like a health cost, but they are part of deciding whether to accept the risk. Salvage is a recovery that reduces the net cost of a claim, so it belongs to claims. Reinsurance premium is a risk-transfer and capital decision, not a claims cost."
+  },
+  {
+   "id": "insurance-v05",
+   "industry": "insurance",
+   "difficulty": "Advanced",
+   "type": "locate",
+   "prompt": "A general insurer's profit before tax falls by a third even though its combined ratio is unchanged at 104%. Which stage most likely explains it?",
+   "options": [
+    "s1",
+    "s2",
+    "s5",
+    "s6"
+   ],
+   "answer": [
+    "s6"
+   ],
+   "why": "An unchanged combined ratio means premium, claims, commission and expenses moved together, so underwriting did not change. The fall must come from investment income on the float, for example lower yields or smaller realised gains, which sits in Investments, reinsurance and capital."
+  },
+  {
+   "id": "insurance-v06",
+   "industry": "insurance",
+   "difficulty": "Advanced",
+   "type": "locate",
+   "prompt": "A life insurer's VNB margin falls because more policies lapse after year one than assumed. The lapses are concentrated in policies sold by one bank partner that was recently offered much higher first-year commission. Renewal premiums for all channels are collected through the insurer's own reminder and auto-debit process, which works equally well across channels, and lapsed customers often say they were not told the premium was due every year. Where does the root cause sit?",
+   "options": [
+    "s2",
+    "s3",
+    "s4",
+    "s5"
+   ],
+   "answer": [
+    "s2"
+   ],
+   "why": "Lapses show up in Policy servicing and renewals, but servicing is the same for every channel and performs equally well. The pattern (one partner, a recent jump in first-year commission, customers unaware of a recurring premium) points to sales incentives encouraging unsuitable or pushed sales, so the root cause is in Distribution and sales."
+  }
+ ]
+}

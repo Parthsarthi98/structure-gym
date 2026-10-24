@@ -1,0 +1,4225 @@
+{
+  "industry": "hospitality",
+  "valueChain": {
+    "summary": "Hotels make money by selling a fixed, perishable stock of room nights at the best mix of occupancy and rate, and by selling food, beverage, events and services around the stay. Owners, brands, distributors and operating teams are often different firms, each taking a share of the same guest's spend.",
+    "stages": [
+      {
+        "id": "s1",
+        "name": "Development and ownership",
+        "activities": [
+          "Land acquisition and approvals",
+          "Design, construction and fit-out",
+          "Financing the asset",
+          "Periodic renovation and FF&E replacement"
+        ],
+        "players": [
+          "Real estate developers",
+          "Family-owned hotel owners",
+          "Listed hotel owners and REITs",
+          "Private equity funds",
+          "State tourism corporations"
+        ],
+        "revenueDrivers": [
+          "Owner's EBITDA after operator fees",
+          "Asset value and sale proceeds at exit"
+        ],
+        "costDrivers": [
+          "Land and construction cost per key",
+          "Interest on debt",
+          "Pre-opening costs and construction delays",
+          "Renovation capex every 7 to 10 years"
+        ],
+        "kpis": [
+          {
+            "name": "Yield on cost",
+            "formula": "stabilised EBITDA / total development cost",
+            "benchmark": "10-12% targeted by Indian developers for new builds (approx.)"
+          },
+          {
+            "name": "Cost per key",
+            "formula": "total development cost / number of rooms",
+            "benchmark": "roughly ₹1-1.5 crore for upscale and ₹2 crore+ for luxury in India, excluding land (approx.)"
+          }
+        ],
+        "marginNote": "Judged on return on capital, not margin: owners keep EBITDA after fees but carry the capital and cycle risk, and new hotels often earn below the 10-12% target in their first years."
+      },
+      {
+        "id": "s2",
+        "name": "Brand and management",
+        "activities": [
+          "Setting brand standards and approving designs",
+          "Running hotels under management contracts",
+          "Franchising the brand and systems to owners",
+          "Loyalty programme and central reservations"
+        ],
+        "players": [
+          "International hotel brands",
+          "Indian hotel chains",
+          "White-label (third-party) operators",
+          "Franchise groups"
+        ],
+        "revenueDrivers": [
+          "Base management fee (% of revenue)",
+          "Incentive fee (% of GOP or owner profit)",
+          "Franchise royalty (% of room revenue)",
+          "Central charges for marketing, reservations and loyalty"
+        ],
+        "costDrivers": [
+          "Corporate and regional teams",
+          "Technology platforms",
+          "Loyalty point redemption"
+        ],
+        "kpis": [
+          {
+            "name": "Fee structure",
+            "formula": "base fee % x revenue + incentive fee % x GOP",
+            "benchmark": "base fee about 1.5-3% of revenue (around 2% on many new Indian contracts) plus an incentive fee of roughly 5-10% of GOP or adjusted GOP, often stepped by margin and reduced or waived in early years (approx.)"
+          },
+          {
+            "name": "RevPAR index (RGI)",
+            "formula": "hotel RevPAR / compset RevPAR x 100",
+            "benchmark": "100 = fair share; brands pitch owners on reaching 105+"
+          }
+        ],
+        "marginNote": "Highest margin in the chain: fee income carries roughly 60-80% EBITDA margins because the operator puts in little capital (approx.)."
+      },
+      {
+        "id": "s3",
+        "name": "Pricing and revenue management",
+        "activities": [
+          "Forecasting demand by date and segment",
+          "Setting rates by channel, segment and length of stay",
+          "Inventory controls: overbooking, minimum stays, closed dates",
+          "Negotiating corporate and group rates"
+        ],
+        "players": [
+          "Hotel and cluster revenue managers",
+          "Revenue management system vendors",
+          "Rate-shopping and market data providers"
+        ],
+        "revenueDrivers": [
+          "ADR",
+          "Occupancy",
+          "Segment and length-of-stay mix"
+        ],
+        "costDrivers": [
+          "Revenue management systems and rate-shopping tools",
+          "Revenue team payroll"
+        ],
+        "kpis": [
+          {
+            "name": "RevPAR",
+            "formula": "occupancy x ADR (or room revenue / rooms available)",
+            "benchmark": "about ₹5,500 for Indian chain-affiliated hotels in calendar 2025, from ~64% occupancy x ~₹8,600 ADR, up from about ₹5,000 in 2024 (Horwath HTL, approx.)"
+          },
+          {
+            "name": "Booking pace",
+            "formula": "rooms on the books for a future date / rooms on the books at the same point last year",
+            "benchmark": "reviewed weekly; a gap of 5%+ usually triggers rate or channel action"
+          }
+        ],
+        "marginNote": "Small cost, high leverage: a 1% gain in ADR falls almost entirely to profit, while a 1% gain in occupancy carries variable rooms cost."
+      },
+      {
+        "id": "s4",
+        "name": "Sales and distribution",
+        "activities": [
+          "Brand website, app and call centre",
+          "OTA and GDS listings",
+          "Corporate, MICE and wedding sales",
+          "Loyalty and CRM marketing"
+        ],
+        "players": [
+          "Online travel agencies (OTAs)",
+          "GDS and travel management companies",
+          "Offline travel agents and tour operators",
+          "Hotel and brand sales teams"
+        ],
+        "revenueDrivers": [
+          "Room nights by channel",
+          "Volume of group and contracted business"
+        ],
+        "costDrivers": [
+          "OTA and travel agent commissions",
+          "GDS, booking engine and payment fees",
+          "Sales team and marketing spend"
+        ],
+        "kpis": [
+          {
+            "name": "Direct booking share",
+            "formula": "room nights booked direct / total room nights",
+            "benchmark": "global brands aim for 50%+; many Indian independent hotels are below 30% (approx.)"
+          },
+          {
+            "name": "OTA commission rate",
+            "formula": "commission paid / OTA room revenue",
+            "benchmark": "about 15-25% in India depending on contract and visibility programmes (approx.)"
+          }
+        ],
+        "marginNote": "For the hotel this stage is a cost of roughly 8-15% of room revenue; OTAs earn high margins on it, which is why brands push loyalty and direct booking."
+      },
+      {
+        "id": "s5",
+        "name": "Rooms operations",
+        "activities": [
+          "Front office: check-in, check-out, concierge",
+          "Housekeeping and laundry",
+          "Engineering and maintenance",
+          "Guest service and complaint resolution"
+        ],
+        "players": [
+          "Hotel operating teams",
+          "Outsourced housekeeping and laundry firms",
+          "Facilities management contractors",
+          "Linen and amenity suppliers"
+        ],
+        "revenueDrivers": [
+          "Guest satisfaction driving reviews and repeat stays",
+          "Upsells: upgrades, early check-in, late checkout"
+        ],
+        "costDrivers": [
+          "Payroll per occupied room",
+          "Linen, laundry and guest supplies",
+          "Energy and utilities"
+        ],
+        "kpis": [
+          {
+            "name": "Rooms departmental margin",
+            "formula": "rooms departmental profit / rooms revenue",
+            "benchmark": "about 70-78% for upscale hotels (approx.)"
+          },
+          {
+            "name": "Staff per room",
+            "formula": "full-time equivalent staff / rooms",
+            "benchmark": "about 1.0-1.5 for Indian upscale and 1.5-2.0+ for luxury (approx.)"
+          }
+        ],
+        "marginNote": "Rooms is the most profitable department in the hotel, at roughly 70-78% departmental margin."
+      },
+      {
+        "id": "s6",
+        "name": "Food, beverage, events and spa",
+        "activities": [
+          "Restaurants, bars and in-room dining",
+          "Banquets, weddings and conferences",
+          "Spa and recreation",
+          "Outside catering"
+        ],
+        "players": [
+          "Hotel kitchens and outlets",
+          "Banqueting and events teams",
+          "Wedding planners and décor vendors",
+          "Food and liquor suppliers"
+        ],
+        "revenueDrivers": [
+          "Covers x average spend per cover",
+          "Number and size of banquets and weddings",
+          "Spa and other spend per guest"
+        ],
+        "costDrivers": [
+          "Food and beverage cost of sales",
+          "Kitchen and service payroll",
+          "Décor and outsourced event services"
+        ],
+        "kpis": [
+          {
+            "name": "F&B departmental margin",
+            "formula": "F&B departmental profit / F&B revenue",
+            "benchmark": "about 25-35% overall, with banquets often above 40% (approx.)"
+          },
+          {
+            "name": "Non-room revenue share",
+            "formula": "(F&B + events + spa + other revenue) / total revenue",
+            "benchmark": "about 40-50% in Indian upscale hotels versus 25-35% in the US (approx.)"
+          }
+        ],
+        "marginNote": "Lower margin than rooms (about 25-35%), but in India banquets and weddings make it a large absolute profit pool."
+      }
+    ],
+    "profitPools": "Profit concentrates in asset-light brand and management fees (s2) and in the rooms department (s5), where a sold room night carries 70%+ departmental margin. Owners (s1) carry the capital and cyclical risk and earn single-digit to low double-digit yields on cost, while OTAs take a growing share through commissions (s4). In India, banqueting and weddings (s6) add a pool that is lower in margin but large in absolute rupees.",
+    "unitEconomics": {
+      "unit": "per occupied room night, upscale Indian hotel (approx.)",
+      "lines": [
+        {
+          "item": "Room revenue (ADR)",
+          "value": "₹8,000"
+        },
+        {
+          "item": "F&B, banqueting and other revenue",
+          "value": "₹5,500"
+        },
+        {
+          "item": "Payroll (~20% of revenue)",
+          "value": "-₹2,700"
+        },
+        {
+          "item": "F&B cost of sales (~30% of F&B revenue)",
+          "value": "-₹1,650"
+        },
+        {
+          "item": "Distribution: OTA commissions, GDS and card fees",
+          "value": "-₹650"
+        },
+        {
+          "item": "Energy, maintenance, supplies, sales and admin",
+          "value": "-₹2,700"
+        },
+        {
+          "item": "Management fees (3% of revenue + 8% of GOP)",
+          "value": "-₹870"
+        },
+        {
+          "item": "Property tax, insurance and FF&E reserve",
+          "value": "-₹950"
+        }
+      ],
+      "result": "Owner EBITDA after reserve ≈ ₹3,980 per occupied room night (about 29% of revenue); GOP ≈ ₹5,800 (43%)"
+    },
+    "india": "India had only about 2.2 lakh chain-affiliated hotel rooms at the end of 2025 (Horwath HTL, approx.), with a pipeline of about 1.4 lakh more, so rates move sharply with corporate travel, the wedding season and big events, and much of the new supply is going to tier-2, tier-3 and pilgrimage towns. Most brands grow asset-light through management contracts and franchises with domestic owners. Since 22 September 2025, rooms priced up to ₹7,500 per night carry 5% GST without input tax credit (previously 12% with credit) and rooms above ₹7,500 carry 18% with credit; restaurants in a hotel that charged more than ₹7,500 for any room in the previous year charge 18% with credit, others 5% without. Banquets, weddings and F&B form a much larger share of hotel revenue than in Western markets.",
+    "workedExample": {
+      "problem": "A Bengaluru business hotel's RevPAR is flat year on year, but its GOP margin has fallen 4 points.",
+      "trace": [
+        "s3 Pricing and revenue management: flat RevPAR hides a mix change. Occupancy rose from 68% to 74% while ADR fell about 8%, so more rooms were sold for the same room revenue.",
+        "s4 Sales and distribution: the extra room nights came through OTAs after two corporate accounts moved away. OTA share rose from 20% to 35% at about 18% commission, adding about 2.7 points of room revenue in cost (about 1.6 points of total revenue).",
+        "s5 Rooms operations: about 9% more occupied rooms means more housekeeping hours, laundry and amenities at a lower rate per room, costing roughly 1.5 points of margin.",
+        "s6 Food, beverage and events: OTA leisure guests book room-only and eat out, so F&B revenue per occupied room fell and fixed kitchen costs were spread thinner, costing about 1 point."
+      ],
+      "lesson": "Flat RevPAR can hide a profit problem, so split it into occupancy and rate and follow the extra room nights through channel and operating costs before calling performance stable."
+    }
+  },
+  "cases": [
+    {
+      "id": "hospitality-c01",
+      "title": "Gurugram business hotel EBITDA decline",
+      "framework": "profitability",
+      "secondary": [],
+      "difficulty": "Beginner",
+      "region": "India",
+      "prompt": "Our client owns a 220-room upscale business hotel in Gurugram. EBITDA has fallen from ₹24 crore to ₹17 crore over the last two years, even though occupancy has stayed at around 70%. The owner wants to know why profits fell and what to do about it.",
+      "clarifyingFacts": [
+        "Q: What is the objective and timeline? A: Get EBITDA back to at least ₹24 crore within two years. No plans to add rooms.",
+        "Q: How has revenue moved? A: Total revenue fell from about ₹75 crore to ₹70 crore. ADR dropped from ₹8,200 to ₹7,600; banqueting and restaurant revenue are roughly flat, slightly down.",
+        "Q: Has anything changed in the market? A: Three new upscale hotels with about 900 rooms opened within 5 km in the last 18 months.",
+        "Q: How have costs moved? A: Payroll is up about 9% a year, and OTA commissions have risen because the OTA share of room nights went from 18% to 30%."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Why has hotel EBITDA fallen from ₹24 crore to ₹17 crore?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Revenue has fallen",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Rooms revenue: 220 rooms x occupancy x ADR",
+                "children": [
+                  {
+                    "id": "a1a",
+                    "label": "Occupancy by segment: corporate, MICE, leisure"
+                  },
+                  {
+                    "id": "a1b",
+                    "label": "ADR by segment and channel"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Non-room revenue",
+                "children": [
+                  {
+                    "id": "a2a",
+                    "label": "Banquets and events: weddings, conferences"
+                  },
+                  {
+                    "id": "a2b",
+                    "label": "Restaurants, bars and in-room dining"
+                  },
+                  {
+                    "id": "a2c",
+                    "label": "Other: spa, laundry, parking, space rental"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Costs have risen",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Costs that scale with rooms sold or revenue",
+                "children": [
+                  {
+                    "id": "b1a",
+                    "label": "Distribution: OTA commissions, GDS and card fees"
+                  },
+                  {
+                    "id": "b1b",
+                    "label": "Guest supplies, laundry and amenities"
+                  },
+                  {
+                    "id": "b1c",
+                    "label": "Food and beverage cost of sales"
+                  },
+                  {
+                    "id": "b1d",
+                    "label": "Revenue-linked brand and management fees"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Fixed and semi-fixed costs",
+                "children": [
+                  {
+                    "id": "b2a",
+                    "label": "Payroll and contract staff"
+                  },
+                  {
+                    "id": "b2b",
+                    "label": "Energy and utilities"
+                  },
+                  {
+                    "id": "b2c",
+                    "label": "Maintenance, sales and admin overheads"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "About 900 new upscale rooms nearby have pushed ADR down 7% (₹8,200 to ₹7,600), removing about ₹3.4 crore of room revenue that was almost pure margin.",
+        "The rise in OTA share from 18% to 30% of room nights at about 18% commission adds roughly ₹0.9 crore a year of distribution cost.",
+        "Payroll growing about 9% a year on a base of roughly ₹15 crore adds close to ₹3 crore, which with lost rate explains most of the ₹7 crore fall."
+      ],
+      "hints": [
+        "Use the profit equation, then split each side by the hotel's own revenue lines and by how costs behave.",
+        "First level: revenue has fallen; costs have risen.",
+        "Non-room revenue: banquets and events (weddings, conferences), restaurants, bars and in-room dining, and other income (spa, laundry, parking, space rental)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "RevPAR",
+          "formula": "occupancy x ADR"
+        },
+        {
+          "name": "EBITDA margin",
+          "formula": "EBITDA / total revenue (32% falling to 24%)"
+        },
+        {
+          "name": "Net ADR after distribution",
+          "formula": "ADR x (1 - OTA share x OTA commission rate)"
+        }
+      ],
+      "commonMistakes": [
+        "Concluding rooms are fine because occupancy is flat: RevPAR fell about 7% because ADR dropped, and lost rate falls almost entirely to the bottom line.",
+        "Ignoring non-room revenue, which is around 40% of revenue in an Indian upscale hotel, or assuming it earns the same margin as rooms."
+      ],
+      "frameworkPick": {
+        "options": [
+          "profitability",
+          "competitive-response",
+          "pricing",
+          "turnaround"
+        ],
+        "correct": [
+          "profitability"
+        ],
+        "why": "The question is diagnostic: why profit fell. A revenue-and-cost tree finds where the ₹7 crore went before jumping to any one fix.",
+        "distractorWhyNot": {
+          "competitive-response": "New supply is a likely cause, but how to respond comes after you confirm how much of the fall it explains.",
+          "pricing": "ADR is one branch of the tree; a pricing lens alone ignores payroll and channel costs.",
+          "turnaround": "EBITDA is down 29% but still ₹17 crore with no cash or debt crisis, so the task is diagnosis, not a rescue plan."
+        }
+      },
+      "industry": "hospitality"
+    },
+    {
+      "id": "hospitality-c02",
+      "title": "Sizing hotel room nights in Goa",
+      "framework": "market-sizing",
+      "secondary": [],
+      "difficulty": "Beginner",
+      "region": "India",
+      "prompt": "A hotel developer is considering a 150-room resort in North Goa. Before going further, the CEO wants a quick estimate. How many hotel room nights are sold in Goa in a year?",
+      "clarifyingFacts": [
+        "Q: What counts as a hotel? A: Hotels and resorts, branded or unbranded. Exclude homestays, villas, rented flats and staying with friends.",
+        "Q: How many visitors come to Goa? A: Assume about 1 crore domestic and 5 lakh international tourist arrivals a year, of which about 4.5 lakh international are leisure tourists.",
+        "Q: How long do people stay? A: Domestic leisure visitors stay about 3 nights, international leisure visitors about 8 nights, domestic business visitors about 2 nights.",
+        "Q: Does seasonality matter? A: Not for an annual estimate, though the peak runs from October to March."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Annual hotel room nights sold in Goa",
+        "children": [
+          {
+            "id": "a",
+            "label": "Domestic visitors (~1 crore a year)",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Leisure (~85%)",
+                "children": [
+                  {
+                    "id": "a1a",
+                    "label": "Share staying in hotels, not homestays or villas (~60%)"
+                  },
+                  {
+                    "id": "a1b",
+                    "label": "Nights per stay (~3)"
+                  },
+                  {
+                    "id": "a1c",
+                    "label": "Guests per room (~2.2)"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Weddings and MICE (~5%): ~90% in hotels, 2 nights, 2 per room"
+              },
+              {
+                "id": "a3",
+                "label": "Business and government (~10%): ~80% in hotels, 2 nights"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "International visitors (~5 lakh a year)",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Leisure (~4.5 lakh)",
+                "children": [
+                  {
+                    "id": "b1a",
+                    "label": "Share staying in hotels (~70%)"
+                  },
+                  {
+                    "id": "b1b",
+                    "label": "Nights per stay (~8)"
+                  },
+                  {
+                    "id": "b1c",
+                    "label": "Guests per room (~1.8)"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Business and other (~0.5 lakh): ~80% in hotels, 3 nights"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Domestic leisure is about 68% of a total of roughly 102 lakh (about 1 crore) room nights, so the answer is most sensitive to the hotel-versus-homestay share.",
+        "At 65% average occupancy, 1 crore room nights implies about 43,000 hotel rooms in Goa, a figure that can be checked against registered supply."
+      ],
+      "hints": [
+        "Build the estimate from the demand side, segmenting visitors where stay length and hotel use differ most.",
+        "First level: domestic visitors and international visitors.",
+        "International leisure = 4.5 lakh x share staying in hotels (~70%) x nights (~8) / guests per room (~1.8) ≈ 14 lakh room nights."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Room nights per segment",
+          "formula": "visitors x share staying in hotels x nights per stay / guests per room"
+        },
+        {
+          "name": "Implied hotel rooms",
+          "formula": "room nights / (365 x average occupancy)"
+        }
+      ],
+      "commonMistakes": [
+        "Counting guest nights instead of room nights: two guests sharing a room is one room night, which roughly halves the answer.",
+        "Assuming every tourist stays in a hotel, when Goa has a large homestay, villa and short-stay segment that is the single biggest assumption."
+      ],
+      "frameworkPick": {
+        "options": [
+          "market-sizing",
+          "market-entry",
+          "segmentation",
+          "product-launch"
+        ],
+        "correct": [
+          "market-sizing"
+        ],
+        "why": "The CEO asked for a number: the size of the room-night market. A market-sizing tree built from visitors, stay length and room sharing answers that directly.",
+        "distractorWhyNot": {
+          "market-entry": "The resort decision is the context, but the question asked is only for a size estimate.",
+          "segmentation": "Segments are used inside the estimate, but the aim is a total, not choosing whom to target.",
+          "product-launch": "The resort is the context, but no launch decision is asked for yet; the CEO wants one number."
+        }
+      },
+      "industry": "hospitality"
+    },
+    {
+      "id": "hospitality-c03",
+      "title": "Pricing Edinburgh's festival month",
+      "framework": "pricing",
+      "secondary": [],
+      "difficulty": "Beginner",
+      "region": "Global",
+      "prompt": "Our client owns a 140-room independent four-star hotel in central Edinburgh. Every August, during the festivals, it sells out by March at its standard August rate of about £280 a night. The owner suspects money is being left on the table. How should the hotel price its rooms for next August?",
+      "clarifyingFacts": [
+        "Q: What is the goal? A: Maximise August room profit without damaging repeat business from the rest of the year.",
+        "Q: What do competitors charge? A: Comparable central four-star hotels average about £340 in August, and the best-located ones go above £400 in the peak fortnight.",
+        "Q: Who stays in August? A: About 60% festival-goers booking direct or through OTAs, 25% performers and production companies booking blocks, 15% regular corporate and tour accounts.",
+        "Q: Has anything changed? A: Short-term let licensing since October 2023 has cut holiday-let supply, and Edinburgh's 5% visitor levy (first five nights) is added to every bill for stays from 24 July 2026. Variable cost is about £45 per occupied room night."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "What room rates should the hotel set for next August?",
+        "children": [
+          {
+            "id": "a",
+            "label": "What each guest segment will pay",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Festival-goers: book early, choose on dates and location"
+              },
+              {
+                "id": "a2",
+                "label": "Performers and production blocks: long stays, negotiate"
+              },
+              {
+                "id": "a3",
+                "label": "Corporate and tour accounts: contracted, valuable year-round"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "What competing accommodation charges",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Compset rates night by night across August"
+              },
+              {
+                "id": "b2",
+                "label": "Alternatives: short-lets, student halls, outer hotels"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Cost floor and capacity",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Variable cost per occupied room (~£45)"
+              },
+              {
+                "id": "c2",
+                "label": "Fixed 140 rooms: no extra supply in peak"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "How rates are structured",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Rate by date: peak fortnight versus early and late August"
+              },
+              {
+                "id": "d2",
+                "label": "Rate by booking window: raise as dates fill"
+              },
+              {
+                "id": "d3",
+                "label": "Minimum stay and cancellation terms"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Selling out by March at £280 against a £340 compset average shows the hotel is pricing roughly 15-20% below the market for August.",
+        "Moving the August average from £280 to about £340, even if occupancy slips from about 98% to 95%, lifts room revenue from about £1.19m to £1.40m, an extra £211k that is almost all profit.",
+        "Most of the gain sits in the peak fortnight, where a higher rate plus a three-night minimum stay beats a flat increase across the month."
+      ],
+      "hints": [
+        "Look at price through the standard outside-in lenses, then add the mechanics of how a rate varies across the month.",
+        "First level: what each segment will pay, what competing accommodation charges, cost floor and capacity, and how rates are structured.",
+        "How rates are structured: rate by date (peak fortnight versus early and late August), rate by booking window (raise as dates fill), and minimum stay and cancellation terms."
+      ],
+      "keyMetrics": [
+        {
+          "name": "August room revenue",
+          "formula": "140 rooms x 31 nights x occupancy x ADR"
+        },
+        {
+          "name": "Booking pace",
+          "formula": "rooms booked for a date / rooms booked for that date at the same point last year"
+        },
+        {
+          "name": "Incremental profit per room night",
+          "formula": "ADR - variable cost per occupied room (~£45)"
+        }
+      ],
+      "commonMistakes": [
+        "Pricing from cost: the £45 variable cost is only a floor and tells you nothing about what an August sell-out can bear.",
+        "Raising every rate uniformly and ignoring the corporate and tour accounts that fill the hotel for the other eleven months."
+      ],
+      "frameworkPick": {
+        "options": [
+          "pricing",
+          "profitability",
+          "segmentation",
+          "competitive-response"
+        ],
+        "correct": [
+          "pricing"
+        ],
+        "why": "The owner asks what to charge. Selling out months early is a classic sign of underpricing, so customer value, competitor rates and cost floor are the right lenses.",
+        "distractorWhyNot": {
+          "profitability": "Nothing has gone wrong with profit; the question is a forward-looking rate decision.",
+          "competitive-response": "No competitor has moved; competitor rates are an input, not the problem.",
+          "segmentation": "The guest segments shape the rates, but the owner asks what to charge, not whom to target."
+        }
+      },
+      "industry": "hospitality"
+    },
+    {
+      "id": "hospitality-c04",
+      "title": "Cutting check-in queues at airport hotel",
+      "framework": "operations",
+      "secondary": [],
+      "difficulty": "Beginner",
+      "region": "India",
+      "prompt": "A 300-room hotel next to Mumbai airport is getting poor reviews because check-in takes about 25 minutes at peak times, against a brand standard of 10 minutes. Most guests arrive in bunches after early-morning international flights. How would you bring check-in time down?",
+      "clarifyingFacts": [
+        "Q: When is the problem worst? A: Between 5 am and 9 am, when 60 to 80 guests can arrive in an hour, many of them foreign nationals.",
+        "Q: How many counters are there? A: Four, but usually only two are staffed on the night-to-morning shift.",
+        "Q: What does a check-in involve? A: ID or passport check, Form C registration for foreign guests (a legal requirement), payment authorisation and key issue. It takes about 6 minutes for a foreign guest and 4 for a domestic guest.",
+        "Q: Are rooms ready? A: Standard check-in is 2 pm, so early arrivals often wait for a room to be cleaned."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "How can peak check-in time fall from 25 to under 10 minutes?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Time waiting in the queue",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Arrival bunching: 60-80 guests an hour after flights"
+              },
+              {
+                "id": "a2",
+                "label": "Counters staffed at peak (two of four)"
+              },
+              {
+                "id": "a3",
+                "label": "Capacity outside counters: mobile check-in, kiosks"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Service time per guest at the desk",
+            "children": [
+              {
+                "id": "b1",
+                "label": "ID checks and Form C for foreign guests"
+              },
+              {
+                "id": "b2",
+                "label": "Payment authorisation and deposit"
+              },
+              {
+                "id": "b3",
+                "label": "Key issue and room briefing"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Time waiting for a ready room",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Housekeeping turnaround of rooms vacated overnight"
+              },
+              {
+                "id": "c2",
+                "label": "Rooms held back for known early arrivals"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "With two counters at about 5 minutes per guest, capacity is about 24 guests an hour against 60-80 arrivals, so queueing, not service time, drives most of the 25 minutes.",
+        "Capturing passport and Form C details online before arrival could cut a foreign guest's desk time from about 6 to 3 minutes."
+      ],
+      "hints": [
+        "Follow the guest from arrival to entering the room and split the 25 minutes into sequential stages.",
+        "First level: time in the queue, service time at the desk, and time waiting for a ready room.",
+        "Service time per guest: ID checks and Form C for foreign guests, payment authorisation and deposit, and key issue and room briefing."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Counter capacity per hour",
+          "formula": "staffed counters x 60 / minutes per check-in"
+        },
+        {
+          "name": "Total check-in time",
+          "formula": "queue wait + service time + wait for a ready room"
+        }
+      ],
+      "commonMistakes": [
+        "Jumping to 'hire more staff' without checking that even four counters (about 48 guests an hour) cannot clear 80 arrivals.",
+        "Ignoring room readiness: a fast desk does not help a guest who lands at 6 am for a room that will not be clean until noon."
+      ],
+      "frameworkPick": {
+        "options": [
+          "operations",
+          "profitability",
+          "segmentation",
+          "pricing"
+        ],
+        "correct": [
+          "operations"
+        ],
+        "why": "This is a process bottleneck: guest time depends on arrival rate, desk capacity, service steps and room readiness, which is an operations question.",
+        "distractorWhyNot": {
+          "profitability": "Nothing is said about profit; the metric to fix is minutes per check-in.",
+          "segmentation": "Splitting guests by type helps inside the analysis, but the task is fixing a process, not choosing targets.",
+          "pricing": "Charging for early check-in could shape demand, but the core problem is a capacity bottleneck."
+        }
+      },
+      "industry": "hospitality"
+    },
+    {
+      "id": "hospitality-c05",
+      "title": "Choosing segments for a Bengaluru hotel",
+      "framework": "segmentation",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "India",
+      "prompt": "A developer is opening a 180-room upper-midscale hotel in north Bengaluru, about 15 km from the airport and close to new tech parks, in 18 months. The owner wants to reach 70% stabilised occupancy at an ADR of about ₹6,500. Which customer segments should the hotel target, and in what mix?",
+      "clarifyingFacts": [
+        "Q: What is around the site? A: Two large tech parks under construction, an aerospace SEZ, the airport and several wedding lawns. Few branded hotels within 5 km today.",
+        "Q: What will the hotel offer? A: 180 rooms, an all-day restaurant, a bar, 8,000 sq ft of banquet space and a small gym. No spa.",
+        "Q: Who are the competitors? A: Three branded hotels near the airport (about 900 rooms) that mainly serve transit guests and airline crew at around ₹3,500-5,000; city-centre hotels are 30 to 60 minutes away.",
+        "Q: Any constraints? A: The owner does not want OTAs to supply more than 25% of room nights."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Which segments, in what mix, deliver 70% occupancy at ~₹6,500 ADR?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Which segments exist in this micro-market",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Individual business travellers",
+                "children": [
+                  {
+                    "id": "a1a",
+                    "label": "Contracted accounts in nearby tech parks and SEZ"
+                  },
+                  {
+                    "id": "a1b",
+                    "label": "Unmanaged travellers booking direct or via OTAs"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Corporate groups: offsites, training, conferences"
+              },
+              {
+                "id": "a3",
+                "label": "Social events: weddings and family functions",
+                "children": [
+                  {
+                    "id": "a3a",
+                    "label": "Room blocks for wedding guests"
+                  },
+                  {
+                    "id": "a3b",
+                    "label": "Banquet-only local events"
+                  }
+                ]
+              },
+              {
+                "id": "a4",
+                "label": "Airline crew and airline-booked layover guests"
+              },
+              {
+                "id": "a5",
+                "label": "Leisure travellers and visiting families"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "How attractive each segment is",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Volume of room nights",
+                "children": [
+                  {
+                    "id": "b1a",
+                    "label": "Demand today versus once tech parks fill"
+                  },
+                  {
+                    "id": "b1b",
+                    "label": "Weekday versus weekend and seasonal pattern"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Value per room night",
+                "children": [
+                  {
+                    "id": "b2a",
+                    "label": "Achievable rate versus the ₹6,500 target"
+                  },
+                  {
+                    "id": "b2b",
+                    "label": "Banquet and F&B spend per room night"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Cost to win and serve: commissions, sales effort"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Whether the hotel can win each segment",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Product fit",
+                "children": [
+                  {
+                    "id": "c1a",
+                    "label": "8,000 sq ft banquets suit mid-size weddings and offsites"
+                  },
+                  {
+                    "id": "c1b",
+                    "label": "No spa limits appeal to leisure guests"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Competitive intensity",
+                "children": [
+                  {
+                    "id": "c2a",
+                    "label": "Airport hotels' hold on crew and transit"
+                  },
+                  {
+                    "id": "c2b",
+                    "label": "City-centre hotels' hold on corporate accounts"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Which mix meets the targets",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Weekday base: corporate accounts and groups"
+              },
+              {
+                "id": "d2",
+                "label": "Weekend fill: weddings, social events, leisure"
+              },
+              {
+                "id": "d3",
+                "label": "Check the blended result",
+                "children": [
+                  {
+                    "id": "d3a",
+                    "label": "Blended ADR at or above ₹6,500"
+                  },
+                  {
+                    "id": "d3b",
+                    "label": "Occupancy at or above 70%"
+                  },
+                  {
+                    "id": "d3c",
+                    "label": "OTA share at or below 25%"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Contracted tech-park and SEZ accounts can fill 40-45% of weekday rooms at ₹6,500-7,000 once the parks are occupied, but not in the first year.",
+        "Weddings and social events are the best weekend filler because the banquet space brings non-room revenue that offsets lower weekend room rates.",
+        "Airline crew contracts would lift occupancy but at about ₹3,500 a night they drag blended ADR below target, so they should be capped near 10% of rooms."
+      ],
+      "hints": [
+        "Run a targeting process that narrows the full set of possible customers to a portfolio that meets the owner's targets.",
+        "First level: which segments exist, how attractive each is, whether the hotel can win each, and which mix meets the occupancy, ADR and OTA targets.",
+        "Attractiveness: volume (demand now versus when the tech parks fill, weekday versus weekend), value (rate versus ₹6,500, banquet spend per room night) and cost to win and serve."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Blended ADR",
+          "formula": "sum of (segment room nights x segment rate) / total room nights"
+        },
+        {
+          "name": "Segment contribution per room night",
+          "formula": "rate - commission - variable room cost + non-room margin"
+        }
+      ],
+      "commonMistakes": [
+        "Listing booking channels (OTA, direct) alongside purposes of travel: channels cut across every segment and create overlap.",
+        "Picking segments on volume alone: crew and transit fill rooms but can make the ₹6,500 ADR target impossible."
+      ],
+      "frameworkPick": {
+        "options": [
+          "segmentation",
+          "market-sizing",
+          "market-entry",
+          "pricing"
+        ],
+        "correct": [
+          "segmentation"
+        ],
+        "why": "The owner asks whom to serve and in what proportion, which is a choice among customer segments tested on attractiveness and fit.",
+        "distractorWhyNot": {
+          "market-sizing": "Demand sizing feeds the attractiveness test, but the question is a choice of target mix, not a single number.",
+          "market-entry": "The hotel is already being built; the decision is whom to serve, not whether to enter.",
+          "pricing": "Rate is an output of the chosen mix rather than the core decision."
+        }
+      },
+      "industry": "hospitality"
+    },
+    {
+      "id": "hospitality-c06",
+      "title": "Growing a Udaipur palace resort",
+      "framework": "growth",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "India",
+      "prompt": "Our client owns a 150-key luxury palace resort in Udaipur with total revenue of about ₹130 crore, roughly 40% of it from weddings. The owners want revenue to grow 25% in three years without adding any rooms. How would you get there?",
+      "clarifyingFacts": [
+        "Q: How does the resort perform today? A: Occupancy 60% and ADR about ₹22,000, giving rooms revenue of about ₹72 crore. Non-room revenue (F&B, banquets, spa, events) is about ₹58 crore.",
+        "Q: How seasonal is it? A: October to March runs above 85% occupancy. April to September falls to about 35%, with almost no weddings in peak summer.",
+        "Q: How many weddings? A: About 45 a year, each taking most of the property for 2 to 3 days and spending about ₹1.15 crore on average including rooms. Décor and entertainment are handled by outside planners.",
+        "Q: Any constraints? A: No new keys, and the heritage structure limits construction, but the lawns and courtyards can host more events."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "How can revenue reach ~₹162 crore without new rooms?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Weddings and social events (~₹52 crore)",
+            "children": [
+              {
+                "id": "a1",
+                "label": "More weddings a year",
+                "children": [
+                  {
+                    "id": "a1a",
+                    "label": "Peak dates lost to clashes or small bookings"
+                  },
+                  {
+                    "id": "a1b",
+                    "label": "Monsoon and shoulder-month wedding packages"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Higher revenue per wedding",
+                "children": [
+                  {
+                    "id": "a2a",
+                    "label": "Venue and per-guest F&B package pricing"
+                  },
+                  {
+                    "id": "a2b",
+                    "label": "In-house décor, entertainment and planning"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Leisure guests (individuals and families)",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Room revenue across seasons",
+                "children": [
+                  {
+                    "id": "b1a",
+                    "label": "April-September occupancy (35%) via packages and new source markets"
+                  },
+                  {
+                    "id": "b1b",
+                    "label": "Peak-season ADR on weekends and holidays"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Spend per guest beyond the room",
+                "children": [
+                  {
+                    "id": "b2a",
+                    "label": "Dining, bar and in-room dining"
+                  },
+                  {
+                    "id": "b2b",
+                    "label": "Spa, heritage tours and experiences"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Corporate groups and MICE",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Incentive trips and offsites in the low season",
+                "children": [
+                  {
+                    "id": "c1a",
+                    "label": "Indian corporates"
+                  },
+                  {
+                    "id": "c1b",
+                    "label": "International incentive groups"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Leadership retreats and conferences: rooms plus banquets"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Non-resident customers",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Restaurants and bars for locals and day visitors"
+              },
+              {
+                "id": "d2",
+                "label": "Paid palace tours, day passes and small events"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Weddings are capped in peak months, so 8-10 extra weddings in July to September at about ₹0.8 crore each could add ₹6-8 crore.",
+        "Lifting April-September occupancy from 35% to 45% at about ₹14,000 ADR adds about ₹3.8 crore of rooms revenue before F&B spend.",
+        "Bringing décor and entertainment in-house at ₹10-15 lakh per wedding could add about ₹5-6 crore across 45 weddings."
+      ],
+      "hints": [
+        "Cut revenue by customer segment rather than by revenue line, so wedding rooms and wedding F&B sit in one place and nothing is counted twice.",
+        "First level: weddings and social events, leisure guests, corporate groups and MICE, and non-resident customers.",
+        "Leisure guests: room revenue across seasons (April-September occupancy via packages and new source markets, peak-season weekend ADR) and spend beyond the room (dining and bar, spa, tours and experiences)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Total revenue per available room (TRevPAR)",
+          "formula": "total revenue / (keys x 365) ≈ ₹23,744 today"
+        },
+        {
+          "name": "Revenue per wedding",
+          "formula": "rooms + venue + covers x price per cover + event services"
+        }
+      ],
+      "commonMistakes": [
+        "Splitting into rooms versus F&B and then again into weddings versus leisure, which double counts wedding guests' room nights.",
+        "Missing seasonality: average 60% occupancy hides a sold-out winter where the only room lever is rate, and an empty summer where volume is the lever."
+      ],
+      "frameworkPick": {
+        "options": [
+          "growth",
+          "profitability",
+          "pricing",
+          "segmentation"
+        ],
+        "correct": [
+          "growth"
+        ],
+        "why": "The owners want a 25% revenue increase with a fixed asset, so the task is to find and size growth levers across segments and seasons.",
+        "distractorWhyNot": {
+          "profitability": "Nothing has gone wrong; the goal is top-line growth, not diagnosing a profit fall.",
+          "pricing": "Peak-season rate is one lever, but most of the gap must come from volume in the low season and non-room spend.",
+          "segmentation": "The tree is cut by segment, but the owners want to grow revenue from all of them, not choose which to serve."
+        }
+      },
+      "industry": "hospitality"
+    },
+    {
+      "id": "hospitality-c07",
+      "title": "Launching delivery from hotel kitchens",
+      "framework": "product-launch",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "India",
+      "prompt": "A luxury hotel group with 18 hotels across six Indian metros is considering a home-delivery food brand cooked in its hotel kitchens, selling signature dishes at ₹1,200 to ₹1,800 per order. Its kitchens run at about half capacity outside banquets. Should it launch, and if so, how?",
+      "clarifyingFacts": [
+        "Q: What does success look like? A: At least ₹60 crore of annual revenue within three years at a positive contribution margin, without hurting the luxury brand.",
+        "Q: How would orders reach customers? A: Through the two large food delivery platforms, which charge about 25-30% commission plus fees. An own app is possible later.",
+        "Q: What are the costs? A: Food cost is about 30% of menu price and packaging about ₹80 per order. Kitchen staff are already on the payroll.",
+        "Q: What is the competition? A: Premium standalone restaurants and cloud-kitchen brands already deliver at ₹600 to ₹1,000 per order."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Should the group launch a premium delivery brand from its hotel kitchens?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Is there enough demand at ₹1,200-1,800 per order?",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Target customers and occasions",
+                "children": [
+                  {
+                    "id": "a1a",
+                    "label": "Affluent households: celebrations, weekend dinners"
+                  },
+                  {
+                    "id": "a1b",
+                    "label": "Offices ordering for meetings and teams"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Willingness to pay at ₹1,200-1,800",
+                "children": [
+                  {
+                    "id": "a2a",
+                    "label": "Premium for the hotel brand and signature dishes"
+                  },
+                  {
+                    "id": "a2b",
+                    "label": "Gap versus ₹600-1,000 premium alternatives"
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Orders per kitchen within delivery radius"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Can the group deliver it well?",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Kitchen capacity",
+                "children": [
+                  {
+                    "id": "b1a",
+                    "label": "Spare hours by day part"
+                  },
+                  {
+                    "id": "b1b",
+                    "label": "Clash with banquet peaks in wedding season"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Food that travels",
+                "children": [
+                  {
+                    "id": "b2a",
+                    "label": "Dishes that hold quality for 30-45 minutes"
+                  },
+                  {
+                    "id": "b2b",
+                    "label": "Packaging and delivery radius"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Ordering channel",
+                "children": [
+                  {
+                    "id": "b3a",
+                    "label": "Platforms: reach, but 25-30% commission"
+                  },
+                  {
+                    "id": "b3b",
+                    "label": "Own app: lower fees, high acquisition cost"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Do the economics work?",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Contribution per order",
+                "children": [
+                  {
+                    "id": "c1a",
+                    "label": "Commission, food cost, packaging and payment fees"
+                  },
+                  {
+                    "id": "c1b",
+                    "label": "Labour beyond the current kitchen team"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Launch costs: technology, marketing, packaging design"
+              },
+              {
+                "id": "c3",
+                "label": "Volume needed for ₹60 crore (~4 lakh orders a year)"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "What are the risks to the core business?",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Brand damage",
+                "children": [
+                  {
+                    "id": "d1a",
+                    "label": "Late or poorly packaged deliveries"
+                  },
+                  {
+                    "id": "d1b",
+                    "label": "Heavy discounting on platforms"
+                  }
+                ]
+              },
+              {
+                "id": "d2",
+                "label": "Cannibalisation of hotel restaurant visits"
+              },
+              {
+                "id": "d3",
+                "label": "Imitation by other hotel groups"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "After ~28% platform commission, 30% food cost, ₹80 packaging and ~₹30 payment costs, contribution is about ₹520 on a ₹1,500 order, so the economics work only if the existing kitchen team absorbs most of the labour.",
+        "₹60 crore needs about 4 lakh orders a year, roughly 61 orders per kitchen per day, which is ambitious at a price 50% or more above premium alternatives.",
+        "Demand at ₹1,500 is concentrated in celebration occasions, so volume will be weekend-heavy and will clash with banquet peaks in wedding season."
+      ],
+      "hints": [
+        "Use a go or no-go launch structure that tests the idea from the customer's side, the group's side and the shareholders' side.",
+        "First level: is there demand at this price, can the group deliver it well, do the economics work, and what are the risks to the core brand.",
+        "Delivery capability: kitchen capacity (spare hours by day part, clash with wedding-season banquets), food that travels (30-45 minute quality, packaging, radius) and the ordering channel (platforms versus own app)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Contribution per order",
+          "formula": "AOV - platform commission - food cost - packaging - payment fees - incremental labour"
+        },
+        {
+          "name": "Orders per kitchen per day",
+          "formula": "annual orders / (kitchens x 365)"
+        }
+      ],
+      "commonMistakes": [
+        "Treating kitchen labour as free: in wedding season the same team is at full stretch, so the spare-capacity argument holds only for part of the year.",
+        "Skipping brand risk: for a luxury group, a cold, late delivery under its name costs more than one lost order."
+      ],
+      "frameworkPick": {
+        "options": [
+          "product-launch",
+          "market-entry",
+          "operations",
+          "pricing"
+        ],
+        "correct": [
+          "product-launch"
+        ],
+        "why": "The group is deciding whether to launch a new offer built on its existing kitchens and brand, so demand, capability, unit economics and cannibalisation are the right questions.",
+        "distractorWhyNot": {
+          "market-entry": "Delivery is new for the group, but the decision is about a new product using existing assets in existing cities, not about entry mode or a new geography.",
+          "operations": "Kitchen capacity is one branch, but the question is whether to launch at all.",
+          "pricing": "Price is largely set by the positioning; the bigger question is whether demand and margins exist."
+        }
+      },
+      "industry": "hospitality"
+    },
+    {
+      "id": "hospitality-c08",
+      "title": "Responding to a new Lisbon rival",
+      "framework": "competitive-response",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "Global",
+      "prompt": "Our client runs a 210-room independent four-star hotel in central Lisbon. Eight months ago a branded 300-room four-star hotel opened two streets away, pricing about 20% below our client. Occupancy has fallen from 82% to 74% while ADR has held at €175. How should our client respond?",
+      "clarifyingFacts": [
+        "Q: Which guests have we lost? A: Mostly midweek corporate travellers and OTA leisure guests. Weekend leisure and tour groups are almost unchanged.",
+        "Q: What is the new hotel doing? A: Launch rates around €140, a large loyalty programme and strong OTA visibility. Its owner targets 80% occupancy in year two.",
+        "Q: What are our strengths? A: A rooftop bar, a 4.6 review score against 4.2 for the newcomer, a historic building and long-standing tour operator contracts.",
+        "Q: What is the goal? A: Get RevPAR back to at least €140 within 18 months without starting a price war."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "How should the hotel respond to the new branded competitor?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Diagnose the damage",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Which segments lost share",
+                "children": [
+                  {
+                    "id": "a1a",
+                    "label": "Midweek corporate travellers"
+                  },
+                  {
+                    "id": "a1b",
+                    "label": "OTA leisure guests"
+                  },
+                  {
+                    "id": "a1c",
+                    "label": "Weekend leisure and tour groups"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Size of loss: occupancy, ADR and RevPAR versus compset"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Understand the competitor",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Its pricing intent",
+                "children": [
+                  {
+                    "id": "b1a",
+                    "label": "Launch rates during ramp-up"
+                  },
+                  {
+                    "id": "b1b",
+                    "label": "Long-run target rate and segment focus"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Its advantages: loyalty base, brand, OTA reach"
+              },
+              {
+                "id": "b3",
+                "label": "Its staying power: cost base and owner patience"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Assess response options",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Price",
+                "children": [
+                  {
+                    "id": "c1a",
+                    "label": "Broad cut towards €140"
+                  },
+                  {
+                    "id": "c1b",
+                    "label": "Targeted midweek corporate and OTA rates"
+                  },
+                  {
+                    "id": "c1c",
+                    "label": "Hold rate and accept lower occupancy"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Product and service: rooftop, reviews, heritage"
+              },
+              {
+                "id": "c3",
+                "label": "Channels and segments",
+                "children": [
+                  {
+                    "id": "c3a",
+                    "label": "Direct booking incentives or a soft-brand loyalty tie-up"
+                  },
+                  {
+                    "id": "c3b",
+                    "label": "Grow tour groups, events and weekend leisure"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Choose and plan",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Economics of each option",
+                "children": [
+                  {
+                    "id": "d1a",
+                    "label": "Occupancy needed to offset any rate cut"
+                  },
+                  {
+                    "id": "d1b",
+                    "label": "Cost of new channels and marketing"
+                  }
+                ]
+              },
+              {
+                "id": "d2",
+                "label": "Likely competitor reaction to each option"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "The loss is concentrated in midweek corporate and OTA leisure, where the newcomer's loyalty programme and €140 rate matter most; weekend and tour business is not at risk.",
+        "A broad cut to €150 would need about 86% occupancy just to hold today's €129.5 RevPAR, so targeted midweek rates beat a broad match."
+      ],
+      "hints": [
+        "Use a sequential response structure: understand the damage and both sides of the contest before choosing a move.",
+        "First level: diagnose the damage, understand the competitor, assess response options (price, product, channels and segments), choose and plan.",
+        "Price options are mutually exclusive: a broad cut towards €140, targeted midweek corporate and OTA rates, or holding rate and accepting lower occupancy."
+      ],
+      "keyMetrics": [
+        {
+          "name": "RevPAR index (RGI)",
+          "formula": "hotel RevPAR / compset RevPAR x 100"
+        },
+        {
+          "name": "Break-even occupancy after a rate cut",
+          "formula": "current RevPAR / new ADR"
+        }
+      ],
+      "commonMistakes": [
+        "Cutting rates across the board, which gives away rate on weekend and tour business that was never at risk.",
+        "Not asking whether €140 is launch pricing: the right response to a temporary ramp-up differs from the response to a permanent low-price position."
+      ],
+      "frameworkPick": {
+        "options": [
+          "competitive-response",
+          "pricing",
+          "turnaround",
+          "market-entry"
+        ],
+        "correct": [
+          "competitive-response"
+        ],
+        "why": "A specific competitor's move triggered the problem, so the structure must cover its intent and staying power as well as our options and their likely reaction.",
+        "distractorWhyNot": {
+          "pricing": "Price is one response option, but product, channel and segment moves may beat a rate cut.",
+          "turnaround": "The hotel is still profitable and has no cash crisis; it needs a response, not a rescue.",
+          "market-entry": "The competitor is the one entering; our client is defending."
+        }
+      },
+      "industry": "hospitality"
+    },
+    {
+      "id": "hospitality-c09",
+      "title": "Buying a luxury villa rental operator",
+      "framework": "ma",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "India",
+      "prompt": "A listed Indian hotel company that owns and runs 30 upscale hotels is considering buying a luxury villa rental operator that manages about 180 privately owned villas in Goa, the hills and Alibaug. The seller is asking ₹350 crore. Should our client buy it?",
+      "clarifyingFacts": [
+        "Q: What are the target's numbers? A: Gross booking value of about ₹118 crore a year. The operator keeps about 30% as fees plus some F&B and experiences, giving revenue of about ₹40 crore and EBITDA of about ₹9 crore, growing about 30% a year.",
+        "Q: Why does the client want it? A: To enter the fast-growing villa stays market without buying property, and to offer villas to its loyalty members.",
+        "Q: How are villas contracted? A: Three- to five-year contracts with homeowners; about 30% come up for renewal in the next 18 months.",
+        "Q: What do comparable deals look like? A: Assume asset-light hospitality platforms have recently sold at 20 to 25 times EBITDA."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Should the client buy the villa operator for ₹350 crore?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Is the luxury villa market attractive?",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Size and growth of villa stays",
+                "children": [
+                  {
+                    "id": "a1a",
+                    "label": "Demand: affluent families and groups"
+                  },
+                  {
+                    "id": "a1b",
+                    "label": "Supply: homeowners willing to let villas"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Competition: other managed-villa brands and listing platforms"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Is the target strong on its own?",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Revenue quality",
+                "children": [
+                  {
+                    "id": "b1a",
+                    "label": "Villa portfolio: locations, size, contract terms"
+                  },
+                  {
+                    "id": "b1b",
+                    "label": "Occupancy and rate per villa versus peers"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Profitability (₹9 crore EBITDA, 30% growth)",
+                "children": [
+                  {
+                    "id": "b2a",
+                    "label": "Fee and cost to serve per villa"
+                  },
+                  {
+                    "id": "b2b",
+                    "label": "Central overheads and marketing spend"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "What synergies can the client add?",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Revenue synergies",
+                "children": [
+                  {
+                    "id": "c1a",
+                    "label": "Loyalty members booking villas"
+                  },
+                  {
+                    "id": "c1b",
+                    "label": "Hotel F&B and service teams serving villas"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Cost synergies: shared distribution, tech, procurement"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Is the price right?",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Standalone value",
+                "children": [
+                  {
+                    "id": "d1a",
+                    "label": "Discounted cash flow of the plan"
+                  },
+                  {
+                    "id": "d1b",
+                    "label": "Comparable deals at 20-25x EBITDA"
+                  }
+                ]
+              },
+              {
+                "id": "d2",
+                "label": "Value of synergies and how much to pay away"
+              }
+            ]
+          },
+          {
+            "id": "e",
+            "label": "Can the client integrate it and manage the risks?",
+            "children": [
+              {
+                "id": "e1",
+                "label": "Homeowner reaction to a hotel-company owner"
+              },
+              {
+                "id": "e2",
+                "label": "Service standards in villas the client does not own"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "At about 39x EBITDA the price is far above the 20-25x benchmark, so the deal only works if synergies and growth justify a premium of roughly ₹125-170 crore.",
+        "With 30% of villa contracts up for renewal in 18 months, homeowner retention is the biggest swing factor in standalone value.",
+        "On next year's EBITDA (~₹11.7 crore if 30% growth holds) the price is about 30x, so the real question is whether that growth survives the 30% of contracts up for renewal."
+      ],
+      "hints": [
+        "Use the standard acquisition structure for a strategic buyer, running from the market down to price and execution.",
+        "First level: is the market attractive, is the target strong on its own, what synergies can the client add, is the price right, and can it be integrated.",
+        "Target on its own: revenue quality (villa portfolio, contract terms, occupancy and rate per villa versus peers) and profitability (fee and cost to serve per villa, central overheads and marketing)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "EV/EBITDA",
+          "formula": "price / target EBITDA = ₹350 / ₹9 crore ≈ 39x"
+        },
+        {
+          "name": "Take rate",
+          "formula": "operator revenue / gross booking value"
+        },
+        {
+          "name": "Villa retention rate",
+          "formula": "villas renewed / villas up for renewal"
+        }
+      ],
+      "commonMistakes": [
+        "Valuing the target on gross booking value (~₹120 crore) instead of its own revenue (~₹40 crore), which makes the price look far cheaper than it is.",
+        "Paying the seller for synergies only the client can create, leaving no value for the client's shareholders."
+      ],
+      "frameworkPick": {
+        "options": [
+          "ma",
+          "market-entry",
+          "pe-dd",
+          "growth"
+        ],
+        "correct": [
+          "ma"
+        ],
+        "why": "A strategic buyer is deciding whether to acquire a specific company at a specific price, so market, standalone value, synergies, valuation and integration are the right branches.",
+        "distractorWhyNot": {
+          "market-entry": "Acquisition is one way to enter, but the decision on the table is this deal at ₹350 crore.",
+          "pe-dd": "The buyer is a strategic owner with synergies, not a financial investor planning an exit.",
+          "growth": "Growth motivates the deal, but the question is whether to buy this asset at this price."
+        }
+      },
+      "industry": "hospitality"
+    },
+    {
+      "id": "hospitality-c10",
+      "title": "PE bid for a stressed hotel portfolio",
+      "framework": "pe-dd",
+      "secondary": [
+        "profitability"
+      ],
+      "difficulty": "Advanced",
+      "region": "India",
+      "prompt": "A private equity fund is about to bid ₹3,800 crore for a portfolio of 12 upscale hotels (1,800 keys) across six Indian cities, sold by a developer under debt pressure. The portfolio's EBITDA margin is 26% against about 33% for comparable listed hotel owners, and the fund's thesis is that closing this gap will drive most of its return. Is the thesis sound, and should the fund bid?",
+      "clarifyingFacts": [
+        "Q: What are the portfolio's numbers? A: Occupancy 70%, ADR about ₹9,500, total revenue about ₹730 crore (rooms 60%), EBITDA about ₹190 crore.",
+        "Q: How are the hotels held? A: Nine are owned. Three hotels with 500 keys are leased, paying 15% of their revenue as rent (about ₹30 crore a year). The listed peers behind the 33% benchmark own almost all their hotels, so they pay little rent.",
+        "Q: What is the market outlook? A: In four of the six cities, branded supply is set to grow 8-10% a year for four years, against expected demand growth of 7-8%.",
+        "Q: What are the fund's terms? A: Five-year hold, target equity IRR of 18%, about 50% debt at entry held flat. Listed Indian hotel owners trade at roughly 13-17x EV/EBITDA, so the fund models a 16x exit. Several hotels have deferred renovations."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Is the margin-gap thesis sound, and should the fund bid ₹3,800 crore?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Is the 7-point margin gap real and closable?",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Structural gap: rent on the three leased hotels",
+                "children": [
+                  {
+                    "id": "a1a",
+                    "label": "Rent at 15% of revenue ≈ ₹30 crore, ~4 points"
+                  },
+                  {
+                    "id": "a1b",
+                    "label": "Options to renegotiate or buy out leases"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Operating cost gap across all 12 hotels",
+                "children": [
+                  {
+                    "id": "a2a",
+                    "label": "Payroll per occupied room versus peers"
+                  },
+                  {
+                    "id": "a2b",
+                    "label": "Energy, maintenance and procurement"
+                  },
+                  {
+                    "id": "a2c",
+                    "label": "Distribution cost and channel mix"
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Revenue gap spreading fixed costs thinner",
+                "children": [
+                  {
+                    "id": "a3a",
+                    "label": "RevPAR index by hotel"
+                  },
+                  {
+                    "id": "a3b",
+                    "label": "Banquet and F&B revenue per key"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Will the markets support the plan?",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Demand growth by city",
+                "children": [
+                  {
+                    "id": "b1a",
+                    "label": "Corporate and MICE demand"
+                  },
+                  {
+                    "id": "b1b",
+                    "label": "Leisure and wedding demand"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Supply pipeline: 8-10% a year in four cities"
+              },
+              {
+                "id": "b3",
+                "label": "Each hotel's position: age, brand, location"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Does the deal return enough?",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Entry price: ₹3,800 crore ≈ 20x EBITDA"
+              },
+              {
+                "id": "c2",
+                "label": "Value creation to exit",
+                "children": [
+                  {
+                    "id": "c2a",
+                    "label": "EBITDA growth from margin and RevPAR"
+                  },
+                  {
+                    "id": "c2b",
+                    "label": "Exit multiple: ~16x for peers versus 20x entry"
+                  }
+                ]
+              },
+              {
+                "id": "c3",
+                "label": "Capital needs: deferred maintenance and renovation capex"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "What could break the deal?",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Seller distress: hidden liabilities, statutory dues, disputes"
+              },
+              {
+                "id": "d2",
+                "label": "Operator and brand contracts",
+                "children": [
+                  {
+                    "id": "d2a",
+                    "label": "Termination rights on change of ownership"
+                  },
+                  {
+                    "id": "d2b",
+                    "label": "Fee terms versus market"
+                  }
+                ]
+              },
+              {
+                "id": "d3",
+                "label": "Lessor consent on the three leased hotels"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "About 4 of the 7 margin points are lease rent (₹30 crore on ~₹203 crore of leased-hotel revenue), which operations cannot close, so the real operating upside is about 3 points or ₹22 crore of EBITDA.",
+        "Even with those 3 points closed (~₹212 crore) and 5% a year EBITDA growth to ~₹258 crore, a 16x exit gives ~₹4,130 crore of EV and ~₹2,230 crore of equity after ₹1,900 crore of debt: about a 3.5% IRR on ₹1,900 crore of equity, far below 18%.",
+        "To earn 18% on that plan with 50% debt, the bid must fall to about ₹2,500 crore (~13x EBITDA), so the fund's lever is the seller's debt pressure, not the margin gap."
+      ],
+      "hints": [
+        "Use a due-diligence structure, but order it around the fund's thesis, because the bid stands or falls on it.",
+        "First level: is the margin gap real and closable, will the markets support the plan, does the deal return enough, and what could break it.",
+        "Markets: demand growth by city (corporate and MICE, leisure and weddings), the 8-10% a year supply pipeline in four cities, and each hotel's own position (age, brand, location)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "EV/EBITDA at entry",
+          "formula": "₹3,800 / ₹190 crore ≈ 20x"
+        },
+        {
+          "name": "Margin gap bridge",
+          "formula": "peer margin - target margin = rent effect + operating cost effect + revenue effect"
+        },
+        {
+          "name": "Equity IRR",
+          "formula": "(exit equity / entry equity)^(1/5) - 1, where exit equity = exit EBITDA x exit multiple - net debt"
+        }
+      ],
+      "commonMistakes": [
+        "Treating the whole 7-point gap as inefficiency without stripping out lease rent, which is a contract cost, not an operating problem.",
+        "Analysing 12 hotels in six cities as one average, which hides the weak assets facing the heaviest new supply."
+      ],
+      "frameworkPick": {
+        "options": [
+          "pe-dd",
+          "profitability",
+          "ma",
+          "turnaround"
+        ],
+        "correct": [
+          "pe-dd",
+          "profitability"
+        ],
+        "why": "A financial buyer is testing an investment thesis and a bid price (PE due diligence), and the thesis itself is a margin question that needs a profitability breakdown.",
+        "distractorWhyNot": {
+          "ma": "There is an acquisition, but the buyer has no operating synergies and plans to exit in five years, which is what PE due diligence covers.",
+          "turnaround": "The seller is distressed, but the hotels earn a 26% margin; the fund is deciding whether to buy at this price, not how to rescue a business."
+        }
+      },
+      "industry": "hospitality"
+    },
+    {
+      "id": "hospitality-c11",
+      "title": "UK hotel chain covenant breach",
+      "framework": "turnaround",
+      "secondary": [
+        "profitability"
+      ],
+      "difficulty": "Advanced",
+      "region": "Global",
+      "prompt": "A UK midscale hotel chain with 14 owned hotels (900 rooms) has seen EBITDA fall from £11m to £6.5m in two years. Net debt is £45m, so its 6.0x net debt to EBITDA covenant is breached at about 6.9x, and it holds £2.5m of cash. Lenders meet the board in ten weeks, and the family owners want to keep every hotel. What should management do?",
+      "clarifyingFacts": [
+        "Q: What drove the EBITDA fall? A: Revenue is flat at about £38m. Payroll rose about £3m with National Living Wage increases and the April 2025 rise in employer National Insurance, and energy costs rose about £1.5m.",
+        "Q: What does cash flow look like? A: After interest of about £3.6m and maintenance capex of about £2m, free cash flow is only about £1m a year. A £3m roof and fire-safety programme is due across four hotels.",
+        "Q: How do the hotels perform individually? A: Ten hotels earn almost all the EBITDA. Four older hotels in weaker towns earn close to zero and account for most of the £3m programme.",
+        "Q: What do lenders want? A: A credible plan to bring leverage below 6.0x within 12 months; they have hinted at forcing asset sales otherwise."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "How does leverage fall from ~6.9x to below 6.0x within 12 months?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Raise EBITDA from £6.5m",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Grow revenue",
+                "children": [
+                  {
+                    "id": "a1a",
+                    "label": "Room revenue: occupancy, rate and channel mix"
+                  },
+                  {
+                    "id": "a1b",
+                    "label": "Non-room revenue: F&B, meetings, events"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Cut payroll (up £3m in two years)",
+                "children": [
+                  {
+                    "id": "a2a",
+                    "label": "Roster to forecast occupancy and multi-skill staff"
+                  },
+                  {
+                    "id": "a2b",
+                    "label": "Replace agency staff with permanent staff"
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Cut energy, central overheads and other costs",
+                "children": [
+                  {
+                    "id": "a3a",
+                    "label": "Energy contract and efficiency measures"
+                  },
+                  {
+                    "id": "a3b",
+                    "label": "Procurement, laundry and outsourced services"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Reduce net debt from £45m",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Conserve and release cash",
+                "children": [
+                  {
+                    "id": "b1a",
+                    "label": "Phase the £3m safety programme by legal urgency"
+                  },
+                  {
+                    "id": "b1b",
+                    "label": "Working capital: receivables, supplier terms, HMRC Time to Pay"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Sell property",
+                "children": [
+                  {
+                    "id": "b2a",
+                    "label": "Sell the four near-zero-EBITDA hotels"
+                  },
+                  {
+                    "id": "b2b",
+                    "label": "Sale and leaseback of strong freeholds (adds rent)"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "New equity from the owners or a minority investor"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Change the covenant terms",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Waiver or reset to a stepped leverage path"
+              },
+              {
+                "id": "c2",
+                "label": "Refinance with lenders offering looser covenants"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Free cash flow of about £1m does not cover the £3m safety programme, so net debt drifts to about £47m; EBITDA must then reach about £7.8m (recovering about £1.3m of the £4.5m cost increase) to clear 6.0x, which operations can plausibly deliver.",
+        "The binding constraint is cash: £2.5m in hand plus about £1m of free cash flow barely covers the £3m safety programme, most of it in four hotels that earn close to nothing.",
+        "Selling those four hotels for about £10-12m would cut net debt to about £34m (roughly 5.2x) and remove most of the capex, which is why the owners' wish to keep every hotel is the central tension."
+      ],
+      "hints": [
+        "Work from the formula the lenders test and treat each term in it, including the threshold itself, as a lever.",
+        "First level: raise EBITDA, reduce net debt, and change the covenant terms.",
+        "Raise EBITDA: grow revenue (rooms, non-room), cut payroll (roster to forecast occupancy, replace agency staff) and cut energy, procurement and outsourced costs."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Net leverage",
+          "formula": "net debt / EBITDA = £45m / £6.5m ≈ 6.9x"
+        },
+        {
+          "name": "EBITDA needed to meet covenant",
+          "formula": "net debt / 6.0 = £7.5m today, about £7.8m if net debt rises to £47m"
+        },
+        {
+          "name": "Free cash flow",
+          "formula": "EBITDA - interest - capex - tax ± working capital"
+        }
+      ],
+      "commonMistakes": [
+        "Focusing only on EBITDA and missing that cash runs out first once the £3m safety programme is paid.",
+        "Treating sale and leaseback as free debt reduction: the new rent lowers EBITDA, so leverage improves much less than the proceeds suggest."
+      ],
+      "frameworkPick": {
+        "options": [
+          "turnaround",
+          "profitability",
+          "operations",
+          "ma"
+        ],
+        "correct": [
+          "turnaround",
+          "profitability"
+        ],
+        "why": "A covenant breach, thin cash and a lender deadline make this a turnaround (liquidity, debt, stakeholders), and recovering EBITDA needs a profitability breakdown of revenue and costs.",
+        "distractorWhyNot": {
+          "operations": "Rostering and energy fixes sit inside the EBITDA branch, but they cannot address the debt, cash and lender questions.",
+          "ma": "Selling four hotels is one lever, but the question is how to meet a covenant in 12 months, not a strategic decision to buy or sell a business."
+        }
+      },
+      "industry": "hospitality"
+    },
+    {
+      "id": "hospitality-c12",
+      "title": "Upscale hotel in a pilgrimage boom town",
+      "framework": "market-entry",
+      "secondary": [
+        "market-sizing"
+      ],
+      "difficulty": "Advanced",
+      "region": "India",
+      "prompt": "Assume visitor numbers to a North Indian pilgrimage city have jumped about six-fold since a major new temple opened, to about 5 crore a year. A developer plans a 250-room upscale hotel there costing ₹350 crore and expects 75% occupancy at ₹9,000 a night. Should it go ahead?",
+      "clarifyingFacts": [
+        "Q: How do visitors travel and stay? A: Treat these as case facts: about 85% are day-trippers from within 300 km. Overnight visitors stay 1.2 nights on average at about 2.5 guests per room, mostly in dharamshalas, guest houses and budget hotels under ₹3,000.",
+        "Q: What is the hotel supply? A: About 1,500 branded rooms today at about 60% occupancy (full on festival days, near 40% off-season). Branded room-night demand is expected to grow about 25% a year, and about 4,000 more branded rooms are announced or under construction for the next four years.",
+        "Q: What are the developer's targets? A: ₹350 crore cost (₹1.4 crore per key) and a 12% yield on cost, which means about ₹42 crore of EBITDA, by year four.",
+        "Q: Anything specific about operating there? A: Local norms limit alcohol and non-vegetarian food near the temple, so non-room revenue would be only about 25% of total. Assume a 35% EBITDA margin at stabilisation."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Should the developer build a 250-room upscale hotel in the pilgrimage city?",
+        "children": [
+          {
+            "id": "a",
+            "label": "How much upscale room demand will there be?",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Overnight visitors, not headline visitors",
+                "children": [
+                  {
+                    "id": "a1a",
+                    "label": "Day-tripper share (~85%) and nights per stay (~1.2)"
+                  },
+                  {
+                    "id": "a1b",
+                    "label": "Guests per room for families and groups"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Share paying upscale rates (₹7,000+)",
+                "children": [
+                  {
+                    "id": "a2a",
+                    "label": "Segment mix: pilgrims, VIP and official, weddings"
+                  },
+                  {
+                    "id": "a2b",
+                    "label": "Willingness to pay above ₹7,000 a night"
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Seasonality: festival peaks versus off-season troughs"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "How much competing supply will there be?",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Existing branded rooms (~1,500) and their occupancy"
+              },
+              {
+                "id": "b2",
+                "label": "Pipeline of ~4,000 branded rooms",
+                "children": [
+                  {
+                    "id": "b2a",
+                    "label": "Likelihood each project opens on time"
+                  },
+                  {
+                    "id": "b2b",
+                    "label": "Positioning: upscale versus midscale"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Unbranded supply: dharamshalas, guest houses, homestays"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Will the hotel earn the target return?",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Revenue",
+                "children": [
+                  {
+                    "id": "c1a",
+                    "label": "Occupancy and ADR versus the 75% and ₹9,000 plan"
+                  },
+                  {
+                    "id": "c1b",
+                    "label": "Non-room revenue limited by local food norms"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Costs and margin",
+                "children": [
+                  {
+                    "id": "c2a",
+                    "label": "Operating costs and seasonal staffing"
+                  },
+                  {
+                    "id": "c2b",
+                    "label": "Brand and management fees"
+                  }
+                ]
+              },
+              {
+                "id": "c3",
+                "label": "Yield on ₹350 crore versus the 12% target"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "How should the developer enter, if at all?",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Timing: build now or wait for the pipeline to settle"
+              },
+              {
+                "id": "d2",
+                "label": "Scale and positioning",
+                "children": [
+                  {
+                    "id": "d2a",
+                    "label": "Fewer keys to match overnight demand"
+                  },
+                  {
+                    "id": "d2b",
+                    "label": "Upper-midscale brand at lower cost per key"
+                  }
+                ]
+              },
+              {
+                "id": "d3",
+                "label": "Operating model: management contract, franchise or lease"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Overnight demand is only about 36 lakh room nights (5 crore x 15% x 1.2 nights / 2.5 per room), and branded hotels sell about 3.3 lakh of them today (1,500 x 365 x 60%), so the headline overstates the branded market more than ten-fold.",
+        "Growing 25% a year, branded demand reaches about 8 lakh room nights by year four: 5,500 rooms would run at about 40% occupancy, and even if only half the pipeline opens, about 63%, both below the 75% plan.",
+        "On the developer's own 75% and ₹9,000, EBITDA is about ₹29 crore (35% of ~₹82 crore), an 8% yield; at 60% occupancy it is about ₹23 crore, 6.6%, so the 12% target fails before pipeline risk is counted."
+      ],
+      "hints": [
+        "Combine an entry decision structure with a bottom-up demand estimate built from the people who actually stay overnight.",
+        "First level: how much upscale demand there will be, how much competing supply, whether the hotel earns the target return, and how to enter if at all.",
+        "Returns: revenue (occupancy and ADR against the 75% and ₹9,000 plan, non-room revenue limited by food norms), costs and fees, then yield on ₹350 crore against the 12% target."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Yield on cost",
+          "formula": "stabilised EBITDA / total development cost (target 12%, ₹42 crore)"
+        },
+        {
+          "name": "Room nights demanded",
+          "formula": "visitors x overnight share x nights per stay / guests per room"
+        },
+        {
+          "name": "Market occupancy",
+          "formula": "room nights demanded in the segment / (branded rooms x 365)"
+        }
+      ],
+      "commonMistakes": [
+        "Sizing demand from the 5 crore headline: with about 85% day-trippers, it overstates hotel demand many times over.",
+        "Testing demand but ignoring the 4,000-room pipeline that other developers are planning off the same headline."
+      ],
+      "frameworkPick": {
+        "options": [
+          "market-entry",
+          "market-sizing",
+          "growth",
+          "pe-dd"
+        ],
+        "correct": [
+          "market-entry",
+          "market-sizing"
+        ],
+        "why": "The developer is deciding whether and how to enter a new local market, and the answer turns on a bottom-up estimate of overnight upscale demand against future supply.",
+        "distractorWhyNot": {
+          "growth": "The developer has no existing business in this city to grow; this is a go or no-go entry decision.",
+          "pe-dd": "There is no target company or exit plan to diligence; the decision is a new build."
+        }
+      },
+      "industry": "hospitality"
+    }
+  ],
+  "flaws": [
+    {
+      "id": "hospitality-f01",
+      "title": "City hotel revenue",
+      "framework": "profitability",
+      "difficulty": "Beginner",
+      "tree": {
+        "id": "r",
+        "label": "Total revenue of a 200-room city hotel",
+        "children": [
+          {
+            "id": "a",
+            "label": "Rooms revenue",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Rooms available (200 x 365)"
+              },
+              {
+                "id": "a2",
+                "label": "Occupancy"
+              },
+              {
+                "id": "a3",
+                "label": "Average daily rate (ADR)"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Food and beverage revenue",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Restaurants and bars"
+              },
+              {
+                "id": "b2",
+                "label": "Banquets and events"
+              },
+              {
+                "id": "b3",
+                "label": "In-room dining"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "r",
+          "type": "gap",
+          "explanation": "Revenue is split into rooms and F&B only. A city hotel also earns from other operated departments and rentals (spa, laundry, parking, shop and office leases), often 5-10% of revenue, so the first level is not exhaustive.",
+          "fix": "Add a third branch, 'Other revenue', split into 'Spa, laundry and parking' and 'Rentals: shops, offices, space leases'."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Total revenue of a 200-room city hotel",
+        "children": [
+          {
+            "id": "a",
+            "label": "Rooms revenue",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Rooms available (200 x 365)"
+              },
+              {
+                "id": "a2",
+                "label": "Occupancy"
+              },
+              {
+                "id": "a3",
+                "label": "Average daily rate (ADR)"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Food and beverage revenue",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Restaurants and bars"
+              },
+              {
+                "id": "b2",
+                "label": "Banquets and events"
+              },
+              {
+                "id": "b3",
+                "label": "In-room dining"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Other revenue",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Spa, laundry and parking"
+              },
+              {
+                "id": "c2",
+                "label": "Rentals: shops, offices, space leases"
+              }
+            ]
+          }
+        ]
+      },
+      "industry": "hospitality"
+    },
+    {
+      "id": "hospitality-f02",
+      "title": "India hotel room nights",
+      "framework": "market-sizing",
+      "difficulty": "Beginner",
+      "tree": {
+        "id": "r",
+        "label": "Hotel room nights sold in India in a year",
+        "children": [
+          {
+            "id": "a",
+            "label": "Domestic travellers",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Leisure, pilgrimage and family trips"
+              },
+              {
+                "id": "a2",
+                "label": "Weddings and social events"
+              },
+              {
+                "id": "a3",
+                "label": "Medical, education and other trips"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Foreign visitors",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Leisure and heritage tourists"
+              },
+              {
+                "id": "b2",
+                "label": "Visiting friends, medical and other trips"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Business travellers",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Domestic corporate and government trips"
+              },
+              {
+                "id": "c2",
+                "label": "Foreign business visitors"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "c",
+          "type": "overlap",
+          "explanation": "Every business traveller is either domestic or foreign, so this branch counts people who already belong under 'Domestic travellers' and 'Foreign visitors'. The first level mixes two ways of cutting, origin and purpose.",
+          "fix": "Remove 'Business travellers' and add business as a purpose under each origin: 'Business and government trips' under domestic and 'Business visitors' under foreign."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Hotel room nights sold in India in a year",
+        "children": [
+          {
+            "id": "a",
+            "label": "Domestic travellers",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Leisure, pilgrimage and family trips"
+              },
+              {
+                "id": "a2",
+                "label": "Weddings and social events"
+              },
+              {
+                "id": "a3",
+                "label": "Business and government trips"
+              },
+              {
+                "id": "a4",
+                "label": "Medical, education and other trips"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Foreign visitors",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Leisure and heritage tourists"
+              },
+              {
+                "id": "b2",
+                "label": "Business visitors"
+              },
+              {
+                "id": "b3",
+                "label": "Visiting friends, medical and other trips"
+              }
+            ]
+          }
+        ]
+      },
+      "industry": "hospitality"
+    },
+    {
+      "id": "hospitality-f03",
+      "title": "Kerala resort revenue growth",
+      "framework": "growth",
+      "difficulty": "Intermediate",
+      "tree": {
+        "id": "r",
+        "label": "How can a 120-room Kerala backwater resort grow revenue 20%?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Room revenue",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Occupancy, especially in the monsoon months"
+              },
+              {
+                "id": "a2",
+                "label": "ADR, especially in peak season"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Spend by staying guests beyond the room",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Ayurveda and spa programmes"
+              },
+              {
+                "id": "b2",
+                "label": "Dining, bar and banquets for staying groups"
+              },
+              {
+                "id": "b3",
+                "label": "Houseboat cruises and excursions"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Revenue from non-resident customers",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Day-visitor lunches and cruises"
+              },
+              {
+                "id": "c2",
+                "label": "Local events and banquets without stays"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Sunset cruise for in-house guests"
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "d",
+          "type": "mixed-levels",
+          "explanation": "A single product sits at the same level as whole revenue streams. The sunset cruise for in-house guests is one item inside 'Houseboat cruises and excursions' (b3).",
+          "fix": "Remove it from the first level and, if it matters, list it as an example under b3."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "How can a 120-room Kerala backwater resort grow revenue 20%?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Room revenue",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Occupancy, especially in the monsoon months"
+              },
+              {
+                "id": "a2",
+                "label": "ADR, especially in peak season"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Spend by staying guests beyond the room",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Ayurveda and spa programmes"
+              },
+              {
+                "id": "b2",
+                "label": "Dining, bar and banquets for staying groups"
+              },
+              {
+                "id": "b3",
+                "label": "Houseboat cruises and excursions, e.g. sunset cruise"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Revenue from non-resident customers",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Day-visitor lunches and cruises"
+              },
+              {
+                "id": "c2",
+                "label": "Local events and banquets without stays"
+              }
+            ]
+          }
+        ]
+      },
+      "industry": "hospitality",
+      "decoys": [
+        {
+          "nodeId": "c1",
+          "whyFine": "Day-visitor cruises look like a repeat of b3, but they are sold to non-residents, so they sit in a different customer branch and are not double counted."
+        }
+      ]
+    },
+    {
+      "id": "hospitality-f04",
+      "title": "Dubai 400-room hotel housekeeping cost",
+      "framework": "operations",
+      "difficulty": "Intermediate",
+      "tree": {
+        "id": "r",
+        "label": "Why has housekeeping cost per occupied room risen 18% in Dubai?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Labour cost per occupied room",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Rooms cleaned per attendant per shift"
+              },
+              {
+                "id": "a2",
+                "label": "Wage, allowance and overtime rates"
+              },
+              {
+                "id": "a3",
+                "label": "Share of higher-cost agency staff"
+              },
+              {
+                "id": "a4",
+                "label": "Fixed supervisory team spread over occupied rooms"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Linen and laundry cost per occupied room",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Linen replacement: losses, damage, par levels"
+              },
+              {
+                "id": "b2",
+                "label": "Laundry price per kg and kg per room"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Supplies cost per occupied room",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Unit cost of amenities and cleaning materials"
+              },
+              {
+                "id": "c2",
+                "label": "Quantity used per occupied room"
+              }
+            ]
+          },
+          {
+            "id": "e",
+            "label": "Outsourced services and equipment per occupied room",
+            "children": [
+              {
+                "id": "e1",
+                "label": "Contracted public-area and deep cleaning"
+              },
+              {
+                "id": "e2",
+                "label": "Cleaning equipment upkeep and replacement"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Average room rate guests pay"
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "d",
+          "type": "not-a-driver",
+          "explanation": "Housekeeping cost per occupied room depends on labour, linen, supplies and services per room cleaned. The rate a guest pays changes none of these; it would matter for cost as a share of revenue, not cost per occupied room.",
+          "fix": "Remove the node; if the client cares about cost as a share of revenue, analyse ADR in a separate revenue question."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Why has housekeeping cost per occupied room risen 18% in Dubai?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Labour cost per occupied room",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Rooms cleaned per attendant per shift"
+              },
+              {
+                "id": "a2",
+                "label": "Wage, allowance and overtime rates"
+              },
+              {
+                "id": "a3",
+                "label": "Share of higher-cost agency staff"
+              },
+              {
+                "id": "a4",
+                "label": "Fixed supervisory team spread over occupied rooms"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Linen and laundry cost per occupied room",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Linen replacement: losses, damage, par levels"
+              },
+              {
+                "id": "b2",
+                "label": "Laundry price per kg and kg per room"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Supplies cost per occupied room",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Unit cost of amenities and cleaning materials"
+              },
+              {
+                "id": "c2",
+                "label": "Quantity used per occupied room"
+              }
+            ]
+          },
+          {
+            "id": "e",
+            "label": "Outsourced services and equipment per occupied room",
+            "children": [
+              {
+                "id": "e1",
+                "label": "Contracted public-area and deep cleaning"
+              },
+              {
+                "id": "e2",
+                "label": "Cleaning equipment upkeep and replacement"
+              }
+            ]
+          }
+        ]
+      },
+      "industry": "hospitality",
+      "decoys": [
+        {
+          "nodeId": "a3",
+          "whyFine": "Agency share looks like a repeat of wage rates (a2), but it is a mix effect: the same rates with more agency hours still raise cost per room."
+        }
+      ]
+    },
+    {
+      "id": "hospitality-f05",
+      "title": "Delhi hotel banqueting profit",
+      "framework": "profitability",
+      "difficulty": "Intermediate",
+      "tree": {
+        "id": "r",
+        "label": "Why has banqueting profit at a Delhi hotel fallen 30%?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Banqueting revenue",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Number of events",
+                "children": [
+                  {
+                    "id": "a1a",
+                    "label": "Weddings and social events"
+                  },
+                  {
+                    "id": "a1b",
+                    "label": "Corporate events and conferences"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Revenue per event",
+                "children": [
+                  {
+                    "id": "a2a",
+                    "label": "Guests (covers) per event"
+                  },
+                  {
+                    "id": "a2b",
+                    "label": "Price per cover"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Banqueting costs",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Food and beverage cost",
+                "children": [
+                  {
+                    "id": "b1a",
+                    "label": "Food cost per cover"
+                  },
+                  {
+                    "id": "b1b",
+                    "label": "Beverage and liquor cost per cover"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Banquet staff cost",
+                "children": [
+                  {
+                    "id": "b2a",
+                    "label": "Permanent banquet team"
+                  },
+                  {
+                    "id": "b2b",
+                    "label": "Casual staff hired per event"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Décor, laundry, supplies and outsourced services"
+              },
+              {
+                "id": "b4",
+                "label": "Outside vendors: florists, lighting and tent hire"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "a2",
+          "type": "gap",
+          "explanation": "Revenue per event is shown only as covers x price per cover. Hotel banquets also charge for venue hire, décor, AV and entertainment, and the tree even lists décor as a cost (b3), so the revenue side is incomplete.",
+          "fix": "Add 'Venue hire, décor, AV and other charges' under a2."
+        },
+        {
+          "nodeId": "b4",
+          "type": "overlap",
+          "explanation": "Florists, lighting and tent hire are décor and outsourced event services, already counted in b3 under different wording, so the tree counts the same spend twice.",
+          "fix": "Remove b4; vendor spend belongs inside b3."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Why has banqueting profit at a Delhi hotel fallen 30%?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Banqueting revenue",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Number of events",
+                "children": [
+                  {
+                    "id": "a1a",
+                    "label": "Weddings and social events"
+                  },
+                  {
+                    "id": "a1b",
+                    "label": "Corporate events and conferences"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Revenue per event",
+                "children": [
+                  {
+                    "id": "a2a",
+                    "label": "Guests (covers) per event"
+                  },
+                  {
+                    "id": "a2b",
+                    "label": "Price per cover"
+                  },
+                  {
+                    "id": "a2c",
+                    "label": "Venue hire, décor, AV and other charges"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Banqueting costs",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Food and beverage cost",
+                "children": [
+                  {
+                    "id": "b1a",
+                    "label": "Food cost per cover"
+                  },
+                  {
+                    "id": "b1b",
+                    "label": "Beverage and liquor cost per cover"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Banquet staff cost",
+                "children": [
+                  {
+                    "id": "b2a",
+                    "label": "Permanent banquet team"
+                  },
+                  {
+                    "id": "b2b",
+                    "label": "Casual staff hired per event"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Décor, laundry, supplies and outsourced services"
+              }
+            ]
+          }
+        ]
+      },
+      "industry": "hospitality",
+      "decoys": [
+        {
+          "nodeId": "b2b",
+          "whyFine": "Casual staff per event look like part of the permanent team, but the two are exclusive and behave differently (one fixed, one per event)."
+        }
+      ]
+    },
+    {
+      "id": "hospitality-f06",
+      "title": "Mumbai luxury hotel GOP gap",
+      "framework": "profitability",
+      "difficulty": "Advanced",
+      "tree": {
+        "id": "r",
+        "label": "Why is a Mumbai luxury hotel's GOP margin 8 points below compset?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Departmental costs",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Rooms department",
+                "children": [
+                  {
+                    "id": "a1a",
+                    "label": "Front office and housekeeping payroll per occupied room"
+                  },
+                  {
+                    "id": "a1b",
+                    "label": "Commissions and reservation costs"
+                  },
+                  {
+                    "id": "a1c",
+                    "label": "Guest supplies and laundry"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Food and beverage department",
+                "children": [
+                  {
+                    "id": "a2a",
+                    "label": "Food and beverage cost of sales"
+                  },
+                  {
+                    "id": "a2b",
+                    "label": "Kitchen and service payroll per cover"
+                  },
+                  {
+                    "id": "a2c",
+                    "label": "Other F&B expenses: china, linen, décor"
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Other operated departments: spa, guest laundry, parking",
+                "children": [
+                  {
+                    "id": "a3a",
+                    "label": "Payroll"
+                  },
+                  {
+                    "id": "a3b",
+                    "label": "Products and supplies"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Undistributed operating costs",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Administrative and general",
+                "children": [
+                  {
+                    "id": "b1a",
+                    "label": "Finance, HR and IT staff"
+                  },
+                  {
+                    "id": "b1b",
+                    "label": "Card fees, audit and professional fees"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Sales and marketing",
+                "children": [
+                  {
+                    "id": "b2a",
+                    "label": "Sales team and loyalty programme costs"
+                  },
+                  {
+                    "id": "b2b",
+                    "label": "Advertising and digital marketing"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Property operations and maintenance",
+                "children": [
+                  {
+                    "id": "b3a",
+                    "label": "Engineering staff"
+                  },
+                  {
+                    "id": "b3b",
+                    "label": "Repairs and maintenance contracts"
+                  }
+                ]
+              },
+              {
+                "id": "b4",
+                "label": "Utilities: water, gas and electricity",
+                "children": [
+                  {
+                    "id": "b4a",
+                    "label": "Consumption per occupied room"
+                  },
+                  {
+                    "id": "b4b",
+                    "label": "Tariff per unit"
+                  }
+                ]
+              },
+              {
+                "id": "b5",
+                "label": "Energy: power purchase and generator fuel",
+                "children": [
+                  {
+                    "id": "b5a",
+                    "label": "Units bought from the distribution company"
+                  },
+                  {
+                    "id": "b5b",
+                    "label": "Diesel for back-up generators"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Management fees",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Base fee (% of revenue)"
+              },
+              {
+                "id": "c2",
+                "label": "Incentive fee (% of GOP)"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "r",
+          "type": "gap",
+          "explanation": "GOP margin is profit divided by revenue, but the tree lists only costs. Much of a luxury hotel's cost base is fixed, so the same costs on a lower RevPAR or weaker banquet revenue than the compset produce a lower margin. The revenue base must be a branch.",
+          "fix": "Add 'Revenue base versus compset' with RevPAR (occupancy index, ADR index) and non-room revenue per available room (banquets, restaurants)."
+        },
+        {
+          "nodeId": "b5",
+          "type": "overlap",
+          "explanation": "'Energy: power purchase' is the electricity bill already inside 'Utilities: water, gas and electricity', described in different words, so grid power is counted twice.",
+          "fix": "Merge into one 'Utilities and energy' branch covering grid power, diesel, water and gas, split into consumption and tariff."
+        },
+        {
+          "nodeId": "c",
+          "type": "not-a-driver",
+          "explanation": "GOP is measured before base and incentive management fees, and the incentive fee is itself calculated from GOP, so fees cannot explain a GOP margin gap.",
+          "fix": "Remove the branch; analyse fees separately only if the question moves to owner EBITDA."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Why is a Mumbai luxury hotel's GOP margin 8 points below compset?",
+        "children": [
+          {
+            "id": "d",
+            "label": "Revenue base versus compset",
+            "children": [
+              {
+                "id": "d1",
+                "label": "RevPAR",
+                "children": [
+                  {
+                    "id": "d1a",
+                    "label": "Occupancy index"
+                  },
+                  {
+                    "id": "d1b",
+                    "label": "ADR index"
+                  }
+                ]
+              },
+              {
+                "id": "d2",
+                "label": "Non-room revenue per available room",
+                "children": [
+                  {
+                    "id": "d2a",
+                    "label": "Banquets and events"
+                  },
+                  {
+                    "id": "d2b",
+                    "label": "Restaurants and bars"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "a",
+            "label": "Departmental costs",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Rooms department",
+                "children": [
+                  {
+                    "id": "a1a",
+                    "label": "Front office and housekeeping payroll per occupied room"
+                  },
+                  {
+                    "id": "a1b",
+                    "label": "Commissions and reservation costs"
+                  },
+                  {
+                    "id": "a1c",
+                    "label": "Guest supplies and laundry"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Food and beverage department",
+                "children": [
+                  {
+                    "id": "a2a",
+                    "label": "Food and beverage cost of sales"
+                  },
+                  {
+                    "id": "a2b",
+                    "label": "Kitchen and service payroll per cover"
+                  },
+                  {
+                    "id": "a2c",
+                    "label": "Other F&B expenses: china, linen, décor"
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Other operated departments: spa, guest laundry, parking",
+                "children": [
+                  {
+                    "id": "a3a",
+                    "label": "Payroll"
+                  },
+                  {
+                    "id": "a3b",
+                    "label": "Products and supplies"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Undistributed operating costs",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Administrative and general",
+                "children": [
+                  {
+                    "id": "b1a",
+                    "label": "Finance, HR and IT staff"
+                  },
+                  {
+                    "id": "b1b",
+                    "label": "Card fees, audit and professional fees"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Sales and marketing",
+                "children": [
+                  {
+                    "id": "b2a",
+                    "label": "Sales team and loyalty programme costs"
+                  },
+                  {
+                    "id": "b2b",
+                    "label": "Advertising and digital marketing"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Property operations and maintenance",
+                "children": [
+                  {
+                    "id": "b3a",
+                    "label": "Engineering staff"
+                  },
+                  {
+                    "id": "b3b",
+                    "label": "Repairs and maintenance contracts"
+                  }
+                ]
+              },
+              {
+                "id": "b4",
+                "label": "Utilities and energy: grid power, diesel, water, gas",
+                "children": [
+                  {
+                    "id": "b4a",
+                    "label": "Consumption per occupied room"
+                  },
+                  {
+                    "id": "b4b",
+                    "label": "Tariff per unit"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "industry": "hospitality",
+      "decoys": [
+        {
+          "nodeId": "a3",
+          "whyFine": "Guest laundry here is a department selling laundry to guests; the rooms department's linen cleaning (a1c) is a different cost."
+        }
+      ]
+    },
+    {
+      "id": "hospitality-f07",
+      "title": "PE deal for budget hotel franchisor",
+      "framework": "pe-dd",
+      "difficulty": "Advanced",
+      "tree": {
+        "id": "r",
+        "label": "Should the fund buy a franchisor of 120 tier-2 budget hotels?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Is the budget hotel market attractive?",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Demand for budget rooms in tier-2 and tier-3 cities",
+                "children": [
+                  {
+                    "id": "a1a",
+                    "label": "Growth in business, pilgrimage and family travel"
+                  },
+                  {
+                    "id": "a1b",
+                    "label": "Shift from unbranded to branded budget hotels"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Competitive intensity",
+                "children": [
+                  {
+                    "id": "a2a",
+                    "label": "Rival budget brands and their franchise terms"
+                  },
+                  {
+                    "id": "a2b",
+                    "label": "Bargaining power of OTAs over budget hotels"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "How strong is the target?",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Fee revenue",
+                "children": [
+                  {
+                    "id": "b1a",
+                    "label": "Room revenue per hotel: occupancy x ADR"
+                  },
+                  {
+                    "id": "b1b",
+                    "label": "Other fees: reservation, technology, training"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Cost of running the franchise system",
+                "children": [
+                  {
+                    "id": "b2a",
+                    "label": "Business development and quality audit teams"
+                  },
+                  {
+                    "id": "b2b",
+                    "label": "Technology and central marketing spend"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Management team and owner relationships"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "How can the fund create value?",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Accelerate franchise signings",
+                "children": [
+                  {
+                    "id": "c1a",
+                    "label": "Priority cities and owner pipeline"
+                  },
+                  {
+                    "id": "c1b",
+                    "label": "Owner incentives: fee holidays, conversion support"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Raise fee income per hotel",
+                "children": [
+                  {
+                    "id": "c2a",
+                    "label": "Lift hotels' room revenue through central distribution"
+                  },
+                  {
+                    "id": "c2b",
+                    "label": "Fee step-ups at contract renewal"
+                  },
+                  {
+                    "id": "c2c",
+                    "label": "New paid services such as procurement"
+                  }
+                ]
+              },
+              {
+                "id": "c3",
+                "label": "Recruit new hotel owners to the brand"
+              },
+              {
+                "id": "c5",
+                "label": "Retain existing hotels: owner support, renewal terms"
+              },
+              {
+                "id": "c4",
+                "label": "Cut central costs through shared technology"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Does the deal deliver the target return?",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Entry valuation versus comparable deals"
+              },
+              {
+                "id": "d2",
+                "label": "Exit routes: strategic sale, IPO or secondary"
+              },
+              {
+                "id": "d3",
+                "label": "Downside risks: brand quality lapses, legal disputes"
+              }
+            ]
+          },
+          {
+            "id": "e",
+            "label": "Royalty fee rate charged to hotels"
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "e",
+          "type": "mixed-levels",
+          "explanation": "The royalty fee rate is one driver of fee revenue (inside b1), but it sits at the top level next to whole questions such as market attractiveness and returns.",
+          "fix": "Move it under b1 as 'Royalty fee rate on room revenue'."
+        },
+        {
+          "nodeId": "b1",
+          "type": "gap",
+          "explanation": "A franchisor's fee revenue is hotels in the system x room revenue per hotel x fee rate, plus other fees. The tree has no branch for the number of hotels (new signings minus exits). Budget franchisees often leave when owners switch brands or aggregators, so system size is usually the biggest swing in value.",
+          "fix": "Add 'Hotels in the system: signings minus exits' under b1."
+        },
+        {
+          "nodeId": "c3",
+          "type": "overlap",
+          "explanation": "'Recruit new hotel owners to the brand' is the same lever as 'Accelerate franchise signings' (c1), described in different words.",
+          "fix": "Remove c3; owner recruitment is already covered by c1."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Should the fund buy a franchisor of 120 tier-2 budget hotels?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Is the budget hotel market attractive?",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Demand for budget rooms in tier-2 and tier-3 cities",
+                "children": [
+                  {
+                    "id": "a1a",
+                    "label": "Growth in business, pilgrimage and family travel"
+                  },
+                  {
+                    "id": "a1b",
+                    "label": "Shift from unbranded to branded budget hotels"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Competitive intensity",
+                "children": [
+                  {
+                    "id": "a2a",
+                    "label": "Rival budget brands and their franchise terms"
+                  },
+                  {
+                    "id": "a2b",
+                    "label": "Bargaining power of OTAs over budget hotels"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "How strong is the target?",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Fee revenue",
+                "children": [
+                  {
+                    "id": "b1a",
+                    "label": "Hotels in the system: signings minus exits"
+                  },
+                  {
+                    "id": "b1b",
+                    "label": "Room revenue per hotel: occupancy x ADR"
+                  },
+                  {
+                    "id": "b1c",
+                    "label": "Royalty fee rate on room revenue"
+                  },
+                  {
+                    "id": "b1d",
+                    "label": "Other fees: reservation, technology, training"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Cost of running the franchise system",
+                "children": [
+                  {
+                    "id": "b2a",
+                    "label": "Business development and quality audit teams"
+                  },
+                  {
+                    "id": "b2b",
+                    "label": "Technology and central marketing spend"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Management team and owner relationships"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "How can the fund create value?",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Accelerate franchise signings",
+                "children": [
+                  {
+                    "id": "c1a",
+                    "label": "Priority cities and owner pipeline"
+                  },
+                  {
+                    "id": "c1b",
+                    "label": "Owner incentives: fee holidays, conversion support"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Raise fee income per hotel",
+                "children": [
+                  {
+                    "id": "c2a",
+                    "label": "Lift hotels' room revenue through central distribution"
+                  },
+                  {
+                    "id": "c2b",
+                    "label": "Fee step-ups at contract renewal"
+                  },
+                  {
+                    "id": "c2c",
+                    "label": "New paid services such as procurement"
+                  }
+                ]
+              },
+              {
+                "id": "c5",
+                "label": "Retain existing hotels: owner support, renewal terms"
+              },
+              {
+                "id": "c4",
+                "label": "Cut central costs through shared technology"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Does the deal deliver the target return?",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Entry valuation versus comparable deals"
+              },
+              {
+                "id": "d2",
+                "label": "Exit routes: strategic sale, IPO or secondary"
+              },
+              {
+                "id": "d3",
+                "label": "Downside risks: brand quality lapses, legal disputes"
+              }
+            ]
+          }
+        ]
+      },
+      "industry": "hospitality",
+      "decoys": [
+        {
+          "nodeId": "c5",
+          "whyFine": "Retaining hotels looks like a repeat of signings (c1), but it acts on exits, the other half of system size, so it is a distinct lever."
+        }
+      ]
+    }
+  ],
+  "quick": [
+    {
+      "id": "hospitality-q01",
+      "industry": "hospitality",
+      "difficulty": "Beginner",
+      "question": "Which split of 'Revenue of a city business hotel' is MECE?",
+      "parent": "Revenue of a city business hotel",
+      "options": [
+        {
+          "split": [
+            "Rooms",
+            "Food and beverage",
+            "Other operated departments (spa, laundry, parking)"
+          ],
+          "correct": false,
+          "why": "Gap: misses rentals and other income such as shop and office leases, which a city hotel often earns."
+        },
+        {
+          "split": [
+            "Revenue from in-house guests",
+            "Revenue from non-resident customers",
+            "Rentals and other income"
+          ],
+          "correct": false,
+          "why": "Overlap: shop and office tenants are non-resident customers, so lease income sits in two branches."
+        },
+        {
+          "split": [
+            "Rooms",
+            "Food and beverage",
+            "Other operated departments",
+            "Rentals and other income"
+          ],
+          "correct": true,
+          "why": "Covers every revenue line in a hotel, each counted once: rooms, F&B, other guest services and property income."
+        },
+        {
+          "split": [
+            "Rooms",
+            "Restaurants and bars",
+            "Banquets and conferences",
+            "Other departments and rentals"
+          ],
+          "correct": false,
+          "why": "Gap: in-room dining and minibar are F&B revenue that fits none of the branches."
+        }
+      ]
+    },
+    {
+      "id": "hospitality-q02",
+      "industry": "hospitality",
+      "difficulty": "Beginner",
+      "question": "Which split of 'Rooms revenue of a hotel' is MECE?",
+      "parent": "Rooms revenue of a hotel",
+      "options": [
+        {
+          "split": [
+            "Rooms available",
+            "Occupancy",
+            "Average daily rate (ADR)"
+          ],
+          "correct": true,
+          "why": "Rooms revenue = rooms available x occupancy x ADR: three multiplicative drivers with no overlap."
+        },
+        {
+          "split": [
+            "Rooms available",
+            "Occupancy",
+            "ADR",
+            "RevPAR"
+          ],
+          "correct": false,
+          "why": "Overlap: RevPAR is occupancy x ADR, so it repeats two drivers already listed."
+        },
+        {
+          "split": [
+            "Transient rooms revenue",
+            "Group rooms revenue",
+            "Weekend rooms revenue"
+          ],
+          "correct": false,
+          "why": "Overlap: weekend revenue includes transient and group guests; the split mixes segment and day of week."
+        },
+        {
+          "split": [
+            "Rooms available",
+            "Occupancy",
+            "Rack rate"
+          ],
+          "correct": false,
+          "why": "Wrong driver: revenue depends on the rate actually achieved (ADR), not the published rack rate, so discounts and packages are missed."
+        }
+      ]
+    },
+    {
+      "id": "hospitality-q03",
+      "industry": "hospitality",
+      "difficulty": "Beginner",
+      "question": "Which split of 'Operating costs of a hotel, by behaviour' is MECE?",
+      "parent": "Operating costs of a hotel, by behaviour",
+      "options": [
+        {
+          "split": [
+            "Payroll",
+            "Fixed costs",
+            "Variable costs"
+          ],
+          "correct": false,
+          "why": "Overlap: payroll is itself split between fixed (core team) and variable (casual and agency staff), so it is counted twice."
+        },
+        {
+          "split": [
+            "Costs that vary with rooms sold",
+            "Costs that vary with covers sold",
+            "Fixed costs"
+          ],
+          "correct": false,
+          "why": "Gap: costs that vary with other volumes, such as spa treatments, card fees or the revenue-linked base fee, fit neither variable bucket."
+        },
+        {
+          "split": [
+            "Fixed costs",
+            "Variable costs",
+            "Controllable costs"
+          ],
+          "correct": false,
+          "why": "Mixed basis: controllability is a different way of cutting costs, and controllable costs are both fixed and variable."
+        },
+        {
+          "split": [
+            "Fixed costs (do not move with volume)",
+            "Variable costs (move with volume)"
+          ],
+          "correct": true,
+          "why": "Every cost, or each part of a semi-variable cost, either moves with volume or does not; the two buckets are exclusive and complete."
+        }
+      ]
+    },
+    {
+      "id": "hospitality-q04",
+      "industry": "hospitality",
+      "difficulty": "Intermediate",
+      "question": "Which split of 'Why a hotel's RevPAR index fell against its compset' is MECE?",
+      "parent": "Why a hotel's RevPAR index fell against its compset",
+      "options": [
+        {
+          "split": [
+            "Our occupancy fell versus last year",
+            "Our ADR fell versus last year"
+          ],
+          "correct": false,
+          "why": "Gap: the index can fall while our numbers are flat if the compset improves; the split must be relative, not absolute."
+        },
+        {
+          "split": [
+            "Occupancy index fell",
+            "ADR index fell"
+          ],
+          "correct": true,
+          "why": "RevPAR index = occupancy index x ADR index, so any fall must come through one or both relative measures."
+        },
+        {
+          "split": [
+            "Occupancy index fell",
+            "ADR index fell",
+            "New hotels joined the compset"
+          ],
+          "correct": false,
+          "why": "Mixed levels: a change in the compset is a cause that acts through the two indices, not a third component."
+        },
+        {
+          "split": [
+            "Lost corporate share",
+            "Lost OTA share",
+            "Lower ADR"
+          ],
+          "correct": false,
+          "why": "Overlap: corporate and OTA are different cuts (segment and channel) that overlap, and lower ADR can sit inside either."
+        }
+      ]
+    },
+    {
+      "id": "hospitality-q05",
+      "industry": "hospitality",
+      "difficulty": "Intermediate",
+      "question": "Which split of 'Room nights a hotel sells in a year, by market segment' is MECE?",
+      "parent": "Room nights a hotel sells in a year, by market segment",
+      "options": [
+        {
+          "split": [
+            "Corporate",
+            "Leisure",
+            "OTA bookings",
+            "Groups"
+          ],
+          "correct": false,
+          "why": "Overlap: OTA is a booking channel, and both corporate and leisure guests book through it."
+        },
+        {
+          "split": [
+            "Transient: corporate and leisure",
+            "Groups: MICE, tours, weddings",
+            "Contract: crew and long-stay accounts"
+          ],
+          "correct": true,
+          "why": "The standard hotel segmentation: every room night sold is booked individually, as part of a group block, or under a fixed contract."
+        },
+        {
+          "split": [
+            "Transient",
+            "Groups",
+            "Contract",
+            "Complimentary and house use"
+          ],
+          "correct": false,
+          "why": "Not a driver: complimentary and house-use rooms are occupied but not sold, so they do not belong in room nights sold."
+        },
+        {
+          "split": [
+            "Transient",
+            "Groups",
+            "Contract",
+            "Repeat guests"
+          ],
+          "correct": false,
+          "why": "Overlap: repeat guests exist in every segment, so they are counted twice."
+        }
+      ]
+    },
+    {
+      "id": "hospitality-q06",
+      "industry": "hospitality",
+      "difficulty": "Intermediate",
+      "question": "Which split of 'Revenue a hotel earns from one wedding' is MECE?",
+      "parent": "Revenue a hotel earns from one wedding",
+      "options": [
+        {
+          "split": [
+            "Room block",
+            "Food and beverage",
+            "Venue hire"
+          ],
+          "correct": false,
+          "why": "Gap: misses event services the hotel bills, such as décor, AV and entertainment."
+        },
+        {
+          "split": [
+            "Room block",
+            "F&B",
+            "Sangeet and reception revenue",
+            "Venue hire"
+          ],
+          "correct": false,
+          "why": "Overlap: sangeet and reception are events whose revenue is already in F&B and venue hire."
+        },
+        {
+          "split": [
+            "Room block",
+            "F&B",
+            "Venue hire and services",
+            "Guest headcount"
+          ],
+          "correct": false,
+          "why": "Mixed levels: headcount is a driver of F&B covers and room nights, not a revenue line."
+        },
+        {
+          "split": [
+            "Room block",
+            "Food and beverage",
+            "Venue hire and event services"
+          ],
+          "correct": true,
+          "why": "Covers every line a hotel bills for a wedding, each counted once."
+        }
+      ]
+    },
+    {
+      "id": "hospitality-q07",
+      "industry": "hospitality",
+      "difficulty": "Advanced",
+      "question": "Which split of 'Owner's EBITDA from a hotel run under a management contract' is MECE?",
+      "parent": "Owner's EBITDA from a hotel run under a management contract",
+      "options": [
+        {
+          "split": [
+            "GOP",
+            "Less base and incentive fees",
+            "Less fixed charges (property tax, insurance, rent)"
+          ],
+          "correct": true,
+          "why": "Owner EBITDA = GOP - management fees - fixed charges, each item counted once."
+        },
+        {
+          "split": [
+            "GOP",
+            "Less base management fee",
+            "Less property tax and insurance"
+          ],
+          "correct": false,
+          "why": "Gap: misses the incentive fee, often the larger fee in a profitable hotel, and rent where the land is leased."
+        },
+        {
+          "split": [
+            "GOP",
+            "Less management fees",
+            "Less fixed charges",
+            "Less fee on profit above the owner's priority return"
+          ],
+          "correct": false,
+          "why": "Overlap: a fee on profit above the owner's priority return is the incentive fee, already inside management fees."
+        },
+        {
+          "split": [
+            "Rooms profit",
+            "F&B profit",
+            "Less management fees",
+            "Less fixed charges"
+          ],
+          "correct": false,
+          "why": "Gap: departmental profits are not GOP; the split misses undistributed costs (admin, sales, maintenance, utilities) and other departments."
+        }
+      ]
+    },
+    {
+      "id": "hospitality-q08",
+      "industry": "hospitality",
+      "difficulty": "Advanced",
+      "question": "Which split of 'Enterprise value of a hotel in a DCF' is MECE?",
+      "parent": "Enterprise value of a hotel in a DCF",
+      "options": [
+        {
+          "split": [
+            "Present value of EBITDA over the forecast period",
+            "Present value of the terminal value"
+          ],
+          "correct": false,
+          "why": "Gap: EBITDA ignores capex, the FF&E reserve and tax, so the cash actually available to investors is missing."
+        },
+        {
+          "split": [
+            "Present value of free cash flows",
+            "Present value of the terminal value",
+            "Present value of the FF&E reserve"
+          ],
+          "correct": false,
+          "why": "Overlap: the FF&E reserve is already deducted in free cash flow, so adding it double counts."
+        },
+        {
+          "split": [
+            "Present value of free cash flows over the forecast period",
+            "Present value of the terminal value"
+          ],
+          "correct": true,
+          "why": "A DCF value is the sum of discounted cash flows in the forecast period plus the discounted value at its end; nothing else is added."
+        },
+        {
+          "split": [
+            "Present value of free cash flows",
+            "Replacement cost of the building",
+            "Present value of the terminal value"
+          ],
+          "correct": false,
+          "why": "Not a driver: replacement cost is a separate valuation cross-check, not a component of DCF value."
+        }
+      ]
+    }
+  ],
+  "chainDrills": [
+    {
+      "id": "hospitality-v01",
+      "industry": "hospitality",
+      "difficulty": "Beginner",
+      "type": "locate",
+      "prompt": "A hotel's rooms department cost per occupied room has risen 12%, though housekeeping payroll and guest supplies per room are flat. The rise is in commissions after the OTA share of room nights doubled. Which stage is driving it?",
+      "options": [
+        "s2",
+        "s3",
+        "s4",
+        "s5"
+      ],
+      "answer": [
+        "s4"
+      ],
+      "why": "The cost sits in the rooms department's accounts (s5), but it is caused by a channel shift: commissions are the price of distribution, so the fix lies in sales and distribution (s4), not in rooms operations."
+    },
+    {
+      "id": "hospitality-v02",
+      "industry": "hospitality",
+      "difficulty": "Beginner",
+      "type": "order",
+      "prompt": "Put the hotel value chain stages in order, from creating the asset to serving the guest.",
+      "options": [
+        "s4",
+        "s1",
+        "s6",
+        "s3",
+        "s5",
+        "s2"
+      ],
+      "answer": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6"
+      ],
+      "why": "The asset is built and owned first, then a brand or operator is appointed, rates and inventory are set, rooms are sold through channels, and the stay is delivered, with F&B, events and spa around it."
+    },
+    {
+      "id": "hospitality-v03",
+      "industry": "hospitality",
+      "difficulty": "Intermediate",
+      "type": "locate",
+      "prompt": "An owner's EBITDA margin fell about 1 point while the hotel's GOP margin was unchanged, after the operating contract was renewed with a higher incentive fee. Which stage captured the lost owner profit?",
+      "options": [
+        "s1",
+        "s2",
+        "s4",
+        "s6"
+      ],
+      "answer": [
+        "s2"
+      ],
+      "why": "The owner (s1) sees the fall, but GOP is flat, so operations and selling are not the cause. The money moved to the brand and operator (s2) through a higher fee on GOP; distribution costs (s4) and F&B (s6) sit above GOP and would have moved it."
+    },
+    {
+      "id": "hospitality-v04",
+      "industry": "hospitality",
+      "difficulty": "Intermediate",
+      "type": "assign",
+      "prompt": "Assign each cost or revenue item to the stage it belongs to.",
+      "items": [
+        {
+          "item": "Replacing worn carpets and furniture in a ten-year renovation",
+          "stage": "s1"
+        },
+        {
+          "item": "Royalty fee for using the brand name",
+          "stage": "s2"
+        },
+        {
+          "item": "Revenue management system licence",
+          "stage": "s3"
+        },
+        {
+          "item": "OTA commission on a booking",
+          "stage": "s4"
+        },
+        {
+          "item": "Housekeeping attendants' overtime",
+          "stage": "s5"
+        },
+        {
+          "item": "Food cost for a 600-guest wedding reception",
+          "stage": "s6"
+        }
+      ],
+      "why": "Two items are traps. The renovation looks like rooms maintenance (s5), but FF&E replacement is owner capital (s1). The royalty fee and the OTA commission are both percentages of room revenue, but the royalty pays for the brand (s2) while the commission pays for one booking (s4). The revenue management system belongs in pricing (s3) because it sets rates rather than selling rooms."
+    },
+    {
+      "id": "hospitality-v05",
+      "industry": "hospitality",
+      "difficulty": "Advanced",
+      "type": "locate",
+      "prompt": "A Pune business hotel runs 92% midweek occupancy and sells out about three weeks earlier than its competitors, yet its ADR is 15% below the compset. Where is the problem most likely to sit?",
+      "options": [
+        "s3",
+        "s4",
+        "s5",
+        "s6"
+      ],
+      "answer": [
+        "s3"
+      ],
+      "why": "Selling out early at a low rate means rooms are priced too cheaply for the demand: rates are not being raised as dates fill. Distribution is clearly bringing in bookings, so this is a pricing and revenue management failure."
+    },
+    {
+      "id": "hospitality-v06",
+      "industry": "hospitality",
+      "difficulty": "Advanced",
+      "type": "locate",
+      "prompt": "A new upscale hotel achieves a RevPAR index of 105 and a GOP margin in line with peers, yet the owner earns only a 6% yield on cost against a 12% target. Where is the problem most likely to sit?",
+      "options": [
+        "s1",
+        "s2",
+        "s3",
+        "s5"
+      ],
+      "answer": [
+        "s1"
+      ],
+      "why": "The hotel performs well on revenue and operating cost, so the shortfall must come from the capital side: the asset cost too much per key (land, construction or delays) for the profit it can earn. Management fees (s2) trim returns but are far too small to halve the yield."
+    }
+  ]
+}

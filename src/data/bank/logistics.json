@@ -1,0 +1,3946 @@
+{
+  "industry": "logistics",
+  "valueChain": {
+    "summary": "Logistics firms charge shippers per parcel, kilogram, trip or square foot, then make money by filling trucks, hubs, warehouses and riders as densely as possible, because most of their cost is tied to capacity rather than to each shipment. Outside dense networks and contracted warehousing margins are thin, so small changes in utilisation, empty running or failed deliveries swing profit.",
+    "stages": [
+      {
+        "id": "s1",
+        "name": "Sales, pricing and booking",
+        "activities": [
+          "Win and contract shippers (marketplaces, D2C brands, manufacturers)",
+          "Set rate cards by weight slab and zone and negotiate discounts",
+          "Integrate shippers' order systems and generate labels and manifests",
+          "Match loads to trucks (freight brokers)"
+        ],
+        "players": [
+          "Express and PTL carriers' sales teams",
+          "Shipping aggregators reselling several carriers to small sellers",
+          "Freight brokers and digital freight marketplaces",
+          "3PL business development teams"
+        ],
+        "revenueDrivers": [
+          "Rate per shipment, kg or trip by zone and weight",
+          "Client mix and volume commitments",
+          "Broker take rate on freight value"
+        ],
+        "costDrivers": [
+          "Sales and key account staff",
+          "Discounts and rebates to large clients",
+          "Booking and integration technology"
+        ],
+        "kpis": [
+          {
+            "name": "Yield per shipment",
+            "formula": "revenue / shipments",
+            "benchmark": "about ₹65-80 for Indian B2C express parcels (approx.)"
+          },
+          {
+            "name": "Top-10 client share",
+            "formula": "revenue from top 10 clients / total revenue",
+            "benchmark": "can exceed 40% for express carriers that depend on marketplaces (approx.)"
+          }
+        ],
+        "marginNote": "Earns little on its own but sets the price of everything downstream; asset-light freight brokers keep roughly 5-10% of freight value as gross margin (approx.)."
+      },
+      {
+        "id": "s2",
+        "name": "First-mile pickup",
+        "activities": [
+          "Schedule pickups from seller warehouses, factories and stores",
+          "Collect parcels or consignments by bike, van or small truck",
+          "Scan and check weight and dimensions at pickup",
+          "Bring loads to the origin hub"
+        ],
+        "players": [
+          "Carriers' pickup fleets",
+          "Franchise and channel partners in smaller towns",
+          "Shippers dropping off at carrier counters"
+        ],
+        "revenueDrivers": [
+          "Usually bundled into the shipment rate",
+          "Pickup fees for small or ad hoc shippers"
+        ],
+        "costDrivers": [
+          "Pickup staff and vehicles",
+          "Pickup density (parcels per stop)",
+          "Wasted visits when nothing is ready"
+        ],
+        "kpis": [
+          {
+            "name": "Pickup success rate",
+            "formula": "pickups completed on the scheduled day / pickups scheduled",
+            "benchmark": "95%+ for well-run express networks (approx.)"
+          },
+          {
+            "name": "Pickup cost per parcel",
+            "formula": "first-mile cost / parcels collected",
+            "benchmark": "roughly ₹4-8 for dense metro sellers, far higher for low-volume sellers (approx.)"
+          }
+        ],
+        "marginNote": "A cost centre, typically 5-10% of network cost per parcel (approx.); its economics swing on pickup density."
+      },
+      {
+        "id": "s3",
+        "name": "Hub sorting and warehousing",
+        "activities": [
+          "Receive, scan and sort parcels by destination at origin hubs",
+          "Consolidate bags and pallets for line haul",
+          "Store, pick and pack client inventory in fulfilment centres",
+          "Cross-dock part-truckload consignments"
+        ],
+        "players": [
+          "Express carriers' sortation hubs",
+          "3PL and contract logistics firms",
+          "Warehousing park developers and landlords",
+          "Sorter and automation suppliers"
+        ],
+        "revenueDrivers": [
+          "Storage fees per sq ft or pallet",
+          "Handling fees per unit and value-added services (kitting, labelling)",
+          "For express carriers, bundled into the shipment rate"
+        ],
+        "costDrivers": [
+          "Rent and capex (sorters, racking)",
+          "Labour (sorters, pickers, packers)",
+          "Power"
+        ],
+        "kpis": [
+          {
+            "name": "Mis-sort rate",
+            "formula": "parcels sent to the wrong destination / parcels sorted",
+            "benchmark": "well below 0.5% in automated hubs (approx.)"
+          },
+          {
+            "name": "Warehouse space utilisation",
+            "formula": "occupied pallet positions / available pallet positions",
+            "benchmark": "80-85% targeted; above ~90% productivity suffers (approx.)"
+          }
+        ],
+        "marginNote": "Contract warehousing earns roughly 8-12% EBITDA on multi-year contracts (approx.); express sortation is a cost centre where automation pays only at high volume."
+      },
+      {
+        "id": "s4",
+        "name": "Line haul",
+        "activities": [
+          "Move consolidated loads between hubs by road, rail or air",
+          "Plan departures to meet hub cut-off times",
+          "Find return loads to cut empty running",
+          "Track trucks and manage drivers"
+        ],
+        "players": [
+          "Small fleet owners (a few trucks each)",
+          "Large asset-owning transporters",
+          "Freight brokers and digital platforms",
+          "Air cargo and rail container operators"
+        ],
+        "revenueDrivers": [
+          "Freight per trip, tonne or km (FTL)",
+          "Rate per kg (PTL)",
+          "Detention charges for waiting time"
+        ],
+        "costDrivers": [
+          "Diesel (roughly half of truck running cost, approx.)",
+          "Tolls",
+          "Driver wages and trip allowances",
+          "Truck EMIs, tyres and maintenance"
+        ],
+        "kpis": [
+          {
+            "name": "Empty running share",
+            "formula": "empty km / total km",
+            "benchmark": "commonly cited at about 25-40% of truck km in India; estimates vary widely by source and segment (approx.)"
+          },
+          {
+            "name": "Truck fill rate",
+            "formula": "load carried / truck capacity (weight or volume)",
+            "benchmark": "80-90% targeted on scheduled express and PTL lanes (approx.)"
+          }
+        ],
+        "marginNote": "Thin for small fleet owners (low single-digit net margin, approx.); scale, return loads and fill rate separate winners from losers."
+      },
+      {
+        "id": "s5",
+        "name": "Last-mile delivery",
+        "activities": [
+          "Sort parcels by route at destination delivery centres",
+          "Assign routes to riders",
+          "Attempt delivery, collect COD cash and record proof of delivery",
+          "Reattempt or mark for return after failed attempts"
+        ],
+        "players": [
+          "Carriers' delivery centres and riders (often contract or gig staff)",
+          "Franchise delivery partners in small towns",
+          "Marketplaces' captive fleets",
+          "Lockers and pickup points"
+        ],
+        "revenueDrivers": [
+          "Bundled into the shipment rate",
+          "Premiums for same-day or time-slot delivery"
+        ],
+        "costDrivers": [
+          "Rider pay and fuel",
+          "Delivery centre rent",
+          "Failed attempts and low drop density"
+        ],
+        "kpis": [
+          {
+            "name": "First-attempt delivery success",
+            "formula": "parcels delivered on first attempt / parcels out for delivery",
+            "benchmark": "about 85-90% in metros, lower for COD and small towns (approx.)"
+          },
+          {
+            "name": "Successful deliveries per rider-day",
+            "formula": "parcels delivered / rider-days worked",
+            "benchmark": "around 25-40 in Indian metros (approx.)"
+          }
+        ],
+        "marginNote": "The largest single cost, often 35-45% of network cost per parcel (approx.); drop density decides profit."
+      },
+      {
+        "id": "s6",
+        "name": "Returns, COD and claims",
+        "activities": [
+          "Return undelivered parcels to sellers (RTO) and run reverse pickups",
+          "Remit COD cash to shippers",
+          "Settle claims for lost or damaged shipments",
+          "Reconcile invoices and weight disputes"
+        ],
+        "players": [
+          "Carriers' reverse logistics and finance teams",
+          "Banks and payment partners handling COD remittance",
+          "Returns processing and refurbishment firms",
+          "Goods-in-transit insurers"
+        ],
+        "revenueDrivers": [
+          "RTO and reverse pickup charges",
+          "COD handling fees (flat or % of COD value)"
+        ],
+        "costDrivers": [
+          "Reverse line haul and handling of RTO parcels",
+          "Compensation for lost and damaged parcels",
+          "Cash handling and bank charges"
+        ],
+        "kpis": [
+          {
+            "name": "RTO rate",
+            "formula": "parcels returned to origin / parcels dispatched",
+            "benchmark": "roughly 20-30% on COD orders (industry data for FY25 put it near 26%) against under 2-3% on prepaid (approx.)"
+          },
+          {
+            "name": "COD remittance cycle",
+            "formula": "days from delivery to cash credited to the shipper",
+            "benchmark": "about D+2 to D+7 when booked directly with Indian express carriers; faster paid options exist (approx.)"
+          }
+        ],
+        "marginNote": "Mostly a cost and cash stage: RTO is close to pure loss, while COD collections give the carrier a few days of interest-free float."
+      }
+    ],
+    "profitPools": "Profit concentrates where density and contracts lock in volume: large express and PTL networks with well-utilised hubs and lanes, contract warehousing on multi-year deals, and asset-light brokers that keep a margin without owning trucks. Small truck owners in line haul and contract riders in last mile earn the least, because their capacity is a commodity and pricing power sits with shippers and the networks that aggregate them.",
+    "unitEconomics": {
+      "unit": "per B2C express parcel at a mid-sized Indian carrier (approx.)",
+      "lines": [
+        {
+          "item": "Revenue per parcel (base freight plus surcharges)",
+          "value": "₹75"
+        },
+        {
+          "item": "First-mile pickup",
+          "value": "-₹6"
+        },
+        {
+          "item": "Hub sorting and handling",
+          "value": "-₹8"
+        },
+        {
+          "item": "Line haul between hubs",
+          "value": "-₹20"
+        },
+        {
+          "item": "Last-mile delivery (riders, delivery centre)",
+          "value": "-₹28"
+        },
+        {
+          "item": "RTO cost not recovered from shippers",
+          "value": "-₹4"
+        },
+        {
+          "item": "COD cash handling and payment costs",
+          "value": "-₹2"
+        }
+      ],
+      "result": "Contribution per parcel ≈ ₹7 (about 9% of revenue), before roughly ₹4-5 of technology and corporate overheads; the scale leader runs several points higher because denser routes cut last-mile and line haul cost per parcel"
+    },
+    "india": "Road carries roughly 65-70% of India's freight, and trucking is highly fragmented, with most trucks owned by operators running fewer than five vehicles. GST (2017) and e-way bills removed state check posts and let shippers consolidate into fewer, larger warehouses, while the National Logistics Policy (2022), PM Gati Shakti and the dedicated freight corridors aim to cut logistics costs, which the first official estimate (NCAER for DPIIT, 2025) put at about 8% of GDP for 2023-24, well below the 13-14% long quoted. E-commerce delivery is shaped by a high share of cash-on-delivery orders, which drives RTO rates and COD remittance economics.",
+    "workedExample": {
+      "problem": "An express carrier's contribution per parcel fell about ₹3.5 (roughly 5 points of revenue) over two quarters, with its rate card unchanged.",
+      "trace": [
+        "Revenue per parcel is flat (same rate card, same zone mix by distance), so the fall is on the cost side; walk the chain stage by stage.",
+        "First-mile, hub and line haul cost per parcel are flat; last-mile cost per parcel is up about ₹3.5.",
+        "Rider pay per day is unchanged at about ₹750, but the share of parcels going to Tier-3 towns rose from 20% to 45% after new marketplace clients were signed.",
+        "Tier-3 riders make about 20 drops a day against 32 in metros, so cost per drop is ~₹37.5 against ~₹23.4; a 25-point mix shift adds ~₹3.5 per parcel on average.",
+        "The root cause sits in pricing and booking: the zonal rate card prices by distance, not by delivery density, so Tier-3 parcels in the same zone are priced like metro parcels."
+      ],
+      "lesson": "Costs often surface in last mile, but the fix may sit upstream in how contracts and rate cards are priced."
+    }
+  },
+  "cases": [
+    {
+      "id": "logistics-c01",
+      "title": "Truck fleet's profit falls on flat revenue",
+      "industry": "logistics",
+      "framework": "profitability",
+      "secondary": [],
+      "difficulty": "Beginner",
+      "region": "India",
+      "prompt": "Our client is a Ludhiana-based full-truckload transporter with 120 trucks, mostly carrying goods for North Indian manufacturers. Revenue has stayed flat at about ₹55 crore for two years, but profit before tax has fallen from ₹4 crore to ₹1.2 crore. What is driving the decline?",
+      "clarifyingFacts": [
+        "Q: What is the objective? A: Find the cause and get profit before tax back to about ₹4 crore within a year.",
+        "Q: Has the fleet changed? A: Still 120 trucks, no new purchases in three years, so average truck age has gone from about 3 to 5 years.",
+        "Q: How much do the trucks run? A: Total km per truck has risen from about 9,500 to 10,000 a month; the client has not tracked how much of that is loaded versus empty.",
+        "Q: Anything changed with customers or costs? A: A Gujarat client that gave return loads was lost last year, and rates on the remaining forward contracts rose slightly; diesel prices have been broadly flat."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Why has PBT fallen from ₹4 crore to ₹1.2 crore on flat revenue?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Revenue (trucks x loaded km x rate)",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Trucks deployed (fleet, days off-road)"
+              },
+              {
+                "id": "a2",
+                "label": "Loaded km per truck",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Total km run per truck"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Share of km run loaded"
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Freight rate per loaded km",
+                "children": [
+                  {
+                    "id": "a3x",
+                    "label": "Forward-leg contract rates"
+                  },
+                  {
+                    "id": "a3y",
+                    "label": "Return-leg spot rates"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Variable costs (per km run)",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Diesel",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Km per litre"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Price per litre"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Tolls"
+              },
+              {
+                "id": "b3",
+                "label": "Tyres, repairs and maintenance"
+              },
+              {
+                "id": "b4",
+                "label": "Driver trip allowances and en-route expenses"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Fixed costs (per truck per year)",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Depreciation and interest on truck loans"
+              },
+              {
+                "id": "c2",
+                "label": "Driver salaries"
+              },
+              {
+                "id": "c3",
+                "label": "Insurance, permits and road tax"
+              },
+              {
+                "id": "c4",
+                "label": "Office and admin overheads"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Since the Gujarat client left, trucks run about 500 extra empty km a month to reach their next load, lifting empty running from about 25% to 30%; at roughly ₹30 of variable cost per km (diesel, tolls, tyres, allowances) that adds about ₹2.2 crore a year (120 trucks x 500 km x 12 x ₹30), while slightly higher forward rates hold revenue flat on about 2% fewer loaded km.",
+        "Ageing from 3 to 5 years has raised tyre and repair cost by about ₹0.5 per km, roughly ₹0.7 crore a year on 1.44 crore km; with the extra empty km this explains almost all of the ₹2.8 crore fall, so fixed costs need only a check."
+      ],
+      "hints": [
+        "Use the profit equation, and split costs by what they move with.",
+        "First level: Revenue, Variable costs (per km run), Fixed costs (per truck).",
+        "Fixed costs per truck: depreciation and interest on truck loans, driver salaries, insurance, permits and road tax, office and admin overheads."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Empty running share",
+          "formula": "empty km / total km"
+        },
+        {
+          "name": "Cost per loaded km",
+          "formula": "total operating cost / loaded km"
+        }
+      ],
+      "commonMistakes": [
+        "Concluding from flat revenue and flat diesel prices that operations have not changed, when total km rose while loaded km fell.",
+        "Treating diesel and tolls as tied to revenue rather than to km run, which hides the cost of empty repositioning."
+      ],
+      "frameworkPick": {
+        "options": [
+          "profitability",
+          "operations",
+          "market-sizing",
+          "turnaround"
+        ],
+        "correct": [
+          "profitability"
+        ],
+        "why": "The question is why profit fell while revenue held, so the first job is to split profit into revenue and cost drivers and find which moved.",
+        "distractorWhyNot": {
+          "operations": "Fleet operations may well be the root cause, but the question is about profit, and operations is one branch inside the cost side, not the starting structure.",
+          "market-sizing": "Nothing needs sizing; the client's own revenue and profit are known.",
+          "turnaround": "The firm is still profitable and has no cash crisis, so jumping to a restructuring plan skips the diagnosis."
+        }
+      }
+    },
+    {
+      "id": "logistics-c02",
+      "title": "Sizing India's e-commerce parcel delivery market",
+      "industry": "logistics",
+      "framework": "market-sizing",
+      "secondary": [],
+      "difficulty": "Beginner",
+      "region": "India",
+      "prompt": "A global logistics investor is studying India's e-commerce delivery sector. Assume about 250 million Indians shop online. How large is the annual revenue pool for delivering e-commerce parcels in India, including returns?",
+      "clarifyingFacts": [
+        "Q: Which shipments count? A: All B2C e-commerce parcels delivered to consumers, whether by third-party carriers or marketplaces' own fleets; exclude food delivery and quick commerce.",
+        "Q: What is 'revenue'? A: What shippers pay for delivery (or the cost captive fleets incur), not the value of the goods, for the current year.",
+        "Q: How often do people order? A: Assume about 16 orders per online shopper per year, one parcel per order.",
+        "Q: Prices and returns? A: Assume about ₹65 per forward parcel; returns (customer returns plus RTO) are about 15% of forward parcels at about ₹60 each, lower on marketplaces and far higher on COD-heavy D2C."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Annual revenue from delivering e-commerce parcels in India (₹ crore)",
+        "children": [
+          {
+            "id": "a",
+            "label": "Forward delivery revenue",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Number of forward parcels",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Online shoppers (~250 million)"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Orders per shopper per year (~16)"
+                  },
+                  {
+                    "id": "a1z",
+                    "label": "Parcels per order"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Average revenue per forward parcel",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Mix of parcels by zone (intra-city, regional, national)"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Rate per parcel in each zone"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Return delivery revenue",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Number of return parcels",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Customer returns (high in fashion)"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "RTO (failed, mostly COD, deliveries)"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Average revenue per return parcel",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Price per reverse pickup"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Price per RTO parcel"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Forward deliveries make up nearly 90% of the pool (roughly 4 billion parcels x ₹65 ≈ ₹26,000 crore), so the answer is most sensitive to orders per shopper and the average rate.",
+        "Returns add roughly ₹3,600 crore (about 60 crore parcels x ₹60), taking the pool to about ₹30,000 crore; fashion-heavy and COD-heavy D2C shippers carry a far larger returns share than this blended 15%."
+      ],
+      "hints": [
+        "Split by direction of the parcel, then use volume x price within each part.",
+        "First level: Forward delivery revenue and Return delivery revenue.",
+        "Return delivery revenue: number of return parcels (customer returns, RTO) x average revenue per return parcel (price per reverse pickup, price per RTO parcel)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Delivery revenue pool",
+          "formula": "forward parcels x revenue per forward parcel + return parcels x revenue per return parcel"
+        }
+      ],
+      "commonMistakes": [
+        "Taking e-commerce GMV and applying a percentage without a shipment count, which gives no way to sanity-check the answer.",
+        "Forgetting returns and RTO, or counting RTO parcels both as forward deliveries and again as returns at the full forward rate."
+      ],
+      "frameworkPick": {
+        "options": [
+          "market-sizing",
+          "market-entry",
+          "growth",
+          "segmentation"
+        ],
+        "correct": [
+          "market-sizing"
+        ],
+        "why": "The question asks how big an annual revenue pool is, which needs a volume x price estimate built from shoppers, orders and rates.",
+        "distractorWhyNot": {
+          "market-entry": "The investor may later decide whether to enter, but the question asked is only the size of the pool.",
+          "growth": "There is no client trying to grow revenue; the task is to estimate today's market.",
+          "segmentation": "Splitting by zone or return type is a step inside the estimate, not the purpose of the question."
+        }
+      }
+    },
+    {
+      "id": "logistics-c03",
+      "title": "Cutting cost at a costly delivery centre",
+      "industry": "logistics",
+      "framework": "operations",
+      "secondary": [],
+      "difficulty": "Beginner",
+      "region": "India",
+      "prompt": "Our client, a large Indian express parcel carrier, runs about 2,500 delivery centres. Its centre in Hinjewadi, Pune delivers about 6,000 parcels a day at ₹36 per delivered parcel, against ₹27 at comparable Pune centres. How would you bring the cost down?",
+      "clarifyingFacts": [
+        "Q: What is the target? A: About ₹28 per delivered parcel within six months, without hurting delivery success or customer complaints.",
+        "Q: How are riders used? A: About 210 riders a day at roughly ₹950 per rider-day including fuel; they average about 29 successful deliveries each against about 40 at peer centres.",
+        "Q: Delivery success? A: First-attempt success is 78% against 89% at peers; COD is 55% of parcels against 45% at peers.",
+        "Q: Anything special about the area? A: Mostly IT offices and large gated societies; residents are away by day and gate entry checks take 5-10 minutes per visit."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "How can Hinjewadi cut cost per delivered parcel from ₹36 to ~₹28?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Rider cost per rider-day",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Pay structure (fixed day rate vs per-delivery incentive)"
+              },
+              {
+                "id": "a2",
+                "label": "Fuel and vehicle allowance"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Successful deliveries per rider-day",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Delivery attempts per rider-day",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Route density and sequencing"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Time per stop (gate entry, OTP, cash)"
+                  },
+                  {
+                    "id": "b1z",
+                    "label": "Rostering matched to daily volume"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Share of attempts that succeed",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Customer away (time slots, society desk drop)"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "COD refusal or no cash"
+                  },
+                  {
+                    "id": "b2z",
+                    "label": "Wrong or incomplete address"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Centre overheads per delivered parcel",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Rent and utilities"
+              },
+              {
+                "id": "c2",
+                "label": "Supervisors, sorters and security staff"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Low first-attempt success (78% vs 89%) means about 14% more attempts per delivered parcel, mostly from residents being away by day; time-slot delivery and drops at society desks would recover most of it.",
+        "Gate entry checks of 5-10 minutes cap attempts at about 37 per rider-day against about 45 at peers; pre-registered rider access or society-level consolidated drops would lift it."
+      ],
+      "hints": [
+        "Write cost per delivered parcel as an equation and split along its terms.",
+        "First level: Rider cost per rider-day, Successful deliveries per rider-day, Centre overheads per delivered parcel.",
+        "Rider cost per rider-day: pay structure (fixed day rate vs per-delivery incentive) and fuel and vehicle allowance."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Cost per delivered parcel",
+          "formula": "rider cost per rider-day / successful deliveries per rider-day + centre overheads / parcels delivered"
+        },
+        {
+          "name": "First-attempt success rate",
+          "formula": "parcels delivered on first attempt / parcels out for delivery"
+        }
+      ],
+      "commonMistakes": [
+        "Going straight to cutting rider pay, when the gap is productivity (29 vs 40 deliveries) and lower pay would raise attrition and failed attempts.",
+        "Measuring productivity on attempts rather than successful deliveries, which hides the cost of failed attempts."
+      ],
+      "frameworkPick": {
+        "options": [
+          "operations",
+          "profitability",
+          "pricing",
+          "growth"
+        ],
+        "correct": [
+          "operations"
+        ],
+        "why": "The question is how to lower a unit cost at one site against peer benchmarks, which is a process and productivity problem.",
+        "distractorWhyNot": {
+          "profitability": "Revenue is not in question; the gap is one cost line at one centre, so a full revenue and cost tree wastes half the structure.",
+          "pricing": "Charging shippers more for this area does not reduce the cost of delivery, which is what was asked.",
+          "growth": "Adding volume might improve density, but the question is about cutting cost on the current volume."
+        }
+      }
+    },
+    {
+      "id": "logistics-c04",
+      "title": "Pricing same-day delivery in London",
+      "industry": "logistics",
+      "framework": "pricing",
+      "secondary": [],
+      "difficulty": "Beginner",
+      "region": "Global",
+      "prompt": "A mid-sized UK parcel carrier is launching same-day delivery in Greater London for online retailers, for orders placed by noon. Its standard next-day service costs retailers about £3.50 a parcel. What price should it charge retailers for same-day?",
+      "clarifyingFacts": [
+        "Q: What is the objective? A: Profitable within 18 months, targeting about 20,000 same-day parcels a day by year two.",
+        "Q: What does it cost? A: Incremental cost is estimated at £5.50-6.50 per parcel at 20,000 a day (dedicated vans running two waves, lower drop density), plus about £4 million a year of fixed costs for a dedicated hub and software.",
+        "Q: What do alternatives charge? A: Specialist same-day couriers charge retailers about £7-10 a parcel; some large retailers run their own vans.",
+        "Q: What do retailers gain? A: Fashion and electronics retailers report higher conversion when same-day is offered, and many charge shoppers £5-7 for it."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "What per-parcel price should the carrier charge retailers for London same-day?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Cost floor",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Incremental cost per parcel (collection, hub, van and driver)"
+              },
+              {
+                "id": "a2",
+                "label": "Fixed launch costs per parcel at target volume"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Value to retailers (ceiling)",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Fee retailers can charge shoppers for same-day"
+              },
+              {
+                "id": "b2",
+                "label": "Extra sales from higher conversion"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Competing alternatives",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Specialist same-day couriers (£7-10)"
+              },
+              {
+                "id": "c2",
+                "label": "Gig-economy delivery platforms"
+              },
+              {
+                "id": "c3",
+                "label": "Retailers' own vans and click-and-collect"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "A price of about £7 per parcel covers incremental cost of ~£6 and, at 20,000 parcels a day over ~300 trading days, earns about £6 million of contribution against £4 million of fixed costs, while sitting at the bottom of the specialist couriers' £7-10 range.",
+        "Retailers' value ceiling is about £8-9 per parcel (the £5-7 they charge shoppers plus some conversion gain), so pricing near specialists' top end would limit uptake to large premium retailers."
+      ],
+      "hints": [
+        "Bound the range the price can sit in first, then decide where in that range to sit.",
+        "First level: Cost floor, Value to retailers (ceiling), Competing alternatives.",
+        "Competing alternatives: specialist same-day couriers (£7-10), gig-economy delivery platforms, and retailers' own vans and click-and-collect."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Contribution per parcel",
+          "formula": "price - incremental cost per parcel"
+        },
+        {
+          "name": "Break-even volume",
+          "formula": "annual fixed launch costs / contribution per parcel"
+        }
+      ],
+      "commonMistakes": [
+        "Pricing as a mark-up on the £3.50 next-day rate, ignoring that same-day has a different cost base and a different value to retailers.",
+        "Treating cost per parcel as fixed, when it depends heavily on volume and drop density; price and volume must be set together."
+      ],
+      "frameworkPick": {
+        "options": [
+          "pricing",
+          "product-launch",
+          "market-entry",
+          "profitability"
+        ],
+        "correct": [
+          "pricing"
+        ],
+        "why": "The launch decision is made and the question is the price, so cost floor, customer value and competitor reference points are the right structure.",
+        "distractorWhyNot": {
+          "product-launch": "Whether and how to launch is already decided; a launch framework spends time on readiness and go-to-market that was not asked.",
+          "market-entry": "The carrier already operates in London parcels; this is a new service in its existing market, and the question is price.",
+          "profitability": "There is no existing profit problem to diagnose; cost is one input to the price decision."
+        }
+      }
+    },
+    {
+      "id": "logistics-c05",
+      "title": "Doubling a part-truckload network's revenue",
+      "industry": "logistics",
+      "framework": "growth",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "India",
+      "prompt": "Our client is a national part-truckload (PTL) freight company moving B2B consignments for manufacturers and distributors through 25 hubs. Revenue is ₹1,800 crore, growing 8% a year while the PTL market grows about 12%. The board wants to double revenue in five years. How should it get there?",
+      "clarifyingFacts": [
+        "Q: Any profit constraint? A: EBITDA margin, now about 11%, must not fall below 10%.",
+        "Q: Customer mix? A: About 60% of revenue from 400 enterprise accounts and 40% from about 25,000 SMEs booked through branch franchisees.",
+        "Q: Why is it growing slower than the market? A: It has lost share in auto components and in marketplace-to-seller replenishment, where rivals offer 2-3 day express PTL against its 4-5 days; tonnage per enterprise account is flat.",
+        "Q: Are acquisitions allowed? A: Yes, up to ₹500 crore, but the board prefers organic growth first."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "How can revenue double to ₹3,600 crore in five years (~15% a year)?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Core PTL with existing customers",
+            "children": [
+              {
+                "id": "a1",
+                "label": "More tonnage per account",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Higher share on lanes already served (faster transit)"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Lanes and plants not yet served"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Higher yield per kg",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Rate increases and fuel surcharge pass-through"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Mix shift to higher-yield consignments"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Core PTL with new customers",
+            "children": [
+              {
+                "id": "b1",
+                "label": "New enterprise accounts",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Pharma and healthcare"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Electronics and appliances"
+                  },
+                  {
+                    "id": "b1z",
+                    "label": "Auto aftermarket and other sectors"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "More SME shippers",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Wider franchise coverage in Tier-2/3 towns"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Digital self-booking for small shippers"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Adjacent services",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Contract warehousing",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Build near existing hubs for current accounts"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Acquire a regional warehousing player"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Full-truckload brokerage (asset-light)"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Growing core PTL at the market's 12% gets to only about ₹3,170 crore in five years, so roughly ₹430 crore must come from adjacencies or above-market share gains.",
+        "Share loss in auto components comes from 4-5 day transit against 2-3 days for rivals; a time-definite express PTL product could add 2-3 points of annual growth from existing accounts.",
+        "Contract warehousing sold to the 400 enterprise accounts is the fastest adjacency and lifts margin, while FTL brokerage adds revenue at low margin and must be capped to protect the 10% EBITDA floor."
+      ],
+      "hints": [
+        "Use an Ansoff-style split on who you sell to and what you sell them.",
+        "First level: Core PTL with existing customers, Core PTL with new customers, Adjacent services.",
+        "Core PTL with new customers: new enterprise accounts (pharma, electronics, auto aftermarket and others) and more SME shippers (franchise coverage in Tier-2/3 towns, digital self-booking)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "PTL revenue",
+          "formula": "tonnage x yield per kg"
+        },
+        {
+          "name": "Required CAGR",
+          "formula": "(target revenue / current revenue)^(1/years) - 1 = 2^(1/5) - 1 ≈ 14.9%"
+        }
+      ],
+      "commonMistakes": [
+        "Listing initiatives without sizing whether together they close the ₹1,800 crore gap in five years.",
+        "Ignoring the 10% EBITDA floor, for example buying volume with price cuts or piling into low-margin brokerage."
+      ],
+      "frameworkPick": {
+        "options": [
+          "growth",
+          "market-entry",
+          "ma",
+          "profitability"
+        ],
+        "correct": [
+          "growth"
+        ],
+        "why": "The board wants a revenue target reached, so the structure should lay out every source of growth (existing customers, new customers, new services) and size each.",
+        "distractorWhyNot": {
+          "market-entry": "Entering warehousing is one option inside the plan, not the question itself.",
+          "ma": "Acquisitions are allowed but the board prefers organic growth; a deal is one lever, not the frame.",
+          "profitability": "Margins are healthy at 11%; the problem is slow growth, with margin only a constraint."
+        }
+      }
+    },
+    {
+      "id": "logistics-c06",
+      "title": "Should a 3PL enter cold chain?",
+      "industry": "logistics",
+      "framework": "market-entry",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "India",
+      "prompt": "Our client is an Indian contract logistics company running 8 million sq ft of ambient warehouses for FMCG and retail clients, with revenue of ₹1,100 crore. It is considering entering temperature-controlled warehousing for pharma and food. Should it, and if so how?",
+      "clarifyingFacts": [
+        "Q: What does success look like? A: A business line of ₹300 crore revenue in five years at 15%+ EBITDA, against about 9% in ambient warehousing.",
+        "Q: How much can it invest? A: Up to ₹600 crore; temperature-controlled space costs roughly 3-4 times as much to build per pallet position as ambient.",
+        "Q: What does the market look like? A: Highly fragmented; most cold storage capacity is single-commodity potato stores in UP and West Bengal, while modern multi-temperature capacity near metros is scarce.",
+        "Q: What does the client bring? A: No temperature-controlled experience, but strong relationships with FMCG companies whose dairy, frozen and ice cream lines are growing, and a proven warehouse management system."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Should the client enter temperature-controlled warehousing, and how?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Market attractiveness",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Demand size and growth",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Pharma (vaccines, biologics, clinical trials)"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Food (dairy, frozen, QSR supply, produce)"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Segment profitability",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Rent and service premium over ambient"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Utilisation and seasonality"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Competitive landscape",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Modern cold chain specialists (capacity, pricing)"
+              },
+              {
+                "id": "b2",
+                "label": "Captive cold chains of pharma and dairy firms"
+              },
+              {
+                "id": "b3",
+                "label": "Single-commodity cold stores (weak substitutes)"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Client's ability to win",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Transferable strengths",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "FMCG clients with dairy and frozen lines"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Warehouse system and sites near metros"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Capability gaps",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "Refrigeration engineering and energy management"
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "Pharma compliance (GDP, temperature audit trails)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Economics and entry mode",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Unit economics per pallet position",
+                "children": [
+                  {
+                    "id": "d1x",
+                    "label": "Revenue (storage plus handling)"
+                  },
+                  {
+                    "id": "d1y",
+                    "label": "Operating cost (power, labour)"
+                  },
+                  {
+                    "id": "d1z",
+                    "label": "Build capex"
+                  }
+                ]
+              },
+              {
+                "id": "d2",
+                "label": "Entry mode",
+                "children": [
+                  {
+                    "id": "d2x",
+                    "label": "Build greenfield"
+                  },
+                  {
+                    "id": "d2y",
+                    "label": "Acquire a specialist"
+                  },
+                  {
+                    "id": "d2z",
+                    "label": "Partner with a cold chain operator"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Modern pharma and processed-food capacity near metros is scarce enough to earn 15%+ EBITDA, unlike oversupplied potato cold stores that set misleadingly low average rents.",
+        "Acquiring or partnering with a specialist beats greenfield, because pharma clients require an audited compliance track record that takes 2-3 years to build.",
+        "Food cold chain for existing FMCG clients can be entered organically within the ₹600 crore budget, giving a base-load tenant before pharma."
+      ],
+      "hints": [
+        "Use the standard entry questions, working from the market inwards to the client and ending with the money and the route in.",
+        "First level: Market attractiveness, Competitive landscape, Client's ability to win, Economics and entry mode.",
+        "Client's ability to win: transferable strengths (FMCG clients with dairy and frozen lines, warehouse system and metro sites) and capability gaps (refrigeration engineering and energy management, pharma compliance)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Payback per pallet position",
+          "formula": "build capex per pallet / (annual revenue per pallet - annual operating cost per pallet)"
+        },
+        {
+          "name": "Utilisation",
+          "formula": "occupied pallet positions / available pallet positions"
+        }
+      ],
+      "commonMistakes": [
+        "Sizing the market from total cold storage capacity, which is dominated by potato stores, instead of the addressable modern pharma and food segment.",
+        "Assuming ambient warehousing skills transfer, ignoring refrigeration engineering, power management and pharma compliance."
+      ],
+      "frameworkPick": {
+        "options": [
+          "market-entry",
+          "growth",
+          "product-launch",
+          "ma"
+        ],
+        "correct": [
+          "market-entry"
+        ],
+        "why": "The client must decide whether to move into a new segment needing new capabilities and capital, so attractiveness, competition, ability to win and entry mode are the right lenses.",
+        "distractorWhyNot": {
+          "growth": "Cold chain is one specific growth option; the question is a yes or no on that segment, not how to grow overall.",
+          "product-launch": "This is not an extension of an existing service to current customers; it needs new assets, skills and regulatory compliance, which entry analysis covers.",
+          "ma": "Acquisition is one possible entry mode, assessed inside the market entry structure."
+        }
+      }
+    },
+    {
+      "id": "logistics-c07",
+      "title": "Responding to a funded rival's price cuts",
+      "industry": "logistics",
+      "framework": "competitive-response",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "India",
+      "prompt": "Our client is one of India's three largest B2C express parcel carriers, with revenue of ₹4,000 crore. A newly funded rival is offering D2C brands rates about 20% below the client's, plus next-day COD remittance. D2C brands contribute 25% of the client's revenue. How should the client respond?",
+      "clarifyingFacts": [
+        "Q: What is the objective? A: Protect D2C share and profit over the next two years.",
+        "Q: What has been lost so far? A: About 6% of D2C volume moved to the rival last quarter, mostly small brands shipping under 500 parcels a day.",
+        "Q: What do we know about the rival? A: It raised about ₹600 crore last year and covers about 8,000 pin codes against the client's 18,000.",
+        "Q: Client's D2C economics? A: Contribution margin of about 12% on D2C against 8% on marketplace volume; D2C COD collections average about ₹20 crore a day and are remitted weekly (D+7)."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "How should the client respond to a funded rival undercutting D2C rates by 20%?",
+        "children": [
+          {
+            "id": "a",
+            "label": "How serious and lasting is the threat",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Which D2C customers are at risk",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Small brands (price-sensitive, low switching cost)"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Large brands (value coverage, integrations, low RTO)"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Can the rival sustain the price",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Rival's cost per parcel vs its price"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Funding runway and investor pressure"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "What is at stake for the client",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Contribution at risk",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Volume likely to switch, by segment"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Contribution lost per parcel switched"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Knock-on cost from lower density on shared routes"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Response options and payoffs",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Price response",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Selective rate cuts for at-risk large brands"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Across-the-board match"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Non-price response",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "Faster COD remittance (D+2)"
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "RTO reduction tools"
+                  },
+                  {
+                    "id": "c2z",
+                    "label": "Coverage in pin codes the rival lacks"
+                  }
+                ]
+              },
+              {
+                "id": "c3",
+                "label": "Let low-value small accounts go"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "An across-the-board 20% match would cost about ₹200 crore of D2C revenue, more than the segment's entire ~₹120 crore contribution, so any price response must be selective.",
+        "Large brands care more about remittance speed and coverage than price; moving from D+7 to D+2 means funding five days of COD collections (about ₹100 crore), roughly ₹10 crore a year at a 10% cost of capital, a twentieth of what a full price match would cost.",
+        "The rival's price is below its cost on low-density routes, so its offer is unlikely to survive beyond its current funding."
+      ],
+      "hints": [
+        "Sequence the structure from diagnosis to action rather than starting with responses.",
+        "First level: How serious and lasting is the threat, What is at stake for the client, Response options and payoffs.",
+        "What is at stake for the client: contribution at risk (volume likely to switch by segment, contribution lost per parcel switched) and knock-on cost from lower density on shared routes."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Contribution at risk",
+          "formula": "parcels likely to switch x contribution per parcel"
+        },
+        {
+          "name": "Cost of faster remittance",
+          "formula": "daily COD collections x days of remittance brought forward x annual cost of capital"
+        }
+      ],
+      "commonMistakes": [
+        "Matching price across all D2C brands immediately, which destroys more contribution than the rival could take.",
+        "Treating the rival as permanent without testing whether its price covers its cost and how long its funding lasts."
+      ],
+      "frameworkPick": {
+        "options": [
+          "competitive-response",
+          "pricing",
+          "profitability",
+          "market-entry"
+        ],
+        "correct": [
+          "competitive-response"
+        ],
+        "why": "A competitor's move triggered the question, so the structure must assess the rival's staying power, the client's exposure and both price and non-price responses.",
+        "distractorWhyNot": {
+          "pricing": "Price is one response lever, but setting price in isolation ignores the rival's sustainability and non-price options.",
+          "profitability": "There is no broad profit decline to diagnose yet; the issue is a specific competitive threat.",
+          "market-entry": "The rival is the one entering; the client is not deciding whether to enter anything."
+        }
+      }
+    },
+    {
+      "id": "logistics-c08",
+      "title": "Buying a Southeast Asian freight forwarder",
+      "industry": "logistics",
+      "framework": "ma",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "Global",
+      "prompt": "Our client is a European freight forwarding group with €6 billion of revenue, strong on Europe-Asia ocean and air freight. It is considering buying a Singapore-headquartered forwarder with €900 million revenue and €45 million EBITDA, mostly intra-Asia business. The seller is asking €650 million. Should the client buy it?",
+      "clarifyingFacts": [
+        "Q: What is the objective? A: Build an intra-Asia presence; the board wants the deal earnings-accretive by year three and returning more than 9% on capital by year five.",
+        "Q: What are the target's real earnings? A: Gross profit (revenue less freight bought from carriers) is about €220 million, so EBITDA is about 20% of gross profit against the client's 30%.",
+        "Q: Is €45 million a normal year? A: Yes; EBITDA was about €90 million at the 2022 freight rate peak.",
+        "Q: Customers? A: Top 10 customers are 35% of gross profit, mostly electronics and apparel shippers moving production across Vietnam, India and Indonesia."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Should the client buy the Singapore forwarder for €650 million?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Standalone value of the target",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Market outlook for its lanes",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Intra-Asia trade growth (China+1 shift)"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Freight rate cycle (normal vs peak)"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Competitive position and earnings quality",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Customer concentration (top 10 = 35% of GP)"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Conversion ratio (20% vs client's 30%)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Synergies",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Revenue synergies",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Sell Europe-Asia lanes to target's Asian shippers"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Sell intra-Asia lanes to client's European customers"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Cost synergies",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Carrier procurement on combined volumes"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Overlapping offices, IT and back office"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Price and integration",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Price vs standalone value plus synergies",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Multiple paid (~14x EBITDA) vs comparable deals"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Share of synergies paid to the seller"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Integration risks",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "Key sales staff and customer attrition"
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "IT and operating system migration"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "At 30% conversion on €220 million gross profit (EBITDA ~€66 million) the price falls to about 10x, so the deal only works if the client can lift the target's conversion ratio to its own.",
+        "Procurement synergies of 2-3% on the target's ~€680 million of bought-in freight (€14-20 million a year) are more bankable than cross-selling.",
+        "Forwarding relationships sit with sales staff, so losing key people in Vietnam and India could erode a large part of the 35% top-10 gross profit."
+      ],
+      "hints": [
+        "Use the standard acquisition logic: build up what the deal is worth in layers, then compare it with what is paid.",
+        "First level: Standalone value of the target, Synergies, Price and integration.",
+        "Synergies: revenue (sell Europe-Asia lanes to the target's shippers, sell intra-Asia lanes to the client's customers) and cost (carrier procurement, overlapping offices and IT)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Conversion ratio",
+          "formula": "EBITDA / gross profit"
+        },
+        {
+          "name": "EV/EBITDA paid",
+          "formula": "price / normalised EBITDA = 650 / 45 ≈ 14.4x"
+        }
+      ],
+      "commonMistakes": [
+        "Valuing the target on revenue, most of which is pass-through freight cost, instead of gross profit.",
+        "Using peak-cycle earnings (2022) to justify the price, or ignoring where freight rates are in the cycle."
+      ],
+      "frameworkPick": {
+        "options": [
+          "ma",
+          "market-entry",
+          "pe-dd",
+          "growth"
+        ],
+        "correct": [
+          "ma"
+        ],
+        "why": "A strategic buyer is evaluating a specific target at a specific price, so standalone value, synergies, price and integration are the right structure.",
+        "distractorWhyNot": {
+          "market-entry": "The client could enter intra-Asia organically, but the question is whether this particular deal at €650 million creates value.",
+          "pe-dd": "A financial sponsor's diligence focuses on standalone returns and exit; here synergies and integration with an existing group are central.",
+          "growth": "Growth in Asia is the motive, but the decision asked is a specific acquisition and its price."
+        }
+      }
+    },
+    {
+      "id": "logistics-c09",
+      "title": "Launching an open parcel locker network",
+      "industry": "logistics",
+      "framework": "product-launch",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "Global",
+      "prompt": "A German parcel carrier with about 18% of the domestic B2C parcel market is considering launching 10,000 parcel lockers that any carrier, including rivals, could use for a fee. Each locker costs about €15,000 installed. How should it decide whether and how to launch?",
+      "clarifyingFacts": [
+        "Q: What is the objective? A: Lower last-mile cost and win share, with the network breaking even within five years.",
+        "Q: What does a locker save? A: The client estimates that delivering to a locker costs about €0.60 per parcel against about €1.80 at the doorstep.",
+        "Q: Will consumers use them? A: Surveys suggest about 40% of urban online shoppers would use a locker within about 300 metres of home; on that basis the client expects about 9 of its own parcels per locker per day at planned sites.",
+        "Q: Who else runs lockers? A: The market leader runs a much larger network, almost all of it reserved for its own parcels; a few start-ups and retailers run open lockers in some cities."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Should the carrier launch a 10,000-locker open network, and how?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Demand",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Consumer adoption",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Shoppers within ~300 m of a locker"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Willingness to switch from doorstep"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Third-party carrier and retailer uptake",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Rival carriers (fee vs their doorstep cost)"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Retailers offering lockers at checkout"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Competing locker networks",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Market leader's closed network (coverage, likely response)"
+              },
+              {
+                "id": "b2",
+                "label": "Open-locker start-ups (coverage, partner or acquire)"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Proposition and rollout",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Network rollout",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Site types (stations, supermarkets, apartment blocks)"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Phasing (densest cities first)"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Fee charged to other carriers"
+              },
+              {
+                "id": "c3",
+                "label": "Extra services (returns drop-off, app integration)"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Economics",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Savings on own parcels",
+                "children": [
+                  {
+                    "id": "d1x",
+                    "label": "Own parcels diverted to lockers"
+                  },
+                  {
+                    "id": "d1y",
+                    "label": "Saving per parcel (doorstep minus locker)"
+                  }
+                ]
+              },
+              {
+                "id": "d2",
+                "label": "Fee income from third parties",
+                "children": [
+                  {
+                    "id": "d2x",
+                    "label": "Third-party parcels per locker per day"
+                  },
+                  {
+                    "id": "d2y",
+                    "label": "Net fee per parcel"
+                  }
+                ]
+              },
+              {
+                "id": "d3",
+                "label": "Costs",
+                "children": [
+                  {
+                    "id": "d3x",
+                    "label": "Capex (~€150 million) and site rent"
+                  },
+                  {
+                    "id": "d3y",
+                    "label": "Maintenance, power and connectivity"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "A locker costs about €5,500 a year (€3,000 depreciation over five years plus rent and upkeep), so at roughly €1 a parcel it breaks even near 15 parcels a day; the client's own 9 parcels at a €1.20 saving earn only about €3,900, so each locker needs about 5-6 third-party parcels a day at a net fee near €0.80.",
+        "Rival carriers will be reluctant to hand parcels to a competitor's network, so third-party uptake decides the case and may need a neutral brand, a partner or a retailer anchor; without it only the densest urban sites should be built."
+      ],
+      "hints": [
+        "Cover the decision from the outside in: the market for the service first, then what exactly to launch, then whether it pays.",
+        "First level: Demand, Competing locker networks, Proposition and rollout, Economics.",
+        "Proposition and rollout: network rollout (site types, phasing by density), the fee charged to other carriers, and extra services (returns drop-off, app integration)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Break-even parcels per locker per day",
+          "formula": "annual cost per locker / (365 x contribution per parcel)"
+        },
+        {
+          "name": "Locker utilisation",
+          "formula": "parcels deposited per day / compartments per locker"
+        }
+      ],
+      "commonMistakes": [
+        "Treating all 10,000 sites alike, when economics depend on density and the rollout must be phased by parcels per site.",
+        "Counting third-party fee income as certain without testing whether rival carriers will use a competitor-owned network."
+      ],
+      "frameworkPick": {
+        "options": [
+          "product-launch",
+          "market-entry",
+          "pricing",
+          "operations"
+        ],
+        "correct": [
+          "product-launch"
+        ],
+        "why": "The carrier is deciding whether and how to launch a new offering in its existing market, which needs demand, competition, proposition design and launch economics.",
+        "distractorWhyNot": {
+          "market-entry": "The carrier already operates in German parcels; this is a new product in a market it is in, not entry into a new market.",
+          "pricing": "The fee to other carriers is one design choice inside the launch decision.",
+          "operations": "Lockers cut delivery cost, but the decision also turns on adoption, rivals' uptake and a €150 million investment, not just process efficiency."
+        }
+      }
+    },
+    {
+      "id": "logistics-c10",
+      "title": "PE diligence on a freight marketplace",
+      "industry": "logistics",
+      "framework": "pe-dd",
+      "secondary": [
+        "profitability"
+      ],
+      "difficulty": "Advanced",
+      "region": "India",
+      "prompt": "A PE fund is considering investing ₹300 crore in an Indian digital freight marketplace that matches shippers with truck owners. It handled ₹1,200 crore of freight last year (GMV), up 60%, keeps a 6% take rate and loses about ₹60 crore a year. The founders want a ₹1,500 crore pre-money valuation. Should the fund invest?",
+      "clarifyingFacts": [
+        "Q: What does the fund need? A: 3x its money in five years, through a minority stake with a board seat.",
+        "Q: Where is growth coming from? A: One large cement company is now 35% of GMV, up from 10% a year ago; its lanes earn about a 1% take rate because the platform guaranteed fixed rates and absorbs spot price swings. The rest of GMV earns about 8.7%.",
+        "Q: How do payments work? A: The platform pays truckers within about 3 days but collects from shippers in about 60 days, so working capital grows with GMV.",
+        "Q: The market? A: Indian road freight is worth well over ₹10 lakh crore a year and highly fragmented; digital brokers handle a low single-digit share."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Should the fund invest ₹300 crore at ₹1,500 crore pre-money for 3x?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Market attractiveness",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Addressable freight spend",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Shipper freight open to brokers (spot and contract FTL)"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Digital brokers' share and its growth"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Structural economics of brokerage",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Sustainable take rates vs offline brokers"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Working capital intensity (pay fast, collect slow)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Quality of growth and unit economics",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Composition of GMV growth",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Anchor cement client (35% of GMV, ~1% take)"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Rest of GMV (~8.7% take), by client cohort"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Contribution per trip",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Take rate net of rate guarantees"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Variable costs (payments, trip support, bad debt)"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Fixed costs and path to breakeven",
+                "children": [
+                  {
+                    "id": "b3x",
+                    "label": "Technology and product"
+                  },
+                  {
+                    "id": "b3y",
+                    "label": "Sales and operations staff"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Value creation and exit",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Value creation levers",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Reprice or exit the anchor contract"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Trucker services (fuel cards, FASTag, finance)"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Valuation and exit",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "Entry price (~21x net revenue) vs comparables"
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "Exit routes and value needed for 3x"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Excluding the anchor client, GMV grew only about 16% (from ~₹675 crore to ~₹780 crore), not 60%, so the growth story is largely one low-margin contract.",
+        "Contribution on the anchor's lanes is negative once payment costs and rate guarantees are counted, and its 60-day receivables tie up a large share of the ~₹190 crore of working capital, so it deepens losses rather than reducing them.",
+        "A 3x return needs an exit equity value of about ₹5,400 crore for a 16.7% stake, roughly ₹540 crore of net revenue at 10x, which means ~50% annual growth in net revenue that the non-anchor book is not showing."
+      ],
+      "hints": [
+        "Use a PE diligence structure, and test the headline growth number before trusting it.",
+        "First level: Market attractiveness, Quality of growth and unit economics, Value creation and exit.",
+        "Market attractiveness: addressable freight spend (shipper freight open to brokers, digital brokers' share) and the structural economics of brokerage (sustainable take rates, working capital intensity)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Take rate",
+          "formula": "net revenue / GMV"
+        },
+        {
+          "name": "Working capital",
+          "formula": "GMV / 365 x (receivable days - payable days)"
+        },
+        {
+          "name": "Exit value needed",
+          "formula": "investment x target multiple / ownership share = 300 x 3 / (300 / 1,800)"
+        }
+      ],
+      "commonMistakes": [
+        "Accepting the headline 60% GMV growth without splitting it by client and take rate.",
+        "Ignoring working capital, which grows with GMV and can absorb much of the ₹300 crore before any growth is funded."
+      ],
+      "frameworkPick": {
+        "options": [
+          "pe-dd",
+          "profitability",
+          "market-sizing",
+          "ma"
+        ],
+        "correct": [
+          "pe-dd",
+          "profitability"
+        ],
+        "why": "A financial investor deciding on price and return needs a diligence structure (market, target, value creation, exit), and the twist is that growth comes from a loss-making contract, so unit economics and profitability analysis sit at the centre.",
+        "distractorWhyNot": {
+          "market-sizing": "The market is clearly large; sizing it does not answer whether this target at this price can return 3x.",
+          "ma": "This is a minority financial investment with no synergies or integration, so a strategic acquisition frame does not fit."
+        }
+      }
+    },
+    {
+      "id": "logistics-c11",
+      "title": "Express carrier loses its anchor client",
+      "industry": "logistics",
+      "framework": "turnaround",
+      "secondary": [
+        "operations"
+      ],
+      "difficulty": "Advanced",
+      "region": "India",
+      "prompt": "Our client is a mid-sized Indian express parcel company that had revenue of about ₹1,100 crore a year, roughly at breakeven, until its largest marketplace client, 35% of volume, moved deliveries in-house over the past six months. The company now loses about ₹13 crore a month and has roughly nine months of cash. Lenders want cost cuts and asset sales; the founders want to keep the national network to win new clients. What should it do?",
+      "clarifyingFacts": [
+        "Q: What does the cost base look like? A: Variable costs (riders paid per drop, trucks hired per trip, packaging) run at about 60% of revenue. Semi-fixed costs are about ₹37 crore a month: 30 hubs and 900 delivery centres on lease, owned sorters, about 150 owned line haul trucks and staff.",
+        "Q: Where was the lost volume? A: Concentrated in Tier-2/3 towns in the North and East; metro volume is mainly D2C brands and smaller marketplaces and is stable and profitable at contribution level.",
+        "Q: What cash sources exist? A: Two owned automated sortation hubs (book value about ₹140 crore); at any time the company also holds about ₹90 crore of COD cash owed to clients, remitted on D+5.",
+        "Q: Any hard constraints? A: Lender covenants require a credible plan to reach monthly EBITDA breakeven within nine months."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "How can the client stop a ₹13 crore monthly loss within nine months?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Secure the cash runway",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Release working capital",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Collect overdue receivables from B2B and D2C clients"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Renegotiate lease and vendor payment terms"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Raise cash (assets and investors)",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Sale and leaseback of the two sortation hubs"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Bridge funding from existing investors"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Resize the network to remaining volume",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Delivery centre footprint",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Merge underloaded centres in towns the anchor left"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Hand thin pin codes to franchise partners"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Line haul",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Cut or merge lanes built for anchor volume"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Replace owned trucks with per-trip hire"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Hub consolidation and central overheads"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Rebuild profitable volume",
+            "children": [
+              {
+                "id": "c1",
+                "label": "New clients for spare capacity",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "D2C brands and smaller marketplaces"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "B2B small parcels (spares, pharma distribution)"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Reprice loss-making accounts and lanes"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Losing 35% of volume removed about ₹32 crore of monthly revenue but only about ₹19 crore of variable cost, leaving ₹13 crore of semi-fixed cost uncovered; breakeven needs about a third of the ₹37 crore semi-fixed base, mostly Tier-2/3 centres and lanes built for the anchor, to go or turn variable, and franchising thin pin codes does that while keeping the national coverage the founders want.",
+        "A sale and leaseback of the two hubs near book value (about ₹140 crore, against perhaps ₹1-1.5 crore a month of new rent) roughly doubles the nine-month runway without touching client COD cash.",
+        "Rebuilding volume alone would need about ₹33 crore a month of new revenue at a 40% contribution margin (₹13 crore / 0.4), close to the whole lost anchor, so new clients can close only part of the gap within nine months and cost resizing must do most of the work."
+      ],
+      "hints": [
+        "Order the structure by time horizon, from what must happen this quarter to what pays off next year.",
+        "First level: Secure the cash runway, Resize the network to remaining volume, Rebuild profitable volume.",
+        "Secure the cash runway: release working capital (collect overdue receivables, renegotiate lease and vendor terms) and raise cash (sale and leaseback of the sortation hubs, bridge funding from investors)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Monthly cash burn",
+          "formula": "EBITDA loss + capex + increase in working capital"
+        },
+        {
+          "name": "Break-even volume",
+          "formula": "monthly semi-fixed costs / contribution per parcel"
+        }
+      ],
+      "commonMistakes": [
+        "Funding losses by delaying COD remittance: that cash belongs to clients, and holding it risks contract breaches and losing the D2C clients the recovery depends on.",
+        "Cutting (or protecting) the whole network uniformly instead of separating profitable metro operations from Tier-2/3 capacity built for the lost client."
+      ],
+      "frameworkPick": {
+        "options": [
+          "turnaround",
+          "operations",
+          "growth",
+          "competitive-response"
+        ],
+        "correct": [
+          "turnaround",
+          "operations"
+        ],
+        "why": "A loss-making firm with nine months of cash needs a turnaround structure (runway, cost reset, revenue rebuild), and most of the fix is an operational redesign of the network around the remaining volume.",
+        "distractorWhyNot": {
+          "growth": "Chasing new volume first ignores the nine-month runway and a cost base sized for volume that has gone.",
+          "competitive-response": "The loss is a client insourcing, not a rival's move to counter; the issue is survival and resizing."
+        }
+      }
+    },
+    {
+      "id": "logistics-c12",
+      "title": "Fixing loss-making small online sellers",
+      "industry": "logistics",
+      "framework": "segmentation",
+      "secondary": [
+        "pricing"
+      ],
+      "difficulty": "Advanced",
+      "region": "India",
+      "prompt": "Our client, a large Indian express parcel carrier, serves about 40,000 small and medium online sellers through a self-serve platform. The segment brings in ₹600 crore of revenue but loses about ₹15 crore at contribution level. Management assumes the smallest sellers are the problem and plans a minimum monthly fee. How should the client segment these sellers and decide what to do?",
+      "clarifyingFacts": [
+        "Q: What is the objective? A: Make the segment contribution-positive within a year without losing more than 10% of its revenue.",
+        "Q: What does the data show? A: Loss-making sellers are spread across all sizes. Sellers with RTO above 25%, mostly COD-heavy fashion and impulse categories, bring about ₹200 crore of revenue and lose about ₹20 crore; the rest earn about ₹5 crore.",
+        "Q: How are they priced? A: One rate card by weight and zone. High-RTO sellers dispatch about 2.5 crore parcels a year at an average 40% RTO, paying about ₹62 of forward freight per parcel plus about ₹43 per RTO (70% of forward). A delivered parcel costs about ₹58 to serve; an RTO parcel costs about ₹130 all-in, counting failed attempts and the reverse leg.",
+        "Q: Competition? A: Shipping aggregators resell several carriers to small sellers and route each order to the cheapest option."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "How should the client segment 40,000 sellers to turn a ₹15 crore loss positive?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Variables that drive seller profitability",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Cost-to-serve drivers",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "RTO rate (COD share, category)"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Pickup density (parcels per visit)"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Revenue drivers",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Monthly parcel volume"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Yield per parcel (zone and weight mix)"
+                  },
+                  {
+                    "id": "a2z",
+                    "label": "Weight under-declaration (billed vs actual weight)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Profile and size each segment",
+            "children": [
+              {
+                "id": "b1",
+                "label": "High-RTO sellers (>25% RTO; ~₹200 crore revenue, -₹20 crore)",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Causes (impulse COD, fake orders, bad addresses)"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Share fixable with tools vs inherent"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Low-RTO sellers (~₹400 crore revenue, +₹5 crore)",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Larger sellers (dense pickups, profitable)"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Small sellers (sparse pickups, marginal)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Strategy by segment",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Pricing changes",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "RTO billed at the full forward rate or RTO-linked tiers"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Minimum fee only where pickup density is low"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Service changes to cut RTO",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "COD-to-prepaid nudges and order verification"
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "Address checks and failed-delivery follow-up"
+                  }
+                ]
+              },
+              {
+                "id": "c3",
+                "label": "Let unfixable high-RTO sellers go"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "RTO, not seller size, drives the loss: high-RTO sellers are a third of revenue and lose about ₹20 crore while the rest earn about ₹5 crore, so a minimum fee on small sellers hits profitable or marginal accounts and misses the cause.",
+        "Billing RTO at the full forward rate (₹62 instead of ₹43) adds about ₹19 on each of roughly 1 crore RTO parcels, about ₹19 crore, enough on its own to make the segment positive; it raises high-RTO sellers' bills by under 10%, whereas billing RTO at its full ₹130 cost would raise them about 44% and push them to rivals through aggregators.",
+        "Cutting high-RTO sellers' RTO from 40% to 30% with COD-to-prepaid nudges and order verification gains about ₹29 on each parcel converted at today's prices (₹72 of cost saved less ₹43 of RTO fee forgone), about ₹7 crore, a buffer if the least fixable sellers leave within the ₹60 crore revenue limit."
+      ],
+      "hints": [
+        "Let the economics choose the segmentation variable rather than the one management assumed, then act segment by segment.",
+        "First level: Variables that drive seller profitability, Profile and size each segment, Strategy by segment.",
+        "Variables that drive seller profitability: cost-to-serve drivers (RTO rate by COD share and category, pickup density) and revenue drivers (monthly volume, yield by zone and weight, weight under-declaration)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Contribution per parcel by segment",
+          "formula": "per dispatched parcel: forward freight + RTO rate x RTO charge - (1 - RTO rate) x cost per delivered parcel - RTO rate x all-in cost per RTO parcel"
+        },
+        {
+          "name": "RTO rate",
+          "formula": "parcels returned to origin / parcels dispatched"
+        }
+      ],
+      "commonMistakes": [
+        "Accepting management's size-based hypothesis without testing it against the data, which shows RTO is the driver.",
+        "Segmenting by descriptive traits such as city or seller age that do not map to cost-to-serve."
+      ],
+      "frameworkPick": {
+        "options": [
+          "segmentation",
+          "pricing",
+          "operations",
+          "growth"
+        ],
+        "correct": [
+          "segmentation",
+          "pricing"
+        ],
+        "why": "The core task is finding the segmentation that explains losses (RTO behaviour, not size), and the main fix is differentiated pricing by segment, so the two frameworks combine.",
+        "distractorWhyNot": {
+          "operations": "RTO-reduction tools are one lever inside the segment strategy; the question is which sellers to treat differently and on what terms.",
+          "growth": "The goal is profit, with revenue loss only a constraint; growing the segment as it stands would deepen losses."
+        }
+      }
+    }
+  ],
+  "flaws": [
+    {
+      "id": "logistics-f01",
+      "title": "Local courier firm's falling profit",
+      "industry": "logistics",
+      "framework": "profitability",
+      "difficulty": "Beginner",
+      "tree": {
+        "id": "r",
+        "label": "Why has profit fallen at a same-city courier firm in Jaipur?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Revenue",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Number of parcels booked"
+              },
+              {
+                "id": "a2",
+                "label": "Average price per parcel"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Costs",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Rider pay per parcel"
+              },
+              {
+                "id": "b2",
+                "label": "Fuel for pickup bikes"
+              },
+              {
+                "id": "b3",
+                "label": "Packaging material"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "b",
+          "type": "gap",
+          "explanation": "Every cost listed varies with parcels handled. Fixed costs such as shop rent, counter staff salaries and utilities are missing, and for a small courier firm they are often the largest costs and the ones that hurt when volume falls.",
+          "fix": "Split costs into variable costs (rider pay, fuel, packaging) and fixed costs (shop rent, counter staff, utilities)."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Why has profit fallen at a same-city courier firm in Jaipur?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Revenue",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Number of parcels booked"
+              },
+              {
+                "id": "a2",
+                "label": "Average price per parcel"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Costs",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Variable costs",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Rider pay per parcel"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Fuel for pickup bikes"
+                  },
+                  {
+                    "id": "b1z",
+                    "label": "Packaging material"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Fixed costs",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Shop rent"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Counter staff salaries"
+                  },
+                  {
+                    "id": "b2z",
+                    "label": "Utilities"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "logistics-f02",
+      "title": "Diesel used by India's trucks",
+      "industry": "logistics",
+      "framework": "market-sizing",
+      "difficulty": "Beginner",
+      "tree": {
+        "id": "r",
+        "label": "Annual diesel consumed by trucks in India (litres)",
+        "children": [
+          {
+            "id": "a",
+            "label": "Heavy trucks",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Number of heavy trucks"
+              },
+              {
+                "id": "a2",
+                "label": "Km run per truck per year"
+              },
+              {
+                "id": "a3",
+                "label": "Litres per km"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Light and medium trucks",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Number of light and medium trucks"
+              },
+              {
+                "id": "b2",
+                "label": "Km run per truck per year"
+              },
+              {
+                "id": "b3",
+                "label": "Litres per km"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Diesel price per litre",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Retail pump price"
+              },
+              {
+                "id": "c2",
+                "label": "Bulk price for large fleets"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "c",
+          "type": "not-a-driver",
+          "explanation": "The question asks for litres consumed. Diesel price determines how much is spent on fuel, not how many litres trucks burn, so it does not belong in a volume estimate.",
+          "fix": "Remove the price branch; add it back only if the question becomes the rupee value of diesel spend."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Annual diesel consumed by trucks in India (litres)",
+        "children": [
+          {
+            "id": "a",
+            "label": "Heavy trucks",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Number of heavy trucks"
+              },
+              {
+                "id": "a2",
+                "label": "Km run per truck per year"
+              },
+              {
+                "id": "a3",
+                "label": "Litres per km"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Light and medium trucks",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Number of light and medium trucks"
+              },
+              {
+                "id": "b2",
+                "label": "Km run per truck per year"
+              },
+              {
+                "id": "b3",
+                "label": "Litres per km"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "logistics-f03",
+      "title": "Running cost of a truck fleet",
+      "industry": "logistics",
+      "framework": "operations",
+      "difficulty": "Intermediate",
+      "tree": {
+        "id": "r",
+        "label": "Annual running cost of a 50-truck fleet (excluding EMIs, insurance, permits)",
+        "children": [
+          {
+            "id": "a",
+            "label": "Fuel",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Km run"
+              },
+              {
+                "id": "a2",
+                "label": "Km per litre"
+              },
+              {
+                "id": "a3",
+                "label": "Diesel price"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Tolls",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Trips per year"
+              },
+              {
+                "id": "b2",
+                "label": "Toll cost per trip"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Driver costs",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Salaries"
+              },
+              {
+                "id": "c2",
+                "label": "Trip allowances"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Repairs, tyres and maintenance",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Tyres"
+              },
+              {
+                "id": "d2",
+                "label": "Routine servicing"
+              },
+              {
+                "id": "d3",
+                "label": "Breakdown repairs"
+              }
+            ]
+          },
+          {
+            "id": "e",
+            "label": "Repositioning legs to the next load",
+            "children": [
+              {
+                "id": "e1",
+                "label": "Repositioning km per year"
+              },
+              {
+                "id": "e2",
+                "label": "Cost per repositioning km"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "e",
+          "type": "overlap",
+          "explanation": "Repositioning legs are trucks running empty to their next load, and those km are already part of total km run. Their diesel, tolls, driver allowances and wear are therefore already counted in the fuel, toll, driver and maintenance branches; adding them again double-counts the cost.",
+          "fix": "Remove the branch. Empty running matters for cost per loaded km, so show it as a split of km run (loaded km plus empty km) under fuel, not as an extra cost."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Annual running cost of a 50-truck fleet (excluding EMIs, insurance, permits)",
+        "children": [
+          {
+            "id": "a",
+            "label": "Fuel",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Km run",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Loaded km"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Empty km"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Km per litre"
+              },
+              {
+                "id": "a3",
+                "label": "Diesel price"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Tolls",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Trips per year"
+              },
+              {
+                "id": "b2",
+                "label": "Toll cost per trip"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Driver costs",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Salaries"
+              },
+              {
+                "id": "c2",
+                "label": "Trip allowances"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Repairs, tyres and maintenance",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Tyres"
+              },
+              {
+                "id": "d2",
+                "label": "Routine servicing"
+              },
+              {
+                "id": "d3",
+                "label": "Breakdown repairs"
+              }
+            ]
+          }
+        ]
+      },
+      "decoys": [
+        {
+          "nodeId": "c2",
+          "whyFine": "Indian drivers are usually paid a monthly salary plus a per-trip allowance for food and en-route expenses, so the two are separate payments that move with headcount and with trips respectively."
+        }
+      ]
+    },
+    {
+      "id": "logistics-f04",
+      "title": "Entering the UAE parcel market",
+      "industry": "logistics",
+      "framework": "market-entry",
+      "difficulty": "Intermediate",
+      "tree": {
+        "id": "r",
+        "label": "Should an Indian express carrier commit ₹250 crore to enter the UAE domestic parcel market?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Market attractiveness",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Market size and growth"
+              },
+              {
+                "id": "a2",
+                "label": "Prevailing rates and margins"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Competition",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Postal operator and established express carriers"
+              },
+              {
+                "id": "b2",
+                "label": "Local delivery start-ups"
+              },
+              {
+                "id": "b3",
+                "label": "E-commerce platforms' in-house fleets"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Ability to win",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Capabilities that transfer (tech, COD, returns)"
+              },
+              {
+                "id": "c2",
+                "label": "Gaps to fill (licences, local network, clients)"
+              },
+              {
+                "id": "c3",
+                "label": "Hire 200 riders in Dubai"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "r",
+          "type": "gap",
+          "explanation": "The root asks whether to commit ₹250 crore, but no branch anywhere tests the client's own economics or route in: there is no investment, payback or entry mode (build, partner, acquire). 'Prevailing rates and margins' describes the market's profitability, not the client's return, and 'Gaps to fill' lists what is missing, not how to get it. The missing branch sits beside the other three, so the gap is at the root.",
+          "fix": "Add 'Economics and entry mode' with 'Investment and payback' and 'Entry mode (build, partner, acquire)'."
+        },
+        {
+          "nodeId": "c3",
+          "type": "mixed-levels",
+          "explanation": "Hiring 200 riders is an execution step that only follows a decision to enter. Its siblings assess what the carrier brings and lacks, so this node sits at a different level of abstraction (an action among assessment questions).",
+          "fix": "Remove it; the need for a local rider network is already covered by 'Gaps to fill', and hiring belongs in the implementation plan."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Should an Indian express carrier commit ₹250 crore to enter the UAE domestic parcel market?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Market attractiveness",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Market size and growth"
+              },
+              {
+                "id": "a2",
+                "label": "Prevailing rates and margins"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Competition",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Postal operator and established express carriers"
+              },
+              {
+                "id": "b2",
+                "label": "Local delivery start-ups"
+              },
+              {
+                "id": "b3",
+                "label": "E-commerce platforms' in-house fleets"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Ability to win",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Capabilities that transfer (tech, COD, returns)"
+              },
+              {
+                "id": "c2",
+                "label": "Gaps to fill (licences, local network, clients)"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Economics and entry mode",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Investment and payback"
+              },
+              {
+                "id": "d2",
+                "label": "Entry mode (build, partner, acquire)"
+              }
+            ]
+          }
+        ]
+      },
+      "decoys": [
+        {
+          "nodeId": "b3",
+          "whyFine": "Marketplaces' own fleets keep their parcels away from third-party carriers, so they compete for the same volume even though they sell no delivery service."
+        }
+      ]
+    },
+    {
+      "id": "logistics-f05",
+      "title": "Growing revenue from warehouse clients",
+      "industry": "logistics",
+      "framework": "growth",
+      "difficulty": "Intermediate",
+      "tree": {
+        "id": "r",
+        "label": "How can a 3PL grow revenue from its existing warehousing clients?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Storage revenue",
+            "children": [
+              {
+                "id": "a1",
+                "label": "More space at current sites"
+              },
+              {
+                "id": "a2",
+                "label": "New sites for the same clients"
+              },
+              {
+                "id": "a3",
+                "label": "Higher storage rate per pallet or sq ft"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Handling revenue",
+            "children": [
+              {
+                "id": "b1",
+                "label": "More units handled"
+              },
+              {
+                "id": "b2",
+                "label": "Higher handling rate per unit"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Value-added services",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Kitting and labelling"
+              },
+              {
+                "id": "c2",
+                "label": "Returns processing"
+              },
+              {
+                "id": "c3",
+                "label": "Transport from the warehouse"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Labour productivity in handling",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Better shift planning"
+              },
+              {
+                "id": "d2",
+                "label": "Pick-to-light automation"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "d",
+          "type": "not-a-driver",
+          "explanation": "The question is about revenue. Clients pay per pallet, per unit handled or per service, so faster pickers do not change what they are billed; under cost-plus contracts higher productivity even lowers billing. It improves margin, not revenue, so it is not a driver of the root.",
+          "fix": "Remove the branch; raise labour productivity separately if the question widens to profit."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "How can a 3PL grow revenue from its existing warehousing clients?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Storage revenue",
+            "children": [
+              {
+                "id": "a1",
+                "label": "More space at current sites"
+              },
+              {
+                "id": "a2",
+                "label": "New sites for the same clients"
+              },
+              {
+                "id": "a3",
+                "label": "Higher storage rate per pallet or sq ft"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Handling revenue",
+            "children": [
+              {
+                "id": "b1",
+                "label": "More units handled"
+              },
+              {
+                "id": "b2",
+                "label": "Higher handling rate per unit"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Value-added services",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Kitting and labelling"
+              },
+              {
+                "id": "c2",
+                "label": "Returns processing"
+              },
+              {
+                "id": "c3",
+                "label": "Transport from the warehouse"
+              }
+            ]
+          }
+        ]
+      },
+      "decoys": [
+        {
+          "nodeId": "a2",
+          "whyFine": "The root limits growth to existing clients, not existing sites, so opening new sites for the same clients is in scope."
+        }
+      ]
+    },
+    {
+      "id": "logistics-f06",
+      "title": "Express carrier's shrinking parcel contribution",
+      "industry": "logistics",
+      "framework": "profitability",
+      "difficulty": "Advanced",
+      "tree": {
+        "id": "r",
+        "label": "Why has a B2C express carrier's contribution per parcel fallen ₹5?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Revenue per parcel",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Base freight",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Weight slab mix"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Zone mix"
+                  },
+                  {
+                    "id": "a1z",
+                    "label": "Rate card discounts"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Surcharges and fees",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Fuel surcharge"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "COD handling fee"
+                  },
+                  {
+                    "id": "a2z",
+                    "label": "RTO charges billed to shippers"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Cost per parcel",
+            "children": [
+              {
+                "id": "b1",
+                "label": "First mile and hub handling",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Pickup cost per parcel (riders, bikes, fuel)"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Sorting cost per parcel (staff, power, sorter upkeep)"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Forward line haul",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Truck fill rate"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Air vs surface mix"
+                  },
+                  {
+                    "id": "b2z",
+                    "label": "Diesel price and hired-truck rates"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Last mile",
+                "children": [
+                  {
+                    "id": "b3x",
+                    "label": "Successful deliveries per rider-day"
+                  },
+                  {
+                    "id": "b3y",
+                    "label": "Rider cost per day (pay and fuel allowance)"
+                  },
+                  {
+                    "id": "b3z",
+                    "label": "Delivery centre overheads"
+                  }
+                ]
+              },
+              {
+                "id": "b4",
+                "label": "Energy cost per parcel (fuel and hub power)"
+              },
+              {
+                "id": "b5",
+                "label": "COD cash handling and bank charges"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "b4",
+          "type": "overlap",
+          "explanation": "Every stage already carries its own energy: pickup fuel in b1x, hub power in b1y, diesel in b2z and rider fuel in b3y. A separate network energy line counts the same rupees a second time under a different name.",
+          "fix": "Remove the node and keep fuel and power inside each stage's cost."
+        },
+        {
+          "nodeId": "b",
+          "type": "gap",
+          "explanation": "Revenue includes RTO charges, but every cost line is for the forward journey. Nothing covers parcels that fail and go back: the reverse line haul, origin hub handling and delivery back to the seller. On COD-heavy Indian e-commerce RTO commonly runs at about 20-30% of COD orders, so it is often the swing factor in contribution.",
+          "fix": "Add 'Return-to-origin (RTO) handling' with children 'RTO rate' and 'Reverse line haul and handling cost per RTO'."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Why has a B2C express carrier's contribution per parcel fallen ₹5?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Revenue per parcel",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Base freight",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Weight slab mix"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Zone mix"
+                  },
+                  {
+                    "id": "a1z",
+                    "label": "Rate card discounts"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Surcharges and fees",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Fuel surcharge"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "COD handling fee"
+                  },
+                  {
+                    "id": "a2z",
+                    "label": "RTO charges billed to shippers"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Cost per parcel",
+            "children": [
+              {
+                "id": "b1",
+                "label": "First mile and hub handling",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Pickup cost per parcel (riders, bikes, fuel)"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Sorting cost per parcel (staff, power, sorter upkeep)"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Forward line haul",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Truck fill rate"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Air vs surface mix"
+                  },
+                  {
+                    "id": "b2z",
+                    "label": "Diesel price and hired-truck rates"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Last mile",
+                "children": [
+                  {
+                    "id": "b3x",
+                    "label": "Successful deliveries per rider-day"
+                  },
+                  {
+                    "id": "b3y",
+                    "label": "Rider cost per day (pay and fuel allowance)"
+                  },
+                  {
+                    "id": "b3z",
+                    "label": "Delivery centre overheads"
+                  }
+                ]
+              },
+              {
+                "id": "b4",
+                "label": "COD cash handling and bank charges"
+              },
+              {
+                "id": "b5",
+                "label": "Return-to-origin (RTO) handling",
+                "children": [
+                  {
+                    "id": "b5x",
+                    "label": "RTO rate"
+                  },
+                  {
+                    "id": "b5y",
+                    "label": "Reverse line haul and handling cost per RTO"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "decoys": [
+        {
+          "nodeId": "b2y",
+          "whyFine": "Air line haul costs several times surface per kg, so a shift in mode mix moves line haul cost per parcel; it is a genuine cost driver, not a revenue item."
+        }
+      ]
+    },
+    {
+      "id": "logistics-f07",
+      "title": "3PL buying a regional truck fleet",
+      "industry": "logistics",
+      "framework": "ma",
+      "difficulty": "Advanced",
+      "tree": {
+        "id": "r",
+        "label": "Should a 3PL acquire a regional full-truckload operator for ₹400 crore?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Standalone value of the target",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Revenue outlook",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Lanes and clients served"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Contract vs spot share"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Cost position",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Cost per km vs market"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Fleet age and maintenance"
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Balance sheet",
+                "children": [
+                  {
+                    "id": "a3x",
+                    "label": "Truck loans outstanding"
+                  },
+                  {
+                    "id": "a3y",
+                    "label": "Receivable days"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Synergies",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Revenue synergies",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Trucking for the 3PL's warehouse clients"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Warehousing for the target's clients"
+                  },
+                  {
+                    "id": "b1z",
+                    "label": "Growth of the 3PL's existing warehouse contracts"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Cost synergies",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Fill return legs with the 3PL's freight"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Combined diesel and tyre purchasing"
+                  },
+                  {
+                    "id": "b2z",
+                    "label": "Lower empty running"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Price and integration",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Price vs standalone value plus synergies",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Multiple paid vs comparable deals"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Share of synergies paid to the seller"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Integration risks",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "Driver and owner attrition"
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "IT and billing integration"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "b2z",
+          "type": "overlap",
+          "explanation": "Lower empty running is the same synergy as filling return legs with the 3PL's freight, described in different words. Counting both would double the synergy value used to justify the price.",
+          "fix": "Remove 'Lower empty running' and keep one node for the return-load synergy."
+        },
+        {
+          "nodeId": "b1z",
+          "type": "not-a-driver",
+          "explanation": "A synergy is value that exists only because the two firms combine. Growth in the 3PL's own warehouse contracts happens with or without the deal, so it adds nothing to what the target is worth to this buyer; counting it inflates the price the 3PL can justify.",
+          "fix": "Remove it; keep only revenue the combination creates (trucking for the 3PL's clients, warehousing for the target's clients)."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Should a 3PL acquire a regional full-truckload operator for ₹400 crore?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Standalone value of the target",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Revenue outlook",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Lanes and clients served"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Contract vs spot share"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Cost position",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Cost per km vs market"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Fleet age and maintenance"
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Balance sheet",
+                "children": [
+                  {
+                    "id": "a3x",
+                    "label": "Truck loans outstanding"
+                  },
+                  {
+                    "id": "a3y",
+                    "label": "Receivable days"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Synergies",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Revenue synergies",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Trucking for the 3PL's warehouse clients"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Warehousing for the target's clients"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Cost synergies",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Fill return legs with the 3PL's freight"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Combined diesel and tyre purchasing"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Price and integration",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Price vs standalone value plus synergies",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Multiple paid vs comparable deals"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Share of synergies paid to the seller"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Integration risks",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "Driver and owner attrition"
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "IT and billing integration"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "decoys": [
+        {
+          "nodeId": "a3x",
+          "whyFine": "If the ₹400 crore buys the equity, the target's truck loans come with it and add to the real price, so debt belongs in the standalone value."
+        }
+      ]
+    }
+  ],
+  "quick": [
+    {
+      "id": "logistics-q01",
+      "industry": "logistics",
+      "difficulty": "Beginner",
+      "question": "Which split of 'Revenue of an Indian B2C express parcel carrier' is MECE?",
+      "parent": "Revenue of an Indian B2C express parcel carrier",
+      "options": [
+        {
+          "split": [
+            "Freight on prepaid parcels",
+            "Freight and fees on COD parcels",
+            "Reverse pickups",
+            "Other surcharges and services"
+          ],
+          "correct": false,
+          "why": "Gap: RTO charges have no home. A reverse pickup collects a customer return from the buyer; an RTO is an undelivered forward parcel sent back to the seller, billed separately and large on COD volume."
+        },
+        {
+          "split": [
+            "Marketplace clients",
+            "D2C brands",
+            "Small sellers",
+            "COD handling fees"
+          ],
+          "correct": false,
+          "why": "Overlap from a mixed basis: COD fees are paid by marketplace, D2C and small-seller clients, so they are already inside the three customer buckets."
+        },
+        {
+          "split": [
+            "Forward freight",
+            "Return charges (RTO and reverse pickups)",
+            "COD handling fees",
+            "Other surcharges and services"
+          ],
+          "correct": true,
+          "why": "Splits revenue by what the shipper is billed for, with an 'other' bucket, so every rupee sits in exactly one place."
+        },
+        {
+          "split": [
+            "Forward freight",
+            "Return charges (RTO and reverse pickups)",
+            "COD handling fees",
+            "Fuel and other surcharges",
+            "Charges for undelivered COD parcels"
+          ],
+          "correct": false,
+          "why": "Overlap: undelivered COD parcels sent back are RTO, so their charges are already in return charges."
+        }
+      ]
+    },
+    {
+      "id": "logistics-q02",
+      "industry": "logistics",
+      "difficulty": "Beginner",
+      "question": "Which split of 'Revenue of a full-truckload transporter' is MECE?",
+      "parent": "Revenue of a full-truckload transporter",
+      "options": [
+        {
+          "split": [
+            "Number of loaded trips",
+            "Average freight per loaded trip"
+          ],
+          "correct": true,
+          "why": "Revenue = loaded trips x freight per loaded trip, a clean multiplicative split with nothing missing or repeated; detention and other charges sit inside freight per trip."
+        },
+        {
+          "split": [
+            "Contract trips",
+            "Spot trips",
+            "Return-leg trips"
+          ],
+          "correct": false,
+          "why": "Overlap: return-leg loads are themselves booked on contract or on the spot market, so they are counted twice."
+        },
+        {
+          "split": [
+            "Loaded km",
+            "Average freight per km run"
+          ],
+          "correct": false,
+          "why": "Mixed basis: freight per km run is averaged over loaded and empty km, so multiplying it by loaded km understates revenue by the empty share."
+        },
+        {
+          "split": [
+            "Number of trucks",
+            "Loaded trips per truck",
+            "Average freight per tonne"
+          ],
+          "correct": false,
+          "why": "Gap: a rate per tonne needs tonnes carried per trip, which is missing, so the factors do not multiply to revenue."
+        }
+      ]
+    },
+    {
+      "id": "logistics-q03",
+      "industry": "logistics",
+      "difficulty": "Beginner",
+      "question": "Which split of 'Annual operating cost of a warehouse' is MECE?",
+      "parent": "Annual operating cost of a warehouse",
+      "options": [
+        {
+          "split": [
+            "Fixed costs (rent, supervisors)",
+            "Variable costs (pickers, packers, power)",
+            "Labour"
+          ],
+          "correct": false,
+          "why": "Overlap: labour is already split between the fixed (supervisors) and variable (pickers, packers) buckets."
+        },
+        {
+          "split": [
+            "Rent",
+            "Labour",
+            "Power and utilities",
+            "Equipment, IT and other costs"
+          ],
+          "correct": true,
+          "why": "Covers the main cost types with a catch-all for the rest, and no item appears twice."
+        },
+        {
+          "split": [
+            "Inbound (receiving, put-away)",
+            "Storage",
+            "Outbound (picking, packing, dispatch)",
+            "Rent"
+          ],
+          "correct": false,
+          "why": "Overlap from a mixed basis: an activity split with a cost type added; rent is already the main part of storage cost."
+        },
+        {
+          "split": [
+            "Rent",
+            "Labour",
+            "Power and utilities",
+            "Material handling equipment"
+          ],
+          "correct": false,
+          "why": "Gap: with no catch-all, the warehouse management system, security, insurance and consumables have no home."
+        }
+      ]
+    },
+    {
+      "id": "logistics-q04",
+      "industry": "logistics",
+      "difficulty": "Intermediate",
+      "question": "Which split of 'Network operating cost per parcel of an Indian express carrier (before corporate overheads)' is MECE?",
+      "parent": "Network operating cost per parcel of an Indian express carrier (before corporate overheads)",
+      "options": [
+        {
+          "split": [
+            "First-mile pickup",
+            "Hub sorting and handling",
+            "Line haul",
+            "Last-mile delivery",
+            "Fuel and power consumed across the whole network"
+          ],
+          "correct": false,
+          "why": "Overlap: fuel and power are already inside pickup, hub, line haul and last-mile costs."
+        },
+        {
+          "split": [
+            "First-mile pickup",
+            "Hub sorting and handling",
+            "Line haul",
+            "Last-mile delivery"
+          ],
+          "correct": false,
+          "why": "Gap: it follows only the forward journey. RTO handling, COD cash handling and loss and damage claims, material costs on COD-heavy Indian volume, have no home."
+        },
+        {
+          "split": [
+            "Pickup and delivery riders",
+            "Hubs and delivery centres",
+            "Line haul trucks",
+            "Returns, COD handling and claims"
+          ],
+          "correct": false,
+          "why": "Overlap from a mixed basis: a resource split with an activity bucket added; returns also use riders, hubs and trucks, so their cost is counted twice."
+        },
+        {
+          "split": [
+            "First-mile pickup",
+            "Hub sorting and handling",
+            "Line haul",
+            "Last-mile delivery",
+            "Returns, COD handling and claims"
+          ],
+          "correct": true,
+          "why": "Follows the parcel through every stage of the network, including what happens after a failed delivery, with no stage counted twice."
+        }
+      ]
+    },
+    {
+      "id": "logistics-q05",
+      "industry": "logistics",
+      "difficulty": "Intermediate",
+      "question": "Which split of 'Time a truck takes per loaded trip, from reporting at origin to release at destination' is MECE?",
+      "parent": "Time a truck takes per loaded trip, from reporting at origin to release at destination",
+      "options": [
+        {
+          "split": [
+            "Waiting time (origin, destination, toll queues)",
+            "Driving time",
+            "Loading and unloading time"
+          ],
+          "correct": false,
+          "why": "Gap: driver rest and meal halts and breakdown stops are neither waiting, driving nor loading, and they are a large share of trip time on long Indian lanes."
+        },
+        {
+          "split": [
+            "Time at origin (reporting to dispatch)",
+            "Transit time (dispatch to arrival)",
+            "Time at destination (arrival to release)",
+            "Documentation and e-way bill time"
+          ],
+          "correct": false,
+          "why": "Overlap: paperwork happens at origin, en route or at destination, so its time is already inside the three phases."
+        },
+        {
+          "split": [
+            "Time at origin (reporting to dispatch)",
+            "Transit time (dispatch to arrival)",
+            "Time at destination (arrival to release)"
+          ],
+          "correct": true,
+          "why": "Three consecutive phases whose boundaries are defined events, so together they cover every hour from reporting to release exactly once."
+        },
+        {
+          "split": [
+            "Time at origin (reporting to dispatch)",
+            "Loaded transit time (dispatch to arrival)",
+            "Time at destination (arrival to release)",
+            "Empty repositioning time to the next load"
+          ],
+          "correct": false,
+          "why": "Not a driver: the parent runs from reporting at origin to release at destination, so the empty run to the next load falls outside it."
+        }
+      ]
+    },
+    {
+      "id": "logistics-q06",
+      "industry": "logistics",
+      "difficulty": "Intermediate",
+      "question": "Which split of 'Line haul cost per tonne-km for a trucking fleet' is MECE?",
+      "parent": "Line haul cost per tonne-km for a trucking fleet",
+      "options": [
+        {
+          "split": [
+            "Cost per truck-km",
+            "Average payload per loaded km (tonne-km / loaded km)"
+          ],
+          "correct": false,
+          "why": "Gap: cost is spread over all km run but payload only over loaded km, so the empty running share drops out and cost per tonne-km is understated."
+        },
+        {
+          "split": [
+            "Cost per truck-km",
+            "Average payload over all km run (tonne-km / truck-km)"
+          ],
+          "correct": true,
+          "why": "Cost per tonne-km = cost per truck-km / (tonne-km per truck-km); both factors use the same km base, so nothing is missing or repeated."
+        },
+        {
+          "split": [
+            "Cost per loaded truck-km",
+            "Average payload over all km run (tonne-km / truck-km)"
+          ],
+          "correct": false,
+          "why": "Mixed basis: cost per loaded km already loads empty-km cost onto loaded km, and dividing by payload over all km charges empty running a second time."
+        },
+        {
+          "split": [
+            "Cost per truck-km",
+            "Average payload over all km run (tonne-km / truck-km)",
+            "Truck fill rate (load / capacity)"
+          ],
+          "correct": false,
+          "why": "Overlap: fill rate is one of the things that sets average payload, so it is already inside the second factor."
+        }
+      ]
+    },
+    {
+      "id": "logistics-q07",
+      "industry": "logistics",
+      "difficulty": "Advanced",
+      "question": "Which split of 'Rider cost per successful delivery at a delivery centre' is MECE?",
+      "parent": "Rider cost per successful delivery at a delivery centre",
+      "options": [
+        {
+          "split": [
+            "Rider cost per rider-day",
+            "Successful deliveries per rider-day",
+            "First-attempt success rate"
+          ],
+          "correct": false,
+          "why": "Overlap: successful deliveries per rider-day already reflect how many attempts succeed, so the success rate is counted twice."
+        },
+        {
+          "split": [
+            "Rider cost per rider-day",
+            "Parcels out for delivery per rider-day",
+            "First-attempt success rate"
+          ],
+          "correct": false,
+          "why": "Gap: parcels out times first-attempt success counts only first-time deliveries; parcels delivered on a second or third attempt, which riders also carry, are missing."
+        },
+        {
+          "split": [
+            "Rider cost per rider-day",
+            "Attempts per rider-hour",
+            "Share of attempts that succeed"
+          ],
+          "correct": false,
+          "why": "Mixed basis: cost is per day but attempts are per hour, so hours worked per rider-day is missing."
+        },
+        {
+          "split": [
+            "Rider cost per rider-day",
+            "Attempts per rider-day",
+            "Share of attempts that succeed"
+          ],
+          "correct": true,
+          "why": "Rider cost per successful delivery = rider cost per day / (attempts per day x share that succeed), so each factor appears once on the same daily basis."
+        }
+      ]
+    },
+    {
+      "id": "logistics-q08",
+      "industry": "logistics",
+      "difficulty": "Advanced",
+      "question": "Which split of 'Year-on-year change in a freight broker's gross profit (GMV x take rate)' is MECE?",
+      "parent": "Year-on-year change in a freight broker's gross profit (GMV x take rate)",
+      "options": [
+        {
+          "split": [
+            "Volume effect (change in GMV x last year's take rate)",
+            "Take-rate effect (change in take rate x this year's GMV)"
+          ],
+          "correct": true,
+          "why": "Change in gross profit = change in GMV x old take rate + change in take rate x new GMV, an exact decomposition with no remainder."
+        },
+        {
+          "split": [
+            "Volume effect (change in GMV x last year's take rate)",
+            "Take-rate effect (change in take rate x this year's GMV)",
+            "Client mix effect (shift to low-take clients)"
+          ],
+          "correct": false,
+          "why": "Overlap: a shift to low-take clients shows up in the blended take rate, so the mix effect is already inside the take-rate effect."
+        },
+        {
+          "split": [
+            "Volume effect (change in GMV x last year's take rate)",
+            "Take-rate effect (change in take rate x last year's GMV)"
+          ],
+          "correct": false,
+          "why": "Gap: with both effects on last year's base, the interaction term (change in GMV x change in take rate) is left out."
+        },
+        {
+          "split": [
+            "Volume effect (change in GMV x this year's take rate)",
+            "Take-rate effect (change in take rate x this year's GMV)"
+          ],
+          "correct": false,
+          "why": "Overlap: with both effects on this year's base, the interaction term (change in GMV x change in take rate) is counted twice."
+        }
+      ]
+    }
+  ],
+  "chainDrills": [
+    {
+      "id": "logistics-v01",
+      "industry": "logistics",
+      "difficulty": "Beginner",
+      "type": "locate",
+      "prompt": "An express carrier pays diesel and tolls for 32-ft trucks running overnight between its Delhi and Mumbai hubs. Which stage does this cost belong to?",
+      "options": [
+        "s2",
+        "s3",
+        "s4",
+        "s5"
+      ],
+      "answer": [
+        "s4"
+      ],
+      "why": "Moving consolidated loads between hubs is line haul; first mile and last mile cover moves to and from customers, and the hub stage covers sorting, not transport."
+    },
+    {
+      "id": "logistics-v02",
+      "industry": "logistics",
+      "difficulty": "Beginner",
+      "type": "order",
+      "prompt": "Put the stages of the logistics value chain in order, from winning a shipper's business to settling what happens after delivery.",
+      "options": [
+        "s4",
+        "s1",
+        "s6",
+        "s3",
+        "s5",
+        "s2"
+      ],
+      "answer": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6"
+      ],
+      "why": "A shipper is signed and the shipment booked, the parcel is picked up, sorted at the origin hub, moved by line haul, delivered at the last mile, and finally returns, COD remittance and claims are settled."
+    },
+    {
+      "id": "logistics-v03",
+      "industry": "logistics",
+      "difficulty": "Intermediate",
+      "type": "locate",
+      "prompt": "Pickups are on time and line haul trucks leave on schedule, but each truck carries only about 60% of the day's parcels; the rest wait for the next day's truck because sorting finishes after departure. Where is the problem?",
+      "options": [
+        "s2",
+        "s3",
+        "s4",
+        "s5"
+      ],
+      "answer": [
+        "s3"
+      ],
+      "why": "Parcels arrive on time and trucks depart on time, so pickup and line haul are working; the bottleneck is hub sorting capacity, which misses the truck cut-off."
+    },
+    {
+      "id": "logistics-v04",
+      "industry": "logistics",
+      "difficulty": "Intermediate",
+      "type": "assign",
+      "prompt": "Assign each item to the value chain stage it belongs to.",
+      "items": [
+        {
+          "item": "Rate card discount negotiated with a D2C brand",
+          "stage": "s1"
+        },
+        {
+          "item": "Bike fuel allowance for staff collecting parcels from sellers' premises",
+          "stage": "s2"
+        },
+        {
+          "item": "Rent for an automated sortation centre",
+          "stage": "s3"
+        },
+        {
+          "item": "Hire charges for a spot-market truck between two hubs",
+          "stage": "s4"
+        },
+        {
+          "item": "Per-drop pay to a delivery rider",
+          "stage": "s5"
+        },
+        {
+          "item": "Compensation paid to a shipper for a parcel lost in transit",
+          "stage": "s6"
+        }
+      ],
+      "why": "The tricky ones: the fuel allowance is first mile, not last mile, because it is for collecting from sellers; the lost-parcel compensation sits in claims (s6) even though the loss happened earlier in the chain, because settling claims is a post-delivery activity; the discount is a pricing decision made at booking, even though it shows up as lower revenue on every parcel."
+    },
+    {
+      "id": "logistics-v05",
+      "industry": "logistics",
+      "difficulty": "Advanced",
+      "type": "locate",
+      "prompt": "RTO cost per parcel has doubled for one D2C client. Riders at the same delivery centres show unchanged first-attempt success on other clients, but 40% of this client's failed attempts are coded 'address incomplete or pin code mismatch'. Its orders flow from its website into the carrier's system through an API set up last quarter. Which stage caused the rise?",
+      "options": [
+        "s5",
+        "s1",
+        "s6",
+        "s2"
+      ],
+      "answer": [
+        "s1"
+      ],
+      "why": "The cost shows up in returns (s6) and the failures happen at the last mile (s5), but riders perform normally on other clients. The bad addresses enter at booking and integration, where an API with no address or pin-code validation lets undeliverable orders through, so the fix (validation at order capture) sits in s1. First-mile pickup only collects and weighs parcels."
+    },
+    {
+      "id": "logistics-v06",
+      "industry": "logistics",
+      "difficulty": "Advanced",
+      "type": "locate",
+      "prompt": "An express carrier's cash fell by about ₹70 crore in a quarter while revenue, EBITDA and receivables were all steady. COD collections run at about ₹14 crore a day, riders still deposit collected cash the same day, and no shipper contract terms have changed. Which stage explains the cash fall?",
+      "options": [
+        "s1",
+        "s3",
+        "s5",
+        "s6"
+      ],
+      "answer": [
+        "s6"
+      ],
+      "why": "₹70 crore is five days of COD collections (5 x ₹14 crore), so remittances are going out about five days sooner, for example a new payout run paying shippers at D+2 when contracts allow D+7, which shrinks the float the carrier holds. Collection by riders (s5) and contract terms (s1) are unchanged; remittance to shippers sits in s6."
+    }
+  ]
+}

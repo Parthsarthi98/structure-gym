@@ -1,0 +1,1 @@
+COMMENT ON TABLE public.bank_items IS 'DEPRECATED: exercise bank is static in src/data/bank'; COMMENT ON TABLE public.bank_value_chains IS 'DEPRECATED: value chains are static in src/data/bank';

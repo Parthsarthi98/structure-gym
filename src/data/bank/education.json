@@ -1,0 +1,3960 @@
+{
+  "industry": "education",
+  "valueChain": {
+    "summary": "Education providers charge a fee per student per year or per course, while most of their costs (teachers, campuses, technology) are fixed for at least a year, so profit depends on filling seats at the planned fee. Over time, demand follows outcomes such as board results, exam selections and placements, which drive reputation, referrals and the fee a provider can hold.",
+    "stages": [
+      {
+        "id": "s1",
+        "name": "Content and learning materials",
+        "activities": [
+          "Writing textbooks, workbooks and question banks aligned to board and entrance-exam syllabi",
+          "Producing recorded lessons and digital content",
+          "Licensing learning software, school ERP and learning management systems"
+        ],
+        "players": [
+          "K-12 textbook publishers",
+          "Test-prep content teams and question-bank vendors",
+          "Ed-tech content studios",
+          "School ERP and LMS software vendors"
+        ],
+        "revenueDrivers": [
+          "Books or licences sold per student",
+          "Per-school or per-student software subscriptions",
+          "Content licensing to coaching institutes and platforms"
+        ],
+        "costDrivers": [
+          "Subject experts and authors",
+          "Video production and editing",
+          "Annual revisions when syllabi change",
+          "Printing and distribution for physical books"
+        ],
+        "kpis": [
+          {
+            "name": "Content cost per student",
+            "formula": "annual content and licence spend / enrolled students",
+            "benchmark": "Usually 3-6% of fee income at a private school (approximate)"
+          },
+          {
+            "name": "Adoption rate",
+            "formula": "schools or students using the content / schools or students targeted",
+            "benchmark": "Varies widely; publishers track school-level adoptions each session"
+          }
+        ],
+        "marginNote": "Moderate to high for established publishers and software vendors (roughly 15-30% EBITDA, approximate), because content is a fixed cost that is reused across many students."
+      },
+      {
+        "id": "s2",
+        "name": "Campus, infrastructure and approvals",
+        "activities": [
+          "Buying or leasing land and buildings, building classrooms and labs",
+          "Securing recognition and affiliation (state NOC, CBSE or state board affiliation, AICTE approval, UGC recognition, coaching-centre registration)",
+          "Meeting norms on land, labs, safety and student-teacher ratios"
+        ],
+        "players": [
+          "School trusts and societies",
+          "Private universities and colleges",
+          "Landlords and education real-estate developers",
+          "Management companies that lease campuses to trusts"
+        ],
+        "revenueDrivers": [
+          "Lease rent and service fees paid by trusts to asset owners or management companies",
+          "For the institution itself this stage earns nothing directly; it sets how many seats can be sold"
+        ],
+        "costDrivers": [
+          "Land and construction or lease rent",
+          "Labs, libraries and equipment required by approval norms",
+          "Compliance and inspection costs"
+        ],
+        "kpis": [
+          {
+            "name": "Capital cost per seat",
+            "formula": "campus capex / student capacity",
+            "benchmark": "Roughly ₹1.5-4 lakh per seat for a mid-fee CBSE school in a tier-2 city, excluding land (approximate)"
+          },
+          {
+            "name": "Approved capacity",
+            "formula": "sections or intake sanctioned by the board or regulator",
+            "benchmark": "A hard ceiling: a CBSE section is typically capped at 40 students"
+          }
+        ],
+        "marginNote": "For a trust this stage is a cost; investors who own campuses and lease them to trusts earn steady contracted rent, which is one of the few ways to earn a return from Indian schools."
+      },
+      {
+        "id": "s3",
+        "name": "Student acquisition and admissions",
+        "activities": [
+          "Marketing, school visits, seminars and lead generation",
+          "Counselling, entrance or scholarship tests, offers and fee collection",
+          "Arranging fee financing (EMIs, education loans)"
+        ],
+        "players": [
+          "Admissions and counselling teams (in ed-tech, 'academic counsellors' are the sales force)",
+          "Lead portals and comparison sites",
+          "Overseas recruitment agents",
+          "NBFCs and banks offering education loans"
+        ],
+        "revenueDrivers": [
+          "Application and registration fees",
+          "For intermediaries: per-lead fees and agent commissions"
+        ],
+        "costDrivers": [
+          "Digital advertising and lead purchase",
+          "Counsellor salaries and incentives",
+          "Scholarships and discounts used to win students",
+          "Agent commissions (often 10-20% of first-year tuition for international recruitment, approximate)"
+        ],
+        "kpis": [
+          {
+            "name": "Lead-to-enrolment conversion",
+            "formula": "students enrolled / leads or enquiries",
+            "benchmark": "Roughly 2-8% for ed-tech and online degrees, higher for schools with strong referrals (approximate)"
+          },
+          {
+            "name": "Acquisition cost per enrolment",
+            "formula": "(marketing + counselling + agent commissions) / new enrolments",
+            "benchmark": "A few per cent of first-year fees for established schools; 30-60% for ed-tech in growth phases (approximate)"
+          }
+        ],
+        "marginNote": "A pure cost for most providers. It decides profitability in ed-tech and online higher education, where acquisition cost can exceed the first year's fee."
+      },
+      {
+        "id": "s4",
+        "name": "Teaching delivery and student services",
+        "activities": [
+          "Hiring, training and timetabling faculty",
+          "Classroom, live online and recorded teaching, doubt-solving and practice tests",
+          "Student services: transport, hostels, meals, counselling and pastoral care"
+        ],
+        "players": [
+          "Schools, colleges and universities",
+          "Coaching institutes and tutors",
+          "Ed-tech platforms",
+          "Outsourced transport, catering and hostel operators"
+        ],
+        "revenueDrivers": [
+          "Students x tuition fee realised",
+          "Ancillary fees for transport, hostel and meals"
+        ],
+        "costDrivers": [
+          "Faculty salaries (the largest cost in most institutions)",
+          "Running costs of classes and online delivery",
+          "Buses, hostel and catering"
+        ],
+        "kpis": [
+          {
+            "name": "Seat fill rate",
+            "formula": "students enrolled / approved capacity",
+            "benchmark": "85%+ for a healthy private school; new schools often start at 30-40% (approximate)"
+          },
+          {
+            "name": "Student-teacher ratio",
+            "formula": "students / full-time teachers",
+            "benchmark": "Around 25-30:1 at Indian private schools; RTE norms cap primary at 30:1"
+          },
+          {
+            "name": "Staff cost ratio",
+            "formula": "faculty and staff salaries / fee income",
+            "benchmark": "Roughly 40-55% at private schools and coaching chains (approximate)"
+          }
+        ],
+        "marginNote": "Where most revenue is booked. At good fill, private K-12 schools earn roughly 20-30% operating surplus and coaching chains 15-25%; many ed-tech firms have run losses (approximate)."
+      },
+      {
+        "id": "s5",
+        "name": "Assessment and certification",
+        "activities": [
+          "Board, university and entrance examinations",
+          "Evaluation, moderation and result declaration",
+          "Accreditation and award of certificates and degrees"
+        ],
+        "players": [
+          "School boards (CBSE, CISCE, state boards)",
+          "Affiliating universities",
+          "National Testing Agency (JEE Main, NEET-UG, CUET)",
+          "Accreditation bodies (NAAC, NBA) and test-delivery firms"
+        ],
+        "revenueDrivers": [
+          "Exam, registration and affiliation fees",
+          "Accreditation and test-delivery fees"
+        ],
+        "costDrivers": [
+          "Exam centres, invigilation and proctoring",
+          "Evaluators and result processing",
+          "Accreditation preparation (documentation, audits)"
+        ],
+        "kpis": [
+          {
+            "name": "Pass rate or average score",
+            "formula": "students passing / students appearing",
+            "benchmark": "CBSE Class 12 pass rates have run at roughly 85-93% in recent years (85.2% in 2026)"
+          },
+          {
+            "name": "Accreditation status",
+            "formula": "NAAC grade (CGPA on a 4-point scale; NAAC began moving to binary accreditation with maturity levels in 2025)",
+            "benchmark": "UGC's online-programme regulations (2020, as amended) use NAAC 3.26+ or a top-100 NIRF rank in two of the last three years as the main test for offering online degrees"
+          }
+        ],
+        "marginNote": "Low margin and mostly public or regulated, but it fixes the value of the qualification and, through accreditation, what an institution is allowed to offer."
+      },
+      {
+        "id": "s6",
+        "name": "Outcomes, progression and re-enrolment",
+        "activities": [
+          "Placements, internships and entrance-exam selections",
+          "Re-enrolment into the next grade or year",
+          "Alumni networks, results marketing and referrals"
+        ],
+        "players": [
+          "Placement cells and career services",
+          "Recruiters and apprenticeship platforms",
+          "Alumni and parent networks"
+        ],
+        "revenueDrivers": [
+          "Next year's fees from students who stay",
+          "Referral admissions and siblings",
+          "Placement fees from employers (some upskilling providers)"
+        ],
+        "costDrivers": [
+          "Placement and career-services teams",
+          "Refunds where outcomes are guaranteed",
+          "Alumni and results marketing"
+        ],
+        "kpis": [
+          {
+            "name": "Re-enrolment rate",
+            "formula": "students returning next year / students eligible to return",
+            "benchmark": "90-95% at well-run private schools outside exit grades (approximate)"
+          },
+          {
+            "name": "Placement rate",
+            "formula": "students placed / students seeking placement",
+            "benchmark": "Varies widely; top MBA and engineering schools report 90%+"
+          }
+        ],
+        "marginNote": "Earns little directly but sets next year's demand and fee: losing 5 points of re-enrolment at a school removes revenue with almost no cost saving."
+      }
+    ],
+    "profitPools": "Profit concentrates where fixed capacity is full at a premium fee because outcomes are strong: established schools and coaching brands with waiting lists, and universities whose placements support high fees. Publishers and software vendors earn steady margins from reuse at scale. Student acquisition is increasingly captured by intermediaries (lead portals, overseas recruitment agents), and many ed-tech firms lost money because acquisition and delivery costs exceeded the fee they could hold. Assessment is largely public and earns little.",
+    "unitEconomics": {
+      "unit": "per enrolled student per year, mid-fee CBSE private school in a tier-2 city at ~85% seat fill (approximate)",
+      "lines": [
+        {
+          "item": "Annual tuition fee",
+          "value": "₹72,000"
+        },
+        {
+          "item": "Transport and activity fees, net of their direct running cost",
+          "value": "₹6,000"
+        },
+        {
+          "item": "Teacher and staff salaries",
+          "value": "-₹36,000"
+        },
+        {
+          "item": "Campus lease paid to the property owner",
+          "value": "-₹11,000"
+        },
+        {
+          "item": "Utilities, maintenance and housekeeping",
+          "value": "-₹6,000"
+        },
+        {
+          "item": "Labs, library and learning software",
+          "value": "-₹4,000"
+        },
+        {
+          "item": "Admissions and marketing",
+          "value": "-₹2,000"
+        },
+        {
+          "item": "Administration, audit and compliance",
+          "value": "-₹3,000"
+        }
+      ],
+      "result": "Operating surplus ≈ ₹16,000 per student (20.5% of fee income). Salaries and the lease (₹47,000) are fixed for the year, so an empty seat loses almost its full fee while saving little cost."
+    },
+    "india": "Schools and colleges in India must be run on a not-for-profit basis by trusts, societies or Section 8 companies, so investors usually earn through campus leases, management service fees or content supply, while coaching centres and ed-tech firms can be ordinary companies (coaching attracts 18% GST; recognised school and degree education is exempt). Regulation touches every stage: CBSE and state boards affiliate schools, AICTE approves technical programmes, UGC governs universities, online degrees and (since 2023) foreign university campuses, many states regulate private school fee increases, the RTE Act reserves 25% of entry-level seats in private unaided schools for disadvantaged children with state reimbursement, and the Ministry of Education's 2024 guidelines ask states to register coaching centres, require pro-rata refunds and bar enrolment under 16, though states adopt them unevenly (Rajasthan's 2025 law, for example, has no age bar). NEP 2020 targets a 50% gross enrolment ratio in higher education by 2035.",
+    "workedExample": {
+      "problem": "A CBSE school chain's operating margin fell about 4 points (22% to 18%) even though admissions into nursery and Class 1 rose 10% and the planned 8% fee increase went through.",
+      "trace": [
+        "Split fee income into students x fee per student: fees rose 8% but fee income rose only about 4%, while costs rose about 9% with the annual pay revision. Had enrolment held, the fee increase would have covered the pay revision and the margin would have stayed near 22%.",
+        "s6 Outcomes and re-enrolment: total enrolment fell about 2% because re-enrolment into Class 11 dropped from 85% to 55%; families moved to schools that partner with JEE and NEET coaching institutes. Senior students pay about 50% more than juniors, so losing about 50 of them per school costs far more than the 20 extra entry admissions bring in.",
+        "s4 Teaching delivery: costs did not fall with senior enrolment, because Class 11 sections, subject teachers and labs are fixed; Class 11 now runs about a third emptier than last year, in the highest-cost seats in the school.",
+        "Root cause sits in s4: the senior-secondary offer has no timetable or support for entrance-exam preparation, so it loses to rivals exactly where students pay the most and cost the most to teach."
+      ],
+      "lesson": "In a fixed-cost education business, trace enrolment grade by grade: a loss in the expensive senior grades can outweigh gains at entry before fees or costs are even questioned."
+    }
+  },
+  "cases": [
+    {
+      "id": "education-c01",
+      "title": "School chain surplus falls despite fee growth",
+      "industry": "education",
+      "framework": "profitability",
+      "secondary": [],
+      "difficulty": "Beginner",
+      "region": "India",
+      "prompt": "Our client is a charitable trust that runs 14 private CBSE schools in tier-2 cities of Madhya Pradesh. Fee income rose 7% last year to ₹186 crore, but the operating surplus fell from ₹41 crore to ₹29 crore. Why has the surplus fallen, and what should the trust do?",
+      "clarifyingFacts": [
+        "Q: What happened to fees? A: List tuition fees rose 8%, but tuition income rose only from ₹160 crore to ₹170 crore on enrolment up from 31,000 to 31,600. Sibling and staff concessions were widened, and RTE seats (reimbursed by the state below the school fee) grew as entry classes filled. Transport fees rose from ₹14 crore to ₹16 crore.",
+        "Q: What happened to costs? A: Salaries rose from ₹78 crore to ₹96 crore, transport costs from ₹14 crore to ₹17 crore and other campus costs from ₹41 crore to ₹44 crore.",
+        "Q: Why did salaries rise? A: The trust approved a pay revision to stop teachers leaving, and hired 120 teachers (about ₹6 lakh a year each) to open Class 11 science and commerce sections in five schools. Those sections average 22 students against a capacity of 40.",
+        "Q: Any constraints? A: Assume the state's fee rules require committee approval for increases above 10% a year. The trust wants the surplus back near ₹40 crore within two years."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Why did surplus fall ₹12 crore while fee income rose 7%?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Fee income (₹174 crore to ₹186 crore)",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Tuition income (₹160 crore to ₹170 crore)",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Students enrolled (31,000 to 31,600)"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Tuition realised per student, after concessions and RTE seats"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Transport and activity fees (₹14 crore to ₹16 crore)"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Costs (₹133 crore to ₹157 crore)",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Teacher and staff salaries (₹78 crore to ₹96 crore)",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Headcount (120 teachers added for Class 11 sections)"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Pay per head (pay revision)"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Transport (₹14 crore to ₹17 crore)",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Buses and routes run"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Running cost per bus (diesel, drivers)"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Campus and other costs (₹41 crore to ₹44 crore)"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "About ₹7 crore of the ₹18 crore salary increase comes from 120 teachers for Class 11 sections that are only ~55% full; the remaining ~₹11 crore is a ~14% pay revision on the existing payroll.",
+        "Tuition realised per student rose only ~4% (₹51,600 to ₹53,800) against an 8% list increase because wider concessions and more RTE seats diluted the fee, costing about ₹6 crore."
+      ],
+      "hints": [
+        "Start from the profit equation, then split each income and cost line into a volume and a rate.",
+        "L1: Fee income (₹174 crore to ₹186 crore) and Costs (₹133 crore to ₹157 crore).",
+        "Fee income: tuition income (students enrolled x tuition realised per student, after concessions and RTE seats) plus transport and activity fees."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Staff cost ratio",
+          "formula": "salaries / fee income = ₹78 crore / ₹174 crore ≈ 45% last year vs ₹96 crore / ₹186 crore ≈ 52% this year"
+        },
+        {
+          "name": "Tuition realised per student",
+          "formula": "tuition income / students enrolled = ₹170 crore / 31,600 ≈ ₹53,800 (up ~4%)"
+        },
+        {
+          "name": "Section fill rate",
+          "formula": "students in a section / section capacity = 22 / 40 = 55% for the new Class 11 sections"
+        }
+      ],
+      "commonMistakes": [
+        "Looking for a revenue problem first, when fee income actually grew and the fall is almost entirely on the cost side.",
+        "Treating the 120 new teachers as general cost inflation rather than a capacity decision (new Class 11 sections) that can be judged on its fill rate."
+      ],
+      "frameworkPick": {
+        "options": [
+          "profitability",
+          "growth",
+          "pricing",
+          "operations"
+        ],
+        "correct": [
+          "profitability"
+        ],
+        "why": "The question asks why surplus fell while income rose, which is a diagnosis of the income and cost lines of the P&L.",
+        "distractorWhyNot": {
+          "growth": "Enrolment and fees both grew; the question is why more income produced less surplus, not how to grow.",
+          "pricing": "Fee realisation is one branch, but most of the fall comes from costs, and fee rises are limited by the state rule.",
+          "operations": "Staffing efficiency sits inside the cost branch, but the question covers the whole P&L, not a single process."
+        }
+      }
+    },
+    {
+      "id": "education-c02",
+      "title": "Size the paid NEET coaching market",
+      "industry": "education",
+      "framework": "market-sizing",
+      "secondary": [],
+      "difficulty": "Beginner",
+      "region": "India",
+      "prompt": "A private equity fund looking at test-prep wants a quick estimate: how big is the annual revenue pool for paid NEET-UG coaching in India? About 23 lakh candidates register for NEET-UG each year.",
+      "clarifyingFacts": [
+        "Q: Which students count? A: Anyone paying for NEET coaching in the year: Class 11 students, Class 12 students and repeat candidates. Assume about 35% of registered candidates (~8 lakh) are repeaters and ~15 lakh are first-attempt Class 12 students, with a similar number in Class 11 preparing for next year.",
+        "Q: How many pay for coaching? A: Assume 50% of school students preparing and 70% of repeaters pay for some coaching.",
+        "Q: What do they pay? A: Assume offline classroom programmes average ₹1.5 lakh a year and online programmes ₹20,000. 30% of paying school students and 50% of paying repeaters choose offline.",
+        "Q: Scope? A: Coaching fees only, excluding hostels, separately bought books and free content."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Annual fee revenue from paid NEET-UG coaching in India",
+        "children": [
+          {
+            "id": "a",
+            "label": "Paying students in a year",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Class 11 students preparing",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Aspirants in the grade (~15 lakh)"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Share paying for coaching (~50%)"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Class 12 first-attempt candidates",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "First-attempt registrations (~15 lakh)"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Share paying for coaching (~50%)"
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Repeat candidates",
+                "children": [
+                  {
+                    "id": "a3x",
+                    "label": "Repeaters (~35% of 23 lakh, ~8 lakh)"
+                  },
+                  {
+                    "id": "a3y",
+                    "label": "Share paying for coaching (~70%)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Average fee per paying student",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Share choosing offline, by student group"
+              },
+              {
+                "id": "b2",
+                "label": "Offline classroom fee (~₹1.5 lakh a year)"
+              },
+              {
+                "id": "b3",
+                "label": "Online programme fee (~₹20,000 a year)"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "The pool is roughly ₹13,000-14,000 crore a year, and about 80% of it comes from offline programmes even though online serves about 65% of paying students.",
+        "Sizing from the 23 lakh registrations alone would miss the ~7.5 lakh paying Class 11 students, about 36% of the paying base."
+      ],
+      "hints": [
+        "Build it as a volume times price estimate, and decide whose spending falls in the year rather than who sits the exam.",
+        "L1: Paying students in a year; Average fee per paying student.",
+        "Average fee per paying student: share choosing offline (by student group), offline classroom fee (~₹1.5 lakh) and online programme fee (~₹20,000)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Paying students",
+          "formula": "Σ cohort x share paying = 15 lakh x 50% + 15 lakh x 50% + 8 lakh x 70% ≈ 20.6 lakh"
+        },
+        {
+          "name": "Revenue pool",
+          "formula": "offline students x ₹1.5 lakh + online students x ₹20,000 = 7.3 lakh x ₹1.5 lakh + 13.3 lakh x ₹20,000 ≈ ₹10,950 crore + ₹2,660 crore ≈ ₹13,600 crore"
+        }
+      ],
+      "commonMistakes": [
+        "Multiplying the 23 lakh registrations by one fee, which ignores Class 11 students who pay a year before registering and the many who pay nothing.",
+        "Using a single average fee when offline fees are about 7x online fees and the offline share differs between school students and repeaters."
+      ],
+      "frameworkPick": {
+        "options": [
+          "market-sizing",
+          "pe-dd",
+          "segmentation",
+          "market-entry"
+        ],
+        "correct": [
+          "market-sizing"
+        ],
+        "why": "The question asks how big an annual revenue pool is, which is a market-sizing estimate built from student numbers and fees.",
+        "distractorWhyNot": {
+          "pe-dd": "The fund will run diligence later, but the question asked is only the size of the pool, with no target company or deal.",
+          "segmentation": "Splitting students into groups is a step inside the estimate; nobody is asking which segment to target.",
+          "market-entry": "The fund may later decide whether to enter test-prep, but the question asked is only how big the annual pool is."
+        }
+      }
+    },
+    {
+      "id": "education-c03",
+      "title": "Pricing a UPSC prep programme",
+      "industry": "education",
+      "framework": "pricing",
+      "secondary": [],
+      "difficulty": "Beginner",
+      "region": "India",
+      "prompt": "Our client is an Indian online platform for UPSC civil services preparation with 4 lakh monthly active free users. It plans its first paid annual programme: live classes, weekly answer-writing evaluation by mentors and a full test series. How should it set the price?",
+      "clarifyingFacts": [
+        "Q: Who are the free users? A: About 25% (~1 lakh) are serious aspirants planning to sit prelims within 12 months; the rest are mostly college students exploring.",
+        "Q: What do alternatives cost? A: Assume a year of offline general studies coaching in Delhi costs about ₹1.5-2 lakh in fees plus about ₹15,000 a month in rent and living costs. Other platforms' online foundation courses sell for about ₹40,000-₹80,000, and standalone test series for ₹5,000-₹15,000.",
+        "Q: Costs? A: Mentor evaluation costs about ₹6,000 per subscriber a year. Faculty, content and platform costs are about ₹12 crore a year and largely fixed. Prices include 18% GST.",
+        "Q: Objective? A: Maximise paid revenue in year one while keeping the free community growing."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "What price structure maximises paid revenue from the UPSC programme?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Cost floor",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Variable cost per subscriber (~₹6,000 mentor evaluation)"
+              },
+              {
+                "id": "a2",
+                "label": "Fixed cost to recover (~₹12 crore a year)"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Value to the aspirant (ceiling)",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Saving vs a year in Delhi",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Offline coaching fees (₹1.5-2 lakh)"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Rent and living costs (~₹1.8 lakh)"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Value of evaluation and tests to repeat aspirants"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Competitor reference prices",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Online foundation courses (₹40,000-₹80,000)"
+              },
+              {
+                "id": "c2",
+                "label": "Standalone test series (₹5,000-₹15,000)"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Structure and expected take-up",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Single plan vs tiers (test series only, full programme)"
+              },
+              {
+                "id": "d2",
+                "label": "Conversion of ~1 lakh serious aspirants at each price"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "A full programme at about ₹45,000 (₹38,100 after GST) needs ~3,700 subscribers to cover fixed costs, under 4% of the ~1 lakh serious aspirants.",
+        "A two-tier offer (around ₹8,000 for the test series, ₹45,000 for the full programme) earns more than one price, because repeat aspirants value evaluation and tests but not foundation classes."
+      ],
+      "hints": [
+        "Use the classic anchors for setting a price, then turn them into an offer design and a take-up estimate.",
+        "L1: Cost floor; Value to the aspirant (ceiling); Competitor reference prices; Structure and expected take-up.",
+        "Competitor reference prices: online foundation courses (₹40,000-₹80,000) and standalone test series (₹5,000-₹15,000)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Contribution per subscriber",
+          "formula": "price / 1.18 (GST) - mentor evaluation cost = ₹45,000 / 1.18 - ₹6,000 ≈ ₹32,100"
+        },
+        {
+          "name": "Break-even subscribers",
+          "formula": "fixed cost / contribution per subscriber = ₹12 crore / ₹32,100 ≈ 3,700"
+        }
+      ],
+      "commonMistakes": [
+        "Basing take-up on all 4 lakh free users, when only about 1 lakh are near-term buyers.",
+        "Anchoring only on competitors' ₹40,000-₹80,000 and ignoring that the real alternative for many aspirants is a year in Delhi costing about ₹3.3-3.8 lakh."
+      ],
+      "frameworkPick": {
+        "options": [
+          "pricing",
+          "product-launch",
+          "market-sizing",
+          "profitability"
+        ],
+        "correct": [
+          "pricing"
+        ],
+        "why": "The launch is decided and the question is what to charge, so the answer comes from cost floor, customer value and competitor prices.",
+        "distractorWhyNot": {
+          "product-launch": "Whether to launch is already settled; the open question is only the price and plan structure.",
+          "market-sizing": "Counting serious aspirants is an input to take-up at each price, not the question being asked.",
+          "profitability": "Break-even is a check inside the cost floor, but there is no profit problem to diagnose; the decision is what to charge."
+        }
+      }
+    },
+    {
+      "id": "education-c04",
+      "title": "Cutting university offer turnaround times",
+      "industry": "education",
+      "framework": "operations",
+      "secondary": [],
+      "difficulty": "Beginner",
+      "region": "Global",
+      "prompt": "Our client is a large Australian university. The average time from a complete international application to an offer has risen from 10 to 26 working days, and the share of offer-holders who enrol has fallen from 38% to 30%. Applications rose 35% this year while admissions staff numbers stayed flat. How should it bring decision times down?",
+      "clarifyingFacts": [
+        "Q: How is the work done? A: Each application goes through document checks, academic assessment against entry rules and, for some countries, a visa-risk screening interview the university added last year. Active work averages about 2.5 hours per application; the rest is waiting.",
+        "Q: Where are the delays? A: About 40% of applications arrive with missing documents and loop back to the applicant, on average twice, adding about 5 working days each time. Screening interviews wait about 8 working days for a slot.",
+        "Q: Volume? A: About 60,000 applications and 20,000 offers a year, peaking in the eight weeks before each intake. Agents submit 70% of applications.",
+        "Q: Stakes and limits? A: International students pay about A$45,000 a year in tuition. The target is offers within 10 working days by the next intake without adding permanent staff."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "How can offer time fall from 26 to 10 days without permanent hires?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Active work per application (~2.5 hours)",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Document checks"
+              },
+              {
+                "id": "a2",
+                "label": "Academic assessment",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Standard cases a rules engine could decide"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Non-standard cases needing an assessor"
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Visa-risk screening interview"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Waiting time (most of the 26 days)",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Rework loops for missing documents (40% of files)",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Agent-submitted files"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Direct applications"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Queues when demand exceeds capacity",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Pre-intake peaks (35% more applications)"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Assessor and interviewer hours available"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Hand-offs and batching between teams"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Active work is ~1% of the 26 days; rework adds ~4 days to the average file (40% x 2 loops x 5 days) and the interview queue ~8 days to screened files, so most of the rest is queueing: 35% more applications on flat staff, bunched into eight-week peaks, pushes assessors near full utilisation, where waits grow sharply.",
+        "Requiring agents to submit a complete document checklist before an application is accepted would remove most rework, since agents submit 70% of files."
+      ],
+      "hints": [
+        "Decompose lead time by what is happening to the file at each moment, as a lean practitioner would.",
+        "L1: Active work per application; Waiting time.",
+        "Active work per application: document checks, academic assessment (standard cases a rules engine could decide vs non-standard cases) and the visa-risk screening interview."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Lead time",
+          "formula": "active work time + waiting time"
+        },
+        {
+          "name": "Process efficiency",
+          "formula": "active work time / lead time = 2.5 hours / (26 days x ~7.5 hours) ≈ 1%"
+        },
+        {
+          "name": "First-year tuition at stake from lower conversion",
+          "formula": "offers x fall in conversion x annual tuition = 20,000 x 8 points x A$45,000 ≈ A$72 million a year"
+        }
+      ],
+      "commonMistakes": [
+        "Asking for more assessors first, when active work is about 1% of lead time and the delay is mostly rework and queues.",
+        "Ignoring the quality of incoming agent applications, which the university can control through agent contracts."
+      ],
+      "frameworkPick": {
+        "options": [
+          "operations",
+          "profitability",
+          "competitive-response",
+          "segmentation"
+        ],
+        "correct": [
+          "operations"
+        ],
+        "why": "The question asks how to cut processing time, which is a process question about work content, waiting and capacity.",
+        "distractorWhyNot": {
+          "profitability": "Lost tuition shows why it matters, but the question is how to fix the admissions process, not why profit moved.",
+          "competitive-response": "Rival universities may make faster offers, but the prompt describes no competitor move to respond to.",
+          "segmentation": "Sorting applicants by risk level may be one fix inside the process; the question is not which students to target."
+        }
+      }
+    },
+    {
+      "id": "education-c05",
+      "title": "Doubling a school management company",
+      "industry": "education",
+      "framework": "growth",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "India",
+      "prompt": "Our client manages 22 CBSE schools for charitable trusts and earns ₹90 crore a year: ₹60 crore in management fees (10% of the schools' fee income) and ₹30 crore in rent on nine campuses it owns. The founder wants revenue to double in five years and points out that the company's parent app now has 50,000 downloads. How should it get there?",
+      "clarifyingFacts": [
+        "Q: How full are the schools? A: About 95% full, averaging 2,200 students at about ₹1.24 lakh a year in fees. Most campuses have no spare land for new blocks.",
+        "Q: How fast can fees and rent rise? A: Assume fees rise about 8% a year; the state's fee rules require committee approval above 10%. Rent escalates about 5% a year under the leases.",
+        "Q: What do new schools look like? A: A greenfield school opens about 30% full and takes 6-7 years to mature. Many single-school trusts with running schools of about 1,800 students at about ₹1.1 lakh a year are looking for an operator.",
+        "Q: Can the company own schools? A: No. Schools must be run by not-for-profit trusts; the company can manage them under contract, own and lease campuses, and sell services to the trusts."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "How can revenue double from ₹90 crore in five years?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Existing 22 schools (~₹126 crore by year five)",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Management fees (10% of school fee income)",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Students (95% full, little spare land)"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Fee per student (~8% a year, assumed 10% cap)"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Rent on nine owned campuses",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Contracted escalation (~5% a year)"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Rent on new blocks where land allows"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "New schools under contract",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Greenfield schools with partner trusts",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Ramp-up (30% full at opening, 6-7 years to mature)"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Capital per campus and who funds it"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Taking over management of running trust schools",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Pool of single-school trusts seeking an operator"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Fee income per school (~₹20 crore) and contract terms"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "New services and adjacent offers",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Services sold to the 22 trusts",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Range of services (books, uniforms, technology)"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Price per student"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Preschools feeding the schools"
+              },
+              {
+                "id": "c3",
+                "label": "After-school and entrance-exam coaching for own students"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Existing schools reach only ~₹126 crore by year five (fees +8% a year, rent +5%), leaving a ~₹54 crore gap that new schools must fill.",
+        "Each running school taken under contract adds ~₹2 crore a year from day one (1,800 x ₹1.1 lakh x 10%), so ~25-30 contracts close the gap; greenfield schools ramp too slowly to matter within five years."
+      ],
+      "hints": [
+        "Use a gap analysis: project the base business first, then ask where the rest has to come from.",
+        "L1: Existing 22 schools; New schools under contract; New services and adjacent offers.",
+        "New services and adjacent offers: services sold to the 22 trusts (range of services, price per student), preschools feeding the schools, and after-school and entrance-exam coaching for own students."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Management fee revenue",
+          "formula": "students x fee per student x 10% = 48,400 x ₹1.24 lakh x 10% ≈ ₹60 crore"
+        },
+        {
+          "name": "Organic year-five revenue",
+          "formula": "₹60 crore x 1.08^5 + ₹30 crore x 1.05^5 ≈ ₹88 crore + ₹38 crore ≈ ₹126 crore"
+        },
+        {
+          "name": "Revenue per contracted school",
+          "formula": "1,800 students x ₹1.1 lakh x 10% ≈ ₹2 crore a year"
+        }
+      ],
+      "commonMistakes": [
+        "Chasing the 50,000 app downloads; a free parent app has no revenue model and cannot move a ₹90 crore target.",
+        "Proposing to acquire schools outright, which the not-for-profit rule does not allow; growth has to come through management contracts, leases or services."
+      ],
+      "frameworkPick": {
+        "options": [
+          "growth",
+          "ma",
+          "market-entry",
+          "profitability"
+        ],
+        "correct": [
+          "growth"
+        ],
+        "why": "The client wants to double revenue and needs to compare every source of growth, from existing schools to new contracts and adjacent offers.",
+        "distractorWhyNot": {
+          "ma": "Taking over running schools is one lever, but schools belong to trusts, so it is a management contract rather than an acquisition, and it is one of several routes.",
+          "market-entry": "Preschools or coaching are possible adjacencies, but the question asks how to double revenue across all levers, not whether to enter one market.",
+          "profitability": "Nothing suggests margins have fallen; the target is revenue scale."
+        }
+      }
+    },
+    {
+      "id": "education-c06",
+      "title": "UK university weighs an Indian campus",
+      "industry": "education",
+      "framework": "market-entry",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "India",
+      "prompt": "Our client is a UK university ranked around 250th in the world, considering an Indian campus under UGC's 2023 rules for foreign universities. It would offer undergraduate business and computing degrees at about ₹6.5 lakh a year. The vice-chancellor argues that with about 12.5 lakh Indians already at universities abroad, demand is not a concern. Should it enter?",
+      "clarifyingFacts": [
+        "Q: What do the alternatives cost? A: Assume studying in the UK costs a family about ₹35-45 lakh a year including living costs. Leading Indian private universities charge about ₹4-6 lakh a year for similar degrees.",
+        "Q: Why do Indians study abroad? A: A survey the client commissioned shows most want overseas work experience or settlement after graduating, which an Indian campus does not offer.",
+        "Q: Costs? A: About ₹150 crore to fit out a leased campus, then about ₹60 crore a year of fixed costs at steady state. Variable cost is about ₹1 lakh per student a year.",
+        "Q: Rules and goals? A: Assume UGC's rules let it set its own fees and send surpluses home, but not teach programmes online, and require the campus to be running within two years of approval. Other foreign universities have already opened campuses in India. The board wants operating break-even by year six and no dilution of the UK degree."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Can an Indian campus succeed and break even by year six?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Market attractiveness",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Addressable students",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Families wanting a UK degree without moving abroad"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Able to pay ~₹6.5 lakh a year"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Regulatory conditions (UGC 2023 rules)",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Eligibility and approval timeline"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Fee freedom, repatriation, no online programmes"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Competition",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Indian private universities",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Fees (₹4-6 lakh a year)"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Placement records"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Studying abroad",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "UK campus (~₹35-45 lakh a year all-in)"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Other destinations"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Other foreign campuses in India"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Ability to win",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Academic proposition",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Same degree as the UK award"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Option of a semester in the UK"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Delivery capability",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "Faculty: UK secondees vs local hires"
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "Employer links for placements"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Entry economics",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Upfront investment (~₹150 crore fit-out)"
+              },
+              {
+                "id": "d2",
+                "label": "Break-even enrolment",
+                "children": [
+                  {
+                    "id": "d2x",
+                    "label": "Contribution per student (~₹5.5 lakh)"
+                  },
+                  {
+                    "id": "d2y",
+                    "label": "Annual fixed cost (~₹60 crore)"
+                  }
+                ]
+              },
+              {
+                "id": "d3",
+                "label": "Intake ramp-up to year six"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "The 12.5 lakh Indians at universities abroad are mostly buying a route to overseas work and settlement, so the real market is the much smaller group who want a UK degree at home; the campus needs ~1,100 students (~365 a year over a three-year degree) to cover ₹60 crore of fixed costs.",
+        "Families will pay a premium over ₹4-6 lakh Indian private universities only if the degree is identical to the UK award and placements are proven, so early intakes will be well below steady state."
+      ],
+      "hints": [
+        "Use the standard market-entry structure, but test the demand claim in the prompt before anything else.",
+        "L1: Market attractiveness; Competition; Ability to win; Entry economics.",
+        "Ability to win: academic proposition (same degree as the UK award, a semester in the UK) and delivery capability (faculty mix, employer links for placements)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Break-even enrolment",
+          "formula": "annual fixed cost / (fee - variable cost per student) = ₹60 crore / (₹6.5 lakh - ₹1 lakh) ≈ 1,090 students"
+        },
+        {
+          "name": "Intake needed per year",
+          "formula": "break-even enrolment / 3 years ≈ 365 students"
+        }
+      ],
+      "commonMistakes": [
+        "Sizing demand from the 12.5 lakh Indians at universities abroad, most of whom are buying a route to overseas jobs rather than just a degree.",
+        "Ignoring that the rules bar online programmes and allow two years from approval to open the campus, which fixes the launch timeline and the cash needed before the first intake."
+      ],
+      "frameworkPick": {
+        "options": [
+          "market-entry",
+          "market-sizing",
+          "pricing",
+          "product-launch"
+        ],
+        "correct": [
+          "market-entry"
+        ],
+        "why": "The university has no Indian presence and must make a go or no-go decision, which needs market attractiveness, competition, ability to win and entry economics.",
+        "distractorWhyNot": {
+          "market-sizing": "Sizing the addressable students is one step, but the decision also turns on competition, capability and break-even.",
+          "pricing": "The fee is already set at about ₹6.5 lakh; price is an input to entry economics, not the question.",
+          "product-launch": "A campus can look like a new product, but the university has no Indian presence, so the decision covers an unfamiliar market, its regulator and local rivals, not just the offer."
+        }
+      }
+    },
+    {
+      "id": "education-c07",
+      "title": "Launching a job-guarantee analytics programme",
+      "industry": "education",
+      "framework": "product-launch",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "India",
+      "prompt": "Our client is an Indian online upskilling company. It wants to launch a six-month data analytics programme at ₹1.2 lakh with a job guarantee: a full refund to any learner who completes the course but is not placed in a job paying at least ₹4 lakh a year within six months. The marketing head points out that the company's free YouTube channel has 20 lakh subscribers. Should it launch, and in what form?",
+      "clarifyingFacts": [
+        "Q: What placement record exists? A: In the current programme, which has no guarantee, 70% of learners complete and 45% of completers get a ₹4 lakh+ job within six months.",
+        "Q: Costs? A: About ₹30,000 per learner to deliver (mentors, projects, platform) and about ₹25,000 to acquire each learner. Assume prices are net of GST.",
+        "Q: Employer demand? A: Partner employers hired about 1,500 of its learners last year. The launch plan targets 5,000 learners in year one.",
+        "Q: Terms? A: Refunds go only to learners who finish all projects and attend 90% of classes. A guarantee in advertising will draw scrutiny under consumer rules on misleading claims, so terms must be clear up front."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Should the company launch the job-guarantee analytics programme, and in what form?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Learner demand",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Target learners",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Fresh graduates seeking a first analytics job"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Working professionals switching roles"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Willingness to pay ₹1.2 lakh with a guarantee"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Ability to deliver placements",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Completion rate (70% today)"
+              },
+              {
+                "id": "b2",
+                "label": "Placement rate of completers (45% today)",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Learner screening at entry"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Employer hiring capacity (~1,500 a year)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Programme economics",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Revenue kept after refunds",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Price (₹1.2 lakh)"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Refund rate (completers not placed)"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Cost per learner",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "Delivery (~₹30,000)"
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "Acquisition (~₹25,000)"
+                  }
+                ]
+              },
+              {
+                "id": "c3",
+                "label": "Cash timing (refunds up to a year after enrolment)"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Launch design and risks",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Guarantee terms",
+                "children": [
+                  {
+                    "id": "d1x",
+                    "label": "Eligibility for a refund (projects, attendance)"
+                  },
+                  {
+                    "id": "d1y",
+                    "label": "Definition of a qualifying job (₹4 lakh+)"
+                  }
+                ]
+              },
+              {
+                "id": "d2",
+                "label": "Pilot size and cities for year one"
+              },
+              {
+                "id": "d3",
+                "label": "Advertising compliance and brand risk"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "At today's 45% placement of completers, about 39 of every 100 learners would claim refunds, leaving contribution of ~₹18,800 per learner; it turns negative if placement of completers falls below ~23%.",
+        "The binding constraint is employers, not demand: 5,000 learners would need ~1,575 placements at today's rates against ~1,500 partner hires, and a guarantee will attract weaker learners unless there is an entry test."
+      ],
+      "hints": [
+        "Ask what the guarantee changes: this is a launch decision in which the promised outcome, not the course, is the product.",
+        "L1: Learner demand; Ability to deliver placements; Programme economics; Launch design and risks.",
+        "Launch design and risks: guarantee terms (refund eligibility, qualifying job), pilot size and cities for year one, and advertising compliance and brand risk."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Refund rate",
+          "formula": "completion rate x (1 - placement rate of completers) = 70% x 55% ≈ 38.5%"
+        },
+        {
+          "name": "Contribution per learner",
+          "formula": "price x (1 - refund rate) - delivery - acquisition = ₹1.2 lakh x 61.5% - ₹30,000 - ₹25,000 ≈ ₹18,800"
+        },
+        {
+          "name": "Placements needed",
+          "formula": "learners x completion x placement rate = 5,000 x 70% x 45% ≈ 1,575"
+        }
+      ],
+      "commonMistakes": [
+        "Treating 20 lakh YouTube subscribers as demand; free viewers say little about who will pay ₹1.2 lakh, and demand is not the constraint.",
+        "Modelling revenue at full price and missing that refunds make the placement rate the main driver of revenue."
+      ],
+      "frameworkPick": {
+        "options": [
+          "product-launch",
+          "pricing",
+          "market-sizing",
+          "profitability"
+        ],
+        "correct": [
+          "product-launch"
+        ],
+        "why": "The client is deciding whether and how to launch a new programme, which needs demand, ability to deliver the promise, economics and launch design.",
+        "distractorWhyNot": {
+          "pricing": "The price is set; the guarantee changes revenue through refunds, which is a question of launch design and delivery rather than choosing a price.",
+          "market-sizing": "Demand is not the binding constraint, and the question is whether and how to launch, not how big the market is.",
+          "profitability": "Unit economics after refunds are one branch, but there is no existing profit problem; the decision is whether and how to launch."
+        }
+      }
+    },
+    {
+      "id": "education-c08",
+      "title": "Coaching chain faces a hybrid entrant",
+      "industry": "education",
+      "framework": "competitive-response",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "India",
+      "prompt": "Our client runs 35 JEE coaching centres across two north Indian states, charging ₹1.6 lakh a year for its two-year classroom programme. A national ed-tech company has opened 20 hybrid centres in the same cities at ₹95,000 a year and is advertising heavily. The client's new enrolments fell 18% this admission season. How should it respond?",
+      "clarifyingFacts": [
+        "Q: Where did enrolments fall? A: New enrolments fell from 17,000 to about 13,900. Class 11 admissions fell 5% (14,000 to 13,300); foundation batches for Class 9-10 students fell from 3,000 to 600.",
+        "Q: Why did foundation batches fall? A: Assume both states adopted the Centre's 2024 coaching guidelines this year, including the bar on enrolling students under 16; only students who had turned 16 could join.",
+        "Q: Where did lost Class 11 students go? A: Exit calls suggest about half of the 700 joined the entrant and the rest went to other local institutes or online courses.",
+        "Q: How big is the base? A: About 27,000 students are enrolled across both years of the programme. The client's JEE Advanced selections have been stable; the entrant has no local results yet."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "How should the chain respond to a ₹95,000 hybrid entrant?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Diagnose the fall (3,100 fewer new students)",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Foundation batches (3,000 to 600)",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Students barred by the under-16 rule"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Students lost for other reasons"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Class 11 programme (14,000 to 13,300)",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Lost to the hybrid entrant (~350)"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Lost to other institutes or online (~350)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Assess the entrant's threat",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Offer vs the client",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Price (₹95,000 vs ₹1.6 lakh)"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Faculty and results record"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Staying power",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Centre economics at ₹95,000"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Funding and commitment to the region"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Response options and payoff",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Hold price, compete on results and faculty",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Revenue protected"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Cost of faculty retention and marketing"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Launch a lower-priced hybrid batch",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "Price-sensitive students won back"
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "Cannibalisation of ₹1.6 lakh batches"
+                  }
+                ]
+              },
+              {
+                "id": "c3",
+                "label": "Cut price across the board",
+                "children": [
+                  {
+                    "id": "c3x",
+                    "label": "Revenue given up on 27,000 students (~₹175 crore)"
+                  },
+                  {
+                    "id": "c3y",
+                    "label": "Students won back (~350 a year)"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "About three-quarters of the drop (2,400 of 3,100) comes from the under-16 rule closing foundation batches, not from the entrant, which took roughly 350 students.",
+        "Matching ₹95,000 across ~27,000 enrolled students would give up ~₹175 crore a year to protect ~₹5.6 crore a year, so the client should hold price, defend on results and at most test a separate hybrid batch for price-sensitive families."
+      ],
+      "hints": [
+        "Order the structure from cause to action, and test the explanation the prompt hands you before accepting it.",
+        "L1: Diagnose the fall; Assess the entrant's threat; Response options and payoff.",
+        "Assess the entrant's threat: offer vs the client (price, faculty and results record) and staying power (centre economics at ₹95,000, funding and commitment)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Revenue lost to the entrant",
+          "formula": "students lost to it x annual fee = ~350 x ₹1.6 lakh ≈ ₹5.6 crore a year"
+        },
+        {
+          "name": "Cost of matching price",
+          "formula": "enrolled students x price cut = 27,000 x ₹65,000 ≈ ₹175 crore a year"
+        }
+      ],
+      "commonMistakes": [
+        "Assuming the entrant caused the whole 18% fall, when most of it is a regulatory change that would have happened anyway.",
+        "Cutting price across the board to win back a few hundred students, giving up far more revenue on students who were never going to leave."
+      ],
+      "frameworkPick": {
+        "options": [
+          "competitive-response",
+          "pricing",
+          "profitability",
+          "turnaround"
+        ],
+        "correct": [
+          "competitive-response"
+        ],
+        "why": "The trigger is a rival's entry at a lower price and the question is how to respond, so the structure diagnoses the threat and weighs responses.",
+        "distractorWhyNot": {
+          "pricing": "A price cut is one option to evaluate, but the question is the overall response, and the data show price is not the main cause.",
+          "profitability": "No profit fall has been reported; the trigger is a competitor's move and an enrolment drop.",
+          "turnaround": "An 18% drop in new enrolments at a chain with stable results is not a crisis that needs a rescue plan."
+        }
+      }
+    },
+    {
+      "id": "education-c09",
+      "title": "Targeting segments for online master's",
+      "industry": "education",
+      "framework": "segmentation",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "Global",
+      "prompt": "Our client is a UK university whose online master's programmes (MBA, data science, public health) receive about 12,000 enquiries a year, but only about 5% enrol. The full degree costs £15,000. The marketing team spends £3m a year, mostly on search ads aimed at the largest sources of enquiries. Which learner segments should it focus on?",
+      "clarifyingFacts": [
+        "Q: Who enquires? A: About 5,000 enquiries come from people abroad hoping to move to the UK; 3,000 from UK-based professionals paying for themselves; 3,000 from professionals abroad who want a UK degree but plan to stay where they are; 1,000 from people whose employer would pay.",
+        "Q: How do they convert? A: Visa seekers about 0.6%; UK self-funders about 9%; professionals abroad about 4%; employer-sponsored about 20%.",
+        "Q: Does an online degree help with UK immigration? A: No. Studying online gives no UK student visa or post-study work route, and many visa seekers drop out once they learn this.",
+        "Q: Other differences? A: Employer-sponsored learners complete about 90% of the time against about 70% for self-funders, and they often come in groups when a company signs up."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Which learner segments should the £3m marketing budget target?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Define segments by need and payer",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Motive",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Advance in current career"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Switch career"
+                  },
+                  {
+                    "id": "a1z",
+                    "label": "Move to the UK"
+                  },
+                  {
+                    "id": "a1w",
+                    "label": "Personal interest"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Who pays",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Self-funded"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Employer-sponsored"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Attractiveness of each segment",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Size (enquiries a year)"
+              },
+              {
+                "id": "b2",
+                "label": "Conversion to enrolment",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Enquiry to application"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Application to enrolment"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Value per enrolment",
+                "children": [
+                  {
+                    "id": "b3x",
+                    "label": "Fee collected (completion 70-90%)"
+                  },
+                  {
+                    "id": "b3y",
+                    "label": "Group and repeat enrolments"
+                  }
+                ]
+              },
+              {
+                "id": "b4",
+                "label": "Cost to acquire",
+                "children": [
+                  {
+                    "id": "b4x",
+                    "label": "Media cost per enquiry"
+                  },
+                  {
+                    "id": "b4y",
+                    "label": "Advising time per enrolment"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Fit with the offer",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Programme match (MBA, data, public health)"
+              },
+              {
+                "id": "c2",
+                "label": "Format fit",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "Part-time study across time zones"
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "Payment plans"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Visa seekers are ~40% of enquiries but under 5% of enrolments (about 30 of ~620), so cutting spend aimed at them would barely dent enrolments and could fund employer partnerships.",
+        "Employer-sponsored learners convert at ~20%, complete ~90% of the time and arrive in groups, so shifting budget towards them would cut cost per enrolment below today's ~£4,800."
+      ],
+      "hints": [
+        "Use a define, evaluate, choose sequence, and pick segment variables that predict conversion rather than geography.",
+        "L1: Define segments by need and payer; Attractiveness of each segment; Fit with the offer.",
+        "Fit with the offer: programme match (MBA, data, public health) and format fit (part-time study across time zones, payment plans)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Cost per enrolment",
+          "formula": "marketing spend / enrolments = £3m / ~620 ≈ £4,800"
+        },
+        {
+          "name": "Value per enquiry",
+          "formula": "conversion x fee x completion: employer-sponsored 20% x £15,000 x 90% ≈ £2,700 vs visa seekers 0.6% x £15,000 x 70% ≈ £63"
+        }
+      ],
+      "commonMistakes": [
+        "Segmenting by country of enquiry, which hides that motive (wanting to move to the UK) is what predicts conversion.",
+        "Targeting the largest enquiry source, when it converts at under 1%."
+      ],
+      "frameworkPick": {
+        "options": [
+          "segmentation",
+          "growth",
+          "pricing",
+          "operations"
+        ],
+        "correct": [
+          "segmentation"
+        ],
+        "why": "The question is which groups of learners to target with a fixed budget, which needs segments defined by need and ranked on attractiveness and fit.",
+        "distractorWhyNot": {
+          "growth": "More enrolments is the aim, but the question is specifically which segments to aim the budget at.",
+          "pricing": "The fee is fixed at £15,000; the problem is who the marketing reaches, not what they pay.",
+          "operations": "Low conversion looks like a funnel-process problem, but conversion differs by who enquires, not by how enquiries are handled; the question is where to aim the budget."
+        }
+      }
+    },
+    {
+      "id": "education-c10",
+      "title": "PE fund eyes preschool franchisor",
+      "industry": "education",
+      "framework": "pe-dd",
+      "secondary": [
+        "market-sizing"
+      ],
+      "difficulty": "Advanced",
+      "region": "India",
+      "prompt": "A private equity fund is considering buying 100% of an Indian preschool franchisor with 900 centres (850 franchised) for ₹650 crore, about 24x last year's EBITDA of ₹26.6 crore. Same-centre enrolment grew 14% last year and the brand signed 160 new franchisees. The fund needs 3x its money in five years and expects to exit at about 18x EBITDA. Should it invest?",
+      "clarifyingFacts": [
+        "Q: How does it make money? A: Franchisees pay a 12% royalty on fees (a typical franchised centre has 60 children at ₹55,000 a year) and buy learning kits at ₹7,000 per child, on which the franchisor earns 35%. New franchisees pay a one-time ₹7.5 lakh joining fee. The 50 company-owned centres are larger (about 100 children each, about ₹28 crore of fees in total) and earn about a 20% margin.",
+        "Q: What drove last year? A: Management attributes 9 of the 14 points of same-centre growth to children staying an extra year as several states moved the Class 1 entry age to 6, a one-time transition cohort. Joining fees were ₹12 crore against about ₹2 crore of onboarding cost.",
+        "Q: Closures and costs? A: About 9% of franchised centres close each year. Supporting a franchised centre costs about ₹1.2 lakh a year, and head-office costs are about ₹25 crore.",
+        "Q: Market? A: Take about 2.3 crore births a year, so about 6.9 crore children aged 3-5. Assume 35% live in the cities and towns the brand serves, 45% of those attend a paid private preschool, and branded chains hold about 15% of paid enrolment."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Can ₹650 crore return 3x in five years at an 18x exit?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Quality of current earnings (₹26.6 crore EBITDA)",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Recurring franchise earnings",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Royalties (12% of centre fees)"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Kit margin (35% of ₹7,000 per child)"
+                  },
+                  {
+                    "id": "a1z",
+                    "label": "Support and head-office costs"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "One-off earnings",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Joining fees net of onboarding (~₹10 crore)"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Age-6 transition cohort (~₹4 crore)"
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Company-owned centres (~₹5.6 crore)"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Market headroom",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Children in paid preschools in served areas",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Children aged 3-5 (~6.9 crore)"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Share in served areas (35%) and paying (45%)"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Branded chains' share (~15%) and the client's share of it"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Growth engine to exit",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Contribution per added centre (~₹4.2 lakh at today's fees)",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Children per centre and fee"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Support cost per centre"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Net centre additions",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "New franchisees (160 last year)"
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "Closures (~9% a year)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Deal returns",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Exit EBITDA needed (~₹108 crore)"
+              },
+              {
+                "id": "d2",
+                "label": "Centres needed to earn it"
+              },
+              {
+                "id": "d3",
+                "label": "Price justified by underlying earnings"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "About half of reported EBITDA will not repeat: ~₹10 crore of net joining fees and ~₹4 crore from the age-6 transition cohort, so underlying EBITDA is ~₹12.5 crore and the price is ~52x underlying.",
+        "A 3x return needs ~₹108 crore of EBITDA at exit; with head office at ~₹25 crore and ~₹5.6 crore from owned centres, that takes ~3,000 franchised centres at ~₹4.2 lakh each (today's fees) against 850 today, about 430 net additions a year against ~80 now.",
+        "Market headroom is not the constraint: branded chains serve ~16 lakh children and the client has ~55,000 (~3.4%), so the deal turns on the franchise engine and the price."
+      ],
+      "hints": [
+        "Work backwards from the return the fund needs, and question whether each number in the prompt will repeat before projecting it.",
+        "L1: Quality of current earnings; Market headroom; Growth engine to exit; Deal returns.",
+        "Market headroom: children in paid preschools in served areas (children aged 3-5, share in served areas and paying) and branded chains' share and the client's share of it."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Underlying EBITDA",
+          "formula": "reported EBITDA - net joining fees - transition-cohort effect = ₹26.6 crore - ₹10 crore - ~₹4.1 crore ≈ ₹12.5 crore"
+        },
+        {
+          "name": "Exit EBITDA needed",
+          "formula": "price x target multiple / exit multiple = ₹650 crore x 3 / 18 ≈ ₹108 crore"
+        },
+        {
+          "name": "Contribution per franchised centre",
+          "formula": "60 x ₹55,000 x 12% + 60 x ₹7,000 x 35% - ₹1.2 lakh ≈ ₹3.96 lakh + ₹1.47 lakh - ₹1.2 lakh ≈ ₹4.2 lakh"
+        }
+      ],
+      "commonMistakes": [
+        "Valuing the business on reported EBITDA and 14% same-centre growth without stripping out joining fees and the one-time age-6 cohort.",
+        "Arguing from market size, which is ample, instead of from the number of franchised centres the return requires."
+      ],
+      "frameworkPick": {
+        "options": [
+          "pe-dd",
+          "market-sizing",
+          "growth",
+          "ma"
+        ],
+        "correct": [
+          "pe-dd",
+          "market-sizing"
+        ],
+        "why": "A financial buyer is testing whether a price can deliver a target return, which is due diligence on earnings quality and growth, and the growth case needs a market size to check headroom.",
+        "distractorWhyNot": {
+          "growth": "The fund is deciding whether to buy at a price, not designing a growth plan for the franchisor.",
+          "ma": "There is no strategic acquirer or synergy case; the right lens is a financial buyer's return test."
+        }
+      }
+    },
+    {
+      "id": "education-c11",
+      "title": "Stopping cash burn at a test-prep company",
+      "industry": "education",
+      "framework": "turnaround",
+      "secondary": [
+        "profitability"
+      ],
+      "difficulty": "Advanced",
+      "region": "India",
+      "prompt": "Our client is an Indian test-prep company that expanded from online classes into 120 offline centres. It has ₹420 crore in the bank and burns about ₹55 crore a month. Most students pay the full fee for one- and two-year courses upfront. The board wants monthly burn below ₹5 crore within 12 months without raising new equity. What should management do?",
+      "clarifyingFacts": [
+        "Q: Where does cash go? A: Monthly collections are about ₹80 crore (offline ₹50 crore, online ₹30 crore). Monthly cash costs are about ₹135 crore: offline centres ₹70 crore, online faculty and content ₹20 crore, marketing ₹30 crore, head office and technology ₹15 crore.",
+        "Q: How do centres perform? A: The weakest 50 centres collect about ₹10 crore a month and cost about ₹28 crore. The other 70 run at about 60% seat fill, collect about ₹40 crore and cost about ₹42 crore. Assume their fill can rise to about 75% by the next admission season if students from closed centres and performance marketing are redirected to them, with collections rising in proportion and costs almost flat.",
+        "Q: What about the upfront fees? A: Students at the 50 weakest centres have prepaid about ₹90 crore for teaching not yet delivered. Assume about 40% would take refunds if their centre closed, and that state rules based on the Centre's 2024 coaching guidelines require pro-rata refunds within 10 days. Exiting those leases early costs about ₹15 crore.",
+        "Q: Marketing and overheads? A: About ₹18 crore a month is off-season brand advertising with no measurable effect on enrolments; the rest is performance marketing in admission season. Head-office costs could fall about 30%."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "How can monthly burn fall from ₹55 crore to under ₹5 crore?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Cash runway and obligations",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Runway at today's burn (~7.6 months)"
+              },
+              {
+                "id": "a2",
+                "label": "Prepaid fees for teaching not yet delivered",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Refund exposure if centres close (~₹36 crore)"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Pro-rata refunds due within 10 days"
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "One-off lease exit costs (~₹15 crore)"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Collections (₹80 crore a month)",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Offline centres (₹50 crore)",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Seat fill at the 70 stronger centres (60%)"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Fee per student and timing of collection"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Online courses (₹30 crore)",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Paid learners"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Price per course"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Cash costs (₹135 crore a month)",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Offline centres (₹70 crore)",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "50 weakest centres (₹28 crore for ₹10 crore collected)"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "70 stronger centres (₹42 crore)"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Marketing (₹30 crore)",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "Off-season brand advertising (₹18 crore)"
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "Admission-season performance marketing"
+                  }
+                ]
+              },
+              {
+                "id": "c3",
+                "label": "Online faculty and content (₹20 crore)"
+              },
+              {
+                "id": "c4",
+                "label": "Head office and technology (₹15 crore)"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Closing the 50 weakest centres (+₹18 crore a month), stopping off-season brand advertising (+₹18 crore) and cutting head office by 30% (+₹4.5 crore) takes burn to ~₹14.5 crore a month.",
+        "After ~₹51 crore of refunds and lease exits and three months of execution at today's burn, ~₹204 crore remains (~14 months at the new burn), enough to reach the next admission season, where lifting fill at the 70 remaining centres from 60% to 75% adds ~₹10 crore a month and brings burn to ~₹4.5 crore."
+      ],
+      "hints": [
+        "Treat it as a cash problem: begin with the binding constraint, then decompose monthly burn into its two sides.",
+        "L1: Cash runway and obligations; Collections; Cash costs.",
+        "Collections: offline centres (seat fill at the 70 stronger centres, fee per student and timing of collection) and online courses (paid learners, price per course)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Runway",
+          "formula": "cash / monthly burn = ₹420 crore / ₹55 crore ≈ 7.6 months"
+        },
+        {
+          "name": "Net saving from closing the weakest centres",
+          "formula": "their cash costs - collections lost = ₹28 crore - ₹10 crore = ₹18 crore a month"
+        },
+        {
+          "name": "Cash left after restructuring",
+          "formula": "₹420 crore - 3 x ₹55 crore - (₹36 crore refunds + ₹15 crore lease exits) ≈ ₹204 crore"
+        }
+      ],
+      "commonMistakes": [
+        "Reading ₹420 crore as comfortable, when it covers under eight months of burn and part of it is owed back to students if centres close.",
+        "Cutting performance marketing just before admission season, when most of the year's cash is collected."
+      ],
+      "frameworkPick": {
+        "options": [
+          "turnaround",
+          "profitability",
+          "operations",
+          "pricing"
+        ],
+        "correct": [
+          "turnaround",
+          "profitability"
+        ],
+        "why": "A cash deadline with no new equity calls for a turnaround plan sequenced within the runway, and the levers come from a line-by-line view of collections and costs.",
+        "distractorWhyNot": {
+          "operations": "Centre efficiency matters, but the question is a cash-constrained rescue of the whole business, not a process fix.",
+          "pricing": "Raising fees is one lever, but students prepay and rivals are close by; the board needs a cash rescue across the whole business, not a pricing decision."
+        }
+      }
+    },
+    {
+      "id": "education-c12",
+      "title": "Buying a Dubai premium school group",
+      "industry": "education",
+      "framework": "ma",
+      "secondary": [
+        "profitability"
+      ],
+      "difficulty": "Advanced",
+      "region": "Global",
+      "prompt": "Our client is a UK-listed group running 25 British-curriculum schools in Europe and the Middle East, four of them in Dubai. It is considering buying a group of eight premium Dubai schools for about AED 2.25 billion, 14x EBITDA of AED 161 million. The seller's plan shows EBITDA growing 10% a year, driven by fee increases. Should the client buy?",
+      "clarifyingFacts": [
+        "Q: What does the target's P&L look like? A: About 9,600 students at an average fee of AED 70,000, so revenue of about AED 672 million. Staff costs are AED 370 million and other costs AED 141 million.",
+        "Q: How are fees set? A: Dubai froze all private school fees for 2026-27, so this year's figures already reflect no increase. In other years the regulator has let schools that keep their inspection rating raise fees by an annual cost index (2.35% for 2025-26), up to twice that if the rating improves and nothing if it falls. Assume ~2.4% a year from next year. The seller's plan assumes 6% a year.",
+        "Q: Costs and capacity? A: Teacher pay and recruitment costs are rising about 4% a year and other costs about 3%. The schools are about 95% full; one campus has land for an 800-seat expansion.",
+        "Q: Synergies? A: The client estimates about AED 15 million a year from central procurement, shared teacher recruitment and back-office consolidation with its own four Dubai schools."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Is the Dubai school group worth AED 2.25 billion to the client?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Strategic fit",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Fit with the client's premium British-curriculum brand"
+              },
+              {
+                "id": "a2",
+                "label": "Scale in Dubai (4 to 12 schools)"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Standalone value",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Revenue (9,600 students x AED 70,000)",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Fee growth allowed (index ~2.4%; more only if ratings rise)"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Enrolment (95% full, no expansion in seller's plan)"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Costs",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Staff (AED 370 million, +4% a year)"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Other costs (AED 141 million, +3% a year)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Synergies and integration",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Cost synergies (~AED 15 million a year)",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Procurement and back office"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Shared teacher recruitment"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Revenue upside under the client",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "Funding and filling the 800-seat expansion"
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "Raising ratings to unlock larger fee increases"
+                  }
+                ]
+              },
+              {
+                "id": "c3",
+                "label": "One-off integration costs"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Price and deal terms",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Value vs the AED 2.25 billion price",
+                "children": [
+                  {
+                    "id": "d1x",
+                    "label": "Standalone (~AED 2.0 billion)"
+                  },
+                  {
+                    "id": "d1y",
+                    "label": "With synergies (~AED 2.2 billion)"
+                  }
+                ]
+              },
+              {
+                "id": "d2",
+                "label": "Protections (earn-out tied to ratings and fee approvals)"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "If fees can rise only ~2.4% a year while staff costs rise 4%, EBITDA drifts down from AED 161 million to ~AED 143 million by year five, against the seller's ~AED 259 million; holding EBITDA flat would need ~2.9% fee growth.",
+        "Even with AED 15 million of synergies, year-five EBITDA of ~AED 158 million at 14x is worth ~AED 2.2 billion, so at AED 2.25 billion the client hands all synergies to the seller; it should bid lower or tie part of the price to rating upgrades and the 800-seat expansion."
+      ],
+      "hints": [
+        "Use strategic-acquirer logic: build value up in layers, check what the regulator allows before trusting the seller's plan, and compare the total with the price.",
+        "L1: Strategic fit; Standalone value; Synergies and integration; Price and deal terms.",
+        "Synergies and integration: cost synergies (procurement and back office, shared teacher recruitment), revenue upside (filling the expansion, raising ratings) and one-off integration costs."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Year-five EBITDA (standalone)",
+          "formula": "672 x 1.024^5 - 370 x 1.04^5 - 141 x 1.03^5 ≈ 757 - 450 - 163 ≈ AED 143 million"
+        },
+        {
+          "name": "Simple value check (no discounting)",
+          "formula": "year-five EBITDA x 14 ≈ AED 2.0 billion standalone, ≈ AED 2.2 billion with AED 15 million of synergies"
+        }
+      ],
+      "commonMistakes": [
+        "Accepting the seller's 6% fee growth without checking what the regulator allows.",
+        "Treating synergies as upside on top of the price instead of asking how much of them the price already pays to the seller."
+      ],
+      "frameworkPick": {
+        "options": [
+          "ma",
+          "profitability",
+          "pe-dd",
+          "market-entry"
+        ],
+        "correct": [
+          "ma",
+          "profitability"
+        ],
+        "why": "A strategic buyer must decide whether a price is justified by standalone value plus synergies, and the standalone value rests on projecting the target's fee and cost lines.",
+        "distractorWhyNot": {
+          "pe-dd": "The client is a strategic operator with schools in the same city, so synergies and integration matter; a financial buyer's exit-multiple test would miss them.",
+          "market-entry": "The client already runs four schools in Dubai, so this is buying an asset in a market it knows, not entering a new one."
+        }
+      }
+    }
+  ],
+  "flaws": [
+    {
+      "id": "education-f01",
+      "title": "Coaching centre profit fall",
+      "industry": "education",
+      "framework": "profitability",
+      "difficulty": "Beginner",
+      "tree": {
+        "id": "r",
+        "label": "Why has a JEE coaching centre's annual profit fallen?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Revenue",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Students enrolled"
+              },
+              {
+                "id": "a2",
+                "label": "Fee per student after scholarships"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Costs",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Centre rent and utilities"
+              },
+              {
+                "id": "b2",
+                "label": "Study material and test printing"
+              },
+              {
+                "id": "b3",
+                "label": "Marketing and counselling"
+              },
+              {
+                "id": "b4",
+                "label": "Administrative staff"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "b",
+          "type": "gap",
+          "explanation": "The cost branch leaves out faculty pay, the largest cost at a coaching centre (often 40-50% of fee income, and higher where star teachers are on revenue shares). A profit fall cannot be diagnosed without it.",
+          "fix": "Add 'Faculty salaries and fees' under Costs."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Why has a JEE coaching centre's annual profit fallen?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Revenue",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Students enrolled"
+              },
+              {
+                "id": "a2",
+                "label": "Fee per student after scholarships"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Costs",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Centre rent and utilities"
+              },
+              {
+                "id": "b2",
+                "label": "Study material and test printing"
+              },
+              {
+                "id": "b3",
+                "label": "Marketing and counselling"
+              },
+              {
+                "id": "b4",
+                "label": "Administrative staff"
+              },
+              {
+                "id": "b5",
+                "label": "Faculty salaries and fees"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "education-f02",
+      "title": "Raising MBA programme revenue",
+      "industry": "education",
+      "framework": "growth",
+      "difficulty": "Beginner",
+      "tree": {
+        "id": "r",
+        "label": "How can a private university increase its MBA programme revenue?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Students enrolled",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Approved intake (seats)"
+              },
+              {
+                "id": "a2",
+                "label": "Share of seats filled"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Revenue per student",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Tuition fee after scholarships"
+              },
+              {
+                "id": "b2",
+                "label": "Hostel and other fees"
+              },
+              {
+                "id": "b3",
+                "label": "Faculty cost per student"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "b3",
+          "type": "not-a-driver",
+          "explanation": "Faculty cost per student is a cost. It affects the programme's surplus, but it does not change how much revenue each student brings in, so it is not a driver of revenue per student.",
+          "fix": "Remove it from the revenue tree; consider it only if the question widens to profit."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "How can a private university increase its MBA programme revenue?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Students enrolled",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Approved intake (seats)"
+              },
+              {
+                "id": "a2",
+                "label": "Share of seats filled"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Revenue per student",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Tuition fee after scholarships"
+              },
+              {
+                "id": "b2",
+                "label": "Hostel and other fees"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "education-f03",
+      "title": "Learning app's widening loss",
+      "industry": "education",
+      "framework": "profitability",
+      "difficulty": "Intermediate",
+      "tree": {
+        "id": "r",
+        "label": "Why did a K-12 learning app's operating loss widen last year?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Revenue",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Paid subscribers",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "New subscriptions sold"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Renewals"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Revenue per subscriber",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Plan prices and mix (monthly, annual)"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Discounts at the point of sale"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Costs",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Teaching and content",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Live-class tutors"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Recorded lesson production"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Selling and marketing",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Digital advertising and lead purchase"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Counsellor (sales team) pay, fixed and incentive"
+                  },
+                  {
+                    "id": "b2z",
+                    "label": "Commission per subscription closed in-house"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Technology",
+                "children": [
+                  {
+                    "id": "b3x",
+                    "label": "Video hosting and streaming"
+                  },
+                  {
+                    "id": "b3y",
+                    "label": "App development"
+                  }
+                ]
+              },
+              {
+                "id": "b4",
+                "label": "General and administrative"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "b2z",
+          "type": "overlap",
+          "explanation": "In Indian ed-tech the in-house closers are the counsellors, and their incentive pay is the commission on subscriptions they close. 'Commission per subscription closed in-house' is therefore already inside 'Counsellor (sales team) pay, fixed and incentive', and the same rupees would be counted twice.",
+          "fix": "Delete it; if useful, split counsellor pay into fixed salary and per-sale commission underneath it."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Why did a K-12 learning app's operating loss widen last year?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Revenue",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Paid subscribers",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "New subscriptions sold"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Renewals"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Revenue per subscriber",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Plan prices and mix (monthly, annual)"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Discounts at the point of sale"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Costs",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Teaching and content",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Live-class tutors"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Recorded lesson production"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Selling and marketing",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Digital advertising and lead purchase"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Counsellor (sales team) pay, fixed and incentive"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Technology",
+                "children": [
+                  {
+                    "id": "b3x",
+                    "label": "Video hosting and streaming"
+                  },
+                  {
+                    "id": "b3y",
+                    "label": "App development"
+                  }
+                ]
+              },
+              {
+                "id": "b4",
+                "label": "General and administrative"
+              }
+            ]
+          }
+        ]
+      },
+      "decoys": [
+        {
+          "nodeId": "a2y",
+          "whyFine": "Discounts reduce the price actually realised, so they belong in revenue per subscriber; they are not a selling cost and are not part of counsellor pay."
+        },
+        {
+          "nodeId": "b3x",
+          "whyFine": "Hosting and streaming recorded lessons is a different cost from producing them (studio, faculty time, editing), so it does not overlap with 'Recorded lesson production'."
+        }
+      ]
+    },
+    {
+      "id": "education-f04",
+      "title": "Coaching brand entering the UAE",
+      "industry": "education",
+      "framework": "market-entry",
+      "difficulty": "Intermediate",
+      "tree": {
+        "id": "r",
+        "label": "Should an Indian JEE and NEET coaching brand open UAE centres?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Market attractiveness",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Market size",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Indian-curriculum students in Class 11-12"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Share preparing for JEE or NEET"
+                  },
+                  {
+                    "id": "a1z",
+                    "label": "Annual fee families will pay"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Market growth (Indian-curriculum enrolment trend)"
+              },
+              {
+                "id": "a3",
+                "label": "Licensing rules for training centres"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Competition",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Local coaching institutes"
+              },
+              {
+                "id": "b2",
+                "label": "Online programmes from Indian brands"
+              },
+              {
+                "id": "b3",
+                "label": "Moving to India for coaching or a drop year"
+              },
+              {
+                "id": "b4",
+                "label": "Rivals' JEE and NEET selection results"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Ability to win",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Faculty willing to relocate to the UAE"
+              },
+              {
+                "id": "c2",
+                "label": "Brand recognition among expatriate parents"
+              },
+              {
+                "id": "c3",
+                "label": "Tie-ups with Indian-curriculum schools"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Entry economics",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Revenue (students x fee)"
+              },
+              {
+                "id": "d2",
+                "label": "Running costs (faculty, rent, visas)"
+              },
+              {
+                "id": "d3",
+                "label": "Set-up cost and payback"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "b4",
+          "type": "mixed-levels",
+          "explanation": "The other competition branches are categories of alternative a family can choose (local institutes, online brands, going to India). Selection results are not an alternative; they are an attribute on which every one of those alternatives is compared, so the node sits a level below its siblings.",
+          "fix": "Remove it as a branch and compare fees and results under each competitor category."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Should an Indian JEE and NEET coaching brand open UAE centres?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Market attractiveness",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Market size",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Indian-curriculum students in Class 11-12"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Share preparing for JEE or NEET"
+                  },
+                  {
+                    "id": "a1z",
+                    "label": "Annual fee families will pay"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Market growth (Indian-curriculum enrolment trend)"
+              },
+              {
+                "id": "a3",
+                "label": "Licensing rules for training centres"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Competition",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Local coaching institutes (fees, results)"
+              },
+              {
+                "id": "b2",
+                "label": "Online programmes from Indian brands (price, results)"
+              },
+              {
+                "id": "b3",
+                "label": "Moving to India for coaching or a drop year"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Ability to win",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Faculty willing to relocate to the UAE"
+              },
+              {
+                "id": "c2",
+                "label": "Brand recognition among expatriate parents"
+              },
+              {
+                "id": "c3",
+                "label": "Tie-ups with Indian-curriculum schools"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Entry economics",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Revenue (students x fee)"
+              },
+              {
+                "id": "d2",
+                "label": "Running costs (faculty, rent, visas)"
+              },
+              {
+                "id": "d3",
+                "label": "Set-up cost and payback"
+              }
+            ]
+          }
+        ]
+      },
+      "decoys": [
+        {
+          "nodeId": "c1",
+          "whyFine": "It looks like a cost item, but whether good faculty will move is a capability the brand needs to win, separate from what they cost under running costs."
+        },
+        {
+          "nodeId": "a1y",
+          "whyFine": "It does not overlap with the student count above it: market size is students x share preparing x fee, and this is the middle term of that product."
+        }
+      ]
+    },
+    {
+      "id": "education-f05",
+      "title": "University's slow result declaration",
+      "industry": "education",
+      "framework": "operations",
+      "difficulty": "Intermediate",
+      "tree": {
+        "id": "r",
+        "label": "Why does a state university take 60 days to declare results?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Moving answer scripts",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Collection from affiliated colleges"
+              },
+              {
+                "id": "a2",
+                "label": "Transport to central evaluation centres"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Evaluation",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Evaluators available per day"
+              },
+              {
+                "id": "b2",
+                "label": "Scripts marked per evaluator per day"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Result processing",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Marks entry, including internal marks from colleges"
+              },
+              {
+                "id": "c2",
+                "label": "Moderation and verification"
+              },
+              {
+                "id": "c3",
+                "label": "Fee charged for re-evaluation requests"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "b",
+          "type": "gap",
+          "explanation": "Evaluation time is scripts to mark divided by (evaluators x scripts per evaluator per day). The branch has the capacity terms but not the workload: the number of scripts (students x papers), which rises sharply when affiliated colleges or electives grow.",
+          "fix": "Add 'Total scripts to mark (students x papers)' under Evaluation."
+        },
+        {
+          "nodeId": "c3",
+          "type": "not-a-driver",
+          "explanation": "Re-evaluation requests are made after results are declared, so the fee charged for them cannot affect the 60 days to declaration.",
+          "fix": "Remove it; re-evaluation belongs in a separate question about post-result turnaround."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Why does a state university take 60 days to declare results?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Moving answer scripts",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Collection from affiliated colleges"
+              },
+              {
+                "id": "a2",
+                "label": "Transport to central evaluation centres"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Evaluation",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Evaluators available per day"
+              },
+              {
+                "id": "b2",
+                "label": "Scripts marked per evaluator per day"
+              },
+              {
+                "id": "b3",
+                "label": "Total scripts to mark (students x papers)"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Result processing",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Marks entry, including internal marks from colleges"
+              },
+              {
+                "id": "c2",
+                "label": "Moderation and verification"
+              }
+            ]
+          }
+        ]
+      },
+      "decoys": [
+        {
+          "nodeId": "a2",
+          "whyFine": "Universities with many affiliated colleges ship scripts to central evaluation centres, and that transport can take days, so it is a real part of the elapsed time."
+        },
+        {
+          "nodeId": "c1",
+          "whyFine": "Internal marks arrive from colleges as data and are merged during processing, a separate step from moving physical answer scripts."
+        }
+      ]
+    },
+    {
+      "id": "education-f06",
+      "title": "Test-prep loss widens as enrolments grow",
+      "industry": "education",
+      "framework": "profitability",
+      "difficulty": "Advanced",
+      "tree": {
+        "id": "r",
+        "label": "Why did a test-prep firm's operating loss widen as enrolments grew 30%?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Revenue",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Online courses",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Learners admitted"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Fee per learner after scholarships"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Offline centre programmes",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Number of centres"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Students admitted per centre"
+                  },
+                  {
+                    "id": "a2z",
+                    "label": "Fee per student after scholarships"
+                  }
+                ]
+              },
+              {
+                "id": "a4",
+                "label": "Advance fees collected for next year's batches"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Costs",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Teaching delivery",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Faculty pay"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Centre rent and running costs"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Student acquisition",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Advertising and lead generation"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Academic counsellor salaries and incentives"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Content and technology",
+                "children": [
+                  {
+                    "id": "b3x",
+                    "label": "Content production"
+                  },
+                  {
+                    "id": "b3y",
+                    "label": "Platform and hosting"
+                  }
+                ]
+              },
+              {
+                "id": "b4",
+                "label": "Scholarships awarded through admission tests"
+              },
+              {
+                "id": "b5",
+                "label": "Head office and administration"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "a",
+          "type": "gap",
+          "explanation": "Admissions x fee counts every admitted student at the full course fee, but students who leave mid-course get the unused part of the fee back (the Centre's 2024 coaching guidelines, and state laws such as Rajasthan's, require pro-rata refunds within 10 days), so the firm never earns it. With admissions up 30% and new centres filling with weaker-fit students, refunds can grow faster than admissions, so revenue needs a refunds branch.",
+          "fix": "Add 'Refunds to students who leave mid-course' under Revenue as a deduction from fees booked."
+        },
+        {
+          "nodeId": "b4",
+          "type": "overlap",
+          "explanation": "Scholarships from admission tests are fee discounts. Revenue is already measured as fee per student after scholarships, so listing them again as a cost double counts the same rupees, under different wording.",
+          "fix": "Delete it from Costs; analyse scholarship depth inside the fee-after-scholarships branches."
+        },
+        {
+          "nodeId": "a4",
+          "type": "not-a-driver",
+          "explanation": "Fees collected now for batches that start next year are deferred revenue, a liability until the teaching is delivered. They improve cash but cannot change this year's operating loss.",
+          "fix": "Remove it; track advance collections in a cash analysis, not the operating P&L."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Why did a test-prep firm's operating loss widen as enrolments grew 30%?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Revenue",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Online courses",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Learners admitted"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Fee per learner after scholarships"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Offline centre programmes",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Number of centres"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Students admitted per centre"
+                  },
+                  {
+                    "id": "a2z",
+                    "label": "Fee per student after scholarships"
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Refunds to students who leave mid-course"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Costs",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Teaching delivery",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Faculty pay"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Centre rent and running costs"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Student acquisition",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Advertising and lead generation"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Academic counsellor salaries and incentives"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Content and technology",
+                "children": [
+                  {
+                    "id": "b3x",
+                    "label": "Content production"
+                  },
+                  {
+                    "id": "b3y",
+                    "label": "Platform and hosting"
+                  }
+                ]
+              },
+              {
+                "id": "b5",
+                "label": "Head office and administration"
+              }
+            ]
+          }
+        ]
+      },
+      "decoys": [
+        {
+          "nodeId": "b2y",
+          "whyFine": "It looks like a teaching cost, but in test-prep firms academic counsellors are the sales force that converts leads, so the node belongs under student acquisition."
+        },
+        {
+          "nodeId": "a2x",
+          "whyFine": "Centre count is a real volume driver: offline revenue is centres x students per centre x fee, and new centres are where much of the 30% growth came from."
+        }
+      ]
+    },
+    {
+      "id": "education-f07",
+      "title": "Setting next year's school fee increase",
+      "industry": "education",
+      "framework": "pricing",
+      "difficulty": "Advanced",
+      "tree": {
+        "id": "r",
+        "label": "What fee increase should a private CBSE school propose for next year?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Cost increases to recover",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Teacher pay",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Pay scale revision"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Teachers added for new sections"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Other running costs",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Transport (diesel, bus loan repayments)"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Utilities and maintenance"
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Planned capital spending (labs, smart classrooms)"
+              },
+              {
+                "id": "a4",
+                "label": "Depreciation on the land the trust owns"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Room to raise fees without losing students",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Fees at comparable CBSE schools nearby"
+              },
+              {
+                "id": "b2",
+                "label": "Applications per available seat"
+              },
+              {
+                "id": "b3",
+                "label": "Applicants turned away for lack of seats"
+              },
+              {
+                "id": "b4",
+                "label": "Share of parents already paying late"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Regulatory limit",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Cap in the state fee rule (assumed 10% a year)"
+              },
+              {
+                "id": "c2",
+                "label": "Committee approval needed above the cap"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Income at the proposed fee",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Students on the roll"
+              },
+              {
+                "id": "d2",
+                "label": "Proposed fee per student"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "a4",
+          "type": "not-a-driver",
+          "explanation": "Land is not depreciated, and land the trust already owns creates no new cost next year, so this node adds nothing to the cost increase that the fee must recover.",
+          "fix": "Remove it."
+        },
+        {
+          "nodeId": "b3",
+          "type": "overlap",
+          "explanation": "Applicants turned away are applications minus seats; with the seat count known, that is exactly the information in applications per available seat, restated. Both measure excess demand for entry places.",
+          "fix": "Delete it and keep one measure of excess demand."
+        },
+        {
+          "nodeId": "d",
+          "type": "gap",
+          "explanation": "The income branch multiplies every student on the roll by the fee. Under the RTE Act, 25% of entry-level seats (and, as those children move up, a growing share of Classes 1-8) are filled by children for whom the state pays its own per-child rate, which does not rise with the school's fee. The increase falls on fewer payers, so the tree overstates the income it raises.",
+          "fix": "Count fee-paying students only and add 'RTE seats reimbursed at the state rate (unchanged by the fee)' under Income."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "What fee increase should a private CBSE school propose for next year?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Cost increases to recover",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Teacher pay",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Pay scale revision"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Teachers added for new sections"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Other running costs",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Transport (diesel, bus loan repayments)"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Utilities and maintenance"
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Planned capital spending (labs, smart classrooms)"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Room to raise fees without losing students",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Fees at comparable CBSE schools nearby"
+              },
+              {
+                "id": "b2",
+                "label": "Applications per available seat"
+              },
+              {
+                "id": "b4",
+                "label": "Share of parents already paying late"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Regulatory limit",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Cap in the state fee rule (assumed 10% a year)"
+              },
+              {
+                "id": "c2",
+                "label": "Committee approval needed above the cap"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Income at the proposed fee",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Fee-paying students on the roll"
+              },
+              {
+                "id": "d2",
+                "label": "Proposed fee per student"
+              },
+              {
+                "id": "d3",
+                "label": "RTE seats reimbursed at the state rate (unchanged by the fee)"
+              }
+            ]
+          }
+        ]
+      },
+      "decoys": [
+        {
+          "nodeId": "a1y",
+          "whyFine": "New sections add salary cost that next year's fees must cover, so they are a legitimate cost increase even though they come from a capacity decision."
+        },
+        {
+          "nodeId": "c2",
+          "whyFine": "It looks like procedure, but where approval is required above the cap it decides how large an increase the school can realistically propose."
+        },
+        {
+          "nodeId": "b4",
+          "whyFine": "It looks like a collections issue, but late payment is direct evidence of how close families already are to their limit, so it belongs in the room to raise fees."
+        }
+      ]
+    }
+  ],
+  "quick": [
+    {
+      "id": "education-q01",
+      "industry": "education",
+      "difficulty": "Beginner",
+      "question": "Which split of 'Annual fee income of a private school' is MECE?",
+      "parent": "Annual fee income of a private unaided CBSE school",
+      "options": [
+        {
+          "split": [
+            "Students enrolled x tuition fee",
+            "RTE reimbursement from the state",
+            "Transport, activity and other charges"
+          ],
+          "correct": false,
+          "why": "Overlap: 'students enrolled' includes RTE students, who pay no tuition and are already counted through the state reimbursement."
+        },
+        {
+          "split": [
+            "Tuition from Classes 1-10",
+            "Tuition from Classes 11-12",
+            "Transport, activity and other charges"
+          ],
+          "correct": false,
+          "why": "Gap: pre-primary (nursery, LKG, UKG) is left out, often 10-15% of a school's students."
+        },
+        {
+          "split": [
+            "Fee-paying students x fee per student",
+            "RTE seats x state reimbursement per child",
+            "Transport, activity and other charges"
+          ],
+          "correct": true,
+          "why": "Covers both kinds of tuition-paying seat at their own rate, plus ancillary charges, with no double counting."
+        },
+        {
+          "split": [
+            "Fee-paying students x fee per student",
+            "RTE seats x state reimbursement per child",
+            "Transport, activity and other charges",
+            "Fee increase approved this year"
+          ],
+          "correct": false,
+          "why": "Overlap: this year's increase is already in the fee per student."
+        }
+      ]
+    },
+    {
+      "id": "education-q02",
+      "industry": "education",
+      "difficulty": "Beginner",
+      "question": "Which split of 'Annual cost of a school bus fleet' is MECE?",
+      "parent": "Annual cost of running a school's own bus fleet",
+      "options": [
+        {
+          "split": [
+            "Ownership costs (loan or lease, insurance, permits)",
+            "Crew costs (drivers and attendants)",
+            "Running costs (diesel, tyres, maintenance)"
+          ],
+          "correct": true,
+          "why": "Each rupee falls in exactly one bucket: owning the bus, staffing it or running it."
+        },
+        {
+          "split": [
+            "Fixed costs",
+            "Diesel",
+            "Maintenance",
+            "Driver and attendant salaries"
+          ],
+          "correct": false,
+          "why": "Overlap: drivers and attendants are paid monthly regardless of distance, so their salaries are already fixed costs."
+        },
+        {
+          "split": [
+            "Ownership costs (loan or lease, insurance, permits)",
+            "Crew costs (drivers and attendants)",
+            "Diesel"
+          ],
+          "correct": false,
+          "why": "Gap: tyres and maintenance, a large running cost for buses on poor roads, are missing."
+        },
+        {
+          "split": [
+            "Ownership costs (loan or lease, insurance, permits)",
+            "Crew costs (drivers and attendants)",
+            "Running costs (diesel, tyres, maintenance)",
+            "Road tax and fitness certification"
+          ],
+          "correct": false,
+          "why": "Overlap: road tax and fitness certification are statutory costs of owning the bus, already inside 'permits' under ownership costs."
+        }
+      ]
+    },
+    {
+      "id": "education-q03",
+      "industry": "education",
+      "difficulty": "Beginner",
+      "question": "Which split of 'Students lost between enquiry and enrolment' is MECE?",
+      "parent": "Prospective students lost between first enquiry and enrolment at a private university",
+      "options": [
+        {
+          "split": [
+            "Enquirers who never apply",
+            "Applicants rejected",
+            "Students who choose a competitor"
+          ],
+          "correct": false,
+          "why": "Overlap: students who choose a competitor drop out at some stage of the funnel, so they are already among the losses at that stage."
+        },
+        {
+          "split": [
+            "Enquirers who never apply",
+            "Applicants not given an offer",
+            "Offer-holders who do not pay the deposit"
+          ],
+          "correct": false,
+          "why": "Gap: deposit-payers who never turn up on day one (often called summer melt) are missing."
+        },
+        {
+          "split": [
+            "Enquirers who never apply",
+            "Applicants not given an offer",
+            "Offer-holders who do not pay the deposit",
+            "Deposit-payers who do not turn up",
+            "Students who leave in the first semester"
+          ],
+          "correct": false,
+          "why": "Outside the parent: first-semester leavers have already enrolled, so they are not lost before enrolment."
+        },
+        {
+          "split": [
+            "Enquirers who never apply",
+            "Applicants not given an offer",
+            "Offer-holders who do not pay the deposit",
+            "Deposit-payers who do not turn up"
+          ],
+          "correct": true,
+          "why": "One bucket for each step of the funnel, from enquiry to the first day."
+        }
+      ]
+    },
+    {
+      "id": "education-q04",
+      "industry": "education",
+      "difficulty": "Intermediate",
+      "question": "Which split of 'Revenue of a government-exam test-series platform' is MECE?",
+      "parent": "Annual revenue of an online test-series platform for government job exams",
+      "options": [
+        {
+          "split": [
+            "Annual passes",
+            "Single-exam passes",
+            "Renewals",
+            "Institutional licences"
+          ],
+          "correct": false,
+          "why": "Overlap: renewals are annual or single-exam passes bought again, so they are already counted in those two lines."
+        },
+        {
+          "split": [
+            "Individual learners: passes sold x price",
+            "Institutional licences sold to coaching centres",
+            "Advertising and other income"
+          ],
+          "correct": true,
+          "why": "Separates the two kinds of buyer and the non-subscription income, with no overlap."
+        },
+        {
+          "split": [
+            "Individual learners: passes sold x price",
+            "Institutional licences sold to coaching centres",
+            "Advertising and other income",
+            "Revenue from SSC and banking exam passes"
+          ],
+          "correct": false,
+          "why": "Overlap: SSC and banking passes are individual passes already counted in the first line, split on a different basis."
+        },
+        {
+          "split": [
+            "Individual learners: passes sold x price",
+            "Institutional licences sold to coaching centres",
+            "Advertising and other income",
+            "Free users"
+          ],
+          "correct": false,
+          "why": "Not a driver at this level: free users pay nothing; they matter only through the passes they later buy."
+        }
+      ]
+    },
+    {
+      "id": "education-q05",
+      "industry": "education",
+      "difficulty": "Intermediate",
+      "question": "Which split of 'Change in a coaching chain's classroom enrolment' is MECE?",
+      "parent": "Change in a coaching chain's classroom enrolment this year",
+      "options": [
+        {
+          "split": [
+            "Change in Class 11 enrolment",
+            "Change in Class 12 enrolment",
+            "Change in repeat-year (dropper) enrolment",
+            "Enrolment at new centres"
+          ],
+          "correct": false,
+          "why": "Overlap: students at new centres are also Class 11, Class 12 or droppers, so the last line mixes a location basis with a grade basis and double counts."
+        },
+        {
+          "split": [
+            "Change at centres open in both years",
+            "Enrolment at centres opened this year"
+          ],
+          "correct": false,
+          "why": "Gap: enrolment lost when centres closed is missing."
+        },
+        {
+          "split": [
+            "Change at centres open in both years",
+            "Enrolment at centres opened this year",
+            "Enrolment lost at centres closed"
+          ],
+          "correct": true,
+          "why": "A like-for-like bridge: same centres, additions and closures, which together explain the whole change."
+        },
+        {
+          "split": [
+            "Change at centres open in both years",
+            "Enrolment at centres opened this year",
+            "Enrolment lost at centres closed",
+            "Students moving from classroom to the chain's online batches"
+          ],
+          "correct": false,
+          "why": "Overlap: students who switch to online leave classroom batches at existing centres, so they are already inside the like-for-like change."
+        }
+      ]
+    },
+    {
+      "id": "education-q06",
+      "industry": "education",
+      "difficulty": "Intermediate",
+      "question": "Which split of 'Monthly revenue of a coaching-hub hostel' is MECE?",
+      "parent": "Monthly revenue of a student hostel near a coaching hub",
+      "options": [
+        {
+          "split": [
+            "Occupied beds x monthly rent",
+            "Mess (meal) charges",
+            "Other charges (laundry, air conditioning)"
+          ],
+          "correct": true,
+          "why": "Rent on occupied beds plus the two other paid services covers revenue without overlap."
+        },
+        {
+          "split": [
+            "Beds available x monthly rent",
+            "Mess (meal) charges",
+            "Other charges (laundry, air conditioning)"
+          ],
+          "correct": false,
+          "why": "Gap: occupancy is missing, so empty beds would be counted as earning rent."
+        },
+        {
+          "split": [
+            "Occupied beds x monthly rent",
+            "Mess (meal) charges",
+            "Other charges (laundry, air conditioning)",
+            "Security deposits collected"
+          ],
+          "correct": false,
+          "why": "Not a driver: a refundable deposit is a liability owed back to the student, not revenue."
+        },
+        {
+          "split": [
+            "Occupied beds x monthly rent",
+            "Mess (meal) charges",
+            "Other charges (laundry, air conditioning)",
+            "Rent from repeat-year (dropper) residents"
+          ],
+          "correct": false,
+          "why": "Overlap: droppers occupy beds that are already in occupied beds x rent."
+        }
+      ]
+    },
+    {
+      "id": "education-q07",
+      "industry": "education",
+      "difficulty": "Advanced",
+      "question": "Which split of 'Change in India's higher education GER' is MECE?",
+      "parent": "Change in India's gross enrolment ratio (GER) in higher education",
+      "options": [
+        {
+          "split": [
+            "Change in enrolment of 18-23 year-olds",
+            "Change in population aged 18-23"
+          ],
+          "correct": false,
+          "why": "Gap: GER counts enrolled students of any age against the 18-23 population, so students older or younger than 18-23 are missing (that version is the net enrolment ratio)."
+        },
+        {
+          "split": [
+            "Change in total enrolment (any age)",
+            "Change in population aged 18-23",
+            "Change in number of colleges"
+          ],
+          "correct": false,
+          "why": "Mixed levels: more colleges can raise enrolment, so this is a driver one level below total enrolment, not a third component of the ratio."
+        },
+        {
+          "split": [
+            "Change in total enrolment (any age)",
+            "Change in population aged 18-23",
+            "Change in dropout rate"
+          ],
+          "correct": false,
+          "why": "Overlap: dropouts already reduce total enrolment, so counting them again double counts."
+        },
+        {
+          "split": [
+            "Change in total enrolment (any age)",
+            "Change in population aged 18-23"
+          ],
+          "correct": true,
+          "why": "GER is total higher-education enrolment of any age divided by the 18-23 population, so these two terms explain any change."
+        }
+      ]
+    },
+    {
+      "id": "education-q08",
+      "industry": "education",
+      "difficulty": "Advanced",
+      "question": "Which split of 'Lifetime fee revenue from a nursery joiner' is MECE?",
+      "parent": "Lifetime fee revenue from a child who joins a K-12 school in nursery",
+      "options": [
+        {
+          "split": [
+            "Expected years enrolled",
+            "Average annual fee over those years",
+            "Annual fee increases"
+          ],
+          "correct": false,
+          "why": "Overlap: an average fee over the years already reflects the yearly increases."
+        },
+        {
+          "split": [
+            "Expected years enrolled, allowing for leavers",
+            "Average annual fee over those years"
+          ],
+          "correct": true,
+          "why": "Lifetime revenue is expected years x average fee, with attrition inside the expected years and increases inside the average fee."
+        },
+        {
+          "split": [
+            "Years from nursery to Class 12",
+            "Average annual fee over those years"
+          ],
+          "correct": false,
+          "why": "Gap: it assumes every child stays to Class 12; attrition (re-enrolment below 100%) is missing."
+        },
+        {
+          "split": [
+            "Expected years enrolled, allowing for leavers",
+            "Average annual fee over those years",
+            "Siblings who join later"
+          ],
+          "correct": false,
+          "why": "Not part of the parent: a sibling's fees are another child's lifetime revenue, even if this child brought them in."
+        }
+      ]
+    }
+  ],
+  "chainDrills": [
+    {
+      "id": "education-v01",
+      "industry": "education",
+      "difficulty": "Beginner",
+      "type": "locate",
+      "prompt": "Re-enrolment into Class 2 fell from 94% to 86% at one school in a chain. Exit forms mostly cite 75-minute bus rides after transport routes were merged last year to save diesel. Teaching scores and fees are in line with the chain's other schools. Which stage caused the drop?",
+      "options": [
+        "s3",
+        "s4",
+        "s5",
+        "s6"
+      ],
+      "answer": [
+        "s4"
+      ],
+      "why": "The loss shows up in re-enrolment (s6), but the cause is a student-services decision, the merged bus routes, which sits in teaching delivery and student services (s4). Admissions (s3) did their job a year earlier, and assessment (s5) is not involved at Class 2."
+    },
+    {
+      "id": "education-v02",
+      "industry": "education",
+      "difficulty": "Beginner",
+      "type": "order",
+      "prompt": "Put the stages of the education value chain in order, starting from third-party suppliers, then the institution's own set-up, through to the student's outcome.",
+      "options": [
+        "s4",
+        "s6",
+        "s2",
+        "s5",
+        "s1",
+        "s3"
+      ],
+      "answer": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6"
+      ],
+      "why": "Suppliers provide content and learning materials; the institution then needs a campus and its approvals before it may admit anyone; admissions bring students in; teaching and services are delivered; students are assessed and certified; outcomes (placements, selections, re-enrolment) follow and feed next year's demand."
+    },
+    {
+      "id": "education-v03",
+      "industry": "education",
+      "difficulty": "Intermediate",
+      "type": "locate",
+      "prompt": "A NEET coaching chain's selection rate at its eight new centres is half that of its older centres. Faculty come from the same pool, teaching hours and syllabus coverage match, and test papers are identical. To fill seats in their first year, the new centres admitted students without the chain's usual screening test. Where is the problem?",
+      "options": [
+        "s3",
+        "s4",
+        "s5",
+        "s6"
+      ],
+      "answer": [
+        "s3"
+      ],
+      "why": "Selections are an outcome (s6) and the gap shows up in test scores (s5), but delivery (s4) is matched across centres. What differs is who was admitted: dropping the screening test changed the intake, which is an admissions decision (s3)."
+    },
+    {
+      "id": "education-v04",
+      "industry": "education",
+      "difficulty": "Intermediate",
+      "type": "assign",
+      "prompt": "Assign each cost to the value chain stage where it is incurred.",
+      "items": [
+        {
+          "item": "Licence fee paid to a publisher for a question bank used in weekly practice tests",
+          "stage": "s1"
+        },
+        {
+          "item": "Building a chemistry lab required for board affiliation",
+          "stage": "s2"
+        },
+        {
+          "item": "Commission paid to an overseas recruitment agent for each enrolled student",
+          "stage": "s3"
+        },
+        {
+          "item": "Diesel for the school's bus fleet",
+          "stage": "s4"
+        },
+        {
+          "item": "Board registration fees for Class 10 candidates",
+          "stage": "s5"
+        },
+        {
+          "item": "Salary of the campus placement officer",
+          "stage": "s6"
+        }
+      ],
+      "why": "Two are tricky. The question bank is used in tests, but it is bought-in content from a supplier, so it sits in s1, not assessment. The lab is used for teaching, but it is built to meet affiliation norms before teaching can start, so it is campus and approvals (s2). Diesel is a student-services cost in s4; board registration is certification (s5)."
+    },
+    {
+      "id": "education-v05",
+      "industry": "education",
+      "difficulty": "Advanced",
+      "type": "locate",
+      "prompt": "A K-12 chain's Class 10 board results fell sharply in mathematics only, across all 30 schools, in the year it replaced its licensed lesson plans and question bank with cheaper in-house material. Teacher attendance, hours taught and class sizes were unchanged, and the board's marking scheme did not change. Which stage is the root cause?",
+      "options": [
+        "s1",
+        "s4",
+        "s5",
+        "s6"
+      ],
+      "answer": [
+        "s1"
+      ],
+      "why": "The drop appears in assessment (s5) and will hit outcomes (s6), and it is tempting to blame teaching (s4). But delivery inputs did not change, the fall is limited to one subject across every school, and it coincides with the switch in content. That points to content and learning materials (s1)."
+    },
+    {
+      "id": "education-v06",
+      "industry": "education",
+      "difficulty": "Advanced",
+      "type": "locate",
+      "prompt": "A coaching chain's new centre in a tier-3 town enrolled 30% fewer students than planned in its first session. Leads and counselling conversion per week matched plan, and fees matched nearby rivals. The centre opened six weeks late because its building safety certificate, needed for registration, arrived late, so it missed most of the peak admission window. Which stage caused the shortfall?",
+      "options": [
+        "s2",
+        "s3",
+        "s4",
+        "s6"
+      ],
+      "answer": [
+        "s2"
+      ],
+      "why": "The shortfall appears in admissions (s3), but conversion per week was on plan; the centre simply had fewer weeks to sell. The delay came from the safety certificate and registration, which is campus, infrastructure and approvals (s2)."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+# Roadmap
+
+- [x] Verify AI grading, dashboard, Review mistakes end to end (signed in)
+- [x] Visual tree diagrams everywhere (horizontal, colour per branch, level labels, mobile vertical)
+- [x] Outline/Diagram toggle + live preview in editor
+- [x] Graded side-by-side diagrams with overlap/gap/mixed/good highlights + legend; rubric bars + ring
+- [x] Learn section: 6 lessons, quizzes, progress tracking
+- [x] Framework library: full trees, triggers, 3 examples each, hypotheses, key numbers, mistakes panel
+- [x] Industry cheat sheets (17)
+- [x] Framework chooser decision tree page
+- [x] Progressive hints (3) with score penalty; similar worked example
+- [x] Dashboard: radar, error bars, streak calendar, lesson progress
+- [x] Glossary (searchable)
+- [x] Esquire-style editorial redesign (masthead, colophon, drop caps, pull quotes, issue numbering, print palette)
+- [x] Tree interactivity: animate in, fold/unfold, drag-and-drop, keyboard shortcuts, step-by-step reveal
+- [x] Value chains: flow, stage detail, KPI tooltips, waterfall, order and sort drills
+- [x] Glossary flip cards + drill; Quick MECE checks with streak
+- [x] Reveal answer everywhere; generated cases include model tree, hints, hypotheses, metrics
+- [x] Remove countdowns, scheduled plans and interview-date storage; keep next-drill recommendation and progress visuals
+- [ ] Connect project to GitHub repo (user action: Project settings → Git; Lovable creates its own new repo, cannot link existing Parthsarthi98/structure-gym)
+- [x] Enforce strict grading caps and no upward rounding
+- [x] Generate challenging cases with distractors and clear answers
+- [x] Intermediate default, Advanced-only Hard mode, hidden hints and neutral shuffled options
+- [x] Optional flaw decoys with false-positive explanations; test demanding practice rules
+- [x] Load reviewed exercise bank (17 industries) and replace seeded cases, flaws, quick checks and value chains
+- [x] Work without sign-in: browser storage by default, optional sync across devices

@@ -1,0 +1,4027 @@
+{
+  "industry": "healthcare",
+  "valueChain": {
+    "summary": "Money is made by turning molecules and clinical skill into treatments that someone will pay for: innovators and branded drug makers earn on intellectual property and doctor relationships, while hospitals earn on scarce specialists and beds. Every stage in between (API makers, distributors, chemists, payers) earns a volume-driven margin, and in India much of the final bill is still paid by the patient.",
+    "stages": [
+      {
+        "id": "s1",
+        "name": "Research, trials and approval",
+        "activities": [
+          "Drug discovery and device design",
+          "Pre-clinical and clinical trials (Phase I to III)",
+          "Regulatory filings with CDSCO, USFDA and EMA",
+          "Patent filing and defence"
+        ],
+        "players": [
+          "Global innovator pharma companies",
+          "Biotech start-ups",
+          "Contract research organisations (CROs)",
+          "R&D units of Indian generic makers (ANDA filings)"
+        ],
+        "revenueDrivers": [
+          "Licensing, milestone and royalty payments",
+          "Value of approved products and patents",
+          "CRO service fees"
+        ],
+        "costDrivers": [
+          "Clinical trial cost per patient",
+          "Failure rate of candidates",
+          "Scientist salaries and lab costs"
+        ],
+        "kpis": [
+          {
+            "name": "Probability of approval from Phase I",
+            "formula": "drugs approved / drugs entering Phase I",
+            "benchmark": "roughly 10% across therapy areas, lower in oncology (approx.)"
+          },
+          {
+            "name": "R&D intensity",
+            "formula": "R&D spend / revenue",
+            "benchmark": "about 15-20% for global innovators; about 6-9% for large Indian generic makers (approx.)"
+          }
+        ],
+        "marginNote": "Loss-making as a stage; the return comes later through patented sales, which can earn 30%+ EBITDA for successful products."
+      },
+      {
+        "id": "s2",
+        "name": "API and inputs manufacturing",
+        "activities": [
+          "Making key starting materials (KSMs) and intermediates",
+          "Synthesising active pharmaceutical ingredients (APIs)",
+          "Supplying excipients and packaging materials",
+          "Contract development and manufacturing (CDMO)"
+        ],
+        "players": [
+          "API manufacturers",
+          "Chinese KSM and intermediate suppliers",
+          "CDMOs",
+          "Excipient and packaging suppliers"
+        ],
+        "revenueDrivers": [
+          "API volume x price per kg",
+          "Long-term supply contracts with formulators",
+          "CDMO project and supply fees"
+        ],
+        "costDrivers": [
+          "KSM and solvent prices",
+          "Batch yield and solvent recovery",
+          "Effluent treatment and environmental compliance",
+          "Power"
+        ],
+        "kpis": [
+          {
+            "name": "Batch yield",
+            "formula": "actual output / theoretical output",
+            "benchmark": "85-95% per step for mature processes (approx.); overall yield across a multi-step synthesis is lower"
+          },
+          {
+            "name": "KSM import dependence",
+            "formula": "imported KSM value / total KSM value",
+            "benchmark": "around two-thirds from China for many bulk drugs (approx.), which the PLI scheme for bulk drugs aims to reduce"
+          }
+        ],
+        "marginNote": "Commodity APIs earn about 12-18% EBITDA; complex APIs and CDMO work about 20-30%."
+      },
+      {
+        "id": "s3",
+        "name": "Formulation and brand marketing",
+        "activities": [
+          "Converting APIs into tablets, injectables and devices",
+          "Quality control and plant compliance (revised Schedule M, USFDA cGMP)",
+          "Detailing to doctors through medical representatives",
+          "Brand building, samples and medical education"
+        ],
+        "players": [
+          "Indian branded generic companies",
+          "Subsidiaries of multinational pharma",
+          "Medical device makers",
+          "Contract formulators (loan licensing)"
+        ],
+        "revenueDrivers": [
+          "Prescriptions x net price per unit",
+          "New launches and brand extensions",
+          "Export sales (US generics, emerging markets)"
+        ],
+        "costDrivers": [
+          "API and packaging",
+          "Field force cost",
+          "Plant quality and compliance",
+          "Promotion and samples"
+        ],
+        "kpis": [
+          {
+            "name": "Field force productivity (PCPM)",
+            "formula": "monthly sales / number of medical reps",
+            "benchmark": "about ₹6-10 lakh per rep per month for leading Indian firms (approx.)"
+          },
+          {
+            "name": "Gross margin",
+            "formula": "(net sales - cost of goods) / net sales",
+            "benchmark": "60-70% for Indian branded domestic businesses (approx.)"
+          }
+        ],
+        "marginNote": "The richest stage in Indian pharma: branded domestic businesses earn about 20-30% EBITDA."
+      },
+      {
+        "id": "s4",
+        "name": "Trade distribution",
+        "activities": [
+          "Carrying and forwarding (C&F) agents receive stock from plants",
+          "Stockists supply chemists and hospitals",
+          "Credit to chemists and handling of expiry returns",
+          "Cold chain for vaccines and biologics"
+        ],
+        "players": [
+          "C&F agents",
+          "Stockists and super-stockists",
+          "Organised B2B distributors and e-B2B platforms",
+          "Hospital supply distributors"
+        ],
+        "revenueDrivers": [
+          "Trade margin of about 8-10% on price to retailer",
+          "Volume handled per stockist"
+        ],
+        "costDrivers": [
+          "Inventory and credit extended to chemists",
+          "Warehousing and delivery",
+          "Expiry and breakage"
+        ],
+        "kpis": [
+          {
+            "name": "Channel inventory days",
+            "formula": "stock held / average daily sales",
+            "benchmark": "about 30-45 days in Indian pharma (approx.)"
+          },
+          {
+            "name": "Fill rate",
+            "formula": "order lines supplied / order lines received",
+            "benchmark": "90%+ for good stockists"
+          }
+        ],
+        "marginNote": "Thin: about 2-4% EBITDA once working capital is paid for."
+      },
+      {
+        "id": "s5",
+        "name": "Point of care: hospitals, clinics and pharmacies",
+        "activities": [
+          "Diagnosis and treatment in hospitals and clinics",
+          "Diagnostic testing",
+          "Dispensing at retail and hospital pharmacies",
+          "Home care and teleconsultation"
+        ],
+        "players": [
+          "Private hospital chains",
+          "Standalone hospitals and nursing homes",
+          "Government hospitals and health centres",
+          "Retail chemists and pharmacy chains",
+          "Diagnostic labs"
+        ],
+        "revenueDrivers": [
+          "Occupied bed-days x ARPOB",
+          "Outpatient visits and day-care procedures",
+          "Pharmacy sales x retail margin"
+        ],
+        "costDrivers": [
+          "Doctor fees and nursing staff",
+          "Drugs, consumables and implants",
+          "Buildings and medical equipment"
+        ],
+        "kpis": [
+          {
+            "name": "ARPOB",
+            "formula": "hospital revenue (inpatient plus outpatient) / occupied bed-days, as Indian listed chains report it",
+            "benchmark": "about ₹45,000-80,000 a day for large listed metro chains (approx., FY26); well below that in tier-2 cities"
+          },
+          {
+            "name": "Bed occupancy",
+            "formula": "occupied bed-days / available bed-days",
+            "benchmark": "65-75% for mature private hospitals; ICRA's sample of 11 listed chains averaged about 64% in FY2026, diluted by new beds"
+          },
+          {
+            "name": "Pharmacy gross margin",
+            "formula": "(sales - cost of goods) / sales",
+            "benchmark": "about 20-22% for pharmacy chains (approx.)"
+          }
+        ],
+        "marginNote": "Mature private hospitals earn about 20-25% EBITDA after a 3-5 year ramp-up (ICRA's listed sample averaged about 24% in FY2026); pharmacy chains earn about 4-8%."
+      },
+      {
+        "id": "s6",
+        "name": "Payment and reimbursement",
+        "activities": [
+          "Patients paying out of pocket",
+          "Health insurers and TPAs processing claims",
+          "Government schemes (PM-JAY, CGHS, ESIC, state schemes) paying package rates",
+          "Employer group health cover"
+        ],
+        "players": [
+          "Standalone health insurers and general insurers",
+          "Third-party administrators (TPAs)",
+          "National Health Authority and state health agencies",
+          "Employers"
+        ],
+        "revenueDrivers": [
+          "Premiums earned",
+          "Investment income on premiums held",
+          "Government budget allocations to schemes"
+        ],
+        "costDrivers": [
+          "Claims paid",
+          "Distribution commissions",
+          "Claims processing and fraud control"
+        ],
+        "kpis": [
+          {
+            "name": "Incurred claims ratio",
+            "formula": "claims incurred / premiums earned",
+            "benchmark": "about 60-70% for standalone health insurers; often near or above 100% on group business (approx.)"
+          },
+          {
+            "name": "Out-of-pocket share",
+            "formula": "household health spending / total health expenditure",
+            "benchmark": "about 43% of total health expenditure in 2022-23 (National Health Accounts, released 2026)"
+          }
+        ],
+        "marginNote": "Thin underwriting margins, with combined ratios near 100%; insurers earn mainly on investment income, and government package rates cap what providers earn."
+      }
+    ],
+    "profitPools": "Profit concentrates in two places: branded and patented formulations (s3), where intellectual property and doctor relationships support 60-70% gross margins, and mature private hospitals in metros (s5), where senior specialists and scarce tertiary beds support about 20-25% EBITDA. Distribution and payers are volume businesses on thin margins, and commodity APIs are exposed to swings in Chinese input prices.",
+    "unitEconomics": {
+      "unit": "per ₹100 of MRP for a branded generic strip sold through a chemist (approx.)",
+      "lines": [
+        {
+          "item": "MRP paid by the patient (incl. 5% GST)",
+          "value": "₹100.0"
+        },
+        {
+          "item": "GST",
+          "value": "-₹4.8"
+        },
+        {
+          "item": "Chemist margin (about 20% of ex-GST price)",
+          "value": "-₹19.0"
+        },
+        {
+          "item": "Stockist margin (about 10% of price to retailer)",
+          "value": "-₹7.6"
+        },
+        {
+          "item": "Cost of goods (API, excipients, packaging, conversion)",
+          "value": "-₹24.0"
+        },
+        {
+          "item": "Field force and promotion",
+          "value": "-₹13.7"
+        },
+        {
+          "item": "Distribution, C&F, overheads and R&D",
+          "value": "-₹11.7"
+        }
+      ],
+      "result": "Company EBITDA ≈ ₹19.2 per ₹100 of MRP, about 28% of its ₹68.6 net realisation"
+    },
+    "india": "India's domestic market runs on branded generics: doctors prescribe by brand, medical reps create demand, more than 8 lakh chemists dispense, and the NPPA caps prices of NLEM drugs under the DPCO while limiting other products to 10% price increases a year. Over 40% of health spending is still out of pocket, while PM-JAY covers hospitalisation up to ₹5 lakh per family a year at package rates (with a further ₹5 lakh for people aged 70 and over since 2024), so payer mix drives hospital economics. CDSCO regulates drugs and devices at home, and USFDA inspections decide the fate of export plants.",
+    "workedExample": {
+      "problem": "A mid-sized Indian branded generics company's EBITDA margin fell from 24% to 19% in a year, though prescriptions and MRPs were flat.",
+      "trace": [
+        "Start at the customer end (s5): chemist sales and prescriptions are flat and MRPs unchanged, so demand is not the problem.",
+        "Distribution (s4): stockist inventory days and trade margins are unchanged, so the company still books about ₹68.6 per ₹100 of MRP.",
+        "Formulation (s3): gross margin fell about 5 points while field force cost per rep was flat, so the decline sits in cost of goods.",
+        "API and inputs (s2): API prices for the two largest molecules rose about 40% after Chinese KSM supply tightened, taking cost of goods from about ₹24 to about ₹27.4 per ₹100 of MRP.",
+        "Both molecules are on the NLEM, so their prices can rise only by the annual WPI-linked revision; the cost shock cannot be passed on to patients."
+      ],
+      "lesson": "Where downstream prices are capped, an upstream cost shock lands entirely on the manufacturer's margin, so trace the chain upstream before blaming sales or marketing."
+    }
+  },
+  "cases": [
+    {
+      "id": "healthcare-c01",
+      "title": "Pune hospital profits fall despite growth",
+      "industry": "healthcare",
+      "framework": "profitability",
+      "secondary": [],
+      "difficulty": "Beginner",
+      "region": "India",
+      "prompt": "Our client owns a 300-bed multi-specialty hospital in Pune. Over two years its revenue grew from ₹260 crore to ₹310 crore, but EBITDA margin fell from 21% to 15%. The promoter wants to know why profit fell and what to fix first.",
+      "clarifyingFacts": [
+        "Q: Has capacity or the service mix changed? A: No new beds. A cardiac cath lab and an oncology day-care unit opened 18 months ago; stents and most chemotherapy drugs they use are under NPPA price ceilings.",
+        "Q: What is the payer mix? A: Insured and corporate cashless patients rose from 35% to 50% of inpatient revenue; self-pay fell by the same amount. Government scheme patients are under 5%.",
+        "Q: How have occupancy and ARPOB moved? A: Occupancy rose from 68% to 74% and ARPOB rose about 10%.",
+        "Q: Any one-off costs? A: None known. Doctor payouts and staff salaries are the two largest cost lines."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Why did EBITDA fall from ₹55 cr to ₹47 cr despite 19% growth?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Revenue mix and realisation",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Admissions and bed-days by specialty, incl. day-care"
+              },
+              {
+                "id": "a2",
+                "label": "Net realisation per bed-day by payer",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Self-pay tariffs"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Insurer and corporate negotiated rates"
+                  },
+                  {
+                    "id": "a2z",
+                    "label": "Claim deductions and disallowances"
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Outpatient consults, diagnostics and pharmacy"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Variable costs per patient",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Fee-for-service doctor payouts"
+              },
+              {
+                "id": "b2",
+                "label": "Drugs, consumables and implants (stents)"
+              },
+              {
+                "id": "b3",
+                "label": "Food, laundry and outsourced patient services"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Fixed costs",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Salaried and retainer doctors"
+              },
+              {
+                "id": "c2",
+                "label": "Nursing, technician and admin salaries"
+              },
+              {
+                "id": "c3",
+                "label": "Facility and overheads: rent, power, maintenance, IT"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Moving 15 points of inpatient revenue from self-pay to insurers at rates 15-20% below tariff, plus about 4% claim deductions on that business, costs about ₹7.5-10 crore a year, roughly half of the 6-point margin fall (assuming inpatient revenue is about three-quarters of the total).",
+        "The cath lab and oncology unit run below break-even volume, adding fixed costs and low-margin consumables: price-capped stents and chemotherapy drugs lift ARPOB but add little profit.",
+        "New specialists hired on 25-30% revenue-share contracts have pushed doctor payouts up faster than revenue."
+      ],
+      "hints": [
+        "Use the profit identity, and split costs by how they behave as patient volume changes.",
+        "First level: revenue mix and realisation, variable costs per patient, fixed costs.",
+        "Fixed costs: salaried and retainer doctors; nursing, technician and admin salaries; facility and overheads (rent, power, maintenance, IT)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "ARPOB",
+          "formula": "inpatient revenue / occupied bed-days"
+        },
+        {
+          "name": "Doctor cost ratio",
+          "formula": "total doctor payouts / gross revenue"
+        },
+        {
+          "name": "EBITDA margin",
+          "formula": "EBITDA / revenue"
+        }
+      ],
+      "commonMistakes": [
+        "Concluding 'costs went up' without checking realisation per bed-day: revenue grew, so the question is margin per patient, and payer mix is the first suspect.",
+        "Treating the cath lab and oncology unit as pure upside because they added revenue, without checking their consumable costs and doctor revenue share."
+      ],
+      "frameworkPick": {
+        "options": [
+          "profitability",
+          "growth",
+          "operations",
+          "pricing"
+        ],
+        "correct": [
+          "profitability"
+        ],
+        "why": "The question is why profit fell while revenue rose, which is a margin diagnosis across revenue mix and cost lines.",
+        "distractorWhyNot": {
+          "growth": "Revenue is already growing 9% a year; the problem is margin, not the top line.",
+          "operations": "Operating efficiency may explain part of the cost side, but starting there ignores the payer-mix effect on revenue.",
+          "pricing": "Insurer tariffs matter, but pricing is one branch of the diagnosis, not the whole of it."
+        }
+      }
+    },
+    {
+      "id": "healthcare-c02",
+      "title": "Sizing India's haemodialysis market",
+      "industry": "healthcare",
+      "framework": "market-sizing",
+      "secondary": [],
+      "difficulty": "Beginner",
+      "region": "India",
+      "prompt": "A dialysis services chain is preparing to raise funds. Its bankers' draft puts India's haemodialysis market at ₹20,000 crore, built from chronic kidney disease prevalence. How big is the market today in annual revenue, and how did you get there?",
+      "clarifyingFacts": [
+        "Q: Value or volume, and for which year? A: Annual value in ₹ crore for the current year, counting what providers are paid by patients, insurers or government.",
+        "Q: Do we include peritoneal dialysis and transplants? A: No, maintenance haemodialysis sessions only.",
+        "Q: Any data on patients? A: Assume about 2.2 lakh people reach end-stage kidney disease each year; estimate the rest.",
+        "Q: Who pays for sessions? A: A mix of self-pay, private insurance and government programmes such as the PM National Dialysis Programme and PM-JAY. Assume government programmes pay providers about ₹1,200-1,500 a session."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Annual revenue from maintenance haemodialysis sessions in India",
+        "children": [
+          {
+            "id": "a",
+            "label": "Patients on maintenance haemodialysis",
+            "children": [
+              {
+                "id": "a1",
+                "label": "New end-stage kidney patients a year (~2.2 lakh)"
+              },
+              {
+                "id": "a2",
+                "label": "Share who start haemodialysis (access, affordability)"
+              },
+              {
+                "id": "a3",
+                "label": "Average years on dialysis (survival, dropout, transplant)"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Sessions per patient per year",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Prescribed frequency: twice vs thrice weekly"
+              },
+              {
+                "id": "b2",
+                "label": "Adherence: share of prescribed sessions taken"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Average price per session, weighted by payer",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Government programmes: PMNDP and PM-JAY package rates",
+                "children": []
+              },
+              {
+                "id": "c2",
+                "label": "Self-pay at private centres and hospitals",
+                "children": []
+              },
+              {
+                "id": "c3",
+                "label": "Private insurance and corporate cover",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Only about 40% of new end-stage patients start haemodialysis and they stay on it for about 2.5 years on average, so the patient stock is about 2.2 lakh rather than the millions implied by CKD prevalence.",
+        "Most patients dialyse twice a week rather than the clinical norm of three because they pay out of pocket, so sessions per patient are about 95 a year, not 150.",
+        "Government-funded sessions at about ₹1,200-1,500 are now a large share of volume, pulling the blended price to about ₹2,000, so the market is roughly ₹4,000-4,500 crore (2.2 lakh patients x 95 sessions x ₹2,000 ≈ ₹4,200 crore), a fifth of the bankers' figure."
+      ],
+      "hints": [
+        "Build a multiplicative chain that starts from the flow of patients, not from disease prevalence.",
+        "First level: patients on maintenance haemodialysis, sessions per patient per year, average price per session.",
+        "Sessions per patient: prescribed frequency (twice versus thrice weekly) x adherence (share of prescribed sessions actually taken)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Market value",
+          "formula": "patients x sessions per patient per year x average price per session"
+        },
+        {
+          "name": "Patient stock",
+          "formula": "new patients a year x share starting dialysis x average years on dialysis"
+        }
+      ],
+      "commonMistakes": [
+        "Starting from chronic kidney disease prevalence (about a tenth of adults), as the bankers did, without narrowing to end-stage patients actually on dialysis, which overstates the market several times over.",
+        "Assuming three sessions a week for everyone; in India many patients do two for cost reasons, which changes the answer by a third."
+      ],
+      "frameworkPick": {
+        "options": [
+          "market-sizing",
+          "market-entry",
+          "growth",
+          "segmentation"
+        ],
+        "correct": [
+          "market-sizing"
+        ],
+        "why": "The client wants a single defensible number for today's market, which calls for a structured estimate built from patients, frequency and price.",
+        "distractorWhyNot": {
+          "market-entry": "No decision to enter is being asked; the chain is already in the market and wants a number.",
+          "growth": "The question is how big the market is today, not how the chain should grow.",
+          "segmentation": "Splitting price by setting helps the estimate, but the output asked for is one market value, not a choice of segments."
+        }
+      }
+    },
+    {
+      "id": "healthcare-c03",
+      "title": "Growing a UK dental clinic chain",
+      "industry": "healthcare",
+      "framework": "growth",
+      "secondary": [],
+      "difficulty": "Beginner",
+      "region": "Global",
+      "prompt": "Our client runs 120 private dental clinics across the UK with revenue of £90 million. The owners want £135 million of revenue in five years. Where should that growth come from?",
+      "clarifyingFacts": [
+        "Q: What is the revenue mix? A: About 55% private treatment (implants, orthodontics, whitening), 30% dental plan memberships and 15% NHS contract work.",
+        "Q: Are clinics capacity constrained? A: Chair utilisation averages 70% and about 15% of dentist posts are vacant; recruiting dentists is the main bottleneck.",
+        "Q: Is there appetite for acquisitions? A: Yes, the owners have funding, and independent practices sell for roughly 5-7 times EBITDA.",
+        "Q: How fast is the market growing? A: UK private dentistry grows about 4-5% a year as patients leave NHS dentistry (approx.)."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "How can the chain grow revenue from £90m to £135m in five years?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Grow the existing 120 clinics",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Private treatment: dentist hours x utilisation x revenue per visit",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Dentist capacity: fill vacant posts, extend hours",
+                    "children": []
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Chair utilisation: new patients and recall",
+                    "children": []
+                  },
+                  {
+                    "id": "a1z",
+                    "label": "Revenue per visit: implants, orthodontics, prices",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Plan memberships: members x monthly fee",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Convert private patients to plans",
+                    "children": []
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Plan fee rises and member retention",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "NHS contract work: contract value largely fixed",
+                "children": [
+                  {
+                    "id": "a3x",
+                    "label": "Deliver the full contracted activity",
+                    "children": []
+                  },
+                  {
+                    "id": "a3y",
+                    "label": "Move spare chair time to private work",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Add clinics",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Acquire independent practices"
+              },
+              {
+                "id": "b2",
+                "label": "Open new-build clinics"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Like-for-like growth at the market rate of about 5% a year takes revenue only to about £115m, so roughly £20m must come from 25-30 acquired practices of typical size (£0.75m each).",
+        "Filling the 15% of dentist posts that are vacant lifts private treatment revenue (55% of the total) by up to about 18%, roughly £9m on top of market growth; plan and NHS income do not rise with dentist hours."
+      ],
+      "hints": [
+        "Split by whether revenue comes from the estate the chain already has or from estate it adds, then break each revenue stream down to its capacity limit.",
+        "First level: grow the existing 120 clinics; add clinics.",
+        "Add clinics: acquire independent practices (faster, priced at 5-7x EBITDA) or open new-build clinics (slower ramp-up, and they need dentists too)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Chair utilisation",
+          "formula": "booked chair hours / available chair hours"
+        },
+        {
+          "name": "Private treatment revenue per clinic",
+          "formula": "dentist hours x chair utilisation / hours per visit x revenue per visit"
+        },
+        {
+          "name": "Acquisition payback",
+          "formula": "price paid / acquired practice EBITDA"
+        }
+      ],
+      "commonMistakes": [
+        "Listing ideas (marketing, new services) without testing whether like-for-like growth closes the £45m gap, which it does not.",
+        "Ignoring dentist supply: more marketing creates no revenue when 15% of dentist posts are empty."
+      ],
+      "frameworkPick": {
+        "options": [
+          "growth",
+          "market-entry",
+          "profitability",
+          "ma"
+        ],
+        "correct": [
+          "growth"
+        ],
+        "why": "The goal is a revenue target, so the job is to lay out every source of growth and size each against the £45m gap.",
+        "distractorWhyNot": {
+          "market-entry": "The chain is not entering a new market; most growth comes from its current UK business.",
+          "profitability": "The target is revenue, not margin, and nothing suggests profits are under pressure.",
+          "ma": "Acquisitions are one lever inside the growth tree, not the whole question."
+        }
+      }
+    },
+    {
+      "id": "healthcare-c04",
+      "title": "Pricing a first-wave diabetes generic",
+      "industry": "healthcare",
+      "framework": "pricing",
+      "secondary": [],
+      "difficulty": "Beginner",
+      "region": "India",
+      "prompt": "Our client, a mid-sized Indian branded generics company, will launch its version of a widely used anti-diabetic tablet the week the patent expires. The innovator sells it at about ₹45 a tablet, and around 20 companies plan to launch generics. How should our client set its price?",
+      "clarifyingFacts": [
+        "Q: What does the tablet cost us? A: About ₹3 fully loaded at the plant. The diabetes field force already exists.",
+        "Q: What is the objective? A: A top-five share of the generic market within two years; profit matters, but share comes first.",
+        "Q: Is the price regulated? A: The molecule is not on the NLEM, so there is no NPPA ceiling today, but the price of a non-scheduled drug can rise by at most 10% a year.",
+        "Q: How are buying decisions made? A: Doctors prescribe by brand, chemists push brands that give them better margins, and most patients pay for monthly therapy out of pocket."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "What MRP per tablet should the client set at launch?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Price floor: our cost",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Manufacturing cost per tablet (~₹3)"
+              },
+              {
+                "id": "a2",
+                "label": "GST and standard trade margins up to MRP"
+              },
+              {
+                "id": "a3",
+                "label": "Incremental promotion cost per tablet"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Value to the decision-makers",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Doctor: trust in the brand's quality"
+              },
+              {
+                "id": "b2",
+                "label": "Chemist: extra margin and schemes vs other generics"
+              },
+              {
+                "id": "b3",
+                "label": "Patient: monthly out-of-pocket cost"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Competitive reference points",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Innovator's price after expiry"
+              },
+              {
+                "id": "c2",
+                "label": "Expected price band of ~20 generic entrants"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Regulatory limits",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Risk of NLEM inclusion and an NPPA ceiling"
+              },
+              {
+                "id": "d2",
+                "label": "10% annual cap on increases: launch price is sticky"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Generic entrants will cluster 60-75% below the innovator, at about ₹11-18 a tablet, so the real choice is where to sit inside that band, not how far below ₹45 to go.",
+        "Because increases are capped at 10% a year, a very low launch price is locked in; a mid-band MRP with a richer chemist margin may buy share more cheaply."
+      ],
+      "hints": [
+        "Bound the price from below and above, then narrow the range with what buyers compare against and what the rules allow.",
+        "First level: price floor, value to the decision-makers, competitive reference points, regulatory limits.",
+        "Price floor: manufacturing cost per tablet, the GST and standard trade margins between our price and the MRP, and incremental promotion cost per tablet."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Net realisation per tablet",
+          "formula": "MRP ex-GST - chemist margin - stockist margin"
+        },
+        {
+          "name": "Monthly therapy cost to patient",
+          "formula": "MRP per tablet x tablets per day x 30"
+        }
+      ],
+      "commonMistakes": [
+        "Pricing cost-plus: with a ₹3 cost and a ₹45 innovator price, cost says almost nothing about where to land.",
+        "Forgetting the chemist as a decision-maker: in Indian generics, trade margin often moves share as much as MRP does."
+      ],
+      "frameworkPick": {
+        "options": [
+          "pricing",
+          "product-launch",
+          "competitive-response",
+          "market-entry"
+        ],
+        "correct": [
+          "pricing"
+        ],
+        "why": "The launch is decided and the question asks only what price to set, so the tree is about cost floor, buyer value, competitor prices and regulatory limits.",
+        "distractorWhyNot": {
+          "product-launch": "Whether and how to launch is settled; only the price is open.",
+          "competitive-response": "No rival has made a move to respond to; competitor prices are an input to the price decision.",
+          "market-entry": "The client already sells diabetes drugs with an existing field force, so it is not entering a new market."
+        }
+      }
+    },
+    {
+      "id": "healthcare-c05",
+      "title": "Gulf hospital group entering India",
+      "industry": "healthcare",
+      "framework": "market-entry",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "India",
+      "prompt": "A Gulf-based hospital group with 12 hospitals in the UAE and Saudi Arabia wants to enter India. Its first idea is a greenfield 250-bed tertiary hospital in Jaipur costing about ₹350 crore. Should it enter, and if so, how?",
+      "clarifyingFacts": [
+        "Q: What does the client want from India? A: A five-hospital network within ten years, with each hospital earning at least 15% pre-tax ROCE by its sixth year of operation.",
+        "Q: What does the Jaipur market look like? A: Two large corporate hospitals and several mid-size ones; private tertiary ARPOB is about ₹35,000-40,000 a day, against ₹60,000+ in Delhi.",
+        "Q: What is the payer mix? A: Rajasthan's state health insurance scheme covers much of the population at package rates well below private tariffs; private insurance is growing.",
+        "Q: How long does a new hospital take to mature, and does the group's brand help? A: Typically 4-5 years to reach about 70% occupancy and 20% EBITDA margin. The brand is known among Gulf expatriate families, most of whom come from Kerala and the south, and hardly at all in Rajasthan."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Should the group enter India, and by which route?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Is Jaipur the right first market?",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Demand for tertiary care",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Cases treated in Jaipur today"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Patients now travelling to Delhi"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Realisation: ARPOB and payer mix",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Self-pay and private insurance tariffs"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "State scheme and CGHS package rates"
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Competitors' capacity and expansion plans"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Can the group win against established chains?",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Recruiting senior specialists who bring patients",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Fees and retainers it can afford"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Brand appeal to doctors vs Indian chains"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Patient and referrer awareness: near zero in Rajasthan"
+              },
+              {
+                "id": "b3",
+                "label": "Transferable strengths: clinical systems, procurement"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Do the economics clear the 15% ROCE hurdle?",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Capex: ₹350 cr, about ₹1.4 cr per bed"
+              },
+              {
+                "id": "c2",
+                "label": "Mature-year operating profit",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "Revenue: beds x occupancy x ARPOB"
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "Costs: doctors, staff, consumables, depreciation"
+                  }
+                ]
+              },
+              {
+                "id": "c3",
+                "label": "Ramp-up to maturity",
+                "children": [
+                  {
+                    "id": "c3x",
+                    "label": "Years to reach 70% occupancy"
+                  },
+                  {
+                    "id": "c3y",
+                    "label": "Cumulative losses before break-even"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Which entry route fits best?",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Greenfield build"
+              },
+              {
+                "id": "d2",
+                "label": "Acquire an existing mid-size hospital",
+                "children": [
+                  {
+                    "id": "d2x",
+                    "label": "Price per bed vs cost to build"
+                  },
+                  {
+                    "id": "d2y",
+                    "label": "Retaining doctors and upgrading quality"
+                  }
+                ]
+              },
+              {
+                "id": "d3",
+                "label": "Asset-light: lease, O&M contract or local JV"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "At Jaipur ARPOB of about ₹38,000, a mature 250-bed hospital at 70% occupancy earns about ₹243 crore revenue and ₹49 crore EBITDA. After about ₹17.5 crore depreciation (assumed 5% of capex a year, blending a 30-year building life with 10-year equipment) EBIT is about ₹31 crore: about 9% on the ₹350 crore invested and about 11% on year-six capital employed (about ₹255 crore depreciated book plus ₹20 crore working capital). Clearing 15% needs ARPOB of about ₹46,000-55,000.",
+        "Buying a 150-200 bed hospital for less than the ₹1.4 crore per bed it costs to build would also skip 2-3 years of ramp-up losses.",
+        "Recruiting senior specialists, not patient demand, is the binding constraint for an unknown brand in a tier-2 city, and the brand's real pull is in south India, which argues for testing a southern city first."
+      ],
+      "hints": [
+        "Use a market entry structure, but anchor it on the client's ROCE hurdle so that the economics test the city choice.",
+        "First level: market attractiveness, ability to win, economics against the hurdle, entry route.",
+        "Ability to win: recruiting senior specialists who bring patients (fees it can afford, brand appeal versus Indian chains), patient and referrer awareness, transferable strengths such as clinical systems and procurement."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Pre-tax ROCE",
+          "formula": "(EBITDA - depreciation) / capital employed (net fixed assets + working capital)"
+        },
+        {
+          "name": "ARPOB",
+          "formula": "inpatient revenue / occupied bed-days"
+        },
+        {
+          "name": "Occupancy",
+          "formula": "occupied bed-days / available bed-days"
+        }
+      ],
+      "commonMistakes": [
+        "Saying yes because India's healthcare market is growing, without testing whether Jaipur's tariffs support a ₹350 crore build.",
+        "Treating greenfield as the only option; here the entry-route branch is where the answer is likely to lie."
+      ],
+      "frameworkPick": {
+        "options": [
+          "market-entry",
+          "growth",
+          "ma",
+          "profitability"
+        ],
+        "correct": [
+          "market-entry"
+        ],
+        "why": "A company with no Indian presence is deciding whether to enter and by which route, which is exactly what a market entry structure covers.",
+        "distractorWhyNot": {
+          "growth": "Growth frames how an existing business expands; here the client has no Indian business yet and must decide whether to start one.",
+          "ma": "Buying a hospital is one entry route inside the tree; the question is whether to enter India at all, where and how.",
+          "profitability": "There is no existing profit to diagnose; profit is one test inside the entry decision."
+        }
+      }
+    },
+    {
+      "id": "healthcare-c06",
+      "title": "Clearing an NHS surgical backlog",
+      "industry": "healthcare",
+      "framework": "operations",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "Global",
+      "prompt": "A large NHS hospital trust in England has 12 operating theatres and does about 300 elective operations a week. Its elective waiting list has grown 30% in two years, theatre utilisation is 55%, and it cannot build more theatres. How can it do 25% more elective operations within a year?",
+      "clarifyingFacts": [
+        "Q: How are theatres scheduled? A: Each theatre has ten 4-hour sessions a week, 480 session-hours in all. About 8% of planned sessions are cancelled in advance, mostly for staff shortages.",
+        "Q: How is utilisation measured? A: Time from anaesthetic start to the patient leaving theatre, as a share of the session time actually run. The NHS benchmark is about 85%.",
+        "Q: Where is time lost? A: Sessions start 35 minutes late on average, turnaround between cases averages 25 minutes with about 2.7 cases a session, and about 10% of patients are cancelled on the day, half of them because no ward bed is free.",
+        "Q: Any constraints? A: No new theatres and a flat budget, though some evening and weekend lists could be funded from existing elective recovery money."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "How can the trust do 25% more elective operations in 12 theatres?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Run more of the planned session hours",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Cut sessions cancelled in advance (8%)",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Staff gaps: anaesthetists, theatre nurses"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Equipment and sterile instrument availability"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Add evening and weekend lists"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Spend more of each session operating",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Late starts (35 minutes on average)",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Pre-op checks and consent done that morning"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Late arrival of surgeon or anaesthetist"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Turnaround between cases (25 minutes)",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Cleaning and set-up done in sequence"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Next patient not ready in anaesthetic room"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "On-the-day cancellations (10% of patients)",
+                "children": [
+                  {
+                    "id": "b3x",
+                    "label": "No ward bed available after surgery"
+                  },
+                  {
+                    "id": "b3y",
+                    "label": "Patient unfit or does not attend"
+                  }
+                ]
+              },
+              {
+                "id": "b4",
+                "label": "Early finishes from under-booked lists"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Cut operating time per case",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Case mix: move simple cases to day-surgery lists"
+              },
+              {
+                "id": "c2",
+                "label": "Variation in procedure time between surgeons"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Late starts (35 minutes) and turnarounds (about 43 minutes a session) together waste about 78 minutes of each 4-hour session, more than the 72-minute gap to the 85% benchmark; halving the late start and cutting turnaround to 15 minutes would lift utilisation to about 69% and output by about 26%, without new lists.",
+        "Half of on-the-day cancellations come from a shortage of ward beds, so part of the theatre problem is really bed flow downstream."
+      ],
+      "hints": [
+        "Treat it as a capacity problem: write weekly operations as a throughput equation before listing any initiatives.",
+        "First level: run more of the planned session hours, spend more of each session operating, cut operating time per case.",
+        "Run more session hours: cut sessions cancelled in advance (staff gaps, equipment and sterile instrument availability) and add evening and weekend lists."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Touch-time utilisation",
+          "formula": "(anaesthetic start to patient out) / planned session time"
+        },
+        {
+          "name": "Cases per week",
+          "formula": "session hours run x utilisation / average touch time per case"
+        },
+        {
+          "name": "On-the-day cancellation rate",
+          "formula": "cases cancelled on the day / cases scheduled"
+        }
+      ],
+      "commonMistakes": [
+        "Jumping to 'hire more surgeons' when the data shows time lost before, between and after cases rather than during surgery.",
+        "Counting turnaround both as lost utilisation and as part of time per case, which double-counts it."
+      ],
+      "frameworkPick": {
+        "options": [
+          "operations",
+          "profitability",
+          "growth",
+          "turnaround"
+        ],
+        "correct": [
+          "operations"
+        ],
+        "why": "The question is how to get more output from fixed assets and a fixed budget, which is a capacity and process problem.",
+        "distractorWhyNot": {
+          "profitability": "An NHS trust is not maximising profit here; the goal is throughput.",
+          "growth": "Demand is not the constraint, since the waiting list already exists; the limit is how theatre time is used.",
+          "turnaround": "The trust is not in financial or operational crisis requiring a rescue; it needs better use of existing capacity."
+        }
+      }
+    },
+    {
+      "id": "healthcare-c07",
+      "title": "Launching hospital-led home healthcare",
+      "industry": "healthcare",
+      "framework": "product-launch",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "India",
+      "prompt": "Our client is a large Indian hospital chain with 9 hospitals across Delhi NCR, Mumbai and Bengaluru. It wants to launch a home healthcare service covering nursing, physiotherapy and post-ICU care, and the CEO wants ₹150 crore of revenue by year three. How should it design and launch the service?",
+      "clarifyingFacts": [
+        "Q: How many patients does the chain see? A: About 1.2 lakh inpatient discharges a year; doctors estimate 15% of them need some care at home, but about a third of all discharged patients live outside the three metros.",
+        "Q: Who else offers this? A: Two venture-funded home care companies and many local nursing agencies. Agencies charge about ₹1,500-2,500 for a 12-hour nursing shift; organised players charge 30-50% more.",
+        "Q: Who pays? A: Some health policies now cover home treatment for listed conditions, but most home care is paid out of pocket.",
+        "Q: Any constraints? A: The chain will not divert its hospital nurses; the service needs its own workforce."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "How should home care launch to reach ₹150 cr by year three?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Who to serve: patient needs",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Short-term recovery after a hospital stay",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Post-surgical: wound care, physiotherapy"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Post-ICU: ventilator and tracheostomy care"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Long-term care for chronic and bed-bound patients",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Bed-bound elderly needing daily nursing"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Chronic disease monitoring: heart failure, diabetes"
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "End-of-life palliative care"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "What to offer: services and pricing",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Service bundles: nursing, physio, equipment, teleconsults"
+              },
+              {
+                "id": "b2",
+                "label": "Pricing",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Structure: per visit, per episode or monthly plan"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Level: vs agencies and funded players"
+                  },
+                  {
+                    "id": "b2z",
+                    "label": "Payer: out of pocket vs insurance cover"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Clinical standards and escalation to hospital"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "How patients find us: referral channels",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Own doctors at discharge",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Discharge planning built into care pathways"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Doctor incentives and continuity of care"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "External doctors and other hospitals"
+              },
+              {
+                "id": "c3",
+                "label": "Direct and B2B: families online, insurers, employers"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "How to deliver: operating model",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Home nursing workforce",
+                "children": [
+                  {
+                    "id": "d1x",
+                    "label": "Recruitment and training pipeline"
+                  },
+                  {
+                    "id": "d1y",
+                    "label": "Retention: pay, career path, safety"
+                  }
+                ]
+              },
+              {
+                "id": "d2",
+                "label": "Equipment and consumables supplied to homes"
+              },
+              {
+                "id": "d3",
+                "label": "Technology",
+                "children": [
+                  {
+                    "id": "d3x",
+                    "label": "Scheduling and route planning across the city"
+                  },
+                  {
+                    "id": "d3y",
+                    "label": "Remote monitoring linked to hospital doctors"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Own discharges cannot carry the target: of 18,000 eligible patients only about 12,000 live in the metros, and at 50% conversion and ₹40,000 an episode they give about ₹24 crore. Over 80% of the ₹150 crore must come from long-term care and external referrals, which at about ₹70,000 a month means roughly 1,500 patients on service.",
+        "Nurse productivity, which depends on visits per day in metro traffic, decides whether the service makes money, so dense coverage around each hospital should come before city-wide reach."
+      ],
+      "hints": [
+        "Structure the launch as the design choices a new service has to make, from patient need through to delivery, and test each against the ₹150 crore target.",
+        "First level: target patient needs, service offer and pricing, referral channels, operating model.",
+        "Operating model: home nursing workforce (recruitment pipeline, retention), equipment and consumables supplied to homes, technology (scheduling and routing, remote monitoring)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Revenue",
+          "formula": "patients served x episodes per patient x revenue per episode"
+        },
+        {
+          "name": "Discharge conversion",
+          "formula": "home care patients from own hospitals / eligible discharges"
+        },
+        {
+          "name": "Nurse productivity",
+          "formula": "billable visits per nurse per day"
+        }
+      ],
+      "commonMistakes": [
+        "Building the plan only around the chain's own discharges, which caps revenue below ₹50 crore even at full conversion.",
+        "Running home care like a hospital department: staff productivity depends on travel time and visit density, which do not exist as problems inside a hospital."
+      ],
+      "frameworkPick": {
+        "options": [
+          "product-launch",
+          "market-entry",
+          "growth",
+          "segmentation"
+        ],
+        "correct": [
+          "product-launch"
+        ],
+        "why": "The service is decided and the question is how to design and take it to market, covering target patients, offer, channels and delivery.",
+        "distractorWhyNot": {
+          "market-entry": "The chain already operates in these cities and in healthcare; the question is designing a new service, not whether to enter a market.",
+          "growth": "A growth structure asks where new revenue could come from across the business; here the new service is given and needs designing.",
+          "segmentation": "Choosing patient groups is one branch of the launch, not the whole question."
+        }
+      }
+    },
+    {
+      "id": "healthcare-c08",
+      "title": "Pharmacy chain versus quick-commerce delivery",
+      "industry": "healthcare",
+      "framework": "competitive-response",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "India",
+      "prompt": "Our client is an Indian pharmacy chain with 2,000 stores and ₹3,600 crore of revenue. In the past year, quick-commerce apps started delivering medicines in 10-20 minutes with 15-20% discounts, and footfall in the client's metro stores has fallen 8%. How should the client respond?",
+      "clarifyingFacts": [
+        "Q: What does the chain sell? A: About 70% of revenue is prescription medicines, mostly chronic monthly refills; 30% is OTC, wellness and personal care.",
+        "Q: What are its margins? A: Gross margin is about 22% and store EBITDA about 6%. Private-label generics earn about 40% gross margin but are only 8% of sales.",
+        "Q: Where is the loss concentrated? A: Metro stores, which are 40% of revenue, have lost mainly OTC and personal care sales; chronic prescription customers have barely moved.",
+        "Q: What are the rules on online medicine sales? A: There are still no final e-pharmacy rules: the 2018 draft rules were never notified and the issue remains in court. Online sellers work under the general drug rules, so a valid prescription and a licensed pharmacist are needed for prescription drugs."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "How should the chain respond to quick-commerce medicine delivery to protect profit?",
+        "children": [
+          {
+            "id": "a",
+            "label": "How much of our profit is at risk?",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Chronic prescription refills",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Metro stores"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Tier-2 and smaller towns"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Acute prescriptions",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Metro stores"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Tier-2 and smaller towns"
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "OTC, wellness and personal care",
+                "children": [
+                  {
+                    "id": "a3x",
+                    "label": "Metro stores"
+                  },
+                  {
+                    "id": "a3y",
+                    "label": "Tier-2 and smaller towns"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Can the competitor sustain its offer?",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Economics of a discounted 10-minute medicine order",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Discount plus delivery cost vs ~22% pharmacy margin"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Basket size and order frequency"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Regulatory limits on online prescription sales"
+              },
+              {
+                "id": "b3",
+                "label": "Reach: metros only or expanding to smaller towns"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Which responses protect profit best?",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Match convenience with fast delivery from our stores",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Delivery cost per order vs basket margin"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Store density for short delivery radius"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Lock in chronic patients",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "Auto-refill and subscription pricing"
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "Pharmacist counselling, adherence reminders, test tie-ups"
+                  }
+                ]
+              },
+              {
+                "id": "c3",
+                "label": "Shift mix to private-label generics (~40% margin)"
+              },
+              {
+                "id": "c4",
+                "label": "Supply quick-commerce dark stores as licensed partner"
+              },
+              {
+                "id": "c5",
+                "label": "Match discounts selectively on high-churn products"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Matching the discount would cost more than the loss it prevents: an 8% fall in metro sales (about ₹115 crore) costs about ₹25 crore of gross margin, while a 17.5% discount on metro OTC and personal care alone (about ₹430 crore of sales) gives away about ₹75 crore. On medicine baskets at about 22% margin the rival also loses money once delivery is paid for, so its subsidy may not last.",
+        "The loss is concentrated in metro OTC and personal care, while chronic refill customers, who earn most of the profit, are staying, so defending chronic patients matters more than winning back impulse baskets."
+      ],
+      "hints": [
+        "Follow the competitive-response sequence, but cut the exposure by how each category of sales behaves, not by store.",
+        "First level: how much profit is at risk, whether the competitor's offer is sustainable, which responses protect profit best.",
+        "Can the competitor sustain it: economics of a discounted 10-minute medicine order (discount plus delivery cost versus about 22% margin, basket size), regulatory limits on online prescription sales, reach beyond metros."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Contribution per delivered order",
+          "formula": "basket value x gross margin - discount - delivery cost - payment fees"
+        },
+        {
+          "name": "Chronic retention rate",
+          "formula": "chronic patients refilling this month / chronic patients last month"
+        }
+      ],
+      "commonMistakes": [
+        "Recommending matching the 20% discount without noticing that it exceeds the chain's 22% gross margin.",
+        "Treating all revenue as equally at risk, when impulse OTC baskets and monthly chronic refills behave very differently."
+      ],
+      "frameworkPick": {
+        "options": [
+          "competitive-response",
+          "pricing",
+          "growth",
+          "operations"
+        ],
+        "correct": [
+          "competitive-response"
+        ],
+        "why": "A new rival has changed the market and the client must decide how to react, so the structure runs from sizing the threat to judging the competitor to choosing a response.",
+        "distractorWhyNot": {
+          "pricing": "Price is one possible response, and a dangerous one at a 22% gross margin; the question covers every response.",
+          "growth": "The client needs to defend existing profit against a new threat, not find new sources of revenue.",
+          "operations": "Faster delivery is one operational option, but the question starts with understanding the threat and the competitor."
+        }
+      }
+    },
+    {
+      "id": "healthcare-c09",
+      "title": "Prioritising segments for handheld ultrasound",
+      "industry": "healthcare",
+      "framework": "segmentation",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "Global",
+      "prompt": "Our client is a US maker of a $4,000 handheld ultrasound probe that plugs into a smartphone. It earns $60 million a year, mostly from hospital emergency departments, and wants to triple sales in four years with its 80-person sales team. Which customer segments should it prioritise?",
+      "clarifyingFacts": [
+        "Q: Which geography, and who else buys? A: The US only. Medical schools bought about 10% of last year's units for teaching, but few of those users take the subscription.",
+        "Q: Who buys today? A: About 70% of revenue comes from emergency departments, where most physicians already know point-of-care ultrasound; penetration there is about 40%.",
+        "Q: What is the business model? A: The device sale plus a $500 per user per year subscription for image storage and AI guidance.",
+        "Q: Is scanning reimbursed? A: Documented point-of-care scans are reimbursed in hospitals; in primary care, reimbursement codes exist but are little used."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Which US customer segments should the client prioritise to reach ~$180m?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Hospital acute care (current core)",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Emergency departments (~40% penetrated)",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Win more of the ~60% of ED physicians not using it"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Upsell subscriptions to existing users"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "ICU, anaesthesia and hospitalist teams",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Opportunity: large physician base, frequent bedside scans"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Barrier: fewer trained in point-of-care ultrasound"
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Other hospital departments: labour ward, inpatient cardiology"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Primary and urgent care",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Urgent care centres"
+              },
+              {
+                "id": "b2",
+                "label": "Family and internal medicine practices",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Opportunity: largest physician count"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Barrier: little-used reimbursement, short visits"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Specialist outpatient practices",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Musculoskeletal and sports medicine",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Opportunity: ultrasound-guided joint injections"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Barrier: cart-based machines already owned"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Obstetrics, gynaecology and vascular clinics"
+              },
+              {
+                "id": "c3",
+                "label": "Other specialties: urology, cardiology clinics"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Care outside facilities",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Emergency medical services (ambulances)",
+                "children": [
+                  {
+                    "id": "d1x",
+                    "label": "Opportunity: trauma and cardiac arrest triage"
+                  },
+                  {
+                    "id": "d1y",
+                    "label": "Barrier: tight municipal budgets"
+                  }
+                ]
+              },
+              {
+                "id": "d2",
+                "label": "Home health and hospice nurses"
+              }
+            ]
+          },
+          {
+            "id": "e",
+            "label": "Teaching buyers",
+            "children": [
+              {
+                "id": "e1",
+                "label": "Medical schools: devices for each student cohort",
+                "children": []
+              },
+              {
+                "id": "e2",
+                "label": "Residency programmes: training and credentialing",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "ICU, anaesthesia and hospitalist teams offer the fastest growth because they sit inside hospitals whose buyers and contracts the client already has.",
+        "Primary care has the most physicians, but little-used reimbursement and training gaps make it slow and costly to serve with 80 reps, each of whom needs to add about $1.5m of new sales.",
+        "Medical schools add unit volume but little subscription revenue, so they suit a low-touch channel rather than rep time, although they seed future users."
+      ],
+      "hints": [
+        "Segment by where and why the device is used, because that drives clinical need, budget and training, then weigh each segment's opportunity against its barriers.",
+        "First level: hospital acute care, primary and urgent care, specialist outpatient practices, care outside facilities, teaching buyers.",
+        "Specialist outpatient practices: musculoskeletal and sports medicine (guided injections, but cart-based machines already owned), obstetrics, gynaecology and vascular clinics, other specialties."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Segment revenue potential",
+          "formula": "target users x expected penetration x (device price / replacement years + annual subscription)"
+        },
+        {
+          "name": "Sales productivity",
+          "formula": "new revenue per sales rep per year"
+        }
+      ],
+      "commonMistakes": [
+        "Segmenting by product feature or US region instead of by use setting, and so missing teaching buyers, who do not fit a list of care settings.",
+        "Ranking segments on physician count alone; a probe nobody is trained to use does not sell."
+      ],
+      "frameworkPick": {
+        "options": [
+          "segmentation",
+          "growth",
+          "market-sizing",
+          "product-launch"
+        ],
+        "correct": [
+          "segmentation"
+        ],
+        "why": "The client must choose which customer groups to target with a fixed sales team, which is a segmentation and prioritisation question.",
+        "distractorWhyNot": {
+          "growth": "Tripling sales is the goal, but the question is narrower: which customer groups to focus on.",
+          "market-sizing": "Sizing each segment is an input, but the output asked for is a priority order, not a market size.",
+          "product-launch": "The product already exists and sells; nothing new is being launched."
+        }
+      }
+    },
+    {
+      "id": "healthcare-c10",
+      "title": "PE bid for an IVF chain",
+      "industry": "healthcare",
+      "framework": "pe-dd",
+      "secondary": [
+        "growth"
+      ],
+      "difficulty": "Advanced",
+      "region": "India",
+      "prompt": "A private equity fund is considering buying 70% of an Indian IVF clinic chain with 40 clinics, ₹420 crore of revenue and ₹95 crore of EBITDA. The seller wants an enterprise value of ₹1,500 crore, about 16 times EBITDA, and the fund needs 2.5 times its money in five years. Should it invest?",
+      "clarifyingFacts": [
+        "Q: How is revenue made? A: About 21,000 IVF cycles a year at roughly ₹2 lakh each: 16 mature clinics do about 1,050 cycles each and 24 newer clinics about 175 each.",
+        "Q: What does regulation require? A: The ART (Regulation) Act 2021, in force since January 2022, allows treatment only for women aged 21-50 and men aged 21-55, lets an egg donor donate only once in her life, and requires every clinic and bank to register. Last year 6% of the chain's cycles were for women over 50, which the chain says were court-permitted exceptions, and 18% used donor eggs.",
+        "Q: How dependent is the chain on doctors? A: Six senior doctors generate 45% of revenue; none has a contract longer than two years and none holds equity.",
+        "Q: What exit does the fund assume? A: A sale at 14 times EBITDA; recent sector deals have ranged from 12 to 20 times."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Should the fund pay ₹1,500 cr EV (16x) for 70% of the chain?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Is the IVF market attractive and durable?",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Demand for IVF cycles and its growth",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Metros (most cycles today)"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Tier-2 and smaller cities (fastest growth)"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Effects of the ART Act 2021",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Over-50 cycles: legal exposure, then lost revenue"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Donor-egg limits raising cost and waits"
+                  },
+                  {
+                    "id": "a2z",
+                    "label": "Registration and compliance cost per clinic"
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Competition: national chains, hospital units, solo doctors"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "How strong is the target's position?",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Clinical outcomes: live birth rates vs peers"
+              },
+              {
+                "id": "b2",
+                "label": "Dependence on six doctors (45% of revenue)",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Likelihood they leave: contracts, no equity"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Revenue that leaves with them: doctor vs brand loyalty"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Patient acquisition: referrals vs digital, cost per cycle"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Can EBITDA reach ~₹270 cr by year five?",
+            "children": [
+              {
+                "id": "c1",
+                "label": "16 mature clinics",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "More cycles: lab and doctor headroom"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Higher revenue per cycle: price, add-ons"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Ramp-up of 24 newer clinics",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "Cycles per clinic: from ~175 towards ~650-700"
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "Margin as fixed costs are absorbed"
+                  }
+                ]
+              },
+              {
+                "id": "c3",
+                "label": "New clinic openings",
+                "children": [
+                  {
+                    "id": "c3x",
+                    "label": "Revenue net of cannibalising nearby clinics"
+                  },
+                  {
+                    "id": "c3y",
+                    "label": "Capex and ramp-up losses per clinic"
+                  }
+                ]
+              },
+              {
+                "id": "c4",
+                "label": "Network-wide margin levers: procurement, central labs"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Do price, terms and exit deliver 2.5x?",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Entry price: 16x reported, ~18x on ART-adjusted EBITDA"
+              },
+              {
+                "id": "d2",
+                "label": "Exit",
+                "children": [
+                  {
+                    "id": "d2x",
+                    "label": "Multiple: 14x assumed vs 16x paid"
+                  },
+                  {
+                    "id": "d2y",
+                    "label": "Route: strategic sale, IPO or secondary PE"
+                  }
+                ]
+              },
+              {
+                "id": "d3",
+                "label": "Terms: earn-out, doctor lock-ins, seller's 30% stake"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "If the over-50 cycles stop (6% of cycles, about ₹25 crore of revenue at an assumed 40% contribution margin), EBITDA falls to about ₹85 crore and the real entry multiple is nearer 18x than 16x; if those cycles were not covered by court orders, the larger issue is legal exposure and clinic registration, not earnings.",
+        "A 2.5x return at a 14x exit needs year-five EBITDA of about ₹270 crore (2.5 x ₹1,500 crore / 14, no debt), about 26% a year from the ₹85 crore base. With 4% annual price rises, 3% volume growth at mature clinics and 30-32% margins at maturity, each of the 24 newer clinics must reach about 650-700 cycles, four times today's 175.",
+        "With six doctors on short contracts driving 45% of revenue, equity-linked lock-ins are a condition of investing, not a nice-to-have."
+      ],
+      "hints": [
+        "Use a due diligence structure, and restate the EBITDA base for regulation before testing the growth the return needs.",
+        "First level: market attractiveness and durability, target's competitive position, EBITDA growth to ~₹270 crore, price, terms and exit.",
+        "Target position: clinical outcomes (live birth rates versus peers), dependence on six doctors (likelihood they leave, revenue that leaves with them), patient acquisition (referrals versus digital, cost per cycle)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "MOIC",
+          "formula": "equity value at exit / equity invested"
+        },
+        {
+          "name": "EBITDA needed at exit (no debt)",
+          "formula": "target MOIC x entry EV / exit multiple = 2.5 x ₹1,500 cr / 14 ≈ ₹270 cr"
+        },
+        {
+          "name": "Revenue",
+          "formula": "cycles x average revenue per cycle"
+        }
+      ],
+      "commonMistakes": [
+        "Taking the ₹95 crore EBITDA as given without asking whether the over-50 cycles were lawful, and without adjusting for cycles the ART Act prohibits or makes costlier.",
+        "Answering 'IVF is under-penetrated in India, so yes'; the return depends on new-clinic ramp-up, doctor retention and the multiple paid, not headline market growth."
+      ],
+      "frameworkPick": {
+        "options": [
+          "pe-dd",
+          "growth",
+          "market-entry",
+          "ma"
+        ],
+        "correct": [
+          "pe-dd",
+          "growth"
+        ],
+        "why": "A financial investor deciding whether to buy at a set price needs due diligence on market, target and valuation, and the return case depends on a growth plan that takes EBITDA from ₹95 crore to about ₹270 crore.",
+        "distractorWhyNot": {
+          "market-entry": "The fund is not starting an IVF business; it is buying a stake in an existing one.",
+          "ma": "A corporate M&A frame centres on strategic fit and synergies; a PE fund has no synergies and is judged on its exit return."
+        }
+      }
+    },
+    {
+      "id": "healthcare-c11",
+      "title": "Drug maker under USFDA import alert",
+      "industry": "healthcare",
+      "framework": "turnaround",
+      "secondary": [
+        "operations"
+      ],
+      "difficulty": "Advanced",
+      "region": "India",
+      "prompt": "Our client is an Indian generic drug maker with ₹1,800 crore of revenue. Six months ago the USFDA placed its largest plant under import alert; that plant supplied ₹550 crore of US sales. The company has ₹350 crore of cash, is burning about ₹70 crore a quarter, and is close to breaching its lenders' net debt to EBITDA covenant. What should management do?",
+      "clarifyingFacts": [
+        "Q: How long does it take to lift an import alert? A: Often two to four years, covering remediation, a re-inspection request and the inspection itself. The findings centred on data integrity.",
+        "Q: Can other plants make the US products? A: Two other plants are USFDA-approved and run at about 70% utilisation. Assume moving a product takes about 12-18 months, covering technology transfer, exhibit batches, stability data and the site-change filing.",
+        "Q: What about the rest of the business? A: India branded sales (₹700 crore), emerging markets (₹450 crore) and about ₹100 crore of US sales come from the other two plants and are unaffected.",
+        "Q: What do stakeholders want? A: The promoter family owns 55% and refuses to dilute, lenders are pushing for asset sales, and the board wants to keep the US business."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "How does the company survive the import alert and restore US earnings?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Close the funding gap: ~15-month runway vs 2-4 year fix",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Cut cash burn",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Defer non-critical capex and new US filings"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Release working capital: blocked US stock, receivables"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Raise new money",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Equity: promoter or strategic investor (promoter resists)"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Asset sales: non-core brands, land, US products (lenders' wish)"
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Restructure debt: covenant waiver, longer maturities"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Fix quality systems: lift the alert, prevent a repeat",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Remediate the blocked plant's findings",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Data integrity: systems, audit trails, behaviours"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Quality processes: investigations, CAPA, training"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Get re-inspected sooner",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Independent audit before requesting re-inspection"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Regular progress updates to the USFDA"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Pre-empt similar findings at the two sister plants"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Protect US revenue while the plant is blocked",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Transfer products to the two approved plants",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Rank products by margin and transfer time"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Capacity headroom at sister plants (~30%)"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Contract manufacturing with third-party CDMOs"
+              },
+              {
+                "id": "c3",
+                "label": "Seek exemptions for drugs in US shortage"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Cash lasts about five quarters but the alert is unlikely to lift in under two years, so new money or a covenant reset is needed now, not after remediation.",
+        "Transferring the top products by margin to the two approved plants can recover about ₹200-250 crore of US sales within 18 months, faster than remediation; their 30% headroom is worth roughly ₹500 crore of output at today's mix, so filing time, not capacity, is the limit.",
+        "Data integrity findings usually reflect company-wide culture, so the sister plants carry inspection risk and transfers to them are not risk-free."
+      ],
+      "hints": [
+        "Order the issues by what would sink the company first, then what removes the cause, then what limits the damage in the meantime.",
+        "First level: close the funding gap, fix quality systems, protect US revenue while the plant is blocked.",
+        "Fix quality systems: remediate the blocked plant (data integrity, investigations and CAPA), get re-inspected sooner (independent audit, regular USFDA updates), pre-empt similar findings at the sister plants."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Cash runway",
+          "formula": "cash / quarterly cash burn = ₹350 cr / ₹70 cr ≈ 5 quarters"
+        },
+        {
+          "name": "Leverage covenant",
+          "formula": "net debt / trailing twelve-month EBITDA"
+        },
+        {
+          "name": "US revenue recovered",
+          "formula": "sum of transferred products' sales x probability of approval in time"
+        }
+      ],
+      "commonMistakes": [
+        "Starting with the remediation plan and missing that cash runs out before the plant can realistically be cleared.",
+        "Assuming the sister plants are a safe home for transfers without checking whether the same quality culture problems exist there."
+      ],
+      "frameworkPick": {
+        "options": [
+          "turnaround",
+          "operations",
+          "profitability",
+          "ma"
+        ],
+        "correct": [
+          "turnaround",
+          "operations"
+        ],
+        "why": "The company faces a liquidity crisis with a known cause, so it needs a turnaround structure (survive, fix, recover), and the fix and the product transfers are operations problems.",
+        "distractorWhyNot": {
+          "profitability": "The cause of the profit collapse is already known (the import alert); the issue is survival and recovery, not diagnosis.",
+          "ma": "Asset sales are one funding lever inside the turnaround, not the question being asked."
+        }
+      }
+    },
+    {
+      "id": "healthcare-c12",
+      "title": "Buying a loss-making Kolkata hospital",
+      "industry": "healthcare",
+      "framework": "ma",
+      "secondary": [
+        "profitability"
+      ],
+      "difficulty": "Advanced",
+      "region": "India",
+      "prompt": "Our client, a large Indian hospital chain with EBITDA margins of about 22%, has been offered a 330-bed hospital in Kolkata for ₹700 crore. The hospital earns ₹330 crore of revenue but only ₹25 crore of EBITDA. The seller says better management would lift margins to the chain's level. Should our client buy it?",
+      "clarifyingFacts": [
+        "Q: Why is the margin so low? A: The seller blames management. The data show the hospital runs at about 70% occupancy and 55% of inpatient bed-days come from government schemes (state scheme, CGHS, PM-JAY) whose package rates are about 40% below its private tariffs.",
+        "Q: Is the client already in Kolkata? A: Yes, with a 400-bed hospital 4 km away running at 85% occupancy. It turns away about 8,000 private bed-days a year at peak times, about ₹40 crore of revenue.",
+        "Q: Can the scheme share be cut? A: The hospital sits on subsidised state land leased on condition that it serves scheme patients; cutting that service risks the lease.",
+        "Q: What will the board pay? A: No more than 14 times the EBITDA the hospital can credibly reach by year three under the client."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Should the chain buy the 330-bed Kolkata hospital for ₹700 cr?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Standalone: what can this hospital earn if well run?",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Revenue per bed-day",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Scheme bed-days (55%) at ~40% lower rates, tied to lease"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Private tariffs and case mix"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Bed-days: occupancy and specialty mix"
+              },
+              {
+                "id": "a3",
+                "label": "Cost per bed-day",
+                "children": [
+                  {
+                    "id": "a3x",
+                    "label": "Doctor payouts and staffing ratios"
+                  },
+                  {
+                    "id": "a3y",
+                    "label": "Usage of drugs, consumables and implants"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Combination: value from joining our chain",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Revenue synergy: overflow from our hospital 4 km away",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Private patients we turn away at 85% occupancy"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Doctors willing to practise at both sites"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Cost synergy: chain procurement, shared lab and pharmacy"
+              },
+              {
+                "id": "b3",
+                "label": "Dis-synergy: our private patients cannibalised"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Price and deal terms",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Valuation",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "₹700 cr vs 14x achievable year-3 EBITDA"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Price per bed vs cost of building beds"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Deal structure",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "Land lease transfer and scheme obligations"
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "Hidden liabilities: medico-legal claims, tax, dues"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "The margin gap is mostly structural, not managerial. Scheme bed-days are 42% of revenue; if they only break even at package rates (general wards, capped consumables) and private bed-days earn the chain's 22%, a well-run hospital reaches about 12.7% margin (about ₹42 crore), so ₹700 crore is about 17x, above the board's 14x limit.",
+        "The deal works only with synergy: redirecting the ₹40 crore of private patients the client now turns away, at an assumed 35% incremental margin (the target has spare beds, so only consumables, fee-based doctors and some nursing rise), adds about ₹14 crore. Year-three EBITDA of about ₹56 crore puts the price at about 12.5x, and the most the board could pay is about ₹780 crore (₹590 crore standalone)."
+      ],
+      "hints": [
+        "Value it as a strategic acquirer would, and diagnose the margin gap before trusting the seller's number.",
+        "First level: standalone earning power, combination value with the chain, price and deal terms.",
+        "Price and deal terms: valuation (₹700 crore against 14x achievable year-three EBITDA, price per bed versus build cost) and deal structure (land lease transfer and scheme obligations, hidden liabilities)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Implied multiple",
+          "formula": "₹700 cr / achievable year-3 EBITDA"
+        },
+        {
+          "name": "Revenue per bed-day by payer",
+          "formula": "inpatient revenue from payer / bed-days from payer"
+        },
+        {
+          "name": "Price per bed",
+          "formula": "deal value / beds = ₹700 cr / 330 ≈ ₹2.1 cr"
+        }
+      ],
+      "commonMistakes": [
+        "Accepting the seller's 'bad management' story and valuing at 22% margins (about 9.6x), when the payer mix is locked in by the land lease.",
+        "Ignoring the client's own hospital 4 km away, which is both the main source of synergy and the main cannibalisation risk."
+      ],
+      "frameworkPick": {
+        "options": [
+          "ma",
+          "profitability",
+          "pe-dd",
+          "market-entry"
+        ],
+        "correct": [
+          "ma",
+          "profitability"
+        ],
+        "why": "A strategic buyer must value a target standalone and with synergies against the price, and the standalone value hinges on diagnosing why the hospital's margin is 8% rather than 22%.",
+        "distractorWhyNot": {
+          "pe-dd": "A financial-buyer frame would miss the synergy and cannibalisation with the client's hospital 4 km away, which decide the answer.",
+          "market-entry": "The client already operates in Kolkata, so this is not an entry decision."
+        }
+      }
+    }
+  ],
+  "flaws": [
+    {
+      "id": "healthcare-f01",
+      "title": "Eye hospital profit decline",
+      "industry": "healthcare",
+      "framework": "profitability",
+      "difficulty": "Beginner",
+      "tree": {
+        "id": "r",
+        "label": "Why has a standalone eye hospital's profit fallen?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Revenue",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Number of surgeries (cataract, LASIK, retina)"
+              },
+              {
+                "id": "a2",
+                "label": "Revenue per surgery"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Costs",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Fixed costs: rent, salaried staff, equipment"
+              },
+              {
+                "id": "b2",
+                "label": "Variable costs: lenses, consumables, per-case surgeon fees"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "a",
+          "type": "gap",
+          "explanation": "Revenue is built only from surgeries. An eye hospital also earns from outpatient consultations, diagnostic scans, spectacles and its pharmacy, often a third or more of revenue, so a fall there would be missed.",
+          "fix": "Split revenue into surgical revenue (surgeries x revenue per surgery), outpatient consultations and diagnostics, and optical and pharmacy sales."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Why has a standalone eye hospital's profit fallen?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Revenue",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Surgical revenue: surgeries x revenue per surgery"
+              },
+              {
+                "id": "a2",
+                "label": "Outpatient consultations and diagnostic scans"
+              },
+              {
+                "id": "a3",
+                "label": "Optical and pharmacy sales"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Costs",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Fixed costs: rent, salaried staff, equipment"
+              },
+              {
+                "id": "b2",
+                "label": "Variable costs: lenses, consumables, per-case surgeon fees"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "healthcare-f02",
+      "title": "Hospital operating cost increase",
+      "industry": "healthcare",
+      "framework": "profitability",
+      "difficulty": "Beginner",
+      "tree": {
+        "id": "r",
+        "label": "Why have a 200-bed hospital's operating costs risen 15%?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Staff costs",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Doctors' salaries and fees"
+              },
+              {
+                "id": "a2",
+                "label": "Nurses and technicians"
+              },
+              {
+                "id": "a3",
+                "label": "Admin and support staff"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Medical supplies",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Drugs and consumables"
+              },
+              {
+                "id": "b2",
+                "label": "Implants: stents, joints"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Facility and overheads",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Power and maintenance"
+              },
+              {
+                "id": "c2",
+                "label": "Rent and equipment leases"
+              },
+              {
+                "id": "c3",
+                "label": "Outsourced services, IT and marketing",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Ward cover costs",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Ward nurses' pay",
+                "children": []
+              },
+              {
+                "id": "d2",
+                "label": "Agency nurses for ward cover",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "d",
+          "type": "overlap",
+          "explanation": "Ward nurses, permanent or agency, are nurses, so their pay already sits under staff costs in 'Nurses and technicians'. A rise in nurse pay or agency use would be counted twice.",
+          "fix": "Remove the separate nursing branch and make the staff branch 'Nurses and technicians, including agency staff'."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Why have a 200-bed hospital's operating costs risen 15%?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Staff costs",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Doctors' salaries and fees"
+              },
+              {
+                "id": "a2",
+                "label": "Nurses and technicians, including agency staff"
+              },
+              {
+                "id": "a3",
+                "label": "Admin and support staff"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Medical supplies",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Drugs and consumables"
+              },
+              {
+                "id": "b2",
+                "label": "Implants: stents, joints"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Facility and overheads",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Power and maintenance"
+              },
+              {
+                "id": "c2",
+                "label": "Rent and equipment leases"
+              },
+              {
+                "id": "c3",
+                "label": "Outsourced services, IT and marketing",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "healthcare-f03",
+      "title": "Knee implant market size",
+      "industry": "healthcare",
+      "framework": "market-sizing",
+      "difficulty": "Intermediate",
+      "tree": {
+        "id": "r",
+        "label": "Annual value of knee replacement implants sold in India",
+        "children": [
+          {
+            "id": "a",
+            "label": "Knee implants used per year",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Patients with end-stage knee arthritis"
+              },
+              {
+                "id": "a2",
+                "label": "Share operated on each year"
+              },
+              {
+                "id": "a3",
+                "label": "Implants per patient: one or both knees"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Average price per implant",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Primary implants (most volume)"
+              },
+              {
+                "id": "b2",
+                "label": "Revision implants (complex, higher price)"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "NPPA ceiling prices for knee implants",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Ceiling for cobalt-chromium implants"
+              },
+              {
+                "id": "c2",
+                "label": "Ceiling for titanium and special implants"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "c",
+          "type": "mixed-levels",
+          "explanation": "The NPPA ceiling is one of the things that sets the average price per implant, so it belongs inside the price branch, not beside it. As a peer of volume and price it implies market value = volume x price x ceiling, which makes no sense.",
+          "fix": "Drop it as a first-level branch and reflect it under price: primary implants priced at or near their NPPA ceiling, revision implants under theirs."
+        },
+        {
+          "nodeId": "a",
+          "type": "gap",
+          "explanation": "Volume counts only first-time replacements in arthritis patients. Revision surgeries replace implants that failed in patients counted in earlier years, so they are not in this year's patients x share operated. The price branch prices revision implants separately, but no volume line produces them.",
+          "fix": "Add a volume line for revision surgeries (failed or worn implants) beside first-time replacements."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Annual value of knee replacement implants sold in India",
+        "children": [
+          {
+            "id": "a",
+            "label": "Knee implants used per year",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Patients with end-stage knee arthritis"
+              },
+              {
+                "id": "a2",
+                "label": "Share operated on each year"
+              },
+              {
+                "id": "a3",
+                "label": "Implants per patient: one or both knees"
+              },
+              {
+                "id": "a4",
+                "label": "Revision surgeries replacing failed implants",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Average price per implant",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Primary implants: price at or near NPPA ceiling"
+              },
+              {
+                "id": "b2",
+                "label": "Revision implants: price at or near their ceiling"
+              }
+            ]
+          }
+        ]
+      },
+      "decoys": [
+        {
+          "nodeId": "a3",
+          "whyFine": "The unit being sized is implants, not patients, so a patient who has both knees replaced genuinely uses two."
+        }
+      ]
+    },
+    {
+      "id": "healthcare-f04",
+      "title": "Growing a cardiac drug portfolio",
+      "industry": "healthcare",
+      "framework": "growth",
+      "difficulty": "Intermediate",
+      "tree": {
+        "id": "r",
+        "label": "How can the client grow domestic cardiac portfolio sales 15% a year?",
+        "children": [
+          {
+            "id": "a",
+            "label": "More prescribing doctors",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Add new prescribers, e.g. physicians in tier-2 towns"
+              },
+              {
+                "id": "a2",
+                "label": "Retain current and win back lapsed prescribers"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "More prescriptions per doctor",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Higher share of each doctor's cardiac prescriptions"
+              },
+              {
+                "id": "b2",
+                "label": "More patients diagnosed through screening camps"
+              },
+              {
+                "id": "b3",
+                "label": "Climb from rank 8 to top 5 in the cardiac audit"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Higher sales per prescription",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Better adherence: more months of therapy filled"
+              },
+              {
+                "id": "c2",
+                "label": "Mix shift to higher-value combinations"
+              },
+              {
+                "id": "c3",
+                "label": "Price increases within DPCO limits"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "b3",
+          "type": "not-a-driver",
+          "explanation": "Market audit rank is an outcome of growing sales faster than rivals, not a lever that produces more prescriptions. Nothing the company can act on sits under it.",
+          "fix": "Remove it; track rank as a result metric. The levers that move rank are already in the tree."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "How can the client grow domestic cardiac portfolio sales 15% a year?",
+        "children": [
+          {
+            "id": "a",
+            "label": "More prescribing doctors",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Add new prescribers, e.g. physicians in tier-2 towns"
+              },
+              {
+                "id": "a2",
+                "label": "Retain current and win back lapsed prescribers"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "More prescriptions per doctor",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Higher share of each doctor's cardiac prescriptions"
+              },
+              {
+                "id": "b2",
+                "label": "More patients diagnosed through screening camps"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Higher sales per prescription",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Better adherence: more months of therapy filled"
+              },
+              {
+                "id": "c2",
+                "label": "Mix shift to higher-value combinations"
+              },
+              {
+                "id": "c3",
+                "label": "Price increases within DPCO limits"
+              }
+            ]
+          }
+        ]
+      },
+      "decoys": [
+        {
+          "nodeId": "c3",
+          "whyFine": "Non-scheduled drugs may rise up to 10% a year and scheduled ones by the WPI-linked revision, so price is a real, if limited, lever."
+        },
+        {
+          "nodeId": "c1",
+          "whyFine": "Chronic cardiac therapy is refilled monthly, so adherence programmes raise months of therapy sold per prescription."
+        }
+      ]
+    },
+    {
+      "id": "healthcare-f05",
+      "title": "Excess length of stay",
+      "industry": "healthcare",
+      "framework": "operations",
+      "difficulty": "Intermediate",
+      "tree": {
+        "id": "r",
+        "label": "Why is average length of stay 1.5 days above peer hospitals?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Our patients are sicker or need more complex care",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Age and co-morbidity profile vs peers"
+              },
+              {
+                "id": "a2",
+                "label": "Procedure mix: complex surgery vs day-care cases"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Similar patients stay longer here",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Waiting before treatment starts",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Diagnostic test and report delays"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Waiting for a surgeon or theatre slot"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Longer treatment phase",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Infections and post-operative complications"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Conservative step-down and discharge decisions"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Delays after the patient is medically fit",
+                "children": [
+                  {
+                    "id": "b3x",
+                    "label": "Discharge summary and final bill preparation"
+                  },
+                  {
+                    "id": "b3y",
+                    "label": "Insurer or TPA final authorisation"
+                  },
+                  {
+                    "id": "b3z",
+                    "label": "Family arrangements: transport, home care"
+                  },
+                  {
+                    "id": "b3w",
+                    "label": "Cashless claim clearance before the patient leaves"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "b3w",
+          "type": "overlap",
+          "explanation": "Under IRDAI's 2024 health master circular the hospital sends a discharge request and the insurer or TPA must give final authorisation within three hours; that authorisation is what lets a cashless patient leave. Payment to the hospital comes later and does not keep the patient in bed, so 'cashless claim clearance' is the same wait as final authorisation, counted twice.",
+          "fix": "Remove it and keep a single node for insurer or TPA final authorisation of the cashless claim."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Why is average length of stay 1.5 days above peer hospitals?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Our patients are sicker or need more complex care",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Age and co-morbidity profile vs peers"
+              },
+              {
+                "id": "a2",
+                "label": "Procedure mix: complex surgery vs day-care cases"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Similar patients stay longer here",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Waiting before treatment starts",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Diagnostic test and report delays"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Waiting for a surgeon or theatre slot"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Longer treatment phase",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Infections and post-operative complications"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Conservative step-down and discharge decisions"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Delays after the patient is medically fit",
+                "children": [
+                  {
+                    "id": "b3x",
+                    "label": "Discharge summary and final bill preparation"
+                  },
+                  {
+                    "id": "b3y",
+                    "label": "Insurer or TPA final authorisation of cashless claim"
+                  },
+                  {
+                    "id": "b3z",
+                    "label": "Family arrangements: transport, home care"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "decoys": [
+        {
+          "nodeId": "b3x",
+          "whyFine": "Preparing the summary and final bill is hospital-side work that happens before the request reaches the insurer, so it is a separate wait."
+        },
+        {
+          "nodeId": "b2y",
+          "whyFine": "This is about when doctors declare the patient fit, which ends the treatment phase; waits after that point sit under b3."
+        }
+      ]
+    },
+    {
+      "id": "healthcare-f06",
+      "title": "Branded generics margin squeeze",
+      "industry": "healthcare",
+      "framework": "profitability",
+      "difficulty": "Advanced",
+      "tree": {
+        "id": "r",
+        "label": "Why did India formulations EBITDA margin fall from 27% to 22%?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Net revenue",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Prescription volume",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Number of prescribing doctors"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Prescriptions per doctor"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Price per unit at MRP",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "MRP changes: NPPA cuts, annual increases"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Brand and pack mix"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Cost of goods",
+            "children": [
+              {
+                "id": "b1",
+                "label": "API and excipients",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "API prices (KSMs largely imported from China)"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "API used per unit (process yields)"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Plant conversion cost",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Capacity utilisation"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Power, labour and quality costs"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Packaging materials"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Selling and promotion",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Field force cost",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Headcount across the sales hierarchy"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Cost per head: salary, incentives, travel"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Promotional spend",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "Physician samples"
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "Conferences and medical education"
+                  }
+                ]
+              },
+              {
+                "id": "c3",
+                "label": "Rep productivity (sales per rep per month)"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Overheads",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Corporate staff and administration"
+              },
+              {
+                "id": "d2",
+                "label": "Distribution: C&F agents, freight, warehousing"
+              },
+              {
+                "id": "d3",
+                "label": "Regional sales managers' salaries"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "a",
+          "type": "gap",
+          "explanation": "Revenue is built as prescriptions x MRP, but the company books primary sales to stockists net of GST, trade margins, channel stocking and expiry returns. A rise in trade margins, stockist destocking or higher returns can cut booked revenue while prescriptions and MRPs stay flat, and this tree cannot see it.",
+          "fix": "Add a branch bridging MRP to booked revenue: trade margins and discounts to stockists and chemists, and channel inventory changes and expiry returns."
+        },
+        {
+          "nodeId": "c3",
+          "type": "not-a-driver",
+          "explanation": "Sales per rep is a ratio of revenue to headcount, a performance metric, not a cost line. It cannot add to selling cost and duplicates information already in field force cost and revenue.",
+          "fix": "Remove it from the cost tree and track it as a KPI alongside the analysis."
+        },
+        {
+          "nodeId": "d3",
+          "type": "overlap",
+          "explanation": "The sales hierarchy runs from reps through area managers to regional managers, so regional managers are already in field force headcount and cost; listing their salaries under overheads counts them twice.",
+          "fix": "Remove it from overheads; keep all sales management cost in the field force branch."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Why did India formulations EBITDA margin fall from 27% to 22%?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Net revenue",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Prescription volume",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Number of prescribing doctors"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Prescriptions per doctor"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Price per unit at MRP",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "MRP changes: NPPA cuts, annual increases"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Brand and pack mix"
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Bridge from MRP to booked revenue",
+                "children": [
+                  {
+                    "id": "a3x",
+                    "label": "GST, trade margins and discounts to channel"
+                  },
+                  {
+                    "id": "a3y",
+                    "label": "Channel inventory changes and expiry returns"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Cost of goods",
+            "children": [
+              {
+                "id": "b1",
+                "label": "API and excipients",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "API prices (KSMs largely imported from China)"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "API used per unit (process yields)"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Plant conversion cost",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Capacity utilisation"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Power, labour and quality costs"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Packaging materials"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Selling and promotion",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Field force cost",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Headcount across the sales hierarchy"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Cost per head: salary, incentives, travel"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Promotional spend",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "Physician samples"
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "Conferences and medical education"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Overheads",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Corporate staff and administration"
+              },
+              {
+                "id": "d2",
+                "label": "Distribution: C&F agents, freight, warehousing"
+              }
+            ]
+          }
+        ]
+      },
+      "decoys": [
+        {
+          "nodeId": "d2",
+          "whyFine": "C&F fees, freight and warehousing are costs the company pays; stockist and chemist margins are price concessions, so they belong in the revenue bridge, not here."
+        },
+        {
+          "nodeId": "b1y",
+          "whyFine": "Process yield sets how much API each unit consumes, a material cost, while capacity utilisation spreads conversion cost; they are different quantities."
+        }
+      ]
+    },
+    {
+      "id": "healthcare-f07",
+      "title": "Pricing a patented cancer drug",
+      "industry": "healthcare",
+      "framework": "pricing",
+      "difficulty": "Advanced",
+      "tree": {
+        "id": "r",
+        "label": "What India price should the firm set for its patented cancer drug?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Value to patients and payers",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Clinical benefit vs current standard of care",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Months of survival gained"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Side effects and hospital days avoided"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Ability to pay by payer type",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Self-pay patients (most cancer patients)"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Privately insured: sum-insured limits"
+                  },
+                  {
+                    "id": "a2z",
+                    "label": "Government and employer schemes: PM-JAY, CGHS, ESIC, PSUs"
+                  },
+                  {
+                    "id": "a2w",
+                    "label": "Cash patients at private cancer hospitals",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Reference prices",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Monthly cost of current therapies in India",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Older patented therapies"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Generic and biosimilar options"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Prices in other markets",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "US and EU list prices"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Comparable emerging markets"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Constraints on the price",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Cost floor: landed cost incl. duties, cold chain"
+              },
+              {
+                "id": "c2",
+                "label": "Channel: hospital and oncology pharmacy margins"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "c",
+          "type": "gap",
+          "explanation": "The constraints omit legal and regulatory risk, which matters most for a patented drug in India. Three years after grant, anyone can seek a compulsory licence under section 84 of the Patents Act if the drug is not available at a reasonably affordable price, as in the 2012 Natco v Bayer licence for a cancer drug. A high price also invites opposition or revocation petitions from generic makers and patient groups, often under section 3(d), which bars patents on new forms of known substances without better efficacy. New patented drugs are exempt from DPCO price control for five years from launch in India; after that NPPA can fix prices or cap trade margins, as it did for many cancer drugs in 2019.",
+          "fix": "Add a constraint branch for legal and regulatory risk: compulsory licence and patent opposition risk, and price control once the five-year DPCO exemption ends."
+        },
+        {
+          "nodeId": "a2w",
+          "type": "overlap",
+          "explanation": "Cash patients are self-pay patients described by where they are treated. Adding them beside the payer types counts the same people twice.",
+          "fix": "Remove it. If treatment setting matters, use it as a separate cut, for example in launch sequencing, not as a fourth payer type."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "What India price should the firm set for its patented cancer drug?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Value to patients and payers",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Clinical benefit vs current standard of care",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Months of survival gained"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Side effects and hospital days avoided"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Ability to pay by payer type",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Self-pay patients (most cancer patients)"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Privately insured: sum-insured limits"
+                  },
+                  {
+                    "id": "a2z",
+                    "label": "Government and employer schemes: PM-JAY, CGHS, ESIC, PSUs"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Reference prices",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Monthly cost of current therapies in India",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Older patented therapies"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Generic and biosimilar options"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Prices in other markets",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "US and EU list prices"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Comparable emerging markets"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Constraints on the price",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Cost floor: landed cost incl. duties, cold chain"
+              },
+              {
+                "id": "c2",
+                "label": "Channel: hospital and oncology pharmacy margins"
+              },
+              {
+                "id": "c3",
+                "label": "Legal and regulatory risk",
+                "children": [
+                  {
+                    "id": "c3x",
+                    "label": "Compulsory licence and patent opposition risk"
+                  },
+                  {
+                    "id": "c3y",
+                    "label": "Price control after five-year DPCO exemption"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "decoys": [
+        {
+          "nodeId": "b1y",
+          "whyFine": "Generics and biosimilars of older therapies set what patients pay today, so they are a valid reference even though the new drug is patented."
+        },
+        {
+          "nodeId": "c2",
+          "whyFine": "Hospital and oncology pharmacies take sizeable margins inside the patient price, so the channel genuinely constrains the price the firm realises."
+        }
+      ]
+    }
+  ],
+  "quick": [
+    {
+      "id": "healthcare-q01",
+      "industry": "healthcare",
+      "difficulty": "Beginner",
+      "question": "Which split of 'Revenue of a multi-specialty private hospital' is MECE?",
+      "parent": "Revenue of a multi-specialty private hospital",
+      "options": [
+        {
+          "split": [
+            "Bed and nursing charges",
+            "Procedures and surgeries",
+            "Outpatient consults and tests",
+            "Pharmacy and consumables"
+          ],
+          "correct": false,
+          "why": "Mixed basis leaves a gap: three branches are service lines and one is a patient type, so inpatient lab tests, imaging and doctors' visit fees fit nowhere."
+        },
+        {
+          "split": [
+            "Admitted patients, incl. day-care",
+            "Outpatients: consults, tests, pharmacy",
+            "Non-patient income: rentals, food court"
+          ],
+          "correct": true,
+          "why": "Every rupee comes from an admitted patient, a patient seen without admission, or someone who is not a patient. Day-care cases are formal admissions (IRDAI defines day care as treatment under anaesthesia in under 24 hours), so they sit with inpatients."
+        },
+        {
+          "split": [
+            "Cash and insured inpatients",
+            "Scheme inpatients (PM-JAY, CGHS)",
+            "Day-care procedures",
+            "Outpatients and non-patient income"
+          ],
+          "correct": false,
+          "why": "Overlap: day-care patients are formally admitted and pay as cash, insured or scheme patients, so they are already inside the first two branches."
+        },
+        {
+          "split": [
+            "Inpatient admissions, incl. day-care",
+            "Outpatient consultations",
+            "Non-patient income: rentals, food court"
+          ],
+          "correct": false,
+          "why": "Gap: walk-in diagnostics and outpatient pharmacy, a large share of non-admitted revenue, belong to no branch."
+        }
+      ]
+    },
+    {
+      "id": "healthcare-q02",
+      "industry": "healthcare",
+      "difficulty": "Beginner",
+      "question": "Which split of 'Factory cost per tablet of a generic medicine' is MECE?",
+      "parent": "Factory cost per tablet of a generic medicine",
+      "options": [
+        {
+          "split": [
+            "API",
+            "Excipients",
+            "Packaging materials",
+            "Labour and power"
+          ],
+          "correct": false,
+          "why": "Gap: conversion is more than labour and power. Quality control testing, batch documentation, maintenance and plant depreciation, all heavy under revised Schedule M, are missing."
+        },
+        {
+          "split": [
+            "API",
+            "Excipients and packaging",
+            "Conversion cost",
+            "Imported inputs"
+          ],
+          "correct": false,
+          "why": "Overlap from a mixed basis: imported inputs such as Chinese KSMs or blister foil are already inside API and packaging cost."
+        },
+        {
+          "split": [
+            "API",
+            "Excipients",
+            "Packaging materials",
+            "Conversion cost"
+          ],
+          "correct": true,
+          "why": "Materials split into the active ingredient, the other ingredients and the pack; everything else the plant spends to turn them into released tablets is conversion."
+        },
+        {
+          "split": [
+            "API",
+            "Excipients",
+            "Primary and secondary packaging",
+            "Conversion cost",
+            "Blister foil and cartons"
+          ],
+          "correct": false,
+          "why": "Overlap: blister foil is primary packaging and cartons are secondary packaging, so both are counted twice."
+        }
+      ]
+    },
+    {
+      "id": "healthcare-q03",
+      "industry": "healthcare",
+      "difficulty": "Beginner",
+      "question": "Which split of 'Ways a pharma company can grow its domestic sales' is MECE?",
+      "parent": "Ways a pharma company can grow its domestic sales",
+      "options": [
+        {
+          "split": [
+            "Existing brands: volume",
+            "Existing brands: net price",
+            "New brands: built",
+            "New brands: bought or licensed in"
+          ],
+          "correct": true,
+          "why": "Sales come from brands already sold or new ones; existing brands grow by volume or realised price, and new brands are either built or bought."
+        },
+        {
+          "split": [
+            "Existing brands: volume",
+            "Existing brands: price and pack mix",
+            "New launches",
+            "Line extensions and new strengths"
+          ],
+          "correct": false,
+          "why": "Overlap: a line extension is sold either under an existing brand (already in its volume and mix) or as a new launch, so it is counted twice."
+        },
+        {
+          "split": [
+            "Existing brands: volume",
+            "Existing brands: price",
+            "New brands launched in-house"
+          ],
+          "correct": false,
+          "why": "Gap: acquired and in-licensed brands, a common growth route in Indian pharma, are missing."
+        },
+        {
+          "split": [
+            "Chronic therapies",
+            "Acute therapies",
+            "New launches",
+            "Price increases"
+          ],
+          "correct": false,
+          "why": "Mixed basis: therapy area, product age and a lever are three different cuts, so a new chronic launch or a price rise on an acute brand is counted twice."
+        }
+      ]
+    },
+    {
+      "id": "healthcare-q04",
+      "industry": "healthcare",
+      "difficulty": "Intermediate",
+      "question": "Which split of 'Patients advised surgery in our OPD but not operated on here within 90 days' is MECE?",
+      "parent": "Patients advised surgery in our OPD but not operated on here within 90 days",
+      "options": [
+        {
+          "split": [
+            "Operated at another hospital",
+            "Decided against surgery"
+          ],
+          "correct": false,
+          "why": "Gap: patients still deciding, saving up or booked here and waiting for a date fit neither branch."
+        },
+        {
+          "split": [
+            "Operated at another hospital",
+            "Referred out by our own surgeon",
+            "Not operated anywhere yet"
+          ],
+          "correct": false,
+          "why": "Overlap: a patient referred out by our surgeon who has had the operation is also operated at another hospital; the split mixes a cause with outcomes."
+        },
+        {
+          "split": [
+            "Self-pay patients put off by price",
+            "Insured patients refused pre-authorisation",
+            "Operated at another hospital",
+            "Booked here, awaiting a date"
+          ],
+          "correct": false,
+          "why": "Mixed basis: reasons and outcomes sit side by side, so a self-pay patient put off by price who was operated elsewhere falls in two branches."
+        },
+        {
+          "split": [
+            "Operated at another hospital",
+            "Not operated anywhere, not booked here",
+            "Booked here, awaiting a date"
+          ],
+          "correct": true,
+          "why": "Each patient is classified by status at day 90: operated elsewhere, not operated and not booked with us, or booked with us but waiting. Reasons such as price or insurance can then be analysed inside each group."
+        }
+      ]
+    },
+    {
+      "id": "healthcare-q05",
+      "industry": "healthcare",
+      "difficulty": "Intermediate",
+      "question": "Which split of 'Annual revenue of an Indian IVF clinic' is MECE?",
+      "parent": "Annual revenue of an Indian IVF clinic",
+      "options": [
+        {
+          "split": [
+            "Cycles x revenue per cycle",
+            "Consultations and diagnostics",
+            "Embryology and lab charges",
+            "Egg freezing, add-ons and storage"
+          ],
+          "correct": false,
+          "why": "Overlap: embryology and lab work is billed inside the cycle package, so it is already in revenue per cycle."
+        },
+        {
+          "split": [
+            "Consultations and diagnostics",
+            "IUI cycles",
+            "IVF or ICSI cycles, fresh or frozen",
+            "Egg freezing, add-ons and storage"
+          ],
+          "correct": true,
+          "why": "Covers what patients pay before treatment, for each type of treatment cycle, and for services outside a cycle; every IVF or ICSI cycle is either fresh or a frozen transfer."
+        },
+        {
+          "split": [
+            "Consultations and diagnostics",
+            "Fresh IVF or ICSI cycles",
+            "Frozen embryo transfers",
+            "Egg freezing, add-ons and storage"
+          ],
+          "correct": false,
+          "why": "Gap: IUI cycles, the cheaper first-line treatment that most Indian fertility clinics run in volume, are missing."
+        },
+        {
+          "split": [
+            "Consultations and diagnostics",
+            "IUI cycles",
+            "IVF or ICSI cycles",
+            "Donor-egg programmes",
+            "Egg freezing, add-ons and storage"
+          ],
+          "correct": false,
+          "why": "Overlap: a donor-egg cycle is still an IVF or ICSI cycle, so it is counted twice."
+        }
+      ]
+    },
+    {
+      "id": "healthcare-q06",
+      "industry": "healthcare",
+      "difficulty": "Intermediate",
+      "question": "Which split of 'Shortfall between list-tariff bills for insured patients and amounts settled' is MECE?",
+      "parent": "Shortfall between list-tariff bills for insured patients and amounts settled",
+      "options": [
+        {
+          "split": [
+            "Claim deductions not recovered",
+            "Rejected claims not recovered",
+            "Amounts awaiting settlement"
+          ],
+          "correct": false,
+          "why": "Gap: the discounts on list tariff agreed with insurers in network rate contracts are missing, and they are often the largest slice."
+        },
+        {
+          "split": [
+            "Negotiated tariff discounts",
+            "Deductions and rejections not recovered",
+            "Amounts awaiting settlement",
+            "Delays from TPA query cycles"
+          ],
+          "correct": false,
+          "why": "Mixed levels: query cycles are a cause of amounts still awaiting settlement, not a separate slice of the shortfall."
+        },
+        {
+          "split": [
+            "Negotiated tariff discounts",
+            "Deductions not recovered from patients",
+            "Rejections not recovered",
+            "Amounts awaiting settlement"
+          ],
+          "correct": true,
+          "why": "Each rupee of list-tariff billing is discounted upfront, deducted and not recovered, rejected and not recovered, still pending, or settled, so the four slices explain the whole shortfall."
+        },
+        {
+          "split": [
+            "Negotiated tariff discounts",
+            "Disallowed items not recovered",
+            "Non-payable consumables written off",
+            "Rejections not recovered",
+            "Amounts awaiting settlement"
+          ],
+          "correct": false,
+          "why": "Overlap: non-payable consumables written off are disallowed items not recovered under another name."
+        }
+      ]
+    },
+    {
+      "id": "healthcare-q07",
+      "industry": "healthcare",
+      "difficulty": "Advanced",
+      "question": "Which split of 'Why a branded generics company's booked domestic revenue fell while chemist sell-out was flat' is MECE?",
+      "parent": "Why a branded generics company's booked domestic revenue fell while chemist sell-out was flat",
+      "options": [
+        {
+          "split": [
+            "Lower net realisation per unit",
+            "Stockist destocking",
+            "Higher expiry and sales returns"
+          ],
+          "correct": false,
+          "why": "Gap: chemists can also run down their own stock, which cuts stockists' orders and so the company's primary sales while sell-out stays flat."
+        },
+        {
+          "split": [
+            "Higher trade margins and schemes",
+            "Lower net price per unit to stockists",
+            "Channel destocking",
+            "Higher expiry and sales returns"
+          ],
+          "correct": false,
+          "why": "Overlap: higher trade margins and schemes are what lower the net price per unit to stockists."
+        },
+        {
+          "split": [
+            "Lower net realisation per unit",
+            "Channel destocking",
+            "Higher expiry and sales returns",
+            "Lower MRPs after NPPA revisions"
+          ],
+          "correct": false,
+          "why": "Not a driver here: a lower MRP would show up in chemist sell-out value, which is flat, and any effect on the company is already inside realisation."
+        },
+        {
+          "split": [
+            "Lower net realisation per unit",
+            "Channel destocking by stockists or chemists",
+            "Higher expiry and sales returns"
+          ],
+          "correct": true,
+          "why": "With sell-out flat, booked revenue can fall only through what the company keeps per unit shipped, stock taken out of either tier of the channel, or goods coming back."
+        }
+      ]
+    },
+    {
+      "id": "healthcare-q08",
+      "industry": "healthcare",
+      "difficulty": "Advanced",
+      "question": "Which split of 'Growth in a hospital chain's equity value from entry to exit (no dividends or new shares)' is MECE?",
+      "parent": "Growth in a hospital chain's equity value from entry to exit (no dividends or new shares)",
+      "options": [
+        {
+          "split": [
+            "EBITDA growth",
+            "Change in EV/EBITDA multiple",
+            "Change in net debt"
+          ],
+          "correct": true,
+          "why": "Equity value is EBITDA x multiple minus net debt, so with no dividends or new shares every rupee of change comes from these three terms (the cross effect of growth and re-rating is shown inside one of them)."
+        },
+        {
+          "split": [
+            "EBITDA growth: beds, occupancy, ARPOB, margin",
+            "Multiple expansion"
+          ],
+          "correct": false,
+          "why": "Gap: it ignores net debt, which in a capex-heavy bed expansion can add or destroy a large share of equity value."
+        },
+        {
+          "split": [
+            "EBITDA growth",
+            "Change in multiple",
+            "Debt repaid from operating cash",
+            "Free cash flow generated"
+          ],
+          "correct": false,
+          "why": "Overlap: debt repaid from operating cash is the free cash flow generated, so the same cash is counted twice."
+        },
+        {
+          "split": [
+            "EBITDA growth",
+            "Change in multiple",
+            "Change in net debt",
+            "Lower capex per new bed"
+          ],
+          "correct": false,
+          "why": "Mixed levels: capex per bed is a driver of net debt, not a fourth source of value beside it."
+        }
+      ]
+    }
+  ],
+  "chainDrills": [
+    {
+      "id": "healthcare-v01",
+      "industry": "healthcare",
+      "difficulty": "Beginner",
+      "type": "locate",
+      "prompt": "A private hospital's average revenue per bed-day falls because more of its patients now come under PM-JAY at package rates. In which stage does this price pressure originate?",
+      "options": [
+        "s3",
+        "s4",
+        "s5",
+        "s6"
+      ],
+      "answer": [
+        "s6"
+      ],
+      "why": "The hospital (s5) feels the drop, but package rates are set by the payer, the National Health Authority and state agencies running PM-JAY, which sits in payment and reimbursement (s6)."
+    },
+    {
+      "id": "healthcare-v02",
+      "industry": "healthcare",
+      "difficulty": "Beginner",
+      "type": "order",
+      "prompt": "Put the stages in the order a new medicine moves from the lab to a paid-for treatment.",
+      "options": [
+        "s4",
+        "s1",
+        "s6",
+        "s3",
+        "s5",
+        "s2"
+      ],
+      "answer": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6"
+      ],
+      "why": "The molecule is discovered and approved (s1), its API is made (s2) and turned into a branded product (s3), stockists move it (s4) to the hospital or chemist who uses or dispenses it (s5), and the patient, insurer or government pays for the treatment (s6)."
+    },
+    {
+      "id": "healthcare-v03",
+      "industry": "healthcare",
+      "difficulty": "Intermediate",
+      "type": "locate",
+      "prompt": "A branded generics company's gross margin falls 4 points. Its own plant costs, field force and trade terms are unchanged, but the supplier of its main molecule raised prices 60% after a state pollution control board shut the supplier's effluent treatment plant. In which stage does the cost shock originate?",
+      "options": [
+        "s1",
+        "s2",
+        "s3",
+        "s4"
+      ],
+      "answer": [
+        "s2"
+      ],
+      "why": "The margin falls in formulation (s3), but effluent treatment and environmental compliance are costs of making APIs and intermediates, so the shock originates in API and inputs manufacturing (s2) and is passed on to the formulator through the API price."
+    },
+    {
+      "id": "healthcare-v04",
+      "industry": "healthcare",
+      "difficulty": "Intermediate",
+      "type": "locate",
+      "prompt": "Prescriptions, chemist sell-out and chemists' own stock levels are flat, and MRPs and trade margins are unchanged, yet a drug maker's booked sales fall about 17% for one quarter and recover the next. Where is the drop created?",
+      "options": [
+        "s3",
+        "s4",
+        "s5",
+        "s6"
+      ],
+      "answer": [
+        "s4"
+      ],
+      "why": "The company books revenue when it sells to stockists. With demand and chemist stocks flat, a one-quarter dip is a stock correction in trade distribution (s4): stockists cutting cover from 45 to 30 days buy 15 fewer days of a 90-day quarter, about 17% less."
+    },
+    {
+      "id": "healthcare-v05",
+      "industry": "healthcare",
+      "difficulty": "Advanced",
+      "type": "locate",
+      "prompt": "A health insurer's claims ratio rises to 95% because hospitals in one city now bill more per admission: extra tests, upgraded rooms and premium implants, all within policy cover. In which stage do these costs originate?",
+      "options": [
+        "s3",
+        "s4",
+        "s5",
+        "s6"
+      ],
+      "answer": [
+        "s5"
+      ],
+      "why": "The insurer (s6) bears the cost, but it is created by clinical and billing decisions at the point of care (s5). The fix needs provider-side tools such as package rates, pre-authorisation rules or network tiering, not only higher premiums."
+    },
+    {
+      "id": "healthcare-v06",
+      "industry": "healthcare",
+      "difficulty": "Advanced",
+      "type": "assign",
+      "prompt": "Assign each cost or revenue item to the stage where it sits: a bioequivalence study for a US generic filing; solvent recovery at a bulk drug plant; medical representative salaries; a stockist's 10% margin; a chemist's 20% margin; a TPA's fee for processing cashless claims.",
+      "items": [
+        {
+          "item": "Bioequivalence study for a US generic filing",
+          "stage": "s1"
+        },
+        {
+          "item": "Solvent recovery at a bulk drug plant",
+          "stage": "s2"
+        },
+        {
+          "item": "Medical representative salaries",
+          "stage": "s3"
+        },
+        {
+          "item": "A stockist's 10% margin",
+          "stage": "s4"
+        },
+        {
+          "item": "A chemist's 20% margin",
+          "stage": "s5"
+        },
+        {
+          "item": "A TPA's fee for processing cashless claims",
+          "stage": "s6"
+        }
+      ],
+      "why": "Three are easy to misplace. A bioequivalence study is part of getting a generic approved, so it sits in research, trials and approval (s1) even though no new molecule is involved. Medical reps sell, but they are paid by the brand owner to create prescriptions, so their cost sits in formulation and brand marketing (s3), not distribution. The chemist's margin is earned at the point of dispensing (s5), while the stockist's margin belongs to trade distribution (s4)."
+    }
+  ]
+}

@@ -1,0 +1,4030 @@
+{
+  "industry": "energy",
+  "valueChain": {
+    "summary": "Power is made from fuel or renewable resources and sold wholesale under long-term contracts or on exchanges, carried over high-voltage lines, then delivered and billed by distribution companies. Money is made where returns are regulated or contracted (coal, generation, transmission), while retail supply, caught between regulated tariffs and rising costs, has usually lost it.",
+    "stages": [
+      {
+        "id": "s1",
+        "name": "Fuel and resource supply",
+        "activities": [
+          "Coal mining and washing",
+          "Moving coal by rail and road to plants",
+          "LNG import and regasification",
+          "Supplying modules, turbines and batteries for renewables"
+        ],
+        "players": [
+          "State-owned and commercial coal miners",
+          "Railways and coal logistics firms",
+          "LNG importers and regas terminal operators",
+          "Module, turbine and battery makers"
+        ],
+        "revenueDrivers": [
+          "Coal volume x notified price per tonne by grade",
+          "Freight per tonne-km",
+          "Regas tariffs and LNG trading margins"
+        ],
+        "costDrivers": [
+          "Overburden removal and mining contractor costs",
+          "Diesel and explosives",
+          "Royalties and statutory levies"
+        ],
+        "kpis": [
+          {
+            "name": "Coal stock at plant",
+            "formula": "coal in stock (tonnes) / daily requirement at normative PLF",
+            "benchmark": "approx. 20+ days for non-pithead plants under CEA stocking norms"
+          },
+          {
+            "name": "Freight share of landed coal cost",
+            "formula": "freight per tonne / landed coal price per tonne",
+            "benchmark": "approx. 30-50% for plants far from the mines"
+          }
+        ],
+        "marginNote": "Healthy: coal mining earns roughly 25-35% EBITDA; logistics is thinner."
+      },
+      {
+        "id": "s2",
+        "name": "Generation and wholesale sale",
+        "activities": [
+          "Running coal, gas, hydro and nuclear plants",
+          "Developing and operating solar and wind parks",
+          "Selling output under long-term PPAs, on power exchanges or through traders",
+          "Declaring availability, scheduling output and planning maintenance"
+        ],
+        "players": [
+          "Central and state generating companies",
+          "Private independent power producers (IPPs)",
+          "Renewable developers and captive plants of industrial firms",
+          "Power exchanges, licensed traders and central agencies that aggregate renewable tenders"
+        ],
+        "revenueDrivers": [
+          "Capacity charges linked to declared availability (thermal)",
+          "Energy charges per unit scheduled (fuel pass-through)",
+          "Fixed per-unit tariff x units generated (renewables)",
+          "Merchant sales at exchange prices",
+          "Exchange transaction fees and trading margins per unit"
+        ],
+        "costDrivers": [
+          "Fuel (roughly 60-70% of a coal plant's cost)",
+          "O&M and staff",
+          "Depreciation and interest on heavy capex",
+          "Working capital tied up in late discom payments"
+        ],
+        "kpis": [
+          {
+            "name": "Plant load factor (PLF)",
+            "formula": "units generated / (MW x 8,760)",
+            "benchmark": "approx. 65-70% for India's coal fleet recently; 80%+ for the best plants"
+          },
+          {
+            "name": "Station heat rate",
+            "formula": "fuel heat input (kcal) / units generated (kWh)",
+            "benchmark": "approx. 2,300-2,450 kcal/kWh for modern coal units"
+          },
+          {
+            "name": "Capacity utilisation factor (solar)",
+            "formula": "units generated / (MW x 8,760)",
+            "benchmark": "approx. 19-25% in India"
+          },
+          {
+            "name": "Day-ahead market clearing price",
+            "formula": "volume-weighted average price per kWh",
+            "benchmark": "approx. ₹4-5/kWh annual average recently; solar hours often clear below ₹3, evening peaks hit the ₹10 cap"
+          }
+        ],
+        "marginNote": "Regulated thermal earns an assured return (CERC base ROE of 15.5%); contracted renewables run at 85-90% EBITDA margins but carry heavy debt; exchanges earn high margins on a fee of a few paise per unit, while traders keep only a few paise per unit."
+      },
+      {
+        "id": "s3",
+        "name": "Transmission",
+        "activities": [
+          "Building and running high-voltage lines and substations",
+          "Inter-state and intra-state transmission",
+          "Grid operation and scheduling by the system operator"
+        ],
+        "players": [
+          "Central transmission utility",
+          "State transmission companies",
+          "Private developers winning tariff-based bids"
+        ],
+        "revenueDrivers": [
+          "Annual transmission charges set by regulator or bid",
+          "Availability incentives"
+        ],
+        "costDrivers": [
+          "Capex on lines and substations",
+          "Interest and depreciation",
+          "Right-of-way compensation"
+        ],
+        "kpis": [
+          {
+            "name": "Transmission system availability",
+            "formula": "hours available / total hours",
+            "benchmark": "approx. 99.5%+ for leading transmission utilities"
+          }
+        ],
+        "marginNote": "Regulated, low-risk returns: EBITDA margins around 85-90%."
+      },
+      {
+        "id": "s4",
+        "name": "Distribution network",
+        "activities": [
+          "Running 33/11 kV and low-voltage lines",
+          "Installing and maintaining distribution transformers",
+          "Connecting new customers",
+          "Cutting technical losses and theft from lines"
+        ],
+        "players": [
+          "State-owned discoms",
+          "Private discoms and franchisees in a few cities and states"
+        ],
+        "revenueDrivers": [
+          "Return on network assets built into the retail tariff",
+          "Wheeling charges paid by open-access users"
+        ],
+        "costDrivers": [
+          "Technical losses and theft",
+          "Network O&M and staff",
+          "Capex on feeders and transformers"
+        ],
+        "kpis": [
+          {
+            "name": "T&D losses",
+            "formula": "1 - units billed / units input",
+            "benchmark": "approx. 16-19% nationally in recent years; best urban discoms below 8%"
+          },
+          {
+            "name": "Transformer failure rate",
+            "formula": "transformers failed in the year / transformers installed",
+            "benchmark": "approx. under 3% for well-run discoms; much higher in weak ones"
+          }
+        ],
+        "marginNote": "Network returns are regulated but bundled with retail supply in India, so network performance shows up in the discom's combined (usually negative) result."
+      },
+      {
+        "id": "s5",
+        "name": "Retail supply and customer",
+        "activities": [
+          "Tariff filing with the state regulator",
+          "Metering and billing",
+          "Collecting payment and claiming state subsidy",
+          "Customer schemes (smart prepaid meters, rooftop solar)"
+        ],
+        "players": [
+          "Discoms (same entities as the network stage in India)",
+          "State electricity regulatory commissions",
+          "State governments (subsidy)"
+        ],
+        "revenueDrivers": [
+          "Units billed x average tariff by category",
+          "Collection efficiency",
+          "State subsidy for farm and low-income users",
+          "Cross-subsidy from industrial and commercial users"
+        ],
+        "costDrivers": [
+          "Power purchase cost (roughly 75-80% of discom costs)",
+          "Metering, billing and collection costs",
+          "Bad debt"
+        ],
+        "kpis": [
+          {
+            "name": "Collection efficiency",
+            "formula": "amount collected / amount billed",
+            "benchmark": "approx. 97-99% for well-run discoms"
+          },
+          {
+            "name": "AT&C loss",
+            "formula": "1 - billing efficiency x collection efficiency",
+            "benchmark": "approx. 15-16% nationally in FY2024-25 (official sources differ slightly); RDSS target band 12-15%"
+          },
+          {
+            "name": "ACS-ARR gap",
+            "formula": "average cost of supply - average revenue realised, per kWh",
+            "benchmark": "about ₹0.45/kWh in FY2023-24, narrowing to about ₹0.06/kWh in FY2024-25 on official figures; target zero"
+          }
+        ],
+        "marginNote": "Historically loss-making: state discoms carry accumulated losses of several lakh crore rupees, although on official figures they posted a small aggregate profit (about ₹2,700 crore) in FY2024-25 for the first time in years."
+      }
+    ],
+    "profitPools": "Most profit sits upstream and in the middle of the chain: coal mining, regulated thermal generation with an assured ROE, contracted renewables and transmission all earn predictable returns on capital, and exchanges earn high margins on volume. Distribution and retail supply have historically destroyed value in India because tariffs for farmers and households are held below cost, losses and collection gaps leak cash, and the resulting payment delays push risk back up the chain to generators. The first aggregate discom profit, in FY2024-25, was thin.",
+    "unitEconomics": {
+      "unit": "per kWh sold by a typical Indian state discom (approximate)",
+      "lines": [
+        {
+          "item": "Average billing rate",
+          "value": "₹7.10"
+        },
+        {
+          "item": "Less collection shortfall (4% of billing)",
+          "value": "-₹0.28"
+        },
+        {
+          "item": "Power purchase cost (₹4.80 per unit bought ÷ 0.86 for 14% T&D losses)",
+          "value": "-₹5.58"
+        },
+        {
+          "item": "Transmission charges",
+          "value": "-₹0.55"
+        },
+        {
+          "item": "Network O&M, staff and overheads",
+          "value": "-₹0.70"
+        },
+        {
+          "item": "Depreciation and interest",
+          "value": "-₹0.45"
+        }
+      ],
+      "result": "Loss per kWh sold ≈ -₹0.46 before state subsidy"
+    },
+    "india": "State-owned discoms buy most power under 25-year PPAs and resell it at tariffs set by state regulators, with industry cross-subsidising farmers and households. Coal still supplies roughly 70-75% of generation, while solar and wind are added through central auctions at roughly ₹2.5-3.5/kWh. The weak link is discom finances, which RDSS (smart meters and loss reduction, extended to March 2028) and the late payment surcharge rules try to repair.",
+    "workedExample": {
+      "problem": "A state discom's power purchase cost rose by about ₹0.20 per unit bought in a year, although no PPA tariff was renegotiated, T&D losses were flat and exchange purchases were unchanged.",
+      "trace": [
+        "Retail supply (s5): billing rate and collection are flat, so the problem is on the cost side.",
+        "Distribution network (s4): T&D losses held at 14%, so units bought per unit sold did not change; the rise is in price per unit bought.",
+        "Transmission (s3): charges per unit are unchanged.",
+        "Generation and wholesale sale (s2): capacity charges are unchanged, but energy charges on coal PPAs, 70% of units bought, rose from ₹2.60 to ₹2.90 per unit, adding about ₹0.21 per unit bought. Energy charges pass through the generators' landed fuel cost.",
+        "Fuel supply (s1): rail freight per tonne rose and coal arrived below its billed grade (lower calorific value), so generators burnt more tonnes per unit at a higher landed price per tonne."
+      ],
+      "lesson": "Under pass-through PPAs a fuel supply shock lands on the discom's bill, so trace a rise in energy charges past the generator to the fuel stage."
+    }
+  },
+  "cases": [
+    {
+      "id": "energy-c01",
+      "title": "Coal plant profits slide",
+      "industry": "energy",
+      "framework": "profitability",
+      "secondary": [],
+      "difficulty": "Beginner",
+      "region": "India",
+      "prompt": "Our client owns a 1,320 MW coal-fired power plant in central India. It sells 85% of its capacity to a state discom under a 25-year PPA and the rest on power exchanges. EBITDA has fallen from ₹1,250 crore to ₹950 crore in two years. Why has profit fallen?",
+      "clarifyingFacts": [
+        "Q: Has the PPA tariff changed? A: No. It is a two-part tariff: capacity charges are paid in full if declared availability is at least 85%, and energy charges pass through fuel cost at the regulator's normative heat rate and approved coal cost.",
+        "Q: What has happened to output? A: PLF fell from 78% to 66% as the discom scheduled less power, and exchange prices for the merchant share fell by about ₹1.5 per unit.",
+        "Q: Has availability changed? A: Declared availability fell from 89% to 83% after a long boiler outage on one unit.",
+        "Q: Any change in coal? A: Linkage coal fell short, so the plant blended 20% imported coal; the regulator currently allows pass-through only up to the cost of linkage coal."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Why has plant EBITDA fallen from ₹1,250 crore to ₹950 crore?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Capacity charges from the PPA",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Annual fixed charge approved by the regulator"
+              },
+              {
+                "id": "a2",
+                "label": "Share recovered: declared availability vs 85% norm"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Fuel margin on PPA units",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Units scheduled by the discom"
+              },
+              {
+                "id": "b2",
+                "label": "Energy charge allowed per unit",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Normative heat rate"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Approved coal cost (linkage price)"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Actual fuel cost per unit",
+                "children": [
+                  {
+                    "id": "b3x",
+                    "label": "Actual heat rate at part load"
+                  },
+                  {
+                    "id": "b3y",
+                    "label": "Landed cost of linkage and imported blend"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Merchant margin on exchange sales",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Units sold on exchanges"
+              },
+              {
+                "id": "c2",
+                "label": "Realised price less fuel cost per unit"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Non-fuel operating costs",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Fixed O&M: staff and maintenance contracts"
+              },
+              {
+                "id": "d2",
+                "label": "Unplanned repairs after the boiler outage"
+              },
+              {
+                "id": "d3",
+                "label": "Water, ash disposal and limestone"
+              }
+            ]
+          },
+          {
+            "id": "e",
+            "label": "Other income",
+            "children": [
+              {
+                "id": "e1",
+                "label": "Fly-ash sales"
+              },
+              {
+                "id": "e2",
+                "label": "Late-payment surcharge and incentives"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Merchant margin fell by about ₹150 crore: roughly 1 BU of exchange sales at a realised price about ₹1.5 per unit lower.",
+        "The 20% imported blend costs more than the linkage-based energy charge allows, and part-load running at 66% PLF worsens the heat rate, so the fuel margin on PPA units has swung negative by ₹100-150 crore.",
+        "Availability below the 85% norm after the boiler outage has cut capacity charges pro rata by about ₹30-50 crore and added repair costs."
+      ],
+      "hints": [
+        "Price x volume will mislead you here: split EBITDA by the streams this plant is actually paid through, and net fuel against the stream whose income pays for it.",
+        "Five L1 branches: capacity charges, fuel margin on PPA units, merchant margin, non-fuel operating costs and other income.",
+        "Capacity charges = approved annual fixed charge x min(declared availability / 85%, 1). Scheduling does not enter, only availability: at 83% the plant loses about 2.4% of its fixed charge."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Fuel cost per kWh",
+          "formula": "station heat rate (kcal/kWh) / GCV of coal as fired (kcal/kg) x landed coal price per kg"
+        },
+        {
+          "name": "Capacity charge recovered",
+          "formula": "annual fixed charge x min(declared availability / 85%, 1)"
+        },
+        {
+          "name": "Merchant margin",
+          "formula": "units sold on exchanges x (realised price - variable cost per unit)"
+        }
+      ],
+      "commonMistakes": [
+        "Blaming the lower PLF directly: under a two-part tariff, lower scheduling cuts energy charges, but these pass through fuel cost, so on the contracted share it moves EBITDA only through the fuel margin.",
+        "Ignoring the gap between actual and normative fuel cost: the regulator pays norms, so any excess heat rate or unapproved coal cost hits EBITDA directly."
+      ],
+      "frameworkPick": {
+        "options": [
+          "profitability",
+          "operations",
+          "pricing",
+          "turnaround"
+        ],
+        "correct": [
+          "profitability"
+        ],
+        "why": "The question is why EBITDA fell, so we split profit into the revenue streams and costs of this plant and find which moved.",
+        "distractorWhyNot": {
+          "operations": "The boiler outage matters, but it is one input inside a profit diagnosis, not the whole question.",
+          "pricing": "The PPA tariff is set by formula and unchanged; the fall in exchange prices is a market outcome to diagnose, not a price to set.",
+          "turnaround": "EBITDA is down a quarter but the plant is profitable and not in distress; the task is to find what moved, not to rescue a business."
+        }
+      }
+    },
+    {
+      "id": "energy-c02",
+      "title": "Sizing India's home rooftop solar market",
+      "industry": "energy",
+      "framework": "market-sizing",
+      "secondary": [],
+      "difficulty": "Beginner",
+      "region": "India",
+      "prompt": "A domestic solar module maker wants to sell into residential rooftop systems. Since the PM Surya Ghar scheme launched in February 2024 with a central subsidy of up to ₹78,000 per home, household installations have picked up sharply. How big is the annual market for residential rooftop solar in India, in rupees, and how much of it can a module maker address?",
+      "clarifyingFacts": [
+        "Q: Gross value or net of subsidy? A: Gross value paid to installers, before any subsidy. Grid-connected homes only; no commercial or off-grid systems.",
+        "Q: Any household data? A: Assume about 30 crore households, of which roughly 40% live in an owned house with a usable roof.",
+        "Q: Typical system? A: The subsidy is ₹30,000 per kW for the first 2 kW and ₹18,000 for the third, nothing above 3 kW (a little more in special category states), so most homes install about 3 kW; assume 3.2 kW at about ₹55,000-60,000 per kW installed. Subsidised systems must use modules made in India with Indian cells.",
+        "Q: Anything to sanity-check against at the end? A: The scheme's portal showed about 24 lakh homes installed by December 2025 and about 51 lakh by early October 2026."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Annual gross value of home rooftop solar installed in India (₹ crore)",
+        "children": [
+          {
+            "id": "a",
+            "label": "Systems installed per year",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Homes that could install",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Households in owned houses with usable roofs"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Share with bills high enough to save from solar"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Share of those homes installing each year",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Subsidy and collateral-free loans under the scheme"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Discom approval and net-metering speed"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Average value per system",
+            "children": [
+              {
+                "id": "b1",
+                "label": "System size: bills, roof area, 3 kW subsidy cap"
+              },
+              {
+                "id": "b2",
+                "label": "Installed price per kW",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Solar modules (domestic content for subsidy)"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Inverter and balance of system"
+                  },
+                  {
+                    "id": "b2z",
+                    "label": "Installation, net-metering and installer margin"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "About 30 lakh systems a year: 12 crore homes with usable roofs x 50% with bills high enough to save x about 5% installing each year, close to the scheme's run-rate of roughly 32 lakh a year between December 2025 and October 2026.",
+        "The market is worth about ₹55,000 crore a year gross (30 lakh systems x 3.2 kW x ₹57,000 per kW).",
+        "Modules are about 40-45% of system value, so the addressable slice is about ₹22,000-25,000 crore, reserved for domestic modules while the subsidy lasts; the run-rate is subsidy-led and could drop once the current scheme period (targeting one crore homes by 2026-27) ends."
+      ],
+      "hints": [
+        "Build the estimate from the demand side: start with the homes that could buy a system and carry it through to rupees.",
+        "Two L1 branches: systems installed per year and average value per system.",
+        "Average value per system: system size (shaped by bills, roof area and the 3 kW subsidy cap) times installed price per kW, which splits into modules, inverter and balance of system, and installation with net-metering and installer margin."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Annual market value",
+          "formula": "homes with usable roofs x share with bills high enough x annual installation rate x kW per system x installed price per kW"
+        },
+        {
+          "name": "Household payback",
+          "formula": "(system cost - subsidy) / (annual units generated x tariff saved per unit)"
+        }
+      ],
+      "commonMistakes": [
+        "Applying an adoption rate to all 30 crore households without first removing renters, flats with shared roofs and homes whose bills are too small to save.",
+        "Sizing the market net of subsidy when installers, the client's buyers, are paid the gross price."
+      ],
+      "frameworkPick": {
+        "options": [
+          "market-sizing",
+          "market-entry",
+          "growth",
+          "segmentation"
+        ],
+        "correct": [
+          "market-sizing"
+        ],
+        "why": "The question asks for the annual market in rupees, so an estimate of systems installed times value per system is the right tool.",
+        "distractorWhyNot": {
+          "market-entry": "The client may later decide how to enter, but the question asks for a number first.",
+          "growth": "We are not asked how the client grows its own sales.",
+          "segmentation": "Splitting households is a step inside the estimate, but the question is total size, not which segment to target."
+        }
+      }
+    },
+    {
+      "id": "energy-c03",
+      "title": "Pricing highway EV fast charging",
+      "industry": "energy",
+      "framework": "pricing",
+      "secondary": [],
+      "difficulty": "Beginner",
+      "region": "India",
+      "prompt": "Our client is installing 120 DC fast chargers of 60 kW each along the Delhi-Jaipur and Mumbai-Pune highways. Electricity costs it about ₹6.5 per kWh plus demand charges, and rival networks charge ₹18-24 per kWh before GST. What price per kWh should it charge?",
+      "clarifyingFacts": [
+        "Q: Objective? A: Recover each site's investment within about five years while building a regular user base.",
+        "Q: Expected usage? A: About 150 kWh a day per charger in year 1 (roughly 10% utilisation), rising to 300 kWh by year 3.",
+        "Q: Other costs? A: Charger and site capex of ₹18 lakh per charger over 7 years; demand charges of about ₹375 a day per charger; site rent, maintenance and payment fees of about ₹2.5 per kWh.",
+        "Q: Who charges there? A: Mostly private car owners on intercity trips, plus some fleet and ride-hailing cabs."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "What price per kWh should the client charge at its highway chargers?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Cost floor: what each kWh costs to deliver",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Energy charge (₹6.5 per kWh)"
+              },
+              {
+                "id": "a2",
+                "label": "Demand charges spread over kWh sold"
+              },
+              {
+                "id": "a3",
+                "label": "Capex recovery per kWh (falls as utilisation rises)"
+              },
+              {
+                "id": "a4",
+                "label": "Site rent, maintenance and payment fees"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Customer value: what each user segment will pay",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Private cars on intercity trips: compare with petrol cost per km"
+              },
+              {
+                "id": "b2",
+                "label": "Fleet and ride-hailing cabs: compare with depot charging cost"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Competition: what rivals charge",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Rival prices on the same corridors"
+              },
+              {
+                "id": "c2",
+                "label": "Rival network density and charger reliability"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "At year-1 utilisation (150 kWh a day) the full cost is about ₹16 per kWh, so any price below that loses money until usage rises.",
+        "Private highway drivers are not very price-sensitive: even at ₹20 per kWh an EV costs about ₹2.9 per km against about ₹6.3 per km for a petrol car.",
+        "An off-peak fleet rate of about ₹14-15 per kWh would lift utilisation: it is below the year-1 full cost but well above the roughly ₹7-9 per kWh marginal cost (energy plus payment fees), so extra fleet kWh add contribution without discounting private users."
+      ],
+      "hints": [
+        "Triangulate the price from one internal reference point and two external ones, then decide where between them to sit.",
+        "Three L1 branches: the cost floor, customer value by segment, and competitor prices.",
+        "Competition: rival prices on the same corridors, plus how dense and reliable rival networks are, since a network drivers trust can charge more than one they do not."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Full cost per kWh",
+          "formula": "energy charge + daily demand charge / kWh per day + (capex / life) / annual kWh + site and payment costs per kWh"
+        },
+        {
+          "name": "Utilisation",
+          "formula": "kWh delivered per day / (charger kW x 24)"
+        },
+        {
+          "name": "Running cost per km",
+          "formula": "price per kWh / km per kWh (about 7 km per kWh for a typical car)"
+        }
+      ],
+      "commonMistakes": [
+        "Pricing off the ₹6.5 electricity cost alone; at low utilisation, demand charges and capex are more than half of the true cost.",
+        "Setting one price for everyone when private highway drivers and fleet cabs have very different willingness to pay."
+      ],
+      "frameworkPick": {
+        "options": [
+          "pricing",
+          "market-sizing",
+          "profitability",
+          "competitive-response"
+        ],
+        "correct": [
+          "pricing"
+        ],
+        "why": "The client must set a price per kWh, so cost floor, customer value and rival prices are the lenses that answer it.",
+        "distractorWhyNot": {
+          "market-sizing": "We are not asked how large the charging market is.",
+          "profitability": "There is no existing profit problem to diagnose; the network is not yet running.",
+          "competitive-response": "Rivals have not made a move that needs a reaction; their prices are only one input."
+        }
+      }
+    },
+    {
+      "id": "energy-c04",
+      "title": "Doubling a city gas distributor's volumes",
+      "industry": "energy",
+      "framework": "growth",
+      "secondary": [],
+      "difficulty": "Beginner",
+      "region": "India",
+      "prompt": "Our client holds the city gas distribution licence for three districts in Gujarat and sells 2.0 million standard cubic metres of gas a day (MMSCMD). The board wants to double volumes within five years. Where should the extra volume come from?",
+      "clarifyingFacts": [
+        "Q: Current mix? A: CNG for vehicles 55%, industrial piped gas 30%, domestic piped gas 10%, commercial piped gas (hotels, restaurants) 5%.",
+        "Q: Competition? A: The client has infrastructure exclusivity for its network in these districts under its PNGRB authorisation, but industrial users can choose propane, LPG or coal instead of gas.",
+        "Q: Pricing? A: Domestic piped gas gets priority allocation of cheaper domestic (APM) gas; CNG's APM allocation was cut in 2025 and topped up with costlier new-well gas and LNG; industrial and commercial users pay LNG-linked prices.",
+        "Q: Funding? A: About ₹1,500 crore of capex is available over five years."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Where can the client add 2.0 MMSCMD of daily sales in five years?",
+        "children": [
+          {
+            "id": "a",
+            "label": "CNG for vehicles",
+            "children": [
+              {
+                "id": "a1",
+                "label": "New CNG stations (stations x sales per station)"
+              },
+              {
+                "id": "a2",
+                "label": "Higher sales at existing stations"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Industrial piped gas",
+            "children": [
+              {
+                "id": "b1",
+                "label": "More gas used by existing industrial customers"
+              },
+              {
+                "id": "b2",
+                "label": "New industrial customers switching from propane, LPG or coal"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Domestic piped gas",
+            "children": [
+              {
+                "id": "c1",
+                "label": "More gas used per existing household"
+              },
+              {
+                "id": "c2",
+                "label": "New household connections"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Commercial piped gas",
+            "children": [
+              {
+                "id": "d1",
+                "label": "More gas used per existing hotel or restaurant"
+              },
+              {
+                "id": "d2",
+                "label": "New commercial connections"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Industrial gas is the biggest lever: converting a nearby ceramics cluster from propane could add about 0.5 MMSCMD with modest pipeline extensions.",
+        "CNG growth per new station will be below today's average as three-wheelers and cars shift to electric, and CNG margins are thinner since the 2025 cut in APM gas, so new stations need stricter site selection.",
+        "Domestic connections add little volume: 2 lakh new homes at about 0.4 standard cubic metres a day each is only 0.08 MMSCMD."
+      ],
+      "hints": [
+        "Split volume by customer segment, because each segment has different drivers and economics.",
+        "Four L1 branches: CNG, industrial piped gas, domestic piped gas and commercial piped gas.",
+        "Commercial piped gas: more gas used per existing hotel or restaurant, plus new commercial connections won from LPG cylinders."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Volume added by a segment",
+          "formula": "new customers x daily use per customer + existing customers x change in daily use"
+        },
+        {
+          "name": "Industrial switching saving",
+          "formula": "(alternative fuel cost - gas cost) per million kcal x annual heat demand - conversion capex"
+        }
+      ],
+      "commonMistakes": [
+        "Prioritising domestic connections because they are visible, when each household uses only about 0.4 standard cubic metres a day.",
+        "Forgetting that industrial demand depends on gas staying cheaper than propane and coal, so growth rests on the LNG price outlook."
+      ],
+      "frameworkPick": {
+        "options": [
+          "growth",
+          "market-entry",
+          "operations",
+          "pricing"
+        ],
+        "correct": [
+          "growth"
+        ],
+        "why": "The board wants to double volumes within an existing licence area, so we break growth into segment and customer levers.",
+        "distractorWhyNot": {
+          "market-entry": "The client already operates here under an exclusive licence; there is no new market to enter.",
+          "operations": "Running the network well does not on its own create new demand.",
+          "pricing": "Price matters for industrial switching, but it is one lever inside the growth plan."
+        }
+      }
+    },
+    {
+      "id": "energy-c05",
+      "title": "Cutting a state discom's AT&C losses",
+      "industry": "energy",
+      "framework": "operations",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "India",
+      "prompt": "A state-owned discom in north India buys 40 billion units a year and reports AT&C losses of 27%: billing efficiency is 80% and collection efficiency 91%. Its loss-reduction plan agreed under RDSS, whose grants part-fund smart meters and network works, requires 15% within three years. How should it get there?",
+      "clarifyingFacts": [
+        "Q: Average billing rate? A: About ₹6.6 per unit billed, so each point of AT&C loss is worth roughly ₹260 crore a year.",
+        "Q: Where is energy lost? A: Technical losses are estimated at 11% of input; the other 9 points of the billing gap are commercial (theft, faulty meters, unmetered supply, billing errors).",
+        "Q: How is farm supply billed? A: Farm pumps take about 20% of units billed; most are unmetered and billed on an assessed norm, and meters on segregated farm feeders suggest real use is about 15% below the assessed figure.",
+        "Q: Who does not pay? A: Government departments owe about a third of arrears; most of the rest is rural domestic and agricultural consumers."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "How can the discom cut AT&C losses from 27% to 15% in three years?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Raise billing efficiency (units billed / units input) above 80%",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Cut technical losses (11% of input)",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "33/11 kV feeders: reconductor overloaded lines"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Distribution transformers: add capacity to end overloading"
+                  },
+                  {
+                    "id": "a1z",
+                    "label": "Low-voltage lines: shorten them by moving to HVDS"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Cut commercial losses (9% of input)",
+                "children": [
+                  {
+                    "id": "a2w",
+                    "label": "Theft by hooking: aerial bunched cable and raids"
+                  },
+                  {
+                    "id": "a2x",
+                    "label": "Faulty or tampered meters: replace with smart meters"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Unmetered farm supply: meter feeders, correct assessed sales"
+                  },
+                  {
+                    "id": "a2z",
+                    "label": "Billing errors: missed readings, wrong category or multiplier"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Raise collection efficiency (amount collected / billed) above 91%",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Government department dues",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Prepaid meters on government connections"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Deduction at source through the state finance department"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Private consumer dues",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Rural domestic and farm: local collection points, digital payment"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Urban domestic and commercial: prepaid meters, disconnection discipline"
+                  },
+                  {
+                    "id": "b2z",
+                    "label": "Industrial: security deposits and prompt disconnection on default"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Assessed farm sales overstate use by about 0.8 billion units, so true billing efficiency is about 78% and true AT&C about 29%; measured losses will rise by about 2 points as farm feeders are metered, and the plan has to absorb that.",
+        "Collection is the fastest lever: prepaid meters on government connections and deduction at source could lift collection efficiency from 91% to about 97% within two years, since departments hold a third of arrears.",
+        "Even at 97% collection, billing efficiency must reach about 88%, some 10 points above the true 78%: roughly 7 from commercial losses on the worst 20% of feeders and 2-3 from reconductoring and transformer upgrades, with HVDS too slow to count within three years."
+      ],
+      "hints": [
+        "Let the definition of the metric give you the first split, then break each part down by where the leak happens.",
+        "Two L1 branches: billing efficiency and collection efficiency.",
+        "Private consumer dues: rural domestic and farm users (local collection points, digital payment), urban domestic and commercial users (prepaid meters, disconnection discipline) and industry (security deposits, prompt disconnection)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "AT&C loss",
+          "formula": "1 - billing efficiency x collection efficiency"
+        },
+        {
+          "name": "Billing efficiency",
+          "formula": "units billed / units input"
+        },
+        {
+          "name": "Value of one AT&C point",
+          "formula": "1% x units input x average billing rate (≈ ₹264 crore here)"
+        }
+      ],
+      "commonMistakes": [
+        "Jumping to smart meters everywhere and taking the reported 80% billing efficiency at face value: technical losses need network capex, and assessed farm sales hide part of the commercial loss.",
+        "Adding the gaps (20% + 9%) instead of multiplying efficiencies: AT&C is 1 - 0.80 x 0.91 = 27.2%."
+      ],
+      "frameworkPick": {
+        "options": [
+          "operations",
+          "profitability",
+          "turnaround",
+          "pricing"
+        ],
+        "correct": [
+          "operations"
+        ],
+        "why": "The target is an operating metric with a clear formula, so we break the billing and collection process into its leakages and fix each.",
+        "distractorWhyNot": {
+          "profitability": "Losses hurt profit, but the brief is to cut a specific operating loss, not to explain a profit fall.",
+          "turnaround": "The discom is not being restructured as a whole; this is a three-year operating target.",
+          "pricing": "Tariffs are set by the state regulator, and raising them would not reduce AT&C losses."
+        }
+      }
+    },
+    {
+      "id": "energy-c06",
+      "title": "Should a solar developer bid for transmission?",
+      "industry": "energy",
+      "framework": "market-entry",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "India",
+      "prompt": "Our client, an Indian renewable developer with 6 GW in operation, is considering bidding for inter-state transmission projects. These are awarded by tariff-based competitive bidding, the winner earns a fixed annual charge for 35 years as long as the lines stay available, and about ₹9 lakh crore of transmission investment is planned to 2032. Should the client enter, and if so how?",
+      "clarifyingFacts": [
+        "Q: Hurdle rate? A: 10% pre-tax project IRR.",
+        "Q: Economics of a typical project? A: A recent 765 kV line and substation package cost about ₹1,500 crore to build, with O&M of about 1% of capex a year; winning bids for similar packages imply an annual charge of about ₹160 crore.",
+        "Q: Why is the client interested? A: Management believes owning lines out of renewable zones would get its own solar parks connected first.",
+        "Q: Competitors? A: The central transmission utility, two or three large private transmission companies and infrastructure funds; the private winners build most towers and substations through in-house EPC arms."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Should the client enter inter-state transmission bidding, and how?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Is the market attractive?",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Pipeline open to bidding",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Inter-state lines in the national transmission plan"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Share bid out vs given to the central utility"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Quality of returns",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "35-year charge paid on availability, not usage"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Charges pooled and billed to all grid users"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Can the client win bids?",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Rivals' capex and cost of capital",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "In-house EPC for towers and substations"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Infrastructure funds' lower return targets"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Client's real advantages and gaps",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Edge: lender ties, knowledge of renewable zones"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Gap: right-of-way and substation execution"
+                  },
+                  {
+                    "id": "b2z",
+                    "label": "No priority grid access for its own parks"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Do the economics clear the 10% hurdle?",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Project IRR at winning charges",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Capex per package and overrun risk"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Annual charge bid (≈ ₹160 crore)"
+                  },
+                  {
+                    "id": "c1z",
+                    "label": "O&M and availability penalties"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Delay before revenue starts",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "Right-of-way and forest clearance"
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "Damages for missing the commissioning date"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "How should it enter?",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Entry mode",
+                "children": [
+                  {
+                    "id": "d1x",
+                    "label": "Bid in consortium with an EPC firm"
+                  },
+                  {
+                    "id": "d1y",
+                    "label": "Buy operating lines from an owner or trust"
+                  }
+                ]
+              },
+              {
+                "id": "d2",
+                "label": "Which packages to bid for first"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "At a ₹160 crore annual charge, a ₹1,500 crore package returns about 9.2% pre-tax, below the 10% hurdle; a one-year delay cuts that to about 8.4% and a 15% overrun to about 7.8%. The break-even charge is about ₹170 crore.",
+        "Winners can bid ₹160 crore because in-house EPC cuts capex by about 10%: at ₹1,350 crore the same charge returns about 10.4%, so without an EPC partner the client wins only by accepting sub-hurdle returns.",
+        "Management's main reason does not hold: connectivity is granted by the central transmission utility on a non-discriminatory basis, so owning a line gives the client's parks no priority, and entry must stand on returns alone."
+      ],
+      "hints": [
+        "Use the four questions any entry decision has to answer, from whether the prize is worth having to the route in.",
+        "Four L1 branches: market attractiveness, ability to win bids, economics against the hurdle, and entry route.",
+        "Market attractiveness: the pipeline open to bidding (the national plan, and the share bid out rather than nominated) and the quality of returns (35-year availability-based charges, pooled across all grid users)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Project IRR",
+          "formula": "IRR of (-capex, then 35 years of annual transmission charge - O&M)"
+        },
+        {
+          "name": "Break-even annual charge",
+          "formula": "capex x capital recovery factor (10%, 35 years) + annual O&M (≈ ₹170 crore here)"
+        }
+      ],
+      "commonMistakes": [
+        "Treating the ₹9 lakh crore pipeline as proof of attractiveness when bids are won on tariff alone and winning charges sit below the client's hurdle.",
+        "Counting priority grid access for the client's own parks as a synergy; access is non-discriminatory, so the real edges are lender relationships and site knowledge."
+      ],
+      "frameworkPick": {
+        "options": [
+          "market-entry",
+          "market-sizing",
+          "growth",
+          "ma"
+        ],
+        "correct": [
+          "market-entry"
+        ],
+        "why": "The client is deciding whether to enter a business it is not in today, so we test attractiveness, its ability to win, the economics against its hurdle and the route in.",
+        "distractorWhyNot": {
+          "market-sizing": "The pipeline is given; whether to enter depends on returns, rivals and the client's own edge.",
+          "growth": "Growth is the motive, but the question is whether this specific new business clears the hurdle and how to get in.",
+          "ma": "Buying operating lines is one entry route inside the answer, not the question asked."
+        }
+      }
+    },
+    {
+      "id": "energy-c07",
+      "title": "Buying a Spanish wind portfolio",
+      "industry": "energy",
+      "framework": "ma",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "Global",
+      "prompt": "A French utility is considering buying a 500 MW portfolio of onshore wind farms in Spain for €550 million. The farms are 12 years old on average; 60% of output is sold under fixed-price PPAs and the rest at merchant prices, which the seller's teaser values at Spain's average baseload price of about €62/MWh. Should it buy?",
+      "clarifyingFacts": [
+        "Q: Output? A: Average capacity factor of 26%, about 1,140 GWh a year.",
+        "Q: Prices? A: PPAs pay €58/MWh for another 8 years; the merchant price wind actually captures has averaged about €48/MWh because solar depresses daytime prices.",
+        "Q: Costs? A: Operating costs are about €20 million a year, so EBITDA is about €41 million.",
+        "Q: Client's goals? A: Grow its Iberian renewables to 2 GW and repower older sites; its cost of capital is 7% and remaining turbine life is about 18 years."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Should the client buy the 500 MW Spanish wind portfolio for €550 million?",
+        "children": [
+          {
+            "id": "a",
+            "label": "What is the portfolio worth on its own?",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Revenue",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Output: capacity, wind resource, availability"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "PPA price and remaining tenor (8 years)"
+                  },
+                  {
+                    "id": "a1z",
+                    "label": "Captured merchant price after solar cannibalisation"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Operating costs",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "O&M contracts and land leases"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Rising repair costs as turbines age"
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Remaining life and decommissioning cost"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "What extra value can this buyer create?",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Cost synergies",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Combined O&M and spare-parts contracts"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Shared asset management with existing Iberian sites"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Revenue synergies",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Selling output through its own corporate PPA book"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Lower balancing costs in a larger portfolio"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Repowering upside",
+                "children": [
+                  {
+                    "id": "b3x",
+                    "label": "Larger turbines on the same sites raise output"
+                  },
+                  {
+                    "id": "b3y",
+                    "label": "Existing grid connection and permits reused"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Is the price acceptable?",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Price vs value",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Standalone value at 7% (≈ €390 million)"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Synergies needed to bridge the gap (≈ €160 million)"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Financing and balance sheet impact"
+              },
+              {
+                "id": "c3",
+                "label": "Deal risks: permits, grid access, warranties"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Does it fit the strategy?",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Contribution to the 2 GW Iberian target"
+              },
+              {
+                "id": "d2",
+                "label": "Buying vs building new capacity"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Standalone value is about €390 million pre-tax: EBITDA of about €41 million for 8 years, about €35 million once the PPAs expire, over 18 years at 7%. The price needs about €160 million from synergies and repowering.",
+        "The teaser's €62 baseload price overstates merchant revenue: wind captures about €48, and merchant exposure rises from 40% to 100% when the PPAs end in 8 years.",
+        "Repowering 12-year-old sites with larger turbines could raise output by half or more on the same grid connections, which is the main source of value above standalone."
+      ],
+      "hints": [
+        "Use the standard acquisition logic, working from what the asset is worth to any owner towards what this deal is worth to this buyer.",
+        "Four L1 branches: standalone value, value only this buyer can add, price and deal terms, and strategic fit.",
+        "Strategic fit: how much of the 2 GW Iberian target the 500 MW delivers, and whether buying beats building new capacity at today's costs."
+      ],
+      "keyMetrics": [
+        {
+          "name": "EV/EBITDA paid",
+          "formula": "purchase price / annual EBITDA (€550m / €41m ≈ 13x)"
+        },
+        {
+          "name": "Annual revenue",
+          "formula": "MW x 8,760 x capacity factor x (PPA share x PPA price + merchant share x captured merchant price)"
+        },
+        {
+          "name": "Standalone value",
+          "formula": "yearly EBITDA less sustaining capex, with merchant prices replacing PPA prices after expiry, discounted at 7% over the remaining life"
+        }
+      ],
+      "commonMistakes": [
+        "Valuing all output at the PPA price for the whole life when the PPAs expire in 8 years.",
+        "Using the seller's €62 baseload price instead of the lower price (about €48) that wind output actually captures."
+      ],
+      "frameworkPick": {
+        "options": [
+          "ma",
+          "pe-dd",
+          "market-entry",
+          "growth"
+        ],
+        "correct": [
+          "ma"
+        ],
+        "why": "A strategic buyer is deciding whether to acquire a specific asset at a given price, so standalone value, synergies, price and fit are the core questions.",
+        "distractorWhyNot": {
+          "pe-dd": "The buyer is a utility with operating synergies, not a financial investor focused on exit returns.",
+          "market-entry": "The client already operates in Iberia; this is about one acquisition.",
+          "growth": "Growth is the motive, but the question is whether this deal at this price creates value."
+        }
+      }
+    },
+    {
+      "id": "energy-c08",
+      "title": "Responding to a rival's cheap fixed tariff",
+      "industry": "energy",
+      "framework": "competitive-response",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "Global",
+      "prompt": "A mid-sized UK energy supplier with 1.6 million household customers has seen monthly churn rise from 1.1% to 1.6% since a larger rival launched a 12-month fixed tariff priced £90 a year below the Ofgem price cap. How should our client respond?",
+      "clarifyingFacts": [
+        "Q: Margins? A: Average gross margin is about £110 per customer a year, and replacing a lost customer costs about £60 in acquisition costs.",
+        "Q: Who is leaving? A: Mainly direct-debit, dual-fuel customers on the standard variable tariff who use price comparison sites, about 400,000 of the base; prepayment customers are not leaving.",
+        "Q: Can the rival keep this up? A: It hedged early when wholesale prices were lower, and the tariff is on sale for three more months.",
+        "Q: Constraints? A: Under Ofgem's ban on acquisition-only tariffs (extended to March 2027), any new tariff must also be open to existing customers, and the board wants the response to pay back within the year."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "How should the client respond to the rival's £90-below-cap fixed tariff?",
+        "children": [
+          {
+            "id": "a",
+            "label": "How big and lasting is the threat?",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Who is leaving",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Direct-debit, dual-fuel comparison-site users"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Margin and lifetime value of leavers"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Can the rival sustain the price?",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Rival's hedge cost advantage"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Tariff on sale for three more months"
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Cost of doing nothing (≈ £4 million over the sale window)"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Price responses",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Match for all customers (≈ £144 million a year)"
+              },
+              {
+                "id": "b2",
+                "label": "Fixed tariff aimed at the at-risk segment",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Uptake beyond the 400,000 at risk, as existing customers can take it"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Hedge cost of backing a fixed price"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Non-price responses",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Outreach to at-risk customers before they switch"
+              },
+              {
+                "id": "c2",
+                "label": "Products that raise switching costs",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "EV and time-of-use tariffs"
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "Boiler cover and heat-pump installation"
+                  }
+                ]
+              },
+              {
+                "id": "c3",
+                "label": "Fix service pain points (billing errors, call waits)"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Matching for everyone costs about £144 million a year to protect at most £16 million (if churn stayed high for a full year), so it destroys value.",
+        "The offer closes in three months, so the realistic exposure is about 24,000 extra leavers, or about £4 million; a targeted £90 fixed tariff costs at least £36 million if the 400,000 at-risk customers take it, and more because loyal customers may also move to it, so non-price retention is likely best.",
+        "Churn should fall back once the rival's tariff closes, because its price rests on a one-off hedge advantage."
+      ],
+      "hints": [
+        "Size the threat first, then lay out the possible responses grouped by the type of lever.",
+        "Three L1 branches: size and durability of the threat, price responses, and non-price responses.",
+        "Non-price responses: contacting at-risk customers before they switch, products that raise switching costs (EV and time-of-use tariffs, boiler cover) and fixing service pain points."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Margin at risk",
+          "formula": "extra monthly churn x customers x months the threat lasts x (annual gross margin + replacement acquisition cost)"
+        },
+        {
+          "name": "Cost of a price match",
+          "formula": "customers on the matched tariff x £90"
+        }
+      ],
+      "commonMistakes": [
+        "Matching across the whole base without comparing its £144 million cost with the £4-16 million at risk.",
+        "Treating the rival's tariff as permanent when it rests on a one-off hedge and a time-limited sale window."
+      ],
+      "frameworkPick": {
+        "options": [
+          "competitive-response",
+          "pricing",
+          "profitability",
+          "segmentation"
+        ],
+        "correct": [
+          "competitive-response"
+        ],
+        "why": "A rival has made a specific move and the client must decide how to react, so we size the threat and compare price and non-price responses.",
+        "distractorWhyNot": {
+          "pricing": "Price is one response option, but the question is wider than setting a tariff.",
+          "profitability": "Profit has not yet fallen much; the issue is how to react to a competitor's move.",
+          "segmentation": "Identifying who is leaving is one step within the response, not the whole question."
+        }
+      }
+    },
+    {
+      "id": "energy-c09",
+      "title": "Launching e-rickshaw battery swapping",
+      "industry": "energy",
+      "framework": "product-launch",
+      "secondary": [],
+      "difficulty": "Intermediate",
+      "region": "India",
+      "prompt": "A large Indian fuel retailer with 8,000 outlets in north India wants to offer battery swapping for e-rickshaws at its stations. Drivers would pay about ₹130 per swap instead of owning a battery. Should it launch, and what would a sensible pilot look like?",
+      "clarifyingFacts": [
+        "Q: The customer? A: E-rickshaw drivers covering 100-120 km a day, needing about 1.5 swaps a day; most own lead-acid batteries that last 12-18 months and take 8 hours to charge.",
+        "Q: Costs? A: Per swap, electricity about ₹44 (5.5 kWh at ₹8) and battery depreciation about ₹35 (₹70,000 lithium pack over 2,000 cycles). Per station, staff and space about ₹3,000 a day plus about ₹15 lakh for swap cabinets and spare batteries.",
+        "Q: Where are the outlets? A: About 60% are on highways or in rural areas; e-rickshaws cluster in town centres and city outskirts.",
+        "Q: Competition? A: Several venture-funded swapping start-ups already run their own stations in Delhi NCR and Lucknow."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Should the fuel retailer launch e-rickshaw battery swapping, and how should it pilot?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Is there enough demand?",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Drivers willing to switch from owned batteries",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Daily cost: ₹195 swapping vs ≈ ₹165 owning lead-acid"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Value of no charging downtime and no upfront battery"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Swaps per station per day",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "E-rickshaw density near each outlet"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Share won against swapping start-ups"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Do the economics work?",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Contribution per swap (≈ ₹51)",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Swap price"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Electricity per swap"
+                  },
+                  {
+                    "id": "b1z",
+                    "label": "Battery depreciation per swap (cycle life)"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Station costs",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Cabinets and spare battery stock"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Staff and space (≈ ₹3,000 a day)"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Break-even swaps per station per day"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "How should it launch?",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Pilot footprint: cities and outlets"
+              },
+              {
+                "id": "c2",
+                "label": "Partners: battery makers, e-rickshaw makers, financiers"
+              },
+              {
+                "id": "c3",
+                "label": "Success metrics and triggers to scale"
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "Swapping costs a driver about ₹195 a day against about ₹165 to own a lead-acid battery, so adoption depends on uptime gains worth more than ₹30 a day.",
+        "At about ₹51 contribution per swap an outlet needs roughly 60 swaps a day to cover ₹3,000 of daily station costs, or about 75 once cabinet capex is spread over five years, so only the minority of outlets inside dense e-rickshaw clusters can work.",
+        "Battery life drives the economics: at 1,500 cycles instead of 2,000, depreciation rises from ₹35 to about ₹47 per swap."
+      ],
+      "hints": [
+        "Test the launch in the order the risks bite: first the customer, then the money, then the roll-out.",
+        "Three L1 branches: demand, economics and the launch plan.",
+        "Launch plan: pilot footprint (cities and outlets), partners (battery makers, e-rickshaw makers, financiers) and the success metrics that trigger scale-up."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Contribution per swap",
+          "formula": "swap price - kWh per swap x electricity tariff - battery cost / cycle life"
+        },
+        {
+          "name": "Break-even swaps per day",
+          "formula": "daily station cost / contribution per swap"
+        },
+        {
+          "name": "Driver's daily cost",
+          "formula": "swaps per day x swap price, compared with (battery cost / days of life + daily charging cost)"
+        }
+      ],
+      "commonMistakes": [
+        "Assuming drivers switch because swapping is cheaper; per day it costs more, so the case rests on uptime and avoiding an upfront battery purchase.",
+        "Ignoring battery stock: each station needs spare charged batteries, which ties up more capital than the cabinets."
+      ],
+      "frameworkPick": {
+        "options": [
+          "product-launch",
+          "pricing",
+          "market-sizing",
+          "operations"
+        ],
+        "correct": [
+          "product-launch"
+        ],
+        "why": "The client is deciding whether to launch a new service at its outlets and how to pilot it, so we test demand, unit economics and the launch plan.",
+        "distractorWhyNot": {
+          "pricing": "The ₹130 price is an input; the question is whether to launch at all.",
+          "market-sizing": "Demand near outlets matters, but we need a launch decision, not a market estimate.",
+          "operations": "Running stations efficiently comes after deciding to launch."
+        }
+      }
+    },
+    {
+      "id": "energy-c10",
+      "title": "Rescuing a stranded gas power plant",
+      "industry": "energy",
+      "framework": "turnaround",
+      "secondary": [
+        "profitability"
+      ],
+      "difficulty": "Advanced",
+      "region": "India",
+      "prompt": "Our client owns a 1,050 MW gas-fired plant in Andhra Pradesh that has run at under 10% load for five years because domestic gas dried up and imported LNG is expensive. It has ₹3,000 crore of debt, annual debt service of ₹360 crore and cash for only five more months. Lenders want to sell the plant; the promoter wants to keep it. What should the client do?",
+      "clarifyingFacts": [
+        "Q: What does it cost to run? A: Heat rate is about 1,800 kcal/kWh, so at $11/MMBtu delivered LNG the fuel cost is about ₹6.9/kWh, against summer evening exchange prices of ₹9-10/kWh.",
+        "Q: What does it earn today? A: Running about 600 full-load hours a year in summer peaks, it sells about 630 GWh at a net margin of about ₹1.3/kWh after charges, roughly ₹80 crore.",
+        "Q: Fixed costs? A: O&M about ₹90 crore a year; debt service ₹360 crore (₹270 crore interest, ₹90 crore principal). It has no long-term PPA.",
+        "Q: Other assets? A: The site has a 400 kV grid connection, spare land and water rights. The government has sometimes directed gas plants to run in peak months with costs passed through, but not every year."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "How can the client avoid default and restore the plant's value?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Stabilise cash over the next 12 months",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Cut cash outflows",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Move idle units to low-cost preservation mode"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Defer non-essential capex and spares"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Raise near-term cash inflows",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Sell in summer peaks when the spread is positive"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Seek government-directed peak running with cost pass-through"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Build a revenue model that covers fixed costs",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Contracts that pay for availability",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Peaking or flexibility PPA with a discom"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Payment needed: ≈ ₹3.6 lakh per MW per month"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Lower variable cost to run more hours",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Cheaper gas: term LNG or domestic allocation"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Heat-rate improvement on the turbines"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Repurpose the site",
+                "children": [
+                  {
+                    "id": "b3x",
+                    "label": "Battery storage using the 400 kV connection"
+                  },
+                  {
+                    "id": "b3y",
+                    "label": "Co-located solar for round-the-clock hybrid supply"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Fix the balance sheet",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Restructure debt to match realistic cash flows",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Interim standstill on repayments"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Longer tenor and lower rate"
+                  },
+                  {
+                    "id": "c1z",
+                    "label": "Convert part of the debt to equity"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Bring in new capital or a new owner",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "Sale to a buyer valuing the grid connection"
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "Fresh promoter equity"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "No realistic gas-only plan covers ₹450 crore of O&M and debt service: peak merchant sales earn only about ₹80 crore, so debt must be restructured whatever else happens.",
+        "The 400 kV connection and land are worth more than the turbines; a storage or hybrid project there would use scarce grid capacity, making a sale to a developer worth more than liquidation.",
+        "A peaking contract at about ₹3.6 lakh per MW per month would cover costs, but discoms meeting evening peaks have recently contracted 2-hour battery storage at roughly ₹1.5-2.5 lakh per MW per month, so it is unlikely to be won without much cheaper gas."
+      ],
+      "hints": [
+        "Sequence the plan by time horizon and by which part of the company each action repairs.",
+        "Three L1 branches: stabilise cash, rebuild the revenue model, and fix the balance sheet.",
+        "Stabilise cash: cut outflows (preservation mode for idle units, deferred capex and spares) and raise near-term inflows (summer peak sales, government-directed peak running)."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Debt service coverage ratio",
+          "formula": "EBITDA / (interest + principal due)"
+        },
+        {
+          "name": "Spark spread",
+          "formula": "realised power price - heat rate x gas price per kcal - variable O&M, per kWh"
+        },
+        {
+          "name": "Required availability payment",
+          "formula": "(fixed O&M + debt service) / (MW x 12), per MW per month"
+        }
+      ],
+      "commonMistakes": [
+        "Treating this as a cost-cutting profitability case, when the plant cannot cover debt service in any realistic operating plan; the balance sheet must be part of the answer.",
+        "Taking the promoter's or the lenders' side instead of finding the option, such as a sale with debt restructuring, that gives the most total value to both."
+      ],
+      "frameworkPick": {
+        "options": [
+          "turnaround",
+          "profitability",
+          "pe-dd",
+          "operations"
+        ],
+        "correct": [
+          "turnaround",
+          "profitability"
+        ],
+        "why": "With five months of cash and unpayable debt the client needs a turnaround plan (stabilise cash, fix the balance sheet), built on a profitability rethink of how the plant earns money.",
+        "distractorWhyNot": {
+          "pe-dd": "No investor is evaluating a purchase yet; the client must first set its own rescue plan.",
+          "operations": "Plant efficiency is a minor lever; the problem is fuel economics and debt, not how the plant is run."
+        }
+      }
+    },
+    {
+      "id": "energy-c11",
+      "title": "PE diligence on British battery storage",
+      "industry": "energy",
+      "framework": "pe-dd",
+      "secondary": [
+        "market-sizing"
+      ],
+      "difficulty": "Advanced",
+      "region": "Global",
+      "prompt": "A private equity infrastructure fund is bidding £180 million for a 300 MW portfolio of 2-hour battery sites in Great Britain, whose seller's model assumes revenues of £110,000 per MW a year. The fund's adviser's index (case data) shows GB batteries earning about £150,000-200,000 per MW a year at the 2022 peak, under £40,000 at the early-2024 low as frequency response markets filled up, and £55,000-90,000 in 2025-26 as the Balancing Mechanism used more batteries. Should the fund proceed, and at what price?",
+      "clarifyingFacts": [
+        "Q: Return target? A: 9% unlevered project IRR over a 15-year life.",
+        "Q: Costs? A: O&M, insurance, grid charges and optimiser fees total about £12,000 per MW a year.",
+        "Q: What does the portfolio earn today? A: About £70,000 per MW a year in total, of which about £10,000 is Capacity Market contracts secured for the next four years; the rest is wholesale trading, the Balancing Mechanism, and frequency response and reserve services.",
+        "Q: Outlook? A: GB battery capacity is expected to roughly triple by 2030, while more wind is expected to increase price volatility."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Should the fund buy the 300 MW GB battery portfolio, and at what price?",
+        "children": [
+          {
+            "id": "a",
+            "label": "What revenue will each MW really earn?",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Market-wide merchant revenue per MW",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Frequency response and reserves: small and saturated"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Wholesale arbitrage: depends on price spreads"
+                  },
+                  {
+                    "id": "a1z",
+                    "label": "Balancing Mechanism: how often batteries are dispatched"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Contracted revenue from the Capacity Market",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Years already contracted"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Price per kW, adjusted for 2-hour duration"
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "This portfolio's capture vs the market",
+                "children": [
+                  {
+                    "id": "a3x",
+                    "label": "Optimiser's trading performance"
+                  },
+                  {
+                    "id": "a3y",
+                    "label": "Site location and grid constraints"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "What will it cost to run and maintain?",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Operating costs (≈ £12,000 per MW a year)",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "O&M, insurance and optimiser fees"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Grid use-of-system charges"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Degradation and augmentation",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Cycling intensity under the trading strategy"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Warranty cover and cell supplier strength"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "What is it worth and how should the deal be set?",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Value under revenue scenarios",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "At today's £70,000 per MW: ≈ £140 million"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Revenue needed to justify £180 million: ≈ £86,000"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Structure to share revenue risk",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "Earn-out tied to realised revenue"
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "Revenue floor contract from the optimiser"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "At today's £70,000 per MW (about £58,000 after costs) the portfolio is worth about £140 million at 9% over 15 years, so £180 million needs about £86,000 per MW: 23% above today and well below the seller's £110,000.",
+        "The seller's £110,000 sits close to the 2022 levels that came from frequency response; future value depends on wholesale spreads and Balancing Mechanism dispatch, which grow with wind but will be shared with a fleet roughly three times larger.",
+        "An earn-out tied to realised revenue or an optimiser revenue floor could bridge the gap between about £140 million and the seller's price."
+      ],
+      "hints": [
+        "Diligence on an asset like this tests the seller's case line by line before turning it into a price.",
+        "Three L1 branches: revenue per MW, cost to run and maintain, and value with deal structure.",
+        "Costs: operating costs (O&M, insurance, optimiser fees, grid charges) plus degradation and augmentation, which depend on how hard the trading strategy cycles the batteries."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Project IRR",
+          "formula": "IRR of (-price per MW, then 15 years of revenue per MW - opex per MW)"
+        },
+        {
+          "name": "Break-even revenue per MW",
+          "formula": "price per MW x capital recovery factor (9%, 15 years) + opex per MW"
+        },
+        {
+          "name": "Capture rate",
+          "formula": "portfolio revenue per MW / market revenue index per MW"
+        }
+      ],
+      "commonMistakes": [
+        "Extrapolating 2022 revenues, which came from small frequency response markets that new batteries quickly filled.",
+        "Treating revenue as one forecast instead of testing scenarios and protecting the fund through price or deal structure."
+      ],
+      "frameworkPick": {
+        "options": [
+          "pe-dd",
+          "market-sizing",
+          "ma",
+          "market-entry"
+        ],
+        "correct": [
+          "pe-dd",
+          "market-sizing"
+        ],
+        "why": "A financial buyer is testing a seller's model before bidding, which is due diligence, and the crux is how big each revenue pool is against the battery capacity chasing it.",
+        "distractorWhyNot": {
+          "ma": "There are no operating synergies to value; the buyer is a fund pricing standalone cash flows and exit risk.",
+          "market-entry": "The fund is buying an existing asset, not building a business in a new market."
+        }
+      }
+    },
+    {
+      "id": "energy-c12",
+      "title": "Keeping industrial customers from leaving",
+      "industry": "energy",
+      "framework": "segmentation",
+      "secondary": [
+        "competitive-response"
+      ],
+      "difficulty": "Advanced",
+      "region": "India",
+      "prompt": "A state discom in western India earns 45% of its revenue from industrial customers, who pay about ₹8.5 per unit and cross-subsidise farmers and households. Since the Green Energy Open Access Rules cut the eligibility threshold to 100 kW, factories have started buying renewable power directly, and up to 3 billion units of demand could leave within three years. Which customers should the discom fight to keep, and how?",
+      "clarifyingFacts": [
+        "Q: What does open access cost a factory? A: In this state (case data; charges vary widely by state) about ₹6.9 per unit landed: ₹4.3 generation, ₹0.9 transmission and wheeling, ₹1.4 cross-subsidy and additional surcharges, ₹0.3 banking and other charges.",
+        "Q: What does the discom lose when a unit leaves? A: It saves only about ₹3.0 of variable power cost on average (about ₹2.5 in solar hours, when it often has surplus), because its PPA fixed charges are payable anyway. After collecting surcharges it loses about ₹4 per unit.",
+        "Q: Who is applying? A: Management assumed the 50 largest plants would leave first, but most applications come from 100 kW-1 MW units running daytime shifts; large plants mostly run round the clock, and solar open access covers only part of their load.",
+        "Q: Constraints? A: Tariff changes need regulator approval; the regulator will consider a time-of-day discount and a green tariff option. The state will not allow farm tariffs to rise."
+      ],
+      "modelTree": {
+        "id": "r",
+        "label": "Which industrial customers should the discom prioritise keeping, and with what offer?",
+        "children": [
+          {
+            "id": "a",
+            "label": "How much is each customer worth to the discom?",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Margin lost per unit that leaves",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Tariff minus avoidable power cost"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Less surcharges still collected after leaving"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Annual units at risk"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "How likely is each customer to leave?",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Savings available from open access",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Share of load solar can serve (daytime vs 24x7)"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Landed ₹6.9 vs ₹8.5 tariff"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Non-price reasons to leave",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Green targets set by export buyers or parent groups"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Poor supply reliability on their feeders"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Barriers to switching",
+                "children": [
+                  {
+                    "id": "b3x",
+                    "label": "Contracting and scheduling effort for small units"
+                  },
+                  {
+                    "id": "b3y",
+                    "label": "Limits on banking surplus solar"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "What offer fits each load segment?",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Daytime-shift units (highest risk)",
+                "children": [
+                  {
+                    "id": "c1x",
+                    "label": "Solar-hour tariff near ₹6.5, above ₹2.5 midday cost"
+                  },
+                  {
+                    "id": "c1y",
+                    "label": "Green tariff option with certificates for audits"
+                  }
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Round-the-clock plants (partial risk)",
+                "children": [
+                  {
+                    "id": "c2x",
+                    "label": "Keep night and peak load on standard tariff"
+                  },
+                  {
+                    "id": "c2y",
+                    "label": "Reliability commitments: dedicated feeders"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "hypotheses": [
+        "The real risk sits in newly eligible 100 kW-1 MW units with daytime loads, not the largest plants, whose round-the-clock load solar open access can only partly serve.",
+        "A solar-hour tariff of about ₹6.5 keeps about ₹4 of margin per unit against about ₹1.4 of surcharge if the customer leaves, so selective discounting beats losing the load.",
+        "Each unit that migrates costs about ₹4 of margin, so the 3 billion units at risk are worth about ₹1,200 crore a year."
+      ],
+      "hints": [
+        "Treat it as a portfolio decision: rank customers before choosing an offer for each group.",
+        "Three L1 branches: what each customer is worth to the discom, how likely it is to leave, and the offer for each load segment.",
+        "Value to the discom: margin lost per unit that leaves (tariff minus the power cost the discom actually avoids, less surcharges it still collects) times annual units at risk."
+      ],
+      "keyMetrics": [
+        {
+          "name": "Margin lost per unit migrating",
+          "formula": "tariff - avoidable power cost - surcharges still collected (8.5 - 3.0 - 1.4 ≈ ₹4.1)"
+        },
+        {
+          "name": "Customer's open-access saving",
+          "formula": "discom tariff - (generation + transmission and wheeling + surcharges + banking and other charges)"
+        },
+        {
+          "name": "Value of retaining a unit at a discount",
+          "formula": "(discounted tariff - avoidable cost) - surcharge that would have been collected"
+        }
+      ],
+      "commonMistakes": [
+        "Cutting tariffs for all industrial users, which gives away margin on round-the-clock load that solar open access cannot serve.",
+        "Valuing lost load at tariff minus average power cost; with fixed PPA charges the discom saves far less than its average cost when a unit leaves."
+      ],
+      "frameworkPick": {
+        "options": [
+          "segmentation",
+          "competitive-response",
+          "pricing",
+          "market-sizing"
+        ],
+        "correct": [
+          "segmentation",
+          "competitive-response"
+        ],
+        "why": "The discom must decide which customers to defend against open-access suppliers, so it needs to segment customers by value and risk of leaving, then tailor a response to each.",
+        "distractorWhyNot": {
+          "pricing": "Tariff changes are one lever, but they need regulator approval and only make sense once the segments are clear.",
+          "market-sizing": "The 3 billion units at risk are given; the question is whom to keep and how."
+        }
+      }
+    }
+  ],
+  "flaws": [
+    {
+      "id": "energy-f01",
+      "title": "Solar park revenue drop",
+      "industry": "energy",
+      "framework": "profitability",
+      "difficulty": "Beginner",
+      "tree": {
+        "id": "r",
+        "label": "Why has a 300 MW solar park's revenue fallen 12% this year?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Units sold",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Capacity in operation (MW)"
+              },
+              {
+                "id": "a2",
+                "label": "Output per MW (irradiation, soiling, degradation, outages)"
+              },
+              {
+                "id": "a3",
+                "label": "Units curtailed by the grid operator"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Revenue per unit",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Share and tariff of units sold under the PPA"
+              },
+              {
+                "id": "b2",
+                "label": "Share and price of units sold on the exchange"
+              },
+              {
+                "id": "b3",
+                "label": "Tariffs discovered in this year's solar auctions"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "b3",
+          "type": "not-a-driver",
+          "explanation": "The park's PPA tariff is fixed for 25 years and its merchant units earn the exchange price (b2). Tariffs in new auctions set what new parks will earn, not what this park is paid, so they cannot explain its revenue fall.",
+          "fix": "Remove it. Revenue = units sold x revenue per unit, and revenue per unit is the PPA tariff and the exchange price on this park's own units."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Why has a 300 MW solar park's revenue fallen 12% this year?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Units sold",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Capacity in operation (MW)"
+              },
+              {
+                "id": "a2",
+                "label": "Output per MW (irradiation, soiling, degradation, outages)"
+              },
+              {
+                "id": "a3",
+                "label": "Units curtailed by the grid operator"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Revenue per unit",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Share and tariff of units sold under the PPA"
+              },
+              {
+                "id": "b2",
+                "label": "Share and price of units sold on the exchange"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "energy-f02",
+      "title": "Growing a discom's unit sales",
+      "industry": "energy",
+      "framework": "growth",
+      "difficulty": "Beginner",
+      "tree": {
+        "id": "r",
+        "label": "Where can a state discom grow units sold by 8% a year?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Domestic consumers",
+            "children": [
+              {
+                "id": "a1",
+                "label": "New household connections"
+              },
+              {
+                "id": "a2",
+                "label": "Higher use per household (appliances, cooling)"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Commercial consumers",
+            "children": [
+              {
+                "id": "b1",
+                "label": "New shops, offices and malls"
+              },
+              {
+                "id": "b2",
+                "label": "Higher use per commercial connection"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Agricultural consumers",
+            "children": [
+              {
+                "id": "c1",
+                "label": "New pump connections"
+              },
+              {
+                "id": "c2",
+                "label": "More hours of supply per pump"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "r",
+          "type": "gap",
+          "explanation": "The consumer split leaves out industrial and other bulk users, which are often the largest category of units sold in an Indian state and the most profitable for the discom.",
+          "fix": "Add 'Industrial and bulk consumers' with children such as new and expanding factories, winning back captive or open-access load, and bulk users like railway traction and water works."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Where can a state discom grow units sold by 8% a year?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Domestic consumers",
+            "children": [
+              {
+                "id": "a1",
+                "label": "New household connections"
+              },
+              {
+                "id": "a2",
+                "label": "Higher use per household (appliances, cooling)"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Commercial consumers",
+            "children": [
+              {
+                "id": "b1",
+                "label": "New shops, offices and malls"
+              },
+              {
+                "id": "b2",
+                "label": "Higher use per commercial connection"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Agricultural consumers",
+            "children": [
+              {
+                "id": "c1",
+                "label": "New pump connections"
+              },
+              {
+                "id": "c2",
+                "label": "More hours of supply per pump"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Industrial and bulk consumers",
+            "children": [
+              {
+                "id": "d1",
+                "label": "New and expanding factories"
+              },
+              {
+                "id": "d2",
+                "label": "Winning back captive and open-access load"
+              },
+              {
+                "id": "d3",
+                "label": "Bulk users: railway traction, water works"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "energy-f03",
+      "title": "Coal plant availability falling",
+      "industry": "energy",
+      "framework": "operations",
+      "difficulty": "Intermediate",
+      "tree": {
+        "id": "r",
+        "label": "Why has a 2 x 660 MW coal plant's availability fallen from 90% to 78%?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Planned outages",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Overhauls: number and length of planned shutdowns"
+              },
+              {
+                "id": "a2",
+                "label": "Extra statutory boiler inspections"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Forced outages: equipment failures shutting a unit",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Boiler tube leaks"
+              },
+              {
+                "id": "b2",
+                "label": "Turbine and generator faults"
+              },
+              {
+                "id": "b3",
+                "label": "Balance-of-plant failures, e.g. feed pumps"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Partial deratings: equipment limiting load",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Coal mill out of service"
+              },
+              {
+                "id": "c2",
+                "label": "Fan or air-heater problems"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Fuel-related shortfalls",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Coal stocks too low to declare full capacity"
+              },
+              {
+                "id": "d2",
+                "label": "Wet or low-grade coal limiting output"
+              }
+            ]
+          },
+          {
+            "id": "e",
+            "label": "Auxiliary bottlenecks capping unit load",
+            "children": [
+              {
+                "id": "e1",
+                "label": "Pulverisers short of grinding capacity"
+              },
+              {
+                "id": "e2",
+                "label": "ID and FD fans at their limit"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "e",
+          "type": "overlap",
+          "explanation": "Pulverisers are the coal mills and ID and FD fans are the induced- and forced-draught fans, so this branch restates partial deratings (c1, c2) in different words. The same lost megawatt-hours would be counted twice.",
+          "fix": "Delete the branch; mill and fan limits already sit under partial deratings."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Why has a 2 x 660 MW coal plant's availability fallen from 90% to 78%?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Planned outages",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Overhauls: number and length of planned shutdowns"
+              },
+              {
+                "id": "a2",
+                "label": "Extra statutory boiler inspections"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Forced outages: equipment failures shutting a unit",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Boiler tube leaks"
+              },
+              {
+                "id": "b2",
+                "label": "Turbine and generator faults"
+              },
+              {
+                "id": "b3",
+                "label": "Balance-of-plant failures, e.g. feed pumps"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Partial deratings: equipment limiting load",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Coal mill out of service"
+              },
+              {
+                "id": "c2",
+                "label": "Fan or air-heater problems"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Fuel-related shortfalls",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Coal stocks too low to declare full capacity"
+              },
+              {
+                "id": "d2",
+                "label": "Wet or low-grade coal limiting output"
+              }
+            ]
+          }
+        ]
+      },
+      "decoys": [
+        {
+          "nodeId": "d1",
+          "whyFine": "Availability is what the plant declares it can deliver, and a plant short of coal must declare less, so fuel shortage genuinely lowers availability even though nothing is broken."
+        },
+        {
+          "nodeId": "a2",
+          "whyFine": "Statutory boiler inspections are scheduled shutdowns, so they belong under planned outages rather than forced ones."
+        }
+      ]
+    },
+    {
+      "id": "energy-f04",
+      "title": "Discom loss per unit widening",
+      "industry": "energy",
+      "framework": "profitability",
+      "difficulty": "Intermediate",
+      "tree": {
+        "id": "r",
+        "label": "Why has the discom's loss per unit sold widened by ₹0.30?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Revenue per unit sold",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Average billing rate",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Mix of tariff categories"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Tariff levels approved by the regulator"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Collection efficiency"
+              },
+              {
+                "id": "a3",
+                "label": "State subsidy received per unit"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Cost per unit sold",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Power purchase cost per unit bought",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Fixed capacity charges"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Variable energy charges"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Transmission charges"
+              },
+              {
+                "id": "b3",
+                "label": "Network O&M, staff and overheads"
+              },
+              {
+                "id": "b4",
+                "label": "Depreciation and interest"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Share of energy lost in the wires"
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "c",
+          "type": "mixed-levels",
+          "explanation": "Energy lost in the wires (T&D losses) is not a peer of revenue and cost. It acts inside cost per unit sold: the higher the losses, the more units must be bought for each unit sold. Placed at the top level, the tree mixes a sub-driver with the two main branches.",
+          "fix": "Move it under cost per unit sold: make power purchase cost per unit sold = cost per unit bought x units bought per unit sold (the T&D loss gross-up)."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Why has the discom's loss per unit sold widened by ₹0.30?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Revenue per unit sold",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Average billing rate",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Mix of tariff categories"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Tariff levels approved by the regulator"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Collection efficiency"
+              },
+              {
+                "id": "a3",
+                "label": "State subsidy received per unit"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Cost per unit sold",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Power purchase cost per unit sold",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Cost per unit bought (fixed and variable charges)"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Units bought per unit sold (T&D losses)"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Transmission charges"
+              },
+              {
+                "id": "b3",
+                "label": "Network O&M, staff and overheads"
+              },
+              {
+                "id": "b4",
+                "label": "Depreciation and interest"
+              }
+            ]
+          }
+        ]
+      },
+      "decoys": [
+        {
+          "nodeId": "a3",
+          "whyFine": "Tariff subsidy from the state is booked as discom revenue for the units it covers, so it is a real revenue driver even though the customer does not pay it."
+        },
+        {
+          "nodeId": "b4",
+          "whyFine": "The root is loss per unit sold, a bottom-line measure, so depreciation and interest belong in it even though they sit below EBITDA."
+        }
+      ]
+    },
+    {
+      "id": "energy-f05",
+      "title": "EV charging demand in Delhi",
+      "industry": "energy",
+      "framework": "market-sizing",
+      "difficulty": "Intermediate",
+      "tree": {
+        "id": "r",
+        "label": "How much electricity will Delhi's EVs draw for charging in a year (GWh)?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Electric two-wheelers",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Number of vehicles"
+              },
+              {
+                "id": "a2",
+                "label": "Kilometres per vehicle per year"
+              },
+              {
+                "id": "a3",
+                "label": "Grid kWh per km (incl. charging losses)"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Electric three-wheelers (e-rickshaws, e-autos)",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Number of vehicles"
+              },
+              {
+                "id": "b2",
+                "label": "Kilometres per vehicle per year"
+              },
+              {
+                "id": "b3",
+                "label": "Grid kWh per km (incl. charging losses)"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Electric cars and light goods vans",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Number of vehicles"
+              },
+              {
+                "id": "c2",
+                "label": "Kilometres per vehicle per year"
+              },
+              {
+                "id": "c3",
+                "label": "Grid kWh per km (incl. charging losses)"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Electric buses",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Number of vehicles"
+              },
+              {
+                "id": "d2",
+                "label": "Kilometres per vehicle per year"
+              },
+              {
+                "id": "d3",
+                "label": "Grid kWh per km (incl. charging losses)"
+              },
+              {
+                "id": "d4",
+                "label": "Battery size per bus (kWh)"
+              }
+            ]
+          },
+          {
+            "id": "e",
+            "label": "Delivery and ride-hailing fleets",
+            "children": [
+              {
+                "id": "e1",
+                "label": "Fleet vehicles"
+              },
+              {
+                "id": "e2",
+                "label": "Kilometres per vehicle per year"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "e",
+          "type": "overlap",
+          "explanation": "Fleets are cut by owner while the other branches are cut by vehicle type. Delivery scooters, fleet e-rickshaws and ride-hailing cars are already counted under two-wheelers, three-wheelers and cars, so their electricity would be counted twice.",
+          "fix": "Remove the fleet branch. If fleet usage differs, capture it inside each vehicle type through kilometres per vehicle."
+        },
+        {
+          "nodeId": "d4",
+          "type": "not-a-driver",
+          "explanation": "Annual energy drawn depends on how far buses run and how much energy they use per km. Battery size changes how often a bus charges, not how much it draws in a year, and any weight effect is already inside kWh per km.",
+          "fix": "Remove it; bus charging demand = number of buses x km per bus x grid kWh per km."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "How much electricity will Delhi's EVs draw for charging in a year (GWh)?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Electric two-wheelers",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Number of vehicles"
+              },
+              {
+                "id": "a2",
+                "label": "Kilometres per vehicle per year"
+              },
+              {
+                "id": "a3",
+                "label": "Grid kWh per km (incl. charging losses)"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Electric three-wheelers (e-rickshaws, e-autos)",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Number of vehicles"
+              },
+              {
+                "id": "b2",
+                "label": "Kilometres per vehicle per year"
+              },
+              {
+                "id": "b3",
+                "label": "Grid kWh per km (incl. charging losses)"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Electric cars and light goods vans",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Number of vehicles"
+              },
+              {
+                "id": "c2",
+                "label": "Kilometres per vehicle per year"
+              },
+              {
+                "id": "c3",
+                "label": "Grid kWh per km (incl. charging losses)"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "Electric buses",
+            "children": [
+              {
+                "id": "d1",
+                "label": "Number of vehicles"
+              },
+              {
+                "id": "d2",
+                "label": "Kilometres per vehicle per year"
+              },
+              {
+                "id": "d3",
+                "label": "Grid kWh per km (incl. charging losses)"
+              }
+            ]
+          }
+        ]
+      },
+      "decoys": [
+        {
+          "nodeId": "a3",
+          "whyFine": "The root is electricity drawn from the grid, so charging losses belong in energy per km; leaving them out would understate demand."
+        },
+        {
+          "nodeId": "c",
+          "whyFine": "Cars and light vans are both counted by vehicles x km x kWh per km inside the branch, so grouping two similar four-wheel types does not double count anything."
+        }
+      ]
+    },
+    {
+      "id": "energy-f06",
+      "title": "Australian retailer margin squeeze",
+      "industry": "energy",
+      "framework": "profitability",
+      "difficulty": "Advanced",
+      "tree": {
+        "id": "r",
+        "label": "Why has gross margin (before operating costs) per household fallen A$60?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Revenue per household",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Consumption per household",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Weather (heating and cooling demand)"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Rooftop solar self-consumption"
+                  },
+                  {
+                    "id": "a1z",
+                    "label": "Efficiency and appliance changes"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Usage price per unit",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Mix of customers on default vs market offers"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Net price of market offers after discounts"
+                  },
+                  {
+                    "id": "a2z",
+                    "label": "Loyalty credits for customers threatening to switch"
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Daily supply charge revenue"
+              },
+              {
+                "id": "a4",
+                "label": "Solar feed-in credits paid out",
+                "children": [
+                  {
+                    "id": "a4x",
+                    "label": "Exported units per solar household"
+                  },
+                  {
+                    "id": "a4y",
+                    "label": "Feed-in rate per unit"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Cost of supply per household",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Wholesale energy cost",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Spot price on unhedged volume"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Cost of hedge contracts"
+                  },
+                  {
+                    "id": "b1z",
+                    "label": "Household load shape vs hedge shape"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Network charges",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Distribution tariffs"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Transmission charges"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Green scheme costs",
+                "children": [
+                  {
+                    "id": "b3x",
+                    "label": "Large-scale renewable certificates"
+                  },
+                  {
+                    "id": "b3y",
+                    "label": "Small-scale certificates and state schemes"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Cost to serve per household",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Call centre"
+              },
+              {
+                "id": "c2",
+                "label": "Billing and IT systems"
+              }
+            ]
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "a2",
+          "type": "gap",
+          "explanation": "Average usage price = share on default offers x default price + share on market offers x market price. The tree has the mix and the market price but not the level of the regulated default offer itself (the AER's DMO and Victoria's VDO, reset each July), which moves the price for every customer still on it.",
+          "fix": "Add 'Regulated default offer price (reset each July)' under usage price per unit."
+        },
+        {
+          "nodeId": "a2z",
+          "type": "overlap",
+          "explanation": "Loyalty credits offered to customers threatening to switch are retention discounts on market offers, so they are already inside the net price of market offers after discounts (a2y). Listing them again counts the same discount twice.",
+          "fix": "Delete it; if retention offers matter, analyse them within a2y."
+        },
+        {
+          "nodeId": "c",
+          "type": "not-a-driver",
+          "explanation": "The root is gross margin before operating costs. Call-centre and IT costs sit below gross margin, so however much they changed, they cannot explain a fall in gross margin.",
+          "fix": "Remove the branch, or widen the root to EBITDA per household if operating costs are in scope."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Why has gross margin (before operating costs) per household fallen A$60?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Revenue per household",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Consumption per household",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Weather (heating and cooling demand)"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Rooftop solar self-consumption"
+                  },
+                  {
+                    "id": "a1z",
+                    "label": "Efficiency and appliance changes"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Usage price per unit",
+                "children": [
+                  {
+                    "id": "a2w",
+                    "label": "Regulated default offer price (reset each July)"
+                  },
+                  {
+                    "id": "a2x",
+                    "label": "Mix of customers on default vs market offers"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Net price of market offers after discounts"
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Daily supply charge revenue"
+              },
+              {
+                "id": "a4",
+                "label": "Solar feed-in credits paid out",
+                "children": [
+                  {
+                    "id": "a4x",
+                    "label": "Exported units per solar household"
+                  },
+                  {
+                    "id": "a4y",
+                    "label": "Feed-in rate per unit"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Cost of supply per household",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Wholesale energy cost",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Spot price on unhedged volume"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Cost of hedge contracts"
+                  },
+                  {
+                    "id": "b1z",
+                    "label": "Household load shape vs hedge shape"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Network charges",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Distribution tariffs"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Transmission charges"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Green scheme costs",
+                "children": [
+                  {
+                    "id": "b3x",
+                    "label": "Large-scale renewable certificates"
+                  },
+                  {
+                    "id": "b3y",
+                    "label": "Small-scale certificates and state schemes"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "decoys": [
+        {
+          "nodeId": "b3",
+          "whyFine": "Australian retailers must buy renewable certificates (LRET and SRES) and meet state schemes in proportion to their sales, so these are a genuine cost of supply alongside wholesale energy and network charges."
+        },
+        {
+          "nodeId": "a4",
+          "whyFine": "Credits for exported solar are netted off the household's bill, so they belong in revenue per household as a negative line."
+        }
+      ]
+    },
+    {
+      "id": "energy-f07",
+      "title": "Entering green hydrogen",
+      "industry": "energy",
+      "framework": "market-entry",
+      "difficulty": "Advanced",
+      "tree": {
+        "id": "r",
+        "label": "Should an Indian conglomerate enter green hydrogen production at scale?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Is there enough demand?",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Refineries",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Grey hydrogen used today"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Share that could switch by 2030"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Fertiliser plants",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Ammonia used for urea and complex fertilisers"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Share that could switch by 2030"
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Emerging uses: steel, shipping fuel, mobility"
+              },
+              {
+                "id": "a4",
+                "label": "Exports of green ammonia",
+                "children": [
+                  {
+                    "id": "a4x",
+                    "label": "Import demand in Japan, Korea and Europe"
+                  },
+                  {
+                    "id": "a4y",
+                    "label": "India's share vs Middle East and Australia"
+                  }
+                ]
+              },
+              {
+                "id": "a5",
+                "label": "Hydrogen feedstock for urea plants"
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Can it make money per kg?",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Levelised cost of hydrogen per kg",
+                "children": [
+                  {
+                    "id": "b1x",
+                    "label": "Renewable power cost per kWh"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Electrolyser capex spread over operating hours"
+                  },
+                  {
+                    "id": "b1z",
+                    "label": "Water, storage and O&M"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Achievable selling price per kg",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Grey hydrogen cost at current gas prices"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Green premium buyers will pay"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Can it beat rivals?",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Rival Indian developers bidding for the same buyers"
+              },
+              {
+                "id": "c2",
+                "label": "Client's edge: own renewables and industrial customers"
+              },
+              {
+                "id": "c3",
+                "label": "Gaps: electrolyser technology, ammonia handling"
+              }
+            ]
+          },
+          {
+            "id": "d",
+            "label": "SIGHT incentive per kg"
+          }
+        ]
+      },
+      "flaws": [
+        {
+          "nodeId": "a5",
+          "type": "overlap",
+          "explanation": "Urea is made from ammonia, and ammonia from hydrogen, so the hydrogen used by urea plants is the fertiliser demand already counted in a2. The node counts the same demand twice under a different name.",
+          "fix": "Delete the node; urea plants' hydrogen is covered by fertiliser plants."
+        },
+        {
+          "nodeId": "b1",
+          "type": "gap",
+          "explanation": "Power cost per kWh cannot become a cost per kg without electrolyser efficiency (roughly 50-55 kWh per kg). Efficiency is the single biggest multiplier on hydrogen cost, and the tree omits it.",
+          "fix": "Add 'Electrolyser efficiency (kWh per kg)' so power cost per kg = price per kWh x kWh per kg."
+        },
+        {
+          "nodeId": "d",
+          "type": "mixed-levels",
+          "explanation": "The SIGHT production incentive is one input to margin per kg, not a question on the same level as demand, economics and competition.",
+          "fix": "Move it under 'Can it make money per kg?' as government support per kg."
+        }
+      ],
+      "correctedTree": {
+        "id": "r",
+        "label": "Should an Indian conglomerate enter green hydrogen production at scale?",
+        "children": [
+          {
+            "id": "a",
+            "label": "Is there enough demand?",
+            "children": [
+              {
+                "id": "a1",
+                "label": "Refineries",
+                "children": [
+                  {
+                    "id": "a1x",
+                    "label": "Grey hydrogen used today"
+                  },
+                  {
+                    "id": "a1y",
+                    "label": "Share that could switch by 2030"
+                  }
+                ]
+              },
+              {
+                "id": "a2",
+                "label": "Fertiliser plants",
+                "children": [
+                  {
+                    "id": "a2x",
+                    "label": "Ammonia used for urea and complex fertilisers"
+                  },
+                  {
+                    "id": "a2y",
+                    "label": "Share that could switch by 2030"
+                  }
+                ]
+              },
+              {
+                "id": "a3",
+                "label": "Emerging uses: steel, shipping fuel, mobility"
+              },
+              {
+                "id": "a4",
+                "label": "Exports of green ammonia",
+                "children": [
+                  {
+                    "id": "a4x",
+                    "label": "Import demand in Japan, Korea and Europe"
+                  },
+                  {
+                    "id": "a4y",
+                    "label": "India's share vs Middle East and Australia"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "Can it make money per kg?",
+            "children": [
+              {
+                "id": "b1",
+                "label": "Levelised cost of hydrogen per kg",
+                "children": [
+                  {
+                    "id": "b1w",
+                    "label": "Electrolyser efficiency (kWh per kg)"
+                  },
+                  {
+                    "id": "b1x",
+                    "label": "Renewable power cost per kWh"
+                  },
+                  {
+                    "id": "b1y",
+                    "label": "Electrolyser capex spread over operating hours"
+                  },
+                  {
+                    "id": "b1z",
+                    "label": "Water, storage and O&M"
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "label": "Achievable selling price per kg",
+                "children": [
+                  {
+                    "id": "b2x",
+                    "label": "Grey hydrogen cost at current gas prices"
+                  },
+                  {
+                    "id": "b2y",
+                    "label": "Green premium buyers will pay"
+                  }
+                ]
+              },
+              {
+                "id": "b3",
+                "label": "Government support: SIGHT incentive per kg"
+              }
+            ]
+          },
+          {
+            "id": "c",
+            "label": "Can it beat rivals?",
+            "children": [
+              {
+                "id": "c1",
+                "label": "Rival Indian developers bidding for the same buyers"
+              },
+              {
+                "id": "c2",
+                "label": "Client's edge: own renewables and industrial customers"
+              },
+              {
+                "id": "c3",
+                "label": "Gaps: electrolyser technology, ammonia handling"
+              }
+            ]
+          }
+        ]
+      },
+      "decoys": [
+        {
+          "nodeId": "b2x",
+          "whyFine": "Grey hydrogen from natural gas is what buyers use today, so its cost sets the price green hydrogen can command without a premium or mandate; it belongs under selling price."
+        },
+        {
+          "nodeId": "a4y",
+          "whyFine": "Export demand India can win depends on how much competing exporting countries capture, so the share is part of sizing export demand; firm-level rivals are a separate question under c."
+        }
+      ]
+    }
+  ],
+  "quick": [
+    {
+      "id": "energy-q01",
+      "industry": "energy",
+      "difficulty": "Beginner",
+      "question": "Which split of 'Annual revenue of an Indian coal plant that sells all its output under a two-part PPA' is MECE?",
+      "parent": "Annual revenue of an Indian coal plant that sells all its output under a two-part PPA",
+      "options": [
+        {
+          "split": [
+            "Capacity charges",
+            "Energy charges",
+            "Fuel and freight cost recovery",
+            "Other income (ash sales, incentives)"
+          ],
+          "correct": false,
+          "why": "Overlap: the energy charge is the recovery of fuel cost (landed coal including freight, at the normative heat rate), so the same money appears twice."
+        },
+        {
+          "split": [
+            "Capacity charges",
+            "Energy charges",
+            "Return on equity allowed",
+            "Other income (ash sales, incentives)"
+          ],
+          "correct": false,
+          "why": "Mixed levels: return on equity is one component (with interest, depreciation and O&M) of the annual fixed charge recovered through capacity charges, so it sits inside the first branch."
+        },
+        {
+          "split": [
+            "Capacity charges",
+            "Energy charges",
+            "Other income"
+          ],
+          "correct": true,
+          "why": "Follows how the tariff pays: fixed charges for being available, variable charges for units scheduled, and a residual for incentives, ash sales and late-payment surcharge."
+        },
+        {
+          "split": [
+            "Charges for being available",
+            "Charges per unit scheduled",
+            "Late-payment surcharge received"
+          ],
+          "correct": false,
+          "why": "Gap: incentives (for example for availability above the norm) and fly-ash sales are left out, so the branches do not add up to total revenue."
+        }
+      ]
+    },
+    {
+      "id": "energy-q02",
+      "industry": "energy",
+      "difficulty": "Beginner",
+      "question": "Which split of 'Electricity generated by India's grid-connected plants in a year, by source' is MECE?",
+      "parent": "Electricity generated by India's grid-connected plants in a year, by source",
+      "options": [
+        {
+          "split": [
+            "Coal and lignite",
+            "Gas and oil",
+            "Nuclear",
+            "Hydro of all sizes",
+            "Solar, wind and bioenergy"
+          ],
+          "correct": true,
+          "why": "Every source appears once: keeping all hydro in one branch means small hydro can neither fall between nor sit in both hydro and renewables."
+        },
+        {
+          "split": [
+            "Thermal (coal, lignite, gas, oil)",
+            "Nuclear",
+            "Large hydro",
+            "Renewables (solar, wind, bioenergy)"
+          ],
+          "correct": false,
+          "why": "Gap: in India hydro plants under 25 MW are classed as small hydro, which 'large hydro' excludes and this renewables list does not include."
+        },
+        {
+          "split": [
+            "Coal and lignite",
+            "Gas and oil",
+            "Nuclear",
+            "Hydro",
+            "Renewables as officially classified"
+          ],
+          "correct": false,
+          "why": "Overlap: India's official renewables include small hydro (under 25 MW), which is also inside 'Hydro', so it is counted twice."
+        },
+        {
+          "split": [
+            "Fossil fuel plants",
+            "Non-fossil plants",
+            "Captive plants of industry"
+          ],
+          "correct": false,
+          "why": "Mixed basis: captive plants are an ownership category, and their output also burns fossil fuels or uses non-fossil sources, so it is counted twice."
+        }
+      ]
+    },
+    {
+      "id": "energy-q03",
+      "industry": "energy",
+      "difficulty": "Beginner",
+      "question": "Which split of 'Units a solar plant delivers to the grid in a year' is MECE?",
+      "parent": "Units a solar plant delivers to the grid in a year",
+      "options": [
+        {
+          "split": [
+            "Potential output of the panels at the site's sunshine",
+            "Soiling and heat losses",
+            "Inverter and cable losses",
+            "Units lost to grid constraints"
+          ],
+          "correct": false,
+          "why": "Gap: time when the plant is down (inverter trips, transformer faults, maintenance) is missing; it is neither soiling, heat nor electrical loss."
+        },
+        {
+          "split": [
+            "Potential output of the panels at the site's sunshine",
+            "Losses inside the plant",
+            "Units lost to grid constraints",
+            "Backing down ordered by load despatch"
+          ],
+          "correct": false,
+          "why": "Overlap: a backing-down instruction from the load despatch centre is curtailment, which is already inside grid constraints."
+        },
+        {
+          "split": [
+            "Potential output of the panels at the site's sunshine",
+            "Losses inside the plant",
+            "Days the central inverter was down",
+            "Units lost to grid constraints"
+          ],
+          "correct": false,
+          "why": "Mixed levels: inverter downtime is one of the losses inside the plant, so it sits a level too high and is counted twice."
+        },
+        {
+          "split": [
+            "Potential output of the panels at the site's sunshine",
+            "Losses inside the plant",
+            "Units lost to grid constraints"
+          ],
+          "correct": true,
+          "why": "Delivered units = potential output - losses inside the fence (soiling, heat, equipment, downtime) - units the grid could not take; exhaustive with no overlap."
+        }
+      ]
+    },
+    {
+      "id": "energy-q04",
+      "industry": "energy",
+      "difficulty": "Intermediate",
+      "question": "Which split of 'A discom's AT&C losses (value of energy input that is never paid for)' is MECE?",
+      "parent": "A discom's AT&C losses (value of energy input that is never paid for)",
+      "options": [
+        {
+          "split": [
+            "Technical losses",
+            "Theft and meter tampering",
+            "Billed amount not collected"
+          ],
+          "correct": false,
+          "why": "Gap: commercial losses also include billing errors, defective meters and unmetered supply billed below actual use, none of which is theft or tampering."
+        },
+        {
+          "split": [
+            "Technical losses",
+            "Commercial losses",
+            "Billed amount not collected"
+          ],
+          "correct": true,
+          "why": "Energy is lost in the wires, lost commercially between the wires and the bill, or billed and not paid; together these are the whole AT&C gap."
+        },
+        {
+          "split": [
+            "Technical losses",
+            "Commercial losses",
+            "Power stolen by hooking",
+            "Billed amount not collected"
+          ],
+          "correct": false,
+          "why": "Overlap: hooking onto lines is theft, which is a commercial loss, so it is counted twice."
+        },
+        {
+          "split": [
+            "Technical losses",
+            "Commercial losses",
+            "Collection shortfall",
+            "Losses on rural feeders"
+          ],
+          "correct": false,
+          "why": "Mixed basis: rural feeders are a location, and their losses are already technical or commercial losses, so they are counted twice."
+        }
+      ]
+    },
+    {
+      "id": "energy-q05",
+      "industry": "energy",
+      "difficulty": "Intermediate",
+      "question": "Which split of 'Levelised cost per MWh discharged from a battery storage project' is MECE?",
+      "parent": "Levelised cost per MWh discharged from a battery storage project",
+      "options": [
+        {
+          "split": [
+            "Capex recovery per MWh",
+            "Fixed O&M per MWh",
+            "Augmentation per MWh",
+            "Charging energy at the purchase price"
+          ],
+          "correct": false,
+          "why": "Gap: round-trip losses are missing. To discharge 1 MWh the battery must buy about 1.15 MWh, so pricing charging energy at the purchase price alone understates it."
+        },
+        {
+          "split": [
+            "Capex recovery per MWh discharged",
+            "Fixed O&M and augmentation per MWh",
+            "Charging energy per MWh discharged",
+            "Round-trip efficiency losses"
+          ],
+          "correct": false,
+          "why": "Overlap: charging energy per MWh discharged already includes the energy lost in the round trip (price ÷ efficiency), so the losses are counted twice."
+        },
+        {
+          "split": [
+            "Capex recovery per MWh discharged",
+            "Fixed O&M and augmentation per MWh",
+            "Charging energy per MWh discharged"
+          ],
+          "correct": true,
+          "why": "Covers capital with its cost of capital, running costs, and the energy bought to charge, with round-trip losses inside the charging term."
+        },
+        {
+          "split": [
+            "Battery cells per MWh",
+            "Power conversion and EPC per MWh",
+            "O&M and augmentation per MWh",
+            "Charging energy per MWh discharged"
+          ],
+          "correct": false,
+          "why": "Gap: spreading capex items over MWh recovers the spend but not the return on it; a levelised cost must include the cost of capital, which 'capex recovery' does."
+        }
+      ]
+    },
+    {
+      "id": "energy-q06",
+      "industry": "energy",
+      "difficulty": "Intermediate",
+      "question": "Which split of 'Change in a UK energy supplier's customer accounts over a year' is MECE?",
+      "parent": "Change in a UK energy supplier's customer accounts over a year",
+      "options": [
+        {
+          "split": [
+            "Accounts gained (switch-ins, move-ins, transfers from failed suppliers)",
+            "Accounts lost (switch-outs, move-outs, closures)",
+            "Accounts moved to a new tariff"
+          ],
+          "correct": false,
+          "why": "Not a driver: moving an existing customer to another tariff leaves the number of accounts unchanged."
+        },
+        {
+          "split": [
+            "Gross accounts gained",
+            "Gross accounts lost",
+            "Net switching to rivals"
+          ],
+          "correct": false,
+          "why": "Overlap: net switching is switch-ins minus switch-outs, which are already inside gross gains and gross losses."
+        },
+        {
+          "split": [
+            "Switch-ins from rivals",
+            "Move-ins and new connections",
+            "Switch-outs to rivals",
+            "Move-outs and closures"
+          ],
+          "correct": false,
+          "why": "Gap: accounts transferred in when a failed supplier's customers are reallocated (supplier of last resort) are missing; in 2021-22 this moved over two million UK accounts."
+        },
+        {
+          "split": [
+            "Accounts gained (switch-ins, move-ins, failed-supplier transfers)",
+            "Accounts lost (switch-outs, move-outs, closures)"
+          ],
+          "correct": true,
+          "why": "Every change in the count is a gain or a loss, and each branch lists every route in or out."
+        }
+      ]
+    },
+    {
+      "id": "energy-q07",
+      "industry": "energy",
+      "difficulty": "Advanced",
+      "question": "Which split of 'Change in a discom's power purchase cost per unit sold' is MECE?",
+      "parent": "Change in a discom's power purchase cost per unit sold",
+      "options": [
+        {
+          "split": [
+            "Cost per unit bought (price and source mix)",
+            "Units bought per unit sold (T&D losses)"
+          ],
+          "correct": true,
+          "why": "Cost per unit sold = cost per unit bought x units bought per unit sold; the two factors are exhaustive and do not overlap."
+        },
+        {
+          "split": [
+            "Cost per unit bought",
+            "Units bought per unit sold",
+            "Share of renewables in purchases"
+          ],
+          "correct": false,
+          "why": "Mixed levels: source mix is one driver of cost per unit bought, so it sits a level too high."
+        },
+        {
+          "split": [
+            "Cost per unit bought",
+            "Units bought per unit sold",
+            "Fixed PPA charges spread over fewer units sold"
+          ],
+          "correct": false,
+          "why": "Overlap: when sales fall, fixed charges per unit rise, but that already shows up inside cost per unit bought, so it is counted twice."
+        },
+        {
+          "split": [
+            "Cost per unit bought",
+            "Units bought per unit sold",
+            "Collection efficiency"
+          ],
+          "correct": false,
+          "why": "Not a driver: collection efficiency changes cash collected per unit billed, not what the discom pays for power per unit sold."
+        }
+      ]
+    },
+    {
+      "id": "energy-q08",
+      "industry": "energy",
+      "difficulty": "Advanced",
+      "question": "Which split of 'Fuel cost per kWh generated (gross) at a coal-fired plant' is MECE?",
+      "parent": "Fuel cost per kWh generated (gross) at a coal-fired plant",
+      "options": [
+        {
+          "split": [
+            "Station heat rate",
+            "Calorific value of coal as fired",
+            "Landed coal price per kg",
+            "Running at part load"
+          ],
+          "correct": false,
+          "why": "Mixed levels: part-load running matters only because it worsens the station heat rate, so it belongs under heat rate, not beside it."
+        },
+        {
+          "split": [
+            "Station heat rate (kcal/kWh)",
+            "Calorific value as fired (kcal/kg)",
+            "Landed price per kg"
+          ],
+          "correct": true,
+          "why": "Fuel cost per kWh = heat rate ÷ calorific value x price per kg: three factors, no overlap, nothing missing."
+        },
+        {
+          "split": [
+            "Station heat rate",
+            "Calorific value of coal as fired",
+            "Landed coal price per kg",
+            "Share of imported coal in the blend"
+          ],
+          "correct": false,
+          "why": "Overlap: the import share acts only through the blend's calorific value and landed price, both already listed, so it is counted twice."
+        },
+        {
+          "split": [
+            "Turbine heat rate (kcal/kWh)",
+            "Calorific value as fired (kcal/kg)",
+            "Landed coal price per kg"
+          ],
+          "correct": false,
+          "why": "Gap: turbine heat rate leaves out boiler efficiency; station heat rate = turbine heat rate ÷ boiler efficiency, so the boiler's losses are missing."
+        }
+      ]
+    }
+  ],
+  "chainDrills": [
+    {
+      "id": "energy-v01",
+      "industry": "energy",
+      "difficulty": "Beginner",
+      "type": "locate",
+      "prompt": "Power stations report coal stocks below 7 days because too few railway wagons are available to move coal from the mines. Which stage does the problem sit in?",
+      "options": [
+        "s1",
+        "s2",
+        "s3",
+        "s4"
+      ],
+      "answer": [
+        "s1"
+      ],
+      "why": "Moving coal from mine to plant is part of fuel supply. Generators feel the effect, but the bottleneck is before the plant gate."
+    },
+    {
+      "id": "energy-v02",
+      "industry": "energy",
+      "difficulty": "Beginner",
+      "type": "order",
+      "prompt": "Put the stages of the Indian power value chain in the order a unit of electricity passes through them, from fuel to the customer's bill.",
+      "options": [
+        "s3",
+        "s5",
+        "s1",
+        "s4",
+        "s2"
+      ],
+      "answer": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5"
+      ],
+      "why": "Fuel feeds the plants; plants generate and sell the output wholesale; high-voltage lines carry it to the discom's area; the discom's wires deliver it to the meter; retail supply bills and collects. Exchanges and traders sit inside the wholesale stage because they move ownership, not electrons, so every stage is a physical step and only one order is possible."
+    },
+    {
+      "id": "energy-v03",
+      "industry": "energy",
+      "difficulty": "Intermediate",
+      "type": "locate",
+      "prompt": "A discom's wheeling income rises while its average revenue per unit falls, with no tariff change, after several factories sign green open-access deals. In which stage does the lost margin sit?",
+      "options": [
+        "s2",
+        "s3",
+        "s4",
+        "s5"
+      ],
+      "answer": [
+        "s5"
+      ],
+      "why": "The factories still use the discom's wires and pay wheeling charges, so the network stage gains a little. What is lost is the retail supply tariff and the cross-subsidy built into it, which the surcharges only partly replace."
+    },
+    {
+      "id": "energy-v04",
+      "industry": "energy",
+      "difficulty": "Intermediate",
+      "type": "assign",
+      "prompt": "Assign each item to the stage where it arises.",
+      "items": [
+        {
+          "item": "Rail freight for coal from mine to plant",
+          "stage": "s1"
+        },
+        {
+          "item": "Deterioration in station heat rate",
+          "stage": "s2"
+        },
+        {
+          "item": "Transaction fee on the day-ahead market",
+          "stage": "s2"
+        },
+        {
+          "item": "Inter-state transmission charges on the discom's books",
+          "stage": "s3"
+        },
+        {
+          "item": "Wheeling charges paid by an open-access factory",
+          "stage": "s4"
+        },
+        {
+          "item": "Unpaid bills from government departments",
+          "stage": "s5"
+        }
+      ],
+      "why": "Four are tricky. The day-ahead fee belongs to wholesale sale (s2), the market where generators sell. Inter-state transmission charges appear on the discom's books but pay for the transmission stage. Wheeling charges come from a factory that has left retail supply, but they pay for the discom's wires (s4). Rail freight is paid by the generator, yet it is a fuel supply cost incurred before coal reaches the plant."
+    },
+    {
+      "id": "energy-v05",
+      "industry": "energy",
+      "difficulty": "Advanced",
+      "type": "locate",
+      "prompt": "Solar parks in Rajasthan are told to cut output on sunny afternoons even though exchange prices are positive, because the high-voltage lines out of the region are full. Where is the root cause?",
+      "options": [
+        "s2",
+        "s3",
+        "s4",
+        "s5"
+      ],
+      "answer": [
+        "s3"
+      ],
+      "why": "The plants can generate and buyers exist at positive prices, so neither generation nor the wholesale sale is the problem; the binding constraint is transmission capacity to move power out of the region. It shows up as lost generation, but it is a transmission problem."
+    },
+    {
+      "id": "energy-v06",
+      "industry": "energy",
+      "difficulty": "Advanced",
+      "type": "locate",
+      "prompt": "A solar generator with a 25-year PPA is paid eight months late. The discom's losses are normal, but its tariff is set below its cost of supply and the state subsidy arrives late. Where does the generator's cash problem originate?",
+      "options": [
+        "s2",
+        "s3",
+        "s4",
+        "s5"
+      ],
+      "answer": [
+        "s5"
+      ],
+      "why": "The generator has delivered and the network is performing normally; the shortfall comes from retail supply, where regulated tariffs below cost and late subsidy leave the discom with less cash than it owes upstream. The symptom sits in generation, the cause two stages downstream."
+    }
+  ]
+}
